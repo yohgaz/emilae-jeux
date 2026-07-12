@@ -62,6 +62,10 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-card-cover img{width:100%;height:100%;object-fit:cover}
 .jeu-card-overlay{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(8,9,14,0) 0%,rgba(8,9,14,.55) 40%,rgba(8,9,14,.88) 100%);-webkit-backdrop-filter:blur(14px) saturate(160%);backdrop-filter:blur(14px) saturate(160%);padding:22px 13px 12px}
 .jeu-card-label{font-size:13px;font-weight:800;line-height:1.35;color:var(--tx);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.jeu-card-badge-row{display:flex;align-items:stretch;gap:8px}
+.jeu-card-badges-col{display:flex;flex-direction:row;gap:4px;flex-shrink:0}
+.jeu-card-badges-col svg{height:100%;width:auto;display:block;filter:drop-shadow(0 2px 5px rgba(0,0,0,.6))}
+.jeu-card-text-col{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
 .jeu-card-note{font-size:10.5px;color:var(--mu);padding-top:2px;white-space:pre-line;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
 .plat-badges{position:absolute;top:9px;right:9px;display:flex;flex-direction:column;gap:5px;align-items:flex-end}
@@ -74,8 +78,6 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-progress-bar{flex:1;height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
 .jeu-progress-fill{height:100%;border-radius:4px;transition:width .3s}
 .jeu-progress-pct{font-family:monospace;font-size:10px;color:var(--mu);min-width:32px;text-align:right}
-.jeu-progress-badge{font-size:12px;flex-shrink:0;filter:drop-shadow(0 1px 2px rgba(0,0,0,.7));display:flex;align-items:center}
-.jeu-progress-badge img,.jeu-progress-badge svg{width:16px;height:16px;display:block;object-fit:contain}
 
 /* ── Popup détail ── */
 .s-modal{position:fixed;inset:0;background:rgba(4,5,10,.7);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
@@ -271,13 +273,13 @@ function calcPercentSteam(s) {
 }
 
 const STEAM_100_BADGE_SVG = '<svg viewBox="0 0 24 24"><path d="M12.0,0.5 L14.07,2.93 L16.99,1.64 L17.8,4.73 L20.99,4.83 L20.38,7.96 L23.21,9.44 L21.3,12.0 L23.21,14.56 L20.38,16.04 L20.99,19.17 L17.8,19.27 L16.99,22.36 L14.07,21.07 L12.0,23.5 L9.93,21.07 L7.01,22.36 L6.2,19.27 L3.01,19.17 L3.62,16.04 L0.79,14.56 L2.7,12.0 L0.79,9.44 L3.62,7.96 L3.01,4.83 L6.2,4.73 L7.01,1.64 L9.93,2.93 Z" fill="#3B82F6"/><circle cx="12" cy="12" r="7" fill="#FFC93D"/><path d="M8.5 12.2l2.3 2.3 4.7-4.9" stroke="#7A5300" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const PLATINUM_TROPHY_SVG = '<svg viewBox="0 0 24 24"><path d="M6 5C3 5 2 6.8 2 9c0 2.5 2 3.8 4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M18 5c3 0 4 1.8 4 4 0 2.5-2 3.8-4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M6 3h12v5.2c0 3.4-2.7 6.1-6 6.1S6 11.6 6 8.2V3z" fill="#E8EDF2"/><rect x="10.6" y="14" width="2.8" height="4" fill="#D7DEE6"/><rect x="7.3" y="18" width="9.4" height="1.8" rx="0.5" fill="#E8EDF2"/><rect x="5.8" y="19.9" width="12.4" height="1.7" rx="0.5" fill="#C4CDD6"/></svg>';
 
-function progressRowHtml(label, pct, color, complete, badgeHtml) {
+function progressRowHtml(label, pct, color) {
   return `<div class="jeu-progress-row">
     <span class="jeu-progress-plat" style="color:${color}">${label}</span>
     <div class="jeu-progress-bar"><div class="jeu-progress-fill" style="width:${pct}%;background:${color}"></div></div>
     <span class="jeu-progress-pct">${pct}%</span>
-    ${complete ? `<span class="jeu-progress-badge" title="100%">${badgeHtml}</span>` : ''}
   </div>`;
 }
 function progressBarsHtml(progression) {
@@ -285,19 +287,26 @@ function progressBarsHtml(progression) {
   let rows = '';
   if (progression.PlayStation) {
     const pct = calcPercentPS(progression.PlayStation);
-    if (pct !== null) {
-      const complete = pct === 100 || !!progression.PlayStation.platine;
-      const badge = progression.PlayStation.platinumIcon
-        ? `<img src="${esc(progression.PlayStation.platinumIcon)}" alt="Platine" onerror="this.outerHTML='🏆'">`
-        : '🏆';
-      rows += progressRowHtml('PS', pct, platColor('PlayStation'), complete, badge);
-    }
+    if (pct !== null) rows += progressRowHtml('PS', pct, platColor('PlayStation'));
   }
   if (progression.PC) {
     const pct = calcPercentSteam(progression.PC);
-    if (pct !== null) rows += progressRowHtml('PC', pct, platColor('PC'), pct === 100, STEAM_100_BADGE_SVG);
+    if (pct !== null) rows += progressRowHtml('PC', pct, platColor('PC'));
   }
   return rows ? `<div class="jeu-progress-wrap">${rows}</div>` : '';
+}
+function cardBadgesHtml(progression) {
+  if (!progression) return '';
+  let icons = '';
+  if (progression.PlayStation) {
+    const pct = calcPercentPS(progression.PlayStation);
+    if (pct === 100 || progression.PlayStation.platine) icons += PLATINUM_TROPHY_SVG;
+  }
+  if (progression.PC) {
+    const pct = calcPercentSteam(progression.PC);
+    if (pct === 100) icons += STEAM_100_BADGE_SVG;
+  }
+  return icons ? `<div class="jeu-card-badges-col">${icons}</div>` : '';
 }
 
 // ── Chargement des données ──
@@ -318,13 +327,17 @@ async function loadJeux() {
 
 function jeuCardHtml(j, statut) {
   const hue = jeuHue(j.nom);
+  const badges = cardBadgesHtml(j.progression);
+  const textCol = `<div class="jeu-card-text-col">
+      <div class="jeu-card-label">${esc(j.nom)}</div>
+      ${statut === 'enCours' && j.completion ? `<div class="jeu-card-note">${esc(j.completion)}</div>` : ''}
+      ${progressBarsHtml(j.progression)}
+    </div>`;
   return `<div class="jeu-card" onclick="openJeuDetailView('${j.id}','${statut}')">
     ${platBadgesHtml(j.plateformes)}
     <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))">${coverInnerHtml(j)}</div>
     <div class="jeu-card-overlay">
-      <div class="jeu-card-label">${esc(j.nom)}</div>
-      ${statut === 'enCours' && j.completion ? `<div class="jeu-card-note">${esc(j.completion)}</div>` : ''}
-      ${progressBarsHtml(j.progression)}
+      ${badges ? `<div class="jeu-card-badge-row">${badges}${textCol}</div>` : textCol}
     </div>
   </div>`;
 }
@@ -409,10 +422,7 @@ function openJeuDetailView(id, statut) {
     const pct = calcPercentPS(prog.PlayStation);
     if (pct !== null) {
       const complete = pct === 100 || !!prog.PlayStation.platine;
-      const badge = complete ? (prog.PlayStation.platinumIcon
-        ? `<img src="${esc(prog.PlayStation.platinumIcon)}" alt="Platine" onerror="this.outerHTML='🏆'">`
-        : '🏆') : '';
-      statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PlayStation')}">${pct}%</strong><span>PlayStation</span>${badge ? `<span class="jeu-detail-stat-badge">${badge}</span>` : ''}</div>`;
+      statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PlayStation')}">${pct}%</strong><span>PlayStation</span>${complete ? `<span class="jeu-detail-stat-badge">${PLATINUM_TROPHY_SVG}</span>` : ''}</div>`;
     }
   }
   if (prog.PC) {
