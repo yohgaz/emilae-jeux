@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jeux — emilae_tv</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0B0D14;--c1:#14161F;--c2:#191C27;--c3:#1F2230;--cy:#F0653D;--mt:#6FDA9A;--go:#E8B84D;--tx:#F4F2ED;--mu:#A6A29B;--br:rgba(255,255,255,.16);
+  --glass-fill:rgba(255,255,255,.06);
+  --glass-fill-strong:rgba(255,255,255,.10);
+  --glass-border:rgba(255,255,255,.14);
+  --glass-highlight:rgba(255,255,255,.3);
+  --blur:24px;
+  --radius-lg:26px;--radius-md:16px;--radius-sm:10px}
+body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--tx);min-height:100vh;padding:0;position:relative;overflow-x:hidden}
+
+/* ── Fond ambiant ── */
+body::before,body::after{content:'';position:fixed;border-radius:50%;filter:blur(120px);z-index:0;pointer-events:none}
+body::before{width:520px;height:520px;background:rgba(240,101,61,.10);top:-200px;left:-160px;animation:glass-drift1 34s ease-in-out infinite}
+body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220px;right:-180px;animation:glass-drift2 30s ease-in-out infinite}
+@keyframes glass-drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,50px)}}
+@keyframes glass-drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-30px,-40px)}}
+@media (prefers-reduced-motion:reduce){body::before,body::after{animation:none}}
+
+.page{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:32px 28px 60px}
+
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:26px}
+.site-title{font-size:24px;font-weight:900;display:flex;align-items:center;gap:10px}
+.site-title span.chan{font-size:13px;font-weight:800;color:var(--mu);background:var(--glass-fill-strong);padding:5px 12px;border-radius:999px;border:1px solid var(--glass-border)}
+.site-updated{font-size:11px;color:var(--mu)}
+
+.jeux-toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+#jeux-search{flex:0 1 280px;background:var(--c2);border:1px solid var(--glass-border);border-radius:10px;padding:11px 14px;color:var(--tx);font-family:inherit;font-size:13px;outline:none}
+#jeux-search:focus{border-color:var(--cy)}
+#jeux-search::placeholder{color:var(--mu)}
+
+.jeux-section{margin-bottom:28px}
+.jeux-section:last-child{margin-bottom:0}
+.jeux-section-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.jeux-section-title{font-weight:900;font-size:14px;color:var(--tx)}
+.jeux-section-badge{font-family:monospace;font-size:10px;font-weight:900;color:var(--mu);background:rgba(255,255,255,.05);padding:2px 8px;border-radius:20px}
+.jeux-section-sub{font-size:11px;color:var(--mu);margin:-6px 0 12px;line-height:1.5}
+.jeux-empty{color:var(--mu);font-size:12px;padding:22px 16px;text-align:center;border:1.5px dashed var(--glass-border);border-radius:var(--radius-md)}
+
+.jeux-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.jeu-card{position:relative;cursor:pointer;border-radius:var(--radius-sm);overflow:hidden;background:var(--glass-fill);border:1px solid var(--glass-border);transition:transform .15s,border-color .15s;aspect-ratio:2/3}
+.jeu-card:hover{transform:translateY(-3px);border-color:var(--cy)}
+.jeu-card-cover{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:54px;opacity:.85;overflow:hidden}
+.jeu-card-cover img{width:100%;height:100%;object-fit:cover}
+.jeu-card-overlay{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(8,9,14,0) 0%,rgba(8,9,14,.55) 40%,rgba(8,9,14,.88) 100%);-webkit-backdrop-filter:blur(14px) saturate(160%);backdrop-filter:blur(14px) saturate(160%);padding:22px 13px 12px}
+.jeu-card-label{font-size:13px;font-weight:800;line-height:1.35;color:var(--tx);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.jeu-card-note{font-size:10.5px;color:var(--mu);padding-top:2px;white-space:pre-line;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+.plat-badges{position:absolute;top:9px;right:9px;display:flex;flex-direction:column;gap:5px;align-items:flex-end}
+.plat-chip{display:flex;align-items:center;justify-content:center;width:27px;height:27px;padding:0;border-radius:8px;background:rgba(6,7,12,.72)!important;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 3px 10px rgba(0,0,0,.55)}
+.plat-chip svg{display:block;width:15px;height:15px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.4))}
+
+.jeu-progress-wrap{display:flex;flex-direction:column;gap:5px;margin-top:6px}
+.jeu-progress-row{display:flex;align-items:center;gap:7px}
+.jeu-progress-plat{font-family:monospace;font-size:9px;font-weight:900;min-width:24px}
+.jeu-progress-bar{flex:1;height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
+.jeu-progress-fill{height:100%;border-radius:4px;transition:width .3s}
+.jeu-progress-pct{font-family:monospace;font-size:10px;color:var(--mu);min-width:32px;text-align:right}
+.jeu-progress-badge{font-size:12px;flex-shrink:0;filter:drop-shadow(0 1px 2px rgba(0,0,0,.7));display:flex;align-items:center}
+.jeu-progress-badge img,.jeu-progress-badge svg{width:16px;height:16px;display:block;object-fit:contain}
+
+/* ── Popup détail ── */
+.s-modal{position:fixed;inset:0;background:rgba(4,5,10,.7);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+.s-modal.open{display:flex}
+.s-modal-box{background:var(--glass-fill-strong);border:1px solid var(--glass-border);border-radius:var(--radius-lg);box-shadow:inset 0 1px 0 var(--glass-highlight),0 24px 60px rgba(0,0,0,.55);max-height:88vh;overflow-y:auto;padding:22px}
+
+.jeu-detail-box{width:70vw;max-width:1180px;min-width:320px;max-height:84vh;padding:0;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.jeu-detail-close{position:absolute;top:14px;right:14px;z-index:3;width:34px;height:34px;border-radius:50%;background:rgba(4,6,15,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid var(--glass-border);color:var(--tx);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s}
+.jeu-detail-close:hover{background:rgba(4,6,15,.85)}
+.jeu-detail-banner{position:relative;height:260px;flex-shrink:0;background-size:cover;background-position:center 30%;background-color:var(--c2);-webkit-mask-image:linear-gradient(180deg,black 55%,transparent 100%);mask-image:linear-gradient(180deg,black 55%,transparent 100%)}
+.jeu-detail-cover-wrap{position:absolute;left:28px;bottom:-46px;z-index:2}
+.jeu-detail-cover{width:128px;height:192px;border-radius:12px;overflow:hidden;border:3px solid var(--bg);box-shadow:0 16px 34px rgba(0,0,0,.55);background:var(--glass-fill-strong);display:flex;align-items:center;justify-content:center;font-size:46px}
+.jeu-detail-cover img{width:100%;height:100%;object-fit:cover;display:block}
+.jeu-detail-logo-wrap{position:absolute;left:174px;right:60px;bottom:16px;z-index:2;display:flex;align-items:flex-end}
+.jeu-detail-logo-wrap img{max-height:76px;max-width:100%;object-fit:contain;object-position:left bottom;filter:drop-shadow(0 4px 16px rgba(0,0,0,.65))}
+.jeu-detail-title-fallback{font-family:'Nunito',sans-serif;font-weight:900;font-size:26px;color:var(--tx);text-shadow:0 3px 14px rgba(0,0,0,.75);line-height:1.15}
+.jeu-detail-info{padding:58px 28px 18px;flex-shrink:0}
+.jeu-detail-info-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.jeu-detail-status-badge{font-family:'Nunito',sans-serif;font-size:11.5px;font-weight:900;padding:5px 13px;border-radius:999px;background:var(--glass-fill-strong);border:1px solid var(--glass-border);color:var(--tx)}
+.jeu-detail-stats-row{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding-top:12px;margin-top:14px;border-top:1px solid var(--glass-border)}
+.jeu-detail-stats{display:flex;gap:26px}
+.jeu-detail-stat{display:flex;flex-direction:column;position:relative;padding-right:24px}
+.jeu-detail-stat strong{font-family:'Nunito',sans-serif;font-size:19px;font-weight:900}
+.jeu-detail-stat span{font-size:11px;color:var(--mu);margin-top:3px;text-transform:uppercase;letter-spacing:.04em}
+.jeu-detail-stat-badge{position:absolute;top:-3px;right:0}
+.jeu-detail-stat-badge img,.jeu-detail-stat-badge svg{width:22px;height:22px;display:block;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
+.jeu-detail-pitch{font-size:12.5px;color:var(--tx);line-height:1.6;opacity:.85;margin-top:14px}
+.jeu-detail-studios{display:flex;align-items:center;gap:10px;margin-left:auto;flex-wrap:wrap}
+.jeu-detail-studio-chip{background:rgba(255,255,255,.94);border-radius:8px;padding:6px 12px;display:flex;align-items:center;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.jeu-detail-studio-chip img{height:30px;max-width:130px;object-fit:contain;display:block}
+.jeu-detail-studio-name{font-size:12px;font-weight:700;color:var(--tx);background:var(--glass-fill-strong);padding:6px 12px;border-radius:8px}
+.jeu-detail-feed{flex:1;min-height:0;overflow-y:auto;border-top:1px solid var(--glass-border);padding:18px 28px 26px}
+.jeu-detail-empty{color:var(--mu);font-size:13px;padding:30px;text-align:center}
+.jeu-detail-section{margin-bottom:18px}
+.jeu-detail-section:last-child{margin-bottom:0}
+.jeu-detail-section-head{font-weight:900;font-size:13px;color:var(--cy);margin-bottom:10px}
+.jeu-detail-ach-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px}
+.jeu-detail-ach{display:flex;align-items:center;gap:11px;padding:8px 10px;border-radius:10px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:opacity .15s}
+.jeu-detail-ach.locked{opacity:.45}
+.jeu-detail-ach.earned{background:rgba(111,218,154,.07);border-color:rgba(111,218,154,.35)}
+.jeu-detail-ach-icon-wrap{position:relative;flex-shrink:0}
+.jeu-detail-ach img{width:42px;height:42px;border-radius:7px;display:block;object-fit:cover;background:rgba(255,255,255,.05)}
+.jeu-detail-ach-badge{position:absolute;bottom:-4px;right:-4px;width:17px;height:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid var(--bg)}
+.jeu-detail-ach-badge.earned{background:var(--mt);color:#0F2318}
+.jeu-detail-ach-badge.locked{background:rgba(0,0,0,.55);color:var(--mu)}
+.jeu-detail-ach-badge svg{width:9px;height:9px}
+.jeu-detail-ach-text{flex:1;min-width:0}
+.jeu-detail-ach-name{font-weight:800;font-size:12.5px;color:var(--tx)}
+.jeu-detail-ach-desc{font-size:11px;color:var(--mu);margin-top:2px;line-height:1.4}
+
+@media (max-width:900px){
+  .jeu-detail-box{width:94vw;min-width:0}
+  .jeu-detail-logo-wrap{left:150px;right:20px}
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="site-header">
+    <div class="site-title">🎮 Bibliothèque de jeux <span class="chan">emilae_tv</span></div>
+    <div class="site-updated" id="site-updated"></div>
+  </div>
+
+  <div class="jeux-toolbar">
+    <input type="text" id="jeux-search" placeholder="Rechercher un jeu..." oninput="renderJeux()">
+  </div>
+
+  <div id="jeux-content"></div>
+</div>
+
+<!-- Popup détail -->
+<div class="s-modal" id="modal-jeu-detail">
+  <div class="s-modal-box jeu-detail-box">
+    <button class="jeu-detail-close" onclick="closeJeuDetailModal()">✕</button>
+    <div class="jeu-detail-banner" id="jeu-detail-banner">
+      <div class="jeu-detail-cover-wrap"><div class="jeu-detail-cover" id="jeu-detail-cover"></div></div>
+      <div class="jeu-detail-logo-wrap" id="jeu-detail-logo-wrap"></div>
+    </div>
+    <div class="jeu-detail-info" id="jeu-detail-info"></div>
+    <div class="jeu-detail-feed" id="jeu-detail-body"></div>
+  </div>
+</div>
+
+<script>
+let _jeuxData = { termines: [], enCours: [] };
+
+function esc(s) { return (s || '').toString().replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+
+// ── Plateformes : icônes réelles Steam/PlayStation, pictogramme maison Nintendo ──
+const PLAT_COLOR = { 'playstation': '#0070D1', 'pc': '#6FDA9A', 'nintendo': '#E4000F', 'switch': '#E4000F' };
+function platColor(p) {
+  const k = (p || '').toLowerCase();
+  for (const key in PLAT_COLOR) if (k.includes(key)) return PLAT_COLOR[key];
+  return '#8892a6';
+}
+const PLAT_ICON_SVG = {
+  steam: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"/></svg>',
+  playstation: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.984 2.596v17.547l3.915 1.261V6.688c0-.69.304-1.151.794-.991.636.18.76.814.76 1.505v5.875c2.441 1.193 4.362-.002 4.362-3.152 0-3.237-1.126-4.675-4.438-5.827-1.307-.448-3.728-1.186-5.39-1.502zm4.656 16.241l6.296-2.275c.715-.258.826-.625.246-.818-.586-.192-1.637-.139-2.357.123l-4.205 1.5V14.98l.24-.085s1.201-.42 2.913-.615c1.696-.18 3.785.03 5.437.661 1.848.601 2.04 1.472 1.576 2.072-.465.6-1.622 1.036-1.622 1.036l-8.544 3.107V18.86zM1.807 18.6c-1.9-.545-2.214-1.668-1.352-2.32.801-.586 2.16-1.052 2.16-1.052l5.615-2.013v2.313L4.205 17c-.705.271-.825.632-.239.826.586.195 1.637.15 2.343-.12L8.247 17v2.074c-.12.03-.256.044-.39.073-1.939.331-3.996.196-6.038-.479z"/></svg>',
+  nintendo: '<svg viewBox="0 0 24 24"><rect x="2" y="2" width="8" height="20" rx="4" fill="#E6002A"/><circle cx="6" cy="7" r="1.3" fill="#fff" opacity=".9"/><rect x="14" y="2" width="8" height="20" rx="4" fill="#2E9CE0"/><circle cx="18" cy="17" r="1.6" fill="#fff" opacity=".9"/></svg>'
+};
+function platIconSvg(p) {
+  const k = (p || '').toLowerCase();
+  if (k.includes('playstation')) return PLAT_ICON_SVG.playstation;
+  if (k === 'pc') return PLAT_ICON_SVG.steam;
+  if (k.includes('nintendo') || k.includes('switch')) return PLAT_ICON_SVG.nintendo;
+  return '';
+}
+function platChipsRaw(plateformes) {
+  return (plateformes || []).map(p => {
+    const c = platColor(p);
+    return `<span class="plat-chip" style="background:${c}22;border-color:${c}66;color:${c}" title="${esc(p)}">${platIconSvg(p)}</span>`;
+  }).join('');
+}
+function platBadgesHtml(plateformes) { return `<div class="plat-badges">${platChipsRaw(plateformes)}</div>`; }
+function platBadgesInlineHtml(plateformes) { return `<div style="display:flex;gap:5px;flex-shrink:0">${platChipsRaw(plateformes)}</div>`; }
+
+function jeuHue(nom) {
+  let h = 0;
+  for (let i = 0; i < nom.length; i++) h = (h * 31 + nom.charCodeAt(i)) % 360;
+  return h;
+}
+
+// Jaquette : Steam si liée, sinon IGDB, sinon icône PSN, sinon emoji.
+function coverInnerHtml(j) {
+  const img = (j.steamAppId ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${j.steamAppId}/library_600x900.jpg` : null)
+    || j.igdbCover
+    || (j.progression && j.progression.PlayStation && j.progression.PlayStation.icon);
+  if (!img) return '🎮';
+  return `<img src="${esc(img)}" alt="" onerror="this.remove();this.parentElement.textContent='🎮'">`;
+}
+
+// ── Pourcentages : formule officielle PlayStation (bronze 15, argent 30, or 90 ;
+// le platine ne compte pas), Steam en simple ratio. ──
+const TROPHY_POINTS = { bronze: 15, argent: 30, or: 90 };
+function calcPercentPS(t) {
+  if (!t) return null;
+  let earned = 0, total = 0;
+  Object.keys(TROPHY_POINTS).forEach(k => {
+    const d = t[k] || {};
+    earned += (parseInt(d.earned) || 0) * TROPHY_POINTS[k];
+    total += (parseInt(d.total) || 0) * TROPHY_POINTS[k];
+  });
+  return total > 0 ? Math.round(earned / total * 100) : null;
+}
+function calcPercentSteam(s) {
+  if (!s || !(parseInt(s.total) > 0)) return null;
+  return Math.round((parseInt(s.earned) || 0) / parseInt(s.total) * 100);
+}
+
+const STEAM_100_BADGE_SVG = '<svg viewBox="0 0 24 24"><path d="M12.0,0.5 L14.07,2.93 L16.99,1.64 L17.8,4.73 L20.99,4.83 L20.38,7.96 L23.21,9.44 L21.3,12.0 L23.21,14.56 L20.38,16.04 L20.99,19.17 L17.8,19.27 L16.99,22.36 L14.07,21.07 L12.0,23.5 L9.93,21.07 L7.01,22.36 L6.2,19.27 L3.01,19.17 L3.62,16.04 L0.79,14.56 L2.7,12.0 L0.79,9.44 L3.62,7.96 L3.01,4.83 L6.2,4.73 L7.01,1.64 L9.93,2.93 Z" fill="#3B82F6"/><circle cx="12" cy="12" r="7" fill="#FFC93D"/><path d="M8.5 12.2l2.3 2.3 4.7-4.9" stroke="#7A5300" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+function progressRowHtml(label, pct, color, complete, badgeHtml) {
+  return `<div class="jeu-progress-row">
+    <span class="jeu-progress-plat" style="color:${color}">${label}</span>
+    <div class="jeu-progress-bar"><div class="jeu-progress-fill" style="width:${pct}%;background:${color}"></div></div>
+    <span class="jeu-progress-pct">${pct}%</span>
+    ${complete ? `<span class="jeu-progress-badge" title="100%">${badgeHtml}</span>` : ''}
+  </div>`;
+}
+function progressBarsHtml(progression) {
+  if (!progression) return '';
+  let rows = '';
+  if (progression.PlayStation) {
+    const pct = calcPercentPS(progression.PlayStation);
+    if (pct !== null) {
+      const complete = pct === 100 || !!progression.PlayStation.platine;
+      const badge = progression.PlayStation.platinumIcon
+        ? `<img src="${esc(progression.PlayStation.platinumIcon)}" alt="Platine" onerror="this.outerHTML='🏆'">`
+        : '🏆';
+      rows += progressRowHtml('PS', pct, platColor('PlayStation'), complete, badge);
+    }
+  }
+  if (progression.PC) {
+    const pct = calcPercentSteam(progression.PC);
+    if (pct !== null) rows += progressRowHtml('PC', pct, platColor('PC'), pct === 100, STEAM_100_BADGE_SVG);
+  }
+  return rows ? `<div class="jeu-progress-wrap">${rows}</div>` : '';
+}
+
+// ── Chargement des données ──
+async function loadJeux() {
+  try {
+    const r = await fetch('./jeux-public.json?t=' + Date.now()).then(r => r.json());
+    _jeuxData = { termines: r.termines || [], enCours: r.enCours || [] };
+    if (r.updatedAt) {
+      const d = new Date(r.updatedAt);
+      document.getElementById('site-updated').textContent = 'Mis à jour le ' + d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) + ' à ' + d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+    }
+  } catch (e) {
+    document.getElementById('jeux-content').innerHTML = `<div class="jeux-empty">Impossible de charger la liste des jeux pour l'instant. Réessaie un peu plus tard.</div>`;
+    return;
+  }
+  renderJeux();
+}
+
+function jeuCardHtml(j, statut) {
+  const hue = jeuHue(j.nom);
+  return `<div class="jeu-card" onclick="openJeuDetailView('${j.id}','${statut}')">
+    ${platBadgesHtml(j.plateformes)}
+    <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))">${coverInnerHtml(j)}</div>
+    <div class="jeu-card-overlay">
+      <div class="jeu-card-label">${esc(j.nom)}</div>
+      ${statut === 'enCours' && j.completion ? `<div class="jeu-card-note">${esc(j.completion)}</div>` : ''}
+      ${progressBarsHtml(j.progression)}
+    </div>
+  </div>`;
+}
+
+function renderJeux() {
+  const q = (document.getElementById('jeux-search')?.value || '').toLowerCase().trim();
+  const body = document.getElementById('jeux-content');
+  let html = '';
+
+  let enCours = _jeuxData.enCours;
+  if (q) enCours = enCours.filter(j => j.nom.toLowerCase().includes(q));
+  const aCompleter = enCours.filter(j => j.type === 'a_completer');
+  const normaux = enCours.filter(j => j.type !== 'a_completer');
+
+  html += `<div class="jeux-section">
+    <div class="jeux-section-head"><span class="jeux-section-title">✔ Histoire finie — à compléter</span><span class="jeux-section-badge">${aCompleter.length}</span></div>`;
+  html += aCompleter.length ? `<div class="jeux-grid">${aCompleter.map(j => jeuCardHtml(j, 'enCours')).join('')}</div>` : `<div class="jeux-empty">Rien ici.</div>`;
+  html += `</div>`;
+
+  html += `<div class="jeux-section">
+    <div class="jeux-section-head"><span class="jeux-section-title">🎯 En cours</span><span class="jeux-section-badge">${normaux.length}</span></div>`;
+  html += normaux.length ? `<div class="jeux-grid">${normaux.map(j => jeuCardHtml(j, 'enCours')).join('')}</div>` : `<div class="jeux-empty">Rien ici.</div>`;
+  html += `</div>`;
+
+  let termines = _jeuxData.termines;
+  if (q) termines = termines.filter(j => j.nom.toLowerCase().includes(q));
+  const annee = new Date().getFullYear();
+  const cetteAnnee = termines.filter(j => j.annee && Number(j.annee) === annee);
+  const archive = termines.filter(j => !j.annee || Number(j.annee) !== annee).slice().sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+
+  html += `<div class="jeux-section">
+    <div class="jeux-section-head"><span class="jeux-section-title">🗓 Terminés en ${annee}</span><span class="jeux-section-badge">${cetteAnnee.length}</span></div>`;
+  html += cetteAnnee.length ? `<div class="jeux-grid">${cetteAnnee.map(j => jeuCardHtml(j, 'termines')).join('')}</div>` : `<div class="jeux-empty">Rien de terminé en ${annee} pour l'instant.</div>`;
+  html += `</div>`;
+
+  html += `<div class="jeux-section">
+    <div class="jeux-section-head"><span class="jeux-section-title">📚 Bibliothèque</span><span class="jeux-section-badge">${archive.length}</span></div>`;
+  html += archive.length ? `<div class="jeux-grid">${archive.map(j => jeuCardHtml(j, 'termines')).join('')}</div>` : `<div class="jeux-empty">Aucun résultat.</div>`;
+  html += `</div>`;
+
+  body.innerHTML = html;
+}
+
+// ── Popup détail — tout est déjà dans le JSON chargé, aucun appel réseau. ──
+function jeuDetailLogoFallback(el, nom) {
+  el.parentElement.innerHTML = `<div class="jeu-detail-title-fallback"></div>`;
+  el.parentElement.firstChild.textContent = nom;
+}
+function jeuDetailStudioLogoFallback(el, nom) {
+  const span = document.createElement('span');
+  span.className = 'jeu-detail-studio-name';
+  span.textContent = nom;
+  el.replaceWith(span);
+}
+
+function openJeuDetailView(id, statut) {
+  const jeu = (_jeuxData[statut] || []).find(j => j.id === id);
+  if (!jeu) return;
+
+  const prog = jeu.progression || {};
+  const hue = jeuHue(jeu.nom);
+  const steamAppId = jeu.steamAppId;
+
+  const banner = document.getElementById('jeu-detail-banner');
+  banner.style.backgroundColor = `hsl(${hue} 40% 14%)`;
+  banner.style.backgroundImage = steamAppId
+    ? `url('https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/library_hero.jpg')`
+    : (jeu.artwork ? `url('${jeu.artwork}')` : 'none');
+
+  const coverBox = document.getElementById('jeu-detail-cover');
+  coverBox.style.background = `linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))`;
+  coverBox.innerHTML = coverInnerHtml(jeu);
+
+  const logoWrap = document.getElementById('jeu-detail-logo-wrap');
+  if (steamAppId) {
+    logoWrap.innerHTML = `<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/logo.png" alt="${esc(jeu.nom)}" onerror="jeuDetailLogoFallback(this, ${esc(JSON.stringify(jeu.nom))})">`;
+  } else {
+    logoWrap.innerHTML = `<div class="jeu-detail-title-fallback">${esc(jeu.nom)}</div>`;
+  }
+
+  const statusLabel = statut === 'termines'
+    ? (jeu.annee ? `🗓 Terminé en ${jeu.annee}` : '🏆 Terminé')
+    : (jeu.type === 'a_completer' ? '✔ Histoire finie — à compléter' : '🎯 En cours');
+
+  let statsHtml = '';
+  if (prog.PlayStation) {
+    const pct = calcPercentPS(prog.PlayStation);
+    if (pct !== null) {
+      const complete = pct === 100 || !!prog.PlayStation.platine;
+      const badge = complete ? (prog.PlayStation.platinumIcon
+        ? `<img src="${esc(prog.PlayStation.platinumIcon)}" alt="Platine" onerror="this.outerHTML='🏆'">`
+        : '🏆') : '';
+      statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PlayStation')}">${pct}%</strong><span>PlayStation</span>${badge ? `<span class="jeu-detail-stat-badge">${badge}</span>` : ''}</div>`;
+    }
+  }
+  if (prog.PC) {
+    const pct = calcPercentSteam(prog.PC);
+    if (pct !== null) statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PC')}">${pct}%</strong><span>Steam</span>${pct === 100 ? `<span class="jeu-detail-stat-badge">${STEAM_100_BADGE_SVG}</span>` : ''}</div>`;
+  }
+
+  const seen = new Set();
+  const studios = (jeu.studios || []).filter(c => { if (seen.has(c.name)) return false; seen.add(c.name); return true; });
+  const studiosHtml = studios.map(c => c.logo
+    ? `<div class="jeu-detail-studio-chip"><img src="${esc(c.logo)}" alt="${esc(c.name)}" title="${esc(c.name)}" onerror="jeuDetailStudioLogoFallback(this, ${esc(JSON.stringify(c.name))})"></div>`
+    : `<span class="jeu-detail-studio-name">${esc(c.name)}</span>`
+  ).join('');
+
+  document.getElementById('jeu-detail-info').innerHTML = `
+    <div class="jeu-detail-info-row">
+      <span class="jeu-detail-status-badge">${statusLabel}</span>
+      ${platBadgesInlineHtml(jeu.plateformes)}
+    </div>
+    <div class="jeu-detail-stats-row">
+      ${statsHtml ? `<div class="jeu-detail-stats">${statsHtml}</div>` : '<div></div>'}
+      <div class="jeu-detail-studios">${studiosHtml}</div>
+    </div>
+    ${jeu.pitch ? `<div class="jeu-detail-pitch">${esc(jeu.pitch)}</div>` : ''}
+  `;
+
+  document.getElementById('modal-jeu-detail').classList.add('open');
+
+  const body = document.getElementById('jeu-detail-body');
+  const ach = jeu.achievements || {};
+  let bodyHtml = '';
+  if (ach.steam && ach.steam.length) {
+    bodyHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎯 Succès Steam</div>${achievementGridHtml(ach.steam, 'steam')}</div>`;
+  }
+  if (ach.psn && ach.psn.length) {
+    bodyHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🏆 Trophées PlayStation</div>${achievementGridHtml(ach.psn, 'psn')}</div>`;
+  }
+  body.innerHTML = bodyHtml || `<div class="jeu-detail-empty">Pas de détail de succès disponible pour ce jeu.</div>`;
+}
+
+function closeJeuDetailModal() { document.getElementById('modal-jeu-detail').classList.remove('open'); }
+
+function achievementGridHtml(list, kind) {
+  if (!list || !list.length) return `<div class="jeux-empty">Aucune donnée disponible.</div>`;
+  const CHECK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+  const LOCK_SVG = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5zm-3 8V6a3 3 0 0 1 6 0v3z"/></svg>';
+  const sorted = list.slice().sort((a, b) => (b.earned ? 1 : 0) - (a.earned ? 1 : 0));
+  return `<div class="jeu-detail-ach-grid">${sorted.map(a => {
+    const icon = kind === 'steam' ? (a.earned ? a.iconEarned : a.iconLocked) : a.icon;
+    const secret = kind === 'psn' && a.hidden && !a.earned;
+    const name = secret ? 'Trophée secret' : (a.name || '');
+    const desc = secret ? "Débloque-le pour découvrir de quoi il s'agit." : (a.description || '');
+    return `<div class="jeu-detail-ach ${a.earned ? 'earned' : 'locked'}">
+      <div class="jeu-detail-ach-icon-wrap">
+        <img src="${esc(icon || '')}" alt="" onerror="this.style.visibility='hidden'">
+        <span class="jeu-detail-ach-badge ${a.earned ? 'earned' : 'locked'}" title="${a.earned ? 'Obtenu' : 'Verrouillé'}">${a.earned ? CHECK_SVG : LOCK_SVG}</span>
+      </div>
+      <div class="jeu-detail-ach-text">
+        <div class="jeu-detail-ach-name">${esc(name)}${kind === 'psn' && a.type ? ` <span style="color:var(--mu)">· ${esc(a.type)}</span>` : ''}</div>
+        <div class="jeu-detail-ach-desc">${esc(desc)}</div>
+      </div>
+    </div>`;
+  }).join('')}</div>`;
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.s-modal.open').forEach(m => m.classList.remove('open')); });
+
+loadJeux();
+</script>
+</body>
+</html>
