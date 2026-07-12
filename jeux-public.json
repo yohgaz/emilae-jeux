@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T16:54:37.333Z",
+  "updatedAt": "2026-07-12T17:16:37.016Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -29896,21 +29896,6 @@
       ]
     },
     {
-      "id": "ff17381bbf524a83b76298037d55c70c",
-      "nom": "Zelda BOW",
-      "plateformes": [
-        "Switch 2"
-      ],
-      "annee": null,
-      "steamAppId": null,
-      "igdbId": "7346",
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
-      "progression": {},
-      "achievements": {},
-      "pitch": null,
-      "studios": []
-    },
-    {
       "id": "de033639e8fb4cd4893ca1baf921e45b",
       "nom": "Pokemon Epée",
       "plateformes": [
@@ -34027,289 +34012,19 @@
       "studios": []
     },
     {
-      "id": "ea724db98a8d4a2b9bcdb66c32f3592f",
-      "nom": "Metal Gear Solid V: Ground Zeroes",
+      "id": "ff17381bbf524a83b76298037d55c70c",
+      "nom": "Zelda BOW",
       "plateformes": [
-        "PlayStation"
+        "Switch 2"
       ],
       "annee": null,
-      "steamAppId": "311340",
-      "igdbId": "5328",
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v88.jpg",
-      "progression": {
-        "PlayStation": {
-          "bronze": {
-            "earned": 3,
-            "total": 13
-          },
-          "argent": {
-            "earned": 1,
-            "total": 1
-          },
-          "or": {
-            "earned": 0,
-            "total": 1
-          },
-          "platine": false,
-          "npCommunicationId": "NPWR06037_00",
-          "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/AA1963C28D3895DC3BA9CA3CF4DC3943F26690C0.PNG",
-          "platinumIcon": null
-        }
-      },
-      "achievements": {
-        "steam": [
-          {
-            "name": "Chute",
-            "description": "Terminer la mission \"Ground Zeroes\".",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/814b58ecb92f12cd5ba1c0c67b2d99410db89d9e.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Réunion",
-            "description": "Retrouver Chico ou Paz.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/0bebb7a00d65364a90ab7e77174a743b14607a60.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Genèse",
-            "description": "Terminer une mission secondaire ou supplémentaire.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/4ace84103dbe2e5c24a172a26ced4548f0a3045a.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Accompli",
-            "description": "Terminer toutes les missions (secondaires et supplémentaires incluses).",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/655f7404b4725e7ba575a745432aca86668a007a.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Compétent",
-            "description": "Terminer n'importe quelle mission (secondaire et supplémentaire incluses) au rang S.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/74b00cec32ae4f865ea6f495e5561d3370acd3de.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Héros",
-            "description": "Terminer toutes les missions (secondaires et supplémentaires) au rang S.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/2c1416d3b91e028def9ee07123d56e8f853142fb.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Sauvetage",
-            "description": "Dans la mission \"Ground Zeroes\", sauver le prisonnier avant l'exécution et l'extraire par hélico.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/87880c32f713b997b9876aa8b3ae7cbf67fd165c.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Profondeur",
-            "description": "Terminer la mission sec. \"Éliminer la menace des renégats\" en extrayant les 2 cibles par hélico.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/faa63ed700232d8c9e970ee4528348e20e576295.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Pacifiste",
-            "description": "Terminer la mission secondaire \"Sauver l'agent infiltré\" sans tuer d'ennemi.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/cb4b5e2eb95798ee9fa84079c63f1852dc8ccbe7.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Infiltration",
-            "description": "Terminer la mission secondaire \"Récupérer des informations\" à l'arrière d'un camion.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/bc32a2c8d149357e688560c53a137c107417ec5e.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Extraction",
-            "description": "Dans la mission sec. \"Détruire des postes antiaériens\", extraire tous les détenus par hélico.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/8ec37b15175809f714c8539dc5103a6b77bf9175.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Réminiscence",
-            "description": "Recréer toutes les scènes de la mission supplémentaire \"Déjà-vu\".",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/c0ee7c274b871c277e6b514ab06bd2f0a3d67504.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Caché",
-            "description": "Terminer la mission supplémentaire \"Jamais vu\" avec 0 ennemi en situation de combat.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/e1860e1d84fa70a66c7bbb5656c34f126fce3a48.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Débloqué",
-            "description": "Débloquer tous les défis.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/a81b8ee1a57937991f574a2fd8d1dd23c584d071.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Informations",
-            "description": "Obtenir toutes les cassettes.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/7593c50dc331c3d3f1623b072e156d6f68218bd3.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          },
-          {
-            "name": "Insigne",
-            "description": "Obtenir tous les patchs XOF.",
-            "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/7dfdc7603fff2199f290d3270c83856c899db01e.jpg",
-            "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/311340/f1442d123cc930469ee057d6d99c1751805e701d.jpg",
-            "earned": false
-          }
-        ],
-        "psn": [
-          {
-            "name": "Reunion",
-            "description": "Reunite with Chico or Paz",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/AAF12C283D87D4135D4B00ADFE897DE76364FBEA.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true
-          },
-          {
-            "name": "Downfall",
-            "description": "Clear the \"Ground Zeroes\" mission",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/8905939B1FCA1866E88BA777D02D6C79894F9FC0.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true
-          },
-          {
-            "name": "Genesis",
-            "description": "Clear a Side Op or Extra Op",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/5C11316761AE007EBCF7D4F57480D9800A990BBD.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true
-          },
-          {
-            "name": "Accomplished",
-            "description": "Clear all missions (including Side Ops and Extra Ops)",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/DB66A78CD461F727EF1D4AB80C81692C0A780613.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Skilled",
-            "description": "Clear any mission (including Side Ops and Extra Ops) with a S-rank",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/E0A75CE74B33F727861BA6823BDBD3C244D369EA.PNG",
-            "type": "silver",
-            "hidden": false,
-            "earned": true
-          },
-          {
-            "name": "Hero",
-            "description": "Clear all missions (including Side Ops and Extra Ops) with a S-rank",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/DA56BE37BCE50AED4490CE6140F263550B8126BA.PNG",
-            "type": "gold",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Rescue",
-            "description": "In the \"Ground Zeroes\" mission, rescue the prisoner to be executed and extract him via chopper",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/A777E38165B6F9C195F4737059D937CE11A46FE7.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Depth",
-            "description": "Clear the \"Eliminate the Renegade Threat\" Side Op by extracting both targets",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/049907B0BEC39B4ADE8C47510073393E2F45E27A.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Pacifist",
-            "description": "Clear the \"Intel Operative Rescue\" Side Op without killing a single enemy",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/A8704340637786D6A77243FC7BF527045AD19AFE.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Infiltration",
-            "description": "Clear the \"Classified Intel Acquisition\" Side Op while riding in the back of a truck",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/BD2D7BAE56A87F601CBCA30E01B47D9C86F2A326.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Extraction",
-            "description": "In the \"Destroy the Anti-Air Emplacements\" Side Op, rescue and extract all prisoners via chopper",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/8D09DC5835AA1587AB80036DADD3C2B926F837CD.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Reminiscence",
-            "description": "Recreate all scenes in the \"Déjà-Vu\" Extra Op",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/E679F96C6AF76CCF38DC387E3E22A0A0B4B77D25.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Unlocked",
-            "description": "Unlock all trials",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/1AD9AB928D09B3558BC65EC60D66879FE59073E8.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Information",
-            "description": "Obtain all cassette tapes",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/3857C127EE8AB9B8E5A809BEB916F7D207B8735B.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          },
-          {
-            "name": "Insignia",
-            "description": "Obtain all XOF unit patches",
-            "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/78840FA508BFE1F0806D737B2DA9687C9E3FA666.PNG",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false
-          }
-        ]
-      },
-      "pitch": "Metal Gear Solid V: Ground Zeroes is a prologue to Metal Gear Solid V: The Phantom Pain. It offers players new sneaking and traversal methods compared to its predecessors, as well as the choice in what order the story events take place by selecting missions by advance. The most important change for this title is the shift to an open world design with a real-time day and night cycle doing away with the linear mission approach of previous games. The game was originally developed as a mission for The Phantom Pain, but an extended development time resulted in director Hideo Kojima splitting the specific portion of the game as a stand-alone product so that players could get early access to Metal Gear Solid V.",
-      "studios": [
-        {
-          "name": "Konami",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl4vr.png",
-          "developer": false,
-          "publisher": true
-        },
-        {
-          "name": "Kojima Productions",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl2v5.png",
-          "developer": true,
-          "publisher": false
-        }
-      ]
+      "steamAppId": null,
+      "igdbId": "7346",
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+      "progression": {},
+      "achievements": {},
+      "pitch": null,
+      "studios": []
     }
   ],
   "enCours": [
