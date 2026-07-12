@@ -358,7 +358,7 @@ function renderJeux() {
   const cetteAnnee = termines.filter(j => j.annee && Number(j.annee) === annee);
   const archive = termines.filter(j => !j.annee || Number(j.annee) !== annee).slice().sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
   section(`Terminés en ${annee}`, '🗓', cetteAnnee, 'termines');
-  section('Bibliothèque', '📚', archive, 'termines');
+  section('Jeux terminés les années précédentes', '📚', archive, 'termines');
 
   body.innerHTML = any ? html : `<div class="jeux-empty">${q ? 'Aucun jeu ne correspond à ta recherche.' : 'Rien à afficher pour l\'instant.'}</div>`;
 }
