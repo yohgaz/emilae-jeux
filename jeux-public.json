@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T12:11:14.995Z",
+  "updatedAt": "2026-07-12T16:54:37.333Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -28,7 +28,8 @@
           "platine": true,
           "npCommunicationId": "NPWR07031_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR07031_00_008325C7149AD9CA9534805F51F14D92B3273CB5FB/4448954CE78C5E326A97FFC1E56CD83774065EE3.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR07031_00_008325C7149AD9CA9534805F51F14D92B3273CB5FB/4448954CE78C5E326A97FFC1E56CD83774065EE3.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR07031_00_008325C7149AD9CA9534805F51F14D92B3273CB5FB/0F9A037A157EB7DB71C67E883622717A82D4D6F8.PNG"
         }
       },
       "achievements": {
@@ -463,7 +464,8 @@
           "platine": true,
           "npCommunicationId": "NPWR22859_00",
           "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22859_00/d7213b2e-8048-40ae-859e-3ce1863b9390.png"
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22859_00/d7213b2e-8048-40ae-859e-3ce1863b9390.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22859_00/b2d366e0-5c6e-4385-8c68-7cfb2280fa6a.png"
         }
       },
       "achievements": {
@@ -3784,7 +3786,8 @@
           "platine": false,
           "npCommunicationId": "NPWR14318_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR14318_00_00ED5C9FFA150D7D17CFE2C8930CE46713949B2361/6F3920E968F334ABE84E578FBEEC838FBA158FC2.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR14318_00_00ED5C9FFA150D7D17CFE2C8930CE46713949B2361/6F3920E968F334ABE84E578FBEEC838FBA158FC2.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR14318_00_00ED5C9FFA150D7D17CFE2C8930CE46713949B2361/F9508701FBD6CF7019DF07A06B477A9EED4A18D8.PNG"
         }
       },
       "achievements": {
@@ -4487,7 +4490,8 @@
           "platine": true,
           "npCommunicationId": "NPWR05818_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/AE3477BA91121142BEB82AB2B7E2F8BAB9B3C17A.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/AE3477BA91121142BEB82AB2B7E2F8BAB9B3C17A.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/B201254EA5AB07FE42D25FF799A7AF9AE8274A6C.PNG"
         }
       },
       "achievements": {
@@ -4858,7 +4862,8 @@
           "platine": false,
           "npCommunicationId": "NPWR24695_00",
           "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/68b955dc-1ec1-4494-a4b7-751a9c90fe58.png"
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/68b955dc-1ec1-4494-a4b7-751a9c90fe58.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/94fa70a2-b6e4-4b18-b9d7-3cf6d8ab5a54.png"
         }
       },
       "achievements": {
@@ -6168,7 +6173,8 @@
           "platine": false,
           "npCommunicationId": "NPWR05671_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR05671_00_00FC3ED45668217274BEF5DBA90B6A2ECCB5475B6C/1C30EABDA3A29BCBF8964F65E1322129BABD79EB.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR05671_00_00FC3ED45668217274BEF5DBA90B6A2ECCB5475B6C/1C30EABDA3A29BCBF8964F65E1322129BABD79EB.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR05671_00_00FC3ED45668217274BEF5DBA90B6A2ECCB5475B6C/2B91D490BE0260CC3A78DDC7A87E5B2D820A335D.PNG"
         }
       },
       "achievements": {
@@ -7269,7 +7275,8 @@
           "platine": false,
           "npCommunicationId": "NPWR09359_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR09359_00_00EFF0550F4091E990933C2029152B2A27B1C56EEA/CC5C58B850C5E1F04116F9A473CF243E95E43D15.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR09359_00_00EFF0550F4091E990933C2029152B2A27B1C56EEA/CC5C58B850C5E1F04116F9A473CF243E95E43D15.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR09359_00_00EFF0550F4091E990933C2029152B2A27B1C56EEA/2674DE87CA306F30A2BD4E268A3187D853D11FEE.PNG"
         }
       },
       "achievements": {
@@ -8799,7 +8806,8 @@
           "platine": false,
           "npCommunicationId": "NPWR10876_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR10876_00_000A3DE70D99E3AD8324211296F15418B1B548B63E/4ABF3231167C4F76D1EA604857CA6EFDEF9B650F.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR10876_00_000A3DE70D99E3AD8324211296F15418B1B548B63E/4ABF3231167C4F76D1EA604857CA6EFDEF9B650F.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR10876_00_000A3DE70D99E3AD8324211296F15418B1B548B63E/7A11C83F0B6A37AA5BB53AEE323AFE41AFD35459.PNG"
         },
         "PC": {
           "earned": 62,
@@ -10790,7 +10798,8 @@
           "platine": false,
           "npCommunicationId": "NPWR08199_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR08199_00_0041F9770FBE806110B69A2EA6A08590B7483E7FD5/AD01C3225C31F8DBD918D7E842C824ADE9432CEC.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR08199_00_0041F9770FBE806110B69A2EA6A08590B7483E7FD5/AD01C3225C31F8DBD918D7E842C824ADE9432CEC.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR08199_00_0041F9770FBE806110B69A2EA6A08590B7483E7FD5/356126F1647DE6BA174DB9B802878B95309D2820.PNG"
         }
       },
       "achievements": {
@@ -11413,7 +11422,8 @@
           "platine": false,
           "npCommunicationId": "NPWR07897_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR07897_00_00B1B88693A993473272413EDB83CC197E895B34D1/3F49215DC1A348E47575B58B205808F148F3D3A8.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR07897_00_00B1B88693A993473272413EDB83CC197E895B34D1/3F49215DC1A348E47575B58B205808F148F3D3A8.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR07897_00_00B1B88693A993473272413EDB83CC197E895B34D1/6ECAB7C5B5EC47A4E0A97C3715A07743CF11455E.PNG"
         },
         "PC": {
           "earned": 34,
@@ -12114,7 +12124,8 @@
           "platine": false,
           "npCommunicationId": "NPWR12518_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR12518_00_009C1232E900005FE409857E926767DFE9CAC7F371/CCDC60CADE4B3970C348FEFDE0094BA95C0A802F.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR12518_00_009C1232E900005FE409857E926767DFE9CAC7F371/CCDC60CADE4B3970C348FEFDE0094BA95C0A802F.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR12518_00_009C1232E900005FE409857E926767DFE9CAC7F371/3528A7CED1D08A8BCEE23DF7EA55DE3E0C6F11CF.PNG"
         }
       },
       "achievements": {
@@ -12727,7 +12738,8 @@
           "platine": true,
           "npCommunicationId": "NPWR11556_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR11556_00_005122C6D8E4545DAC325B8E748CBE7180ED11F3E7/F24674E946809EB0A2E214DB490149851BCEC0EC.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR11556_00_005122C6D8E4545DAC325B8E748CBE7180ED11F3E7/F24674E946809EB0A2E214DB490149851BCEC0EC.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR11556_00_005122C6D8E4545DAC325B8E748CBE7180ED11F3E7/1E6115EB5EA2E026D9A157BE27A44DFBBE329C7C.PNG"
         }
       },
       "achievements": {
@@ -14350,7 +14362,8 @@
           "platine": false,
           "npCommunicationId": "NPWR05740_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR05740_00_0017967C4188CE8097C9F90449BD2673428F2F5C4E/084BD02D892260735318CE1DE2BB2FB1D42F22BD.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR05740_00_0017967C4188CE8097C9F90449BD2673428F2F5C4E/084BD02D892260735318CE1DE2BB2FB1D42F22BD.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR05740_00_0017967C4188CE8097C9F90449BD2673428F2F5C4E/BE10328EA07B82E499B01B8C52B0CF083415E32B.PNG"
         }
       },
       "achievements": {
@@ -14785,7 +14798,8 @@
           "platine": false,
           "npCommunicationId": "NPWR16532_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR16532_00_00E345EACCED73B43141D2A10E60C0EC171941DC7A/0586E4714D50D8527FF0C47E2E4925D3808C5757.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR16532_00_00E345EACCED73B43141D2A10E60C0EC171941DC7A/0586E4714D50D8527FF0C47E2E4925D3808C5757.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR16532_00_00E345EACCED73B43141D2A10E60C0EC171941DC7A/B0656DA0B7ABB4F2F0659E00A9AF2D2B7501DF1B.PNG"
         }
       },
       "achievements": {
@@ -15628,7 +15642,8 @@
           "platine": false,
           "npCommunicationId": "NPWR36570_00",
           "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR36570_00/0a9b918b-1da3-4c43-8763-f86c3d0efdd8.png"
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR36570_00/0a9b918b-1da3-4c43-8763-f86c3d0efdd8.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR36570_00/7f7dd51d-6804-40ba-b95c-5ad39285e6f4.png"
         }
       },
       "achievements": {
@@ -16483,7 +16498,8 @@
           "platine": true,
           "npCommunicationId": "NPWR07875_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR07875_00_0026D95B298228B7F693D8DDBFF42C4F4BCC3FF2D2/ACC2A8C6C222E9B89D76B7A10E7209EDF1F56E0C.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR07875_00_0026D95B298228B7F693D8DDBFF42C4F4BCC3FF2D2/ACC2A8C6C222E9B89D76B7A10E7209EDF1F56E0C.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR07875_00_0026D95B298228B7F693D8DDBFF42C4F4BCC3FF2D2/4C5C8BAD735450D8788587DE8C9F432DE50A8783.PNG"
         }
       },
       "achievements": {
@@ -17449,7 +17465,8 @@
           "platine": false,
           "npCommunicationId": "NPWR04000_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR04000_00_0067FBF0A5F1A43EAAE511145CC35DFDA4A53F1BC5/E6751CF420026E5B506646B869AB4419AB488069.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR04000_00_0067FBF0A5F1A43EAAE511145CC35DFDA4A53F1BC5/E6751CF420026E5B506646B869AB4419AB488069.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR04000_00_0067FBF0A5F1A43EAAE511145CC35DFDA4A53F1BC5/3C11C2B180495449C53B9E9752643122B0F9426F.PNG"
         }
       },
       "achievements": {
@@ -18353,7 +18370,8 @@
           "platine": true,
           "npCommunicationId": "NPWR03632_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR03632_00_00040A2E1FC91A8C54DE8D02CD84BE9A7B6C6C9305/BF9C8D09624C5CEBDB5C0E6DF7B94C50F559D925.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR03632_00_00040A2E1FC91A8C54DE8D02CD84BE9A7B6C6C9305/BF9C8D09624C5CEBDB5C0E6DF7B94C50F559D925.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR03632_00_00040A2E1FC91A8C54DE8D02CD84BE9A7B6C6C9305/7892243EEF88B8BAE13E3D23E2D6014B142CE6C2.PNG"
         }
       },
       "achievements": {
@@ -18893,7 +18911,8 @@
           "platine": true,
           "npCommunicationId": "NPWR18604_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR18604_00_00021C52A0BF7E02D40E6854B5595C6302F4C2D3FC/AA961BD080AD81CA3E84A12CD6DF4B8BBCA8BA18.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR18604_00_00021C52A0BF7E02D40E6854B5595C6302F4C2D3FC/AA961BD080AD81CA3E84A12CD6DF4B8BBCA8BA18.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR18604_00_00021C52A0BF7E02D40E6854B5595C6302F4C2D3FC/4A27774F6CE7A94DBEFBFA1AACCEEB2C468C130F.PNG"
         }
       },
       "achievements": {
@@ -21535,7 +21554,8 @@
           "platine": true,
           "npCommunicationId": "NPWR18513_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR18513_00_0030F9119D2E54FB7CD1210E8965AD8CB869EAD98C/B4CC8142C128093AD4E0FD6469A32158B289EF7F.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR18513_00_0030F9119D2E54FB7CD1210E8965AD8CB869EAD98C/B4CC8142C128093AD4E0FD6469A32158B289EF7F.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR18513_00_0030F9119D2E54FB7CD1210E8965AD8CB869EAD98C/599A4F1B8D8BBDB494BD437DA24C7591D22D8809.PNG"
         }
       },
       "achievements": {
@@ -22222,7 +22242,8 @@
           "platine": false,
           "npCommunicationId": "NPWR07057_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR07057_00_00CA33EA53D83019475A6B6095882089448E6A8B88/8EEF8F187093061803118C5510AC61BA3BD27128.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR07057_00_00CA33EA53D83019475A6B6095882089448E6A8B88/8EEF8F187093061803118C5510AC61BA3BD27128.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR07057_00_00CA33EA53D83019475A6B6095882089448E6A8B88/C501B703A449AC9FCFC7767F6C73225C6824C485.PNG"
         }
       },
       "achievements": {
@@ -22942,7 +22963,8 @@
           "platine": false,
           "npCommunicationId": "NPWR10751_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR10751_00_0067A75086AF6955957B0F14790DB6DEDF01270DD1/0F061D22C9840D6AF8BF72E1520F986C13376604.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR10751_00_0067A75086AF6955957B0F14790DB6DEDF01270DD1/0F061D22C9840D6AF8BF72E1520F986C13376604.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR10751_00_0067A75086AF6955957B0F14790DB6DEDF01270DD1/1840B4375046CA7FF1E097C1E2D52CFB6AC2A180.PNG"
         }
       },
       "achievements": {
@@ -26572,7 +26594,8 @@
           "platine": false,
           "npCommunicationId": "NPWR09715_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR09715_00_00E7CF3C1BE6A0AB427362C56749E32BB564B3BE7B/2DF8001B06147EE03A1ABDAB8F0D514F3D47933A.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR09715_00_00E7CF3C1BE6A0AB427362C56749E32BB564B3BE7B/2DF8001B06147EE03A1ABDAB8F0D514F3D47933A.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR09715_00_00E7CF3C1BE6A0AB427362C56749E32BB564B3BE7B/FAB439DEE2A204D591F21788E2BBF08A0C6C7056.PNG"
         }
       },
       "achievements": {
@@ -26952,7 +26975,8 @@
           "platine": false,
           "npCommunicationId": "NPWR07731_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR07731_00_0005CB40540B74C7C1D25734106ADC4DD7D8EE46A2/E4398EED8ECF86D2C830A6B22B778BD5288BA589.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR07731_00_0005CB40540B74C7C1D25734106ADC4DD7D8EE46A2/E4398EED8ECF86D2C830A6B22B778BD5288BA589.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR07731_00_0005CB40540B74C7C1D25734106ADC4DD7D8EE46A2/93834B6F641218ABBBC043AB6D4D2D5EC627288A.PNG"
         },
         "PC": {
           "earned": 0,
@@ -27983,7 +28007,8 @@
           "platine": false,
           "npCommunicationId": "NPWR06616_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR06616_00_00EB277B7EC4BA4D93F39512B611F38502780E7821/7188BC1FEF2CBD47B77122FFE78EF742011117FD.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR06616_00_00EB277B7EC4BA4D93F39512B611F38502780E7821/7188BC1FEF2CBD47B77122FFE78EF742011117FD.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR06616_00_00EB277B7EC4BA4D93F39512B611F38502780E7821/1243D505C576D75AEA89437C14C7F890811DE596.PNG"
         }
       },
       "achievements": {
@@ -28945,7 +28970,8 @@
           "platine": false,
           "npCommunicationId": "NPWR07290_00",
           "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR07290_00_00B5670B887541F4DEFCD7AB125CC0333C8D821FA3/17EC3FCFAF91ECD0A2696071DE063351C4E62560.PNG"
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR07290_00_00B5670B887541F4DEFCD7AB125CC0333C8D821FA3/17EC3FCFAF91ECD0A2696071DE063351C4E62560.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR07290_00_00B5670B887541F4DEFCD7AB125CC0333C8D821FA3/21F858F099B7591342B0213D9ED5AB90AFF47BBC.PNG"
         }
       },
       "achievements": {
@@ -31907,7 +31933,8 @@
           "platine": false,
           "npCommunicationId": "NPWR29618_00",
           "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29618_00/5adeddc9-26ad-4ede-8aad-95ae94209162.png"
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29618_00/5adeddc9-26ad-4ede-8aad-95ae94209162.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29618_00/6d66c29c-b1eb-46e7-855a-b53c595de25c.png"
         },
         "PC": {
           "earned": 11,
@@ -34316,7 +34343,8 @@
           "platine": true,
           "npCommunicationId": "NPWR23141_00",
           "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/386fbcc7-15b3-44d4-8584-09bbbe9b149c.png"
         },
         "PC": {
           "earned": 0,
