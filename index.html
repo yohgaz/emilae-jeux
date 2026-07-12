@@ -25,14 +25,15 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 @keyframes glass-drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-30px,-40px)}}
 @media (prefers-reduced-motion:reduce){body::before,body::after{animation:none}}
 
-.page{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:32px 28px 60px}
+.page{position:relative;z-index:1;width:90%;max-width:1900px;margin:0 auto;padding:32px 0 60px}
 
-.site-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:26px}
-.site-title{font-size:24px;font-weight:900;display:flex;align-items:center;gap:10px}
+.site-header{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-bottom:26px}
+.site-title{font-size:24px;font-weight:900;display:flex;flex-direction:column;gap:8px}
+.site-title-row{display:flex;align-items:center;gap:10px}
 .site-title span.chan{font-size:13px;font-weight:800;color:var(--mu);background:var(--glass-fill-strong);padding:5px 12px;border-radius:999px;border:1px solid var(--glass-border)}
-.site-updated{font-size:11px;color:var(--mu)}
+.site-updated{font-size:11px;color:var(--mu);margin-left:auto}
 
-.social-card{display:flex;align-items:stretch;gap:18px;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:var(--radius-md);-webkit-backdrop-filter:blur(var(--blur)) saturate(160%);backdrop-filter:blur(var(--blur)) saturate(160%);box-shadow:inset 0 1px 0 var(--glass-highlight),0 10px 30px rgba(0,0,0,.3);padding:14px 20px;margin-bottom:24px;width:fit-content}
+.social-card{display:flex;align-items:stretch;gap:18px;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:var(--radius-md);-webkit-backdrop-filter:blur(var(--blur)) saturate(160%);backdrop-filter:blur(var(--blur)) saturate(160%);box-shadow:inset 0 1px 0 var(--glass-highlight),0 10px 30px rgba(0,0,0,.3);padding:14px 20px;width:fit-content;flex-shrink:0}
 .social-card-logo{display:flex;align-items:stretch;flex-shrink:0}
 .social-card-logo img{height:100%;width:auto;max-width:90px;object-fit:contain;display:block}
 .social-card-links{display:flex;flex-direction:column;justify-content:center;gap:9px}
@@ -135,26 +136,27 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 
 <div class="page">
   <div class="site-header">
-    <div class="site-title">🎮 Bibliothèque de jeux <span class="chan">emilae_tv</span></div>
-    <div class="site-updated" id="site-updated"></div>
-  </div>
+    <div class="site-title"><div class="site-title-row">🎮 Bibliothèque de jeux <span class="chan">emilae_tv</span></div></div>
 
-  <div class="social-card">
-    <div class="social-card-logo"><img src="./logo.png" alt="emilae_tv"></div>
-    <div class="social-card-links">
-      <a class="social-link" href="https://twitch.tv/emilae_tv" target="_blank" rel="noopener">
-        <span class="social-icon" style="color:#9146FF"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg></span>
-        <span>twitch.tv/emilae_tv</span>
-      </a>
-      <a class="social-link" href="https://youtube.com/@emilae_tv" target="_blank" rel="noopener">
-        <span class="social-icon" style="color:#FF0000"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></span>
-        <span>youtube.com/@emilae_tv</span>
-      </a>
-      <a class="social-link" href="https://bsky.app/profile/emilae-tv.eurosky.social" target="_blank" rel="noopener">
-        <span class="social-icon" style="color:#1185FE"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg></span>
-        <span>emilae-tv.eurosky.social</span>
-      </a>
+    <div class="social-card">
+      <div class="social-card-logo"><img src="./logo.png" alt="emilae_tv"></div>
+      <div class="social-card-links">
+        <a class="social-link" href="https://twitch.tv/emilae_tv" target="_blank" rel="noopener">
+          <span class="social-icon" style="color:#9146FF"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg></span>
+          <span>twitch.tv/emilae_tv</span>
+        </a>
+        <a class="social-link" href="https://youtube.com/@emilae_tv" target="_blank" rel="noopener">
+          <span class="social-icon" style="color:#FF0000"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></span>
+          <span>youtube.com/@emilae_tv</span>
+        </a>
+        <a class="social-link" href="https://bsky.app/profile/emilae-tv.eurosky.social" target="_blank" rel="noopener">
+          <span class="social-icon" style="color:#1185FE"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg></span>
+          <span>emilae-tv.eurosky.social</span>
+        </a>
+      </div>
     </div>
+
+    <div class="site-updated" id="site-updated"></div>
   </div>
 
   <div class="jeux-toolbar">
@@ -306,39 +308,34 @@ function renderJeux() {
   const q = (document.getElementById('jeux-search')?.value || '').toLowerCase().trim();
   const body = document.getElementById('jeux-content');
   let html = '';
+  let any = false;
+
+  const section = (title, badgeIcon, list, statut, subtitle) => {
+    if (!list.length) return;
+    any = true;
+    html += `<div class="jeux-section">
+      <div class="jeux-section-head"><span class="jeux-section-title">${badgeIcon} ${title}</span><span class="jeux-section-badge">${list.length}</span></div>
+      ${subtitle ? `<div class="jeux-section-sub">${subtitle}</div>` : ''}
+      <div class="jeux-grid">${list.map(j => jeuCardHtml(j, statut)).join('')}</div>
+    </div>`;
+  };
 
   let enCours = _jeuxData.enCours;
   if (q) enCours = enCours.filter(j => j.nom.toLowerCase().includes(q));
   const aCompleter = enCours.filter(j => j.type === 'a_completer');
   const normaux = enCours.filter(j => j.type !== 'a_completer');
-
-  html += `<div class="jeux-section">
-    <div class="jeux-section-head"><span class="jeux-section-title">✔ Histoire finie — à compléter</span><span class="jeux-section-badge">${aCompleter.length}</span></div>`;
-  html += aCompleter.length ? `<div class="jeux-grid">${aCompleter.map(j => jeuCardHtml(j, 'enCours')).join('')}</div>` : `<div class="jeux-empty">Rien ici.</div>`;
-  html += `</div>`;
-
-  html += `<div class="jeux-section">
-    <div class="jeux-section-head"><span class="jeux-section-title">🎯 En cours</span><span class="jeux-section-badge">${normaux.length}</span></div>`;
-  html += normaux.length ? `<div class="jeux-grid">${normaux.map(j => jeuCardHtml(j, 'enCours')).join('')}</div>` : `<div class="jeux-empty">Rien ici.</div>`;
-  html += `</div>`;
+  section('Histoire finie — à compléter', '✔', aCompleter, 'enCours');
+  section('En cours', '🎯', normaux, 'enCours');
 
   let termines = _jeuxData.termines;
   if (q) termines = termines.filter(j => j.nom.toLowerCase().includes(q));
   const annee = new Date().getFullYear();
   const cetteAnnee = termines.filter(j => j.annee && Number(j.annee) === annee);
   const archive = termines.filter(j => !j.annee || Number(j.annee) !== annee).slice().sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+  section(`Terminés en ${annee}`, '🗓', cetteAnnee, 'termines');
+  section('Bibliothèque', '📚', archive, 'termines');
 
-  html += `<div class="jeux-section">
-    <div class="jeux-section-head"><span class="jeux-section-title">🗓 Terminés en ${annee}</span><span class="jeux-section-badge">${cetteAnnee.length}</span></div>`;
-  html += cetteAnnee.length ? `<div class="jeux-grid">${cetteAnnee.map(j => jeuCardHtml(j, 'termines')).join('')}</div>` : `<div class="jeux-empty">Rien de terminé en ${annee} pour l'instant.</div>`;
-  html += `</div>`;
-
-  html += `<div class="jeux-section">
-    <div class="jeux-section-head"><span class="jeux-section-title">📚 Bibliothèque</span><span class="jeux-section-badge">${archive.length}</span></div>`;
-  html += archive.length ? `<div class="jeux-grid">${archive.map(j => jeuCardHtml(j, 'termines')).join('')}</div>` : `<div class="jeux-empty">Aucun résultat.</div>`;
-  html += `</div>`;
-
-  body.innerHTML = html;
+  body.innerHTML = any ? html : `<div class="jeux-empty">${q ? 'Aucun jeu ne correspond à ta recherche.' : 'Rien à afficher pour l\'instant.'}</div>`;
 }
 
 // ── Popup détail — tout est déjà dans le JSON chargé, aucun appel réseau. ──
