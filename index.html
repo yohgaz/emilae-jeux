@@ -74,7 +74,8 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 
 .jeu-progress-wrap{display:flex;flex-direction:column;gap:5px;margin-top:6px}
 .jeu-progress-row{display:flex;align-items:center;gap:7px}
-.jeu-progress-plat{font-family:monospace;font-size:9px;font-weight:900;min-width:24px}
+.jeu-progress-plat-icon{width:16px;height:16px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px}
+.jeu-progress-plat-icon svg{width:100%;height:100%;display:block}
 .jeu-progress-bar{flex:1;height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
 .jeu-progress-fill{height:100%;border-radius:4px;transition:width .3s}
 .jeu-progress-pct{font-family:monospace;font-size:10px;color:var(--mu);min-width:32px;text-align:right}
@@ -156,6 +157,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .ffxiv-job-group-label{font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:var(--mu);margin-bottom:6px}
 .ffxiv-job-badges{display:flex;flex-wrap:wrap;gap:6px}
 .ffxiv-job-badge{display:flex;align-items:center;gap:7px;padding:5px 10px;border-radius:8px;background:var(--glass-fill);border:1px solid var(--jc)}
+.ffxiv-job-badge img{width:22px;height:22px;border-radius:5px;display:block}
 .ffxiv-job-abbr{font-size:11px;font-weight:900;color:var(--jc)}
 .ffxiv-job-lvl{font-size:11px;font-weight:700;color:var(--tx);font-family:monospace}
 
@@ -326,9 +328,9 @@ const PLATINUM_TROPHY_SVG = '<svg viewBox="0 0 24 24"><path d="M6 5C3 5 2 6.8 2 
 const XBOX_COLOR = '#107C10';
 const XBOX_ICON_SVG = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(45 12 12)"/><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(-45 12 12)"/></svg>';
 
-function progressRowHtml(label, pct, color) {
+function progressRowHtml(iconHtml, pct, color) {
   return `<div class="jeu-progress-row">
-    <span class="jeu-progress-plat" style="color:${color}">${label}</span>
+    <span class="jeu-progress-plat-icon" style="color:${color}">${iconHtml}</span>
     <div class="jeu-progress-bar"><div class="jeu-progress-fill" style="width:${pct}%;background:${color}"></div></div>
     <span class="jeu-progress-pct">${pct}%</span>
   </div>`;
@@ -338,20 +340,22 @@ function progressBarsHtml(progression, ffxivData) {
   let rows = '';
   if (progression.PlayStation) {
     const pct = calcPercentPS(progression.PlayStation);
-    if (pct !== null) rows += progressRowHtml('PS', pct, platColor('PlayStation'));
+    if (pct !== null) rows += progressRowHtml(PLAT_ICON_SVG.playstation, pct, platColor('PlayStation'));
   }
-  if (progression.PC) {
+  // FFXIV : version stand alone, pas Steam — la barre "Steam" n'aurait
+  // aucun sens ici (les succès ne se synchroniseraient jamais).
+  if (progression.PC && !ffxivData) {
     const pct = calcPercentSteam(progression.PC);
-    if (pct !== null) rows += progressRowHtml('PC', pct, platColor('PC'));
+    if (pct !== null) rows += progressRowHtml(PLAT_ICON_SVG.steam, pct, platColor('PC'));
   }
   if (progression.Xbox) {
     const pct = calcPercentXbox(progression.Xbox);
-    if (pct !== null) rows += progressRowHtml('XBL', pct, XBOX_COLOR);
+    if (pct !== null) rows += progressRowHtml(XBOX_ICON_SVG, pct, XBOX_COLOR);
   }
   if (ffxivData && ffxivData.achievements) {
     const a = ffxivData.achievements;
     if (a.earned !== null && a.earned !== undefined && a.total) {
-      rows += progressRowHtml('HF', Math.round(a.earned / a.total * 100), '#C9A959');
+      rows += progressRowHtml('🏆', Math.round(a.earned / a.total * 100), '#C9A959');
     }
   }
   return rows ? `<div class="jeu-progress-wrap">${rows}</div>` : '';
@@ -589,22 +593,22 @@ function renderFfxivIngame(d) {
       ${d.updatedAt ? `<div style="font-size:9.5px;color:var(--mu);margin-top:4px">Mis à jour le ${new Date(d.updatedAt).toLocaleDateString('fr-FR')} à ${new Date(d.updatedAt).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</div>` : ''}
     </div>
     <div class="ffxiv-char-triggers">
-      <button class="ffxiv-trigger-btn" onclick="toggleFfxivPanel('mounts')" title="Montures (${(d.mounts || []).length})">🐴</button>
-      <button class="ffxiv-trigger-btn" onclick="toggleFfxivPanel('minions')" title="Mascottes (${(d.minions || []).length})">🐾</button>
+      <button class="ffxiv-trigger-btn" data-panel="hf" onclick="toggleFfxivPanel('hf')" title="Hauts faits">🏆</button>
+      <button class="ffxiv-trigger-btn" data-panel="mounts" onclick="toggleFfxivPanel('mounts')" title="Montures (${(d.mounts || []).length})">🐴</button>
+      <button class="ffxiv-trigger-btn" data-panel="minions" onclick="toggleFfxivPanel('minions')" title="Mascottes (${(d.minions || []).length})">🐾</button>
     </div>
   </div>
   <div class="ffxiv-panel" id="ffxiv-panel-content"></div>`;
 
-  pane.innerHTML = charCard + `<div class="jeu-detail-section" id="ffxiv-hf-section"></div>`;
-  renderFfxivAchievements();
+  pane.innerHTML = charCard;
 }
 
 function toggleFfxivPanel(panel) {
   _ffxivActivePanel = (_ffxivActivePanel === panel) ? null : panel;
   const photo = document.querySelector('.ffxiv-char-photo');
   if (photo) photo.classList.toggle('active', _ffxivActivePanel === 'jobs');
-  document.querySelectorAll('.ffxiv-trigger-btn').forEach((btn, i) => {
-    btn.classList.toggle('active', (i === 0 && _ffxivActivePanel === 'mounts') || (i === 1 && _ffxivActivePanel === 'minions'));
+  document.querySelectorAll('.ffxiv-trigger-btn[data-panel]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.panel === _ffxivActivePanel);
   });
   const box = document.getElementById('ffxiv-panel-content');
   if (!box || !_ffxivCurrentData) return;
@@ -612,6 +616,7 @@ function toggleFfxivPanel(panel) {
   if (_ffxivActivePanel === 'jobs') box.innerHTML = ffxivJobsHtml(_ffxivCurrentData);
   else if (_ffxivActivePanel === 'mounts') box.innerHTML = ffxivCollectHtml(_ffxivCurrentData.mounts, 'Aucune monture récupérée.');
   else if (_ffxivActivePanel === 'minions') box.innerHTML = ffxivCollectHtml(_ffxivCurrentData.minions, 'Aucune mascotte récupérée.');
+  else if (_ffxivActivePanel === 'hf') { box.innerHTML = `<div id="ffxiv-hf-section"></div>`; renderFfxivAchievements(); }
 }
 
 function ffxivJobsHtml(d) {
@@ -621,7 +626,7 @@ function ffxivJobsHtml(d) {
     if (!jobsInRole.length) return;
     html += `<div class="ffxiv-job-group">
       <div class="ffxiv-job-group-label">${FFXIV_ROLE_LABELS[role]}</div>
-      <div class="ffxiv-job-badges">${jobsInRole.map(j => `<div class="ffxiv-job-badge" style="--jc:${FFXIV_ROLE_COLORS[role]}"><span class="ffxiv-job-abbr">${esc(j.abbr)}</span><span class="ffxiv-job-lvl">${j.level || '—'}</span></div>`).join('')}</div>
+      <div class="ffxiv-job-badges">${jobsInRole.map(j => `<div class="ffxiv-job-badge" style="--jc:${FFXIV_ROLE_COLORS[role]}">${j.icon ? `<img src="${esc(j.icon)}" alt="${esc(j.abbr)}" title="${esc(j.abbr)}" onerror="this.outerHTML='<span class=&quot;ffxiv-job-abbr&quot;>${esc(j.abbr)}</span>'">` : `<span class="ffxiv-job-abbr">${esc(j.abbr)}</span>`}<span class="ffxiv-job-lvl">${j.level || '—'}</span></div>`).join('')}</div>
     </div>`;
   });
   if (d.eureka || d.bozja) {
