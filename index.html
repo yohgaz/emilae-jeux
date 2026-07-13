@@ -71,6 +71,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .plat-badges{position:absolute;top:9px;right:9px;display:flex;flex-direction:column;gap:5px;align-items:flex-end}
 .plat-chip{display:flex;align-items:center;justify-content:center;width:27px;height:27px;padding:0;border-radius:8px;background:rgba(6,7,12,.72)!important;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 3px 10px rgba(0,0,0,.55)}
 .plat-chip svg{display:block;width:15px;height:15px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.4))}
+.plat-chip img{display:block;width:15px;height:15px;object-fit:contain;filter:drop-shadow(0 1px 1px rgba(0,0,0,.4))}
 
 .jeu-progress-wrap{display:flex;flex-direction:column;gap:5px;margin-top:6px}
 .jeu-progress-row{display:flex;align-items:center;gap:7px}
@@ -85,7 +86,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .s-modal.open{display:flex}
 .s-modal-box{background:var(--glass-fill-strong);border:1px solid var(--glass-border);border-radius:var(--radius-lg);box-shadow:inset 0 1px 0 var(--glass-highlight),0 24px 60px rgba(0,0,0,.55);max-height:88vh;overflow-y:auto;padding:22px}
 
-.jeu-detail-box{width:70vw;max-width:1180px;min-width:320px;max-height:84vh;padding:0;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.jeu-detail-box{width:84vw;max-width:1440px;min-width:320px;max-height:84vh;padding:0;display:flex;flex-direction:column;position:relative;overflow:hidden}
 .jeu-detail-close{position:absolute;top:14px;right:14px;z-index:3;width:34px;height:34px;border-radius:50%;background:rgba(4,6,15,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid var(--glass-border);color:var(--tx);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .jeu-detail-close:hover{background:rgba(4,6,15,.85)}
 .jeu-detail-banner{position:relative;height:260px;flex-shrink:0;background-size:cover;background-position:center 30%;background-color:var(--c2);-webkit-mask-image:linear-gradient(180deg,black 55%,transparent 100%);mask-image:linear-gradient(180deg,black 55%,transparent 100%)}
@@ -137,29 +138,28 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-tab-pane{display:none}
 .jeu-detail-tab-pane.active{display:block}
 
-.ffxiv-char-card{display:flex;align-items:center;gap:14px;padding:12px 14px;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:var(--radius-md);margin-bottom:12px}
-.ffxiv-char-photo{width:56px;height:56px;border-radius:10px;object-fit:cover;flex-shrink:0;background:rgba(255,255,255,.05);cursor:pointer;transition:transform .15s,box-shadow .15s}
-.ffxiv-char-photo:hover{transform:scale(1.05)}
-.ffxiv-char-photo.active{box-shadow:0 0 0 2px #C9A959}
-.ffxiv-char-info{min-width:0}
-.ffxiv-char-name{font-weight:900;font-size:14px;color:var(--tx)}
-.ffxiv-char-title{font-size:11px;color:#C9A959;font-style:italic;margin-top:1px}
-.ffxiv-char-meta{font-size:11px;color:var(--mu);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap}
-.ffxiv-char-meta span{display:flex;align-items:center;gap:4px}
-.ffxiv-char-meta img{width:16px;height:16px;border-radius:4px}
-.ffxiv-char-triggers{display:flex;gap:6px;margin-left:auto;flex-shrink:0}
-.ffxiv-trigger-btn{width:38px;height:38px;border-radius:10px;background:var(--glass-fill-strong);border:1px solid var(--glass-border);font-size:17px;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center}
-.ffxiv-trigger-btn:hover{background:rgba(201,169,89,.12)}
-.ffxiv-trigger-btn.active{border-color:#C9A959;background:rgba(201,169,89,.15)}
+.ffxiv-banner{position:relative;display:flex;align-items:center;gap:26px;min-height:220px;padding:22px 26px;background:linear-gradient(120deg,#3d1319 0%,#24101a 45%,var(--c1) 100%);overflow:hidden}
+.ffxiv-banner-info{flex:1;min-width:0;z-index:1}
+.ffxiv-banner-name{font-size:24px;font-weight:900;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.55)}
+.ffxiv-banner-title{font-size:12.5px;color:#E8C97A;font-style:italic;margin-top:2px}
+.ffxiv-banner-meta{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:rgba(255,255,255,.82);margin-top:8px}
+.ffxiv-banner-jobs{margin-top:16px;display:flex;flex-direction:column;gap:6px}
+.ffxiv-banner-jobs-row{display:flex;gap:4px;flex-wrap:wrap}
+.ffxiv-mini-job{display:flex;flex-direction:column;align-items:center;width:27px;flex-shrink:0}
+.ffxiv-mini-job img{width:21px;height:21px;border-radius:5px;display:block}
+.ffxiv-mini-job-fallback{font-size:7.5px;font-weight:900;color:#E8C97A;line-height:21px}
+.ffxiv-mini-job span:last-child{font-size:9px;font-weight:800;color:#E8C97A;margin-top:1px}
+.ffxiv-banner-portrait{position:relative;flex-shrink:0;height:100%;width:170px;display:flex;align-items:flex-end;justify-content:center;z-index:1}
+.ffxiv-banner-portrait img{max-height:220px;max-width:100%;object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,.5))}
+.ffxiv-banner-active{position:absolute;bottom:4px;right:-6px;text-align:right}
+.ffxiv-banner-active-lvl{font-size:18px;font-weight:900;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.6)}
+.ffxiv-banner-active-icon{width:25px;height:25px;border-radius:6px;margin-top:2px}
 
+.ffxiv-triggers-row{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.ffxiv-trigger-btn{display:flex;align-items:center;gap:6px;padding:8px 15px;border-radius:999px;background:var(--glass-fill);border:1px solid var(--glass-border);color:var(--tx);font-family:'Nunito',sans-serif;font-size:12px;font-weight:800;cursor:pointer;transition:all .15s}
+.ffxiv-trigger-btn:hover{background:rgba(201,169,89,.1)}
+.ffxiv-trigger-btn.active{border-color:#C9A959;background:rgba(201,169,89,.15);color:#C9A959}
 .ffxiv-panel{margin-bottom:16px}
-.ffxiv-job-group{margin-bottom:12px}
-.ffxiv-job-group-label{font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:var(--mu);margin-bottom:6px}
-.ffxiv-job-badges{display:flex;flex-wrap:wrap;gap:6px}
-.ffxiv-job-badge{display:flex;align-items:center;gap:7px;padding:5px 10px;border-radius:8px;background:var(--glass-fill);border:1px solid var(--jc)}
-.ffxiv-job-badge img{width:22px;height:22px;border-radius:5px;display:block}
-.ffxiv-job-abbr{font-size:11px;font-weight:900;color:var(--jc)}
-.ffxiv-job-lvl{font-size:11px;font-weight:700;color:var(--tx);font-family:monospace}
 
 .ffxiv-hf-search{width:100%;background:var(--c2);border:1px solid var(--glass-border);border-radius:8px;padding:8px 12px;color:var(--tx);font-family:'Nunito',sans-serif;font-size:12px;margin-bottom:10px;outline:none}
 .ffxiv-hf-search:focus{border-color:#C9A959}
@@ -243,21 +243,24 @@ const PLAT_ICON_SVG = {
   playstation: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.984 2.596v17.547l3.915 1.261V6.688c0-.69.304-1.151.794-.991.636.18.76.814.76 1.505v5.875c2.441 1.193 4.362-.002 4.362-3.152 0-3.237-1.126-4.675-4.438-5.827-1.307-.448-3.728-1.186-5.39-1.502zm4.656 16.241l6.296-2.275c.715-.258.826-.625.246-.818-.586-.192-1.637-.139-2.357.123l-4.205 1.5V14.98l.24-.085s1.201-.42 2.913-.615c1.696-.18 3.785.03 5.437.661 1.848.601 2.04 1.472 1.576 2.072-.465.6-1.622 1.036-1.622 1.036l-8.544 3.107V18.86zM1.807 18.6c-1.9-.545-2.214-1.668-1.352-2.32.801-.586 2.16-1.052 2.16-1.052l5.615-2.013v2.313L4.205 17c-.705.271-.825.632-.239.826.586.195 1.637.15 2.343-.12L8.247 17v2.074c-.12.03-.256.044-.39.073-1.939.331-3.996.196-6.038-.479z"/></svg>',
   nintendo: '<svg viewBox="0 0 24 24"><rect x="2" y="2" width="8" height="20" rx="4" fill="#E6002A"/><circle cx="6" cy="7" r="1.3" fill="#fff" opacity=".9"/><rect x="14" y="2" width="8" height="20" rx="4" fill="#2E9CE0"/><circle cx="18" cy="17" r="1.6" fill="#fff" opacity=".9"/></svg>'
 };
-function platIconSvg(p) {
+const FFXIV_LOGO_IMG = '<img src="./ffxiv-logo.png" alt="FFXIV" onerror="this.parentElement.innerHTML=\'<span style=&quot;font-size:9px;font-weight:900&quot;>XIV</span>\'">';
+function platIconSvg(p, ffxiv) {
   const k = (p || '').toLowerCase();
   if (k.includes('playstation')) return PLAT_ICON_SVG.playstation;
-  if (k === 'pc') return PLAT_ICON_SVG.steam;
+  if (k === 'pc') return ffxiv ? FFXIV_LOGO_IMG : PLAT_ICON_SVG.steam;
   if (k.includes('nintendo') || k.includes('switch')) return PLAT_ICON_SVG.nintendo;
   return '';
 }
-function platChipsRaw(plateformes) {
+function platChipsRaw(plateformes, nom) {
+  const ffxiv = isFfxivGame(nom);
   return (plateformes || []).map(p => {
     const c = platColor(p);
-    return `<span class="plat-chip" style="background:${c}22;border-color:${c}66;color:${c}" title="${esc(p)}">${platIconSvg(p)}</span>`;
+    const label = (ffxiv && p.toLowerCase() === 'pc') ? 'FFXIV (launcher officiel)' : p;
+    return `<span class="plat-chip" style="background:${c}22;border-color:${c}66;color:${c}" title="${esc(label)}">${platIconSvg(p, ffxiv)}</span>`;
   }).join('');
 }
-function platBadgesHtml(plateformes) { return `<div class="plat-badges">${platChipsRaw(plateformes)}</div>`; }
-function platBadgesInlineHtml(plateformes) { return `<div style="display:flex;gap:5px;flex-shrink:0">${platChipsRaw(plateformes)}</div>`; }
+function platBadgesHtml(plateformes, nom) { return `<div class="plat-badges">${platChipsRaw(plateformes, nom)}</div>`; }
+function platBadgesInlineHtml(plateformes, nom) { return `<div style="display:flex;gap:5px;flex-shrink:0">${platChipsRaw(plateformes, nom)}</div>`; }
 
 function jeuHue(nom) {
   let h = 0;
@@ -403,7 +406,7 @@ function jeuCardHtml(j, statut) {
       ${progressBarsHtml(j.progression, j.ffxiv)}
     </div>`;
   return `<div class="jeu-card" onclick="openJeuDetailView('${j.id}','${statut}')">
-    ${platBadgesHtml(j.plateformes)}
+    ${platBadgesHtml(j.plateformes, j.nom)}
     <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))">${coverInnerHtml(j)}</div>
     <div class="jeu-card-overlay">
       ${badges ? `<div class="jeu-card-badge-row">${badges}${textCol}</div>` : textCol}
@@ -464,22 +467,44 @@ function openJeuDetailView(id, statut) {
   const prog = jeu.progression || {};
   const hue = jeuHue(jeu.nom);
   const steamAppId = jeu.steamAppId;
+  const ffxiv = isFfxivGame(jeu.nom) && jeu.ffxiv;
 
   const banner = document.getElementById('jeu-detail-banner');
-  banner.style.backgroundColor = `hsl(${hue} 40% 14%)`;
-  banner.style.backgroundImage = steamAppId
-    ? `url('https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/library_hero.jpg')`
-    : (jeu.artwork ? `url('${jeu.artwork}')` : 'none');
-
+  const coverWrap = document.querySelector('.jeu-detail-cover-wrap');
   const coverBox = document.getElementById('jeu-detail-cover');
-  coverBox.style.background = `linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))`;
-  coverBox.innerHTML = coverInnerHtml(jeu);
-
   const logoWrap = document.getElementById('jeu-detail-logo-wrap');
-  if (steamAppId) {
-    logoWrap.innerHTML = `<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/logo.png" alt="${esc(jeu.nom)}" onerror="jeuDetailLogoFallback(this, ${esc(JSON.stringify(jeu.nom))})">`;
+
+  if (ffxiv) {
+    banner.style.backgroundImage = 'none';
+    banner.style.backgroundColor = 'transparent';
+    banner.style.webkitMaskImage = 'none';
+    banner.style.maskImage = 'none';
+    banner.style.height = 'auto';
+    coverWrap.style.display = 'none';
+    logoWrap.style.display = 'none';
+    document.getElementById('jeu-detail-info').style.paddingTop = '18px';
+    banner.innerHTML = ffxivBannerHtml(jeu.ffxiv);
   } else {
-    logoWrap.innerHTML = `<div class="jeu-detail-title-fallback">${esc(jeu.nom)}</div>`;
+    banner.style.webkitMaskImage = '';
+    banner.style.maskImage = '';
+    banner.style.height = '';
+    coverWrap.style.display = '';
+    logoWrap.style.display = '';
+    document.getElementById('jeu-detail-info').style.paddingTop = '';
+
+    banner.style.backgroundColor = `hsl(${hue} 40% 14%)`;
+    banner.style.backgroundImage = steamAppId
+      ? `url('https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/library_hero.jpg')`
+      : (jeu.artwork ? `url('${jeu.artwork}')` : 'none');
+
+    coverBox.style.background = `linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))`;
+    coverBox.innerHTML = coverInnerHtml(jeu);
+
+    if (steamAppId) {
+      logoWrap.innerHTML = `<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/logo.png" alt="${esc(jeu.nom)}" onerror="jeuDetailLogoFallback(this, ${esc(JSON.stringify(jeu.nom))})">`;
+    } else {
+      logoWrap.innerHTML = `<div class="jeu-detail-title-fallback">${esc(jeu.nom)}</div>`;
+    }
   }
 
   const statusLabel = statut === 'termines'
@@ -494,7 +519,7 @@ function openJeuDetailView(id, statut) {
       statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PlayStation')}">${pct}%</strong><span>PlayStation</span>${complete ? `<span class="jeu-detail-stat-badge">${PLATINUM_TROPHY_SVG}</span>` : ''}</div>`;
     }
   }
-  if (prog.PC) {
+  if (prog.PC && !ffxiv) {
     const pct = calcPercentSteam(prog.PC);
     if (pct !== null) statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PC')}">${pct}%</strong><span>Steam</span>${pct === 100 ? `<span class="jeu-detail-stat-badge">${STEAM_100_BADGE_SVG}</span>` : ''}</div>`;
   }
@@ -504,7 +529,7 @@ function openJeuDetailView(id, statut) {
   }
 
   const seen = new Set();
-  const studios = collapseStudios(jeu.studios || []).filter(c => { if (seen.has(c.name)) return false; seen.add(c.name); return true; });
+  const studios = ffxiv ? [] : collapseStudios(jeu.studios || []).filter(c => { if (seen.has(c.name)) return false; seen.add(c.name); return true; });
   const studiosHtml = studios.map(c => c.logo
     ? `<div class="jeu-detail-studio-chip"><img src="${esc(c.logo)}" alt="${esc(c.name)}" title="${esc(c.name)}" onerror="jeuDetailStudioLogoFallback(this, ${esc(JSON.stringify(c.name))})"></div>`
     : `<span class="jeu-detail-studio-name">${esc(c.name)}</span>`
@@ -513,13 +538,13 @@ function openJeuDetailView(id, statut) {
   document.getElementById('jeu-detail-info').innerHTML = `
     <div class="jeu-detail-info-row">
       <span class="jeu-detail-status-badge">${statusLabel}</span>
-      ${platBadgesInlineHtml(jeu.plateformes)}
+      ${platBadgesInlineHtml(jeu.plateformes, jeu.nom)}
     </div>
     <div class="jeu-detail-stats-row">
       ${statsHtml ? `<div class="jeu-detail-stats">${statsHtml}</div>` : '<div></div>'}
       <div class="jeu-detail-studios">${studiosHtml}</div>
     </div>
-    ${jeu.pitch ? `<div class="jeu-detail-pitch">${esc(jeu.pitch)}</div>` : ''}
+    ${(!ffxiv && jeu.pitch) ? `<div class="jeu-detail-pitch">${esc(jeu.pitch)}</div>` : ''}
   `;
 
   document.getElementById('modal-jeu-detail').classList.add('open');
@@ -539,7 +564,7 @@ function openJeuDetailView(id, statut) {
   }
   if (!achHtml) achHtml = `<div class="jeu-detail-empty">Pas de détail de succès disponible pour ce jeu.</div>`;
 
-  if (isFfxivGame(jeu.nom) && jeu.ffxiv) {
+  if (ffxiv) {
     body.innerHTML = `
       <div class="jeu-detail-tabs">
         <button class="jeu-detail-tab-btn active" onclick="switchJeuDetailTab('ingame', this)">🎮 In-game</button>
@@ -573,69 +598,80 @@ let _ffxivCurrentData = null;
 // Onglet "in-game" FFXIV — tout est déjà dans le JSON synchronisé
 // (jeu.ffxiv), aucun appel réseau ici contrairement au panneau local.
 // Photo = jobs, icônes = montures/mascottes, un seul panneau ouvert à la fois.
+// Bannière personnage FFXIV — inspirée de la bannière de profil du
+// Lodestone : portrait à droite, tous les niveaux de job visibles d'un
+// coup à gauche. Tout est déjà dans jeu.ffxiv (synchronisé), pas de
+// polling nécessaire ici contrairement au panneau local.
+function ffxivBannerHtml(d) {
+  const p = d.profile || {};
+  return `<div class="ffxiv-banner">
+    <div class="ffxiv-banner-info">
+      <div class="ffxiv-banner-name">${esc(p.name || '')}</div>
+      ${p.title ? `<div class="ffxiv-banner-title">${esc(p.title)}</div>` : ''}
+      <div class="ffxiv-banner-meta">
+        ${p.world ? `<span>🌐 ${esc(p.world)}</span>` : ''}
+        ${p.freeCompany ? `<span>🏠 ${esc(p.freeCompany)}</span>` : ''}
+        ${d.updatedAt ? `<span style="opacity:.65">Mis à jour le ${new Date(d.updatedAt).toLocaleDateString('fr-FR')}</span>` : ''}
+      </div>
+      ${ffxivMiniJobsHtml(d)}
+    </div>
+    ${(p.portrait || p.avatar) ? `<div class="ffxiv-banner-portrait">
+      <img src="${esc(p.portrait || p.avatar)}" alt="">
+      ${p.activeJobLevel ? `<div class="ffxiv-banner-active">
+        <div class="ffxiv-banner-active-lvl">Niv. ${p.activeJobLevel}</div>
+        ${p.activeJobIcon ? `<img class="ffxiv-banner-active-icon" src="${esc(p.activeJobIcon)}" alt="">` : ''}
+      </div>` : ''}
+    </div>` : ''}
+  </div>`;
+}
+
+function ffxivMiniJobIconFallback(el, abbr) {
+  const span = document.createElement('span');
+  span.className = 'ffxiv-mini-job-fallback';
+  span.textContent = abbr;
+  el.replaceWith(span);
+}
+
+function ffxivMiniJobsHtml(d) {
+  const combat = (d.jobs || []).filter(j => ['tank', 'healer', 'melee', 'ranged', 'caster'].includes(j.role));
+  const crafting = (d.jobs || []).filter(j => ['craft', 'gather'].includes(j.role));
+  const miniJob = j => `<div class="ffxiv-mini-job" title="${esc(j.abbr)} · niveau ${j.level || 0}">${j.icon ? `<img src="${esc(j.icon)}" alt="${esc(j.abbr)}" onerror="ffxivMiniJobIconFallback(this, ${esc(JSON.stringify(j.abbr))})">` : `<span class="ffxiv-mini-job-fallback">${esc(j.abbr)}</span>`}<span>${j.level || '—'}</span></div>`;
+  let special = '';
+  if (d.eureka) special += `<div class="ffxiv-mini-job" title="Eureka · niveau ${d.eureka.level}"><span class="ffxiv-mini-job-fallback" style="color:#C9A959">EU</span><span>${d.eureka.level}</span></div>`;
+  if (d.bozja) special += `<div class="ffxiv-mini-job" title="Bozja · niveau ${d.bozja.level}"><span class="ffxiv-mini-job-fallback" style="color:#C9A959">BZ</span><span>${d.bozja.level}</span></div>`;
+  return `<div class="ffxiv-banner-jobs">
+    <div class="ffxiv-banner-jobs-row">${combat.map(miniJob).join('')}</div>
+    <div class="ffxiv-banner-jobs-row">${crafting.map(miniJob).join('')}${special}</div>
+  </div>`;
+}
+
+// Onglet "in-game" simplifié : les jobs sont dans la bannière, il ne reste
+// ici que les "faux onglets" hauts faits/montures/mascottes.
 function renderFfxivIngame(d) {
   const pane = document.getElementById('jeu-detail-tab-ingame');
   if (!pane) return;
   _ffxivCurrentData = d;
   _ffxivActivePanel = null;
-  const p = d.profile || {};
-
-  const charCard = `<div class="ffxiv-char-card">
-    ${(p.portrait || p.avatar) ? `<img class="ffxiv-char-photo" src="${esc(p.portrait || p.avatar)}" alt="" onclick="toggleFfxivPanel('jobs')" title="Voir tous les jobs">` : ''}
-    <div class="ffxiv-char-info">
-      <div class="ffxiv-char-name">${esc(p.name || '')}</div>
-      ${p.title ? `<div class="ffxiv-char-title">${esc(p.title)}</div>` : ''}
-      <div class="ffxiv-char-meta">
-        ${p.world ? `<span>🌐 ${esc(p.world)}</span>` : ''}
-        ${p.activeJobLevel ? `<span>${p.activeJobIcon ? `<img src="${esc(p.activeJobIcon)}" alt="">` : ''} Niv. ${p.activeJobLevel}</span>` : ''}
-        ${p.freeCompany ? `<span>🏠 ${esc(p.freeCompany)}</span>` : ''}
-      </div>
-      ${d.updatedAt ? `<div style="font-size:9.5px;color:var(--mu);margin-top:4px">Mis à jour le ${new Date(d.updatedAt).toLocaleDateString('fr-FR')} à ${new Date(d.updatedAt).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</div>` : ''}
+  pane.innerHTML = `
+    <div class="ffxiv-triggers-row">
+      <button class="ffxiv-trigger-btn" data-panel="hf" onclick="toggleFfxivPanel('hf')">🏆 Hauts faits</button>
+      <button class="ffxiv-trigger-btn" data-panel="mounts" onclick="toggleFfxivPanel('mounts')">🐴 Montures (${(d.mounts || []).length})</button>
+      <button class="ffxiv-trigger-btn" data-panel="minions" onclick="toggleFfxivPanel('minions')">🐾 Mascottes (${(d.minions || []).length})</button>
     </div>
-    <div class="ffxiv-char-triggers">
-      <button class="ffxiv-trigger-btn" data-panel="hf" onclick="toggleFfxivPanel('hf')" title="Hauts faits">🏆</button>
-      <button class="ffxiv-trigger-btn" data-panel="mounts" onclick="toggleFfxivPanel('mounts')" title="Montures (${(d.mounts || []).length})">🐴</button>
-      <button class="ffxiv-trigger-btn" data-panel="minions" onclick="toggleFfxivPanel('minions')" title="Mascottes (${(d.minions || []).length})">🐾</button>
-    </div>
-  </div>
-  <div class="ffxiv-panel" id="ffxiv-panel-content"></div>`;
-
-  pane.innerHTML = charCard;
+    <div class="ffxiv-panel" id="ffxiv-panel-content"></div>`;
 }
 
 function toggleFfxivPanel(panel) {
   _ffxivActivePanel = (_ffxivActivePanel === panel) ? null : panel;
-  const photo = document.querySelector('.ffxiv-char-photo');
-  if (photo) photo.classList.toggle('active', _ffxivActivePanel === 'jobs');
   document.querySelectorAll('.ffxiv-trigger-btn[data-panel]').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.panel === _ffxivActivePanel);
   });
   const box = document.getElementById('ffxiv-panel-content');
   if (!box || !_ffxivCurrentData) return;
   if (!_ffxivActivePanel) { box.innerHTML = ''; return; }
-  if (_ffxivActivePanel === 'jobs') box.innerHTML = ffxivJobsHtml(_ffxivCurrentData);
-  else if (_ffxivActivePanel === 'mounts') box.innerHTML = ffxivCollectHtml(_ffxivCurrentData.mounts, 'Aucune monture récupérée.');
+  if (_ffxivActivePanel === 'mounts') box.innerHTML = ffxivCollectHtml(_ffxivCurrentData.mounts, 'Aucune monture récupérée.');
   else if (_ffxivActivePanel === 'minions') box.innerHTML = ffxivCollectHtml(_ffxivCurrentData.minions, 'Aucune mascotte récupérée.');
   else if (_ffxivActivePanel === 'hf') { box.innerHTML = `<div id="ffxiv-hf-section"></div>`; renderFfxivAchievements(); }
-}
-
-function ffxivJobsHtml(d) {
-  let html = '';
-  FFXIV_ROLE_ORDER.forEach(role => {
-    const jobsInRole = (d.jobs || []).filter(j => j.role === role);
-    if (!jobsInRole.length) return;
-    html += `<div class="ffxiv-job-group">
-      <div class="ffxiv-job-group-label">${FFXIV_ROLE_LABELS[role]}</div>
-      <div class="ffxiv-job-badges">${jobsInRole.map(j => `<div class="ffxiv-job-badge" style="--jc:${FFXIV_ROLE_COLORS[role]}">${j.icon ? `<img src="${esc(j.icon)}" alt="${esc(j.abbr)}" title="${esc(j.abbr)}" onerror="this.outerHTML='<span class=&quot;ffxiv-job-abbr&quot;>${esc(j.abbr)}</span>'">` : `<span class="ffxiv-job-abbr">${esc(j.abbr)}</span>`}<span class="ffxiv-job-lvl">${j.level || '—'}</span></div>`).join('')}</div>
-    </div>`;
-  });
-  if (d.eureka || d.bozja) {
-    html += `<div class="ffxiv-job-group"><div class="ffxiv-job-group-label">Contenu spécial</div><div class="ffxiv-job-badges">`;
-    if (d.eureka) html += `<div class="ffxiv-job-badge" style="--jc:#C9A959"><span class="ffxiv-job-abbr">Eureka</span><span class="ffxiv-job-lvl">${d.eureka.level}</span></div>`;
-    if (d.bozja) html += `<div class="ffxiv-job-badge" style="--jc:#C9A959"><span class="ffxiv-job-abbr">Bozja</span><span class="ffxiv-job-lvl">${d.bozja.level}</span></div>`;
-    html += `</div></div>`;
-  }
-  return html || `<div class="jeu-detail-empty">Aucune donnée de job récupérée.</div>`;
 }
 
 function ffxivCollectHtml(list, emptyLabel) {
