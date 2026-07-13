@@ -128,6 +128,31 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-ach-name{font-weight:800;font-size:12.5px;color:var(--tx)}
 .jeu-detail-ach-desc{font-size:11px;color:var(--mu);margin-top:2px;line-height:1.4}
 
+/* ── FFXIV : deux onglets dans la popup détail, uniquement pour ce jeu. ── */
+.jeu-detail-tabs{display:flex;gap:8px;margin-bottom:14px;border-bottom:1px solid var(--glass-border)}
+.jeu-detail-tab-btn{font-family:'Nunito',sans-serif;font-size:12px;font-weight:800;padding:8px 16px;border-radius:999px 999px 0 0;background:transparent;border:none;border-bottom:2px solid transparent;color:var(--mu);cursor:pointer;transition:all .15s}
+.jeu-detail-tab-btn:hover{color:var(--tx)}
+.jeu-detail-tab-btn.active{color:#C9A959;border-bottom-color:#C9A959;background:rgba(201,169,89,.08)}
+.jeu-detail-tab-pane{display:none}
+.jeu-detail-tab-pane.active{display:block}
+
+.ffxiv-char-card{display:flex;align-items:center;gap:14px;padding:12px 14px;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:var(--radius-md);margin-bottom:16px}
+.ffxiv-char-card img{width:56px;height:56px;border-radius:10px;object-fit:cover;flex-shrink:0;background:rgba(255,255,255,.05)}
+.ffxiv-char-name{font-weight:900;font-size:14px;color:var(--tx)}
+.ffxiv-char-title{font-size:11px;color:#C9A959;font-style:italic;margin-top:1px}
+.ffxiv-char-meta{font-size:11px;color:var(--mu);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap}
+.ffxiv-char-meta span{display:flex;align-items:center;gap:4px}
+.ffxiv-char-meta img{width:16px;height:16px;border-radius:4px}
+
+.ffxiv-hf-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 12px;border-radius:8px;background:var(--glass-fill);border:1px solid var(--glass-border);margin-bottom:6px}
+.ffxiv-hf-name{font-size:12px;font-weight:700;color:var(--tx)}
+.ffxiv-hf-date{font-size:10.5px;color:var(--mu);font-family:monospace;flex-shrink:0}
+
+.ffxiv-collect-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.ffxiv-collect-item{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:8px;background:var(--glass-fill);border:1px solid var(--glass-border)}
+.ffxiv-collect-item img{width:32px;height:32px;border-radius:6px;object-fit:cover;flex-shrink:0;background:rgba(255,255,255,.05)}
+.ffxiv-collect-item span{font-size:11px;font-weight:700;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
 @media (max-width:900px){
   .jeu-detail-box{width:94vw;min-width:0}
   .jeu-detail-logo-wrap{left:150px;right:20px}
@@ -220,6 +245,9 @@ function jeuHue(nom) {
   for (let i = 0; i < nom.length; i++) h = (h * 31 + nom.charCodeAt(i)) % 360;
   return h;
 }
+function isFfxivGame(nom) {
+  return (nom || '').toLowerCase().includes('final fantasy xiv');
+}
 
 // Beaucoup de jeux AAA listent une dizaine de studios régionaux d'une même
 // maison mère (ex: "Ubisoft Kyiv", "Ubisoft Montpellier"...). On ne garde
@@ -271,9 +299,15 @@ function calcPercentSteam(s) {
   if (!s || !(parseInt(s.total) > 0)) return null;
   return Math.round((parseInt(s.earned) || 0) / parseInt(s.total) * 100);
 }
+function calcPercentXbox(x) {
+  if (!x || !(parseInt(x.total) > 0)) return null;
+  return Math.round((parseInt(x.earned) || 0) / parseInt(x.total) * 100);
+}
 
 const STEAM_100_BADGE_SVG = '<svg viewBox="0 0 24 24"><path d="M12.0,0.5 L14.07,2.93 L16.99,1.64 L17.8,4.73 L20.99,4.83 L20.38,7.96 L23.21,9.44 L21.3,12.0 L23.21,14.56 L20.38,16.04 L20.99,19.17 L17.8,19.27 L16.99,22.36 L14.07,21.07 L12.0,23.5 L9.93,21.07 L7.01,22.36 L6.2,19.27 L3.01,19.17 L3.62,16.04 L0.79,14.56 L2.7,12.0 L0.79,9.44 L3.62,7.96 L3.01,4.83 L6.2,4.73 L7.01,1.64 L9.93,2.93 Z" fill="#3B82F6"/><circle cx="12" cy="12" r="7" fill="#FFC93D"/><path d="M8.5 12.2l2.3 2.3 4.7-4.9" stroke="#7A5300" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const PLATINUM_TROPHY_SVG = '<svg viewBox="0 0 24 24"><path d="M6 5C3 5 2 6.8 2 9c0 2.5 2 3.8 4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M18 5c3 0 4 1.8 4 4 0 2.5-2 3.8-4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M6 3h12v5.2c0 3.4-2.7 6.1-6 6.1S6 11.6 6 8.2V3z" fill="#E8EDF2"/><rect x="10.6" y="14" width="2.8" height="4" fill="#D7DEE6"/><rect x="7.3" y="18" width="9.4" height="1.8" rx="0.5" fill="#E8EDF2"/><rect x="5.8" y="19.9" width="12.4" height="1.7" rx="0.5" fill="#C4CDD6"/></svg>';
+const XBOX_COLOR = '#107C10';
+const XBOX_ICON_SVG = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(45 12 12)"/><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(-45 12 12)"/></svg>';
 
 function progressRowHtml(label, pct, color) {
   return `<div class="jeu-progress-row">
@@ -282,8 +316,8 @@ function progressRowHtml(label, pct, color) {
     <span class="jeu-progress-pct">${pct}%</span>
   </div>`;
 }
-function progressBarsHtml(progression) {
-  if (!progression) return '';
+function progressBarsHtml(progression, ffxivData) {
+  progression = progression || {};
   let rows = '';
   if (progression.PlayStation) {
     const pct = calcPercentPS(progression.PlayStation);
@@ -292,6 +326,16 @@ function progressBarsHtml(progression) {
   if (progression.PC) {
     const pct = calcPercentSteam(progression.PC);
     if (pct !== null) rows += progressRowHtml('PC', pct, platColor('PC'));
+  }
+  if (progression.Xbox) {
+    const pct = calcPercentXbox(progression.Xbox);
+    if (pct !== null) rows += progressRowHtml('XBL', pct, XBOX_COLOR);
+  }
+  if (ffxivData && ffxivData.achievements) {
+    const a = ffxivData.achievements;
+    if (a.earned !== null && a.earned !== undefined && a.total) {
+      rows += progressRowHtml('HF', Math.round(a.earned / a.total * 100), '#C9A959');
+    }
   }
   return rows ? `<div class="jeu-progress-wrap">${rows}</div>` : '';
 }
@@ -305,6 +349,10 @@ function cardBadgesHtml(progression) {
   if (progression.PC) {
     const pct = calcPercentSteam(progression.PC);
     if (pct === 100) icons += STEAM_100_BADGE_SVG;
+  }
+  if (progression.Xbox) {
+    const pct = calcPercentXbox(progression.Xbox);
+    if (pct === 100) icons += XBOX_ICON_SVG;
   }
   return icons ? `<div class="jeu-card-badges-col">${icons}</div>` : '';
 }
@@ -331,7 +379,7 @@ function jeuCardHtml(j, statut) {
   const textCol = `<div class="jeu-card-text-col">
       <div class="jeu-card-label">${esc(j.nom)}</div>
       ${statut === 'enCours' && j.completion ? `<div class="jeu-card-note">${esc(j.completion)}</div>` : ''}
-      ${progressBarsHtml(j.progression)}
+      ${progressBarsHtml(j.progression, j.ffxiv)}
     </div>`;
   return `<div class="jeu-card" onclick="openJeuDetailView('${j.id}','${statut}')">
     ${platBadgesHtml(j.plateformes)}
@@ -429,6 +477,10 @@ function openJeuDetailView(id, statut) {
     const pct = calcPercentSteam(prog.PC);
     if (pct !== null) statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PC')}">${pct}%</strong><span>Steam</span>${pct === 100 ? `<span class="jeu-detail-stat-badge">${STEAM_100_BADGE_SVG}</span>` : ''}</div>`;
   }
+  if (prog.Xbox) {
+    const pct = calcPercentXbox(prog.Xbox);
+    if (pct !== null) statsHtml += `<div class="jeu-detail-stat"><strong style="color:${XBOX_COLOR}">${pct}%</strong><span>Xbox</span>${pct === 100 ? `<span class="jeu-detail-stat-badge">${XBOX_ICON_SVG}</span>` : ''}</div>`;
+  }
 
   const seen = new Set();
   const studios = collapseStudios(jeu.studios || []).filter(c => { if (seen.has(c.name)) return false; seen.add(c.name); return true; });
@@ -454,14 +506,76 @@ function openJeuDetailView(id, statut) {
 
   const body = document.getElementById('jeu-detail-body');
   const ach = jeu.achievements || {};
-  let bodyHtml = '';
+  let achHtml = '';
   if (ach.steam && ach.steam.length) {
-    bodyHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎯 Succès Steam</div>${achievementGridHtml(ach.steam, 'steam')}</div>`;
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎯 Succès Steam</div>${achievementGridHtml(ach.steam, 'steam')}</div>`;
   }
   if (ach.psn && ach.psn.length) {
-    bodyHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🏆 Trophées PlayStation</div>${achievementGridHtml(ach.psn, 'psn')}</div>`;
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🏆 Trophées PlayStation</div>${achievementGridHtml(ach.psn, 'psn')}</div>`;
   }
-  body.innerHTML = bodyHtml || `<div class="jeu-detail-empty">Pas de détail de succès disponible pour ce jeu.</div>`;
+  if (ach.xbox && ach.xbox.length) {
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎮 Succès Xbox</div>${achievementGridHtml(ach.xbox, 'xbox')}</div>`;
+  }
+  if (!achHtml) achHtml = `<div class="jeu-detail-empty">Pas de détail de succès disponible pour ce jeu.</div>`;
+
+  if (isFfxivGame(jeu.nom) && jeu.ffxiv) {
+    body.innerHTML = `
+      <div class="jeu-detail-tabs">
+        <button class="jeu-detail-tab-btn active" onclick="switchJeuDetailTab('ingame', this)">🎮 In-game</button>
+        <button class="jeu-detail-tab-btn" onclick="switchJeuDetailTab('succes', this)">🏆 Succès</button>
+      </div>
+      <div class="jeu-detail-tab-pane active" id="jeu-detail-tab-ingame">${ffxivIngameHtml(jeu.ffxiv)}</div>
+      <div class="jeu-detail-tab-pane" id="jeu-detail-tab-succes">${achHtml}</div>
+    `;
+  } else {
+    body.innerHTML = achHtml;
+  }
+}
+
+function switchJeuDetailTab(tab, btn) {
+  document.querySelectorAll('.jeu-detail-tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.jeu-detail-tab-pane').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  const pane = document.getElementById('jeu-detail-tab-' + tab);
+  if (pane) pane.classList.add('active');
+}
+
+// Onglet "in-game" FFXIV — tout est déjà dans le JSON synchronisé
+// (jeu.ffxiv), aucun appel réseau ici contrairement au panneau local.
+function ffxivIngameHtml(d) {
+  const p = d.profile || {};
+  const charCard = `<div class="ffxiv-char-card">
+    ${(p.portrait || p.avatar) ? `<img src="${esc(p.portrait || p.avatar)}" alt="">` : ''}
+    <div>
+      <div class="ffxiv-char-name">${esc(p.name || '')}</div>
+      ${p.title ? `<div class="ffxiv-char-title">${esc(p.title)}</div>` : ''}
+      <div class="ffxiv-char-meta">
+        ${p.world ? `<span>🌐 ${esc(p.world)}</span>` : ''}
+        ${p.activeJobLevel ? `<span>${p.activeJobIcon ? `<img src="${esc(p.activeJobIcon)}" alt="">` : ''} Niv. ${p.activeJobLevel}</span>` : ''}
+        ${p.freeCompany ? `<span>🏠 ${esc(p.freeCompany)}</span>` : ''}
+      </div>
+    </div>
+  </div>`;
+
+  const a = d.achievements || {};
+  const hfHead = `<div class="jeu-detail-section-head">🏆 Hauts faits${a.earned !== null && a.earned !== undefined ? ` — ${a.earned}${a.total ? ` / ~${a.total}` : ''}` : ''}${a.points ? ` · ${esc(a.points)}` : ''}</div>`;
+  const hfList = (a.recent && a.recent.length)
+    ? a.recent.map(h => `<div class="ffxiv-hf-row">
+        <span class="ffxiv-hf-name">${esc(h.name)}</span>
+        ${h.date ? `<span class="ffxiv-hf-date">${new Date(h.date).toLocaleDateString('fr-FR')}</span>` : ''}
+      </div>`).join('')
+    : `<div class="jeu-detail-empty">Aucun haut fait récupéré.</div>`;
+
+  const collectHtml = (list) => (list && list.length)
+    ? `<div class="ffxiv-collect-grid">${list.map(m => `<div class="ffxiv-collect-item">${m.icon ? `<img src="${esc(m.icon)}" alt="">` : ''}<span title="${esc(m.name)}">${esc(m.name)}</span></div>`).join('')}</div>`
+    : `<div class="jeu-detail-empty">Rien récupéré ici.</div>`;
+
+  return `
+    ${charCard}
+    <div class="jeu-detail-section">${hfHead}${hfList}</div>
+    <div class="jeu-detail-section"><div class="jeu-detail-section-head">🐴 Montures (${(d.mounts || []).length})</div>${collectHtml(d.mounts)}</div>
+    <div class="jeu-detail-section"><div class="jeu-detail-section-head">🐾 Mascottes (${(d.minions || []).length})</div>${collectHtml(d.minions)}</div>
+  `;
 }
 
 function closeJeuDetailModal() {
