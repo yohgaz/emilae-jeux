@@ -354,7 +354,7 @@ function progressRowHtml(iconHtml, pct, color) {
     <span class="jeu-progress-pct">${pct}%</span>
   </div>`;
 }
-function progressBarsHtml(progression, ffxivData) {
+function progressBarsHtml(progression, ffxivData, switchAch) {
   progression = progression || {};
   let rows = '';
   if (progression.PlayStation) {
@@ -377,10 +377,16 @@ function progressBarsHtml(progression, ffxivData) {
       rows += progressRowHtml('🏆', Math.round(a.earned / a.total * 100), 'var(--go)');
     }
   }
+  // Nintendo (Switch/Switch 2) : succès via le système de tâches, déjà
+  // synchronisés dans jeu.achievements.switch — couleur rouge officielle.
+  if (switchAch && switchAch.length) {
+    const earned = switchAch.filter(a => a.earned).length;
+    rows += progressRowHtml(PLAT_ICON_SVG.nintendo, Math.round(earned / switchAch.length * 100), platColor('nintendo'));
+  }
   return rows ? `<div class="jeu-progress-wrap">${rows}</div>` : '';
 }
-function cardBadgesHtml(progression) {
-  if (!progression) return '';
+function cardBadgesHtml(progression, switchAch) {
+  if (!progression) progression = {};
   let icons = '';
   if (progression.PlayStation) {
     const pct = calcPercentPS(progression.PlayStation);
@@ -394,6 +400,7 @@ function cardBadgesHtml(progression) {
     const pct = calcPercentXbox(progression.Xbox);
     if (pct === 100) icons += XBOX_ICON_SVG;
   }
+  if (switchAch && switchAch.length && switchAch.every(a => a.earned)) icons += PLAT_ICON_SVG.nintendo;
   return icons ? `<div class="jeu-card-badges-col">${icons}</div>` : '';
 }
 
@@ -462,11 +469,10 @@ function renderGlobalProgress() {
 
 function jeuCardHtml(j, statut) {
   const hue = jeuHue(j.nom);
-  const badges = cardBadgesHtml(j.progression);
+  const badges = cardBadgesHtml(j.progression, j.achievements && j.achievements.switch);
   const textCol = `<div class="jeu-card-text-col">
       <div class="jeu-card-label">${esc(j.nom)}</div>
-      ${statut === 'enCours' && j.completion ? `<div class="jeu-card-note">${esc(j.completion)}</div>` : ''}
-      ${progressBarsHtml(j.progression, j.ffxiv)}
+      ${progressBarsHtml(j.progression, j.ffxiv, j.achievements && j.achievements.switch)}
     </div>`;
   return `<div class="jeu-card" onclick="openJeuDetailView('${j.id}','${statut}')">
     ${platBadgesHtml(j.plateformes, j.nom)}
