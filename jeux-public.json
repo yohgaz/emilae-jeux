@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T19:29:02.510Z",
+  "updatedAt": "2026-07-14T21:16:28.111Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -32621,17 +32621,27 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784056504",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784056504",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/F/KWI-9P3RX_Ojjn_mwCS2N0-3TI.png",
-          "activeJobLevel": 100,
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784061192",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784061192",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/h/4ghjpyyuNelzw1Bl0sM_PBA_FE.png",
+          "activeJobLevel": 93,
           "freeCompany": "MiaouSpirit"
         },
         "achievements": {
-          "earned": 1865,
+          "earned": 1867,
           "total": 3300,
-          "points": "16350",
+          "points": "16380",
           "recent": [
+            {
+              "id": "3761",
+              "name": "Armes fantômes : faux de guerre fantôme umbra",
+              "date": 1784060577000
+            },
+            {
+              "id": "3591",
+              "name": "Tural Voyages Conseil",
+              "date": 1784060577000
+            },
             {
               "id": "3991",
               "name": "Fournisseur officiel de Tiisol Ja I",
@@ -32873,6 +32883,56 @@
               "date": 1779633153000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "3774",
               "name": "Séjour à l'autel I",
               "date": 1779620674000
@@ -32881,56 +32941,6 @@
               "id": "3700",
               "name": "Outil cosmique : hachette cosmique",
               "date": 1779620674000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "3621",
@@ -33173,6 +33183,56 @@
               "date": 1761384120000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "1318",
               "name": "De main de maître : couturier IV",
               "date": 1759676616000
@@ -33181,56 +33241,6 @@
               "id": "3601",
               "name": "Fournisseur officiel de Nitowikwe V",
               "date": 1758022710000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "3600",
@@ -33473,6 +33483,56 @@
               "date": 1738508620000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "3494",
               "name": "Une ressource d'âmes",
               "date": 1738249399000
@@ -33481,56 +33541,6 @@
               "id": "3520",
               "name": "Cartographe du continent : L'Avant-garde",
               "date": 1737989518000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "3543",
@@ -33773,6 +33783,56 @@
               "date": 1697732764000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "3400",
               "name": "Cartographe du continent : Souterrain lunaire",
               "date": 1697727875000
@@ -33781,56 +33841,6 @@
               "id": "3354",
               "name": "Je sers la science et c'est ma joie IV",
               "date": 1697534014000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "3353",
@@ -34073,6 +34083,56 @@
               "date": 1679045842000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "3170",
               "name": "Fournisseur officiel d'Anden III",
               "date": 1678970194000
@@ -34081,56 +34141,6 @@
               "id": "3130",
               "name": "Armes des Manderville : espadon",
               "date": 1678625205000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "3127",
@@ -34373,6 +34383,56 @@
               "date": 1666811103000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "3106",
               "name": "Cartographe du continent : Château de Troïa",
               "date": 1666710288000
@@ -34381,56 +34441,6 @@
               "id": "3108",
               "name": "Tuer le faux père I",
               "date": 1666560926000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "3066",
@@ -34673,6 +34683,56 @@
               "date": 1639907957000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "2963",
               "name": "Lénifier l'extinction",
               "date": 1639845491000
@@ -34681,56 +34741,6 @@
               "id": "2931",
               "name": "Tout ce qui brille : Prodige",
               "date": 1639753445000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "2968",
@@ -34973,6 +34983,56 @@
               "date": 1638889374000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "1329",
               "name": "Bonne trouvaille : mineur IV",
               "date": 1638886643000
@@ -34981,56 +35041,6 @@
               "id": "2959",
               "name": "À faux et à sang",
               "date": 1638833170000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "2952",
@@ -35273,6 +35283,56 @@
               "date": 1621333922000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "631",
               "name": "Féru de l'alambic III",
               "date": 1620405539000
@@ -35281,56 +35341,6 @@
               "id": "2839",
               "name": "Le comte est bon V",
               "date": 1620301251000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "2632",
@@ -35573,6 +35583,56 @@
               "date": 1615890471000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "2002",
               "name": "Classe mannequin II",
               "date": 1615742635000
@@ -35581,56 +35641,6 @@
               "id": "1913",
               "name": "Chasseur de l'est : rang B",
               "date": 1615575015000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "1731",
@@ -35873,6 +35883,56 @@
               "date": 1607720045000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "2627",
               "name": "Chant artisanal V",
               "date": 1600106450000
@@ -35881,56 +35941,6 @@
               "id": "2280",
               "name": "Toucher du bois : Génie",
               "date": 1600106450000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "2647",
@@ -36173,6 +36183,56 @@
               "date": 1584457375000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "2023",
               "name": "Dompter le Tigre blanc de l'ouest",
               "date": 1584212128000
@@ -36181,56 +36241,6 @@
               "id": "130",
               "name": "L'arme fatale : Sphairai",
               "date": 1584212128000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "2286",
@@ -36473,6 +36483,56 @@
               "date": 1573750881000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "2427",
               "name": "Nul miel sans fiel III",
               "date": 1572952290000
@@ -36481,56 +36541,6 @@
               "id": "1784",
               "name": "Fournisseur officiel de Zhloe VI",
               "date": 1572952290000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "2289",
@@ -36773,6 +36783,56 @@
               "date": 1565566534000
             },
             {
+              "id": null,
+              "name": "the joking lads",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Looking back.",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "chill (Unicorn)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Twin Veils",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Forest of Euphoria",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "The Lalafia",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Solofc",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": ".Insomnia.",
+              "date": null
+            },
+            {
               "id": "2311",
               "name": "Mage blanc guérisseur",
               "date": 1565566534000
@@ -36781,56 +36841,6 @@
               "id": "2251",
               "name": "Élémentaliste emblématique",
               "date": 1565566534000
-            },
-            {
-              "id": null,
-              "name": "fgdw",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Golden Dominion",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Anguille charbon",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "gyudfts",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Characin de Kozama'uka",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Sœur de l'arc-en-ciel",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Get Off My Lawn",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Flambe-queue",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "uuyy",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
-              "date": null
             },
             {
               "id": "2403",
@@ -37073,63 +37083,53 @@
               "date": 1562889763000
             },
             {
-              "id": "715",
-              "name": "Carnet de notes : alchimiste III",
-              "date": 1562889763000
-            },
-            {
-              "id": "630",
-              "name": "Féru de l'alambic II",
-              "date": 1562889763000
-            },
-            {
               "id": null,
-              "name": "fgdw",
+              "name": "the joking lads",
               "date": null
             },
             {
               "id": null,
-              "name": "Golden Dominion",
+              "name": "Looking back.",
               "date": null
             },
             {
               "id": null,
-              "name": "Anguille charbon",
+              "name": "CWLS：熊譚＆豆替、フルパーティ連戦。",
               "date": null
             },
             {
               "id": null,
-              "name": "gyudfts",
+              "name": "Sheep fans UNITE!!!! (Midgardsormr)",
               "date": null
             },
             {
               "id": null,
-              "name": "Characin de Kozama'uka",
+              "name": "chill (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "Sœur de l'arc-en-ciel",
+              "name": "Twin Veils",
               "date": null
             },
             {
               "id": null,
-              "name": "Get Off My Lawn",
+              "name": "Forest of Euphoria",
               "date": null
             },
             {
               "id": null,
-              "name": "Flambe-queue",
+              "name": "The Lalafia",
               "date": null
             },
             {
               "id": null,
-              "name": "uuyy",
+              "name": "Solofc",
               "date": null
             },
             {
               "id": null,
-              "name": "最近店員さんの態度が気になります！ Adrian Quesada - Like a Bird！！",
+              "name": ".Insomnia.",
               "date": null
             }
           ]
@@ -39085,7 +39085,7 @@
           "level": 32,
           "mettle": "2 555 540 / 2 821 901"
         },
-        "updatedAt": "2026-07-14T19:27:19.714Z"
+        "updatedAt": "2026-07-14T21:15:03.899Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
