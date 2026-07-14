@@ -224,6 +224,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
     <div class="jeu-detail-banner" id="jeu-detail-banner">
       <div class="jeu-detail-cover-wrap"><div class="jeu-detail-cover" id="jeu-detail-cover"></div></div>
       <div class="jeu-detail-logo-wrap" id="jeu-detail-logo-wrap"></div>
+      <div id="ffxiv-banner-container" style="display:none"></div>
     </div>
     <div class="jeu-detail-info" id="jeu-detail-info"></div>
     <div class="jeu-detail-feed" id="jeu-detail-body"></div>
@@ -477,6 +478,7 @@ function openJeuDetailView(id, statut) {
   const coverWrap = document.querySelector('.jeu-detail-cover-wrap');
   const coverBox = document.getElementById('jeu-detail-cover');
   const logoWrap = document.getElementById('jeu-detail-logo-wrap');
+  const ffxivBannerBox = document.getElementById('ffxiv-banner-container');
 
   if (ffxiv) {
     banner.style.backgroundImage = 'none';
@@ -486,14 +488,16 @@ function openJeuDetailView(id, statut) {
     banner.style.height = 'auto';
     coverWrap.style.display = 'none';
     logoWrap.style.display = 'none';
+    ffxivBannerBox.style.display = 'block';
     document.getElementById('jeu-detail-info').style.paddingTop = '18px';
-    banner.innerHTML = ffxivBannerHtml(jeu.ffxiv);
+    ffxivBannerBox.innerHTML = ffxivBannerHtml(jeu.ffxiv);
   } else {
     banner.style.webkitMaskImage = '';
     banner.style.maskImage = '';
     banner.style.height = '';
     coverWrap.style.display = '';
     logoWrap.style.display = '';
+    ffxivBannerBox.style.display = 'none';
     document.getElementById('jeu-detail-info').style.paddingTop = '';
 
     banner.style.backgroundColor = `hsl(${hue} 40% 14%)`;
