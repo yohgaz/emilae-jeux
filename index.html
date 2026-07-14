@@ -734,6 +734,7 @@ function renderFfxivIngame(d) {
       <button class="ffxiv-trigger-btn" data-panel="minions" onclick="toggleFfxivPanel('minions')">🐾 Mascottes (${(d.minions || []).length})</button>
     </div>
     <div class="ffxiv-panel" id="ffxiv-panel-content"></div>`;
+  toggleFfxivPanel('hf'); // les hauts faits obtenus s'ouvrent directement, pas besoin de cliquer
 }
 
 function toggleFfxivPanel(panel) {
@@ -759,7 +760,7 @@ function renderFfxivAchievements() {
   const section = document.getElementById('ffxiv-hf-section');
   if (!section || !_ffxivCurrentData) return;
   const a = _ffxivCurrentData.achievements || {};
-  _ffxivHfList = (a.recent || []).slice().sort((x, y) => (x.date || 0) - (y.date || 0));
+  _ffxivHfList = (a.recent || []).slice().sort((x, y) => (y.date || 0) - (x.date || 0));
   const head = `<div class="jeu-detail-section-head">🏆 Hauts faits${a.earned !== null && a.earned !== undefined ? ` — ${a.earned}${a.total ? ` / ~${a.total}` : ''}` : ''}${a.points ? ` · ${esc(a.points)}` : ''}</div>`;
   section.innerHTML = `${head}<input type="text" class="ffxiv-hf-search" placeholder="Rechercher un haut fait..." oninput="filterFfxivHf(this.value)"><div id="ffxiv-hf-list">${ffxivHfRowsHtml(_ffxivHfList)}</div>`;
 }
