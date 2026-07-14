@@ -38,6 +38,11 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .social-card-logo img{height:100%;width:auto;max-width:90px;object-fit:contain;display:block}
 .social-card-links{display:flex;flex-direction:column;justify-content:center;gap:9px}
 .social-link{display:flex;align-items:center;gap:10px;color:var(--tx);text-decoration:none;font-size:13px;font-weight:700;transition:color .15s}
+.social-progress{margin-top:5px;padding-top:10px;border-top:1px solid var(--glass-border)}
+.social-progress-label{display:flex;justify-content:space-between;gap:14px;font-size:11px;font-weight:800;color:var(--tx);margin-bottom:5px}
+.social-progress-label span:last-child{color:var(--cy);font-family:monospace}
+.social-progress-bar{height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden;width:210px}
+.social-progress-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--cy),var(--go));transition:width .4s}
 .social-link:hover{color:var(--cy)}
 .social-icon{width:19px;height:19px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
 .social-icon svg{width:100%;height:100%;display:block}
@@ -129,6 +134,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-ach-text{flex:1;min-width:0}
 .jeu-detail-ach-name{font-weight:800;font-size:12.5px;color:var(--tx)}
 .jeu-detail-ach-desc{font-size:11px;color:var(--mu);margin-top:2px;line-height:1.4}
+.jeu-detail-ach-noicon{width:42px;height:42px;border-radius:7px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;font-size:18px;opacity:.45}
 
 /* ── FFXIV : deux onglets dans la popup détail, uniquement pour ce jeu. ── */
 .jeu-detail-tabs{display:flex;gap:8px;margin-bottom:14px;border-bottom:1px solid var(--glass-border)}
@@ -201,6 +207,10 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
           <span class="social-icon" style="color:#1185FE"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg></span>
           <span>emilae-tv.eurosky.social</span>
         </a>
+        <div class="social-progress" id="social-progress" style="display:none">
+          <div class="social-progress-label"><span>🎮 Progression globale</span><span id="social-progress-pct">0%</span></div>
+          <div class="social-progress-bar"><div class="social-progress-fill" id="social-progress-fill" style="width:0%"></div></div>
+        </div>
       </div>
     </div>
 
@@ -237,7 +247,7 @@ let _jeuxData = { termines: [], enCours: [] };
 function esc(s) { return (s || '').toString().replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
 
 // ── Plateformes : icônes réelles Steam/PlayStation, pictogramme maison Nintendo ──
-const PLAT_COLOR = { 'playstation': '#0070D1', 'pc': '#6FDA9A', 'nintendo': '#E4000F', 'switch': '#E4000F' };
+const PLAT_COLOR = { 'playstation': '#0070D1', 'pc': '#66C0F4', 'xbox': '#107C10', 'nintendo': '#E4000F', 'switch': '#E4000F' };
 function platColor(p) {
   const k = (p || '').toLowerCase();
   for (const key in PLAT_COLOR) if (k.includes(key)) return PLAT_COLOR[key];
@@ -253,6 +263,7 @@ function platIconSvg(p, ffxiv) {
   const k = (p || '').toLowerCase();
   if (k.includes('playstation')) return PLAT_ICON_SVG.playstation;
   if (k === 'pc') return ffxiv ? FFXIV_LOGO_IMG : PLAT_ICON_SVG.steam;
+  if (k === 'xbox') return XBOX_ICON_SVG;
   if (k.includes('nintendo') || k.includes('switch')) return PLAT_ICON_SVG.nintendo;
   return '';
 }
@@ -400,6 +411,53 @@ async function loadJeux() {
     return;
   }
   renderJeux();
+  renderGlobalProgress();
+}
+
+// Moyenne d'avancée sur toute la bibliothèque. Un jeu multi-plateforme ne
+// compte qu'une fois — on garde la source qui a le plus de succès/trophées
+// obtenus (pas forcément le plus haut pourcentage), pour refléter la
+// progression la plus "vécue" plutôt qu'un doublon qui gonflerait la moyenne.
+function renderGlobalProgress() {
+  const box = document.getElementById('social-progress');
+  const all = [..._jeuxData.termines, ..._jeuxData.enCours];
+  const percents = [];
+
+  all.forEach(j => {
+    const prog = j.progression || {};
+    const candidates = [];
+    if (prog.PlayStation) {
+      const pct = calcPercentPS(prog.PlayStation);
+      if (pct !== null) {
+        const earned = ['bronze', 'argent', 'or'].reduce((sum, k) => sum + (parseInt(prog.PlayStation[k]?.earned) || 0), 0);
+        candidates.push({ pct, earned });
+      }
+    }
+    if (prog.PC) {
+      const pct = calcPercentSteam(prog.PC);
+      if (pct !== null) candidates.push({ pct, earned: parseInt(prog.PC.earned) || 0 });
+    }
+    if (prog.Xbox) {
+      const pct = calcPercentXbox(prog.Xbox);
+      if (pct !== null) candidates.push({ pct, earned: parseInt(prog.Xbox.earned) || 0 });
+    }
+    if (j.ffxiv && j.ffxiv.achievements) {
+      const a = j.ffxiv.achievements;
+      if (a.earned !== null && a.earned !== undefined && a.total) {
+        candidates.push({ pct: Math.round(a.earned / a.total * 100), earned: a.earned });
+      }
+    }
+    if (candidates.length) {
+      candidates.sort((a, b) => b.earned - a.earned);
+      percents.push(candidates[0].pct);
+    }
+  });
+
+  if (!percents.length) { box.style.display = 'none'; return; }
+  const avg = Math.round(percents.reduce((a, b) => a + b, 0) / percents.length);
+  document.getElementById('social-progress-pct').textContent = avg + '%';
+  document.getElementById('social-progress-fill').style.width = avg + '%';
+  box.style.display = '';
 }
 
 function jeuCardHtml(j, statut) {
@@ -569,6 +627,9 @@ function openJeuDetailView(id, statut) {
   }
   if (ach.xbox && ach.xbox.length) {
     achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎮 Succès Xbox</div>${achievementGridHtml(ach.xbox, 'xbox')}</div>`;
+  }
+  if (ach.switch && ach.switch.length) {
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎮 Succès (via tâches)</div>${achievementGridHtml(ach.switch, 'switch')}</div>`;
   }
   if (!achHtml) achHtml = `<div class="jeu-detail-empty">Pas de détail de succès disponible pour ce jeu.</div>`;
 
@@ -740,9 +801,12 @@ function achievementGridHtml(list, kind) {
     const secret = kind === 'psn' && a.hidden && !a.earned;
     const name = secret ? 'Trophée secret' : (a.name || '');
     const desc = secret ? "Débloque-le pour découvrir de quoi il s'agit." : (a.description || '');
+    const iconHtml = icon
+      ? `<img src="${esc(icon)}" alt="" onerror="this.style.visibility='hidden'">`
+      : (kind === 'switch' ? `<div class="jeu-detail-ach-noicon">🏆</div>` : `<img src="" alt="" style="visibility:hidden">`);
     return `<div class="jeu-detail-ach ${a.earned ? 'earned' : 'locked'}">
       <div class="jeu-detail-ach-icon-wrap">
-        <img src="${esc(icon || '')}" alt="" onerror="this.style.visibility='hidden'">
+        ${iconHtml}
         <span class="jeu-detail-ach-badge ${a.earned ? 'earned' : 'locked'}" title="${a.earned ? 'Obtenu' : 'Verrouillé'}">${a.earned ? CHECK_SVG : LOCK_SVG}</span>
       </div>
       <div class="jeu-detail-ach-text">
