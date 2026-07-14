@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T09:13:57.340Z",
+  "updatedAt": "2026-07-14T09:51:34.187Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -28057,66 +28057,6 @@
       ]
     },
     {
-      "id": "1665bee43137419191fc061b037195d8",
-      "nom": "Xenoblade Chronicles 2",
-      "plateformes": [
-        "Nintendo"
-      ],
-      "annee": null,
-      "steamAppId": null,
-      "igdbId": "26766",
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r2.jpg",
-      "progression": {},
-      "achievements": {
-        "switch": [
-          {
-            "name": "甦醒的少女",
-            "description": "完成序章故事",
-            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/6365b897ed388cbd598088dfee90b1fc73d18b71.jpg",
-            "earned": false
-          },
-          {
-            "name": "暗雲",
-            "description": "完成第三章故事",
-            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/c4c803971f894848a3e94a3778785dea5a2485e4.jpg",
-            "earned": false
-          },
-          {
-            "name": "命運的抉擇",
-            "description": "完成第八章故事",
-            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/a362e0a3dfea3bc1ddb625c29224de12abc7de7e.jpg",
-            "earned": false
-          },
-          {
-            "name": "愛麗絲",
-            "description": "完成關卡【愛麗絲】",
-            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/5ccbab272f2564d11665cc734b92695bb5e71c6d.jpg",
-            "earned": false
-          },
-          {
-            "name": "伊修利亞之王",
-            "description": "完成關卡【伊修利亞之王】",
-            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/4cdbb8329b9f66965d49567f5ec29cee21aa86fa.jpg",
-            "earned": false
-          },
-          {
-            "name": "舊日的貴族",
-            "description": "救出艾蕾雅",
-            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/8c362774698b0269f0e3f5415b764caed93978ec.jpg",
-            "earned": false
-          },
-          {
-            "name": "交錯之刃",
-            "description": "困難難度下完成關卡【交錯之刃】",
-            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/90126ceacfc4ab19f911ab69180d6d5122c087a9.jpg",
-            "earned": false
-          }
-        ]
-      },
-      "pitch": "Lost in a sea of clouds, entire civilizations rest on the backs of Titans. As the giant beasts march toward death, the last hope is a scavenger named Rex—and Pyra, a living weapon known as a Blade. Can you find the fabled paradise she calls home? Command a group of Blades and lead them to countless strategic victories before the world ends. Purchase this bundle to own both Xenoblade Chronicles 2 and the Expansion Pass.\n\nWith the Xenoblade Chronicles 2 Expansion Pass, you’ll gain access to some titanic new content, including new Rare Blades such as Shulk and Fiora, bonus items, new quests, Challenge Battle mode, and the new stand-alone game, Xenoblade Chronicles 2: Torna ~ The Golden Country!",
-      "studios": []
-    },
-    {
       "id": "ff17381bbf524a83b76298037d55c70c",
       "nom": "Zelda BOW",
       "plateformes": [
@@ -28130,6 +28070,109 @@
       "achievements": {},
       "pitch": null,
       "studios": []
+    },
+    {
+      "id": "1665bee43137419191fc061b037195d8",
+      "nom": "Xenoblade Chronicles 2_ Definitive Edition - Nintendo Switch 2 Edition",
+      "plateformes": [
+        "Switch 2"
+      ],
+      "annee": null,
+      "steamAppId": null,
+      "igdbId": "26766",
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r2.jpg",
+      "progression": {},
+      "achievements": {
+        "switch": [
+          {
+            "name": "Tireur d'élite",
+            "description": "Tuez chaque cible d'une seule balle",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/9f690a3b3ae1daab218b1bbcd2eba13430377255.jpg",
+            "earned": false
+          },
+          {
+            "name": "Matière grise",
+            "description": "Résolvez toutes les énigmes",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/b6cbf51596d69562492790e570b765857785fb6f.jpg",
+            "earned": false
+          },
+          {
+            "name": "Tour de Force",
+            "description": "Réussissez tous les QTE",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/732907cda5b4dba7f3e116229acf7a0db3c31a28.jpg",
+            "earned": false
+          },
+          {
+            "name": "Le facteur sonne toujours deux fois",
+            "description": "Ouvrez toutes les boîtes à lettres",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/ddef0a6e17c101800f7b1a50b734304de6120091.jpg",
+            "earned": false
+          },
+          {
+            "name": "Fin limier",
+            "description": "Terminez le jeu",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/c33443ed8e26440db21cb6cf019b8b478414d5f0.jpg",
+            "earned": false
+          },
+          {
+            "name": "Summa Cum Laude",
+            "description": "Résolvez chaque énigme dès la première tentative",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/a567525b89f789d9da32be908f131a4dda8b3f05.jpg",
+            "earned": false
+          },
+          {
+            "name": "Coup de maître",
+            "description": "Réussissez chaque QTE dès la première tentative",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/80649bf67948a33d67b906bc65c4986809449019.jpg",
+            "earned": false
+          },
+          {
+            "name": "Flair infaillible",
+            "description": "Terminez le jeu avec le grade A",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/a0ba15cc7c2a6f8ccd5c8be654d50c383799fc77.jpg",
+            "earned": false
+          },
+          {
+            "name": "Affaire classée",
+            "description": "Terminez le jeu à 100 %",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/b17eb572bdd0d12fb8356e151f4ce17ed4937c4f.jpg",
+            "earned": false
+          },
+          {
+            "name": "Un train à prendre",
+            "description": "Terminez le jeu à 100 % en un temps record",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/eea2e36791e63cc787e0ee52f38e088eed985b24.jpg",
+            "earned": false
+          },
+          {
+            "name": "Avec modération",
+            "description": "Réussissez votre premier QTE",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/354db0c0662401002a8f5524d7d053c4f8130b14.jpg",
+            "earned": false
+          },
+          {
+            "name": "C'est dans la poche",
+            "description": "Résolvez la première énigme",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/312050/2788d7bb12419bc87085ab8186e1996d1a0b196c.jpg",
+            "earned": false
+          }
+        ]
+      },
+      "pitch": "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition includes the additions and enhancements from the Definitive Edition, along with even more made possible by the power of the Nintendo Switch 2 system - including added features, a smoother frame rate, 4K resolution in TV mode, and full HD in handheld mode.",
+      "studios": [
+        {
+          "name": "Monolith Soft",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl4xq.png",
+          "developer": true,
+          "publisher": false
+        },
+        {
+          "name": "Nintendo",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl8bi.png",
+          "developer": false,
+          "publisher": true
+        }
+      ]
     }
   ],
   "enCours": [
@@ -30156,8 +30199,8 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784017478",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784017478",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784021078",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784021078",
           "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/m/1kMI2v_KEVgo30RFvdFCyySkFo.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
@@ -30419,52 +30462,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -30719,52 +30762,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -31019,52 +31062,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -31319,52 +31362,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -31619,52 +31662,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -31919,52 +31962,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -32219,52 +32262,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -32519,52 +32562,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -32819,52 +32862,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -33119,52 +33162,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -33419,52 +33462,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -33719,52 +33762,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -34019,52 +34062,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -34319,52 +34362,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             },
             {
@@ -34619,52 +34662,52 @@
             },
             {
               "id": null,
-              "name": "ポッチ戦隊",
+              "name": "ゾディアックウェポンと制限解除押し間違えたお話",
               "date": null
             },
             {
               "id": null,
-              "name": "Black Heaven",
+              "name": "tagga",
               "date": null
             },
             {
               "id": null,
-              "name": "にゃんこ様の落とし物🐈",
+              "name": "【アシエン・ナプリアレス討滅戦】次元の狭間の死闘と、ムーンブリダの輝き！",
               "date": null
             },
             {
               "id": null,
-              "name": "Moram",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "exs",
+              "name": "NoVa (Unicorn)",
               "date": null
             },
             {
               "id": null,
-              "name": "心を抉るおかわり",
+              "name": "～琴散歩 #17～",
               "date": null
             },
             {
               "id": null,
-              "name": "fdMCboo",
+              "name": "Cried",
               "date": null
             },
             {
               "id": null,
-              "name": "Noctis Crescent",
+              "name": "Shopping King",
               "date": null
             },
             {
               "id": null,
-              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "EXIGE",
               "date": null
             },
             {
               "id": null,
-              "name": "megastar",
+              "name": "【初絶歓迎】絶アレキ固定募集！8/10日以降開始！週４の３時間４週間目安！！",
               "date": null
             }
           ]
@@ -36620,7 +36663,7 @@
           "level": 32,
           "mettle": "2 555 540 / 2 821 901"
         },
-        "updatedAt": "2026-07-14T09:13:56.167Z"
+        "updatedAt": "2026-07-14T09:45:54.192Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
@@ -36691,121 +36734,229 @@
         "switch": [
           {
             "name": "Finir le chapitre 1",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 1",
             "icon": null,
             "earned": true
           },
           {
             "name": "Finir le chapitre 2",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 2",
             "icon": null,
             "earned": true
           },
           {
             "name": "Finir le chapitre 3",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 3",
             "icon": null,
             "earned": true
           },
           {
             "name": "Finir le chapitre 4",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 4",
             "icon": null,
             "earned": true
           },
           {
             "name": "Finir le chapitre 5",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 5",
             "icon": null,
             "earned": true
           },
           {
             "name": "Finir le chapitre 6",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 6",
             "icon": null,
             "earned": true
           },
           {
             "name": "Finir le chapitre 7",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 7",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 8",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 8",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 9",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 9",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 10",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 10",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapotre 11",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 11",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 12",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 12",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 13",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 13",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 14",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 14",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 15",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 15",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 16",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 16",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre 17",
-            "description": "",
+            "description": "Finir l'histoire du chapitre 17",
             "icon": null,
             "earned": false
           },
           {
             "name": "Finir le chapitre additionnel",
-            "description": "",
+            "description": "Finir le chapitre additionnel: Un avenir commun",
             "icon": null,
             "earned": false
           },
           {
             "name": "Colonie 6 tout beau tout neuf",
-            "description": "",
+            "description": "Construire intégralement la colonie 6",
             "icon": null,
             "earned": false
           },
           {
-            "name": "Avoir les 5 étoiles de la colonie 9",
-            "description": "",
+            "name": "Bon samaritain colonie 9",
+            "description": "Avoir les 5 étoiles de la colonie 9",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Bon samaritain Plaine de Gaur",
+            "description": "Avoir les 5 étoiles au Plaine de Gaur",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Bon samaritain Défilé de Satorl",
+            "description": "Avoir les 5 étoiles au défilé de Satorl",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Bon samaritain Bionis intérieur",
+            "description": "Avoir les 5 étoiles à Bionis inférieur",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Bon samaritain Erèse / le Bras gisant",
+            "description": "Avoir les 5 étoiles à Erèse / Le bras de Bionis",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Bon samaritain Village de Machina",
+            "description": "Avoir les 5 étoiles au village des Machina",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Bon samaritain Village de Nopon",
+            "description": "Avoir les 5 étoiles Au village des Nopons",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Encyclopédie",
+            "description": "remplir l'encyclopédie de chaque zone à 100%",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Globe trotter",
+            "description": "Visiter toute les régions de Bionis",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Petit joueur",
+            "description": "Jouer 10h",
+            "icon": null,
+            "earned": true
+          },
+          {
+            "name": "On s'amuse bien",
+            "description": "Jouer 50h",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Il est ou le temps ?",
+            "description": "Jouer 100h",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Shulk",
+            "description": "Améliorer l’entente entre les personnages à leurs maximums",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Reyn",
+            "description": "Améliorer l’entente entre les personnages à leurs maximums",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Fiora",
+            "description": "Améliorer l’entente entre les personnages à leurs maximums",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Dunban",
+            "description": "Améliorer l’entente entre les personnages à leurs maximums",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Sharla",
+            "description": "Améliorer l’entente entre les personnages à leurs maximums",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Melia",
+            "description": "Améliorer l’entente entre les personnages à leurs maximums",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Riki",
+            "description": "Améliorer l’entente entre les personnages à leurs maximums",
             "icon": null,
             "earned": false
           }
