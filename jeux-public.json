@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T21:44:01.403Z",
+  "updatedAt": "2026-07-14T09:13:57.340Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -16623,7 +16623,538 @@
       "igdbId": null,
       "igdbCover": null,
       "progression": {},
-      "achievements": {},
+      "achievements": {
+        "switch": [
+          {
+            "name": "Une histoire bien à vous",
+            "description": "Vous avez débloqué tous les succès.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/3d5ab0a233588745b985ce583343637b349c0a5f.jpg",
+            "earned": false
+          },
+          {
+            "name": "Départ – L'Attisement",
+            "description": "Ayant récupéré les braises dans la Grotte des origines, Ophilia se lance dans la première étape de l'Attisement en tant que porte-flamme.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/ef238f022eed055a62d0615d6a3f466199a074de.jpg",
+            "earned": true
+          },
+          {
+            "name": "Conseils bienveillants",
+            "description": "Une fois le rite accompli, Ophilia aide trois enfants à se réconcilier avant de poursuivre son périple.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/7efec7fa79ad86588996eba32008fb4fe5eed59d.jpg",
+            "earned": true
+          },
+          {
+            "name": "Le Sauveur",
+            "description": "Ophilia sauve l'enfant enlevée par les disciples du Sauveur et accomplit le rite. Trahie par Lianna, elle doit se rendre au plus vite à Murmoulin, dans les Basses plaines, pour y retrouver sa sœur et les braises volées.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2228e56cd269d3a8de51464ba12c93f23fb786a1.jpg",
+            "earned": true
+          },
+          {
+            "name": "Leur endroit préféré",
+            "description": "Ayant vaincu le Sauveur et sauvé Lianna, Ophilia continue à prodiguer ses conseils aux habitants du pays. Que la Flamme sacrée illumine votre chemin.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/eefe2b19f65c8525428491e3b67e3d3444992777.jpg",
+            "earned": true
+          },
+          {
+            "name": "Départ – À la recherche de la vérité",
+            "description": "Expulsé de l'Académie, Cyrus décide de partir à la recherche d'un livre intitulé « Au fin fond de l'enfer », disparu depuis quinze ans.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/18c43e8fe89f00922f45d79c8bd3c49543d1923b.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sur les traces du livre",
+            "description": "Cyrus ayant réussi à comprendre pourquoi des habitants disparaissaient, Odette et lui découvrent où a été fabriqué un exemplaire du livre.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/5ff77eedd16a3184aca3320a453ab32e1db0f7d0.jpg",
+            "earned": true
+          },
+          {
+            "name": "Le directeur diabolique",
+            "description": "Le directeur Yvon vaincu, Cyrus se lance à la poursuite de celle qui a ourdi ce plan machiavélique et qui n'est autre que Lucia, l'assistante du directeur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2112c2cfaa31140e0c39eef69f5371be8f2c150f.jpg",
+            "earned": true
+          },
+          {
+            "name": "Pour les générations futures",
+            "description": "Après avoir vaincu Lucia dans les ruines antiques, Cyrus parvient à déchiffrer « Au fin fond de l'enfer ». Il continue depuis ses recherches, plus décidé que jamais à transmettre son savoir aux générations futures.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/92249feaff67459b70791d36a773ba11d372375f.jpg",
+            "earned": true
+          },
+          {
+            "name": "Départ - En quête de trésors",
+            "description": "Tressa rêve de devenir une marchande de renom. Lorsque le capitaine Léon lui remet un étrange carnet, elle décide de partir à la découverte de tous les trésors du monde.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/57e838f7171859422bc5ed61dc16668d55091197.jpg",
+            "earned": true
+          },
+          {
+            "name": "La Foire marchande",
+            "description": "Tressa vient en aide à Ali, son rival, et chasse Morlock de la ville. Avant de reprendre sa route, elle promet à Ali qu'ils se recroiseront bientôt à la Foire marchande.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/6c079936280423185a3e2254ee66e57d289d3aaa.jpg",
+            "earned": true
+          },
+          {
+            "name": "Le plus précieux des trésors",
+            "description": "Tressa retrouve Léon, qui lui parle de son vieil ami Baltazar. Elle se demande alors ce qu'elle chérit le plus, et s'interrogeant toujours, elle prend la route de Grand-port et de la Foire marchande.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/dfb9888d219b2f26bce034460b0f3484805c74ed.jpg",
+            "earned": true
+          },
+          {
+            "name": "Le chapitre suivant",
+            "description": "Ayant compris que son trésor le plus précieux n'est autre que son voyage, c'est une Tressa satisfaite qui confie le carnet à Noa afin qu'elle y écrive le chapitre suivant. La jeune fille poursuit ensuite son rêve de devenir une célèbre marchande.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/3eba270362580f4a71bb7d9e7b98886aea13f6e2.jpg",
+            "earned": true
+          },
+          {
+            "name": "Départ – Une détermination renouvelée",
+            "description": "Les habitants de Paveton se sont réunis pour souhaiter bon voyage à leur héros, Olberic. Ayant terrassé les brigands qui terrorisaient la ville, Olberic prend la route avec une détermination renouvelée.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/944aa5b9da8c00662afc234d7b6d6c88c688f7fd.jpg",
+            "earned": true
+          },
+          {
+            "name": "Une raison de se battre",
+            "description": "Olberic remporte le tournoi et s'aventure dans le désert, sur les traces d'Erhardt.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/a4e8522f9a2a74c401dd8dab73526d18aa878e6d.jpg",
+            "earned": true
+          },
+          {
+            "name": "Les lames jumelles de Cornebourg",
+            "description": "Les retrouvailles des lames jumelles de Cornebourg sont écourtées quand Olberic décide de partir à la recherche de son véritable adversaire, le tyrannique Werner.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/3e4c6e5f4c279c8bf5153fb157df592e114cf61a.jpg",
+            "earned": true
+          },
+          {
+            "name": "Éternel protecteur",
+            "description": "Werner étant désormais hors d'état de nuire, Olberic poursuit son voyage et jure de protéger ceux qui en ont besoin.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/ed3a0968d1a8da9d551b85352fb98a1474811f39.jpg",
+            "earned": true
+          },
+          {
+            "name": "Départ – Vengeance",
+            "description": "Ayant enfin trouvé la piste qu'il lui fallait, Primrose s'élance à la poursuite des trois hommes portant la marque du corbeau, dont elle a juré de se venger.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/f646c663ce78fde53ff3cf67c97791e29edebd4d.jpg",
+            "earned": true
+          },
+          {
+            "name": "La foi est ton bouclier",
+            "description": "Primrose raye de sa liste Rufus, l'aile gauche du corbeau, avant de poursuivre sa quête et tenter d'apprendre la vérité sur la mort de son père.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/1d418442f3bb34d245041b75cb9e334344db7246.jpg",
+            "earned": true
+          },
+          {
+            "name": "Un lieu familier",
+            "description": "Primrose triomphe d'Albus, l'aile droite du corbeau, et apprend la terrible vérité : c'est Siméon, son ami d'enfance, qui est responsable du meurtre de son père.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/66b1da73ab67510c178c51c0aec51479108ae5e1.jpg",
+            "earned": true
+          },
+          {
+            "name": "Une promesse réalisée",
+            "description": "Sa vengeance assouvie, Primrose commence une nouvelle vie et se promet de continuer à danser.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/a9805a290a303e7748a094f89f7f6143dc1202bc.jpg",
+            "earned": true
+          },
+          {
+            "name": "Départ – Guérison",
+            "description": "Encouragé par Zeph, son meilleur ami, Alfyn quitte son village pour aller soigner les malades et blessés d'Orsterra.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/381d412cfb5a90397decbcad6293df73fe506561.jpg",
+            "earned": true
+          },
+          {
+            "name": "Le charlatan",
+            "description": "En sauvant une petite fille, Alfyn révèle au grand jour la machination de Vanessa : l'apothicaire empoisonnait les habitants de Havre d'or pour pouvoir s'enrichir en les soignant ! Il reprend ensuite la route pour se rendre à Pont-aux-saints, la plus grande ville de Ruisselande.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/1d2dc421245623c8cfe4c85e7e2aba99136839e1.jpg",
+            "earned": true
+          },
+          {
+            "name": "La valeur de la vie",
+            "description": "La confiance d'Alfyn dans le bien-fondé de son voyage est mise à mal lorsqu'un homme qu'il a sauvé manque de tuer un enfant. Alors qu'il se rend au Belvédère, l'apothicaire est hanté par les paroles d'Ogen. Certaines vies ne méritent donc pas d'être sauvées ?",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/8d2bdc979b2fda17e902c6afd505c63b4194c92e.jpg",
+            "earned": true
+          },
+          {
+            "name": "Les paroles de son héros",
+            "description": "Alfyn soigne Ogen et poursuit son voyage, bien décidé à vivre selon les idéaux de Graham, l'apothicaire itinérant à qui il devait la vie.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/f250f4169577a168b78b2905d928725f29692a92.jpg",
+            "earned": true
+          },
+          {
+            "name": "Départ – Pour le maître",
+            "description": "H'aanit et Linde, sa fidèle panthère des neiges, partent à la recherche de maître Z'aanta, qui a disparu depuis trop longtemps déjà.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/da652b320be418992f62bbe6a68e4b18fe2dac8d.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sur les traces du maître",
+            "description": "H'aanit découvre le corps pétrifié de Z'aanta, terrassé par la bête surnommée Œil-rouge. Suivant les instructions laissées par son maître, la jeune femme se rend auprès de Susanna la voyante.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/18b0da37dc834b9cf505ee07f04cf2947737070a.jpg",
+            "earned": true
+          },
+          {
+            "name": "Chasse au dragon",
+            "description": "H'aanit abat un dragon et récupère l'herbe qui devrait annuler la malédiction d'Œil-rouge. La précieuse infusion en main, elle part en toute hâte pour le désert, où le monstre a été repéré pour la dernière fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/0b5e5d0ffaedd4587199c9bf0263d3b820490ced.jpg",
+            "earned": true
+          },
+          {
+            "name": "Maître et apprentie",
+            "description": "H'aanit triomphe d'Œil-rouge et retrouve enfin son maître. Sans doute est-ce là le premier des nombreux récits qu'elle racontera dans ses vieux jours.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/6a951e1a3eddfd5418a78e33070d4a6cef3c4886.jpg",
+            "earned": true
+          },
+          {
+            "name": "Départ - Liberté",
+            "description": "Thérion cherche à récupérer les trois pierres draconiques afin de remplir sa part du marché et être libéré du bracelet de sot, symbole infamant s'il en est.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/e7a1bb7144674c493ebd1c956947038dbb7e57e6.jpg",
+            "earned": true
+          },
+          {
+            "name": "À la recherche des pierres draconiques",
+            "description": "Thérion triomphe d'Orlick et récupère le rubis draconique avant de partir à la recherche de l'émeraude draconique, dans une ville du désert.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/3ca8fa454bd33f98380391fb36e2a9689f6346d5.jpg",
+            "earned": true
+          },
+          {
+            "name": "« Associé »",
+            "description": "Au moment où Thérion trouve enfin l'émeraude draconique, Darius, son ancien complice, la lui vole sous le nez.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2532713d5057516447a14011d6df419992e16793.jpg",
+            "earned": true
+          },
+          {
+            "name": "Une vie de vagabond",
+            "description": "Thérion parvient à arracher l'émeraude et la pépite d'or draconiques des mains de Darius. Sa liberté retrouvée, il reprend sa vie de vagabondage.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/b18077756d661826d84805814534afc53ab99b30.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse d'Aelfric",
+            "description": "Vous avez obtenu la classe secondaire Prêtre.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/c8cc4b62a52bc2628b1e62b6b065d1ad768e5aaf.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse d'Aléphan",
+            "description": "Vous avez obtenu la classe secondaire Érudit.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/bb2126bcdedd7431c3e8af901640b711054bf481.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse de Bifelgan",
+            "description": "Vous avez obtenu la classe secondaire Marchand.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/5d451a0b9fc50fad515703d17198793a1694907d.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse de Brand",
+            "description": "Vous avez obtenu la classe secondaire Guerrier.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/fa70f9faef1c7508039c7c1b4de9e8920b90fc78.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse de Sealticge",
+            "description": "Vous avez obtenu la classe secondaire Danseur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/24e8d1dd5475d342830c6647b9566fb359e6cd41.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse de Dohter",
+            "description": "Vous avez obtenu la classe secondaire Apothicaire.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/177ef6b05f7b3a4c47cbed98d3e42be544ab6e9d.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse de Draefendi",
+            "description": "Vous avez obtenu la classe secondaire Chasseur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/e1cb6aa604fa059a1fdd9bf98576655c96e775b8.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse d'Aeber",
+            "description": "Vous avez obtenu la classe secondaire Voleur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2f8cc5729efbf7e8cd240826447e6b83be591433.jpg",
+            "earned": true
+          },
+          {
+            "name": "Sagesse de Balogar",
+            "description": "Vous avez obtenu la classe secondaire Seigneur des runes.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/aa09fb918223c081f74106dc1a56835b1d24f207.jpg",
+            "earned": false
+          },
+          {
+            "name": "Sagesse de Stéorra",
+            "description": "Vous avez obtenu la classe secondaire Augure.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/b26dff7a47c938d75396d3031f91abea6d5bc264.jpg",
+            "earned": false
+          },
+          {
+            "name": "Sagesse de Winnehild",
+            "description": "Vous avez obtenu la classe secondaire Maître de guerre.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/a2bc79a036edd057e3e12113bcdf0c35b69348d5.jpg",
+            "earned": false
+          },
+          {
+            "name": "Sagesse de Drysang",
+            "description": "Vous avez obtenu la classe secondaire Enchanteur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/f8b85a19b274cb77e04adc8a65414eacaed500a5.jpg",
+            "earned": false
+          },
+          {
+            "name": "Auspices d'Aelfric",
+            "description": "Vous avez maîtrisé la classe secondaire Prêtre.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/c006c34a2734ce340a992cf55f2c7c3e24dbe778.jpg",
+            "earned": true
+          },
+          {
+            "name": "Révélation d'Aléphan",
+            "description": "Vous avez maîtrisé la classe secondaire Érudit.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/d87af8aac05d6c773c4b7ef0807a910601cf0790.jpg",
+            "earned": true
+          },
+          {
+            "name": "Largesse de Bifelgan",
+            "description": "Vous avez maîtrisé la classe secondaire Marchand.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/ea6c6c3cb6e60b7d5ea04be8a739141e41eca74b.jpg",
+            "earned": true
+          },
+          {
+            "name": "Tonnerre de Brand",
+            "description": "Vous avez maîtrisé la classe secondaire Guerrier.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/f79d2d13fb0bfb36772699e5184ff2e049403641.jpg",
+            "earned": true
+          },
+          {
+            "name": "Charme de Sealticge",
+            "description": "Vous avez maîtrisé la classe secondaire Danseur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2252c34b2cf921addde4d85f192bf2b325af11a3.jpg",
+            "earned": true
+          },
+          {
+            "name": "Charité de Dohter",
+            "description": "Vous avez maîtrisé la classe secondaire Apothicaire.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/3282f6c1373d249e8290051c9732a40fddf8b746.jpg",
+            "earned": true
+          },
+          {
+            "name": "Rage de Draefendi",
+            "description": "Vous avez maîtrisé la classe secondaire Chasseur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/08fe172582ddedbfd2482ed3f6b3cdb6c2a8a7fc.jpg",
+            "earned": true
+          },
+          {
+            "name": "Jugement d'Aeber",
+            "description": "Vous avez maîtrisé la classe secondaire Voleur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/736e5ba31f4349b6bf2ec53b353e94549082c4b5.jpg",
+            "earned": true
+          },
+          {
+            "name": "Lame de Balogar",
+            "description": "Vous avez maîtrisé la classe secondaire Seigneur des runes.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2d8c52a7372210c2684e9bec6e84712786de7e0b.jpg",
+            "earned": false
+          },
+          {
+            "name": "Prophétie de Stéorra",
+            "description": "Vous avez maîtrisé la classe secondaire Augure.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/34192cbbc41ec3232d59370f32da4919b2bef243.jpg",
+            "earned": false
+          },
+          {
+            "name": "Pugnacité de Winnehild",
+            "description": "Vous avez maîtrisé la classe secondaire Maître de guerre.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/bd9d73944059875d97fb341b8b24b6f7fa9b80fd.jpg",
+            "earned": false
+          },
+          {
+            "name": "Sortilège de Drysang",
+            "description": "Vous avez maîtrisé la classe secondaire Enchanteur.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/226cec398124866e27c00a0c38ee78e4526f3b34.jpg",
+            "earned": false
+          },
+          {
+            "name": "Voyageur solitaire",
+            "description": "Vous avez terminé votre aventure sans l'aide de quiconque.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/4beab69551e2c08062190069bfb9916d031efe26.jpg",
+            "earned": false
+          },
+          {
+            "name": "Pied léger",
+            "description": "Vous avez terminé votre aventure à la vitesse de l'éclair.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/6d537933f253eea8e1f0a46284f9afce644d5fae.jpg",
+            "earned": false
+          },
+          {
+            "name": "Une page tournée",
+            "description": "Vous avez vaincu Galdera, le dieu malveillant, et scellé une nouvelle fois le Portail de Finis.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/89e5be57fb4ca2692232fe098a03fa8231c6d7ce.jpg",
+            "earned": false
+          },
+          {
+            "name": "Ça vaut le détour",
+            "description": "Vous avez réglé les problèmes de tous les habitants du monde.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/ce7d144d0fe807ade5b3143e7134274e121851de.jpg",
+            "earned": false
+          },
+          {
+            "name": "Maître d'Orsterra",
+            "description": "Vous avez visité les moindres recoins de la carte.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/9438230ecee4ab100b47e7d7f71288e8cf1348d9.jpg",
+            "earned": true
+          },
+          {
+            "name": "Fort apte",
+            "description": "Vous avez appris toutes les aptitudes.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/17d2e75c34ce259a9b54d636c4a1167c5c5d9c15.jpg",
+            "earned": false
+          },
+          {
+            "name": "Soutien sans faille",
+            "description": "Vous avez appris toutes les aptitudes de soutien.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/0e2cc33e42dbb4f66565278bac62bde838ec8881.jpg",
+            "earned": false
+          },
+          {
+            "name": "Chasseur de trésors",
+            "description": "Vous avez ouvert tous les coffres.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/3ea0ee9c0da14b5433ca500085f09421d4509b79.jpg",
+            "earned": false
+          },
+          {
+            "name": "Œil de lynx",
+            "description": "Vous avez trouvé tous les objets cachés.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/37da983e28a0ea3e1c0168ef1c2220e35ebc2325.jpg",
+            "earned": false
+          },
+          {
+            "name": "Stratège",
+            "description": "Vous avez découvert les faiblesses de tous vos ennemis.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/644f4f88b78220ec8bec00550cc915e3feafbb2d.jpg",
+            "earned": false
+          },
+          {
+            "name": "Collectionneur",
+            "description": "Vous avez acheté tous les objets.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/c357e20675cc784d2fc1cbc0aed974789cb4fbac.jpg",
+            "earned": false
+          },
+          {
+            "name": "Poids lourd",
+            "description": "Vous avez infligé le maximum de dégâts possible.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2d7dfb0e88ce3f3cc0d35373cd3f122fd044c49f.jpg",
+            "earned": true
+          },
+          {
+            "name": "Plein aux as",
+            "description": "Vous avez obtenu 80 000 feuilles.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/6dcf309c7db783d741d5b4d0b18a22b7e1690ccc.jpg",
+            "earned": true
+          },
+          {
+            "name": "Millionnaire",
+            "description": "Vous avez obtenu 1 000 000 de feuilles.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/7e89c45a3010a4ff6efc9690a9bc21b0f5beb0e1.jpg",
+            "earned": true
+          },
+          {
+            "name": "Prudence est mère de sûreté",
+            "description": "Vous avez fui le combat.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/63bb535714430b38cb33a943b92f4a9cd9aae5fa.jpg",
+            "earned": true
+          },
+          {
+            "name": "Pugiliste novice",
+            "description": "Vous avez mené 10 combats.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/62cd07b48f6e4f909cb72d997f94d2ed863c7631.jpg",
+            "earned": true
+          },
+          {
+            "name": "Combattant",
+            "description": "Vous avez mené 100 combats.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/3df8e67c7caf58aac28c6ecb869ffe5536854492.jpg",
+            "earned": true
+          },
+          {
+            "name": "Bagarreur",
+            "description": "Vous avez mené 200 combats.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/593610d3dc357eb57acd06c3e6289908728193fe.jpg",
+            "earned": true
+          },
+          {
+            "name": "Puissance ultime",
+            "description": "Vous avez utilisé l'Exaltation pour gagner 4 niveaux pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/a98891c58785559aea7142a8c7c9962237f21272.jpg",
+            "earned": true
+          },
+          {
+            "name": "Voyageur",
+            "description": "Vous avez joué plus de 10 heures.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/5e92cf0746527d9156a1225ce3c46896b1dfc22c.jpg",
+            "earned": true
+          },
+          {
+            "name": "Voyageur chevronné",
+            "description": "Vous avez joué plus de 50 heures.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/bc51b02b9f93b7abdc724d72f128197416e89dbf.jpg",
+            "earned": true
+          },
+          {
+            "name": "Voyageur de renom",
+            "description": "Vous avez joué plus de 100 heures.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/9abb4299ec92d24e7601b34369c2a879acd97c06.jpg",
+            "earned": false
+          },
+          {
+            "name": "Entraînement",
+            "description": "Vous avez défié tous les habitants de Paveton.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/dd8064abe5bdc0f20da8052248be32ade82b391d.jpg",
+            "earned": true
+          },
+          {
+            "name": "Guide",
+            "description": "Vous avez guidé quelqu'un pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/a430f4900894ba010c4589b650d65559bcb469ef.jpg",
+            "earned": true
+          },
+          {
+            "name": "Scrutateur",
+            "description": "Vous avez scruté quelqu'un pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/ef88dac7f56f28164f847e13aab39a106eae035a.jpg",
+            "earned": true
+          },
+          {
+            "name": "Chineur averti",
+            "description": "Vous avez acheté quelque chose pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/95ebaad35efadc4617d6e7981d8a9bb69a3f8736.jpg",
+            "earned": true
+          },
+          {
+            "name": "Un nouveau compétiteur",
+            "description": "Vous avez défié quelqu'un pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/2d28a5b4403133bec1e09817b9c7fe95137e385e.jpg",
+            "earned": true
+          },
+          {
+            "name": "Irrésistible",
+            "description": "Vous avez séduit quelqu'un pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/0b4756e0942bf6d80945b629720263911140497b.jpg",
+            "earned": true
+          },
+          {
+            "name": "Dites-m'en plus",
+            "description": "Vous avez interrogé quelqu'un pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/f316ec85d277bfd7ffb8c7af85505a13e21fe1a7.jpg",
+            "earned": true
+          },
+          {
+            "name": "Pickpocket",
+            "description": "Vous avez volé quelque chose pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/e1897d5f7697cb758eb4da5a8fbb7127353d5a94.jpg",
+            "earned": true
+          },
+          {
+            "name": "Provocateur",
+            "description": "Vous avez provoqué un combat pour la première fois.",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/921570/d5cbcbce3684bdc2538c5a93e462201b57bd9080.jpg",
+            "earned": true
+          }
+        ]
+      },
       "pitch": "Two HD-2D RPGs from SQUARE ENIX’s Team Asano, OCTOPATH TRAVELER and OCTOPATH TRAVELER II are now available as a bundle! This series features distinctive HD-2D graphics that combine pixel art with 3D.",
       "studios": [
         {
@@ -27536,7 +28067,52 @@
       "igdbId": "26766",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r2.jpg",
       "progression": {},
-      "achievements": {},
+      "achievements": {
+        "switch": [
+          {
+            "name": "甦醒的少女",
+            "description": "完成序章故事",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/6365b897ed388cbd598088dfee90b1fc73d18b71.jpg",
+            "earned": false
+          },
+          {
+            "name": "暗雲",
+            "description": "完成第三章故事",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/c4c803971f894848a3e94a3778785dea5a2485e4.jpg",
+            "earned": false
+          },
+          {
+            "name": "命運的抉擇",
+            "description": "完成第八章故事",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/a362e0a3dfea3bc1ddb625c29224de12abc7de7e.jpg",
+            "earned": false
+          },
+          {
+            "name": "愛麗絲",
+            "description": "完成關卡【愛麗絲】",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/5ccbab272f2564d11665cc734b92695bb5e71c6d.jpg",
+            "earned": false
+          },
+          {
+            "name": "伊修利亞之王",
+            "description": "完成關卡【伊修利亞之王】",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/4cdbb8329b9f66965d49567f5ec29cee21aa86fa.jpg",
+            "earned": false
+          },
+          {
+            "name": "舊日的貴族",
+            "description": "救出艾蕾雅",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/8c362774698b0269f0e3f5415b764caed93978ec.jpg",
+            "earned": false
+          },
+          {
+            "name": "交錯之刃",
+            "description": "困難難度下完成關卡【交錯之刃】",
+            "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1461060/90126ceacfc4ab19f911ab69180d6d5122c087a9.jpg",
+            "earned": false
+          }
+        ]
+      },
       "pitch": "Lost in a sea of clouds, entire civilizations rest on the backs of Titans. As the giant beasts march toward death, the last hope is a scavenger named Rex—and Pyra, a living weapon known as a Blade. Can you find the fabled paradise she calls home? Command a group of Blades and lead them to countless strategic victories before the world ends. Purchase this bundle to own both Xenoblade Chronicles 2 and the Expansion Pass.\n\nWith the Xenoblade Chronicles 2 Expansion Pass, you’ll gain access to some titanic new content, including new Rare Blades such as Shulk and Fiora, bonus items, new quests, Challenge Battle mode, and the new stand-alone game, Xenoblade Chronicles 2: Torna ~ The Golden Country!",
       "studios": []
     },
@@ -29580,9 +30156,9 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1783975300",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1783975300",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784017478",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784017478",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/m/1kMI2v_KEVgo30RFvdFCyySkFo.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
         },
@@ -29843,52 +30419,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -30143,52 +30719,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -30443,52 +31019,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -30743,52 +31319,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -31043,52 +31619,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -31343,52 +31919,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -31643,52 +32219,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -31943,52 +32519,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -32243,52 +32819,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -32543,52 +33119,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -32843,52 +33419,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -33143,52 +33719,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -33443,52 +34019,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -33743,52 +34319,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             },
             {
@@ -34043,52 +34619,52 @@
             },
             {
               "id": null,
-              "name": "Caramel",
+              "name": "ポッチ戦隊",
               "date": null
             },
             {
               "id": null,
-              "name": "Tiers-Lieu Eorzeen (Ragnarok)",
+              "name": "Black Heaven",
               "date": null
             },
             {
               "id": null,
-              "name": "7月度SS定例会",
+              "name": "にゃんこ様の落とし物🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "【フレンド募集】『さぁ！今日は誰と遊ぶ！？フレンド欲しい人ちょっと来て！』",
+              "name": "Moram",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月オープン！『6DC CWLS MAMEGAE 【A】【B】』メンバー募集のお知らせ！",
+              "name": "exs",
               "date": null
             },
             {
               "id": null,
-              "name": "【2026年4月オープン】エンジョイ勢来て！4DC CWLS『くまたん！』メンバー募集のお知らせ！ ",
+              "name": "心を抉るおかわり",
               "date": null
             },
             {
               "id": null,
-              "name": "JPMorgan Len",
+              "name": "fdMCboo",
               "date": null
             },
             {
               "id": null,
-              "name": "英雄である前に。 光明の起点  Ⅰ 『闇を掃う光』 ─ 旅が繋いだ希望",
+              "name": "Noctis Crescent",
               "date": null
             },
             {
               "id": null,
-              "name": "Group Therapy",
+              "name": "Menma Zzz ( Fenrir) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "date": null
             },
             {
               "id": null,
-              "name": "Goldman Lens",
+              "name": "megastar",
               "date": null
             }
           ]
@@ -36044,7 +36620,7 @@
           "level": 32,
           "mettle": "2 555 540 / 2 821 901"
         },
-        "updatedAt": "2026-07-13T21:37:19.928Z"
+        "updatedAt": "2026-07-14T09:13:56.167Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
@@ -36100,7 +36676,7 @@
     },
     {
       "id": "86f034e74ff04e9bb8c97d58e26a1574",
-      "nom": "xenoblade chronicles definitive edition switch 2",
+      "nom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
       "plateformes": [
         "Switch 2"
       ],
@@ -36111,7 +36687,130 @@
       "igdbId": "405446",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg",
       "progression": {},
-      "achievements": {},
+      "achievements": {
+        "switch": [
+          {
+            "name": "Finir le chapitre 1",
+            "description": "",
+            "icon": null,
+            "earned": true
+          },
+          {
+            "name": "Finir le chapitre 2",
+            "description": "",
+            "icon": null,
+            "earned": true
+          },
+          {
+            "name": "Finir le chapitre 3",
+            "description": "",
+            "icon": null,
+            "earned": true
+          },
+          {
+            "name": "Finir le chapitre 4",
+            "description": "",
+            "icon": null,
+            "earned": true
+          },
+          {
+            "name": "Finir le chapitre 5",
+            "description": "",
+            "icon": null,
+            "earned": true
+          },
+          {
+            "name": "Finir le chapitre 6",
+            "description": "",
+            "icon": null,
+            "earned": true
+          },
+          {
+            "name": "Finir le chapitre 7",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 8",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 9",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 10",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapotre 11",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 12",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 13",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 14",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 15",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 16",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre 17",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Finir le chapitre additionnel",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Colonie 6 tout beau tout neuf",
+            "description": "",
+            "icon": null,
+            "earned": false
+          },
+          {
+            "name": "Avoir les 5 étoiles de la colonie 9",
+            "description": "",
+            "icon": null,
+            "earned": false
+          }
+        ]
+      },
       "pitch": "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition includes the additions and enhancements from the Definitive Edition, along with even more made possible by the power of the Nintendo Switch 2 system - including added features, a smoother frame rate, 4K resolution in TV mode, and full HD in handheld mode.",
       "studios": [
         {
