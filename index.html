@@ -770,7 +770,7 @@ function ffxivHfRowsHtml(list) {
         <div class="ffxiv-hf-icon">🏆</div>
         <div class="ffxiv-hf-text">
           <div class="ffxiv-hf-name" title="${esc(h.name)}">${esc(h.name)}</div>
-          ${h.date ? `<div class="ffxiv-hf-date">${new Date(h.date).toLocaleDateString('fr-FR')}</div>` : ''}
+          <div class="ffxiv-hf-date">${h.date ? new Date(h.date).toLocaleDateString('fr-FR') : ''}${(h.date && h.points !== undefined && h.points !== null) ? ' · ' : ''}${(h.points !== undefined && h.points !== null) ? `${h.points} pts` : ''}</div>
         </div>
       </div>`).join('')}</div>`
     : `<div class="jeu-detail-empty">Aucun haut fait récupéré.</div>`;
