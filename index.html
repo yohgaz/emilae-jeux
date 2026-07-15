@@ -1,248 +1,875 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bluesky Panel</title>
-<link rel="stylesheet" href="/styles.css">
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jeux — emilae_tv</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0B0D14;--c1:#14161F;--c2:#191C27;--c3:#1F2230;--cy:#F0653D;--mt:#6FDA9A;--go:#E8B84D;--tx:#F4F2ED;--mu:#A6A29B;--br:rgba(255,255,255,.16);
+  --glass-fill:rgba(255,255,255,.06);
+  --glass-fill-strong:rgba(255,255,255,.10);
+  --glass-border:rgba(255,255,255,.14);
+  --glass-highlight:rgba(255,255,255,.3);
+  --blur:24px;
+  --radius-lg:26px;--radius-md:16px;--radius-sm:10px}
+body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--tx);min-height:100vh;padding:0;position:relative;overflow-x:hidden}
+
+/* ── Fond ambiant ── */
+body::before,body::after{content:'';position:fixed;border-radius:50%;filter:blur(120px);z-index:0;pointer-events:none}
+body::before{width:520px;height:520px;background:rgba(240,101,61,.10);top:-200px;left:-160px;animation:glass-drift1 34s ease-in-out infinite}
+body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220px;right:-180px;animation:glass-drift2 30s ease-in-out infinite}
+@keyframes glass-drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,50px)}}
+@keyframes glass-drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-30px,-40px)}}
+@media (prefers-reduced-motion:reduce){body::before,body::after{animation:none}}
+
+.page{position:relative;z-index:1;width:90%;max-width:1900px;margin:0 auto;padding:32px 0 60px}
+
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;margin-bottom:26px}
+.site-title{font-size:19px;font-weight:900;display:flex;flex-direction:column;gap:6px;text-align:right;max-width:420px}
+.site-title-row{display:flex;align-items:center;gap:10px;justify-content:flex-end;line-height:1.35}
+.site-title span.chan{font-size:13px;font-weight:800;color:var(--mu);background:var(--glass-fill-strong);padding:5px 12px;border-radius:999px;border:1px solid var(--glass-border)}
+.site-updated{font-size:11px;color:var(--mu)}
+
+.social-card{display:flex;align-items:stretch;gap:18px;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:var(--radius-md);-webkit-backdrop-filter:blur(var(--blur)) saturate(160%);backdrop-filter:blur(var(--blur)) saturate(160%);box-shadow:inset 0 1px 0 var(--glass-highlight),0 10px 30px rgba(0,0,0,.3);padding:14px 20px;width:fit-content;flex-shrink:0}
+.social-card-logo{display:flex;align-items:stretch;flex-shrink:0}
+.social-card-logo img{height:100%;width:auto;max-width:90px;object-fit:contain;display:block}
+.social-card-links{display:flex;flex-direction:column;justify-content:center;gap:9px}
+.social-link{display:flex;align-items:center;gap:10px;color:var(--tx);text-decoration:none;font-size:13px;font-weight:700;transition:color .15s}
+.social-progress{margin-top:5px;padding-top:10px;border-top:1px solid var(--glass-border)}
+.social-progress-label{display:flex;justify-content:space-between;gap:14px;font-size:11px;font-weight:800;color:var(--tx);margin-bottom:5px}
+.social-progress-label span:last-child{color:var(--cy);font-family:monospace}
+.social-progress-bar{height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden;width:210px}
+.social-progress-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--cy),var(--go));transition:width .4s}
+.social-link:hover{color:var(--cy)}
+.social-icon{width:19px;height:19px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.social-icon svg{width:100%;height:100%;display:block}
+
+.jeux-toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+#jeux-search{flex:0 1 280px;background:var(--c2);border:1px solid var(--glass-border);border-radius:10px;padding:11px 14px;color:var(--tx);font-family:inherit;font-size:13px;outline:none}
+#jeux-search:focus{border-color:var(--cy)}
+#jeux-search::placeholder{color:var(--mu)}
+
+.jeux-section{margin-bottom:28px}
+.jeux-section:last-child{margin-bottom:0}
+.jeux-section-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.jeux-section-title{font-weight:900;font-size:14px;color:var(--tx)}
+.jeux-section-badge{font-family:monospace;font-size:10px;font-weight:900;color:var(--mu);background:rgba(255,255,255,.05);padding:2px 8px;border-radius:20px}
+.jeux-section-sub{font-size:11px;color:var(--mu);margin:-6px 0 12px;line-height:1.5}
+.jeux-empty{color:var(--mu);font-size:12px;padding:22px 16px;text-align:center;border:1.5px dashed var(--glass-border);border-radius:var(--radius-md)}
+
+.jeux-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.jeu-card{position:relative;cursor:pointer;border-radius:var(--radius-sm);overflow:hidden;background:var(--glass-fill);border:1px solid var(--glass-border);transition:transform .15s,border-color .15s;aspect-ratio:2/3}
+.jeu-card:hover{transform:translateY(-3px);border-color:var(--cy)}
+.jeu-card-cover{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:54px;opacity:.85;overflow:hidden}
+.jeu-card-cover img{width:100%;height:100%;object-fit:cover}
+.jeu-card-overlay{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(8,9,14,0) 0%,rgba(8,9,14,.55) 40%,rgba(8,9,14,.88) 100%);-webkit-backdrop-filter:blur(14px) saturate(160%);backdrop-filter:blur(14px) saturate(160%);padding:22px 13px 12px}
+.jeu-card-label{font-size:13px;font-weight:800;line-height:1.35;color:var(--tx);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.jeu-card-badge-row{display:flex;align-items:stretch;gap:8px}
+.jeu-card-badges-col{display:flex;flex-direction:row;gap:4px;flex-shrink:0}
+.jeu-card-badges-col svg{height:100%;width:auto;display:block;filter:drop-shadow(0 2px 5px rgba(0,0,0,.6))}
+.jeu-card-text-col{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.jeu-card-note{font-size:10.5px;color:var(--mu);padding-top:2px;white-space:pre-line;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+.plat-badges{position:absolute;top:9px;right:9px;display:flex;flex-direction:column;gap:5px;align-items:flex-end}
+.plat-chip{display:flex;align-items:center;justify-content:center;width:27px;height:27px;padding:0;border-radius:8px;background:rgba(6,7,12,.72)!important;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 3px 10px rgba(0,0,0,.55)}
+.plat-chip svg{display:block;width:15px;height:15px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.4))}
+.plat-chip img{display:block;width:15px;height:15px;object-fit:contain;filter:drop-shadow(0 1px 1px rgba(0,0,0,.4))}
+
+.jeu-progress-wrap{display:flex;flex-direction:column;gap:5px;margin-top:6px}
+.jeu-progress-row{display:flex;align-items:center;gap:7px}
+.jeu-progress-plat-icon{width:16px;height:16px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px}
+.jeu-progress-plat-icon svg{width:100%;height:100%;display:block}
+.jeu-progress-bar{flex:1;height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
+.jeu-progress-fill{height:100%;border-radius:4px;transition:width .3s}
+.jeu-progress-pct{font-family:monospace;font-size:10px;color:var(--mu);min-width:32px;text-align:right}
+
+/* ── Popup détail ── */
+.s-modal{position:fixed;inset:0;background:rgba(4,5,10,.7);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+.s-modal.open{display:flex}
+.s-modal-box{background:var(--glass-fill-strong);border:1px solid var(--glass-border);border-radius:var(--radius-lg);box-shadow:inset 0 1px 0 var(--glass-highlight),0 24px 60px rgba(0,0,0,.55);max-height:88vh;overflow-y:auto;padding:22px}
+
+.jeu-detail-box{width:84vw;max-width:1440px;min-width:320px;max-height:84vh;padding:0;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.jeu-detail-close{position:absolute;top:14px;right:14px;z-index:3;width:34px;height:34px;border-radius:50%;background:rgba(4,6,15,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid var(--glass-border);color:var(--tx);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s}
+.jeu-detail-close:hover{background:rgba(4,6,15,.85)}
+.jeu-detail-banner{position:relative;height:260px;flex-shrink:0;background-size:cover;background-position:center 30%;background-color:var(--c2);-webkit-mask-image:linear-gradient(180deg,black 55%,transparent 100%);mask-image:linear-gradient(180deg,black 55%,transparent 100%)}
+.jeu-detail-cover-wrap{position:absolute;left:28px;bottom:-46px;z-index:2}
+.jeu-detail-cover{width:128px;height:192px;border-radius:12px;overflow:hidden;border:3px solid var(--bg);box-shadow:0 16px 34px rgba(0,0,0,.55);background:var(--glass-fill-strong);display:flex;align-items:center;justify-content:center;font-size:46px}
+.jeu-detail-cover img{width:100%;height:100%;object-fit:cover;display:block}
+.jeu-detail-logo-wrap{position:absolute;left:174px;right:60px;bottom:16px;z-index:2;display:flex;align-items:flex-end}
+.jeu-detail-logo-wrap img{max-height:76px;max-width:100%;object-fit:contain;object-position:left bottom;filter:drop-shadow(0 4px 16px rgba(0,0,0,.65))}
+.jeu-detail-title-fallback{font-family:'Nunito',sans-serif;font-weight:900;font-size:26px;color:var(--tx);text-shadow:0 3px 14px rgba(0,0,0,.75);line-height:1.15}
+.jeu-detail-info{padding:58px 28px 18px;flex-shrink:0}
+.jeu-detail-info-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.jeu-detail-status-badge{font-family:'Nunito',sans-serif;font-size:11.5px;font-weight:900;padding:5px 13px;border-radius:999px;background:var(--glass-fill-strong);border:1px solid var(--glass-border);color:var(--tx)}
+.jeu-detail-stats-row{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding-top:12px;margin-top:14px;border-top:1px solid var(--glass-border)}
+.jeu-detail-stats{display:flex;gap:26px}
+.jeu-detail-stat{display:flex;flex-direction:column;position:relative;padding-right:24px}
+.jeu-detail-stat strong{font-family:'Nunito',sans-serif;font-size:19px;font-weight:900}
+.jeu-detail-stat span{font-size:11px;color:var(--mu);margin-top:3px;text-transform:uppercase;letter-spacing:.04em}
+.jeu-detail-stat-badge{position:absolute;top:-3px;right:0}
+.jeu-detail-stat-badge img,.jeu-detail-stat-badge svg{width:22px;height:22px;display:block;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
+.jeu-detail-pitch{font-size:12.5px;color:var(--tx);line-height:1.6;opacity:.85;margin-top:14px}
+.jeu-detail-studios{display:flex;align-items:center;gap:10px;margin-left:auto;flex-wrap:wrap}
+.jeu-detail-studio-chip{background:rgba(255,255,255,.94);border-radius:8px;padding:6px 12px;display:flex;align-items:center;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.jeu-detail-studio-chip img{height:30px;max-width:130px;object-fit:contain;display:block}
+.jeu-detail-studio-name{font-size:12px;font-weight:700;color:var(--tx);background:var(--glass-fill-strong);padding:6px 12px;border-radius:8px}
+.jeu-detail-feed{flex:1;min-height:0;overflow-y:auto;border-top:1px solid var(--glass-border);padding:18px 28px 26px}
+.jeu-detail-empty{color:var(--mu);font-size:13px;padding:30px;text-align:center}
+.jeu-detail-section{margin-bottom:18px}
+.jeu-detail-section:last-child{margin-bottom:0}
+.jeu-detail-section-head{font-weight:900;font-size:13px;color:var(--cy);margin-bottom:10px}
+.jeu-detail-ach-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px}
+.jeu-detail-ach{display:flex;align-items:center;gap:11px;padding:8px 10px;border-radius:10px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:opacity .15s}
+.jeu-detail-ach.locked{opacity:.45}
+.jeu-detail-ach.earned{background:rgba(111,218,154,.07);border-color:rgba(111,218,154,.35)}
+.jeu-detail-ach-icon-wrap{position:relative;flex-shrink:0}
+.jeu-detail-ach img{width:42px;height:42px;border-radius:7px;display:block;object-fit:cover;background:rgba(255,255,255,.05)}
+.jeu-detail-ach-badge{position:absolute;bottom:-4px;right:-4px;width:17px;height:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid var(--bg)}
+.jeu-detail-ach-badge.earned{background:var(--mt);color:#0F2318}
+.jeu-detail-ach-badge.locked{background:rgba(0,0,0,.55);color:var(--mu)}
+.jeu-detail-ach-badge svg{width:9px;height:9px}
+.jeu-detail-ach-text{flex:1;min-width:0}
+.jeu-detail-ach-name{font-weight:800;font-size:12.5px;color:var(--tx)}
+.jeu-detail-ach-desc{font-size:11px;color:var(--mu);margin-top:2px;line-height:1.4}
+.jeu-detail-ach-noicon{width:42px;height:42px;border-radius:7px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;font-size:18px;opacity:.45}
+
+/* ── FFXIV : deux onglets dans la popup détail, uniquement pour ce jeu. ── */
+.jeu-detail-tabs{display:flex;gap:2px;padding:3px;background:var(--glass-fill);border-radius:999px;margin:0 auto 14px;width:fit-content}
+.jeu-detail-tab-btn{border:none;background:none;color:var(--mu);padding:8px 18px;border-radius:999px;font-family:'Nunito',sans-serif;font-weight:800;font-size:12px;cursor:pointer;transition:background .15s ease,color .15s ease}
+.jeu-detail-tab-btn:hover{color:var(--tx)}
+.jeu-detail-tab-btn.active{background:var(--cy);color:#2B1207}
+.jeu-detail-tab-pane{display:none}
+.jeu-detail-tab-pane.active{display:block}
+
+.ffxiv-banner{position:relative;display:flex;align-items:center;gap:26px;min-height:220px;padding:22px 26px;background:radial-gradient(ellipse at 88% 25%,rgba(240,101,61,.16) 0%,transparent 55%),radial-gradient(ellipse at 12% 92%,rgba(232,184,77,.12) 0%,transparent 50%),linear-gradient(120deg,var(--c3) 0%,var(--c1) 55%,var(--bg) 100%);overflow:hidden}
+.ffxiv-banner-info{flex:1;min-width:0;z-index:1}
+.ffxiv-banner-name{font-size:24px;font-weight:900;color:var(--tx);text-shadow:0 2px 10px rgba(0,0,0,.55)}
+.ffxiv-banner-title{font-size:12.5px;color:var(--go);font-style:italic;margin-top:2px}
+.ffxiv-banner-meta{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:rgba(255,255,255,.82);margin-top:8px}
+.ffxiv-banner-jobs{margin-top:16px;display:flex;flex-direction:column;gap:6px}
+.ffxiv-banner-jobs-row{display:flex;gap:4px;flex-wrap:wrap}
+.ffxiv-mini-job{display:flex;flex-direction:column;align-items:center;width:27px;flex-shrink:0}
+.ffxiv-mini-job img{width:21px;height:21px;border-radius:5px;display:block}
+.ffxiv-mini-job-fallback{font-size:7.5px;font-weight:900;color:var(--go);line-height:21px}
+.ffxiv-mini-job span:last-child{font-size:9px;font-weight:800;color:var(--go);margin-top:1px}
+.ffxiv-banner-portrait{position:relative;flex-shrink:0;height:100%;width:170px;display:flex;align-items:flex-end;justify-content:center;z-index:1}
+.ffxiv-banner-portrait img{max-height:220px;max-width:100%;object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,.5))}
+.ffxiv-banner-active{position:absolute;bottom:4px;right:-6px;text-align:right}
+.ffxiv-banner-active-lvl{font-size:18px;font-weight:900;color:var(--tx);text-shadow:0 2px 6px rgba(0,0,0,.6)}
+.ffxiv-banner-active-icon{width:25px;height:25px;border-radius:6px;margin-top:2px}
+
+.ffxiv-triggers-row{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.ffxiv-trigger-btn{display:flex;align-items:center;gap:6px;padding:8px 15px;border-radius:999px;background:var(--glass-fill);border:1px solid var(--glass-border);color:var(--tx);font-family:'Nunito',sans-serif;font-size:12px;font-weight:800;cursor:pointer;transition:all .15s}
+.ffxiv-trigger-btn:hover{background:rgba(232,184,77,.1)}
+.ffxiv-trigger-btn.active{border-color:var(--go);background:rgba(232,184,77,.15);color:var(--go)}
+.ffxiv-panel{margin-bottom:16px}
+
+.ffxiv-hf-search{width:100%;background:var(--c2);border:1px solid var(--glass-border);border-radius:8px;padding:8px 12px;color:var(--tx);font-family:'Nunito',sans-serif;font-size:12px;margin-bottom:10px;outline:none}
+.ffxiv-hf-search:focus{border-color:var(--go)}
+.ffxiv-hf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:8px}
+.ffxiv-hf-row{display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:10px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:background .15s,border-color .15s}
+.ffxiv-hf-row:hover{background:rgba(232,184,77,.07);border-color:rgba(232,184,77,.3)}
+.ffxiv-hf-icon{width:30px;height:30px;border-radius:8px;background:rgba(232,184,77,.12);color:var(--go);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}
+.ffxiv-hf-text{flex:1;min-width:0}
+.ffxiv-hf-name{font-size:12px;font-weight:800;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ffxiv-hf-date{font-size:10px;color:var(--mu);font-family:monospace;margin-top:2px}
+
+.ffxiv-collect-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.ffxiv-collect-item{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:8px;background:var(--glass-fill);border:1px solid var(--glass-border)}
+.ffxiv-collect-item img{width:32px;height:32px;border-radius:6px;object-fit:cover;flex-shrink:0;background:rgba(255,255,255,.05)}
+.ffxiv-collect-item span{font-size:11px;font-weight:700;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+@media (max-width:900px){
+  .jeu-detail-box{width:94vw;min-width:0}
+  .jeu-detail-logo-wrap{left:150px;right:20px}
+}
+
+/* ── Mobile (téléphone) ── */
+@media (max-width:640px){
+  .page{width:92%;padding:20px 0 40px}
+
+  .site-header{flex-direction:column;align-items:stretch;gap:16px;text-align:center}
+  .social-card{width:100%;justify-content:center}
+  .site-title{max-width:none;text-align:center}
+  .site-title-row{justify-content:center;font-size:16px}
+  .social-progress-bar{width:100%}
+
+  .jeux-toolbar{margin-bottom:18px}
+  #jeux-search{flex:1 1 auto}
+
+  .jeux-grid{grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px}
+  .jeu-card-label{font-size:11.5px}
+  .jeu-card-overlay{padding:16px 10px 10px}
+
+  .jeu-detail-box{width:96vw;max-height:90vh}
+  .jeu-detail-close{top:10px;right:10px;width:30px;height:30px}
+  .jeu-detail-banner{height:170px}
+  .jeu-detail-cover-wrap{left:14px;bottom:-28px}
+  .jeu-detail-cover{width:82px;height:123px;border-width:2px}
+  .jeu-detail-logo-wrap{left:106px;right:14px;bottom:8px}
+  .jeu-detail-info{padding:36px 16px 14px}
+  .jeu-detail-feed{padding:14px 16px 20px}
+  .jeu-detail-stats-row{gap:10px}
+  .jeu-detail-studios{margin-left:0}
+
+  .jeu-detail-ach-grid,.ffxiv-hf-grid{grid-template-columns:1fr}
+  .ffxiv-collect-grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+
+  .ffxiv-banner{flex-direction:column;align-items:center;text-align:center;gap:14px;padding:18px 16px;min-height:0}
+  .ffxiv-banner-info{width:100%}
+  .ffxiv-banner-meta{justify-content:center}
+  .ffxiv-banner-jobs-row{justify-content:center}
+  .ffxiv-banner-portrait{width:140px;height:auto;order:-1}
+  .ffxiv-banner-portrait img{max-height:150px}
+  .ffxiv-banner-active{position:static;text-align:center;margin-top:6px}
+
+  .ffxiv-triggers-row{justify-content:center}
+  .jeu-detail-tab-btn{padding:8px 14px;font-size:11.5px}
+}
+</style>
 </head>
 <body>
 
-<div class="ambient" aria-hidden="true">
-  <span class="glow glow-violet"></span>
-</div>
-
-<div class="app-shell">
-  <aside class="profile-panel" id="profile-panel">
-    <div class="profile-top">
-      <div class="profile-cover" id="profile-cover"></div>
-      <img class="profile-avatar" id="profile-avatar" alt="">
-    </div>
-    <div class="profile-main">
-      <div class="profile-identity">
-        <div class="profile-name" id="profile-name">—</div>
-        <div class="profile-handle" id="profile-handle">—</div>
-      </div>
-      <p class="profile-bio" id="profile-bio"></p>
-      <button class="profile-stats" id="profile-stats-btn" title="Voir les statistiques"></button>
-      <div class="profile-divider"></div>
-      <div class="profile-feed" id="profile-feed"></div>
-    </div>
-  </aside>
-
-  <div class="content-area">
-    <div class="top-bar glass">
-      <div class="top-bar-left" role="tablist" id="panel-switcher">
-        <button class="panel-tab active" role="tab" aria-selected="true" data-panel="feed">Abonnements</button>
-      </div>
-      <span class="top-bar-divider"></span>
-      <div class="top-bar-right">
-        <button class="dock-item" id="open-search" title="Recherche">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-        </button>
-        <button class="dock-item active" data-panel="notifications" title="Notifications">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M6 8a6 6 0 0112 0c0 5 2 6 2 6H4s2-1 2-6"/><path d="M10 20a2 2 0 004 0"/></svg>
-        </button>
-        <button class="dock-item" data-panel="messages" title="Messages">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M21 12a8 8 0 01-8 8H6l-3 3V12a8 8 0 018-8h2a8 8 0 018 8z"/></svg>
-        </button>
-        <button class="dock-item" data-panel="schedule" title="Programmés">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
-        </button>
+<div class="page">
+  <div class="site-header">
+    <div class="social-card">
+      <div class="social-card-logo"><img src="./logo.png" alt="emilae_tv"></div>
+      <div class="social-card-links">
+        <a class="social-link" href="https://twitch.tv/emilae_tv" target="_blank" rel="noopener">
+          <span class="social-icon" style="color:#9146FF"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg></span>
+          <span>twitch.tv/emilae_tv</span>
+        </a>
+        <a class="social-link" href="https://youtube.com/@emilae_tv" target="_blank" rel="noopener">
+          <span class="social-icon" style="color:#FF0000"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></span>
+          <span>youtube.com/@emilae_tv</span>
+        </a>
+        <a class="social-link" href="https://bsky.app/profile/emilae-tv.eurosky.social" target="_blank" rel="noopener">
+          <span class="social-icon" style="color:#1185FE"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg></span>
+          <span>emilae-tv.eurosky.social</span>
+        </a>
+        <div class="social-progress" id="social-progress" style="display:none">
+          <div class="social-progress-label"><span>🎮 Progression globale</span><span id="social-progress-pct">0%</span></div>
+          <div class="social-progress-bar"><div class="social-progress-fill" id="social-progress-fill" style="width:0%"></div></div>
+        </div>
       </div>
     </div>
 
-    <div class="columns-row">
-      <div class="stage-wrapper">
-        <section class="feed-panel glass">
-          <div id="feed">
-            <p class="feed-status">Chargement du fil…</p>
-          </div>
-        </section>
+    <div class="site-title">
+      <div class="site-title-row">🎮 Bibliothèque de jeux en cours ou terminés en stream ou sur YouTube</div>
+      <div class="site-updated" id="site-updated"></div>
+    </div>
+  </div>
+
+  <div class="jeux-toolbar">
+    <input type="text" id="jeux-search" placeholder="Rechercher un jeu..." oninput="renderJeux()">
+  </div>
+
+  <div id="jeux-content"></div>
+</div>
+
+<!-- Popup détail -->
+<div class="s-modal" id="modal-jeu-detail">
+  <div class="s-modal-box jeu-detail-box">
+    <button class="jeu-detail-close" onclick="closeJeuDetailModal()">✕</button>
+    <div class="jeu-detail-banner" id="jeu-detail-banner">
+      <div class="jeu-detail-cover-wrap"><div class="jeu-detail-cover" id="jeu-detail-cover"></div></div>
+      <div class="jeu-detail-logo-wrap" id="jeu-detail-logo-wrap"></div>
+      <div id="ffxiv-banner-container" style="display:none"></div>
+    </div>
+    <div class="jeu-detail-info" id="jeu-detail-info"></div>
+    <div class="jeu-detail-feed" id="jeu-detail-body"></div>
+  </div>
+</div>
+
+<script>
+let _jeuxData = { termines: [], enCours: [] };
+
+function esc(s) { return (s || '').toString().replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+
+// ── Plateformes : icônes réelles Steam/PlayStation, pictogramme maison Nintendo ──
+const PLAT_COLOR = { 'playstation': '#0070D1', 'pc': '#66C0F4', 'xbox': '#107C10', 'nintendo': '#E4000F', 'switch': '#E4000F' };
+function platColor(p) {
+  const k = (p || '').toLowerCase();
+  for (const key in PLAT_COLOR) if (k.includes(key)) return PLAT_COLOR[key];
+  return '#8892a6';
+}
+const PLAT_ICON_SVG = {
+  steam: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"/></svg>',
+  playstation: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.984 2.596v17.547l3.915 1.261V6.688c0-.69.304-1.151.794-.991.636.18.76.814.76 1.505v5.875c2.441 1.193 4.362-.002 4.362-3.152 0-3.237-1.126-4.675-4.438-5.827-1.307-.448-3.728-1.186-5.39-1.502zm4.656 16.241l6.296-2.275c.715-.258.826-.625.246-.818-.586-.192-1.637-.139-2.357.123l-4.205 1.5V14.98l.24-.085s1.201-.42 2.913-.615c1.696-.18 3.785.03 5.437.661 1.848.601 2.04 1.472 1.576 2.072-.465.6-1.622 1.036-1.622 1.036l-8.544 3.107V18.86zM1.807 18.6c-1.9-.545-2.214-1.668-1.352-2.32.801-.586 2.16-1.052 2.16-1.052l5.615-2.013v2.313L4.205 17c-.705.271-.825.632-.239.826.586.195 1.637.15 2.343-.12L8.247 17v2.074c-.12.03-.256.044-.39.073-1.939.331-3.996.196-6.038-.479z"/></svg>',
+  nintendo: '<svg viewBox="0 0 24 24"><rect x="2" y="2" width="8" height="20" rx="4" fill="#E6002A"/><circle cx="6" cy="7" r="1.3" fill="#fff" opacity=".9"/><rect x="14" y="2" width="8" height="20" rx="4" fill="#2E9CE0"/><circle cx="18" cy="17" r="1.6" fill="#fff" opacity=".9"/></svg>'
+};
+const FFXIV_LOGO_IMG = '<img src="./ffxiv-logo.png" alt="FFXIV" onerror="this.parentElement.innerHTML=\'<span style=&quot;font-size:9px;font-weight:900&quot;>XIV</span>\'">';
+function platIconSvg(p, ffxiv) {
+  const k = (p || '').toLowerCase();
+  if (k.includes('playstation')) return PLAT_ICON_SVG.playstation;
+  if (k === 'pc') return ffxiv ? FFXIV_LOGO_IMG : PLAT_ICON_SVG.steam;
+  if (k === 'xbox') return XBOX_ICON_SVG;
+  if (k.includes('nintendo') || k.includes('switch')) return PLAT_ICON_SVG.nintendo;
+  return '';
+}
+function platChipsRaw(plateformes, nom) {
+  const ffxiv = isFfxivGame(nom);
+  return (plateformes || []).map(p => {
+    const c = platColor(p);
+    const label = (ffxiv && p.toLowerCase() === 'pc') ? 'FFXIV (launcher officiel)' : p;
+    return `<span class="plat-chip" style="background:${c}22;border-color:${c}66;color:${c}" title="${esc(label)}">${platIconSvg(p, ffxiv)}</span>`;
+  }).join('');
+}
+function platBadgesHtml(plateformes, nom) { return `<div class="plat-badges">${platChipsRaw(plateformes, nom)}</div>`; }
+function platBadgesInlineHtml(plateformes, nom) { return `<div style="display:flex;gap:5px;flex-shrink:0">${platChipsRaw(plateformes, nom)}</div>`; }
+
+function jeuHue(nom) {
+  let h = 0;
+  for (let i = 0; i < nom.length; i++) h = (h * 31 + nom.charCodeAt(i)) % 360;
+  return h;
+}
+function isFfxivGame(nom) {
+  return (nom || '').toLowerCase().includes('final fantasy xiv');
+}
+
+// Beaucoup de jeux AAA listent une dizaine de studios régionaux d'une même
+// maison mère (ex: "Ubisoft Kyiv", "Ubisoft Montpellier"...). On ne garde
+// que le nom le plus court d'un groupe quand l'un est le préfixe des autres
+// (ex: "Ubisoft" avale "Ubisoft Kyiv") — un seul logo au lieu d'une dizaine.
+function collapseStudios(companies) {
+  const swallowed = new Set();
+  companies.forEach((c, i) => {
+    const isSub = companies.some((other, j) => i !== j && other.name.length < c.name.length && c.name.toLowerCase().startsWith(other.name.toLowerCase() + ' '));
+    if (isSub) swallowed.add(c.name);
+  });
+  const kept = companies.filter(c => !swallowed.has(c.name));
+  const byName = {};
+  kept.forEach(c => { byName[c.name.toLowerCase()] = { ...c }; });
+  companies.forEach(c => {
+    if (!swallowed.has(c.name)) return;
+    const parentKey = Object.keys(byName).find(k => c.name.toLowerCase().startsWith(k + ' '));
+    if (!parentKey) return;
+    byName[parentKey].developer = byName[parentKey].developer || c.developer;
+    byName[parentKey].publisher = byName[parentKey].publisher || c.publisher;
+    if (!byName[parentKey].logo && c.logo) byName[parentKey].logo = c.logo;
+  });
+  return Object.values(byName);
+}
+
+// Jaquette : Steam si liée, sinon IGDB, sinon icône PSN, sinon emoji.
+function coverInnerHtml(j) {
+  const img = (j.steamAppId ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${j.steamAppId}/library_600x900.jpg` : null)
+    || j.igdbCover
+    || (j.progression && j.progression.PlayStation && j.progression.PlayStation.icon);
+  if (!img) return '🎮';
+  return `<img src="${esc(img)}" alt="" onerror="this.remove();this.parentElement.textContent='🎮'">`;
+}
+
+// ── Pourcentages : formule officielle PlayStation (bronze 15, argent 30, or 90 ;
+// le platine ne compte pas), Steam en simple ratio. ──
+const TROPHY_POINTS = { bronze: 15, argent: 30, or: 90 };
+function calcPercentPS(t) {
+  if (!t) return null;
+  let earned = 0, total = 0;
+  Object.keys(TROPHY_POINTS).forEach(k => {
+    const d = t[k] || {};
+    earned += (parseInt(d.earned) || 0) * TROPHY_POINTS[k];
+    total += (parseInt(d.total) || 0) * TROPHY_POINTS[k];
+  });
+  return total > 0 ? Math.round(earned / total * 100) : null;
+}
+function calcPercentSteam(s) {
+  if (!s || !(parseInt(s.total) > 0)) return null;
+  return Math.round((parseInt(s.earned) || 0) / parseInt(s.total) * 100);
+}
+function calcPercentXbox(x) {
+  if (!x || !(parseInt(x.total) > 0)) return null;
+  return Math.round((parseInt(x.earned) || 0) / parseInt(x.total) * 100);
+}
+
+const STEAM_100_BADGE_SVG = '<svg viewBox="0 0 24 24"><path d="M12.0,0.5 L14.07,2.93 L16.99,1.64 L17.8,4.73 L20.99,4.83 L20.38,7.96 L23.21,9.44 L21.3,12.0 L23.21,14.56 L20.38,16.04 L20.99,19.17 L17.8,19.27 L16.99,22.36 L14.07,21.07 L12.0,23.5 L9.93,21.07 L7.01,22.36 L6.2,19.27 L3.01,19.17 L3.62,16.04 L0.79,14.56 L2.7,12.0 L0.79,9.44 L3.62,7.96 L3.01,4.83 L6.2,4.73 L7.01,1.64 L9.93,2.93 Z" fill="#3B82F6"/><circle cx="12" cy="12" r="7" fill="#FFC93D"/><path d="M8.5 12.2l2.3 2.3 4.7-4.9" stroke="#7A5300" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const PLATINUM_TROPHY_SVG = '<svg viewBox="0 0 24 24"><path d="M6 5C3 5 2 6.8 2 9c0 2.5 2 3.8 4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M18 5c3 0 4 1.8 4 4 0 2.5-2 3.8-4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M6 3h12v5.2c0 3.4-2.7 6.1-6 6.1S6 11.6 6 8.2V3z" fill="#E8EDF2"/><rect x="10.6" y="14" width="2.8" height="4" fill="#D7DEE6"/><rect x="7.3" y="18" width="9.4" height="1.8" rx="0.5" fill="#E8EDF2"/><rect x="5.8" y="19.9" width="12.4" height="1.7" rx="0.5" fill="#C4CDD6"/></svg>';
+const XBOX_COLOR = '#107C10';
+const XBOX_ICON_SVG = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(45 12 12)"/><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(-45 12 12)"/></svg>';
+
+function progressRowHtml(iconHtml, pct, color) {
+  return `<div class="jeu-progress-row">
+    <span class="jeu-progress-plat-icon" style="color:${color}">${iconHtml}</span>
+    <div class="jeu-progress-bar"><div class="jeu-progress-fill" style="width:${pct}%;background:${color}"></div></div>
+    <span class="jeu-progress-pct">${pct}%</span>
+  </div>`;
+}
+function progressBarsHtml(progression, ffxivData, switchAch) {
+  progression = progression || {};
+  let rows = '';
+  if (progression.PlayStation) {
+    const pct = calcPercentPS(progression.PlayStation);
+    if (pct !== null) rows += progressRowHtml(PLAT_ICON_SVG.playstation, pct, platColor('PlayStation'));
+  }
+  // FFXIV : version stand alone, pas Steam — la barre "Steam" n'aurait
+  // aucun sens ici (les succès ne se synchroniseraient jamais).
+  if (progression.PC && !ffxivData) {
+    const pct = calcPercentSteam(progression.PC);
+    if (pct !== null) rows += progressRowHtml(PLAT_ICON_SVG.steam, pct, platColor('PC'));
+  }
+  if (progression.Xbox) {
+    const pct = calcPercentXbox(progression.Xbox);
+    if (pct !== null) rows += progressRowHtml(XBOX_ICON_SVG, pct, XBOX_COLOR);
+  }
+  if (ffxivData && ffxivData.achievements) {
+    const a = ffxivData.achievements;
+    if (a.earned !== null && a.earned !== undefined && a.total) {
+      rows += progressRowHtml('🏆', Math.round(a.earned / a.total * 100), 'var(--go)');
+    }
+  }
+  // Nintendo (Switch/Switch 2) : succès via le système de tâches, déjà
+  // synchronisés dans jeu.achievements.switch — couleur rouge officielle.
+  if (switchAch && switchAch.length) {
+    const earned = switchAch.filter(a => a.earned).length;
+    rows += progressRowHtml(PLAT_ICON_SVG.nintendo, Math.round(earned / switchAch.length * 100), platColor('nintendo'));
+  }
+  return rows ? `<div class="jeu-progress-wrap">${rows}</div>` : '';
+}
+function cardBadgesHtml(progression, switchAch) {
+  if (!progression) progression = {};
+  let icons = '';
+  if (progression.PlayStation) {
+    const pct = calcPercentPS(progression.PlayStation);
+    if (pct === 100 || progression.PlayStation.platine) icons += PLATINUM_TROPHY_SVG;
+  }
+  if (progression.PC) {
+    const pct = calcPercentSteam(progression.PC);
+    if (pct === 100) icons += STEAM_100_BADGE_SVG;
+  }
+  if (progression.Xbox) {
+    const pct = calcPercentXbox(progression.Xbox);
+    if (pct === 100) icons += XBOX_ICON_SVG;
+  }
+  if (switchAch && switchAch.length && switchAch.every(a => a.earned)) icons += PLAT_ICON_SVG.nintendo;
+  return icons ? `<div class="jeu-card-badges-col">${icons}</div>` : '';
+}
+
+// ── Chargement des données ──
+async function loadJeux() {
+  try {
+    const r = await fetch('./jeux-public.json?t=' + Date.now()).then(r => r.json());
+    _jeuxData = { termines: r.termines || [], enCours: r.enCours || [] };
+    if (r.updatedAt) {
+      const d = new Date(r.updatedAt);
+      document.getElementById('site-updated').textContent = 'Mis à jour le ' + d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) + ' à ' + d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+    }
+  } catch (e) {
+    document.getElementById('jeux-content').innerHTML = `<div class="jeux-empty">Impossible de charger la liste des jeux pour l'instant. Réessaie un peu plus tard.</div>`;
+    return;
+  }
+  renderJeux();
+  renderGlobalProgress();
+}
+
+// Moyenne d'avancée sur toute la bibliothèque. Un jeu multi-plateforme ne
+// compte qu'une fois — on garde la source qui a le plus de succès/trophées
+// obtenus (pas forcément le plus haut pourcentage), pour refléter la
+// progression la plus "vécue" plutôt qu'un doublon qui gonflerait la moyenne.
+function renderGlobalProgress() {
+  const box = document.getElementById('social-progress');
+  const all = [..._jeuxData.termines, ..._jeuxData.enCours];
+  const percents = [];
+
+  all.forEach(j => {
+    const prog = j.progression || {};
+    const candidates = [];
+    if (prog.PlayStation) {
+      const pct = calcPercentPS(prog.PlayStation);
+      if (pct !== null) {
+        const earned = ['bronze', 'argent', 'or'].reduce((sum, k) => sum + (parseInt(prog.PlayStation[k]?.earned) || 0), 0);
+        candidates.push({ pct, earned });
+      }
+    }
+    if (prog.PC) {
+      const pct = calcPercentSteam(prog.PC);
+      if (pct !== null) candidates.push({ pct, earned: parseInt(prog.PC.earned) || 0 });
+    }
+    if (prog.Xbox) {
+      const pct = calcPercentXbox(prog.Xbox);
+      if (pct !== null) candidates.push({ pct, earned: parseInt(prog.Xbox.earned) || 0 });
+    }
+    if (j.ffxiv && j.ffxiv.achievements) {
+      const a = j.ffxiv.achievements;
+      if (a.earned !== null && a.earned !== undefined && a.total) {
+        candidates.push({ pct: Math.round(a.earned / a.total * 100), earned: a.earned });
+      }
+    }
+    if (candidates.length) {
+      candidates.sort((a, b) => b.earned - a.earned);
+      percents.push(candidates[0].pct);
+    }
+  });
+
+  if (!percents.length) { box.style.display = 'none'; return; }
+  const avg = Math.round(percents.reduce((a, b) => a + b, 0) / percents.length);
+  document.getElementById('social-progress-pct').textContent = avg + '%';
+  document.getElementById('social-progress-fill').style.width = avg + '%';
+  box.style.display = '';
+}
+
+function jeuCardHtml(j, statut) {
+  const hue = jeuHue(j.nom);
+  const badges = cardBadgesHtml(j.progression, j.achievements && j.achievements.switch);
+  const textCol = `<div class="jeu-card-text-col">
+      <div class="jeu-card-label">${esc(j.nom)}</div>
+      ${progressBarsHtml(j.progression, j.ffxiv, j.achievements && j.achievements.switch)}
+    </div>`;
+  return `<div class="jeu-card" onclick="openJeuDetailView('${j.id}','${statut}')">
+    ${platBadgesHtml(j.plateformes, j.nom)}
+    <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))">${coverInnerHtml(j)}</div>
+    <div class="jeu-card-overlay">
+      ${badges ? `<div class="jeu-card-badge-row">${badges}${textCol}</div>` : textCol}
+    </div>
+  </div>`;
+}
+
+function renderJeux() {
+  const q = (document.getElementById('jeux-search')?.value || '').toLowerCase().trim();
+  const body = document.getElementById('jeux-content');
+  let html = '';
+  let any = false;
+
+  const section = (title, badgeIcon, list, statut, subtitle) => {
+    if (!list.length) return;
+    any = true;
+    html += `<div class="jeux-section">
+      <div class="jeux-section-head"><span class="jeux-section-title">${badgeIcon} ${title}</span><span class="jeux-section-badge">${list.length}</span></div>
+      ${subtitle ? `<div class="jeux-section-sub">${subtitle}</div>` : ''}
+      <div class="jeux-grid">${list.map(j => jeuCardHtml(j, statut)).join('')}</div>
+    </div>`;
+  };
+
+  let enCours = _jeuxData.enCours;
+  if (q) enCours = enCours.filter(j => j.nom.toLowerCase().includes(q));
+  const aCompleter = enCours.filter(j => j.type === 'a_completer');
+  const normaux = enCours.filter(j => j.type !== 'a_completer');
+  section('Histoire finie — à compléter', '✔', aCompleter, 'enCours');
+  section('En cours', '🎯', normaux, 'enCours');
+
+  let termines = _jeuxData.termines;
+  if (q) termines = termines.filter(j => j.nom.toLowerCase().includes(q));
+  const annee = new Date().getFullYear();
+  const cetteAnnee = termines.filter(j => j.annee && Number(j.annee) === annee);
+  const archive = termines.filter(j => !j.annee || Number(j.annee) !== annee).slice().sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+  section(`Terminés en ${annee}`, '🗓', cetteAnnee, 'termines');
+  section('Jeux terminés les années précédentes', '📚', archive, 'termines');
+
+  body.innerHTML = any ? html : `<div class="jeux-empty">${q ? 'Aucun jeu ne correspond à ta recherche.' : 'Rien à afficher pour l\'instant.'}</div>`;
+}
+
+// ── Popup détail — tout est déjà dans le JSON chargé, aucun appel réseau. ──
+function jeuDetailLogoFallback(el, nom) {
+  el.parentElement.innerHTML = `<div class="jeu-detail-title-fallback"></div>`;
+  el.parentElement.firstChild.textContent = nom;
+}
+function jeuDetailStudioLogoFallback(el, nom) {
+  const span = document.createElement('span');
+  span.className = 'jeu-detail-studio-name';
+  span.textContent = nom;
+  el.replaceWith(span);
+}
+
+function openJeuDetailView(id, statut) {
+  const jeu = (_jeuxData[statut] || []).find(j => j.id === id);
+  if (!jeu) return;
+
+  const prog = jeu.progression || {};
+  const hue = jeuHue(jeu.nom);
+  const steamAppId = jeu.steamAppId;
+  const ffxiv = isFfxivGame(jeu.nom) && jeu.ffxiv;
+
+  const banner = document.getElementById('jeu-detail-banner');
+  const coverWrap = document.querySelector('.jeu-detail-cover-wrap');
+  const coverBox = document.getElementById('jeu-detail-cover');
+  const logoWrap = document.getElementById('jeu-detail-logo-wrap');
+  const ffxivBannerBox = document.getElementById('ffxiv-banner-container');
+
+  if (ffxiv) {
+    banner.style.backgroundImage = 'none';
+    banner.style.backgroundColor = 'transparent';
+    banner.style.webkitMaskImage = 'none';
+    banner.style.maskImage = 'none';
+    banner.style.height = 'auto';
+    coverWrap.style.display = 'none';
+    logoWrap.style.display = 'none';
+    ffxivBannerBox.style.display = 'block';
+    document.getElementById('jeu-detail-info').style.paddingTop = '18px';
+    ffxivBannerBox.innerHTML = ffxivBannerHtml(jeu.ffxiv);
+  } else {
+    banner.style.webkitMaskImage = '';
+    banner.style.maskImage = '';
+    banner.style.height = '';
+    coverWrap.style.display = '';
+    logoWrap.style.display = '';
+    ffxivBannerBox.style.display = 'none';
+    document.getElementById('jeu-detail-info').style.paddingTop = '';
+
+    banner.style.backgroundColor = `hsl(${hue} 40% 14%)`;
+    banner.style.backgroundImage = steamAppId
+      ? `url('https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/library_hero.jpg')`
+      : (jeu.artwork ? `url('${jeu.artwork}')` : 'none');
+
+    coverBox.style.background = `linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))`;
+    coverBox.innerHTML = coverInnerHtml(jeu);
+
+    if (steamAppId) {
+      logoWrap.innerHTML = `<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/${steamAppId}/logo.png" alt="${esc(jeu.nom)}" onerror="jeuDetailLogoFallback(this, ${esc(JSON.stringify(jeu.nom))})">`;
+    } else {
+      logoWrap.innerHTML = `<div class="jeu-detail-title-fallback">${esc(jeu.nom)}</div>`;
+    }
+  }
+
+  const statusLabel = statut === 'termines'
+    ? (jeu.annee ? `🗓 Terminé en ${jeu.annee}` : '🏆 Terminé')
+    : (jeu.type === 'a_completer' ? '✔ Histoire finie — à compléter' : '🎯 En cours');
+
+  let statsHtml = '';
+  if (prog.PlayStation) {
+    const pct = calcPercentPS(prog.PlayStation);
+    if (pct !== null) {
+      const complete = pct === 100 || !!prog.PlayStation.platine;
+      statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PlayStation')}">${pct}%</strong><span>PlayStation</span>${complete ? `<span class="jeu-detail-stat-badge">${PLATINUM_TROPHY_SVG}</span>` : ''}</div>`;
+    }
+  }
+  if (prog.PC && !ffxiv) {
+    const pct = calcPercentSteam(prog.PC);
+    if (pct !== null) statsHtml += `<div class="jeu-detail-stat"><strong style="color:${platColor('PC')}">${pct}%</strong><span>Steam</span>${pct === 100 ? `<span class="jeu-detail-stat-badge">${STEAM_100_BADGE_SVG}</span>` : ''}</div>`;
+  }
+  if (prog.Xbox) {
+    const pct = calcPercentXbox(prog.Xbox);
+    if (pct !== null) statsHtml += `<div class="jeu-detail-stat"><strong style="color:${XBOX_COLOR}">${pct}%</strong><span>Xbox</span>${pct === 100 ? `<span class="jeu-detail-stat-badge">${XBOX_ICON_SVG}</span>` : ''}</div>`;
+  }
+
+  const seen = new Set();
+  const studios = ffxiv ? [] : collapseStudios(jeu.studios || []).filter(c => { if (seen.has(c.name)) return false; seen.add(c.name); return true; });
+  const studiosHtml = studios.map(c => c.logo
+    ? `<div class="jeu-detail-studio-chip"><img src="${esc(c.logo)}" alt="${esc(c.name)}" title="${esc(c.name)}" onerror="jeuDetailStudioLogoFallback(this, ${esc(JSON.stringify(c.name))})"></div>`
+    : `<span class="jeu-detail-studio-name">${esc(c.name)}</span>`
+  ).join('');
+
+  document.getElementById('jeu-detail-info').innerHTML = `
+    <div class="jeu-detail-info-row">
+      <span class="jeu-detail-status-badge">${statusLabel}</span>
+      ${platBadgesInlineHtml(jeu.plateformes, jeu.nom)}
+    </div>
+    <div class="jeu-detail-stats-row">
+      ${statsHtml ? `<div class="jeu-detail-stats">${statsHtml}</div>` : '<div></div>'}
+      <div class="jeu-detail-studios">${studiosHtml}</div>
+    </div>
+    ${(!ffxiv && jeu.pitch) ? `<div class="jeu-detail-pitch">${esc(jeu.pitch)}</div>` : ''}
+  `;
+
+  document.getElementById('modal-jeu-detail').classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  const body = document.getElementById('jeu-detail-body');
+  const ach = jeu.achievements || {};
+  let achHtml = '';
+  if (ach.steam && ach.steam.length) {
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎯 Succès Steam</div>${achievementGridHtml(ach.steam, 'steam')}</div>`;
+  }
+  if (ach.psn && ach.psn.length) {
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🏆 Trophées PlayStation</div>${achievementGridHtml(ach.psn, 'psn')}</div>`;
+  }
+  if (ach.xbox && ach.xbox.length) {
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎮 Succès Xbox</div>${achievementGridHtml(ach.xbox, 'xbox')}</div>`;
+  }
+  if (ach.switch && ach.switch.length) {
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎮 Succès (via tâches)</div>${achievementGridHtml(ach.switch, 'switch')}</div>`;
+  }
+  if (!achHtml) achHtml = `<div class="jeu-detail-empty">Pas de détail de succès disponible pour ce jeu.</div>`;
+
+  if (ffxiv) {
+    body.innerHTML = `
+      <div class="jeu-detail-tabs">
+        <button class="jeu-detail-tab-btn active" onclick="switchJeuDetailTab('ingame', this)">🎮 In-game</button>
+        <button class="jeu-detail-tab-btn" onclick="switchJeuDetailTab('succes', this)">🏆 Succès</button>
       </div>
+      <div class="jeu-detail-tab-pane active" id="jeu-detail-tab-ingame"></div>
+      <div class="jeu-detail-tab-pane" id="jeu-detail-tab-succes">${achHtml}</div>
+    `;
+    renderFfxivIngame(jeu.ffxiv);
+  } else {
+    body.innerHTML = achHtml;
+  }
+}
 
-      <div class="side-column">
-        <section class="feed-panel glass">
-          <div id="notifications-list">
-            <p class="feed-status">Chargement…</p>
-          </div>
-          <div id="messages-list" hidden>
-            <p class="feed-status">Chargement…</p>
-          </div>
-          <div id="schedule-list" hidden>
-            <p class="feed-status">Chargement…</p>
-          </div>
-        </section>
+function switchJeuDetailTab(tab, btn) {
+  document.querySelectorAll('.jeu-detail-tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.jeu-detail-tab-pane').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  const pane = document.getElementById('jeu-detail-tab-' + tab);
+  if (pane) pane.classList.add('active');
+}
+
+const FFXIV_ROLE_LABELS = { tank: 'Tank', healer: 'Healer', melee: 'Mêlée', ranged: 'Distance physique', caster: 'Distance magique', craft: 'Artisanat', gather: 'Récolte' };
+const FFXIV_ROLE_ORDER = ['tank', 'healer', 'melee', 'ranged', 'caster', 'craft', 'gather'];
+const FFXIV_ROLE_COLORS = { tank: '#3B82F6', healer: '#22C55E', melee: '#EF4444', ranged: '#F59E0B', caster: '#A855F7', craft: '#8B99A6', gather: '#8B99A6' };
+
+let _ffxivActivePanel = null;
+let _ffxivHfList = [];
+let _ffxivCurrentData = null;
+
+// Onglet "in-game" FFXIV — tout est déjà dans le JSON synchronisé
+// (jeu.ffxiv), aucun appel réseau ici contrairement au panneau local.
+// Photo = jobs, icônes = montures/mascottes, un seul panneau ouvert à la fois.
+// Bannière personnage FFXIV — inspirée de la bannière de profil du
+// Lodestone : portrait à droite, tous les niveaux de job visibles d'un
+// coup à gauche. Tout est déjà dans jeu.ffxiv (synchronisé), pas de
+// polling nécessaire ici contrairement au panneau local.
+function ffxivBannerHtml(d) {
+  const p = d.profile || {};
+  return `<div class="ffxiv-banner">
+    <div class="ffxiv-banner-info">
+      <div class="ffxiv-banner-name">${esc(p.name || '')}</div>
+      ${p.title ? `<div class="ffxiv-banner-title">${esc(p.title)}</div>` : ''}
+      <div class="ffxiv-banner-meta">
+        ${p.world ? `<span>🌐 ${esc(p.world)}</span>` : ''}
+        ${p.freeCompany ? `<span>🏠 ${esc(p.freeCompany)}</span>` : ''}
+        ${d.updatedAt ? `<span style="opacity:.65">Mis à jour le ${new Date(d.updatedAt).toLocaleDateString('fr-FR')}</span>` : ''}
       </div>
+      ${ffxivMiniJobsHtml(d)}
     </div>
-  </div>
-</div>
+    ${(p.portrait || p.avatar) ? `<div class="ffxiv-banner-portrait">
+      <img src="${esc(p.portrait || p.avatar)}" alt="">
+      ${p.activeJobLevel ? `<div class="ffxiv-banner-active">
+        <div class="ffxiv-banner-active-lvl">Niv. ${p.activeJobLevel}</div>
+        ${p.activeJobIcon ? `<img class="ffxiv-banner-active-icon" src="${esc(p.activeJobIcon)}" alt="">` : ''}
+      </div>` : ''}
+    </div>` : ''}
+  </div>`;
+}
 
-<div class="bottom-bar glass">
-  <button class="dock-item" id="toggle-fullscreen" title="Plein écran">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="17" height="17"><path d="M8 3H5a2 2 0 00-2 2v3M16 3h3a2 2 0 012 2v3M8 21H5a2 2 0 01-2-2v-3M16 21h3a2 2 0 002-2v-3"/></svg>
-  </button>
-  <button class="dock-item" id="open-accounts" title="Comptes">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="17" height="17"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
-  </button>
-  <button class="dock-item my-profile-btn" id="open-my-profile" title="Mon profil">
-    <img class="avatar my-profile-avatar" id="my-profile-avatar-img" src="" alt="">
-  </button>
-  <span class="top-bar-divider"></span>
-  <button class="fab-inline" id="open-composer" title="Nouveau post" aria-label="Nouveau post">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-</div>
+function ffxivMiniJobIconFallback(el, abbr) {
+  const span = document.createElement('span');
+  span.className = 'ffxiv-mini-job-fallback';
+  span.textContent = abbr;
+  el.replaceWith(span);
+}
 
-<div class="accounts-popover" id="accounts-popover">
-  <div class="accounts-panel glass">
-    <div class="accounts-header">
-      <span>Comptes</span>
-      <button class="sheet-close" id="close-accounts" aria-label="Fermer">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M6 6l12 12M18 6L6 18"/></svg>
-      </button>
+function ffxivMiniJobsHtml(d) {
+  const combat = (d.jobs || []).filter(j => ['tank', 'healer', 'melee', 'ranged', 'caster'].includes(j.role));
+  const crafting = (d.jobs || []).filter(j => ['craft', 'gather'].includes(j.role));
+  const miniJob = j => `<div class="ffxiv-mini-job" title="${esc(j.abbr)} · niveau ${j.level || 0}">${j.icon ? `<img src="${esc(j.icon)}" alt="${esc(j.abbr)}" onerror="ffxivMiniJobIconFallback(this, ${esc(JSON.stringify(j.abbr))})">` : `<span class="ffxiv-mini-job-fallback">${esc(j.abbr)}</span>`}<span>${j.level || '—'}</span></div>`;
+  let special = '';
+  if (d.eureka) special += `<div class="ffxiv-mini-job" title="Eureka · niveau ${d.eureka.level}"><span class="ffxiv-mini-job-fallback" style="color:var(--go)">EU</span><span>${d.eureka.level}</span></div>`;
+  if (d.bozja) special += `<div class="ffxiv-mini-job" title="Bozja · niveau ${d.bozja.level}"><span class="ffxiv-mini-job-fallback" style="color:var(--go)">BZ</span><span>${d.bozja.level}</span></div>`;
+  return `<div class="ffxiv-banner-jobs">
+    <div class="ffxiv-banner-jobs-row">${combat.map(miniJob).join('')}</div>
+    <div class="ffxiv-banner-jobs-row">${crafting.map(miniJob).join('')}${special}</div>
+  </div>`;
+}
+
+// Onglet "in-game" simplifié : les jobs sont dans la bannière, il ne reste
+// ici que les "faux onglets" hauts faits/montures/mascottes.
+function renderFfxivIngame(d) {
+  const pane = document.getElementById('jeu-detail-tab-ingame');
+  if (!pane) return;
+  _ffxivCurrentData = d;
+  _ffxivActivePanel = null;
+  pane.innerHTML = `
+    <div class="ffxiv-triggers-row">
+      <button class="ffxiv-trigger-btn" data-panel="hf" onclick="toggleFfxivPanel('hf')">🏆 Hauts faits</button>
+      <button class="ffxiv-trigger-btn" data-panel="mounts" onclick="toggleFfxivPanel('mounts')">🐴 Montures (${(d.mounts || []).length})</button>
+      <button class="ffxiv-trigger-btn" data-panel="minions" onclick="toggleFfxivPanel('minions')">🐾 Mascottes (${(d.minions || []).length})</button>
     </div>
+    <div class="ffxiv-panel" id="ffxiv-panel-content"></div>`;
+  toggleFfxivPanel('hf'); // les hauts faits obtenus s'ouvrent directement, pas besoin de cliquer
+}
 
-    <div class="accounts-list" id="accounts-list">
-      <p class="feed-status">Chargement…</p>
-    </div>
+function toggleFfxivPanel(panel) {
+  _ffxivActivePanel = (_ffxivActivePanel === panel) ? null : panel;
+  document.querySelectorAll('.ffxiv-trigger-btn[data-panel]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.panel === _ffxivActivePanel);
+  });
+  const box = document.getElementById('ffxiv-panel-content');
+  if (!box || !_ffxivCurrentData) return;
+  if (!_ffxivActivePanel) { box.innerHTML = ''; return; }
+  if (_ffxivActivePanel === 'mounts') box.innerHTML = ffxivCollectHtml(_ffxivCurrentData.mounts, 'Aucune monture récupérée.');
+  else if (_ffxivActivePanel === 'minions') box.innerHTML = ffxivCollectHtml(_ffxivCurrentData.minions, 'Aucune mascotte récupérée.');
+  else if (_ffxivActivePanel === 'hf') { box.innerHTML = `<div id="ffxiv-hf-section"></div>`; renderFfxivAchievements(); }
+}
 
-    <button class="accounts-add-toggle" id="toggle-add-account">+ Ajouter un compte</button>
+function ffxivCollectHtml(list, emptyLabel) {
+  return (list && list.length)
+    ? `<div class="ffxiv-collect-grid">${list.map(m => `<div class="ffxiv-collect-item">${m.icon ? `<img src="${esc(m.icon)}" alt="">` : ''}<span title="${esc(m.name)}">${esc(m.name)}</span></div>`).join('')}</div>`
+    : `<div class="jeu-detail-empty">${emptyLabel}</div>`;
+}
 
-    <div class="accounts-add-form" id="add-account-form" hidden>
-      <input type="text" id="new-account-identifier" placeholder="identifiant.eurosky.social">
-      <input type="password" id="new-account-password" placeholder="Mot de passe d'application">
-      <input type="text" id="new-account-service" placeholder="Service (optionnel, ex. https://eurosky.social)">
-      <div class="accounts-add-actions">
-        <span id="add-account-feedback" class="feedback"></span>
-        <button class="btn-primary" id="submit-add-account">Connecter</button>
+function renderFfxivAchievements() {
+  const section = document.getElementById('ffxiv-hf-section');
+  if (!section || !_ffxivCurrentData) return;
+  const a = _ffxivCurrentData.achievements || {};
+  _ffxivHfList = (a.recent || []).slice().sort((x, y) => (y.date || 0) - (x.date || 0));
+  const head = `<div class="jeu-detail-section-head">🏆 Hauts faits${a.earned !== null && a.earned !== undefined ? ` — ${a.earned}${a.total ? ` / ~${a.total}` : ''}` : ''}${a.points ? ` · ${esc(a.points)}` : ''}</div>`;
+  section.innerHTML = `${head}<input type="text" class="ffxiv-hf-search" placeholder="Rechercher un haut fait..." oninput="filterFfxivHf(this.value)"><div id="ffxiv-hf-list">${ffxivHfRowsHtml(_ffxivHfList)}</div>`;
+}
+function ffxivHfRowsHtml(list) {
+  return list.length
+    ? `<div class="ffxiv-hf-grid">${list.map(h => `<div class="ffxiv-hf-row">
+        <div class="ffxiv-hf-icon">🏆</div>
+        <div class="ffxiv-hf-text">
+          <div class="ffxiv-hf-name" title="${esc(h.name)}">${esc(h.name)}</div>
+          <div class="ffxiv-hf-date">${h.date ? new Date(h.date).toLocaleDateString('fr-FR') : ''}${(h.date && h.points !== undefined && h.points !== null) ? ' · ' : ''}${(h.points !== undefined && h.points !== null) ? `${h.points} pts` : ''}</div>
+        </div>
+      </div>`).join('')}</div>`
+    : `<div class="jeu-detail-empty">Aucun haut fait récupéré.</div>`;
+}
+function filterFfxivHf(q) {
+  const box = document.getElementById('ffxiv-hf-list');
+  if (!box) return;
+  const qn = q.toLowerCase().trim();
+  const filtered = qn ? _ffxivHfList.filter(h => h.name.toLowerCase().includes(qn)) : _ffxivHfList;
+  box.innerHTML = filtered.length ? ffxivHfRowsHtml(filtered) : `<div class="jeu-detail-empty">Aucun résultat pour "${esc(q)}".</div>`;
+}
+
+function closeJeuDetailModal() {
+  document.getElementById('modal-jeu-detail').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Où que la souris survole la popup (même la bannière/jaquette, fixes),
+// la molette fait défiler la liste de succès/trophées — jamais la page
+// derrière.
+document.getElementById('modal-jeu-detail').addEventListener('wheel', (e) => {
+  const feed = document.getElementById('jeu-detail-body');
+  if (!feed) return;
+  feed.scrollTop += e.deltaY;
+  e.preventDefault();
+}, { passive: false });
+
+function achievementGridHtml(list, kind) {
+  if (!list || !list.length) return `<div class="jeux-empty">Aucune donnée disponible.</div>`;
+  const CHECK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+  const LOCK_SVG = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5zm-3 8V6a3 3 0 0 1 6 0v3z"/></svg>';
+  const sorted = list.slice().sort((a, b) => (b.earned ? 1 : 0) - (a.earned ? 1 : 0));
+  return `<div class="jeu-detail-ach-grid">${sorted.map(a => {
+    const icon = kind === 'steam' ? (a.earned ? a.iconEarned : a.iconLocked) : a.icon;
+    const secret = kind === 'psn' && a.hidden && !a.earned;
+    const name = secret ? 'Trophée secret' : (a.name || '');
+    const desc = secret ? "Débloque-le pour découvrir de quoi il s'agit." : (a.description || '');
+    const iconHtml = icon
+      ? `<img src="${esc(icon)}" alt="" onerror="this.style.visibility='hidden'">`
+      : (kind === 'switch' ? `<div class="jeu-detail-ach-noicon">🏆</div>` : `<img src="" alt="" style="visibility:hidden">`);
+    return `<div class="jeu-detail-ach ${a.earned ? 'earned' : 'locked'}">
+      <div class="jeu-detail-ach-icon-wrap">
+        ${iconHtml}
+        <span class="jeu-detail-ach-badge ${a.earned ? 'earned' : 'locked'}" title="${a.earned ? 'Obtenu' : 'Verrouillé'}">${a.earned ? CHECK_SVG : LOCK_SVG}</span>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="sheet-overlay" id="composer-overlay">
-  <div class="sheet" role="dialog" aria-modal="true" aria-label="Nouveau post">
-    <div class="sheet-header">
-      <h2>Nouveau post</h2>
-      <button class="sheet-close" id="close-composer" aria-label="Fermer">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 6l12 12M18 6L6 18"/></svg>
-      </button>
-    </div>
-
-    <div class="segmented" role="tablist">
-      <button class="segmented-option active" data-mode="now" role="tab" aria-selected="true">Maintenant</button>
-      <button class="segmented-option" data-mode="schedule" role="tab" aria-selected="false">Programmer</button>
-    </div>
-
-    <textarea id="composer-text" placeholder="À quoi tu penses ?" maxlength="300"></textarea>
-    <div class="composer-meta">
-      <span id="composer-count" class="char-count">300</span>
-    </div>
-
-    <div class="composer-images" id="composer-images"></div>
-    <input type="file" id="image-input" accept="image/*" multiple hidden>
-    <button type="button" class="attach-btn" id="attach-image-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-      <span>Image</span>
-    </button>
-
-    <div class="schedule-fields" id="schedule-fields" hidden>
-      <input type="datetime-local" id="schedule-at">
-      <p class="sheet-note">Publié automatiquement à l'heure choisie, dès qu'un des deux appareils (PC ou Mac) est allumé avec l'app lancée.</p>
-      <div class="schedule-existing-title">Déjà programmés</div>
-      <div class="schedule-existing-list" id="schedule-existing-list"></div>
-    </div>
-
-    <div class="sheet-footer">
-      <span id="composer-feedback" class="feedback"></span>
-      <button class="btn-primary" id="submit-composer">Publier</button>
-    </div>
-  </div>
-</div>
-
-<div class="sheet-overlay" id="search-overlay">
-  <div class="sheet search-sheet" role="dialog" aria-modal="true" aria-label="Recherche">
-    <div class="sheet-header">
-      <h2>Recherche</h2>
-      <button class="sheet-close" id="close-search" aria-label="Fermer">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 6l12 12M18 6L6 18"/></svg>
-      </button>
-    </div>
-    <input type="text" id="search-input" class="search-input" placeholder="Chercher un compte ou un post…">
-    <div class="search-results" id="search-results"></div>
-  </div>
-</div>
-
-<div class="sheet-overlay" id="actor-overlay">
-  <div class="sheet actor-sheet" role="dialog" aria-modal="true" aria-label="Profil">
-    <div class="profile-top">
-      <div class="profile-cover" id="actor-cover"></div>
-      <img class="profile-avatar" id="actor-avatar" alt="">
-    </div>
-
-    <div class="actor-modal-info">
-      <div class="profile-identity">
-        <div class="profile-name" id="actor-name">—</div>
-        <div class="profile-handle" id="actor-handle">—</div>
+      <div class="jeu-detail-ach-text">
+        <div class="jeu-detail-ach-name">${esc(name)}${kind === 'psn' && a.type ? ` <span style="color:var(--mu)">· ${esc(a.type)}</span>` : ''}</div>
+        <div class="jeu-detail-ach-desc">${esc(desc)}</div>
       </div>
-      <p class="profile-bio" id="actor-bio"></p>
-      <div class="profile-stats" id="actor-stats"></div>
-    </div>
+    </div>`;
+  }).join('')}</div>`;
+}
 
-    <div class="actor-posts" id="actor-posts">
-      <p class="feed-status">Chargement…</p>
-    </div>
-  </div>
-</div>
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.s-modal.open').forEach(m => m.classList.remove('open')); });
 
-<div class="sheet-overlay" id="thread-overlay">
-  <div class="sheet thread-sheet" role="dialog" aria-modal="true" aria-label="Fil de discussion">
-    <div class="sheet-header">
-      <h2>Fil de discussion</h2>
-      <button class="sheet-close" id="close-thread" aria-label="Fermer">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 6l12 12M18 6L6 18"/></svg>
-      </button>
-    </div>
-    <div class="thread-content" id="thread-content">
-      <p class="feed-status">Chargement…</p>
-    </div>
-  </div>
-</div>
-
-<div class="sheet-overlay" id="dm-overlay">
-  <div class="sheet dm-sheet" role="dialog" aria-modal="true" aria-label="Conversation">
-    <div class="sheet-header">
-      <h2 id="dm-title">Conversation</h2>
-      <button class="sheet-close" id="close-dm" aria-label="Fermer">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 6l12 12M18 6L6 18"/></svg>
-      </button>
-    </div>
-    <div class="dm-messages" id="dm-messages">
-      <p class="feed-status">Chargement…</p>
-    </div>
-    <div class="dm-compose">
-      <input type="text" id="dm-input" placeholder="Écrire un message…">
-      <button class="btn-primary" id="dm-send">Envoyer</button>
-    </div>
-  </div>
-</div>
-
-<div class="sheet-overlay" id="stats-overlay">
-  <div class="sheet stats-sheet" role="dialog" aria-modal="true" aria-label="Statistiques">
-    <div class="sheet-header">
-      <h2>Statistiques</h2>
-      <button class="sheet-close" id="close-stats" aria-label="Fermer">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 6l12 12M18 6L6 18"/></svg>
-      </button>
-    </div>
-    <p class="sheet-note" id="stats-note"></p>
-    <div class="stats-grid" id="stats-grid"></div>
-    <div class="schedule-existing-title">Post le plus aimé</div>
-    <div id="stats-top-post"></div>
-  </div>
-</div>
-
-<script src="/app.js"></script>
+loadJeux();
+</script>
 </body>
 </html>
