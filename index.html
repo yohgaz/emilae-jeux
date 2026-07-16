@@ -169,13 +169,13 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 
 .ffxiv-hf-search{width:100%;background:var(--c2);border:1px solid var(--glass-border);border-radius:8px;padding:8px 12px;color:var(--tx);font-family:'Nunito',sans-serif;font-size:12px;margin-bottom:10px;outline:none}
 .ffxiv-hf-search:focus{border-color:var(--go)}
-.ffxiv-hf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:8px}
-.ffxiv-hf-row{display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:10px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:background .15s,border-color .15s}
+.ffxiv-hf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.ffxiv-hf-row{display:flex;align-items:center;gap:13px;padding:11px 14px;border-radius:12px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:background .15s,border-color .15s}
 .ffxiv-hf-row:hover{background:rgba(232,184,77,.07);border-color:rgba(232,184,77,.3)}
-.ffxiv-hf-icon{width:30px;height:30px;border-radius:8px;background:rgba(232,184,77,.12);color:var(--go);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}
+.ffxiv-hf-icon{width:44px;height:44px;border-radius:10px;background:rgba(232,184,77,.12);color:var(--go);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px;object-fit:cover}
 .ffxiv-hf-text{flex:1;min-width:0}
-.ffxiv-hf-name{font-size:12px;font-weight:800;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ffxiv-hf-date{font-size:10px;color:var(--mu);font-family:monospace;margin-top:2px}
+.ffxiv-hf-name{font-size:13.5px;font-weight:800;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ffxiv-hf-date{font-size:11px;color:var(--mu);font-family:monospace;margin-top:3px}
 
 .ffxiv-collect-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
 .ffxiv-collect-item{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:8px;background:var(--glass-fill);border:1px solid var(--glass-border)}
@@ -810,7 +810,9 @@ function renderFfxivAchievements() {
 function ffxivHfRowsHtml(list) {
   return list.length
     ? `<div class="ffxiv-hf-grid">${list.map(h => `<div class="ffxiv-hf-row">
-        <div class="ffxiv-hf-icon">🏆</div>
+        ${h.icon
+          ? `<img class="ffxiv-hf-icon" src="${esc(h.icon)}" alt="" onerror="this.outerHTML='<div class=&quot;ffxiv-hf-icon&quot;>🏆</div>'">`
+          : `<div class="ffxiv-hf-icon">🏆</div>`}
         <div class="ffxiv-hf-text">
           <div class="ffxiv-hf-name" title="${esc(h.name)}">${esc(h.name)}</div>
           <div class="ffxiv-hf-date">${h.date ? new Date(h.date).toLocaleDateString('fr-FR') : ''}${(h.date && h.points !== undefined && h.points !== null) ? ' · ' : ''}${(h.points !== undefined && h.points !== null) ? `${h.points} pts` : ''}</div>
