@@ -122,6 +122,22 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-section:last-child{margin-bottom:0}
 .jeu-detail-section-head{font-weight:900;font-size:13px;color:var(--cy);margin-bottom:10px}
 .jeu-detail-ach-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px}
+
+/* ── Grille de cartes cliquables pour les trophées PSN par extension ── */
+.psn-group-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+.psn-group-card{position:relative;border-radius:var(--radius-md);overflow:hidden;cursor:pointer;border:1px solid var(--glass-border);aspect-ratio:1/1;background:var(--c2);transition:transform .15s,border-color .15s}
+.psn-group-card:hover{transform:translateY(-3px);border-color:var(--go)}
+.psn-group-card-cover{position:absolute;inset:0}
+.psn-group-card-cover img{width:100%;height:100%;object-fit:cover}
+.psn-group-card-overlay{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(180deg,transparent,rgba(8,9,14,.92) 60%);padding:40px 14px 12px}
+.psn-group-card-name{font-family:'Nunito',sans-serif;font-weight:800;font-size:14.5px;color:#fff;line-height:1.3}
+.psn-group-card-progress{font-size:12px;color:var(--go);font-weight:800;margin-top:4px;font-family:monospace}
+.psn-group-modal-header{display:flex;align-items:center;gap:20px;padding:26px 28px;background:rgba(255,255,255,.03)}
+.psn-group-modal-cover{width:84px;height:84px;border-radius:16px;background:var(--c2);flex-shrink:0;display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:28px}
+.psn-group-modal-cover img{width:100%;height:100%;object-fit:cover}
+.psn-group-modal-title{font-family:'Nunito',sans-serif;font-weight:900;font-size:20px;color:var(--tx)}
+.psn-group-modal-sub{font-size:13px;color:var(--mu);margin-top:4px}
+.psn-group-modal-body{padding:12px 28px 28px;max-height:58vh;overflow-y:auto}
 .jeu-detail-ach{display:flex;align-items:center;gap:11px;padding:8px 10px;border-radius:10px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:opacity .15s}
 .jeu-detail-ach.locked{opacity:.45}
 .jeu-detail-ach.earned{background:rgba(111,218,154,.07);border-color:rgba(111,218,154,.35)}
@@ -281,6 +297,14 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
     </div>
     <div class="jeu-detail-info" id="jeu-detail-info"></div>
     <div class="jeu-detail-feed" id="jeu-detail-body"></div>
+  </div>
+</div>
+
+<div class="s-modal" id="modal-psn-group" style="z-index:200">
+  <div class="s-modal-box" style="width:760px;max-width:92vw;padding:0;overflow:hidden">
+    <button class="jeu-detail-close" onclick="closePsnGroupModal()">✕</button>
+    <div class="psn-group-modal-header" id="psn-group-modal-header"></div>
+    <div class="psn-group-modal-body" id="psn-group-modal-body"></div>
   </div>
 </div>
 
@@ -672,7 +696,7 @@ function openJeuDetailView(id, statut) {
     achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎯 Succès Steam</div>${achievementGridHtml(ach.steam, 'steam')}</div>`;
   }
   if (ach.psn && ach.psn.length) {
-    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🏆 Trophées PlayStation</div>${achievementGridHtml(ach.psn, 'psn')}</div>`;
+    achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🏆 Trophées PlayStation</div>${psnTrophyGroupsHtml(ach.psn, ach.psnGroups)}</div>`;
   }
   if (ach.xbox && ach.xbox.length) {
     achHtml += `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🎮 Succès Xbox</div>${achievementGridHtml(ach.xbox, 'xbox')}</div>`;
@@ -869,7 +893,45 @@ function achievementGridHtml(list, kind) {
   }).join('')}</div>`;
 }
 
+// Regroupement des trophées PSN par extension — grille de cartes cliquables
+// (icône officielle Sony par groupe), même geste que les jaquettes de jeux.
+let _psnGroupsData = { trophies: [], groups: [] };
+function psnTrophyGroupsHtml(trophies, groups) {
+  if (!trophies || !trophies.length) return `<div class="jeux-empty">Aucune donnée disponible.</div>`;
+  const groupList = (groups && groups.length) ? groups : [{ id: 'default', name: 'Trophées' }];
+  _psnGroupsData = { trophies, groups: groupList };
+  return `<div class="psn-group-grid">${groupList.map(g => {
+    const groupTrophies = trophies.filter(t => (t.groupId || 'default') === g.id);
+    if (!groupTrophies.length) return '';
+    const earnedCount = groupTrophies.filter(t => t.earned).length;
+    const pct = Math.round(earnedCount / groupTrophies.length * 100);
+    return `<div class="psn-group-card" onclick="openPsnGroupModal('${esc(g.id)}')">
+      <div class="psn-group-card-cover">${g.icon ? `<img src="${esc(g.icon)}" alt="" onerror="this.style.visibility='hidden'">` : ''}</div>
+      <div class="psn-group-card-overlay">
+        <div class="psn-group-card-name">${esc(g.name)}</div>
+        <div class="psn-group-card-progress">${earnedCount}/${groupTrophies.length} · ${pct}%</div>
+      </div>
+    </div>`;
+  }).join('')}</div>`;
+}
+function openPsnGroupModal(groupId) {
+  const g = _psnGroupsData.groups.find(x => x.id === groupId);
+  const groupTrophies = _psnGroupsData.trophies.filter(t => (t.groupId || 'default') === groupId);
+  if (!g) return;
+  const earnedCount = groupTrophies.filter(t => t.earned).length;
+  document.getElementById('psn-group-modal-header').innerHTML = `
+    <div class="psn-group-modal-cover">${g.icon ? `<img src="${esc(g.icon)}" alt="">` : '🏆'}</div>
+    <div>
+      <div class="psn-group-modal-title">${esc(g.name)}</div>
+      <div class="psn-group-modal-sub">${earnedCount}/${groupTrophies.length} trophées obtenus</div>
+    </div>`;
+  document.getElementById('psn-group-modal-body').innerHTML = achievementGridHtml(groupTrophies, 'psn');
+  document.getElementById('modal-psn-group').classList.add('open');
+}
+function closePsnGroupModal() { document.getElementById('modal-psn-group').classList.remove('open'); }
+
 document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.s-modal.open').forEach(m => m.classList.remove('open')); });
+document.getElementById('modal-psn-group').addEventListener('click', e => { if (e.target.id === 'modal-psn-group') closePsnGroupModal(); });
 
 loadJeux();
 </script>
