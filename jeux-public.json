@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T10:44:38.357Z",
+  "updatedAt": "2026-07-19T20:21:22.082Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -3920,6 +3920,30 @@
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl7dx.png",
           "developer": false,
           "publisher": true
+        },
+        {
+          "name": "Namco Bandai Games",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/ppsyr0o9mexuwrccjxod.png",
+          "developer": false,
+          "publisher": true
+        },
+        {
+          "name": "Bandai",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/lh1f6vksavn8pbfamhrk.png",
+          "developer": false,
+          "publisher": true
+        },
+        {
+          "name": "QLOC",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/kxbpxsybdxivz09j9cku.png",
+          "developer": false,
+          "publisher": false
+        },
+        {
+          "name": "Virtuos",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/clg9y.png",
+          "developer": false,
+          "publisher": false
         }
       ]
     },
@@ -4794,6 +4818,12 @@
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl5be.png",
           "developer": false,
           "publisher": true
+        },
+        {
+          "name": "Japan Studio",
+          "logo": null,
+          "developer": true,
+          "publisher": false
         }
       ],
       "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkv.jpg"
@@ -13941,34 +13971,28 @@
       "pitch": "Kingdom Hearts III is the third main installment in the Kingdom Hearts series developed and published by Square Enix. It was initially released January 2019 for the PlayStation 4 and the Xbox One. An expansion, Kingdom Hearts III Re Mind was released in January 2020.\n\nThe story takes place after the events of Kingdom Hearts 3D: Dream Drop Distance. It features an older Sora as the main protagonist, who sets forth on a new adventure to search for seven guardians of light in an attempt to stop Xehanort from bringing about a second Keyblade War. Sora is joined by Donald Duck, Goofy, Mickey Mouse, Riku, Kairi, and others. Along the way, Sora travels to many worlds from Disney and Pixar intellectual properties, and cross paths with the real Organization XIII.\n\nKingdom Hearts III features hack and slash combat reminiscent of Kingdom Hearts II, with elements from later handheld entries, allowing the player to control Sora in a party with Donald, Goofy, and up to two other Disney characters from the various worlds he visits. A major addition compared is the Formchange mechanic, which allows his currently equipped Keyblade to grant him special abilities and change shape. Sora can equip up to three Keyblades at a time, and cycle between them to use his abilities. Another addition is the Attractions mechanic, which occasionally allows Sora to summon and pilot a vehicle inspired by Disney theme park attractions. At certain points throughout the game, the player will be able to control other characters.",
       "studios": [
         {
-          "name": "Square Enix Creative Business Unit I",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl9bq.png",
-          "developer": true,
-          "publisher": false
-        },
-        {
           "name": "Square Enix Business Division 3",
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cladv.png",
           "developer": true,
           "publisher": false
         },
         {
-          "name": "The Walt Disney Company",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pddyib2zuv3aboabar9i.png",
+          "name": "Square Enix Creative Business Unit I",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl9bq.png",
           "developer": false,
-          "publisher": true
-        },
-        {
-          "name": "Pixar Animation Studios",
-          "logo": null,
-          "developer": false,
-          "publisher": true
+          "publisher": false
         },
         {
           "name": "Square Enix",
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/yqsot4fytthxblnyvcia.png",
           "developer": false,
           "publisher": true
+        },
+        {
+          "name": "Square Enix Creative Studio I",
+          "logo": null,
+          "developer": false,
+          "publisher": false
         }
       ]
     },
@@ -24537,7 +24561,7 @@
           "publisher": true
         }
       ],
-      "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/jebfvatucdcjpuedffy8.jpg"
+      "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/w39fifwif3vp5s6qprcv.jpg"
     },
     {
       "id": "2fcdf5f4e4ed4b37b3fb2f062c2da2d5",
@@ -34590,7 +34614,7 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 129,
+            "earned": 131,
             "total": 187
           },
           "argent": {
@@ -36231,7 +36255,7 @@
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a7e44b1a-2500-4764-8ccf-ef19f64ff038.png",
             "type": "bronze",
             "hidden": false,
-            "earned": false,
+            "earned": true,
             "groupId": "012"
           },
           {
@@ -36708,7 +36732,7 @@
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d6ff8acd-69eb-4b7e-ba78-dc63e9d76af5.png",
             "type": "bronze",
             "hidden": false,
-            "earned": false,
+            "earned": true,
             "groupId": "016"
           },
           {
@@ -36931,17 +36955,66 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784282283",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784282283",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784490039",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784490039",
           "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
         },
         "achievements": {
-          "earned": 1876,
+          "earned": 1883,
           "total": 3300,
-          "points": "16500",
+          "points": "16575",
           "recent": [
+            {
+              "id": "3436",
+              "name": "Arcaniste mythique",
+              "date": 1784415222000,
+              "points": 5,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F033000%2F033401.tex&format=png"
+            },
+            {
+              "id": "3397",
+              "name": "Armes des Manderville : torquetum manderveilleux",
+              "date": 1784411157000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034991.tex&format=png"
+            },
+            {
+              "id": "3771",
+              "name": "Armes fantômes : globe céleste fantôme umbra",
+              "date": 1784395224000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034716.tex&format=png"
+            },
+            {
+              "id": "3563",
+              "name": "Héros de grand chemin : L'Hoirie recouvrée",
+              "date": 1784386971000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002645.tex&format=png"
+            },
+            {
+              "id": "3661",
+              "name": "Décennale critique II",
+              "date": 1784329621000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F064000%2F064836.tex&format=png"
+            },
+            {
+              "id": "3302",
+              "name": "Armes des Manderville : planétaire majestueux",
+              "date": 1784313304000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034986.tex&format=png"
+            },
+            {
+              "id": "3867",
+              "name": "Champion poids lourds de l'Arcadion III",
+              "date": 1784283664000,
+              "points": 20,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002981.tex&format=png"
+            },
             {
               "id": "2929",
               "name": "En avant, forgez : Prodige",
@@ -37244,6 +37317,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003564.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "3136",
               "name": "Armes des Manderville : faux",
               "date": 1780837698000,
@@ -37291,56 +37414,6 @@
               "date": 1780322976000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034023.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "3393",
@@ -37644,6 +37717,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061264.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "3694",
               "name": "Outil cosmique : massette cosmique",
               "date": 1771686217000,
@@ -37691,56 +37814,6 @@
               "date": 1768577381000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "3865",
@@ -38044,6 +38117,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035604.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "3451",
               "name": "Menuisier mythique",
               "date": 1742655757000,
@@ -38091,56 +38214,6 @@
               "date": 1739372602000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F038000%2F038103.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "3521",
@@ -38444,6 +38517,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F059000%2F059861.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2336",
               "name": "Des liens à toute épreuve",
               "date": 1703785467000,
@@ -38491,56 +38614,6 @@
               "date": 1699307868000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F246000%2F246417.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2902",
@@ -38844,6 +38917,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001115.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "3211",
               "name": "Visiteur du gymnase II",
               "date": 1681247392000,
@@ -38891,56 +39014,6 @@
               "date": 1680470714000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032611.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "1000",
@@ -39244,6 +39317,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001098.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "3089",
               "name": "Pas d'île pas de vie",
               "date": 1672746843000,
@@ -39291,56 +39414,6 @@
               "date": 1672064890000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001052.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "226",
@@ -39644,6 +39717,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035501.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2362",
               "name": "Féru de l'aiguille VI",
               "date": 1640903710000,
@@ -39691,56 +39814,6 @@
               "date": 1640645458000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035001.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "700",
@@ -40044,6 +40117,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F021000%2F021901.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2983",
               "name": "Cartographe du continent : L'Hyperborée",
               "date": 1639134737000,
@@ -40091,56 +40214,6 @@
               "date": 1639062135000,
               "points": 20,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2982",
@@ -40444,6 +40517,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000116.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2741",
               "name": "Visiteur du Jardin secret du Lyhe Ghiah II",
               "date": 1631048619000,
@@ -40491,56 +40614,6 @@
               "date": 1623677216000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2797",
@@ -40844,6 +40917,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002629.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2796",
               "name": "Outils de Cielacier : hachette de la forge céleste",
               "date": 1616360551000,
@@ -40891,56 +41014,6 @@
               "date": 1616159271000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002645.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2347",
@@ -41244,6 +41317,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2659",
               "name": "Outils de Cielacier : scie du chant céleste",
               "date": 1612034375000,
@@ -41291,56 +41414,6 @@
               "date": 1611147752000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2804",
@@ -41644,6 +41717,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F031000%2F031816.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "1942",
               "name": "Creuser son trou VIII",
               "date": 1585666925000,
@@ -41691,56 +41814,6 @@
               "date": 1585519968000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035015.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2321",
@@ -42044,6 +42117,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2483",
               "name": "Un chocobo sachant chanter",
               "date": 1577804464000,
@@ -42091,56 +42214,6 @@
               "date": 1575393379000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036205.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2430",
@@ -42444,6 +42517,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035301.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Gobie de Shaaloani",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Crapet sac-à-lait",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subcontractors",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Poisson-br'aax",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Arowana cousu d'or",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Subway Sandwiches",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "HOLY FCQC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "お外に・・🐈",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Sunshine",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Maid to Goon",
+              "date": null
+            },
+            {
               "id": "2399",
               "name": "Six ans, ça en fait de la bouteille !",
               "date": 1568029602000,
@@ -42491,56 +42614,6 @@
               "date": 1566902564000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "「ファンフェスティバル 2026",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "No Life Gamers",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "地図会(G15とG18)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ついに漆黒完了しました！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スタンスってきっと‥‥",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Deusmalus",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月17日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bonebare Zodiark V",
-              "date": null
             },
             {
               "id": "2405",
@@ -42844,102 +42917,53 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035704.tex&format=png"
             },
             {
-              "id": "2304",
-              "name": "Bienfaiteur de la sagesse",
-              "date": 1563641057000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061262.tex&format=png"
-            },
-            {
-              "id": "717",
-              "name": "Carnet de notes : cuisinier II",
-              "date": 1563621061000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001875.tex&format=png"
-            },
-            {
-              "id": "2327",
-              "name": "Camarade de pêche irremplaçable",
-              "date": 1563548546000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001116.tex&format=png"
-            },
-            {
-              "id": "2323",
-              "name": "Le métal jusqu'à la mort",
-              "date": 1563548546000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001988.tex&format=png"
-            },
-            {
-              "id": "2279",
-              "name": "Icône de la terre",
-              "date": 1563548546000,
-              "points": 20,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001981.tex&format=png"
-            },
-            {
-              "id": "2274",
-              "name": "Pêcheur emblématique",
-              "date": 1563548546000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F038000%2F038203.tex&format=png"
-            },
-            {
-              "id": "2258",
-              "name": "Mage rouge emblématique",
-              "date": 1563480485000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036747.tex&format=png"
-            },
-            {
               "id": null,
-              "name": "アリペブレがなければケーキを食べればいいじゃない🍰",
+              "name": "Gobie de Shaaloani",
               "date": null
             },
             {
               "id": null,
-              "name": "「ファンフェスティバル 2026",
+              "name": "Crapet sac-à-lait",
               "date": null
             },
             {
               "id": null,
-              "name": "No Life Gamers",
+              "name": "Subcontractors",
               "date": null
             },
             {
               "id": null,
-              "name": "地図会(G15とG18)",
+              "name": "Poisson-br'aax",
               "date": null
             },
             {
               "id": null,
-              "name": "ついに漆黒完了しました！",
+              "name": "Arowana cousu d'or",
               "date": null
             },
             {
               "id": null,
-              "name": "【Alexander】FCハウス付きFCを購入希望です",
+              "name": "Subway Sandwiches",
               "date": null
             },
             {
               "id": null,
-              "name": "スタンスってきっと‥‥",
+              "name": "HOLY FCQC",
               "date": null
             },
             {
               "id": null,
-              "name": "Deusmalus",
+              "name": "お外に・・🐈",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月17日",
+              "name": "Sunshine",
               "date": null
             },
             {
               "id": null,
-              "name": "Bonebare Zodiark V",
+              "name": "Maid to Goon",
               "date": null
             }
           ]
@@ -44056,12 +44080,20 @@
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/cd/cd632096ae00d48ab2db86b43a6b85f055497f96.png?n7.51"
           },
           {
+            "name": "Bec-en-sabot",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/58/588d0ee8df0821ee069ad4c20c331adad17a06e0.png?n7.51"
+          },
+          {
             "name": "Mésange à longue queue",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/13/13be5a6f81e9027b0bfa68fc8fa5604e37fcfeb8.png?n7.51"
           },
           {
             "name": "Goé",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/15/1583537904b8b2da9fc3f3cd95d064d1c2eb85ec.png?n7.51"
+          },
+          {
+            "name": "Uolosapa de Skalla",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/f5/f59cbb7cc51781275a39dbcf12a1ea69d9615253.png?n7.51"
           },
           {
             "name": "Qiqirn mécanique",
@@ -44524,6 +44556,10 @@
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/27/27d443a8a3051c735e61e915ad4c930d1bce7adb.png?n7.51"
           },
           {
+            "name": "Mini-moai",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/d3/d3e19f75480d9db22e4ede1d85250a4060ea8b9d.png?n7.51"
+          },
+          {
             "name": "Clochette",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/c5/c533792af3de7a262acbcacfb947c4f6a5ad4e65.png?n7.51"
           },
@@ -44722,7 +44758,7 @@
           {
             "abbr": "SCH",
             "role": "healer",
-            "level": 95,
+            "level": 100,
             "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/scholar.png"
           },
           {
@@ -44800,7 +44836,7 @@
           {
             "abbr": "SMN",
             "role": "caster",
-            "level": 95,
+            "level": 100,
             "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/summoner.png"
           },
           {
@@ -44895,7 +44931,7 @@
           "level": 32,
           "mettle": "2 555 540 / 2 821 901"
         },
-        "updatedAt": "2026-07-17T10:12:53.570Z"
+        "updatedAt": "2026-07-19T20:21:21.620Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
