@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:26:33.834Z",
+  "updatedAt": "2026-07-23T07:03:57.952Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -34614,7 +34614,7 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 131,
+            "earned": 133,
             "total": 187
           },
           "argent": {
@@ -36435,7 +36435,7 @@
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
             "type": "bronze",
             "hidden": false,
-            "earned": false,
+            "earned": true,
             "groupId": "013"
           },
           {
@@ -36624,7 +36624,7 @@
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
             "type": "bronze",
             "hidden": true,
-            "earned": false,
+            "earned": true,
             "groupId": "015"
           },
           {
@@ -36955,17 +36955,38 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784628526",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784628526",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/7/i20QvSPcSQTybykLZDbQCgPwMw.png",
-          "activeJobLevel": 91,
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1784787350",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1784787350",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png",
+          "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
         },
         "achievements": {
-          "earned": 1883,
+          "earned": 1886,
           "total": 3300,
-          "points": "16575",
+          "points": "16600",
           "recent": [
+            {
+              "id": "3844",
+              "name": "Armes fantômes : fendoir fantôme obscurum",
+              "date": 1784761535000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034028.tex&format=png"
+            },
+            {
+              "id": "3564",
+              "name": "Héros de grand chemin : La Mémoire vivante",
+              "date": 1784761535000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002645.tex&format=png"
+            },
+            {
+              "id": "3679",
+              "name": "Le Triangle aux trésors II",
+              "date": 1784754914000,
+              "points": 5,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000115.tex&format=png"
+            },
             {
               "id": "3436",
               "name": "Arcaniste mythique",
@@ -37296,6 +37317,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "3986",
               "name": "Aficionado du taco I",
               "date": 1780844663000,
@@ -37315,56 +37386,6 @@
               "date": 1780844663000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003564.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "3136",
@@ -37696,6 +37717,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "3942",
               "name": "Le chemin vers le lointain",
               "date": 1777388726000,
@@ -37715,56 +37786,6 @@
               "date": 1772813560000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061264.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "3694",
@@ -38096,6 +38117,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035404.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "3466",
               "name": "Mythe de la terre",
               "date": 1742662679000,
@@ -38115,56 +38186,6 @@
               "date": 1742662679000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035604.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "3451",
@@ -38496,6 +38517,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "3249",
               "name": "Rendez-vous au Paradis II",
               "date": 1705076027000,
@@ -38515,56 +38586,6 @@
               "date": 1704731162000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F059000%2F059861.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2336",
@@ -38896,6 +38917,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F038000%2F038149.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "3192",
               "name": "Merveille attitrée de Mowen",
               "date": 1681845627000,
@@ -38915,56 +38986,6 @@
               "date": 1681297231000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001115.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "3211",
@@ -39296,6 +39317,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001079.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "3164",
               "name": "Il pleut, il pleut, berger II",
               "date": 1673363202000,
@@ -39315,56 +39386,6 @@
               "date": 1672746843000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001098.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "3089",
@@ -39696,6 +39717,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000116.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "3012",
               "name": "Espace ludique I",
               "date": 1641654927000,
@@ -39715,56 +39786,6 @@
               "date": 1641050241000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035501.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2362",
@@ -40096,6 +40117,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F021000%2F021901.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "2366",
               "name": "Féru de la pioche VI",
               "date": 1639171668000,
@@ -40115,56 +40186,6 @@
               "date": 1639134737000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F021000%2F021901.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2983",
@@ -40496,6 +40517,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "2680",
               "name": "Entrer par la grande porte I",
               "date": 1631295950000,
@@ -40515,56 +40586,6 @@
               "date": 1631048619000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000116.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2741",
@@ -40896,6 +40917,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000121.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "886",
               "name": "Bon Samaritain II",
               "date": 1616690056000,
@@ -40915,56 +40986,6 @@
               "date": 1616684462000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002629.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2796",
@@ -41296,6 +41317,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "2340",
               "name": "Les protectrices des ruines",
               "date": 1613494153000,
@@ -41315,56 +41386,6 @@
               "date": 1612278121000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2659",
@@ -41696,6 +41717,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002517.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "2275",
               "name": "Icône de la guerre",
               "date": 1585955550000,
@@ -41715,56 +41786,6 @@
               "date": 1585692321000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F031000%2F031816.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "1942",
@@ -42096,6 +42117,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036205.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "2407",
               "name": "Maître du Donjon hypogéen du Lyhe Ghiah III",
               "date": 1579906160000,
@@ -42115,56 +42186,6 @@
               "date": 1578188718000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2483",
@@ -42496,6 +42517,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026061.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Fools In Reverie (Ultros)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで調理師",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ECU245253VC",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの漁師・ギャザラー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "斧術士(ふじゅつし)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせで賢者",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式コスチュームでの合わせでピクトマンサー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "タンクの防御スキルの話 ナイト編",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rendezvous",
+              "date": null
+            },
+            {
               "id": "2260",
               "name": "Pistosabreur expert",
               "date": 1569189476000,
@@ -42515,56 +42586,6 @@
               "date": 1568586978000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035301.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Bored 😐",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "2026年7月21日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Lunaria",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "昼の部は・・",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "若葉が抜けた日",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "今日の出来事",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Otter Empire (Spriggan)",
-              "date": null
             },
             {
               "id": "2399",
@@ -42896,74 +42917,53 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001955.tex&format=png"
             },
             {
-              "id": "2271",
-              "name": "Cuisinier emblématique",
-              "date": 1563672323000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035704.tex&format=png"
-            },
-            {
-              "id": "2376",
-              "name": "Cartographe du continent : La Tempête",
-              "date": 1563665639000,
-              "points": 10,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
-            },
-            {
-              "id": "633",
-              "name": "Féru de la poêle II",
-              "date": 1563665639000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035704.tex&format=png"
-            },
-            {
               "id": null,
-              "name": "滅暗闇の雲 討滅戦 攻略メンバー募集します！初挑戦、未クリア、攻略済み誰でもOKです！",
+              "name": "Fools In Reverie (Ultros)",
               "date": null
             },
             {
               "id": null,
-              "name": "Bored 😐",
+              "name": "公式コスチュームでの合わせで調理師",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年07月21日(火)　動画変換設定してみた　アニメ版",
+              "name": "ECU245253VC",
               "date": null
             },
             {
               "id": null,
-              "name": "2026年7月21日",
+              "name": "公式コスチュームでの漁師・ギャザラー",
               "date": null
             },
             {
               "id": null,
-              "name": "Lunaria",
+              "name": "斧術士(ふじゅつし)",
               "date": null
             },
             {
               "id": null,
-              "name": "昼の部は・・",
+              "name": "公式コスチュームでの合わせで賢者",
               "date": null
             },
             {
               "id": null,
-              "name": "若葉が抜けた日",
+              "name": "公式コスチュームでの合わせでピクトマンサー",
               "date": null
             },
             {
               "id": null,
-              "name": "FAIRY FLOSS (Gaia)",
+              "name": "タンクの防御スキルの話 ナイト編",
               "date": null
             },
             {
               "id": null,
-              "name": "今日の出来事",
+              "name": "公式の衣装を購入したので衣装替え まずリーパー",
               "date": null
             },
             {
               "id": null,
-              "name": "The Otter Empire (Spriggan)",
+              "name": "Rendezvous",
               "date": null
             }
           ]
@@ -43044,6 +43044,10 @@
           {
             "name": "Baron ail insulaire",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/75/755a301d5e431ad9a20906b766a4d6035db055a7.png?n7.51"
+          },
+          {
+            "name": "Petalodus",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/16/16c2678d7a8e67a648d430be23b932d2498fc036.png?n7.51"
           },
           {
             "name": "Licorne",
@@ -44472,6 +44476,10 @@
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/2f/2f0fe02479b57ff6672d90f97720669684807a69.png?n7.51"
           },
           {
+            "name": "Poupée tarutaru",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/ab/aba380c12331ba3ad682eadcc3bf370f589f5bdc.png?n7.51"
+          },
+          {
             "name": "Poupée ascienne",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/d3/d3a32e75e569e947f93c459d26aee22f07ea0914.png?n7.51"
           },
@@ -44746,13 +44754,13 @@
           {
             "abbr": "GNB",
             "role": "tank",
-            "level": 88,
+            "level": 89,
             "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/gunbreaker.png"
           },
           {
             "abbr": "WHM",
             "role": "healer",
-            "level": 91,
+            "level": 92,
             "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/whitemage.png"
           },
           {
@@ -44931,7 +44939,7 @@
           "level": 32,
           "mettle": "2 555 540 / 2 821 901"
         },
-        "updatedAt": "2026-07-21T10:25:35.095Z"
+        "updatedAt": "2026-07-23T07:02:47.237Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
