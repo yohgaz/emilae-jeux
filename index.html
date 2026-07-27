@@ -117,6 +117,31 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-studio-chip img{height:30px;max-width:130px;object-fit:contain;display:block}
 .jeu-detail-studio-name{font-size:12px;font-weight:700;color:var(--tx);background:var(--glass-fill-strong);padding:6px 12px;border-radius:8px}
 .jeu-detail-feed{flex:1;min-height:0;overflow-y:auto;border-top:1px solid var(--glass-border);padding:18px 28px 26px}
+
+.jeu-card-arrete-ribbon{position:absolute;top:15px;left:-32px;z-index:4;width:130px;transform:rotate(-45deg);text-align:center;background:linear-gradient(135deg,#8a1f1f,#5c1414);color:#fff;font-size:11px;font-weight:900;letter-spacing:1px;padding:3px 0;box-shadow:0 3px 8px rgba(0,0,0,.5);text-transform:uppercase}
+.jeu-card-arrete{border:1px solid rgba(140,40,40,.5)!important}
+
+/* ── Note (étoiles + points +/-) — affichage seul ici (site statique, sans
+   backend pour enregistrer une modification) ; le clic déplie/replie
+   uniquement, avec la même transition douce que le panneau local. */
+.game-rating-widget{margin:0 28px 18px;border-radius:var(--radius-md);background:linear-gradient(135deg,var(--glass-fill-strong),var(--glass-fill));border:1px solid var(--glass-border);-webkit-backdrop-filter:blur(var(--blur)) saturate(160%);backdrop-filter:blur(var(--blur)) saturate(160%);box-shadow:inset 0 1px 0 var(--glass-highlight),0 8px 24px rgba(0,0,0,.25);overflow:hidden}
+.game-rating-header{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;cursor:pointer;user-select:none}
+.game-rating-stars{display:flex;gap:5px}
+.game-rating-star{font-size:26px;line-height:1;color:var(--go);text-shadow:0 0 12px rgba(232,184,77,.35)}
+.game-rating-star.empty{color:rgba(255,255,255,.16);text-shadow:none}
+.game-rating-chevron{font-size:12px;color:var(--mu);transition:transform .3s ease;margin-left:2px}
+.game-rating-widget.expanded .game-rating-chevron{transform:rotate(180deg)}
+.game-rating-body{max-height:0;opacity:0;overflow:hidden;transition:max-height .38s cubic-bezier(.4,0,.2,1),opacity .28s ease}
+.game-rating-widget.expanded .game-rating-body{max-height:640px;opacity:1}
+.game-rating-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 16px 16px}
+.game-rating-col{border-radius:var(--radius-sm);padding:12px}
+.game-rating-col-pros{background:rgba(111,218,154,.09);border:1px solid rgba(111,218,154,.32)}
+.game-rating-col-cons{background:rgba(255,107,107,.09);border:1px solid rgba(255,107,107,.32)}
+.game-rating-col-title{font-size:10.5px;font-weight:900;letter-spacing:1.2px;margin-bottom:9px;text-transform:uppercase}
+.game-rating-col-pros .game-rating-col-title{color:var(--mt)}
+.game-rating-col-cons .game-rating-col-title{color:#FF6B6B}
+.game-rating-item{font-size:12.5px;color:var(--tx);margin-bottom:7px;line-height:1.4}
+.game-rating-empty-hint{font-size:11.5px;color:var(--mu);font-style:italic}
 .jeu-detail-empty{color:var(--mu);font-size:13px;padding:30px;text-align:center}
 .jeu-detail-section{margin-bottom:18px}
 .jeu-detail-section:last-child{margin-bottom:0}
@@ -296,6 +321,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
       <div id="ffxiv-banner-container" style="display:none"></div>
     </div>
     <div class="jeu-detail-info" id="jeu-detail-info"></div>
+    <div id="game-rating-widget"></div>
     <div class="jeu-detail-feed" id="jeu-detail-body"></div>
   </div>
 </div>
@@ -312,6 +338,44 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 let _jeuxData = { termines: [], enCours: [] };
 
 function esc(s) { return (s || '').toString().replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+
+// ── Note (étoiles + points +/-) — affichage seul, rien à enregistrer ici
+// (site statique, sans backend) : tout vient déjà du JSON publié.
+function renderPublicGameRating(jeu){
+  const box = document.getElementById('game-rating-widget');
+  if (!box) return;
+  const rating = jeu.rating || 0;
+  const pros = jeu.pros || [];
+  const cons = jeu.cons || [];
+  // Pas de widget vide pour un jeu jamais noté — juste du bruit visuel
+  // pour les viewers qui parcourent le site.
+  if (!rating && !pros.length && !cons.length) { box.innerHTML = ''; return; }
+  const starsHtml = [1,2,3,4,5].map(i => `<span class="game-rating-star${i>rating?' empty':''}">★</span>`).join('');
+  const itemsHtml = (list) => list.length ? list.map(item => `<div class="game-rating-item">${esc(item)}</div>`).join('') : `<div class="game-rating-empty-hint">Aucun point</div>`;
+  box.innerHTML = `
+    <div class="game-rating-widget" id="game-rating-widget-inner">
+      <div class="game-rating-header" onclick="togglePublicGameRating()">
+        <span class="game-rating-stars">${starsHtml}</span>
+        <span class="game-rating-chevron">▾</span>
+      </div>
+      <div class="game-rating-body">
+        <div class="game-rating-columns">
+          <div class="game-rating-col game-rating-col-pros">
+            <div class="game-rating-col-title">✅ Points positifs</div>
+            ${itemsHtml(pros)}
+          </div>
+          <div class="game-rating-col game-rating-col-cons">
+            <div class="game-rating-col-title">❌ Points négatifs</div>
+            ${itemsHtml(cons)}
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+function togglePublicGameRating(){
+  const el = document.getElementById('game-rating-widget-inner');
+  if (el) el.classList.toggle('expanded');
+}
 
 // ── Plateformes : icônes réelles Steam/PlayStation, pictogramme maison Nintendo ──
 const PLAT_COLOR = { 'playstation': '#0070D1', 'pc': '#66C0F4', 'xbox': '#107C10', 'nintendo': '#E4000F', 'switch': '#E4000F' };
@@ -541,9 +605,11 @@ function jeuCardHtml(j, statut) {
       <div class="jeu-card-label">${esc(j.nom)}</div>
       ${progressBarsHtml(j.progression, j.ffxiv, j.achievements && j.achievements.switch)}
     </div>`;
-  return `<div class="jeu-card" onclick="openJeuDetailView('${j.id}','${statut}')">
+  const arreteRibbon = j.arrete ? `<div class="jeu-card-arrete-ribbon">Arrêté</div>` : '';
+  return `<div class="jeu-card${j.arrete?' jeu-card-arrete':''}" onclick="openJeuDetailView('${j.id}','${statut}')">
+    ${arreteRibbon}
     ${platBadgesHtml(j.plateformes, j.nom)}
-    <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))">${coverInnerHtml(j)}</div>
+    <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))${j.arrete?';filter:grayscale(.85) brightness(.75)':''}">${coverInnerHtml(j)}</div>
     <div class="jeu-card-overlay">
       ${badges ? `<div class="jeu-card-badge-row">${badges}${textCol}</div>` : textCol}
     </div>
@@ -648,7 +714,7 @@ function openJeuDetailView(id, statut) {
 
   const statusLabel = statut === 'termines'
     ? (jeu.annee ? `🗓 Terminé en ${jeu.annee}` : '🏆 Terminé')
-    : (jeu.type === 'a_completer' ? '✔ Histoire finie — à compléter' : '🎯 En cours');
+    : (jeu.arrete ? '🛑 Arrêté' : (jeu.type === 'a_completer' ? '✔ Histoire finie — à compléter' : '🎯 En cours'));
 
   let statsHtml = '';
   if (prog.PlayStation) {
@@ -676,7 +742,7 @@ function openJeuDetailView(id, statut) {
 
   document.getElementById('jeu-detail-info').innerHTML = `
     <div class="jeu-detail-info-row">
-      <span class="jeu-detail-status-badge">${statusLabel}</span>
+      <span class="jeu-detail-status-badge"${jeu.arrete ? ' style="background:linear-gradient(135deg,#8a1f1f,#5c1414);border-color:rgba(255,255,255,.25);color:#fff"' : ''}>${statusLabel}</span>
       ${platBadgesInlineHtml(jeu.plateformes, jeu.nom)}
     </div>
     <div class="jeu-detail-stats-row">
@@ -685,6 +751,8 @@ function openJeuDetailView(id, statut) {
     </div>
     ${(!ffxiv && jeu.pitch) ? `<div class="jeu-detail-pitch">${esc(jeu.pitch)}</div>` : ''}
   `;
+
+  renderPublicGameRating(jeu);
 
   document.getElementById('modal-jeu-detail').classList.add('open');
   document.body.style.overflow = 'hidden';
