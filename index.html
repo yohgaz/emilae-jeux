@@ -67,6 +67,9 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-card-cover img{width:100%;height:100%;object-fit:cover}
 .jeu-card-overlay{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(8,9,14,0) 0%,rgba(8,9,14,.55) 40%,rgba(8,9,14,.88) 100%);-webkit-backdrop-filter:blur(14px) saturate(160%);backdrop-filter:blur(14px) saturate(160%);padding:22px 13px 12px}
 .jeu-card-label{font-size:13px;font-weight:800;line-height:1.35;color:var(--tx);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.jeu-card-ministars{display:flex;gap:2px;margin:3px 0 1px}
+.jeu-card-ministar{font-size:12px;line-height:1;color:var(--go);text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.jeu-card-ministar.empty{color:#0a0a0d;text-shadow:none;-webkit-text-stroke:.8px rgba(255,255,255,.4)}
 .jeu-card-badge-row{display:flex;align-items:stretch;gap:8px}
 .jeu-card-badges-col{display:flex;flex-direction:row;gap:4px;flex-shrink:0}
 .jeu-card-badges-col svg{height:100%;width:auto;display:block;filter:drop-shadow(0 2px 5px rgba(0,0,0,.6))}
@@ -129,7 +132,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .game-rating-header{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;cursor:pointer;user-select:none}
 .game-rating-stars{display:flex;gap:5px}
 .game-rating-star{font-size:26px;line-height:1;color:var(--go);text-shadow:0 0 12px rgba(232,184,77,.35)}
-.game-rating-star.empty{color:rgba(255,255,255,.16);text-shadow:none}
+.game-rating-star.empty{color:#0a0a0d;text-shadow:none;-webkit-text-stroke:1.2px rgba(255,255,255,.4)}
 .game-rating-chevron{font-size:12px;color:var(--mu);transition:transform .3s ease;margin-left:2px}
 .game-rating-widget.expanded .game-rating-chevron{transform:rotate(180deg)}
 .game-rating-body{max-height:0;opacity:0;overflow:hidden;transition:max-height .38s cubic-bezier(.4,0,.2,1),opacity .28s ease}
@@ -143,6 +146,9 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .game-rating-col-cons .game-rating-col-title{color:#FF6B6B}
 .game-rating-item{font-size:12.5px;color:var(--tx);margin-bottom:7px;line-height:1.4}
 .game-rating-empty-hint{font-size:11.5px;color:var(--mu);font-style:italic}
+.game-rating-comment-wrap{padding:0 16px 16px}
+.game-rating-comment-title{font-size:10.5px;font-weight:900;letter-spacing:1.2px;margin-bottom:8px;text-transform:uppercase;color:var(--mu)}
+.game-rating-comment-text{font-size:12.5px;color:var(--tx);line-height:1.5;white-space:pre-wrap;background:rgba(0,0,0,.22);border:1px solid var(--glass-border);border-radius:var(--radius-sm);padding:10px 12px}
 .jeu-detail-empty{color:var(--mu);font-size:13px;padding:30px;text-align:center}
 .jeu-detail-section{margin-bottom:18px}
 .jeu-detail-section:last-child{margin-bottom:0}
@@ -348,11 +354,15 @@ function renderPublicGameRating(jeu){
   const rating = jeu.rating || 0;
   const pros = jeu.pros || [];
   const cons = jeu.cons || [];
+  const comment = jeu.comment || '';
   // Pas de widget vide pour un jeu jamais noté — juste du bruit visuel
   // pour les viewers qui parcourent le site.
-  if (!rating && !pros.length && !cons.length) { box.innerHTML = ''; return; }
+  if (!rating && !pros.length && !cons.length && !comment) { box.innerHTML = ''; return; }
   const starsHtml = [1,2,3,4,5].map(i => `<span class="game-rating-star${i>rating?' empty':''}">★</span>`).join('');
   const itemsHtml = (list) => list.length ? list.map(item => `<div class="game-rating-item">${esc(item)}</div>`).join('') : `<div class="game-rating-empty-hint">Aucun point</div>`;
+  const commentHtml = comment
+    ? `<div class="game-rating-comment-wrap"><div class="game-rating-comment-title">📝 Remarques</div><div class="game-rating-comment-text">${esc(comment)}</div></div>`
+    : '';
   box.innerHTML = `
     <div class="game-rating-widget" id="game-rating-widget-inner">
       <div class="game-rating-header" onclick="togglePublicGameRating()">
@@ -370,6 +380,7 @@ function renderPublicGameRating(jeu){
             ${itemsHtml(cons)}
           </div>
         </div>
+        ${commentHtml}
       </div>
     </div>`;
 }
@@ -599,11 +610,21 @@ function renderGlobalProgress() {
   box.style.display = '';
 }
 
+// Étoiles miniatures sur une jaquette — seulement si le jeu a une note,
+// toujours 5 étoiles au total (pleines dorées jusqu'à la note, noires avec
+// contour visible ensuite). La note est déjà dans le JSON publié, pas
+// besoin d'appel séparé (site statique).
+function miniStarsHtml(rating){
+  if (!rating) return '';
+  const stars = [1,2,3,4,5].map(i => `<span class="jeu-card-ministar${i>rating?' empty':''}">★</span>`).join('');
+  return `<div class="jeu-card-ministars">${stars}</div>`;
+}
 function jeuCardHtml(j, statut) {
   const hue = jeuHue(j.nom);
   const badges = cardBadgesHtml(j.progression, j.achievements && j.achievements.switch);
   const textCol = `<div class="jeu-card-text-col">
       <div class="jeu-card-label">${esc(j.nom)}</div>
+      ${miniStarsHtml(j.rating)}
       ${progressBarsHtml(j.progression, j.ffxiv, j.achievements && j.achievements.switch)}
     </div>`;
   const arreteRibbon = j.arrete ? `<div class="jeu-card-arrete-ribbon">Arrêté</div>` : '';
