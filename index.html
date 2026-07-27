@@ -119,6 +119,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-feed{flex:1;min-height:0;overflow-y:auto;border-top:1px solid var(--glass-border);padding:18px 28px 26px}
 
 .jeu-card-arrete-ribbon{position:absolute;top:15px;left:-32px;z-index:4;width:130px;transform:rotate(-45deg);text-align:center;background:linear-gradient(135deg,#8a1f1f,#5c1414);color:#fff;font-size:11px;font-weight:900;letter-spacing:1px;padding:3px 0;box-shadow:0 3px 8px rgba(0,0,0,.5);text-transform:uppercase}
+.jeu-card-occasion-ribbon{position:absolute;top:15px;left:-32px;z-index:4;width:130px;transform:rotate(-45deg);text-align:center;background:linear-gradient(135deg,#6d5be0,#43349e);color:#fff;font-size:11px;font-weight:900;letter-spacing:.5px;padding:3px 0;box-shadow:0 3px 8px rgba(0,0,0,.5);text-transform:uppercase}
 .jeu-card-arrete{border:1px solid rgba(140,40,40,.5)!important}
 
 /* ── Note (étoiles + points +/-) — affichage seul ici (site statique, sans
@@ -606,8 +607,10 @@ function jeuCardHtml(j, statut) {
       ${progressBarsHtml(j.progression, j.ffxiv, j.achievements && j.achievements.switch)}
     </div>`;
   const arreteRibbon = j.arrete ? `<div class="jeu-card-arrete-ribbon">Arrêté</div>` : '';
+  const occasionRibbon = j.occasion ? `<div class="jeu-card-occasion-ribbon">À l'occasion</div>` : '';
   return `<div class="jeu-card${j.arrete?' jeu-card-arrete':''}" onclick="openJeuDetailView('${j.id}','${statut}')">
     ${arreteRibbon}
+    ${occasionRibbon}
     ${platBadgesHtml(j.plateformes, j.nom)}
     <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))${j.arrete?';filter:grayscale(.85) brightness(.75)':''}">${coverInnerHtml(j)}</div>
     <div class="jeu-card-overlay">
@@ -714,7 +717,7 @@ function openJeuDetailView(id, statut) {
 
   const statusLabel = statut === 'termines'
     ? (jeu.annee ? `🗓 Terminé en ${jeu.annee}` : '🏆 Terminé')
-    : (jeu.arrete ? '🛑 Arrêté' : (jeu.type === 'a_completer' ? '✔ Histoire finie — à compléter' : '🎯 En cours'));
+    : (jeu.arrete ? '🛑 Arrêté' : (jeu.occasion ? '🎲 À l\'occasion' : (jeu.type === 'a_completer' ? '✔ Histoire finie — à compléter' : '🎯 En cours')));
 
   let statsHtml = '';
   if (prog.PlayStation) {
@@ -742,7 +745,7 @@ function openJeuDetailView(id, statut) {
 
   document.getElementById('jeu-detail-info').innerHTML = `
     <div class="jeu-detail-info-row">
-      <span class="jeu-detail-status-badge"${jeu.arrete ? ' style="background:linear-gradient(135deg,#8a1f1f,#5c1414);border-color:rgba(255,255,255,.25);color:#fff"' : ''}>${statusLabel}</span>
+      <span class="jeu-detail-status-badge"${jeu.arrete ? ' style="background:linear-gradient(135deg,#8a1f1f,#5c1414);border-color:rgba(255,255,255,.25);color:#fff"' : (jeu.occasion ? ' style="background:linear-gradient(135deg,#6d5be0,#43349e);border-color:rgba(255,255,255,.25);color:#fff"' : '')}>${statusLabel}</span>
       ${platBadgesInlineHtml(jeu.plateformes, jeu.nom)}
     </div>
     <div class="jeu-detail-stats-row">
