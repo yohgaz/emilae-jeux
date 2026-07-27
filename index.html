@@ -637,10 +637,15 @@ function renderJeux() {
 
   let enCours = _jeuxData.enCours;
   if (q) enCours = enCours.filter(j => j.nom.toLowerCase().includes(q));
-  const aCompleter = enCours.filter(j => j.type === 'a_completer');
-  const normaux = enCours.filter(j => j.type !== 'a_completer');
+  // Un jeu arrêté reste dans la même liste de données (toujours dans la
+  // bibliothèque) mais ne compte plus comme "en cours" à l'affichage — sa
+  // propre section, séparée.
+  const aCompleter = enCours.filter(j => j.type === 'a_completer' && !j.arrete);
+  const normaux = enCours.filter(j => j.type !== 'a_completer' && !j.arrete);
+  const arretes = enCours.filter(j => j.arrete);
   section('Histoire finie — à compléter', '✔', aCompleter, 'enCours');
   section('En cours', '🎯', normaux, 'enCours');
+  section('Arrêtés', '🛑', arretes, 'enCours');
 
   let termines = _jeuxData.termines;
   if (q) termines = termines.filter(j => j.nom.toLowerCase().includes(q));
