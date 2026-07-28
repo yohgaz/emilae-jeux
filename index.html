@@ -70,7 +70,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-card-ministars{display:flex;gap:2px;margin:3px 0 1px;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
 .jeu-card-badge-row{display:flex;align-items:stretch;gap:8px}
 .jeu-card-badges-col{display:flex;flex-direction:row;gap:4px;flex-shrink:0}
-.jeu-card-badges-col svg{height:100%;width:auto;display:block;filter:drop-shadow(0 2px 5px rgba(0,0,0,.6))}
+.jeu-card-badges-col svg,.jeu-card-badges-col img{height:100%;width:auto;display:block;filter:drop-shadow(0 2px 5px rgba(0,0,0,.6));object-fit:contain}
 .jeu-card-text-col{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
 .jeu-card-note{font-size:10.5px;color:var(--mu);padding-top:2px;white-space:pre-line;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
@@ -82,7 +82,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-progress-wrap{display:flex;flex-direction:column;gap:5px;margin-top:6px}
 .jeu-progress-row{display:flex;align-items:center;gap:7px}
 .jeu-progress-plat-icon{width:16px;height:16px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px}
-.jeu-progress-plat-icon svg{width:100%;height:100%;display:block}
+.jeu-progress-plat-icon svg,.jeu-progress-plat-icon img{width:100%;height:100%;display:block;object-fit:contain}
 .jeu-progress-bar{flex:1;height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
 .jeu-progress-fill{height:100%;border-radius:4px;transition:width .3s}
 .jeu-progress-pct{font-family:monospace;font-size:10px;color:var(--mu);min-width:32px;text-align:right}
@@ -409,7 +409,7 @@ const PLAT_ICON_SVG = {
   playstation: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.984 2.596v17.547l3.915 1.261V6.688c0-.69.304-1.151.794-.991.636.18.76.814.76 1.505v5.875c2.441 1.193 4.362-.002 4.362-3.152 0-3.237-1.126-4.675-4.438-5.827-1.307-.448-3.728-1.186-5.39-1.502zm4.656 16.241l6.296-2.275c.715-.258.826-.625.246-.818-.586-.192-1.637-.139-2.357.123l-4.205 1.5V14.98l.24-.085s1.201-.42 2.913-.615c1.696-.18 3.785.03 5.437.661 1.848.601 2.04 1.472 1.576 2.072-.465.6-1.622 1.036-1.622 1.036l-8.544 3.107V18.86zM1.807 18.6c-1.9-.545-2.214-1.668-1.352-2.32.801-.586 2.16-1.052 2.16-1.052l5.615-2.013v2.313L4.205 17c-.705.271-.825.632-.239.826.586.195 1.637.15 2.343-.12L8.247 17v2.074c-.12.03-.256.044-.39.073-1.939.331-3.996.196-6.038-.479z"/></svg>',
   nintendo: '<svg viewBox="0 0 24 24"><rect x="2" y="2" width="8" height="20" rx="4" fill="#E6002A"/><circle cx="6" cy="7" r="1.3" fill="#fff" opacity=".9"/><rect x="14" y="2" width="8" height="20" rx="4" fill="#2E9CE0"/><circle cx="18" cy="17" r="1.6" fill="#fff" opacity=".9"/></svg>'
 };
-const FFXIV_LOGO_IMG = '<img src="./ffxiv-logo.png" alt="FFXIV" onerror="this.parentElement.innerHTML=\'<span style=&quot;font-size:9px;font-weight:900&quot;>XIV</span>\'">';
+const FFXIV_LOGO_IMG = '<img src="./ffxiv-logo.png" alt="FFXIV" style="width:100%;height:100%;object-fit:contain" onerror="this.parentElement.innerHTML=\'<span style=&quot;font-size:9px;font-weight:900&quot;>XIV</span>\'">';
 function platIconSvg(p, ffxiv) {
   const k = (p || '').toLowerCase();
   if (k.includes('playstation')) return PLAT_ICON_SVG.playstation;
@@ -496,7 +496,7 @@ function calcPercentXbox(x) {
 const STEAM_100_BADGE_SVG = '<svg viewBox="0 0 24 24"><path d="M12.0,0.5 L14.07,2.93 L16.99,1.64 L17.8,4.73 L20.99,4.83 L20.38,7.96 L23.21,9.44 L21.3,12.0 L23.21,14.56 L20.38,16.04 L20.99,19.17 L17.8,19.27 L16.99,22.36 L14.07,21.07 L12.0,23.5 L9.93,21.07 L7.01,22.36 L6.2,19.27 L3.01,19.17 L3.62,16.04 L0.79,14.56 L2.7,12.0 L0.79,9.44 L3.62,7.96 L3.01,4.83 L6.2,4.73 L7.01,1.64 L9.93,2.93 Z" fill="#3B82F6"/><circle cx="12" cy="12" r="7" fill="#FFC93D"/><path d="M8.5 12.2l2.3 2.3 4.7-4.9" stroke="#7A5300" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const PLATINUM_TROPHY_SVG = '<svg viewBox="0 0 24 24"><path d="M6 5C3 5 2 6.8 2 9c0 2.5 2 3.8 4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M18 5c3 0 4 1.8 4 4 0 2.5-2 3.8-4 4" fill="none" stroke="#D7DEE6" stroke-width="1.5" stroke-linecap="round"/><path d="M6 3h12v5.2c0 3.4-2.7 6.1-6 6.1S6 11.6 6 8.2V3z" fill="#E8EDF2"/><rect x="10.6" y="14" width="2.8" height="4" fill="#D7DEE6"/><rect x="7.3" y="18" width="9.4" height="1.8" rx="0.5" fill="#E8EDF2"/><rect x="5.8" y="19.9" width="12.4" height="1.7" rx="0.5" fill="#C4CDD6"/></svg>';
 const XBOX_COLOR = '#107C10';
-const XBOX_ICON_SVG = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(45 12 12)"/><rect x="10.5" y="1" width="3" height="22" rx="1.5" transform="rotate(-45 12 12)"/></svg>';
+const XBOX_ICON_SVG = '<img src="./xbox.png" alt="Xbox" style="width:100%;height:100%;object-fit:contain" onerror="this.parentElement.textContent=\'Xbox\'">';
 
 function progressRowHtml(iconHtml, pct, color) {
   return `<div class="jeu-progress-row">
