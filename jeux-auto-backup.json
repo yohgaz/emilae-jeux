@@ -329504,11 +329504,326 @@
       "platforms": {
         "switch": {
           "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg",
-          "achievements": [],
+          "achievements": [
+            {
+              "name": "Équipé",
+              "description": "Obtenir votre premier outil",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/42d64a86bb4d50c2574612892ccdde465a020a54.jpg",
+              "earned": false
+            },
+            {
+              "name": "Arsenal",
+              "description": "Obtenir tous les outils",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/64fa428703c6b891fd3f454afaac3bea4b4039d1.jpg",
+              "earned": false
+            },
+            {
+              "name": "Tissé",
+              "description": "Tissé sa première compétence de soie",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/a34b4da6c1652ec31603b82de0e983173917b2ad.jpg",
+              "earned": false
+            },
+            {
+              "name": "Tissage",
+              "description": "Tissé toutes les compétences de soie",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/711c759ff9066ed10c39f3075d169f6970fe670f.jpg",
+              "earned": false
+            },
+            {
+              "name": "Acquis",
+              "description": "Obtenir son premier emblème",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/78a69856138d377fe00fd3c988960f795391fb5c.jpg",
+              "earned": false
+            },
+            {
+              "name": "Absorbé",
+              "description": "Obtenir tous les emblèmes",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/8868a841d9f6cda1174a3e0c9337920cd6b6996b.jpg",
+              "earned": false
+            },
+            {
+              "name": "Protégé",
+              "description": "Obtenir 4 fragments de masque",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/25e4cf2ca80fc6fab8695433378aada8f4efbe03.jpg",
+              "earned": false
+            },
+            {
+              "name": "Masqué",
+              "description": "Obtenir tous les fragments de masque",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/7916677f494071e74ab6f845cb778a0baaf65fd5.jpg",
+              "earned": false
+            },
+            {
+              "name": "Restauré",
+              "description": "Obtenir 2 fragments de bobine",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/5c23c27ee2ca186fa35ac7e74fd027dd3507f834.jpg",
+              "earned": false
+            },
+            {
+              "name": "Agrandi",
+              "description": "Obtenir tous les fragments de bobine",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/4d4e2b317ed2bfa5800675742524f8fd1a9ed2f6.jpg",
+              "earned": false
+            },
+            {
+              "name": "Régénéré",
+              "description": "Obtenir tous les cœurs de soie",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/1148e53d5794f5e5666c5bc2e0a8f82e2be93e2e.jpg",
+              "earned": false
+            },
+            {
+              "name": "Cartographe",
+              "description": "Obtenir une carte de chaque région",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/5274283d871a3a1726a2db9710eb4093631de268.jpg",
+              "earned": false
+            },
+            {
+              "name": "Connecté",
+              "description": "Ouvrir toutes les clochesvoies de Pharloom",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/22af3edce928bb5e213d5db3ef03e5a7bf6be9d5.jpg",
+              "earned": false
+            },
+            {
+              "name": "Unifié",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/6edbccd7149e1ee90f5345f9fdb1d8ae81ef06fe.jpg",
+              "earned": false
+            },
+            {
+              "name": "Transporté ",
+              "description": "Ouvrir toutes les stations ventrica de la citadelle",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/797f04d75564c683ed7fa51ac6b66e922a2ad84f.jpg",
+              "earned": false
+            },
+            {
+              "name": "Chasseur enthousiaste",
+              "description": "Exaucer le souhait de Nuu",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/43386e420aedc8ed92ef286c4b7ccabc91b6a9f4.jpg",
+              "earned": false
+            },
+            {
+              "name": "Véritable chasseur",
+              "description": "Recevoir le souvenir du chasseur",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/4f3ae319b2de8f5fa45ac62e4f7e5c3d635df74c.jpg",
+              "earned": false
+            },
+            {
+              "name": "Chercheur de puces",
+              "description": "Sauver la moitié des puces perdues de Pharloom",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/981a17e1f83061b2dd64724b1b9bb6a3bb8de471.jpg",
+              "earned": false
+            },
+            {
+              "name": "L'ami des puces",
+              "description": "Sauver toutes les puces perdues de Pharloom et recevoir leur dernière récompense",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/85d79e525987607b323cb7ba2f1177c70d921d84.jpg",
+              "earned": false
+            },
+            {
+              "name": "Libéré",
+              "description": "Vaincre la bête des cloches",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/a3806725642c2918243b8db87d3e99a49e1f16e4.jpg",
+              "earned": false
+            },
+            {
+              "name": "Bienvenue à Pharloom",
+              "description": "Vaincre Lace dans les Quais Profonds",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/3851723da35a65dae364366513aaa32297ccb537.jpg",
+              "earned": false
+            },
+            {
+              "name": "Serviteur",
+              "description": "Vaincre Quatrième Chorale",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/62d9be89e0362b89d4e63632cb00c4584970c098.jpg",
+              "earned": false
+            },
+            {
+              "name": "Fanatique",
+              "description": "Vaincre Veuve",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/27d60711d57bc5e263ba787f731be7fc5d8b17c7.jpg",
+              "earned": false
+            },
+            {
+              "name": "Juge",
+              "description": "Vaincre la dernière juge",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/c9adb431ea87c9912d58166bde7acbf9c52c8659.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dernière danse",
+              "description": "Vaincre le Duo-Mécanique",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/7f8569d8a92aa94317ca9500d3ce0956d1ab3fb5.jpg",
+              "earned": false
+            },
+            {
+              "name": "Tragédien",
+              "description": "Vaincre Trobbio",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/1b40a2e64093d4fa38218d61e0980970ac143b80.jpg",
+              "earned": false
+            },
+            {
+              "name": "Chevaleresse blanche",
+              "description": "Vaincre Lace dans le Berceau",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/150935e5e3a5b1000e83032829a693f871326e34.jpg",
+              "earned": false
+            },
+            {
+              "name": "Fantôme gris",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/1437a98c738c7abc16366a81505b61b50605a931.jpg",
+              "earned": false
+            },
+            {
+              "name": "Hérétique",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/ff09e7204911e0d213d2e75ba535112ccc005a50.jpg",
+              "earned": false
+            },
+            {
+              "name": "Tyran",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/504597992f163a8a9328d9b0d7156b3362146d77.jpg",
+              "earned": false
+            },
+            {
+              "name": "Graine",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/35a5fec5d59538ef4c24e0fba6948e67f12ccb5d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Diva",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/455d4c40b7511c668106becdbb3d24c100fa8aff.jpg",
+              "earned": false
+            },
+            {
+              "name": "Lamenteur",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/a071ee201b3230c3421b1e3cf446d86e61d24519.jpg",
+              "earned": false
+            },
+            {
+              "name": "Exaucé",
+              "description": "Exaucer son premier souhait",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/4cae086731038d810d9df5af8977a24b4dc87a44.jpg",
+              "earned": false
+            },
+            {
+              "name": "Glouton",
+              "description": "Rassasier le Grand Gourmand",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/550244d631259d001fbc57aa772628691d4894ae.jpg",
+              "earned": false
+            },
+            {
+              "name": "Fin de la piste",
+              "description": "Exaucer le souhait de Shakra",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/63c76c65e6e05301678fc1a3c528045a8cc54575.jpg",
+              "earned": false
+            },
+            {
+              "name": "L’Appel du héros",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/54735ddde7c65925ed533136cddde2f0cb4ec52a.jpg",
+              "earned": false
+            },
+            {
+              "name": "Duel mortel",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/52ce18a42124ab6f262fb1ff58601d5a6f69f8ef.jpg",
+              "earned": false
+            },
+            {
+              "name": "Entrelacés",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/6772e6e8b083425dffb3c4b3cf947c1c46767e71.jpg",
+              "earned": false
+            },
+            {
+              "name": "Habitant",
+              "description": "Obtenir son propre clochetoit",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/7e34a5cdb17062b939748eb15066a44d5b0114f0.jpg",
+              "earned": false
+            },
+            {
+              "name": "Harmonieux",
+              "description": "Apprendre la mélotrine de la citadelle",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/ecd88a236d01de183278805373acfc4e65c3784e.jpg",
+              "earned": false
+            },
+            {
+              "name": "Souvenir",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/cad15d0d414daeff1d466dbdb9725bd0ef70ec06.jpg",
+              "earned": false
+            },
+            {
+              "name": "Reine tisserande",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/23df2eddefc96b35b4ffd9f291a816229e50b57c.jpg",
+              "earned": false
+            },
+            {
+              "name": "Attrape-âme",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/c91cefb630dcfab9099f9de5301774ec826d8161.jpg",
+              "earned": false
+            },
+            {
+              "name": "Enfant tourmenté",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/1a91ca65b0f0fe1cca1f0050bffa54ea7cdf5244.jpg",
+              "earned": false
+            },
+            {
+              "name": "Sœur des Abysses",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/a5599608cd3d75a66cdb26dfce169ab24c3b075d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Passage des âges",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/48f0abb30848392c57fa05fa5f0b17b4e0e51478.jpg",
+              "earned": false
+            },
+            {
+              "name": "Achèvement ",
+              "description": "Atteindre 100% de complétion du jeu et terminer le jeu",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/e4384189b3e5647093b44fbcb2be217c3fa98b62.jpg",
+              "earned": false
+            },
+            {
+              "name": "Speedrunner",
+              "description": "Terminer le jeu en moins de 5 heures",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/fcd08c0f5be4e5bc6480af70dbee8e33400c718d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Achèvement rapide",
+              "description": "Atteindre 100% de complétion du jeu et terminer le jeu en moins de 30 heures",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/6fd567069975279fb7a406804bbae1b14cd96fc5.jpg",
+              "earned": false
+            },
+            {
+              "name": "Âme d'acier",
+              "description": "Terminer le jeu en mode âme d'acier",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/6bc8705906994bba2b2e6503e9dcd2ebb387ffc2.jpg",
+              "earned": false
+            },
+            {
+              "name": "Cœur d'acier",
+              "description": "Atteindre 100% de complétion du jeu et terminer le jeu en mode âme d'acier",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030300/1587857823d216422f7566872eb963484758fb10.jpg",
+              "earned": false
+            }
+          ],
           "earned": 0,
-          "total": 0,
-          "noApi": true,
-          "includeInRatio": true
+          "total": 52,
+          "noApi": false,
+          "includeInRatio": true,
+          "manual": true,
+          "unsupported": false
         }
       },
       "inStreamCategory": false
@@ -329540,11 +329855,314 @@
       "platforms": {
         "switch": {
           "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobran.jpg",
-          "achievements": [],
+          "achievements": [
+            {
+              "name": "Au bord du précipice",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/e0162e616f8559e8ed425ec4b67227b785b1b911.jpg",
+              "earned": false
+            },
+            {
+              "name": "L'obéissance ne vaut rien",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/5dc86e3d30131a0610ac3b5c1e3f4cfcd8294ffa.jpg",
+              "earned": false
+            },
+            {
+              "name": "Un jour sous le ciel bleu",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/51c93a1ca8d319820766c1e689227d2a343e232b.jpg",
+              "earned": false
+            },
+            {
+              "name": "Entraves chéries",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/e6f29a97d6976cf4e4e666e3045eceb7e5467877.jpg",
+              "earned": false
+            },
+            {
+              "name": "Noir et blanc",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/38445ba606f8c5bc3584b0c0fb36f679fbf97439.jpg",
+              "earned": false
+            },
+            {
+              "name": "Le paysage d'hier",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/f3dc28527c2f5592c2e9675259c7b7fdd5a11896.jpg",
+              "earned": false
+            },
+            {
+              "name": "Un monde d'échos : Éclipse lunaire",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/c31761821eda2ba20b1f045896a2d5b37dcbfeb4.jpg",
+              "earned": false
+            },
+            {
+              "name": "Un monde d'échos : Lune croissante",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/0f3bf32a7cc1a8ac09c4cbd7b78a4564c7a2d206.jpg",
+              "earned": false
+            },
+            {
+              "name": "Un monde d'échos : Pleine lune",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/90a3f5efb1a4cb0d5dca5adcfa11c48823949c34.jpg",
+              "earned": false
+            },
+            {
+              "name": "Airy la menteuse",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/fe6bf554575355e2d248166f622c72732bb6aafb.jpg",
+              "earned": false
+            },
+            {
+              "name": "Bravely Default",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/dc0d509431528bab4a78d25612fe1287287600f8.jpg",
+              "earned": false
+            },
+            {
+              "name": "La fin d'un long combat",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/16c56220dc7a45419840b7805ef27bfdba8ea99a.jpg",
+              "earned": false
+            },
+            {
+              "name": "Un vrai chez-soi",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/46136d0ec188b270762707cfcf57ed346e5c1066.jpg",
+              "earned": false
+            },
+            {
+              "name": "L'éveil du Cristal du vent",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/5fce08aefd59921e23310626083c4ea7a3daf9a8.jpg",
+              "earned": false
+            },
+            {
+              "name": "L'éveil du Cristal de l'eau",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/3d512fed71490846a45e887ab8cb3cf45cf6489a.jpg",
+              "earned": false
+            },
+            {
+              "name": "L'éveil du Cristal du feu",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/4bc540617581544a4e74806248c489ea3a6d44b5.jpg",
+              "earned": false
+            },
+            {
+              "name": "L'éveil du Cristal de la terre",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/5ba2e31f893441855e2d08e16fa6b0752ebf47a1.jpg",
+              "earned": false
+            },
+            {
+              "name": "Un potentiel nouveau",
+              "description": "Obtenir un premier astérisque.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/17e33e2c5753c7228f754d87b7f95827be136fa9.jpg",
+              "earned": false
+            },
+            {
+              "name": "Brillance éclatante",
+              "description": "Obtenir tous les astérisques.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/d8abbfc617ca1e9dac167a6346dae2a060be37a2.jpg",
+              "earned": false
+            },
+            {
+              "name": "Initiation réussie",
+              "description": "Atteindre le niveau 14 dans une des classes.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/cdb6e19772ef6be5bde7f952a4be66a2957ddb21.jpg",
+              "earned": false
+            },
+            {
+              "name": "Pro des classes",
+              "description": "Atteindre le niveau 14 dans toutes les classes.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/6533619fd8d1873cc6061605532be8d4e6ffd209.jpg",
+              "earned": false
+            },
+            {
+              "name": "Encyclopédie d'objets terminée",
+              "description": "Compléter l'encyclopédie d'objets.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/53aa96d71a7eaa76d006bf6d8392bc8b5bb7c106.jpg",
+              "earned": false
+            },
+            {
+              "name": "Encyclopédie d'armes terminée",
+              "description": "Compléter l'encyclopédie d'armes.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/e37d4d38286346621ccc4a6ee26aedeb6e808c66.jpg",
+              "earned": false
+            },
+            {
+              "name": "Encyclopédie d'armures terminée",
+              "description": "Compléter l'encyclopédie d'armures.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/b0a0348d1af17b551ae83a71e8a14afb28b1c358.jpg",
+              "earned": false
+            },
+            {
+              "name": "Encyclopédie d'ennemis terminée",
+              "description": "Compléter l'encyclopédie d'ennemis.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/7d5ee607f398d712f0cc47f5aa341c8e70c5f873.jpg",
+              "earned": false
+            },
+            {
+              "name": "Roi des démons",
+              "description": "Obtenir toutes les compétences génome.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/d7d4a5469cf400f330609366ea5fa477bd1b41cb.jpg",
+              "earned": false
+            },
+            {
+              "name": "Expérience terminée",
+              "description": "Réaliser toutes les recettes de combinaisons.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/0a66f56d8cc833a21cdbb9256aebde1a0402c8ee.jpg",
+              "earned": false
+            },
+            {
+              "name": "Omniscient",
+              "description": "Obtenir tous les parchemins de magies blanche, noire et temporelle.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/78e7d23241931c779ccdf3c87d70990d8b10f6d9.jpg",
+              "earned": false
+            },
+            {
+              "name": "Maître invocateur",
+              "description": "Maîtriser toutes les invocations.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/2b9776b007f2ab2dced05e56edd6279ffe103f28.jpg",
+              "earned": false
+            },
+            {
+              "name": "La rencontre",
+              "description": "Trouver une âme passante pour la première fois.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/59178908e863eb46e18d05cc24c41fb6bef0332f.jpg",
+              "earned": false
+            },
+            {
+              "name": "Précieuse amitié",
+              "description": "Obtenir l'affinité maximum avec un ami.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/485a1c0a4a65d8469f2ac0a587b416b3adfc111e.jpg",
+              "earned": false
+            },
+            {
+              "name": "Regarde par ici !",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/52349408751f71dbc6d5aee06c50103c9aad0364.jpg",
+              "earned": false
+            },
+            {
+              "name": "Restauration débutée !",
+              "description": "Finir pour la première fois la construction d'un bâtiment ou déblayer un premier obstacle à Norende.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/9a94893da8eecb81c762d7d0814b6156e5839fbc.jpg",
+              "earned": false
+            },
+            {
+              "name": "Paysage nostalgique",
+              "description": "Faire atteindre le niveau 1 à tous les bâtiments de Norende.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/dd2248f84da3054b6cc0d9a04981f973298f32c1.jpg",
+              "earned": false
+            },
+            {
+              "name": "Bienvenue à Norende",
+              "description": "Faire atteindre le niveau 11 à tous les bâtiments de Norende.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/2d8ebb5050536bd1d6930805caa4dfd22f3ec7dc.jpg",
+              "earned": false
+            },
+            {
+              "name": "Coffres bleus",
+              "description": "Ouvrir tous les coffres verrouillés.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/bb3e0b988b73496b2885810e5bde134fd81c79c2.jpg",
+              "earned": false
+            },
+            {
+              "name": "À l'abordage !",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/d2b74287df6a27edf67e35f90944f433a9fb45fe.jpg",
+              "earned": false
+            },
+            {
+              "name": "Le pays flottant",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/3a3be0d62eacba12c9a5b302247ce5a54f0cc37f.jpg",
+              "earned": false
+            },
+            {
+              "name": "L'argent résout tout",
+              "description": "Dépenser plus de 10000 pg en combat avec les techniques de marchand.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/43f3d3c93246aaabad6e101fabdbbd138ecaa01c.jpg",
+              "earned": false
+            },
+            {
+              "name": "À la une, à la deux...",
+              "description": "Faire sauter les 4 membres du groupe en même temps.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/c00e808860ae0839e3f315c4408273943d2ef7ea.jpg",
+              "earned": false
+            },
+            {
+              "name": "Cadence infernale",
+              "description": "Faire dépenser 7 PB à un personnage en un seul tour.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/a6753be93a8bfdc1ff94dbf95e27e5565b9880c8.jpg",
+              "earned": false
+            },
+            {
+              "name": "Enchaînement",
+              "description": "Enchaîner 4 musiques de coups spéciaux.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/b148846383dade5e3fce6457eb7775ae77b1a621.jpg",
+              "earned": false
+            },
+            {
+              "name": "9 999",
+              "description": "Infliger 9 999 de dégâts.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/0b5c8dd9fb0f619abdae130e4d98cd44f9cf8b1d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Pro de la danse",
+              "description": "Réussir toutes les chansons d'Encouragements lumineux - Attrapage en rythme.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/9439d59f582e6e47ba7087f999479c40c8654cdc.jpg",
+              "earned": false
+            },
+            {
+              "name": "Maître timonier",
+              "description": "Réussir tous les niveaux de Ringabel et sa croisière déroutante.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/cdfa8e487a95add6940dd39c64b0b2e955224af4.jpg",
+              "earned": false
+            },
+            {
+              "name": "Ascension dangereuse",
+              "description": "Abattre le dragon zombie et le gardien du col montagneux.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/92e1e8a7e160fd9b1a32824fb5fdde618a2707da.jpg",
+              "earned": false
+            },
+            {
+              "name": "Pourfendeur de dragons",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/58f5503e60bd84a58e5b24d9c4bb35793ac387ac.jpg",
+              "earned": false
+            },
+            {
+              "name": "Guerriers de la lumière",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/d83e1fe0a78cd297f5f50c8b16cc22120a49eae9.jpg",
+              "earned": false
+            },
+            {
+              "name": "Rencontre avec l'inconnu",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/cdc1e588fd54cbd12a0d19cd935bfcefeb1e5196.jpg",
+              "earned": false
+            },
+            {
+              "name": "Quel exploit !",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/14710bc48bfa2fd99b1e6d71e773a0f2f29e06a0.jpg",
+              "earned": false
+            }
+          ],
           "earned": 0,
-          "total": 0,
-          "noApi": true,
-          "includeInRatio": true
+          "total": 50,
+          "noApi": false,
+          "includeInRatio": true,
+          "manual": true,
+          "unsupported": false
         }
       },
       "inStreamCategory": false
