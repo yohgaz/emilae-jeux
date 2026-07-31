@@ -317206,13 +317206,13 @@
               "name": "Bienvenue à Horizon !",
               "description": "Décrochez le bracelet jaune et intégrez le festival Horizon.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/65fe4af6776210da0ee941ed012c2d47fef1874d.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Tampon de la renommée",
               "description": "Obtenez le tampon jaune dans votre journal de bord.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/8c02466d3d2f0f469ff7c82fb1fdd16ec9f01e86.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Bon départ",
@@ -317230,19 +317230,19 @@
               "name": "Se mettre au vert",
               "description": "Décrochez le bracelet vert du festival Horizon.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/e9e78de388cdcaa6b2c2caac2a0f1f5286ca8fd8.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Cordon bleu",
               "description": "Décrochez le bracelet bleu du festival Horizon.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/907e266d6ac29370d3e88f65dc0945a7f1e0b18a.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "On garde le tempo(n) !",
               "description": "Obtenez le tampon vert dans votre journal de bord.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/0718b62a0a81301a2310f145d125c13e7b3c46e5.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Tampographe",
@@ -317260,13 +317260,13 @@
               "name": "L'occasion fait le larron !",
               "description": "Achetez une voiture d'occasion.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/08044c29296012d5bb0c4b2853fba87388c5e8ed.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Le tour du cadran",
               "description": "Signez un record au tour sur un circuit de contre-la-montre.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/94624ac732bb15f3c587ff09927604c98b648385.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Technique de drag",
@@ -317284,13 +317284,13 @@
               "name": "Au taquet",
               "description": "Terminez un Horizon Rush.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/b8a2b48547fb01bef39abc86c073206d232be0cf.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Instinct de propriété",
               "description": "Achetez la maison Yashiki.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/244cc096f30d6ef2db1705a974ec998a85327f46.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Agence touriste",
@@ -317302,13 +317302,13 @@
               "name": "Salon d'honneur",
               "description": "Achetez une voiture au salon auto.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/9aa3eb9da4b5ec8b44781e961d2b907eb317ac73.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Rouler des mechaniques !",
               "description": "Terminez le rassemblement Mecha-cool.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/6cc0cffe2289d915fc506641e6d9db6d1d222a24.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Envie d'en découdre",
@@ -317320,19 +317320,19 @@
               "name": "Tabasscotte",
               "description": "Détruisez votre première mascotte régionale.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/f2bc5c428a81045dabc0e2538335fc64b331b066.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Débuts prometteurs",
               "description": "Remportez votre première course du festival Horizon.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/4716b509b877872002a09ab87f5b21bd15b62f09.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "La vie en rose",
               "description": "Décrochez le bracelet rose du festival Horizon.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/3f71c94680c905763ba16bcd50c830314d30ea19.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Orange mécanique",
@@ -317446,7 +317446,7 @@
               "name": "Organiser des site-in",
               "description": "Découvrez 10 sites.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/c5600efc77dc907467b21be9e4536b35d26d8d08.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Ultraviolet",
@@ -317536,7 +317536,7 @@
               "name": "Bienvenue au Japon",
               "description": "Terminez le premier acte.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/a7bce05da049cdbbc55cd368383c66816fcb9094.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Calife des qualifs",
@@ -317545,7 +317545,7 @@
               "earned": false
             }
           ],
-          "earned": 0,
+          "earned": 16,
           "total": 57,
           "summaryOnly": false,
           "gamerscoreEarned": 200,
