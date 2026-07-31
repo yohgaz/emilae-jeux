@@ -316496,7 +316496,7 @@
               "name": "Fuite des égouts impériaux",
               "description": "Vous avez fui les égouts impériaux, la quête principale commence",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2623190/88031f63341ad87b26c4ab6ec676a37b5e95890f.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Fermeture d'un portail d'Oblivion",
@@ -316853,15 +316853,16 @@
               "earned": false
             }
           ],
-          "earned": 0,
+          "earned": 1,
           "total": 60,
-          "summaryOnly": true,
+          "summaryOnly": false,
           "gamerscoreEarned": 40,
           "gamerscoreTotal": 1000,
           "manual": true,
           "includeInRatio": true,
           "noApi": false,
-          "unsupported": false
+          "unsupported": false,
+          "error": null
         }
       },
       "inStreamCategory": false
@@ -316899,7 +316900,7 @@
               "name": "Dès que le vent soufflera",
               "description": "",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/65e8cebe7b679dfac0e8571704a63ccfd2a834ce.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "La loi du plus Fior",
@@ -317025,7 +317026,7 @@
               "name": "« Alpha Protocol »",
               "description": "Vous avez tué 15 ennemis avec des attaques furtives.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/ace29c9de3d63111b324da2d6ee1c8ec0ef7c5c7.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Regardez comme ça brille !",
@@ -317178,15 +317179,16 @@
               "earned": false
             }
           ],
-          "earned": 0,
+          "earned": 2,
           "total": 50,
-          "summaryOnly": true,
+          "summaryOnly": false,
           "gamerscoreEarned": 30,
           "gamerscoreTotal": 1000,
           "manual": true,
           "includeInRatio": true,
           "noApi": false,
-          "unsupported": false
+          "unsupported": false,
+          "error": null
         }
       },
       "inStreamCategory": false
