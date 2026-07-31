@@ -316151,12 +316151,317 @@
         "xbox": {
           "titleId": "2046562785",
           "icon": "http://store-images.s-microsoft.com/image/apps.40346.13624715126573049.35e3abd5-bd41-4efb-bc2a-0bfbdd50b02a.84157e34-31f1-40b6-849a-e8729c39d4b6",
-          "achievements": [],
-          "earned": 3,
-          "total": 100,
+          "achievements": [
+            {
+              "name": "« Avowed »",
+              "description": "Terminer Avowed à n’importe quel niveau de difficulté.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/bd1e0310cc98aff79e2525333d7eab01ffaf01c0.jpg",
+              "earned": false
+            },
+            {
+              "name": "Un plat qui se mange froid",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/4ec896be53b94ff81d8c0c5d4c9c306ccc4c2ec6.jpg",
+              "earned": false
+            },
+            {
+              "name": "CQFD",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/c00f7d899ec1d6404e91fe9df70c9b2395642104.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dès que le vent soufflera",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/65e8cebe7b679dfac0e8571704a63ccfd2a834ce.jpg",
+              "earned": false
+            },
+            {
+              "name": "La loi du plus Fior",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/1d5bf2e6965a679ddc777e395df9f8167a1c1095.jpg",
+              "earned": false
+            },
+            {
+              "name": "Preuve spectrale",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/d97fe6dcfd76b77a462f7e0688813a3def6e9a35.jpg",
+              "earned": false
+            },
+            {
+              "name": "Enfers et contre tout",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/ebbcfd75496af6913a60f3eeb286b61135b0159d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Germinal",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/12a73720f98cae4ec46df47a797ee5e144966fc3.jpg",
+              "earned": false
+            },
+            {
+              "name": "Parasitoïde",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/4b594ccd9e1d147143b84bf51d6f68c9cfa9b61d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Le feu par le feu",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/f80d834af95136c9494cd3bb55000f414f9dfbed.jpg",
+              "earned": false
+            },
+            {
+              "name": "Transfuge",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/8b715642330fab99c02c92a82f13ead6e52ce7d7.jpg",
+              "earned": false
+            },
+            {
+              "name": "Kai cela ne tienne",
+              "description": "Vous avez déverrouillé toutes les capacités de Kai.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/12e8bbf829113b8bef592f4da180a8c7e4699949.jpg",
+              "earned": false
+            },
+            {
+              "name": "Corps et âme",
+              "description": "Vous avez déverrouillé toutes les capacités de Giatta.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/07a8e9894e531f0f994d20d293c33403ac75d931.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dans le mille",
+              "description": "Vous avez déverrouillé toutes les capacités de Marius.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/eb2f3dd874f7f7cf2df9c522eb48ce40f19ba151.jpg",
+              "earned": false
+            },
+            {
+              "name": "Sus à l’ennemi, trésor !",
+              "description": "Vous avez déverrouillé toutes les capacités de Yatzli.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/779378c0aebead89c2cbf96d8057cbb7a68f00ee.jpg",
+              "earned": false
+            },
+            {
+              "name": "Théologie appliquée",
+              "description": "Obtenir et placer tous les fragments et totems du sanctuaire divin.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/c2c1325f3aceded1076526ae24993c37dccbaade.jpg",
+              "earned": false
+            },
+            {
+              "name": "Apothéose",
+              "description": "Atteindre le niveau maximal.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/cbf479d143b66bbb307d3980b7751a7306f88dde.jpg",
+              "earned": false
+            },
+            {
+              "name": "« Pathfinder »",
+              "description": "Trouver tous les objets des cartes au trésor.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/09c86af28b11e6c4ad74136b009ae56d3bd3dbb1.jpg",
+              "earned": false
+            },
+            {
+              "name": "« Pillars of Eternity »",
+              "description": "Purifier tout l’adra étranglé dans chaque région.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/62734b8ba8ea938804ee6da6543ecec2832123c2.jpg",
+              "earned": false
+            },
+            {
+              "name": "Mémoires d’outre-tombe",
+              "description": "Terminer tous les souvenirs anciens.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/6f97b5a4e400c3c8075e26660a7f6a6ea1e9c2b8.jpg",
+              "earned": false
+            },
+            {
+              "name": "Cache-cache",
+              "description": "Trouver et ouvrir toutes les caches pargruns des Terres vivantes.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/662913437a93bd8c8df08990fef971bc3874493b.jpg",
+              "earned": false
+            },
+            {
+              "name": "Chasse aux primes",
+              "description": "Terminer toutes les primes de chaque région.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/5f1e247eda2cf6b37735813be0e56a79526395a5.jpg",
+              "earned": false
+            },
+            {
+              "name": "Seigneur kith",
+              "description": "Découvrir tous les camps des Terres vivantes.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/c92d525f999899a14b36b367ee96b3465ed51167.jpg",
+              "earned": false
+            },
+            {
+              "name": "« Dungeon Siege »",
+              "description": "Pénétrer dans tous les donjons de chaque région.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/5a6c44203e8aed4dbc4c206f66e8be6b10a944c7.jpg",
+              "earned": false
+            },
+            {
+              "name": "« Alpha Protocol »",
+              "description": "Vous avez tué 15 ennemis avec des attaques furtives.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/ace29c9de3d63111b324da2d6ee1c8ec0ef7c5c7.jpg",
+              "earned": false
+            },
+            {
+              "name": "Regardez comme ça brille !",
+              "description": "S’équiper d’un ensemble de pièces d’armure amélioré au maximum.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/ccde71e3cc65e0de65856e0e8e42c2d87102c0e1.jpg",
+              "earned": false
+            },
+            {
+              "name": "« Tyranny »",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/f1ff32643571c25be2b7ca99132934099ee1e253.jpg",
+              "earned": false
+            },
+            {
+              "name": "« Pentiment »",
+              "description": "Terminer toutes les quêtes secondaires.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/85e9273e3bc337a314aab8085ba1475a49d3f1ed.jpg",
+              "earned": false
+            },
+            {
+              "name": "Gros calibre",
+              "description": "S’équiper d’une arme améliorée au maximum.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/70cfe256cd8f3699a1ef6eedd58a32ae628a6757.jpg",
+              "earned": false
+            },
+            {
+              "name": "« Grounded »",
+              "description": "Vous avez tué 10 araignées et 10 scarabées.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/5482efb3238d19eed04d801ece01e025c4048b7d.jpg",
+              "earned": false
+            },
+            {
+              "name": "« The Outer Worlds »",
+              "description": "Déverrouiller toutes les balises de voyage rapide.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/dd5d935c9251b6342d46207ee52747b3264f099e.jpg",
+              "earned": false
+            },
+            {
+              "name": "Intouchable",
+              "description": "Terminer Avowed au niveau de difficulté Voie des damnés.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/d07091ec38b521aaa9b6b81da994033744aaae2d.jpg",
+              "earned": false
+            },
+            {
+              "name": "L’annonce de ma mort est grandement exagérée",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/89834a04697c181180cd98e4c12f38e69939930c.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dans le même bateau",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/35c8ccfbc2b7391b54c44e1e6f9cb1a0b8ef9641.jpg",
+              "earned": false
+            },
+            {
+              "name": "Sur la corde à linge",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/2b2d54ce87699c8fb261a230e51c64ac0336ee95.jpg",
+              "earned": false
+            },
+            {
+              "name": "Le temps, c’est des skeyts",
+              "description": "Vous avez exigé par 5 fois une compensation pour vos services.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/e48b5c8c47bab3ea01521c7ce082f3d274e6e6f5.jpg",
+              "earned": false
+            },
+            {
+              "name": "Miroir !",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/d1ff995b6c13877564624040df718eb31e7b52b2.jpg",
+              "earned": false
+            },
+            {
+              "name": "Plan d’épargne retraite",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/2374f36dac2ae81308516b75316bc783d7ccea17.jpg",
+              "earned": false
+            },
+            {
+              "name": "Œil de lynx",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/ecf79ab6b2cc826320dd2e9136c9febb48ea761d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Vu et s’en tape",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/80d9aaf51b405ceaad6f1cd5483ebbba567f6e2e.jpg",
+              "earned": false
+            },
+            {
+              "name": "La violence ne résout (presque) rien",
+              "description": "Recourir par 10 fois à la violence au cours d’une conversation.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/3c403c63cf6ccca1ae45cc0b22e951f163af329d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Paix et amour",
+              "description": "Résoudre par 5 fois un conflit potentiel de manière pacifique.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/0b7987ab5e5eef5b2c80094f3efd21bcdf590bef.jpg",
+              "earned": false
+            },
+            {
+              "name": "À fond, à fond, à fond !",
+              "description": "Améliorer un attribut au maximum.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/5455649e91d4f1e5bc989407bb2ee4731af524e0.jpg",
+              "earned": false
+            },
+            {
+              "name": "Mythomane",
+              "description": "Mentir à 15 reprises.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/ca6fe064a9a48def8c4641c0ec5636a7a3b4c5e8.jpg",
+              "earned": false
+            },
+            {
+              "name": "Et moi, je fais ma part !",
+              "description": "Effectuer toutes les séances d’entraînement avec vos compagnons.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/78305dc866767aa11ddb8c0422e858e8673bbe6e.jpg",
+              "earned": false
+            },
+            {
+              "name": "Une-deux",
+              "description": "Parer à 25 reprises les attaques d’un ennemi.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/cbb2e8d2c4191a792b2fd94eaba7fc3e1b459af5.jpg",
+              "earned": false
+            },
+            {
+              "name": "C’est qui le patron ? C’est moi !",
+              "description": "Cuisiner toutes les recettes au camp.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/d0c3fe0f1161cdc1a218324770c278da0ad69c89.jpg",
+              "earned": false
+            },
+            {
+              "name": "Avec un grand H",
+              "description": "Récupérer tous les volumes de l’Histoire des Terres vivantes dans le temple d’Éothas.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/d94e7000ae78d31b6da53aa1c523e741216e75bd.jpg",
+              "earned": false
+            },
+            {
+              "name": "Explorateur",
+              "description": "Terminer la carte des Terres vivantes de Sanza.",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/db1739c08104c0b048ab6888bb8a8c2b637fc700.jpg",
+              "earned": false
+            },
+            {
+              "name": "Trépassé de mode",
+              "description": "",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2457220/57d7c2bda245393f0397c30f3315bbc0cb5d289d.jpg",
+              "earned": false
+            }
+          ],
+          "earned": 0,
+          "total": 50,
           "summaryOnly": true,
           "gamerscoreEarned": 30,
-          "gamerscoreTotal": 1000
+          "gamerscoreTotal": 1000,
+          "manual": true,
+          "includeInRatio": true,
+          "noApi": false,
+          "unsupported": false
         }
       },
       "inStreamCategory": false
