@@ -183346,13 +183346,13 @@
               "name": "La crème de l'enfer",
               "description": "Infligez au moins 100 dégâts d'un coup avec un monstre.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/6ed9527a98c6e7441feef6f046acac2b6f1d8f3f.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Un poil abusé",
               "description": "Infligez au moins 175 dégâts d'un coup avec un sort.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/ddea710efb79a77fe4ee1e60defe84c04eb112d4.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Fratricide",
@@ -183430,7 +183430,7 @@
               "name": "Quartier-maître",
               "description": "Ajoutez des équipements à six unités en une bataille.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/9718877b1019d0516d4e203d5719036b37f5d898.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Train monstrueux",
@@ -183454,7 +183454,7 @@
               "name": "Rang supérieur",
               "description": "Faites monter un clan de niveau.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/c77ee9075d6666117285f4d2966440338a3345cc.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Maître des monstres",
@@ -183478,7 +183478,7 @@
               "name": "Langue bien pendue",
               "description": "Déclenchez un dialogue facultatif dans le Bastion du Pacte.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/f5c81bc078661698ff38320823720d41914a25d4.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Tyran renversé",
@@ -183490,7 +183490,7 @@
               "name": "Stellaire",
               "description": "Déverrouillez les Lunariens.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/806aec3ff475b4ed43ca2b99295a4d53be9ca803.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Faction fongique",
@@ -183556,7 +183556,7 @@
               "name": "Ça a toujours été là, ça ?",
               "description": "Déverrouillez le portail dimensionnel de Malicka.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/893784fd450473eaaa22381efc5c50770031de4d.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Ce n'est pas fini",
@@ -183574,7 +183574,7 @@
               "name": "La clé de mon cœur",
               "description": "Déverrouillez un autre Cœur du Brasier.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/96fd20c37af4d77ffcfc595e472b9f6c2ea3f892.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Reformer le groupe",
@@ -183637,7 +183637,7 @@
               "earned": false
             }
           ],
-          "earned": 0,
+          "earned": 8,
           "total": 59,
           "summaryOnly": false,
           "gamerscoreEarned": 115,
@@ -317574,49 +317574,49 @@
               "name": "Le périple commence",
               "description": "Termine le prologue",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/f103d6772ae0d3f9eafda30e67176e7bdcb65ff7.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "L'Ancien",
               "description": "Rencontre l'Ancien",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/6e0d165220b1b8af145f5e46380f710f1736b968.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Reviens ici !",
               "description": "Découvre l'être qui se cache dans l'ombre",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/12d75b0cd583aefe3b478b02f0acc1c52f7e0cad.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Soyons amis",
               "description": "Noue une amitié improbable",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/40fe8b285b5a29fd14004a02239e9f7c4cbd30d1.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Pourri de l'intérieur",
               "description": "Pénètre dans l'Arbre de Ginso",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/0ec79e30d0fdc827f4eac700ce6fa5b44ed6f52e.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Sauve-qui-peut",
               "description": "Purifie le cœur de l'Arbre de Ginso",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/5c4f60521945ed1ad2b66a63534a5541b06bc3bc.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Moins une",
               "description": "Tire-toi d'une situation épineuse",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/c45b2db48d11c5588927cc96d1cc063b6217577d.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Un peu de clarté",
               "description": "Dissipe le brouillard des Bois brumeux",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/d1648a2f4b19696a9c8d5383a331c145301eff6d.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Terre ferme",
@@ -317664,13 +317664,13 @@
               "name": "Sauveur",
               "description": "Crée 50 Liens d'âme",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/0416d8cd622db93f3367430789130dedc9278647.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Explosion meurtrière",
               "description": "Élimine 4 ennemis en même temps avec une Flamme attisée",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/20ba415838d8e421d1b73a2550883f90e8436485.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Déviation meurtrière",
@@ -317682,13 +317682,13 @@
               "name": "Une nouvelle voie",
               "description": "Crée 5 raccourcis avec la Flamme attisée",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/9981ce77263e940adc6ce7d9c155bbe616e353b7.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "L'embarras du choix",
               "description": "Dépense ton premier Point de compétence",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/5aa217085a5710bcbe15f407b1b44921e49d7cb3.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Ruée meurtrière",
@@ -317700,7 +317700,7 @@
               "name": "Tant de secrets",
               "description": "Découvre ton premier secret",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/e943e15ec619e11f6071ba238b14e41a0449db90.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Explorateur expert",
@@ -317718,13 +317718,13 @@
               "name": "Petit Poucet",
               "description": "Replace ta première pierre-carte",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/4bbf264374afc58e9198cb8a2f82ab3e908acb37.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "À mi-chemin",
               "description": "Replace la moitié des pierres-cartes",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/104ae95764aeebb06e5264cd21c5c94edad56123.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Le monde à tes pieds",
@@ -317808,7 +317808,7 @@
               "name": "Esquive meurtrière",
               "description": "Amène 5 ennemis à éliminer l'un de leurs alliés",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/4e9ed5cab9bd1ad4b415dea397fe235fed39c8fa.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Fureur éthérée",
@@ -317820,13 +317820,13 @@
               "name": "Autodestruction",
               "description": "Pousse un ennemi à s'autodétruire",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/8da6b205ef2d55d2740c80471c9381d6e3d796e2.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Coup écrasant",
               "description": "Écrase un Bélier avec un Écrabouilleur",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/f073e9af4101d53a7421b5c38fbc49dae5f71863.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Maître écrabouilleur",
@@ -317844,7 +317844,7 @@
               "name": "Maître des flammes",
               "description": "Élimine 500 ennemis avec la Flamme spirituelle",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/277a00cb5de386c8876b20eb5bf7329371ec8a32.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Supersonique",
@@ -317913,7 +317913,7 @@
               "earned": false
             }
           ],
-          "earned": 0,
+          "earned": 19,
           "total": 57,
           "summaryOnly": false,
           "gamerscoreEarned": 315,
@@ -317925,7 +317925,8 @@
           "error": null
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s0m.jpg"
     },
     {
       "id": "the-evil-within-2",
