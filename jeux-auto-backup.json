@@ -317278,7 +317278,7 @@
               "name": "L'union fait la force !",
               "description": "Terminez une prouesse LINK.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/2335ddf4b2a6af609ef9672f2476e6d79360cfd7.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Au taquet",
@@ -317542,10 +317542,10 @@
               "name": "Calife des qualifs",
               "description": "Terminez vos premières qualifications.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2483190/2fe0d270f31eb89a0f47512f780233b9aa2a4047.jpg",
-              "earned": false
+              "earned": true
             }
           ],
-          "earned": 16,
+          "earned": 18,
           "total": 57,
           "summaryOnly": false,
           "gamerscoreEarned": 200,
