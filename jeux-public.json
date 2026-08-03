@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T14:58:31.385Z",
+  "updatedAt": "2026-08-03T18:08:07.731Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -43977,7 +43977,7 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 133,
+            "earned": 135,
             "total": 187
           },
           "argent": {
@@ -46149,7 +46149,7 @@
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
             "type": "bronze",
             "hidden": false,
-            "earned": false,
+            "earned": true,
             "groupId": "016"
           },
           {
@@ -46158,7 +46158,7 @@
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
             "type": "bronze",
             "hidden": false,
-            "earned": false,
+            "earned": true,
             "groupId": "016"
           },
           {
@@ -46328,17 +46328,45 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1785506499",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1785506499",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/_/kLob-U-yh652LQPX1NHpLlUYQY.png",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1785779867",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1785779867",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
         },
         "achievements": {
-          "earned": 1895,
+          "earned": 1899,
           "total": 3300,
-          "points": "16695",
+          "points": "16725",
           "recent": [
+            {
+              "id": "3131",
+              "name": "Armes des Manderville : pistolame",
+              "date": 1785599159000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036075.tex&format=png"
+            },
+            {
+              "id": "2906",
+              "name": "Pistosabreur légendaire",
+              "date": 1785599159000,
+              "points": 5,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036005.tex&format=png"
+            },
+            {
+              "id": "4002",
+              "name": "Destinée défiée I",
+              "date": 1785542816000,
+              "points": 5,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png"
+            },
+            {
+              "id": "3998",
+              "name": "Critique averti I",
+              "date": 1785542816000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F064000%2F064836.tex&format=png"
+            },
             {
               "id": "3676",
               "name": "Maître fantôme II",
@@ -46662,6 +46690,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png"
             },
             {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "フラグとは折れないものである、悲哀。",
+              "date": null
+            },
+            {
               "id": "3143",
               "name": "Armes des Manderville : canne",
               "date": 1781622261000,
@@ -46688,56 +46766,6 @@
               "date": 1781276259000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061251.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "3293",
@@ -47062,6 +47090,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png"
             },
             {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
               "id": "3609",
               "name": "On est tous un peu Wachumeqimeqi",
               "date": 1778614362000,
@@ -47088,56 +47166,6 @@
               "date": 1778584279000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001006.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "3508",
@@ -47462,6 +47490,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
             },
             {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "フラグとは折れないものである、悲哀。",
+              "date": null
+            },
+            {
               "id": "3594",
               "name": "Train-train quotidien III",
               "date": 1746608483000,
@@ -47488,56 +47566,6 @@
               "date": 1744988641000,
               "points": 20,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "3603",
@@ -47862,6 +47890,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037640.tex&format=png"
             },
             {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "フラグとは折れないものである、悲哀。",
+              "date": null
+            },
+            {
               "id": "3024",
               "name": "Héros de grand chemin : Garlemald",
               "date": 1719587524000,
@@ -47888,56 +47966,6 @@
               "date": 1706626994000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001625.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "1041",
@@ -48262,6 +48290,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037048.tex&format=png"
             },
             {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "フラグとは折れないものである、悲哀。",
+              "date": null
+            },
+            {
               "id": "3146",
               "name": "Armes des Manderville : mein gwrac'h",
               "date": 1687341505000,
@@ -48288,56 +48366,6 @@
               "date": 1685554214000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F027000%2F027661.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "2911",
@@ -48662,6 +48690,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
             },
             {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "フラグとは折れないものである、悲哀。",
+              "date": null
+            },
+            {
               "id": "3158",
               "name": "Cartographe du continent : Lapis Manalis",
               "date": 1675614358000,
@@ -48688,56 +48766,6 @@
               "date": 1675170099000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "3094",
@@ -49062,6 +49090,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Angel's United",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
               "id": "3075",
               "name": "Vers de nouvelles aventures",
               "date": 1649787662000,
@@ -49088,56 +49166,6 @@
               "date": 1644425890000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002505.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "758",
@@ -49462,6 +49490,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035301.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Angel's United",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
               "id": "2986",
               "name": "Cartographe du continent : Rêve électrique de Stigma-4",
               "date": 1639268319000,
@@ -49488,56 +49566,6 @@
               "date": 1639255410000,
               "points": 20,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "2985",
@@ -49862,6 +49890,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035638.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Angel's United",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
               "id": "2666",
               "name": "Outils de Cielacier : poêle à frire du chant céleste",
               "date": 1637405421000,
@@ -49888,56 +49966,6 @@
               "date": 1637014098000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001101.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "2317",
@@ -50262,6 +50290,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png"
             },
             {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
               "id": "2369",
               "name": "En cartes et en os VII",
               "date": 1618668737000,
@@ -50288,56 +50366,6 @@
               "date": 1618326134000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "2847",
@@ -50662,6 +50690,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F033000%2F033321.tex&format=png"
             },
             {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
               "id": "2677",
               "name": "Prendre la mouche II",
               "date": 1614280073000,
@@ -50688,56 +50766,6 @@
               "date": 1614167111000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F064000%2F064836.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "2575",
@@ -51062,6 +51090,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F033000%2F033140.tex&format=png"
             },
             {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
               "id": "2578",
               "name": "Armes de la résistance : Garde-loi",
               "date": 1595715476000,
@@ -51088,56 +51166,6 @@
               "date": 1591712881000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F048000%2F048094.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "2435",
@@ -51462,6 +51490,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062971.tex&format=png"
             },
             {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
               "id": "2281",
               "name": "En avant, forgez : Génie",
               "date": 1582038206000,
@@ -51488,56 +51566,6 @@
               "date": 1581632146000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001104.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "782",
@@ -51862,6 +51890,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062952.tex&format=png"
             },
             {
+              "id": null,
+              "name": "MRCompany",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "暁の、日常。",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "君たちはどう元素統合を生きるか",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Secluded Respite",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "黄金編のうさお。　ネタバレあり",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Astral Link (Mana)",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "不在の理由",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "ちょっと哲学っぽい話",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "cailleach bheur",
+              "date": null
+            },
+            {
               "id": "300",
               "name": "Disciple de Mutamix",
               "date": 1570633340000,
@@ -51888,56 +51966,6 @@
               "date": 1570293989000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002601.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Feinperlig",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Foxfire",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "ノートPC修理奮闘録",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "prism",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Amberia",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Everland",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "aaaaa",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "The Blue Shards",
-              "date": null
             },
             {
               "id": "1196",
@@ -52262,81 +52290,53 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
             },
             {
-              "id": "2386",
-              "name": "Flétrir l'innocence",
-              "date": 1564441859000,
-              "points": 10,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000317.tex&format=png"
-            },
-            {
-              "id": "2385",
-              "name": "Renverser le Monarque féérique",
-              "date": 1564352394000,
-              "points": 10,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000317.tex&format=png"
-            },
-            {
-              "id": "1908",
-              "name": "Porte-cartes VII",
-              "date": 1564320615000,
-              "points": 10,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F027000%2F027661.tex&format=png"
-            },
-            {
-              "id": "2302",
-              "name": "Guérisseur héroïque",
-              "date": 1564247619000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061251.tex&format=png"
-            },
-            {
               "id": null,
-              "name": "Feinperlig",
+              "name": "暁の、日常。",
               "date": null
             },
             {
               "id": null,
-              "name": "Foxfire",
+              "name": "君たちはどう元素統合を生きるか",
               "date": null
             },
             {
               "id": null,
-              "name": "ノートPC修理奮闘録",
+              "name": "Secluded Respite",
               "date": null
             },
             {
               "id": null,
-              "name": "暁月パズル　修行日誌 2026/07/31",
+              "name": "黄金編のうさお。　ネタバレあり",
               "date": null
             },
             {
               "id": null,
-              "name": "prism",
+              "name": "Astral Link (Mana)",
               "date": null
             },
             {
               "id": null,
-              "name": "私のエオルゼアTODO日記 1337日目",
+              "name": "不在の理由",
               "date": null
             },
             {
               "id": null,
-              "name": "Amberia",
+              "name": "ちょっと哲学っぽい話",
               "date": null
             },
             {
               "id": null,
-              "name": "Everland",
+              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
               "date": null
             },
             {
               "id": null,
-              "name": "aaaaa",
+              "name": "cailleach bheur",
               "date": null
             },
             {
               "id": null,
-              "name": "The Blue Shards",
+              "name": "フラグとは折れないものである、悲哀。",
               "date": null
             }
           ]
@@ -53305,6 +53305,10 @@
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/74/7410c7f8e7cf323958715cc7e0efe8c1b1328e4f.png?n7.55"
           },
           {
+            "name": "Seigneur des ombres miniature",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/d9/d96db9ad15a6333766997957300282bb9c231bde.png?n7.55"
+          },
+          {
             "name": "Eald'narche miniature",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/cb/cbba21e5720035dd96e189335996a00b2aa8c620.png?n7.55"
           },
@@ -54108,211 +54112,254 @@
         "jobs": [
           {
             "abbr": "PLD",
+            "name": "Paladin",
             "role": "tank",
             "level": 92,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/paladin.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/E/d0Tx-vhnsMYfYpGe9MvslemEfg.png"
           },
           {
             "abbr": "WAR",
+            "name": "Guerrier",
             "role": "tank",
             "level": 88,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/warrior.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/y/A3UhbjZvDeN3tf_6nJ85VP0RY0.png"
           },
           {
             "abbr": "DRK",
+            "name": "Chevalier noir",
             "role": "tank",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/darkknight.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png"
           },
           {
             "abbr": "GNB",
+            "name": "Pistosabreur",
             "role": "tank",
-            "level": 89,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/gunbreaker.png"
+            "level": 90,
+            "icon": "https://lds-img.finalfantasyxiv.com/h/8/hg8ofSSOKzqng290No55trV4mI.png"
           },
           {
             "abbr": "WHM",
+            "name": "Mage blanc",
             "role": "healer",
             "level": 92,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/whitemage.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/7/i20QvSPcSQTybykLZDbQCgPwMw.png"
           },
           {
             "abbr": "SCH",
+            "name": "Érudit",
             "role": "healer",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/scholar.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/7/WdFey0jyHn9Nnt1Qnm-J3yTg5s.png"
           },
           {
             "abbr": "AST",
+            "name": "Astromancien",
             "role": "healer",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/astrologian.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/1/erCgjnMSiab4LiHpWxVc-tXAqk.png"
           },
           {
             "abbr": "SGE",
+            "name": "Sage",
             "role": "healer",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/sage.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/g/_oYApASVVReLLmsokuCJGkEpk0.png"
           },
           {
             "abbr": "MNK",
+            "name": "Moine",
             "role": "melee",
             "level": 88,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/monk.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/K/HW6tKOg4SOJbL8Z20GnsAWNjjM.png"
           },
           {
             "abbr": "DRG",
+            "name": "Chevalier dragon",
             "role": "melee",
             "level": 90,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/dragoon.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/m/gX4OgBIHw68UcMU79P7LYCpldA.png"
           },
           {
             "abbr": "NIN",
+            "name": "Ninja",
             "role": "melee",
             "level": 80,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/ninja.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/0/Fso5hanZVEEAaZ7OGWJsXpf3jw.png"
           },
           {
             "abbr": "SAM",
+            "name": "Samouraï",
             "role": "melee",
             "level": 80,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/samurai.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/m/KndG72XtCFwaq1I1iqwcmO_0zc.png"
           },
           {
             "abbr": "RPR",
+            "name": "Faucheur",
             "role": "melee",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/reaper.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/7/cLlXUaeMPJDM2nBhIeM-uDmPzM.png"
           },
           {
             "abbr": "VPR",
+            "name": "Rôdeur vipère",
             "role": "melee",
             "level": 93,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/viper.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/C/WojNTqMJ_Ye1twvkIhw825zc20.png"
+          },
+          {
+            "abbr": "BST",
+            "name": "Dresseur",
+            "role": "melee",
+            "level": 0,
+            "icon": "https://lds-img.finalfantasyxiv.com/h/_/OFfyg3oiCvw6DQmECas-wZv01A.png"
           },
           {
             "abbr": "BRD",
+            "name": "Barde",
             "role": "ranged",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/bard.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/F/KWI-9P3RX_Ojjn_mwCS2N0-3TI.png"
           },
           {
             "abbr": "MCH",
+            "name": "Machiniste",
             "role": "ranged",
             "level": 90,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/machinist.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/E/vmtbIlf6Uv8rVp2YFCWA25X0dc.png"
           },
           {
             "abbr": "DNC",
+            "name": "Danseur",
             "role": "ranged",
             "level": 80,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/dancer.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/t/HK0jQ1y7YV9qm30cxGOVev6Cck.png"
           },
           {
             "abbr": "BLM",
+            "name": "Mage noir",
             "role": "caster",
             "level": 89,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/blackmage.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/P/V01m8YRBYcIs5vgbRtpDiqltSE.png"
           },
           {
             "abbr": "SMN",
+            "name": "Invocateur",
             "role": "caster",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/summoner.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/h/4ghjpyyuNelzw1Bl0sM_PBA_FE.png"
           },
           {
             "abbr": "RDM",
+            "name": "Mage rouge",
             "role": "caster",
             "level": 81,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/redmage.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/q/s3MlLUKmRAHy0pH57PnFStHmIw.png"
           },
           {
             "abbr": "PCT",
+            "name": "Pictomancien",
             "role": "caster",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/pictomancer.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/_/kLob-U-yh652LQPX1NHpLlUYQY.png"
           },
           {
             "abbr": "BLU",
+            "name": "Mage bleu",
             "role": "caster",
             "level": 67,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/bluemage.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/p/jdV3RRKtWzgo226CC09vjen5sk.png"
           },
           {
             "abbr": "CRP",
+            "name": "Menuisier",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/carpenter.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/v/YCN6F-xiXf03Ts3pXoBihh2OBk.png"
           },
           {
             "abbr": "BSM",
+            "name": "Forgeron",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/blacksmith.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/5/EEHVV5cIPkOZ6v5ALaoN5XSVRU.png"
           },
           {
             "abbr": "ARM",
+            "name": "Armurier",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/armorer.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/G/Rq5wcK3IPEaAB8N-T9l6tBPxCY.png"
           },
           {
             "abbr": "GSM",
+            "name": "Orfèvre",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/goldsmith.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/L/LbEjgw0cwO_2gQSmhta9z03pjM.png"
           },
           {
             "abbr": "LTW",
+            "name": "Tanneur",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/leatherworker.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/b/ACAcQe3hWFxbWRVPqxKj_MzDiY.png"
           },
           {
             "abbr": "WVR",
+            "name": "Couturier",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/weaver.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/X/E69jrsOMGFvFpCX87F5wqgT_Vo.png"
           },
           {
             "abbr": "ALC",
+            "name": "Alchimiste",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/alchemist.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/C/bBVQ9IFeXqjEdpuIxmKvSkqalE.png"
           },
           {
             "abbr": "CUL",
+            "name": "Cuisinier",
             "role": "craft",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/culinarian.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/m/1kMI2v_KEVgo30RFvdFCyySkFo.png"
           },
           {
             "abbr": "MIN",
+            "name": "Mineur",
             "role": "gather",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/miner.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/A/aM2Dd6Vo4HW_UGasK7tLuZ6fu4.png"
           },
           {
             "abbr": "BTN",
+            "name": "Botaniste",
             "role": "gather",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/botanist.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/I/jGRnjIlwWridqM-mIPNew6bhHM.png"
           },
           {
             "abbr": "FSH",
+            "name": "Pêcheur",
             "role": "gather",
             "level": 100,
-            "icon": "https://raw.githubusercontent.com/xivapi/classjob-icons/master/icons/fisher.png"
+            "icon": "https://lds-img.finalfantasyxiv.com/h/x/B4Azydbn7Prubxt7OL9p1LZXZ0.png"
           }
         ],
         "eureka": {
-          "level": 18
+          "level": 32
         },
         "bozja": {
-          "level": 32,
-          "mettle": "2 555 540 / 2 821 901"
+          "level": 18,
+          "mettle": "Points de faits d'armes : 3 606 895 / Niveau suivant : 4 435 000"
         },
-        "updatedAt": "2026-07-31T14:48:54.379Z"
+        "lunule": {
+          "level": 27
+        },
+        "updatedAt": "2026-08-03T18:08:07.270Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
