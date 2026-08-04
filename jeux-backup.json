@@ -2090,12 +2090,21 @@
       "plateformes": [
         "PC"
       ],
-      "steamAppId": 4425970,
-      "igdbId": null,
+      "steamAppId": "3669200",
+      "igdbId": "410290",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocizp.jpg",
-      "progression": {},
+      "progression": {
+        "PC": {
+          "earned": 0,
+          "total": 0
+        }
+      },
       "type": "normal",
-      "completion": ""
+      "completion": "",
+      "arrete": false,
+      "occasion": true,
+      "jeuDuMoment": false,
+      "fridayFantasy": false
     }
   ]
 }
