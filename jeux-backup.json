@@ -2083,6 +2083,19 @@
       "occasion": false,
       "jeuDuMoment": false,
       "fridayFantasy": true
+    },
+    {
+      "id": "1e4219b9-f59d-4838-8011-f2d7d1c3d5e0",
+      "nom": "Guildrun Demo",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": 4425970,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocizp.jpg",
+      "progression": {},
+      "type": "normal",
+      "completion": ""
     }
   ]
 }
