@@ -70938,6 +70938,14 @@
           "earned": 0,
           "total": 0,
           "familyShared": false
+        },
+        "xbox": {
+          "titleId": "1757097514",
+          "icon": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBAInhxUS6pI0HjtmvshPyKW4ZDUBLxmr6KHXlG7QN161tpiprfnqjnMOQYNmqtn.mRDXGcfHhdFh0m8j_OKvVNPF4BImvQiUA4.HRtNoHB5A--",
+          "achievements": [],
+          "earned": 0,
+          "total": 0,
+          "unsupported": true
         }
       },
       "inStreamCategory": false,
@@ -189948,7 +189956,8 @@
           "familyShared": true
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocizp.jpg"
     },
     {
       "id": "final-fantasy-14-online",
@@ -192100,7 +192109,7 @@
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
               "type": "bronze",
               "hidden": false,
-              "earned": false,
+              "earned": true,
               "groupId": "016"
             },
             {
@@ -192109,7 +192118,7 @@
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
               "type": "bronze",
               "hidden": false,
-              "earned": false,
+              "earned": true,
               "groupId": "016"
             },
             {
@@ -192272,7 +192281,7 @@
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/037e5074-d796-41b0-8466-7f06b3be8f01.png"
             }
           ],
-          "earned": 153,
+          "earned": 155,
           "total": 247
         },
         "xbox": {
@@ -193705,13 +193714,13 @@
               "name": "Témoin insulaire",
               "description": "Accomplir 10 ALÉA sur l'île de Lunule septentrionale.",
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Belliciste boréal",
               "description": "Remporter 10 confrontations critiques sur l'île de Lunule septentrionale.",
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Tour de magie",
@@ -193762,8 +193771,8 @@
               "earned": false
             }
           ],
-          "earned": 153,
-          "total": 247,
+          "earned": 53,
+          "total": 100,
           "summaryOnly": false,
           "gamerscoreEarned": 2565,
           "gamerscoreTotal": 4815,
@@ -193784,6 +193793,30 @@
         "ffxiv": {
           "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
           "achievements": [
+            {
+              "name": "Armes des Manderville : pistolame",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036075.tex&format=png",
+              "earned": true
+            },
+            {
+              "name": "Pistosabreur légendaire",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036005.tex&format=png",
+              "earned": true
+            },
+            {
+              "name": "Destinée défiée I",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png",
+              "earned": true
+            },
+            {
+              "name": "Critique averti I",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F064000%2F064836.tex&format=png",
+              "earned": true
+            },
             {
               "name": "Maître fantôme II",
               "description": "",
@@ -194061,6 +194094,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Armes des Manderville : canne",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032448.tex&format=png",
@@ -194082,66 +194175,6 @@
               "name": "Sous la tutelle du Scorpion",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061251.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -194421,6 +194454,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "On est tous un peu Wachumeqimeqi",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001901.tex&format=png",
@@ -194442,66 +194535,6 @@
               "name": "La pharmacie du ciel bleu",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001006.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -194781,6 +194814,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Train-train quotidien III",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png",
@@ -194802,66 +194895,6 @@
               "name": "Retrouvailles inattendues",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195141,6 +195174,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Héros de grand chemin : Garlemald",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002645.tex&format=png",
@@ -195162,66 +195255,6 @@
               "name": "Carnet de notes : armurier IV",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001625.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195501,6 +195534,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Armes des Manderville : mein gwrac'h",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037040.tex&format=png",
@@ -195522,66 +195615,6 @@
               "name": "Porte-cartes IX",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F027000%2F027661.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195861,6 +195894,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Cartographe du continent : Lapis Manalis",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
@@ -195882,66 +195975,6 @@
               "name": "Il pleut, il pleut, berger V",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196221,6 +196254,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Vers de nouvelles aventures",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
@@ -196242,66 +196335,6 @@
               "name": "Paladin philanthrope II",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002505.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196581,6 +196614,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Cartographe du continent : Rêve électrique de Stigma-4",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
@@ -196602,66 +196695,6 @@
               "name": "♪ Que son refrain résonne pour tous",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196941,6 +196974,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Outils de Cielacier : poêle à frire du chant céleste",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035741.tex&format=png",
@@ -196962,66 +197055,6 @@
               "name": "Surveiller sa ligne : terres de l'est",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001101.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -197301,6 +197334,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "En cartes et en os VII",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003564.tex&format=png",
@@ -197322,66 +197415,6 @@
               "name": "Cartographe du continent : tour de la Contingence",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -197661,6 +197694,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Prendre la mouche II",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003004.tex&format=png",
@@ -197682,66 +197775,6 @@
               "name": "Rôle crucial I",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F064000%2F064836.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198021,6 +198054,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Armes de la résistance : Garde-loi",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034468.tex&format=png",
@@ -198042,66 +198135,6 @@
               "name": "Maître d'Iroha par intérim",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F048000%2F048094.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198381,6 +198414,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "En avant, forgez : Génie",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035106.tex&format=png",
@@ -198402,66 +198495,6 @@
               "name": "Carnet de notes : pêcheur IV",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001104.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198741,6 +198774,66 @@
               "earned": true
             },
             {
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Moonlight Fortuners",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "EXIST (Belias)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "刻限の闇",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Sasoribi",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "北島にこもりっぱなし",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Disciple de Mutamix",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000109.tex&format=png",
@@ -198762,66 +198855,6 @@
               "name": "Solide comme un rocher I",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002601.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Rhum Reborn",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Fish Finders",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "napo",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omelet rice.",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ととのいましたっ！",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Gogo Gongaga",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Lich Lickers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hidamari no ie",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "決戦は金曜日",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -199101,91 +199134,67 @@
               "earned": true
             },
             {
-              "name": "Flétrir l'innocence",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000317.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Renverser le Monarque féérique",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000317.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Porte-cartes VII",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F027000%2F027661.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Guérisseur héroïque",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061251.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Lハウスの真ん中の天井照明の消し方",
+              "name": "【復刻】妖怪ウォッチコラボ2026のネタバレ",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Rhum Reborn",
+              "name": "【深夜固定】絶妖星乱舞攻略メンバー募集【キャスター】",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Fish Finders",
+              "name": "Moonlight Fortuners",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "napo",
+              "name": "EXIST (Belias)",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Omelet rice.",
+              "name": "刻限の闇",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "ととのいましたっ！",
+              "name": "Sasoribi",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Gogo Gongaga",
+              "name": "北島にこもりっぱなし",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Lich Lickers",
+              "name": "NEXT MYRIADS OF GLEE (Ramuh)",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Hidamari no ie",
+              "name": "Yuo Diktynna ( Mandragora) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "決戦は金曜日",
+              "name": "Chim's Hunny ( Anima) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
               "description": "",
               "icon": null,
               "earned": true
             }
           ],
-          "earned": 1895,
+          "earned": 1899,
           "total": 3300,
           "recentOnly": true
         }
@@ -317965,6 +317974,42 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9oj5.jpg"
     },
     {
+      "id": "final-fantasy-14-online-a-realm-reborn",
+      "nom": "Final Fantasy XIV Online: A Realm Reborn",
+      "icon": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBAInhxUS6pI0HjtmvshPyK8LlemxgEHIv3ZgAUWIOjwl4zPwGXDfKJUdISEjzOlwsATbkktBEkXiiWZ0WCakxHFEDAw_IoCUpYPfNpRN3LSg--",
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "xbox": {
+          "titleId": "1667877464",
+          "icon": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBAInhxUS6pI0HjtmvshPyK8LlemxgEHIv3ZgAUWIOjwl4zPwGXDfKJUdISEjzOlwsATbkktBEkXiiWZ0WCakxHFEDAw_IoCUpYPfNpRN3LSg--",
+          "achievements": [],
+          "earned": 0,
+          "total": 0,
+          "unsupported": true
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "overwatch",
+      "nom": "Overwatch",
+      "icon": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBAInhxUS6pI0HjtmvshPyKdXirYFFxI_Ppjd8g5DK1M.2p8Dea5.WrF94jnQrkG_H3NPRL7m2yqsvSCoH0of79GFKCkk4NbjnSBWpzhKFq2A--",
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "xbox": {
+          "titleId": "1635723607",
+          "icon": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBAInhxUS6pI0HjtmvshPyKdXirYFFxI_Ppjd8g5DK1M.2p8Dea5.WrF94jnQrkG_H3NPRL7m2yqsvSCoH0of79GFKCkk4NbjnSBWpzhKFq2A--",
+          "achievements": [],
+          "earned": 0,
+          "total": 0,
+          "unsupported": true
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
       "id": "the-elder-scrolls-4-oblivion-remastered",
       "nom": "The Elder Scrolls IV: Oblivion Remastered",
       "icon": "http://store-images.s-microsoft.com/image/apps.59365.13768907753672648.dcd706bb-ce91-4b3f-9525-10b1d4af8423.991ee19d-3b4e-40f9-a06e-1af5ffa31cca",
@@ -318336,10 +318381,10 @@
               "earned": false
             }
           ],
-          "earned": 4,
+          "earned": 6,
           "total": 100,
           "manual": true,
-          "gamerscoreEarned": 40,
+          "gamerscoreEarned": 60,
           "gamerscoreTotal": 1000
         }
       },
@@ -334324,7 +334369,7 @@
       "inStreamCategory": false
     }
   ],
-  "builtAt": 1785498904318,
+  "builtAt": 1785831575833,
   "platformDiag": {
     "steam": {
       "count": 306,
@@ -334339,7 +334384,7 @@
       "error": null
     },
     "xbox": {
-      "count": 6,
+      "count": 9,
       "error": null
     },
     "gog": {
