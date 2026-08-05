@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T18:08:07.731Z",
+  "updatedAt": "2026-08-05T08:00:33.366Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -43957,42 +43957,43 @@
       ]
     },
     {
-      "id": "2762c7fe390e4d558754bcfcfdd10198",
-      "nom": "Final Fantasy XIV",
+      "id": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "nom": "FINAL FANTASY XIV",
       "plateformes": [
         "PlayStation",
         "PC",
-        "Xbox"
+        "Xbox",
+        "Switch 2"
       ],
       "annee": null,
       "type": "normal",
-      "completion": "Mentor a récup\nDPS a UP lvl max",
+      "completion": "",
       "arrete": false,
       "occasion": false,
       "jeuDuMoment": false,
       "fridayFantasy": true,
-      "steamAppId": "39210",
-      "igdbId": "386",
+      "steamAppId": null,
+      "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 135,
-            "total": 187
+            "earned": 0,
+            "total": 0
           },
           "argent": {
-            "earned": 19,
-            "total": 55
+            "earned": 0,
+            "total": 0
           },
           "or": {
             "earned": 0,
-            "total": 4
+            "total": 0
           },
-          "platine": true,
-          "npCommunicationId": "NPWR23141_00",
-          "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png",
-          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/386fbcc7-15b3-44d4-8584-09bbbe9b149c.png"
+          "platine": false,
+          "npCommunicationId": null,
+          "npServiceName": null,
+          "icon": null,
+          "platinumIcon": null
         },
         "PC": {
           "earned": 0,
@@ -44001,2337 +44002,23 @@
         "Xbox": {
           "earned": 0,
           "total": 0,
-          "titleId": "1855426799"
+          "titleId": null
         }
       },
       "rating": 0,
       "pros": [],
       "cons": [],
       "comment": "",
-      "achievements": {
-        "psn": [
-          {
-            "name": "Guerrier de la Lumière",
-            "description": "Obtenir tous les trophées.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/386fbcc7-15b3-44d4-8584-09bbbe9b149c.png",
-            "type": "platinum",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Renaissance éorzéenne",
-            "description": "Accomplir la quête de l'épopée \"L'ultime passe d'armes\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/75225076-73c4-4c46-a662-59897e0aad08.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "L'éveil des agents du chaos",
-            "description": "Accomplir la quête de l'épopée \"Une volonté forgée dans la pierre\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/c971746e-dcd0-4931-9541-5c8cc682dc13.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Au cœur du maelstrom",
-            "description": "Accomplir la quête de l'épopée \"La spirale du chaos\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b56d3643-73c3-45f6-91fb-6cba6a0f4f73.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Pour Éorzéa !!",
-            "description": "Accomplir la quête de l'épopée \"Les protecteurs d'Éorzéa\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/60e51b51-914e-46e7-b4ba-2a8ea47d1b12.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Illusions glacées",
-            "description": "Accomplir la quête de l'épopée \"Climat d'incertitudes\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0bf6b9a8-c996-42e4-ab1b-7ac2e605d86e.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "À bras raccourci - partie 1",
-            "description": "Accomplir la quête de l'épopée \"En mémoire de Moenbryda\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/26cd2258-ce3a-4484-adec-a4231830fda5.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "À bras raccourci - partie 2",
-            "description": "Accomplir la quête de l'épopée \"Le flambeau de l'espoir\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7530f307-5e70-43ed-b74a-ac196afbcba0.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Le fil du destin - partie 2",
-            "description": "Accomplir la quête de l'épopée \"Aux confins du destin\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/321707b8-bdb9-4fd1-b789-286f4781ebe5.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Chant d'adieu - partie 2",
-            "description": "Accomplir la quête de l'épopée \"Un requiem pour les héros\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/6c434749-1482-48c9-a01f-10c795da6b36.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Aube meurtrière - partie 1",
-            "description": "Accomplir la quête de l'épopée \"Le coût de la guerre\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e47a7f67-d131-4d8a-bef0-f0d81c427d32.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "L'art de la guerre I",
-            "description": "Atteindre le niveau 50 dans l'une des disciplines de la guerre ou de la magie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1525fc48-bc0b-4995-955f-380c0fe30555.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "L'art de la guerre II",
-            "description": "Atteindre le niveau 60 dans l'une des disciplines de la guerre ou de la magie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/edb8c7bc-b610-4cf2-aae7-c0ae8b2870e4.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "L'art de la guerre III",
-            "description": "Atteindre le niveau 70 dans l'une des disciplines de la guerre ou de la magie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/8fe3c462-59dd-4ccc-b3e2-c59c43d04431.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "L'art de la guerre IV",
-            "description": "Atteindre le niveau 80 dans l'une des disciplines de la guerre ou de la magie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/071bde92-bc52-4f8a-bac5-4560d1c4a4fb.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Touche artisanale I",
-            "description": "Atteindre le niveau 50 dans l'une des disciplines de la main.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/efa8120d-ae61-498f-b3db-d4a3bb377b34.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Touche artisanale II",
-            "description": "Atteindre le niveau 60 dans l'une des disciplines de la main.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2462d272-54a5-4f90-8f96-6cb59c675228.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Touche artisanale III",
-            "description": "Atteindre le niveau 70 dans l'une des disciplines de la main.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/11773e64-4f68-459a-9a6f-99ea9b377be0.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Touche artisanale IV",
-            "description": "Atteindre le niveau 80 dans l'une des disciplines de la main.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/abb75c2c-b7d4-41b1-b260-d2f1ea235afd.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Main verte I",
-            "description": "Atteindre le niveau 50 dans l'une des disciplines de la terre.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/878428f7-5da3-4c1c-9fad-edb6a4de97ce.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Main verte II",
-            "description": "Atteindre le niveau 60 dans l'une des disciplines de la terre.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2d154797-5a6f-4422-b5ba-2568849d879a.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Main verte III",
-            "description": "Atteindre le niveau 70 dans l'une des disciplines de la terre.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e0da2f68-ab8a-46d5-a707-a699bf445e15.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Main verte IV",
-            "description": "Atteindre le niveau 80 dans l'une des disciplines de la terre.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b89b95d1-5d72-429a-85b4-247e7ade461c.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Capitaine de grande compagnie",
-            "description": "Être promu au grade de capitaine dans l'une des trois grandes compagnies.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2cda129b-f8f2-485e-90c6-d56641bbd17e.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Les aléas du destin I",
-            "description": "Accomplir un total de 100 ALÉA.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7a22846c-17c1-469c-9443-df76a5813660.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Les aléas du destin II",
-            "description": "Accomplir un total de 300 ALÉA.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/c4beee88-8482-4a14-9732-ee3d0c90d3b7.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Les aléas du destin III",
-            "description": "Accomplir un total de 1 000 ALÉA.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/8e081e6c-061f-4474-8e21-a1b42ca673a8.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Les aléas du destin IV",
-            "description": "Accomplir un total de 3 000 ALÉA.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/bff04831-249d-4ae4-a123-9dd8ce1ba5bc.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Explorateur de donjons I",
-            "description": "Finir 100 donjons ou défis.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/c06b805a-02b7-4b22-b979-54d78285c6e6.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Explorateur de donjons II",
-            "description": "Finir 300 donjons ou défis.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/25404141-2071-4c9a-8358-36af5903d4ee.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Explorateur de donjons III",
-            "description": "Finir 1 000 donjons ou défis.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/535a41d8-eac1-4e33-b805-d127412bba08.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Explorateur de donjons IV",
-            "description": "Finir 2 000 donjons ou défis.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/98204520-a2bf-45fa-9c6b-61a6b721fa9f.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de synthèses I",
-            "description": "Synthétiser 300 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5c1dba2e-e74a-4688-b8a8-9702716d20a6.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de synthèses II",
-            "description": "Synthétiser 1 000 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e5266675-dc7f-45ef-8151-96be2d1b95ab.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de synthèses III",
-            "description": "Synthétiser 3 000 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/89ca95f7-3446-4b63-b6c8-c6dba9d382de.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de synthèses IV",
-            "description": "Synthétiser 5 000 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/bed5469b-a572-4424-b3ac-c6433879c399.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de récoltes I",
-            "description": "Récolter 1 000 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4217c6a4-2204-41bf-945a-82a6985ab689.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de récoltes II",
-            "description": "Récolter 3 000 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ce8c77bf-86a5-4606-ad80-a21562bccb05.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de récoltes III",
-            "description": "Récolter 5 000 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2387648f-3907-4f28-ad8f-b2f25a3416df.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Collectionneur de récoltes IV",
-            "description": "Récolter 8 000 objets collectionnables.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/8f6d3707-8ce1-4588-82d8-333173a44ef0.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Chevalier du labyrinthe",
-            "description": "Finir le Labyrinthe de Bahamut.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/72bee701-03db-4145-a0e9-f80c4582889f.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Mercenaire des Méandres",
-            "description": "Finir les Méandres de Bahamut.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0095450a-2c59-4bf9-b002-7493853faad8.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Jusqu'au fond de l'Abîme",
-            "description": "Finir l'Abîme de Bahamut.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2410c9bf-24e1-4777-a407-d046e428530f.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Sadique des Méandres",
-            "description": "Finir les Méandres de Bahamut (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/95ac9234-ad18-470e-91c5-2e7d9a8f822f.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Les péchés du Créateur",
-            "description": "Finir Alexander : le Créateur.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a9f9a579-7fb3-40f3-b3bb-4aeb34c1bfac.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Survivant de l'Alphastice",
-            "description": "Finir Oméga : Alphastice.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ccf2d976-4aeb-4d13-b363-cb66e766a49a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "La promesse du souvenir",
-            "description": "Finir La Promesse d'Éden.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0d16d2a6-9e04-4c4f-8874-018f9b2f7b2b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Dédale de là !",
-            "description": "Finir le Dédale antique.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/9cb8de60-8b60-49ba-89fa-a52629b5c094.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Qu'est-ce que c'est que ce Syrcus !?",
-            "description": "Finir la Tour de Syrcus.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/6ec5d56d-4c89-46bc-8ae3-324cedd05c53.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Ténébreux conquérant",
-            "description": "Finir le Monde des Ténèbres.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/08a989d4-1616-4f2e-a8c9-b473928c1ed0.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Plus une ombre au tableau",
-            "description": "Finir Dun Scaith.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e9d5ac2b-5a6b-4d01-9c4a-687ded5205b2.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Un monastère hors bornes",
-            "description": "Finir Le Monastère d'Orbonne.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/c6612dfd-78ff-412e-aa41-ba4aa30f4029.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Réalité virtuelle",
-            "description": "Finir La tour de la Contingence.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b2efb7a0-5aa7-466e-90d4-ce850e70c694.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "default"
-          },
-          {
-            "name": "Le ciel bleu d'Ishgard",
-            "description": "Accomplir la quête de l'épopée \"Les yeux rivés au ciel\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7fc066ef-eab3-4932-bc07-509d3828020e.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Aux confins de la Lumière et des Ténèbres",
-            "description": "Accomplir la quête de l'épopée \"Entre Lumière et Ténèbres\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/50897c19-86bc-4ddb-9fb0-5cdce75a37eb.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "À tout le monde, à tous mes amis",
-            "description": "Accomplir la quête de l'épopée \"Le destin en marche\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/01d23209-fbb6-4056-92ab-85c450339c5b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Un chant pour l'avenir",
-            "description": "Accomplir la quête de l'épopée \"Un chant pour l'avenir\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1998488c-06b4-494e-a671-433a679d2883.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Que leur sacrifice soit honoré à jamais",
-            "description": "Accomplir la quête de l'épopée \"Les gardiens des âmes\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/25b304e4-be7b-4701-b3a2-2bdaac7c27c8.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Le fil du destin - partie 1",
-            "description": "Accomplir la quête de l'épopée \"Maître et disciple\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5ed08440-f2e8-49f4-b09b-fd31a896a3fe.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Les péchés du Père",
-            "description": "Finir Gordias : le Père.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/af014377-0423-4f8f-a7ea-2a2b488c87f6.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Les péchés du Fils",
-            "description": "Finir Midas : le Fils.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/30d1032c-2993-4ae8-a185-ec3d4c53c259.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Le sadisme du Père",
-            "description": "Finir Gordias : le Père (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4c8513bb-bc19-42c3-9069-73d17ea34503.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Le sadisme du Fils",
-            "description": "Finir Midas : le Fils (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1b2ad706-9da9-4b5c-b6d0-c7874f939cc2.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Le sadisme du Créateur",
-            "description": "Finir Alexander : le Créateur (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f89bcf51-561b-46ef-9e61-40988c4e3bc2.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Passager du néant",
-            "description": "Finir l'Arche du néant.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/c77a060a-7517-45a3-9cdb-210419a0d638.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "En avant, Mhach !",
-            "description": "Finir la Cité défendue de Mhach.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/451405e7-6c58-4194-a5e9-5c03dc6b4490.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "001"
-          },
-          {
-            "name": "Comète de la libération",
-            "description": "Accomplir la quête de l'épopée \"Tempête de sang\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/29fc6703-e178-4359-9ef4-4fbcd2e5df46.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Conseiller de légendes locales",
-            "description": "Accomplir la quête de l'épopée \"Retour au bercail\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0ca846a3-4dc7-4528-9674-da59ca03b80a.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "La pénombre du crépuscule",
-            "description": "Accomplir la quête de l'épopée \"La pointe de l'aube\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/8991df95-58f0-4cd7-b661-7fbe3fe9059a.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Cycle lunaire",
-            "description": "Accomplir la quête de l'épopée \"Sous le clair de lune\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7cba80d0-1fc6-4233-86a3-6557dd30163f.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Les récits pourpres",
-            "description": "Accomplir la quête de l'épopée \"Prélude pourpré\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0ebe5f28-49f0-4517-ae42-048010d20c8d.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Chant d'adieu - partie 1",
-            "description": "Accomplir la quête de l'épopée \"Guerre ouverte\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ac038ba3-06c6-4cc8-9e8b-fef0eb94003c.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Survivant du Deltastice",
-            "description": "Finir Oméga : Deltastice.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4f6a0c63-8af2-43af-932c-96f549f42190.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Survivant du Sigmastice",
-            "description": "Finir Oméga : Sigmastice.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/75c38b25-c864-4ca6-8067-0177b311baf6.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Conquérant du Deltastice",
-            "description": "Finir Oméga : Deltastice (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ebd597d8-c30b-4434-ab2b-fbff5842c864.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "002"
-          },
-          {
-            "name": "Conquérant du Sigmastice",
-            "description": "Finir Oméga : Sigmastice (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/09eecb2d-cb19-4672-9cc3-c4138c1a0286.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "002"
-          },
-          {
-            "name": "Conquérant de l'Alphastice",
-            "description": "Finir Oméga : Alphastice (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a30836a7-d4f5-4291-b22f-033e6ad0209e.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "002"
-          },
-          {
-            "name": "Bas les masques",
-            "description": "Finir la Cité royale de Rabanastre.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f2cd5d65-7d0a-4eae-993f-5004735993db.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Phare à éons",
-            "description": "Finir Le Phare de Ridorana.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/16b945d5-3ddb-49df-8a74-4b33c92fd3ad.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "002"
-          },
-          {
-            "name": "Porteur d'ombre",
-            "description": "Accomplir la quête de l'épopée \"Porteurs d'ombre\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/acc028d6-fbba-4910-a37e-d641b6933ade.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Corps et âmes",
-            "description": "Accomplir la quête de l'épopée \"Vœux de vertu, actes de cruauté\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f6f4c71f-e47b-4295-ae27-5ab9b9f5fd92.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Échos d'une étoile déchue",
-            "description": "Accomplir la quête de l'épopée \"Échos d'une étoile déchue\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0bf86946-dbf8-428e-a89f-f38f5d52000f.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Rémanences de cristal",
-            "description": "Accomplir la quête de l'épopée \"Rémanences de cristal\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/6ed4ce99-52be-44bb-8b5f-05e8d1248eb4.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Avenirs réécrits",
-            "description": "Accomplir la quête de l'épopée \"Avenirs réécrits\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/33b255f4-80f0-46d7-8341-078e324fec39.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Sonner le clairon",
-            "description": "Finir L'Éveil d'Éden.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/bf469d1e-8617-4a60-8d8c-08662b2983ae.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Briser la glace",
-            "description": "Finir Les Accords d'Éden.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/db2113b7-5bd3-455f-8a2b-0b69d2b1d360.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Lendemain difficile",
-            "description": "Finir L'Éveil d'Éden (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e6ac919b-1b5d-4a7c-985b-1e5f33425ed8.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "003"
-          },
-          {
-            "name": "Accords parfaits",
-            "description": "Finir Les Accords d'Éden (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5c2193a3-7287-4d29-99f2-8a409f0f390b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "003"
-          },
-          {
-            "name": "Dans son jardin",
-            "description": "Finir La Promesse d'Éden (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/be4392aa-6de0-40df-8f87-8028a5c50400.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "003"
-          },
-          {
-            "name": "Bizarroïdes androïdes",
-            "description": "Finir La réplique de l'usine désaffectée.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7f1c1704-0ef0-4f63-95ab-a6d8495734f7.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Pantins désarticulés",
-            "description": "Finir La base militaire des Pantins.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5f554f7e-ce92-4b37-9e8f-d43e24299b65.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "003"
-          },
-          {
-            "name": "Aube meurtrière - partie 2",
-            "description": "Accomplir la quête de l'épopée \"Aube meurtrière\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/573e9d0e-2ac8-4756-a2fa-267bd1f7a04f.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "004"
-          },
-          {
-            "name": "Arpenteur des finitudes",
-            "description": "Accomplir la quête de l'épopée \"Arpenteur des finitudes\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e69eec66-5fa4-49aa-8e40-b8e42e952f7b.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": true,
-            "groupId": "005"
-          },
-          {
-            "name": "L'art de la guerre V",
-            "description": "Atteindre le niveau 90 dans l'une des disciplines de la guerre ou de la magie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/748878df-1248-4c6a-9d11-b35d9584cc95.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "005"
-          },
-          {
-            "name": "Touche artisanale V",
-            "description": "Atteindre le niveau 90 dans l'une des disciplines de la main.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/952dbde1-40e6-4112-86d8-f4792a046c91.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "005"
-          },
-          {
-            "name": "Main verte V",
-            "description": "Atteindre le niveau 90 dans l'une des disciplines de la terre.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e517b454-014b-4651-9203-1fa45468bb8b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "005"
-          },
-          {
-            "name": "Unis par l'espoir",
-            "description": "Monter au niveau 90 les alter ego des Héritiers de la Septième Aube.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7a453ec8-8c9c-465e-b01c-a127e69a8870.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": true,
-            "groupId": "005"
-          },
-          {
-            "name": "La fin du gros gibier",
-            "description": "Abattre 30 cibles d'élite de rang S ou plus dans les zones d'Endwalker.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b483c643-02ab-4f8c-8e74-3b250426e1e7.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "005"
-          },
-          {
-            "name": "La fin du menu fretin",
-            "description": "Abattre 100 cibles d'élite de rang A dans les zones d'Endwalker.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b1ce9e8f-e89c-49eb-9a2d-8c936dd2b707.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "005"
-          },
-          {
-            "name": "Daivadipa tapé",
-            "description": "Accomplir l'ALÉA \"Le culte des Mrga : le faux dieu\" avec la meilleure évaluation possible.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e66ba932-acca-4c0c-8c0f-3db1e39b1b5d.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "005"
-          },
-          {
-            "name": "Protokhipique",
-            "description": "Accomplir l'ALÉA \"Mémoire vive : arrêter le processus\" avec la meilleure évaluation possible.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/97165bdd-7f28-4586-a594-d08755324e7b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "005"
-          },
-          {
-            "name": "Horizon des confins",
-            "description": "Découvrir les lieux notoires 001 à 046 du carnet d'exploration d'Endwalker.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/717c9524-cece-461e-ac47-3087687b4918.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "005"
-          },
-          {
-            "name": "Porte-cartes",
-            "description": "Obtenir 344 cartes de Triple Triade différentes.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b7a4eb0d-817d-4320-a8e1-2b5105a8a07b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "005"
-          },
-          {
-            "name": "Vaincre ces démons",
-            "description": "Finir les Limbes du Pandæmonium.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/71d01777-4b01-412c-a833-c28ff1ff09c7.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "005"
-          },
-          {
-            "name": "Démons et merveilles",
-            "description": "Finir les Limbes du Pandæmonium (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d8d0b2f3-05fa-4239-b527-471c1014d3fc.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "005"
-          },
-          {
-            "name": "Ludomane",
-            "description": "Conquérir le Ludodrome.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/da099dff-b796-4d97-9dab-95ccd6271082.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "005"
-          },
-          {
-            "name": "Vers de nouvelles aventures",
-            "description": "Accomplir la quête de l'épopée \"La résolution de Vrtra\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/65017f0a-c35c-4f32-82f0-dcc7659be3a0.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "006"
-          },
-          {
-            "name": "En finir avec la fin",
-            "description": "Vaincre la chantre de l'anéantissement dans le défi \"Le Répons final (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/6a780893-c196-488f-910f-f216ee67f5f3.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "006"
-          },
-          {
-            "name": "Divine splendeur",
-            "description": "Finir le domaine divin - Aglaé.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7ee503c5-2f7a-4b56-82fd-6e4f82079a18.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "006"
-          },
-          {
-            "name": "Commandes spéciales d'Ameliance",
-            "description": "Atteindre le rang 5 de satisfaction auprès d'Ameliance.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/6e4a0399-e46b-4b06-9b26-d46301294269.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "006"
-          },
-          {
-            "name": "Mémoire enfouie",
-            "description": "Accomplir la quête de l'épopée \"Mémoire enfouie\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/44e70b3e-92d2-45be-adbd-e59874408048.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "007"
-          },
-          {
-            "name": "Coiffeur pour dames",
-            "description": "Vaincre Barbariccia dans le défi \"La Toison des tempêtes (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ca6d3ddc-2a18-48c8-b752-934acb7c9941.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "007"
-          },
-          {
-            "name": "Pas d'île pas de vie",
-            "description": "Atteindre le rang 10 sur la Félicité insulaire.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5a90f143-3c92-44bd-b55f-b8f2bfa9cc7b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "007"
-          },
-          {
-            "name": "Tuer le faux père",
-            "description": "Finir le Purgatoire du Pandæmonium.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/369a874e-935c-4da6-a854-dfcdfabc9a6a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "007"
-          },
-          {
-            "name": "Une purge infernale",
-            "description": "Finir le Purgatoire du Pandæmonium (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b6b3abb0-d0f2-4459-b693-0f274e37ae82.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "007"
-          },
-          {
-            "name": "Caféophile des confins",
-            "description": "Atteindre le rang 7 (Assermenté) de réputation auprès des Omicrons des Dernières Réminiscences.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ff76faaf-a3d0-401d-9c2f-f8cffa0236de.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "007"
-          },
-          {
-            "name": "Les mots de Nanamo",
-            "description": "Découvrir toutes les entrées du journal d'exploration des canalisations sildiennes.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f027732d-dbb7-444f-b1ac-2055ba3c0471.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "007"
-          },
-          {
-            "name": "Les bons tuyaux",
-            "description": "Finir Les canalisations sildiennes annexes - Donjon alternatif.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/00223f78-c416-4cc4-b1b8-bbd1488d70c3.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "007"
-          },
-          {
-            "name": "Les Dieux festoient, la terre tremble",
-            "description": "Accomplir la quête de l'épopée \"Les Dieux festoient, la terre tremble\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/3e5c527b-c489-4b68-a302-a67e71c74b98.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "008"
-          },
-          {
-            "name": "Fors l'honneur",
-            "description": "Vaincre Rubicante dans le défi \"Le Mont du Supplice (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/c7606518-7c15-40d7-bfb7-36ed1b281beb.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "008"
-          },
-          {
-            "name": "Divine allégresse",
-            "description": "Finir le domaine divin - Euphrosyne.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b8523065-1f4e-4071-84a1-94b3d417d546.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "008"
-          },
-          {
-            "name": "Paix et Félicité",
-            "description": "Atteindre le rang 12 sur la Félicité insulaire.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/fac2f647-fe6c-49fa-8605-931ecb22686d.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "008"
-          },
-          {
-            "name": "Commandes spéciales d'Anden",
-            "description": "Atteindre le rang 5 de satisfaction auprès d'Anden.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d6ff8acd-69eb-4b7e-ba78-dc63e9d76af5.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "008"
-          },
-          {
-            "name": "Maître du gymnase",
-            "description": "Conquérir Elpis Gymnasion.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/74d9d7e1-3e9b-45a2-812a-7cc8b2653e0b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "008"
-          },
-          {
-            "name": "Explorateur souterrain : 30e strate",
-            "description": "Conquérir le 30e sous-sol d'Eurêka Orthos.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1f160b59-c241-4e88-aded-f6a9c99722c7.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "008"
-          },
-          {
-            "name": "Explorateur souterrain : 100e strate",
-            "description": "Conquérir le 100e sous-sol d'Eurêka Orthos.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/504ff13e-63a9-4d48-8c83-4606cb2d0b58.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "008"
-          },
-          {
-            "name": "Solitude sublimée",
-            "description": "Atteindre le 100e sous-sol en solo dans Eurêka Orthos en commençant par le 1er.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/21914187-88f8-4960-80bf-cf5b1f13aec2.png",
-            "type": "gold",
-            "hidden": false,
-            "earned": false,
-            "groupId": "008"
-          },
-          {
-            "name": "Marchand de sable lunaire",
-            "description": "Atteindre le rang 7 (Assermenté) de réputation auprès des Loporrites des Ateliers Dreaming.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5086b345-3b9a-45b6-8524-5e76092b8d26.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "008"
-          },
-          {
-            "name": "Aussi éblouissante qu'une soucoupe dorée",
-            "description": "Obtenir une arme éblouissante des Manderville.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "008"
-          },
-          {
-            "name": "Dites-le avec des outils",
-            "description": "Obtenir un outil cristallin.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/628f3b9b-19e5-4752-920c-4f6ba899997b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "008"
-          },
-          {
-            "name": "Le trône obscur",
-            "description": "Accomplir la quête \"Le trône obscur\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/71d7cd29-7374-4b3a-80e1-f650fc13fb62.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "009"
-          },
-          {
-            "name": "Anéantir le maître du néant",
-            "description": "Vaincre Golbez dans le défi \"La Chaire de l'Exilée (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/3c56f528-aa73-47c4-b7bb-93e17d34f381.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "009"
-          },
-          {
-            "name": "Une félicité qui se mérite",
-            "description": "Atteindre le rang 16 sur la Félicité insulaire.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/fac2f647-fe6c-49fa-8605-931ecb22686d.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "009"
-          },
-          {
-            "name": "Ratisseur des hautes mers",
-            "description": "Atteindre un score de 16 000 points au cours d'une expédition de pêche en haute mer.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/de2bbe6b-f95c-47d8-b969-90cf6f00880c.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "009"
-          },
-          {
-            "name": "Rendez-vous au Paradis",
-            "description": "Finir le Paradis du Pandæmonium.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/04566c0c-dd57-4430-8e32-1da754cb258b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "009"
-          },
-          {
-            "name": "Paradis imaginaire",
-            "description": "Finir le Paradis du Pandæmonium (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/cae0410b-1ca8-4745-87e2-9d18b03999b4.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "009"
-          },
-          {
-            "name": "Splendide, tel est son nom",
-            "description": "Obtenir un outil splendide de Chora-Zoi.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/628f3b9b-19e5-4752-920c-4f6ba899997b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "009"
-          },
-          {
-            "name": "Sa Majesté !",
-            "description": "Obtenir une arme majestueuse des Manderville.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "009"
-          },
-          {
-            "name": "Incollable",
-            "description": "Apprendre 120 actions de magie bleue.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/de47a3e2-6a0b-456d-bcfa-b1cfbd973703.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "009"
-          },
-          {
-            "name": "Tout un palmarès",
-            "description": "Accomplir 110 missions différentes dans le palmarès bleu.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7c1648f9-a5b5-4c8f-a659-f1b529e5c6a2.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "009"
-          },
-          {
-            "name": "Les mots de Hancock",
-            "description": "Découvrir toutes les entrées du journal d'exploration du mont Rokkon.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f027732d-dbb7-444f-b1ac-2055ba3c0471.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "009"
-          },
-          {
-            "name": "Randonnée alternative",
-            "description": "Finir Le mont Rokkon annexe - Donjon alternatif.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7142a9ad-27ef-4006-ba5d-3df87a659f52.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "009"
-          },
-          {
-            "name": "Nitescence nouvelle - partie 1",
-            "description": "Accomplir la quête \"Nitescence nouvelle\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/aa1675aa-2ae3-4ff1-ab6d-bf30822cf260.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Disperser l'amalgame du néant",
-            "description": "Vaincre Zeromus dans le défi \"La Fracture abyssale (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/cff45a30-1c43-4740-bdde-9da049abcb4e.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "010"
-          },
-          {
-            "name": "Divine abondance",
-            "description": "Finir le domaine divin - Thalie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b5c86d6e-5acf-4a85-8d93-c3aea41def45.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Félicité légendaire",
-            "description": "Atteindre le rang 20 sur la Félicité insulaire.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/fac2f647-fe6c-49fa-8605-931ecb22686d.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Commandes spéciales de Margrat",
-            "description": "Atteindre le rang 5 de satisfaction auprès de Margrat.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d6ff8acd-69eb-4b7e-ba78-dc63e9d76af5.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Carnet de notes : mineur",
-            "description": "Récolter 260 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/528c919b-d6f3-43a2-bd92-84b4e9dfd457.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Carnet de notes : botaniste",
-            "description": "Récolter 380 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0ae07d23-780a-47ba-8c66-eaf90827d660.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Carnet de notes : pêcheur",
-            "description": "Pêcher 1 460 prises différentes et les avoir notées dans le carnet de pêche.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5c38b0d4-5387-44b3-87d0-5f92f53b639e.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "010"
-          },
-          {
-            "name": "Au fin fond de la solitude",
-            "description": "Atteindre le 200e sous-sol du Palais des morts en solo en commençant par le 1er.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a433b911-72ad-49ab-a602-c25e7e4605ff.png",
-            "type": "gold",
-            "hidden": false,
-            "earned": false,
-            "groupId": "010"
-          },
-          {
-            "name": "Des sommets de solitude",
-            "description": "Atteindre le 100e étage du Pilier des Cieux en solo en commençant par le 1er.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/21914187-88f8-4960-80bf-cf5b1f13aec2.png",
-            "type": "gold",
-            "hidden": false,
-            "earned": false,
-            "groupId": "010"
-          },
-          {
-            "name": "Les mots de Matsya",
-            "description": "Découvrir toutes les entrées du journal d'exploration de l'île d'Aloalo.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f027732d-dbb7-444f-b1ac-2055ba3c0471.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "010"
-          },
-          {
-            "name": "À l'huile !",
-            "description": "Finir L'île d'Aloalo annexe - Donjon alternatif.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2fd6d3a9-e5d1-4b17-b8f5-91f5c8b303e2.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "010"
-          },
-          {
-            "name": "La vérité est ailleurs",
-            "description": "Accomplir la quête \"Le cadeau des Dieux\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f44f0310-89da-4117-a80f-ef3f99ff420c.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Finition scintillante",
-            "description": "Obtenir un outil superstellaire.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/628f3b9b-19e5-4752-920c-4f6ba899997b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Nitescence nouvelle - partie 2",
-            "description": "Accomplir la quête \"L'appel de l'aventure\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/aa1675aa-2ae3-4ff1-ab6d-bf30822cf260.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Fana de la Tarufacture",
-            "description": "Accomplir la quête \"Longue vie à la Tarufacture !\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48a3cf7f-f2ae-4719-818c-b5e8b70a953c.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "010"
-          },
-          {
-            "name": "Incroyable et manderveilleuse",
-            "description": "Obtenir une arme manderveilleuse des Manderville.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "010"
-          },
-          {
-            "name": "Le sentier de l'aurore",
-            "description": "Accomplir la quête \"Le sentier de l'aurore\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/8d7d3d1f-7cd5-41ff-b291-da2e8c513854.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": true,
-            "groupId": "011"
-          },
-          {
-            "name": "L'art de la guerre VI",
-            "description": "Atteindre le niveau 100 dans l'une des disciplines de la guerre ou de la magie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/754f80f0-b334-4fcc-b3b7-fa493a4fbbb1.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "011"
-          },
-          {
-            "name": "Touche artisanale VI",
-            "description": "Atteindre le niveau 100 dans l'une des disciplines de la main.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/98fac66e-e354-4e22-84c4-6ea4849e7260.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "011"
-          },
-          {
-            "name": "Main verte VI",
-            "description": "Atteindre le niveau 100 dans l'une des disciplines de la terre.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2b6a605a-8ccb-46a1-98b1-0f8f0ab4f797.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "011"
-          },
-          {
-            "name": "Pouvoir de l'amitié",
-            "description": "Monter au niveau 100 les alter ego des Héritiers de la Septième Aube.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/905d0fb0-cce7-4515-bbfd-c944e3c8c618.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Fin de règne",
-            "description": "Vaincre Zoraal Ja dans le défi \"Le Pinacle de l'Éternité (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/3e088889-8bab-4d2b-a77a-bcbf53b9ddc4.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Calamité enterrée",
-            "description": "Vaincre Valigarmanda dans le défi \"Worqor Lar Dor (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/39ba52bd-ac2a-479d-b6bf-365942c8c1ed.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Horizon de l'aurore",
-            "description": "Découvrir les lieux notoires 001 à 045 du carnet d'exploration de Dawntrail.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0f87f49f-9511-4b98-b2e7-b716c9593145.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Héros de grand chemin : Dawntrail",
-            "description": "Atteindre le rang 4 de réussite des ALÉA dans toutes les zones de Dawntrail.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4cfdbde1-0d42-4785-9e54-e1796fa09e3c.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Ttokrrone charmé",
-            "description": "Accomplir l'ALÉA \"Ttokrrone : lutte ensablée\" avec la meilleure évaluation possible.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4cfdbde1-0d42-4785-9e54-e1796fa09e3c.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Farandole mu-gique",
-            "description": "Accomplir l'ALÉA \"Mica le mu : le grand final\" avec la meilleure évaluation possible.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4cfdbde1-0d42-4785-9e54-e1796fa09e3c.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "L'aurore du gros gibier",
-            "description": "Abattre 30 cibles d'élite de rang S ou plus dans les zones de Dawntrail.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/94cb25ac-d84a-4d14-bc7e-1e8a3a263f65.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "L'aurore du menu fretin",
-            "description": "Abattre 100 cibles d'élite de rang A dans les zones de Dawntrail.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/7449880f-54a0-4b02-811e-b217fc553ff1.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Porte-cartes de l'aurore",
-            "description": "Obtenir 423 cartes de Triple Triade différentes.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5b268edf-9b1f-40b1-9b7b-ee105b819761.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Champion poids mi-lourds",
-            "description": "Conquérir la catégorie poids mi-lourds CCA et accomplir la quête \"L'Enchanteresse électrique\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/47630c4d-7cb6-47a2-8aff-dda8acd3e1b7.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "011"
-          },
-          {
-            "name": "Champion poids mi-lourds incontesté",
-            "description": "Conquérir la catégorie poids mi-lourds CCA (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/8da71aab-8bf6-48ca-a1e3-4ebc117823a4.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Ja Jackpot !",
-            "description": "Conquérir le cénote Ja Ja Gural.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/74d9d7e1-3e9b-45a2-812a-7cc8b2653e0b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "011"
-          },
-          {
-            "name": "Retrouvailles inattendues",
-            "description": "Accomplir la quête \"Au seuil de l'inconnu\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/12d7ba73-b2f1-4789-9e07-5deb01967951.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "012"
-          },
-          {
-            "name": "Rien n'est éternel",
-            "description": "Vaincre la Reine Éternité dans le défi \"Interphos (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ad912957-e8d5-44e3-93f0-1c4831ea80f6.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "012"
-          },
-          {
-            "name": "Échos des premières aventures",
-            "description": "Finir Jeuno - La première perambulation.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/96471dd7-9a59-488a-b0d5-ff102ed97595.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "012"
-          },
-          {
-            "name": "Tural Voyages Conseil",
-            "description": "Atteindre le rang 7 (Assermenté) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a7e44b1a-2500-4764-8ccf-ef19f64ff038.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "012"
-          },
-          {
-            "name": "Le bazar aux mille sourires",
-            "description": "Accomplir la quête \"La grande foire aux mille mercis\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/bef7f97f-7ea5-4c2e-b22e-687dd6de0e68.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "012"
-          },
-          {
-            "name": "Commandes spéciales de Nitowikwe",
-            "description": "Atteindre le rang 5 de satisfaction auprès de Nitowikwe.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d6ff8acd-69eb-4b7e-ba78-dc63e9d76af5.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "012"
-          },
-          {
-            "name": "Nuage dissipé",
-            "description": "Vaincre le Nuage de Ténèbres dans le raid \"La Tour de Ténèbres (chaotique)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/cdb1468d-eeea-4755-8574-40a0141865af.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "012"
-          },
-          {
-            "name": "Affranchis sans frontières",
-            "description": "Accomplir la quête \"Pour s'affranchir de la tyrannie, tout s'appelle vertu\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/8a12b9c6-7648-4cee-81ee-525c1c467b24.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "012"
-          },
-          {
-            "name": "Explorateurs de l'éternité",
-            "description": "Accomplir la quête \"Explorateurs de l'éternité\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b6873347-7890-4530-8427-2f171eb29127.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "Honneur préservé",
-            "description": "Vaincre Zelenia dans le défi \"Le Sanctuaire du Serment (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/06d62fd3-dec6-4e28-a32f-ec6766d7f198.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Champion poids lourds-légers",
-            "description": "Conquérir la catégorie poids lourds-légers CCA.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/dd7e28ab-b266-4ed1-8403-1d59bec10f9c.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "Champion poids lourds-légers incontesté",
-            "description": "Conquérir la catégorie poids lourds-légers CCA (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d9ba717d-9ca9-493c-8fa8-382c96ea7446.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Contribuer à la recherche cosmique",
-            "description": "Obtenir un outil cosmique.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/628f3b9b-19e5-4752-920c-4f6ba899997b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "Maître artisan du cosmos",
-            "description": "Gagner un total de 50 000 points cosmiques en tant qu'artisan.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/dd3e84ed-d9e2-4c68-acc5-4f04a58aefb1.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Maître récolteur du cosmos",
-            "description": "Gagner un total de 50 000 points cosmiques en tant que récolteur.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/dd3e84ed-d9e2-4c68-acc5-4f04a58aefb1.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Une chance stellaire",
-            "description": "Jouer 100 fois à la Roue de la fortune cosmique.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/dd3e84ed-d9e2-4c68-acc5-4f04a58aefb1.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Le champ bleu",
-            "description": "Atteindre le rang 7 (Assermenté) de réputation auprès des fermiers de Gok Golma.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ab16cef4-9c48-47fb-bf3d-7208e72fe05b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Au sud, rien de nouveau",
-            "description": "Accomplir la quête \"Le mystère reste entier\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "Archiviste méridional",
-            "description": "Remplir toutes les entrées du calepin du croissant sur l'île de Lunule méridionale.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Maître fantôme",
-            "description": "Maîtriser 10 jobs de soutien.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1c24c56e-558a-4daf-8b2e-66ffe1c49afe.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "À demi-âtma, âtma et demi",
-            "description": "Obtenir une arme fantôme.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "À la poursuite du savoir insulaire",
-            "description": "Accomplir 10 ALÉA sur l'île de Lunule méridionale.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "Décennale critique",
-            "description": "Remporter 10 confrontations critiques sur l'île de Lunule méridionale.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "Le Triangle aux trésors",
-            "description": "Ouvrir 100 coffres au trésor sur l'île de Lunule.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "013"
-          },
-          {
-            "name": "Fortune du pot",
-            "description": "Ouvrir 10 coffres de pot persistant sur l'île de Lunule.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Carotte sans bâton",
-            "description": "Ouvrir 10 coffres de lapin du bonheur sur l'île de Lunule.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "Tour de force",
-            "description": "Finir la Tour fourchue de la Force.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1c24c56e-558a-4daf-8b2e-66ffe1c49afe.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "013"
-          },
-          {
-            "name": "La promesse de demain",
-            "description": "Accomplir la quête \"La promesse de demain\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/67211b12-4c88-4b12-aecd-7c415292a2ac.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "014"
-          },
-          {
-            "name": "Chasser l'obscurité",
-            "description": "Vaincre Darkness dans le défi \"La Nécropole intemporelle (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ea7a28b8-fa8b-4ab8-9f58-c37398db862b.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "014"
-          },
-          {
-            "name": "Échos des peuples anciens",
-            "description": "Finir San d'Oria - La deuxième perambulation.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/13222286-1e60-4219-af73-a1c363156fe7.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "014"
-          },
-          {
-            "name": "Trésor de rêve",
-            "description": "Finir le coffre d'Oneiron.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/74d9d7e1-3e9b-45a2-812a-7cc8b2653e0b.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "014"
-          },
-          {
-            "name": "Se consacrer à la recherche",
-            "description": "Obtenir un outil spatial.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/628f3b9b-19e5-4752-920c-4f6ba899997b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "014"
-          },
-          {
-            "name": "Pénombre améliorée",
-            "description": "Obtenir une arme fantôme umbra.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "014"
-          },
-          {
-            "name": "Travail en haute altitude",
-            "description": "Atteindre le rang 7 (Assermenté) de réputation auprès des bienfaiteurs de Zirgorteh.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/03f0a673-147b-4478-acda-eb9185b12832.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "014"
-          },
-          {
-            "name": "Explorateur de sanctuaires",
-            "description": "Conquérir la 100e zone du Sanctuaire des pèlerins.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/504ff13e-63a9-4d48-8c83-4606cb2d0b58.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "014"
-          },
-          {
-            "name": "Pèlerinage sublimé",
-            "description": "Atteindre la 100e zone en solo dans le Sanctuaire des pèlerins en commençant par la 1re.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/21914187-88f8-4960-80bf-cf5b1f13aec2.png",
-            "type": "gold",
-            "hidden": false,
-            "earned": false,
-            "groupId": "014"
-          },
-          {
-            "name": "Six fulms sous terre",
-            "description": "Finir le Verset final (quantique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b19ef9c5-3425-4dec-a8bc-0b1e3c1b42a9.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "014"
-          },
-          {
-            "name": "Le retour du Gardien",
-            "description": "Vaincre l'Arkveld Gardien dans le défi \"Chasse à l'Arkveld Gardien (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a08d307a-81a3-48ba-96ec-ffa188da5df5.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "014"
-          },
-          {
-            "name": "Voyage au bout de la brume",
-            "description": "Accomplir la quête \"Voyage au bout de la brume\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/66bebbdb-79ed-42da-b87a-bd03c92f6141.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "015"
-          },
-          {
-            "name": "Champion céleste",
-            "description": "Accomplir la quête \"Le serpent séculaire\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/571330f3-1c62-4053-b4db-9d9bb25202cd.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "015"
-          },
-          {
-            "name": "Braqueur de convoi",
-            "description": "Vaincre Glasya-Labolas dans le défi \"Le Convoi maléfique (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/909e78dd-1e65-4414-aa32-54eb9a2c93ae.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "015"
-          },
-          {
-            "name": "Champion poids lourds",
-            "description": "Conquérir la catégorie poids lourds CCA.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a6708bf5-1f8a-4254-bd52-36d4b9b07f03.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "015"
-          },
-          {
-            "name": "Champion poids lourds incontesté",
-            "description": "Conquérir la catégorie poids lourds CCA (sadique).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/9602b0c9-e6f1-417c-b7ba-402554c52028.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "015"
-          },
-          {
-            "name": "Se dévouer corps et âme à la recherche",
-            "description": "Obtenir un outil hyperspatial.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/628f3b9b-19e5-4752-920c-4f6ba899997b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "015"
-          },
-          {
-            "name": "Côté obscur",
-            "description": "Obtenir une arme fantôme obscurum.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "015"
-          },
-          {
-            "name": "Mille et une pages",
-            "description": "Découvrir toutes les entrées du journal d'exploration des Contes du Camelot.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/f027732d-dbb7-444f-b1ac-2055ba3c0471.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "015"
-          },
-          {
-            "name": "Un ouvrage captivant",
-            "description": "Finir les Contes du Camelot (avancé).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/2930d074-d0fd-4bc1-831e-a447bca97826.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "015"
-          },
-          {
-            "name": "Défis fantastiques",
-            "description": "Finir les Contes du Camelot annexes - Donjon alternatif.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/00ff4ab3-9742-40fc-bc28-16bf7da77361.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "015"
-          },
-          {
-            "name": "Le chemin vers le lointain",
-            "description": "Accomplir la quête \"Le chemin vers le lointain\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/86ef6841-35bc-4870-a820-89e502bae92f.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": true,
-            "groupId": "016"
-          },
-          {
-            "name": "Que le néant retourne dans le néant",
-            "description": "Vaincre Énuo dans le défi \"L'Anticréation (extrême)\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a0b365b9-6497-4e1f-957b-dcaa6df543e1.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Échos des promesses lointaines",
-            "description": "Finir Windurst - La troisième perambulation.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d102f4-c36d-496f-a221-43e9df356b25.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "016"
-          },
-          {
-            "name": "Carnet de notes : mineur enthousiaste",
-            "description": "Récolter 280 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/daf71fcb-ac36-4893-b685-733130d741fe.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "016"
-          },
-          {
-            "name": "Carnet de notes : botaniste enthousiaste",
-            "description": "Récolter 420 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/e9be6e1e-54be-402a-9390-832a728e9884.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": true,
-            "groupId": "016"
-          },
-          {
-            "name": "Carnet de notes : pêcheur enthousiaste",
-            "description": "Pêcher 1 730 prises différentes et les avoir notées dans le carnet de pêche.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1e6aca9c-1bbf-4a97-a26c-6faa44abb4b1.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Maître intersidéral",
-            "description": "Gagner un total de 500 000 points de maîtrise en tant qu'artisan ou récolteur.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/dd3e84ed-d9e2-4c68-acc5-4f04a58aefb1.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Professeur intersidéral",
-            "description": "Améliorer un outil cosmique jusqu'au niveau maximum.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/628f3b9b-19e5-4752-920c-4f6ba899997b.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Commandes spéciales de Tiisol Ja",
-            "description": "Atteindre le rang 5 de satisfaction auprès de Tiisol Ja.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d6ff8acd-69eb-4b7e-ba78-dc63e9d76af5.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "016"
-          },
-          {
-            "name": "Dur, mais gentilhomme avant tout",
-            "description": "Accomplir la quête \"Les deux durs à cuire\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/3819704e-1be9-448b-8e77-51222df16957.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Le périple sans fin",
-            "description": "Accomplir la quête \"Le dernier enseignement\".",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Archiviste septentrional",
-            "description": "Remplir toutes les entrées du calepin du croissant sur l'île de Lunule septentrionale.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Affûteur occulte",
-            "description": "Obtenir une arme fantôme occultum.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Témoin insulaire",
-            "description": "Accomplir 10 ALÉA sur l'île de Lunule septentrionale.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "016"
-          },
-          {
-            "name": "Belliciste boréal",
-            "description": "Remporter 10 confrontations critiques sur l'île de Lunule septentrionale.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": true,
-            "groupId": "016"
-          },
-          {
-            "name": "Tour de magie",
-            "description": "Finir la Tour fourchue de la Magie.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Indexation terminée",
-            "description": "Finir la Tour fourchue de la Magie (extrême).",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a322a289-682d-4e51-904a-f16f5dba354a.png",
-            "type": "silver",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Totale maîtrise",
-            "description": "Maîtriser 24 jobs de soutien.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/1c24c56e-558a-4daf-8b2e-66ffe1c49afe.png",
-            "type": "silver",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Trophée secret 1",
-            "description": "Ce trophée pourra être obtenu lors d'une prochaine mise à jour.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b78b6923-44f3-4f71-b124-92702630e757.png",
-            "type": "bronze",
-            "hidden": true,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Trophée secret 2",
-            "description": "Ce trophée pourra être obtenu lors d'une prochaine mise à jour.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b78b6923-44f3-4f71-b124-92702630e757.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Trophée secret 3",
-            "description": "Ce trophée pourra être obtenu lors d'une prochaine mise à jour.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b78b6923-44f3-4f71-b124-92702630e757.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Trophée secret 4",
-            "description": "Ce trophée pourra être obtenu lors d'une prochaine mise à jour.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b78b6923-44f3-4f71-b124-92702630e757.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          },
-          {
-            "name": "Trophée secret 5",
-            "description": "Ce trophée pourra être obtenu lors d'une prochaine mise à jour.",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/b78b6923-44f3-4f71-b124-92702630e757.png",
-            "type": "bronze",
-            "hidden": false,
-            "earned": false,
-            "groupId": "016"
-          }
-        ],
-        "psnGroups": [
-          {
-            "id": "default",
-            "name": "FINAL FANTASY XIV Online",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
-          },
-          {
-            "id": "001",
-            "name": "Heavensward",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/5ca4cd7c-1820-49f5-8de7-898a0853c900.png"
-          },
-          {
-            "id": "002",
-            "name": "Stormblood",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4f1b9dfc-a477-4000-8fe3-c03a482319b4.png"
-          },
-          {
-            "id": "003",
-            "name": "Shadowbringers",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ef2c9454-c4ad-4a1d-8f4b-c00ddf46c10a.png"
-          },
-          {
-            "id": "004",
-            "name": "Shadowbringers : Death Unto Dawn",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d85958d6-6ec7-4fb7-b454-0a096bf01b01.png"
-          },
-          {
-            "id": "005",
-            "name": "Endwalker",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/d3eafe00-bace-498b-bdf0-3e465a0c7e7b.png"
-          },
-          {
-            "id": "006",
-            "name": "Endwalker : Newfound Adventure",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/4e6633c0-3e93-4d49-b6d8-46bf97789a85.png"
-          },
-          {
-            "id": "007",
-            "name": "Endwalker : Buried Memory",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/9a2e0669-17c1-4600-a468-96103314997a.png"
-          },
-          {
-            "id": "008",
-            "name": "Endwalker : Gods Revel, Lands Tremble",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/ab36c19a-a60c-43fb-826b-7108917edc21.png"
-          },
-          {
-            "id": "009",
-            "name": "Endwalker : The Dark Throne",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/84bb17a5-8773-44c2-89d9-f4fff4fa6e00.png"
-          },
-          {
-            "id": "010",
-            "name": "Endwalker : Growing Light",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/cfc95be7-c0ea-4204-b474-2e0616adfbfc.png"
-          },
-          {
-            "id": "011",
-            "name": "Dawntrail",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/30eda8cc-0465-4b63-bde0-57c02e7069fc.png"
-          },
-          {
-            "id": "012",
-            "name": "Dawntrail : Crossroads",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/3e967ff5-dede-4304-bbf9-63d4c60204ff.png"
-          },
-          {
-            "id": "013",
-            "name": "Dawntrail : Seekers of Eternity",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/c3f5830e-149b-4b82-908e-0147a13b7231.png"
-          },
-          {
-            "id": "014",
-            "name": "Dawntrail : The Promise of Tomorrow",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/0b335798-dd11-481f-a589-bf6f8f95a819.png"
-          },
-          {
-            "id": "015",
-            "name": "Dawntrail : Into the Mist",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/60cacca4-4506-4627-a084-8a1d4010e685.png"
-          },
-          {
-            "id": "016",
-            "name": "Dawntrail : Trail to the Heavens",
-            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/037e5074-d796-41b0-8466-7f06b3be8f01.png"
-          }
-        ],
-        "xbox": []
-      },
+      "achievements": {},
       "ffxiv": {
         "profile": {
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1785779867",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1785779867",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png",
-          "activeJobLevel": 100,
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1785913345",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1785913345",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/7/i20QvSPcSQTybykLZDbQCgPwMw.png",
+          "activeJobLevel": 92,
           "freeCompany": "MiaouSpirit"
         },
         "achievements": {
@@ -46691,52 +44378,52 @@
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "フラグとは折れないものである、悲哀。",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -47091,52 +44778,52 @@
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -47491,52 +45178,52 @@
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "フラグとは折れないものである、悲哀。",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -47891,52 +45578,52 @@
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "フラグとは折れないものである、悲哀。",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -48291,52 +45978,52 @@
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "フラグとは折れないものである、悲哀。",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -48691,52 +46378,52 @@
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "フラグとは折れないものである、悲哀。",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -49091,52 +46778,52 @@
             },
             {
               "id": null,
-              "name": "Angel's United",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -49491,52 +47178,52 @@
             },
             {
               "id": null,
-              "name": "Angel's United",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -49891,52 +47578,52 @@
             },
             {
               "id": null,
-              "name": "Angel's United",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -50291,52 +47978,52 @@
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -50691,52 +48378,52 @@
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -51091,52 +48778,52 @@
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -51491,52 +49178,52 @@
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -51891,52 +49578,52 @@
             },
             {
               "id": null,
-              "name": "MRCompany",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Man I Love Field Ops",
               "date": null
             },
             {
@@ -52291,52 +49978,52 @@
             },
             {
               "id": null,
-              "name": "暁の、日常。",
+              "name": "SHIROKUMA COMPANY",
               "date": null
             },
             {
               "id": null,
-              "name": "君たちはどう元素統合を生きるか",
+              "name": "Sabre de Llymlaen",
               "date": null
             },
             {
               "id": null,
-              "name": "Secluded Respite",
+              "name": "絶妖星乱舞備忘録",
               "date": null
             },
             {
               "id": null,
-              "name": "黄金編のうさお。　ネタバレあり",
+              "name": "DosCervezasPorFavor",
               "date": null
             },
             {
               "id": null,
-              "name": "Astral Link (Mana)",
+              "name": "Gobie de rêve",
               "date": null
             },
             {
               "id": null,
-              "name": "不在の理由",
+              "name": "Morue à dents de sabre",
               "date": null
             },
             {
               "id": null,
-              "name": "ちょっと哲学っぽい話",
+              "name": "FC Mega Flare (Zeromus)",
               "date": null
             },
             {
               "id": null,
-              "name": "新規FCメンバー募集！ ゆるっと楽しく 配信者OK",
+              "name": "Cozy Cabin",
               "date": null
             },
             {
               "id": null,
-              "name": "cailleach bheur",
+              "name": "Souverain d'argent",
               "date": null
             },
             {
               "id": null,
-              "name": "フラグとは折れないものである、悲哀。",
+              "name": "Man I Love Field Ops",
               "date": null
             }
           ]
@@ -54350,16 +52037,19 @@
           }
         ],
         "eureka": {
-          "level": 32
+          "level": 32,
+          "icon": null
         },
         "bozja": {
           "level": 18,
-          "mettle": "Points de faits d'armes : 3 606 895 / Niveau suivant : 4 435 000"
+          "mettle": "Points de faits d'armes : 3 606 895 / Niveau suivant : 4 435 000",
+          "icon": null
         },
         "lunule": {
-          "level": 27
+          "level": 27,
+          "icon": null
         },
-        "updatedAt": "2026-08-03T18:08:07.270Z"
+        "updatedAt": "2026-08-05T07:58:02.251Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
@@ -54411,7 +52101,8 @@
           "developer": false,
           "publisher": false
         }
-      ]
+      ],
+      "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/ar5eks.jpg"
     }
   ]
 }
