@@ -2051,22 +2051,22 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 0,
-            "total": 0
+            "earned": 135,
+            "total": 187
           },
           "argent": {
-            "earned": 0,
-            "total": 0
+            "earned": 19,
+            "total": 55
           },
           "or": {
             "earned": 0,
-            "total": 0
+            "total": 4
           },
-          "platine": false,
-          "npCommunicationId": null,
-          "npServiceName": null,
-          "icon": null,
-          "platinumIcon": null
+          "platine": true,
+          "npCommunicationId": "NPWR23141_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/386fbcc7-15b3-44d4-8584-09bbbe9b149c.png"
         },
         "PC": {
           "earned": 0,
