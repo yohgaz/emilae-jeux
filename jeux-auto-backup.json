@@ -227447,7 +227447,8 @@
           "total": 55
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co833w.jpg"
     },
     {
       "id": "cyberpunk-2077",
@@ -281216,7 +281217,8 @@
           "total": 56
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8m1o.jpg"
     },
     {
       "id": "lego-harry-potter-years-5-7",
