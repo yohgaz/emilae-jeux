@@ -52617,7 +52617,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rp0.jpg"
     },
     {
       "id": "viscera-cleanup-detail-shadow-warrior",
@@ -146004,7 +146005,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaecf.jpg"
     },
     {
       "id": "hades-2",
@@ -313633,7 +313635,8 @@
           "total": 71
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.jpg"
     },
     {
       "id": "star-ocean-the-last-hope-international",
