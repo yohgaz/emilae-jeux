@@ -10076,7 +10076,8 @@
           "total": 51
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANMoVK4xp7ayawVcTMSzxd4fJU_zctKUtypw3VB72hQ&s=10"
     },
     {
       "id": "crusader-kings-2",
@@ -83157,7 +83158,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9okj.jpg"
     },
     {
       "id": "the-surge",
@@ -92322,7 +92324,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pwt.jpg"
     },
     {
       "id": "battle-chasers-nightwar",
@@ -98107,7 +98110,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uy3.jpg"
     },
     {
       "id": "warhammer-40-000-gladius-relics-of-war",
@@ -99830,7 +99834,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8y08.jpg"
     },
     {
       "id": "dungeons-3",
@@ -100269,7 +100274,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fm9.jpg"
     },
     {
       "id": "shop-heroes",
@@ -104275,7 +104281,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobazz.jpg"
     },
     {
       "id": "steamworld-dig-2",
@@ -111836,7 +111843,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g6o.jpg"
     },
     {
       "id": "graveyard-keeper",
@@ -128109,7 +128117,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zii.jpg"
     },
     {
       "id": "overcooked-2",
@@ -131784,7 +131793,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcn.jpg"
     },
     {
       "id": "mutant-year-zero-road-to-eden",
@@ -137573,7 +137583,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29ok.jpg"
     },
     {
       "id": "thronebreaker-the-witcher-tales",
@@ -141401,7 +141412,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tqp.jpg"
     },
     {
       "id": "persona-4-golden",
@@ -156665,7 +156677,8 @@
           "familyShared": false
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w4j.jpg"
     },
     {
       "id": "dune-spice-wars",
@@ -177864,7 +177877,8 @@
           "total": 46
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69sm.jpg"
     },
     {
       "id": "monster-hunter-stories",
@@ -198918,7 +198932,8 @@
           "recentOnly": true
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg"
     },
     {
       "id": "honkai-star-rail",
@@ -203857,7 +203872,8 @@
           "total": 58
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8roc.jpg"
     },
     {
       "id": "fantasy-life-1-the-girl-who-steals-time",
@@ -209409,7 +209425,8 @@
           "total": 58
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.jpg"
     },
     {
       "id": "crisis-core-final-fantasy-7-reunion",
@@ -209893,7 +209910,8 @@
           "total": 51
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjb3.jpg"
     },
     {
       "id": "lies-of-p",
@@ -210409,7 +210427,8 @@
           "total": 54
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lxr.jpg"
     },
     {
       "id": "eiyuden-chronicle-hundred-heroes",
@@ -214958,7 +214977,8 @@
           "total": 83
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/coclda.jpg"
     },
     {
       "id": "persona-5-royal",
@@ -234662,7 +234682,8 @@
           "total": 50
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pds.jpg"
     },
     {
       "id": "demon-s-souls",
@@ -240036,7 +240057,8 @@
           "total": 45
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9o3.jpg"
     },
     {
       "id": "yakuza-like-a-dragon",
@@ -240735,7 +240757,8 @@
           "total": 9
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/c9i4xgwbm7gojuhtwwqx.jpg"
     },
     {
       "id": "ys-9-monstrum-nox",
@@ -242393,7 +242416,8 @@
           "total": 68
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrm.jpg"
     },
     {
       "id": "stranger-of-paradise-final-fantasy-origin",
@@ -243180,7 +243204,8 @@
           "total": 83
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobp48.jpg"
     },
     {
       "id": "fifa-22",
@@ -254616,7 +254641,8 @@
           "total": 52
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpy.jpg"
     },
     {
       "id": "until-dawn",
@@ -257692,7 +257718,8 @@
           "total": 45
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82br.jpg"
     },
     {
       "id": "nioh",
@@ -262139,7 +262166,8 @@
           "total": 59
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dqa.jpg"
     },
     {
       "id": "final-fantasy-15",
@@ -263086,7 +263114,8 @@
           "total": 98
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nz1.jpg"
     },
     {
       "id": "mass-effect",
@@ -266138,7 +266167,8 @@
           "total": 41
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uf1.jpg"
     },
     {
       "id": "fifa-16",
@@ -266604,7 +266634,8 @@
           "total": 49
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co206v.jpg"
     },
     {
       "id": "injustice-gods-among-us-ultimate-edition",
@@ -270940,7 +270971,8 @@
           "total": 48
         }
       },
-      "inStreamCategory": true
+      "inStreamCategory": true,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1izy.jpg"
     },
     {
       "id": "metal-gear-solid-5-the-phantom-pain",
@@ -273272,7 +273304,8 @@
           "total": 61
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rco.jpg"
     },
     {
       "id": "the-order-1886",
@@ -274080,7 +274113,8 @@
           "total": 61
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qfn.jpg"
     },
     {
       "id": "metal-gear-solid-5-ground-zeroes",
@@ -278029,7 +278063,8 @@
           "total": 54
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gfx.jpg"
     },
     {
       "id": "final-fantasy-10-2-hd-remaster",
@@ -280096,7 +280131,8 @@
           "total": 56
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2es7.jpg"
     },
     {
       "id": "infamous",
@@ -282034,7 +282070,8 @@
           "total": 57
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mbv.jpg"
     },
     {
       "id": "assassin-s-creed-3",
@@ -285951,7 +285988,8 @@
           "total": 49
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wc6.jpg"
     },
     {
       "id": "ac-revelations",
@@ -287559,7 +287597,8 @@
           "total": 59
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u77.jpg"
     },
     {
       "id": "tales-of-xillia",
@@ -290604,7 +290643,8 @@
           "total": 56
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6hah.jpg"
     },
     {
       "id": "mortal-kombat",
@@ -292636,7 +292676,8 @@
           "total": 61
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocdky.jpg"
     },
     {
       "id": "bleach-soul-resurreccion",
@@ -294262,7 +294303,8 @@
           "total": 64
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5tgy.jpg"
     },
     {
       "id": "playstation-all-stars-battle-royale",
@@ -297929,7 +297971,8 @@
           "total": 37
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65lz.jpg"
     },
     {
       "id": "ni-no-kuni-wrath-of-the-white-witch",
@@ -298727,7 +298770,8 @@
           "total": 49
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22u2.jpg"
     },
     {
       "id": "one-piece-pirate-warriors",
@@ -300046,7 +300090,8 @@
           "total": 51
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a1v.jpg"
     },
     {
       "id": "kingdoms-of-amalur-reckoning",
@@ -302670,7 +302715,8 @@
           "total": 69
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dqb.jpg"
     },
     {
       "id": "dungeon-siege-3",
@@ -310739,7 +310785,8 @@
           "total": 41
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3a8h.jpg"
     },
     {
       "id": "monopoly-streets",
@@ -311133,7 +311180,8 @@
           "total": 41
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k5c.jpg"
     },
     {
       "id": "killzone-2",
@@ -314391,7 +314439,8 @@
           "total": 48
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tp7.jpg"
     },
     {
       "id": "battlefield-bad-company-2",
@@ -317538,7 +317587,8 @@
           "total": 57
         }
       },
-      "inStreamCategory": false
+      "inStreamCategory": false,
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9oj5.jpg"
     },
     {
       "id": "final-fantasy-14-online-a-realm-reborn",
