@@ -192099,7 +192099,7 @@
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
               "type": "bronze",
               "hidden": true,
-              "earned": false,
+              "earned": true,
               "groupId": "016"
             },
             {
@@ -192280,7 +192280,7 @@
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/037e5074-d796-41b0-8466-7f06b3be8f01.png"
             }
           ],
-          "earned": 155,
+          "earned": 156,
           "total": 247
         },
         "xbox": {
@@ -193707,7 +193707,7 @@
               "name": "Affûteur occulte",
               "description": "Obtenir une arme fantôme occultum.",
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Témoin insulaire",
@@ -193770,10 +193770,10 @@
               "earned": false
             }
           ],
-          "earned": 53,
+          "earned": 54,
           "total": 100,
           "summaryOnly": false,
-          "gamerscoreEarned": 2565,
+          "gamerscoreEarned": 2610,
           "gamerscoreTotal": 4815,
           "manual": true,
           "noApi": false,
@@ -193792,6 +193792,24 @@
         "ffxiv": {
           "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
           "achievements": [
+            {
+              "name": "Armes fantômes : fendoir fantôme occultum",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034033.tex&format=png",
+              "earned": true
+            },
+            {
+              "name": "Armes fantômes : arc long fantôme obscurum",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032063.tex&format=png",
+              "earned": true
+            },
+            {
+              "name": "Sous la tutelle de la Chouette",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061253.tex&format=png",
+              "earned": true
+            },
             {
               "name": "Armes des Manderville : pistolame",
               "description": "",
@@ -194075,6 +194093,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Outil cosmique : couteau arrondi cosmique",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F039000%2F039412.tex&format=png",
@@ -194090,66 +194168,6 @@
               "name": "Aficionado du taco IV",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -194435,6 +194453,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Le Triangle aux trésors I",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000115.tex&format=png",
@@ -194450,66 +194528,6 @@
               "name": "À la poursuite du savoir insulaire II",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -194795,6 +194813,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Échos des premières aventures",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F064000%2F064875.tex&format=png",
@@ -194810,66 +194888,6 @@
               "name": "Cartographe du continent : La Gardienne de l'Immémorial",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195155,6 +195173,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Cartographe du continent : Remontée de l'Ihuykatumu",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
@@ -195170,66 +195248,6 @@
               "name": "Pictomancien légendaire",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037640.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195515,6 +195533,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Outils des merveilles : hachette splendide",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F038000%2F038403.tex&format=png",
@@ -195530,66 +195608,6 @@
               "name": "Armes des Manderville : mein gwrac'h éblouissants",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037048.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195875,6 +195893,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Féru de l'enclume IV",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035106.tex&format=png",
@@ -195890,66 +195968,6 @@
               "name": "Cartographe du continent : Euphrosyne",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196235,6 +196253,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Œuvre caritative I",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png",
@@ -196250,66 +196328,6 @@
               "name": "Cartographe du continent : Aglaé",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196595,6 +196613,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Tanneur légendaire",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035404.tex&format=png",
@@ -196610,66 +196688,6 @@
               "name": "Orfèvre légendaire",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035301.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196955,6 +196973,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Outils de Cielacier : marteau à panne croisée de la forge céleste",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035139.tex&format=png",
@@ -196970,66 +197048,6 @@
               "name": "Outils de Cielacier : alambic de la forge céleste",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035638.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -197315,6 +197333,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Avenir couleur azur",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
@@ -197330,66 +197408,6 @@
               "name": "Un nouveau cœur pour Azurée",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -197675,6 +197693,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Armes de la résistance : Samsara",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F031000%2F031186.tex&format=png",
@@ -197690,66 +197768,6 @@
               "name": "Armes de la résistance : Akademos",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F033000%2F033321.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198035,6 +198053,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Cartographe du continent : base militaire des Pantins",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
@@ -198050,66 +198128,6 @@
               "name": "Armes de la résistance : Discipline de l'âme",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F033000%2F033140.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198395,6 +198413,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Les aventuriers de la stèle perdue II",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062971.tex&format=png",
@@ -198410,66 +198488,6 @@
               "name": "Les aventuriers de la stèle perdue I",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062971.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198755,6 +198773,66 @@
               "earned": true
             },
             {
+              "name": "FF14やめられないんだけどwww",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "YACA",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Survivant du météore",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "one-third",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "ミラプリ集め～",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Freedom Mask",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "黄金編7.0踏破",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Omega Authority",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Renewed Oath (Jenova)",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "大地の恵み",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Pistosabreur emblématique",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036005.tex&format=png",
@@ -198770,66 +198848,6 @@
               "name": "Réveiller le loup en soi : Deux Vipères III",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062952.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "兎の目は赤い",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋4まで、あと少し？",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ファントムウェポン＋４　１本目",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Sea of Stars",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "The Trailblazers",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Moonlight Magicians (Zalera)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Benevolent Balance (Exodus)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Hope's Legacy",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -199115,85 +199133,67 @@
               "earned": true
             },
             {
-              "name": "Archer emblématique",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032204.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Sonner le clairon II",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003120.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Fournisseur officiel de M'naago I",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "Bite-sized Vikings (Siren)",
+              "name": "FF14やめられないんだけどwww",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "兎の目は赤い",
+              "name": "YACA",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "ファントムウェポン＋4まで、あと少し？",
+              "name": "Survivant du météore",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "やっとSwitch2ポータブルモード(フリトラ)出来た",
+              "name": "one-third",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "ファントムウェポン＋４　１本目",
+              "name": "ミラプリ集め～",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Sea of Stars",
+              "name": "Freedom Mask",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "The Trailblazers",
+              "name": "黄金編7.0踏破",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Moonlight Magicians (Zalera)",
+              "name": "Omega Authority",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Benevolent Balance (Exodus)",
+              "name": "Renewed Oath (Jenova)",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Hope's Legacy",
+              "name": "大地の恵み",
               "description": "",
               "icon": null,
               "earned": true
             }
           ],
-          "earned": 1899,
+          "earned": 1902,
           "total": 3300,
           "recentOnly": true
         }
@@ -228241,6 +228241,14 @@
           "earned": 28,
           "total": 58
         },
+        "xbox": {
+          "titleId": "1820448821",
+          "icon": "https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcPnMMVV2S.gki47PXDl6PGIr4FdkJtnvF1qvZiAfXn77P4gUC5zg4Y.jmnhnVBv0VgfIq6.aVZJRnxz65RDrErw--",
+          "achievements": [],
+          "earned": 0,
+          "total": 0,
+          "unsupported": true
+        },
         "gog": {
           "productId": 1423049311,
           "icon": null,
@@ -228579,7 +228587,7 @@
               "description": "Complete the main storyline.",
               "iconEarned": "https://images.gog.com/6300d1d0467b659556d2bba3d4cd83475ee099f2f77d615b17cb2d041cb9b3c9_gac_60.jpg",
               "iconLocked": "https://images.gog.com/3f37d520a28d8bd057118d5f6e28028753c1fd297de0e2fbed2e71adf52f6f41_gac_60.png",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Greetings from Pacifica!",
@@ -228645,7 +228653,7 @@
               "earned": false
             }
           ],
-          "earned": 3,
+          "earned": 4,
           "total": 57
         }
       },
@@ -332091,6 +332099,23 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yn2.jpg"
     },
     {
+      "id": "cyberpunk-2077-phantom-liberty",
+      "nom": "Cyberpunk 2077: Phantom Liberty",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1256837418,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
       "id": "temerian-armor-set",
       "nom": "Temerian Armor Set",
       "icon": null,
@@ -334355,7 +334380,7 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nul.jpg"
     }
   ],
-  "builtAt": 1786084571839,
+  "builtAt": 1786292072533,
   "platformDiag": {
     "steam": {
       "count": 306,
@@ -334370,11 +334395,11 @@
       "error": null
     },
     "xbox": {
-      "count": 9,
+      "count": 10,
       "error": null
     },
     "gog": {
-      "count": 81,
+      "count": 82,
       "error": null
     },
     "ubisoft": {
