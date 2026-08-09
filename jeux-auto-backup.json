@@ -69046,6 +69046,17 @@
           "total": 78
         }
       },
+      "dlcs": [
+        {
+          "name": "free DLC program (16 DLC)",
+          "platform": "gog",
+          "productId": 1430743168,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      ],
       "inStreamCategory": false,
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"
     },
@@ -183047,7 +183058,7 @@
               "description": "Jouez une carte de salle à tous les niveaux d'une bataille.",
               "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/9136f4a403db3577c53a662b0f6d18cbd78e349f.jpg",
               "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/c4435b23c9633e66cf93fd770dff49270068e46d.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Premier mais pas dernier",
@@ -183281,7 +183292,7 @@
               "earned": false
             }
           ],
-          "earned": 6,
+          "earned": 7,
           "total": 59,
           "familyShared": false
         },
@@ -193793,6 +193804,12 @@
           "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
           "achievements": [
             {
+              "name": "Destinée défiée II",
+              "description": "",
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png",
+              "earned": true
+            },
+            {
               "name": "Armes fantômes : fendoir fantôme occultum",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034033.tex&format=png",
@@ -194087,69 +194104,69 @@
               "earned": true
             },
             {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "/tempsjeu",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Armes des Manderville : canne éblouissante",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032454.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -194447,69 +194464,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Cartographe du continent : Île de Lunule méridionale",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -194807,69 +194824,69 @@
               "earned": true
             },
             {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "/tempsjeu",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Train-train quotidien IV",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195167,69 +195184,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Pour le bien de tous",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195527,69 +195544,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Entrelacs temporel",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -195887,69 +195904,69 @@
               "earned": true
             },
             {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "/tempsjeu",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Les Dieux festoient, la terre tremble",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196247,69 +196264,69 @@
               "earned": true
             },
             {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "/tempsjeu",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Œuvre caritative II",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196607,69 +196624,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Botaniste légendaire",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F038000%2F038103.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -196967,69 +196984,69 @@
               "earned": true
             },
             {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "/tempsjeu",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Outils de Cielacier : marteau de batteur de la forge céleste",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035239.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -197327,69 +197344,69 @@
               "earned": true
             },
             {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "/tempsjeu",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Le comte est bon I",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -197687,69 +197704,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Armes de la résistance : Brillance",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032386.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198047,69 +198064,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Pantins désarticulés",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003501.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198407,69 +198424,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Cartographe du continent : Anamnesis Anydre",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -198767,69 +198784,69 @@
               "earned": true
             },
             {
+              "name": "The Flying Tea Pot",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Tofu's Bakery",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Lune",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Dreadwrym Tribunal",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Kitties Castle",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "The Leftovers",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "TReEofLiFE",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "House Wildheart",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "MolyHoly",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
+              "name": "Submerged Assets",
+              "description": "",
+              "icon": null,
+              "earned": true
+            },
+            {
               "name": "Samouraï emblématique",
               "description": "",
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F036000%2F036427.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "YACA",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Survivant du météore",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "one-third",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "ミラプリ集め～",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Freedom Mask",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "黄金編7.0踏破",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Omega Authority",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "Renewed Oath (Jenova)",
-              "description": "",
-              "icon": null,
-              "earned": true
-            },
-            {
-              "name": "大地の恵み",
-              "description": "",
-              "icon": null,
               "earned": true
             },
             {
@@ -199127,73 +199144,67 @@
               "earned": true
             },
             {
-              "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah I",
-              "description": "",
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000116.tex&format=png",
-              "earned": true
-            },
-            {
-              "name": "FF14やめられないんだけどwww",
+              "name": "The Flying Tea Pot",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "YACA",
+              "name": "Tofu's Bakery",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Survivant du météore",
+              "name": "Lune",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "one-third",
+              "name": "Dreadwrym Tribunal",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "ミラプリ集め～",
+              "name": "Kitties Castle",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Freedom Mask",
+              "name": "The Leftovers",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "黄金編7.0踏破",
+              "name": "TReEofLiFE",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Omega Authority",
+              "name": "House Wildheart",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "Renewed Oath (Jenova)",
+              "name": "MolyHoly",
               "description": "",
               "icon": null,
               "earned": true
             },
             {
-              "name": "大地の恵み",
+              "name": "Submerged Assets",
               "description": "",
               "icon": null,
               "earned": true
             }
           ],
-          "earned": 1902,
+          "earned": 1903,
           "total": 3300,
           "recentOnly": true
         }
@@ -228657,6 +228668,17 @@
           "total": 57
         }
       },
+      "dlcs": [
+        {
+          "name": "Phantom Liberty",
+          "platform": "gog",
+          "productId": 1256837418,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      ],
       "inStreamCategory": true,
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7iy1.jpg"
     },
@@ -325622,6 +325644,17 @@
           "total": 51
         }
       },
+      "dlcs": [
+        {
+          "name": "Hot Garbage",
+          "platform": "gog",
+          "productId": 1240193021,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      ],
       "inStreamCategory": false,
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pkf.jpg"
     },
@@ -328256,6 +328289,17 @@
           "total": 63
         }
       },
+      "dlcs": [
+        {
+          "name": "De Vespe Conspiracy",
+          "platform": "gog",
+          "productId": 1838278403,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      ],
       "inStreamCategory": false,
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ppo.jpg"
     },
@@ -332081,416 +332125,6 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vck.jpg"
     },
     {
-      "id": "journey-to-the-savage-planet-hot-garbage",
-      "nom": "Journey to the Savage Planet: Hot Garbage",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1240193021,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false,
-      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yn2.jpg"
-    },
-    {
-      "id": "cyberpunk-2077-phantom-liberty",
-      "nom": "Cyberpunk 2077: Phantom Liberty",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1256837418,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "temerian-armor-set",
-      "nom": "Temerian Armor Set",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742662,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "temerian-armor-set-a",
-      "nom": "Temerian Armor Set [A]",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742663,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "beard-and-hairstyle-set-for-geralt",
-      "nom": "Beard and Hairstyle Set for Geralt",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742762,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "beard-and-hairstyle-set-for-geralt-a",
-      "nom": "Beard and Hairstyle Set for Geralt [A]",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742763,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-quest-contract-missing-miners",
-      "nom": "New Quest - Contract: Missing Miners",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742787,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-quest-contract-missing-miners-a",
-      "nom": "New Quest - Contract: Missing Miners [A]",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742788,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "alternative-look-for-yennefer",
-      "nom": "Alternative Look for Yennefer",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742826,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "alternative-look-for-yennefer-a",
-      "nom": "Alternative Look for Yennefer [A]",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742827,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "nilfgaardian-armor-set",
-      "nom": "Nilfgaardian Armor set",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742866,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "triss-alternative-costume",
-      "nom": "Triss alternative costume",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742899,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-quest-fool-s-gold",
-      "nom": "New Quest - Fool's Gold",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742926,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "ballad-heroes-neutral-gwent-card-set",
-      "nom": "Ballad Heroes - Neutral Gwent Card Set",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742953,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-game",
-      "nom": "New Game +",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430742983,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-quest-scavenger-hunt-wolf-school-gear",
-      "nom": "New Quest - Scavenger Hunt: Wolf School Gear",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743030,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "alternative-look-for-ciri",
-      "nom": "Alternative Look for Ciri",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743056,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-quest-contract-skellige-s-most-wanted",
-      "nom": "New Quest - Contract: Skellige's Most Wanted",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743081,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "skellige-armor-set",
-      "nom": "Skellige Armor Set",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743108,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-quest-where-the-cat-and-wolf-play",
-      "nom": "New Quest - Where the Cat and Wolf Play…",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743139,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "new-finisher-animations",
-      "nom": "New Finisher Animations",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743167,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "the-witcher-3-wild-hunt-free-dlc-program-16-dlc",
-      "nom": "The Witcher 3: Wild Hunt - free DLC program (16 DLC)",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743168,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "crossbow-set-three-new-crossbows",
-      "nom": "Crossbow set - three new crossbows",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1430743218,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false
-    },
-    {
-      "id": "greedfall-de-vespe-conspiracy",
-      "nom": "GreedFall - De Vespe Conspiracy",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "gog": {
-          "productId": 1838278403,
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0
-        }
-      },
-      "inStreamCategory": false,
-      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dm9.jpg"
-    },
-    {
       "id": "sid-meier-s-civilization-4-the-complete-edition-amazon-prime",
       "nom": "Sid Meier's Civilization IV®: The Complete Edition - Amazon Prime",
       "icon": null,
@@ -334378,9 +334012,349 @@
       },
       "inStreamCategory": false,
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nul.jpg"
+    },
+    {
+      "id": "temerian-armor-set",
+      "nom": "Temerian Armor Set",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742662,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "temerian-armor-set-a",
+      "nom": "Temerian Armor Set [A]",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742663,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "beard-and-hairstyle-set-for-geralt",
+      "nom": "Beard and Hairstyle Set for Geralt",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742762,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "beard-and-hairstyle-set-for-geralt-a",
+      "nom": "Beard and Hairstyle Set for Geralt [A]",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742763,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-quest-contract-missing-miners",
+      "nom": "New Quest - Contract: Missing Miners",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742787,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-quest-contract-missing-miners-a",
+      "nom": "New Quest - Contract: Missing Miners [A]",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742788,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "alternative-look-for-yennefer",
+      "nom": "Alternative Look for Yennefer",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742826,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "alternative-look-for-yennefer-a",
+      "nom": "Alternative Look for Yennefer [A]",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742827,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "nilfgaardian-armor-set",
+      "nom": "Nilfgaardian Armor set",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742866,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "triss-alternative-costume",
+      "nom": "Triss alternative costume",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742899,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-quest-fool-s-gold",
+      "nom": "New Quest - Fool's Gold",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742926,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "ballad-heroes-neutral-gwent-card-set",
+      "nom": "Ballad Heroes - Neutral Gwent Card Set",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742953,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-game",
+      "nom": "New Game +",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430742983,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-quest-scavenger-hunt-wolf-school-gear",
+      "nom": "New Quest - Scavenger Hunt: Wolf School Gear",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430743030,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "alternative-look-for-ciri",
+      "nom": "Alternative Look for Ciri",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430743056,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-quest-contract-skellige-s-most-wanted",
+      "nom": "New Quest - Contract: Skellige's Most Wanted",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430743081,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "skellige-armor-set",
+      "nom": "Skellige Armor Set",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430743108,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-quest-where-the-cat-and-wolf-play",
+      "nom": "New Quest - Where the Cat and Wolf Play…",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430743139,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "new-finisher-animations",
+      "nom": "New Finisher Animations",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430743167,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
+    },
+    {
+      "id": "crossbow-set-three-new-crossbows",
+      "nom": "Crossbow set - three new crossbows",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1430743218,
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "inStreamCategory": false
     }
   ],
-  "builtAt": 1786292072533,
+  "builtAt": 1786311658781,
   "platformDiag": {
     "steam": {
       "count": 306,
