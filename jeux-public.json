@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T16:03:47.000Z",
+  "updatedAt": "2026-08-09T19:11:21.028Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -43978,7 +43978,7 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 135,
+            "earned": 136,
             "total": 187
           },
           "argent": {
@@ -46141,7 +46141,7 @@
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/a8d73bb3-a2e0-41a5-8324-50aba4ad2b29.png",
             "type": "bronze",
             "hidden": true,
-            "earned": false,
+            "earned": true,
             "groupId": "016"
           },
           {
@@ -46328,17 +46328,45 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1786031409",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1786031409",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1786300972",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1786300972",
           "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
         },
         "achievements": {
-          "earned": 1899,
+          "earned": 1903,
           "total": 3300,
-          "points": "16725",
+          "points": "16755",
           "recent": [
+            {
+              "id": "4003",
+              "name": "Destinée défiée II",
+              "date": 1786300354000,
+              "points": 5,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png"
+            },
+            {
+              "id": "3951",
+              "name": "Armes fantômes : fendoir fantôme occultum",
+              "date": 1786189474000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F034000%2F034033.tex&format=png"
+            },
+            {
+              "id": "3852",
+              "name": "Armes fantômes : arc long fantôme obscurum",
+              "date": 1786189474000,
+              "points": 10,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032063.tex&format=png"
+            },
+            {
+              "id": "3503",
+              "name": "Sous la tutelle de la Chouette",
+              "date": 1786114181000,
+              "points": 5,
+              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F061000%2F061253.tex&format=png"
+            },
             {
               "id": "3131",
               "name": "Armes des Manderville : pistolame",
@@ -46662,6 +46690,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062978.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "3239",
               "name": "Armes des Manderville : canne éblouissante",
               "date": 1781793473000,
@@ -46688,56 +46766,6 @@
               "date": 1781622261000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "3143",
@@ -47062,6 +47090,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037051.tex&format=png"
             },
             {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "隠れメンター復帰しました話",
+              "date": null
+            },
+            {
               "id": "3743",
               "name": "Cartographe du continent : Île de Lunule méridionale",
               "date": 1778770688000,
@@ -47088,56 +47166,6 @@
               "date": 1778751478000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003126.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "D.R.T.S. (Meteor)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
             },
             {
               "id": "3609",
@@ -47462,6 +47490,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "3595",
               "name": "Train-train quotidien IV",
               "date": 1747724132000,
@@ -47488,56 +47566,6 @@
               "date": 1746803013000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "3594",
@@ -47862,6 +47890,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "3491",
               "name": "Pour le bien de tous",
               "date": 1723281150000,
@@ -47888,56 +47966,6 @@
               "date": 1719737064000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037640.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "3024",
@@ -48262,6 +48290,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001052.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "3247",
               "name": "Entrelacs temporel",
               "date": 1690711299000,
@@ -48288,56 +48366,6 @@
               "date": 1687341505000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F037000%2F037048.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "3146",
@@ -48662,6 +48690,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "3157",
               "name": "Les Dieux festoient, la terre tremble",
               "date": 1676324406000,
@@ -48688,56 +48766,6 @@
               "date": 1675617018000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "3158",
@@ -49062,6 +49090,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062975.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "3060",
               "name": "Œuvre caritative II",
               "date": 1654630804000,
@@ -49088,56 +49166,6 @@
               "date": 1649793780000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001001.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "D.R.T.S. (Meteor)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
             },
             {
               "id": "3075",
@@ -49462,6 +49490,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F001000%2F001981.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "2920",
               "name": "Botaniste légendaire",
               "date": 1639351187000,
@@ -49488,56 +49566,6 @@
               "date": 1639314322000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035301.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "2986",
@@ -49862,6 +49890,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035040.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "2789",
               "name": "Outils de Cielacier : marteau de batteur de la forge céleste",
               "date": 1637871021000,
@@ -49888,56 +49966,6 @@
               "date": 1637609359000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F035000%2F035638.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "2666",
@@ -50262,6 +50290,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025507.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "2835",
               "name": "Le comte est bon I",
               "date": 1618668737000,
@@ -50288,56 +50366,6 @@
               "date": 1618668737000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026002.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "2369",
@@ -50662,6 +50690,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002680.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "2577",
               "name": "Armes de la résistance : Brillance",
               "date": 1614550186000,
@@ -50688,56 +50766,6 @@
               "date": 1614340070000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F033000%2F033321.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Wataame Explosion (Fenrir)",
-              "date": null
             },
             {
               "id": "2677",
@@ -51062,6 +51090,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062972.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "2622",
               "name": "Pantins désarticulés",
               "date": 1597181165000,
@@ -51088,56 +51166,6 @@
               "date": 1595715476000,
               "points": 10,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F033000%2F033140.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "D.R.T.S. (Meteor)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
             },
             {
               "id": "2578",
@@ -51462,6 +51490,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000317.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "2589",
               "name": "Cartographe du continent : Anamnesis Anydre",
               "date": 1582297557000,
@@ -51488,56 +51566,6 @@
               "date": 1582038206000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062971.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "D.R.T.S. (Meteor)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
             },
             {
               "id": "2281",
@@ -51862,6 +51890,56 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F002000%2F002732.tex&format=png"
             },
             {
+              "id": null,
+              "name": "黄金「みんなのために",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Shoebox3",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Rose Knights",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Gleaming Splendor",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Chocobro's",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Der Schattenbund",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "One Brain Cell",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "Fourth Dawn",
+              "date": null
+            },
+            {
+              "id": null,
+              "name": "House of Houses",
+              "date": null
+            },
+            {
               "id": "2259",
               "name": "Samouraï emblématique",
               "date": 1570827685000,
@@ -51888,56 +51966,6 @@
               "date": 1570633340000,
               "points": 5,
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F062000%2F062952.tex&format=png"
-            },
-            {
-              "id": null,
-              "name": "D.R.T.S. (Meteor)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Something",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Traenen von Fenrir",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Vancity (Unicorn)",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "スカイスチールツール！",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
-              "date": null
-            },
-            {
-              "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
-              "date": null
             },
             {
               "id": "300",
@@ -52262,81 +52290,53 @@
               "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000116.tex&format=png"
             },
             {
-              "id": "2401",
-              "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah I",
-              "date": 1564793094000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F000000%2F000116.tex&format=png"
-            },
-            {
-              "id": "2250",
-              "name": "Archer emblématique",
-              "date": 1564691210000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F032000%2F032204.tex&format=png"
-            },
-            {
-              "id": "2410",
-              "name": "Sonner le clairon II",
-              "date": 1564520937000,
-              "points": 10,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F003000%2F003120.tex&format=png"
-            },
-            {
-              "id": "1974",
-              "name": "Fournisseur officiel de M'naago I",
-              "date": 1564491815000,
-              "points": 5,
-              "icon": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026551.tex&format=png"
-            },
-            {
               "id": null,
-              "name": "D.R.T.S. (Meteor)",
+              "name": "黄金「みんなのために",
               "date": null
             },
             {
               "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "Shoebox3",
               "date": null
             },
             {
               "id": null,
-              "name": "Something",
+              "name": "Rose Knights",
               "date": null
             },
             {
               "id": null,
-              "name": "Traenen von Fenrir",
+              "name": "Gleaming Splendor",
               "date": null
             },
             {
               "id": null,
-              "name": "光の揚げ物冒険記≪黄金編－製品版3,143日目≫",
+              "name": "Chocobro's",
               "date": null
             },
             {
               "id": null,
-              "name": "Vancity (Unicorn)",
+              "name": "Der Schattenbund",
               "date": null
             },
             {
               "id": null,
-              "name": "スカイスチールツール！",
+              "name": "One Brain Cell",
               "date": null
             },
             {
               "id": null,
-              "name": "Kuroyagi Blackgoat ( Shinryu) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
               "date": null
             },
             {
               "id": null,
-              "name": "7.55オオヌシ「ネー・ラァ・ドー",
+              "name": "Fourth Dawn",
               "date": null
             },
             {
               "id": null,
-              "name": "Yuzu' Ponz ( Asura) a commencé un recrutement de membres fondateurs de linkshell inter-Monde.",
+              "name": "House of Houses",
               "date": null
             }
           ]
@@ -52417,6 +52417,10 @@
           {
             "name": "Baron ail insulaire",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/75/755a301d5e431ad9a20906b766a4d6035db055a7.png?n7.55"
+          },
+          {
+            "name": "Sylveplume",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/61/61027f41783cd8bc2a0a1df152ca466959461f7b.png?n7.55"
           },
           {
             "name": "Petalodus",
@@ -53157,6 +53161,10 @@
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/03/030f58fd1eb3899093f480eb9e52b2ca5ce234d9.png?n7.55"
           },
           {
+            "name": "Fafnir mécanique",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/38/38540fed3d722149f24f5a88d537837c9f620e14.png?n7.55"
+          },
+          {
             "name": "Prince d'Anemos",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/3f/3f960f0a775a654cba64a4929442c4f110fec772.png?n7.55"
           },
@@ -53507,6 +53515,10 @@
           {
             "name": "Findingway",
             "icon": "https://lds-img.finalfantasyxiv.com/itemicon/7c/7cf14ccede6a3036e7faf57cd5ad7ff683bf7232.png?n7.55"
+          },
+          {
+            "name": "Yok Huy miniature",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/57/57158a9cda02de7f84deb1455cf66d99894c9f51.png?n7.55"
           },
           {
             "name": "Gobelin articulé",
@@ -54142,7 +54154,7 @@
             "abbr": "WHM",
             "name": "Mage blanc",
             "role": "healer",
-            "level": 92,
+            "level": 93,
             "icon": "https://lds-img.finalfantasyxiv.com/h/7/i20QvSPcSQTybykLZDbQCgPwMw.png"
           },
           {
@@ -54359,10 +54371,10 @@
           "icon": null
         },
         "lunule": {
-          "level": 27,
+          "level": 32,
           "icon": null
         },
-        "updatedAt": "2026-08-06T16:01:44.885Z"
+        "updatedAt": "2026-08-09T19:09:30.766Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
