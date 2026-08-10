@@ -891,9 +891,9 @@ function ffxivMiniJobsHtml(d) {
   const crafting = (d.jobs || []).filter(j => ['craft', 'gather'].includes(j.role));
   const miniJob = j => `<div class="ffxiv-mini-job" title="${esc(j.abbr)} · niveau ${j.level || 0}">${j.icon ? `<img src="${esc(j.icon)}" alt="${esc(j.abbr)}" onerror="ffxivMiniJobIconFallback(this, ${esc(JSON.stringify(j.abbr))})">` : `<span class="ffxiv-mini-job-fallback">${esc(j.abbr)}</span>`}<span>${j.level || '—'}</span></div>`;
   let special = '';
-  if (d.eureka) special += `<div class="ffxiv-mini-job" title="Eureka · niveau ${d.eureka.level}"><span class="ffxiv-mini-job-fallback" style="color:var(--go)">EU</span><span>${d.eureka.level}</span></div>`;
-  if (d.bozja) special += `<div class="ffxiv-mini-job" title="Bozja · niveau ${d.bozja.level}"><span class="ffxiv-mini-job-fallback" style="color:var(--go)">BZ</span><span>${d.bozja.level}</span></div>`;
-  if (d.lunule) special += `<div class="ffxiv-mini-job" title="Île de Lunule · niveau de savoir ${d.lunule.level}"><span class="ffxiv-mini-job-fallback" style="color:var(--go)">🌙</span><span>${d.lunule.level}</span></div>`;
+  if (d.eureka) special += `<div class="ffxiv-mini-job" title="Eureka · niveau ${d.eureka.level}">${d.eureka.icon ? `<img src="${esc(d.eureka.icon)}" alt="Eureka" onerror="ffxivMiniJobIconFallback(this, 'EU')">` : `<span class="ffxiv-mini-job-fallback" style="color:var(--go)">EU</span>`}<span>${d.eureka.level}</span></div>`;
+  if (d.bozja) special += `<div class="ffxiv-mini-job" title="Bozja · niveau ${d.bozja.level}">${d.bozja.icon ? `<img src="${esc(d.bozja.icon)}" alt="Bozja" onerror="ffxivMiniJobIconFallback(this, 'BZ')">` : `<span class="ffxiv-mini-job-fallback" style="color:var(--go)">BZ</span>`}<span>${d.bozja.level}</span></div>`;
+  if (d.lunule) special += `<div class="ffxiv-mini-job" title="Île de Lunule · niveau de savoir ${d.lunule.level}">${d.lunule.icon ? `<img src="${esc(d.lunule.icon)}" alt="Lunule" onerror="ffxivMiniJobIconFallback(this, '🌙')">` : `<span class="ffxiv-mini-job-fallback" style="color:var(--go)">🌙</span>`}<span>${d.lunule.level}</span></div>`;
   return `<div class="ffxiv-banner-jobs">
     <div class="ffxiv-banner-jobs-row">${combat.map(miniJob).join('')}</div>
     <div class="ffxiv-banner-jobs-row">${crafting.map(miniJob).join('')}${special}</div>
