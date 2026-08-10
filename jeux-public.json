@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T19:11:21.028Z",
+  "updatedAt": "2026-08-10T10:22:23.133Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -42234,7 +42234,7 @@
             "description": "Jouez une carte de salle à tous les niveaux d'une bataille.",
             "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/9136f4a403db3577c53a662b0f6d18cbd78e349f.jpg",
             "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/c4435b23c9633e66cf93fd770dff49270068e46d.jpg",
-            "earned": false
+            "earned": true
           },
           {
             "name": "Premier mais pas dernier",
@@ -43768,7 +43768,7 @@
             "name": "Finir le chapitre 10",
             "description": "Finir l'histoire du chapitre 10",
             "icon": null,
-            "earned": false
+            "earned": true
           },
           {
             "name": "Finir le chapotre 11",
@@ -46328,8 +46328,8 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1786300972",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1786300972",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1786354972",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1786354972",
           "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
@@ -46691,52 +46691,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -47091,52 +47091,52 @@
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "隠れメンター復帰しました話",
+              "name": "Mews",
               "date": null
             },
             {
@@ -47491,52 +47491,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -47891,52 +47891,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -48291,52 +48291,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -48691,52 +48691,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -49091,52 +49091,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -49491,52 +49491,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -49891,52 +49891,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -50291,52 +50291,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -50691,52 +50691,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -51091,52 +51091,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -51491,52 +51491,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -51891,52 +51891,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             },
             {
@@ -52291,52 +52291,52 @@
             },
             {
               "id": null,
-              "name": "黄金「みんなのために",
+              "name": "MomoCorp",
               "date": null
             },
             {
               "id": null,
-              "name": "Shoebox3",
+              "name": "Pews",
               "date": null
             },
             {
               "id": null,
-              "name": "Rose Knights",
+              "name": "Brakkas Big Boats",
               "date": null
             },
             {
               "id": null,
-              "name": "Gleaming Splendor",
+              "name": "Joe's Weekly Weekend, 8/8 - 8/10",
               "date": null
             },
             {
               "id": null,
-              "name": "Chocobro's",
+              "name": "辺獄4",
               "date": null
             },
             {
               "id": null,
-              "name": "Der Schattenbund",
+              "name": "Technal's Crosses",
               "date": null
             },
             {
               "id": null,
-              "name": "One Brain Cell",
+              "name": "夏季休暇凸│ナイトスタリオン│PW5 戦士用(撮影のみ)、召喚用│魔の塔(N)│諸々クエスト完！！",
               "date": null
             },
             {
               "id": null,
-              "name": "【P3最初から】絶エデン攻略メンバー募集@6",
+              "name": "Remiferia",
               "date": null
             },
             {
               "id": null,
-              "name": "Fourth Dawn",
+              "name": "13th S&P Solum Klang Festspiele『まる音ソロ演奏会』に行って来た！",
               "date": null
             },
             {
               "id": null,
-              "name": "House of Houses",
+              "name": "Mews",
               "date": null
             }
           ]
@@ -54363,18 +54363,18 @@
         ],
         "eureka": {
           "level": 32,
-          "icon": null
+          "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjgxLjkgLTk0OS42IDg0MC4wIDkwMC4xIj48ZyB0cmFuc2Zvcm09InNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMzY4LjI4MTI1IDYzOS42ODc1QzM2OC4zNDg4MzAwNzgxMjUxIDYwNy43NzY4OTg0Mzc1IDM1NS43MDM2NDQ1MzEyNSA1NzcuMTUzNTI5Mjk2ODc1IDMzMy4xNDEyMjQ2MDkzNzUgNTU0LjU4NzQ0MTQwNjI1QzMxMC41Nzg4MDI3MzQzNzUgNTMyLjAyMTM1NTQ2ODc1IDI3OS45NTc0ODgyODEyNSA1MTkuMzcxMTk3MjY1NjI0OSAyNDguMDQ2ODc1IDUxOS40MzM1OTM3NUMxODEuNDA2MjUgNTE5LjQzMzU5Mzc1IDEyNi45NTMxMjUgNTczLjA2NjQwNjI1IDEyNi45NTMxMjUgNjM5LjY4NzVDMTI3LjEwMzQ5MDgyMDMxMjUgNzA2LjUwMzM0OTYwOTM3NDkgMTgxLjIzMTAyNjE3MTg3NSA3NjAuNjMwODg0NzY1NjI1IDI0OC4wNDY4NzUgNzYwLjc4MTI1QzMxNC42NDg0Mzc1IDc2MC43NjE3MTg3NSAzNjguMjgxMjUgNzA2LjMyODEyNSAzNjguMjgxMjUgNjM5LjY4NzV6TTM2OC4yODEyNSAzNTguNTU0Njg3NUMzNjguMjgxMjUgMjkxLjkxNDA2MjUgMzE0LjY0ODQzNzUgMjM3LjQ2MDkzNzUgMjQ4LjAyNzM0Mzc1IDIzNy40NjA5Mzc1QzE4MS4yMTE0OTQ5MjE4NzUgMjM3LjYxMTMwMjczNDM3NTEgMTI3LjA4Mzk1OTU3MDMxMjUgMjkxLjczODgzNzg5MDYyNTEgMTI2LjkzMzU5Mzc1IDM1OC41NTQ2ODc1QzEyNi45MzM1OTM3NSA0MjUuMTc1NzgxMjUgMTgxLjM2NzE4NzUgNDc4LjgwODU5Mzc1IDI0OC4wMjczNDM3NSA0NzguODA4NTkzNzVDMjc5Ljk0MTMzNzg5MDYyNSA0NzguODc2MTkxNDA2MjUwMSAzMTAuNTY3NjgxNjQwNjI1IDQ2Ni4yMjgzMjgxMjUwMDAxIDMzMy4xMzQzMzIwMzEyNSA0NDMuNjYxNjc1NzgxMjUwMUMzNTUuNzAwOTg0Mzc1IDQyMS4wOTUwMjUzOTA2MjUxIDM2OC4zNDg4NDc2NTYyNSAzOTAuNDY4NjgxNjQwNjI1IDM2OC4yODEyNSAzNTguNTU0Njg3NUwzNjguMjgxMjUgMzU4LjU1NDY4NzV6TTYxOC41NTQ2ODc1IDc4My41MTU2MjVDNjE4LjU1NDY4NzUgNzE2Ljg5NDUzMTI1IDU2NC4xMjEwOTM3NSA2NjMuMjYxNzE4NzUgNDk3LjQ2MDkzNzUgNjYzLjI2MTcxODc1QzQ2NS41NDY5NDMzNTkzNzUgNjYzLjE5NDEyMTA5Mzc1IDQzNC45MjA1OTk2MDkzNzUgNjc1Ljg0MTk4NDM3NSA0MTIuMzUzOTQ5MjE4NzUgNjk4LjQwODYzNjcxODc0OTlDMzg5Ljc4NzI5Njg3NTAwMDEgNzIwLjk3NTI4NzEwOTM3NDkgMzc3LjEzOTQzMzU5Mzc1MDEgNzUxLjYwMTYzMDg1OTM3NTEgMzc3LjIwNzAzMTI1IDc4My41MTU2MjVDMzc3LjIwNzAzMTI1IDg1MC4xNTYyNSA0MzAuODM5ODQzNzUgOTA0LjYwOTM3NSA0OTcuNDYwOTM3NSA5MDQuNjA5Mzc1QzU2NC4yNzY3ODcxMDkzNzUgOTA0LjQ1OTAwOTE3OTY4NzcgNjE4LjQwNDMyMjI2NTYyNTEgODUwLjMzMTQ3MzgyODEyNSA2MTguNTU0Njg3NSA3ODMuNTE1NjI1ek02MTguNTU0Njg3NSAyMTQuNzI2NTYyNUM2MTguNTU0Njg3NSAxNDguOTA2MjUgNTY0LjEyMTA5Mzc1IDk0LjQ3MjY1NjI1IDQ5Ny40NjA5Mzc1IDk0LjQ3MjY1NjI1QzQzMC44MDA3ODEyNSA5NC40NzI2NTYyNSAzNzcuMjA3MDMxMjUgMTM5Ljk2MDkzNzUgMzc3LjIwNzAzMTI1IDIwNS44MDA3ODEyNUMzNzcuMjA3MDMxMjUgMjcyLjQ0MTQwNjI1IDQzMC44Mzk4NDM3NSAzMzUgNDk3LjQ2MDkzNzUgMzM1QzU2NC4wODIwMzEyNSAzMzUgNjE4LjU1NDY4NzUgMjgxLjI1IDYxOC41NTQ2ODc1IDIxNC43MjY1NjI1TDYxOC41NTQ2ODc1IDIxNC43MjY1NjI1ek04NzYuOTUzMTI1IDYzOS42ODc1Qzg3Ni45NTMxMjUgNTczLjA2NjQwNjI1IDgyMi41MTk1MzEyNSA1MTkuNDMzNTkzNzUgNzU1Ljg1OTM3NSA1MTkuNDMzNTkzNzVDNzIzLjk0NTM4MDg1OTM3NSA1MTkuMzY1OTk2MDkzNzUgNjkzLjMxOTAzNzEwOTM3NSA1MzIuMDEzODU5Mzc1IDY3MC43NTIzODY3MTg3NSA1NTQuNTgwNTExNzE4NzVDNjQ4LjE4NTczNDM3NSA1NzcuMTQ3MTYyMTA5Mzc1IDYzNS41Mzc4NzEwOTM3NSA2MDcuNzczNTA1ODU5Mzc1MSA2MzUuNjA1NDY4NzUgNjM5LjY4NzVDNjM1LjYwNTQ2ODc1IDcwNi4zMjgxMjUgNjg5LjIzODI4MTI1IDc2MC43ODEyNSA3NTUuODU5Mzc1IDc2MC43ODEyNUM4MjIuNjc1MjI0NjA5Mzc1IDc2MC42MzA4ODQ3NjU2MjUgODc2LjgwMjc1OTc2NTYyNTEgNzA2LjUwMzM0OTYwOTM3NDkgODc2Ljk1MzEyNSA2MzkuNjg3NXpNODc2Ljk1MzEyNSAzNTguNTU0Njg3NUM4NzYuODAyNzU5NzY1NjI1MSAyOTEuNzM4ODM3ODkwNjI1MSA4MjIuNjc1MjI0NjA5Mzc1IDIzNy42MTEzMDI3MzQzNzUxIDc1NS44NTkzNzUgMjM3LjQ2MDkzNzVDNjg5LjIzODI4MTI1IDIzNy40NjA5Mzc1IDYzNS42MDU0Njg3NSAyOTEuODk0NTMxMjUgNjM1LjYwNTQ2ODc1IDM1OC41NTQ2ODc1QzYzNS41Mzc4NzEwOTM3NSAzOTAuNDY4NjgxNjQwNjI1IDY0OC4xODU3MzQzNzUgNDIxLjA5NTAyNTM5MDYyNTEgNjcwLjc1MjM4NjcxODc1IDQ0My42NjE2NzU3ODEyNTAxQzY5My4zMTkwMzcxMDkzNzUgNDY2LjIyODMyODEyNTAwMDEgNzIzLjk0NTM4MDg1OTM3NSA0NzguODc2MTkxNDA2MjUwMSA3NTUuODU5Mzc1IDQ3OC44MDg1OTM3NUM4MjIuNTE5NTMxMjUgNDc4LjgwODU5Mzc1IDg3Ni45NTMxMjUgNDI1LjE3NTc4MTI1IDg3Ni45NTMxMjUgMzU4LjU1NDY4NzVMODc2Ljk1MzEyNSAzNTguNTU0Njg3NXoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
         "bozja": {
           "level": 18,
           "mettle": "Points de faits d'armes : 3 606 895 / Niveau suivant : 4 435 000",
-          "icon": null
+          "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjQ1LjAgLTk1NS4wIDkxMC4wIDkzNi45Ij48ZyB0cmFuc2Zvcm09InNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMTQ2LjU4MjAzMTI1IDU3Mi4zMjQyMTg3NUMxNjUuMTg2MTMyODEyNSA1MjEuOTg4MjgxMjUgMTg4LjU4MTI1IDQ3My41NTY2NDA2MjUgMjE2LjQ0NTMxMjUgNDI3LjY5NTMxMjVIOTMuNzVWNTcyLjMyNDIxODc1SDE0Ni41ODIwMzEyNXpNNTcyLjI2NTYyNSAyMTkuNzA3MDMxMjVWMjE2LjQyNTc4MTI1QzY0MC41MDc4MTI1IDE3Ny4zNjMyODEyNSA3MDAuNjQ0NTMxMjUgMTY2Ljg3NSA3MzcuMTg3NSAxOTQuNTExNzE4NzVDNzYzLjIwMzEyNSAyMTQuODA0Njg3NSA3NzIuOTQ5MjE4NzUgMjUzLjEwNTQ2ODc1IDc2Ny4yNjU2MjUgMzAwLjk1NzAzMTI1Qzc4NC4xODE2NDA2MjUgMzIzLjcyNjU2MjUgNzk4LjExMTMyODEyNSAzNDguNTcyMjY1NjI1IDgwOC43MTA5Mzc1IDM3NC44ODI4MTI1Qzg0Ni44NzUgMjYxLjk1MzEyNSA4NDIuMDExNzE4NzUgMTY2Ljg3NSA3ODUuOTU3MDMxMjUgMTIyLjkyOTY4NzVDNzEzLjY5MTQwNjI1IDY2Ljg1NTQ2ODc1IDU3OC43NSAxMTIuMzQzNzUgNDQ4Ljc1IDIyNS4yOTI5Njg3NVYyMjYuMDkzNzVDNDM4LjIwMzEyNSAyMzUuMDE5NTMxMjUgNDI4LjQzNzUgMjQzLjk4NDM3NSA0MTcuODkwNjI1IDI1My43MTA5Mzc1VjI1NC41NTA3ODEyNUM0MDcuMzQzNzUgMjY0LjMxNjQwNjI1IDM5Ny41NzgxMjUgMjc0LjA4MjAzMTI1IDM4Ny44MzIwMzEyNSAyODQuNjA5Mzc1QzM4Ny43MjY1NjI1IDI4NC42MDc0MjE4NzUgMzg3LjYyMTA5Mzc1IDI4NC42MjUgMzg3LjUyMTQ4NDM3NSAyODQuNjY0MDYyNUMzODcuNDIzODI4MTI1IDI4NC43MDUwNzgxMjUgMzg3LjMzMzk4NDM3NSAyODQuNzYzNjcxODc1IDM4Ny4yNTk3NjU2MjUgMjg0LjgzNzg5MDYyNUMzODcuMTg1NTQ2ODc1IDI4NC45MTIxMDkzNzUgMzg3LjEyNjk1MzEyNSAyODUuMDAxOTUzMTI1IDM4Ny4wODU5Mzc1IDI4NS4wOTk2MDkzNzVDMzg3LjA0Njg3NSAyODUuMTk5MjE4NzUgMzg3LjAyOTI5Njg3NSAyODUuMzA0Njg3NSAzODcuMDMxMjUgMjg1LjQxMDE1NjI1QzM2Ny41IDMwNi41NDI5Njg3NSAzNDcuMjA3MDMxMjUgMzI5LjI5Njg3NSAzMjguNDM3NSAzNTMuNjUyMzQzNzVDMzIxLjk1MzEyNSAzNjEuNzc3MzQzNzUgMzE1LjQyOTY4NzUgMzcwLjcwMzEyNSAzMDguOTA2MjUgMzc4Ljg0NzY1NjI1QzMwOC4wODU5Mzc1IDM4MC40Njg3NSAzMDcuMjY1NjI1IDM4Mi4wODk4NDM3NSAzMDYuNDY0ODQzNzUgMzgzLjcxMDkzNzVDMjkzLjQ1NzAzMTI1IDQwMC43ODEyNSAyODIuMDg5ODQzNzUgNDE3Ljg1MTU2MjUgMjcwLjcwMzEyNSA0MzUuNzAzMTI1QzI3MC43MDMxMjUgNDM2LjU0Mjk2ODc1IDI2OS45MjE4NzUgNDM2LjU0Mjk2ODc1IDI2OS45MjE4NzUgNDM3LjMyNDIxODc1QzE1OS41NzAzMTI1IDYxNC41NzAzMTI1IDEzMi44MTI1IDc4OS4yNTc4MTI1IDIxNC4wMjM0Mzc1IDg1My40MTc5Njg3NUMyNTQuNjQ4NDM3NSA4ODUuMTE3MTg3NSAzMTUuNTg1OTM3NSA4ODQuMzE2NDA2MjUgMzgzLjgwODU5Mzc1IDg1Ni42OTkyMTg3NVY4MTIuNzkyOTY4NzVDMzc0Ljg4MjgxMjUgODA4Ljc2OTUzMTI1IDM2NS4xMTcxODc1IDgwNC42ODc1IDM1Ni4xOTE0MDYyNSA4MDAuNjI1QzMyMi4wODk4NDM3NSA4MDcuOTI5Njg3NSAyOTMuNjkxNDA2MjUgODA0LjY4NzUgMjcyLjUgNzg4LjQxNzk2ODc1QzI0MC4wMTk1MzEyNSA3NjMuMjQyMTg3NSAyMzMuNDM3NSA3MTAuNDI5Njg3NSAyNDguOTQ1MzEyNSA2NDQuNjI4OTA2MjVDMjY4LjE2MjEwOTM3NSA2NzguMDQ4ODI4MTI1IDI5My44ODQ3NjU2MjUgNzA3LjI3NzM0Mzc1IDMyNC41OTU3MDMxMjUgNzMwLjU4MjAzMTI1QzM1NS4zMDQ2ODc1IDc1My44ODg2NzE4NzUgMzkwLjM3NSA3NzAuNzk4ODI4MTI1IDQyNy43MzQzNzUgNzgwLjMxMjVWOTA2LjI1SDU3Mi4yNjU2MjVWNzgwLjMxMjVDNjIyLjQwODIwMzEyNSA3NjcuNDg4MjgxMjUgNjY4LjE3OTY4NzUgNzQxLjQxMjEwOTM3NSA3MDQuNzgzMjAzMTI1IDcwNC44MjAzMTI1Qzc0MS4zODQ3NjU2MjUgNjY4LjIyNjU2MjUgNzY3LjQ3MjY1NjI1IDYyMi40NjI4OTA2MjUgNzgwLjMxMjUgNTcyLjMyNDIxODc1SDkwNi4yNVY0MjcuNjk1MzEyNUg3ODAuMzEyNUM3NjcuNjAzNTE1NjI1IDM3Ny40OTIxODc1IDc0MS41NTg1OTM3NSAzMzEuNjYwMTU2MjUgNzA0LjkzNTU0Njg3NSAyOTUuMDQ2ODc1QzY2OC4zMTI1IDI1OC40MzM1OTM3NSA2MjIuNDcyNjU2MjUgMjMyLjQwMjM0Mzc1IDU3Mi4yNjU2MjUgMjE5LjcwNzAzMTI1ek0zODMuODA4NTkzNzUgNTcyLjMyNDIxODc1VjQyNy42OTUzMTI1SDM1My43NUMzNjEuODc1IDQxNi4zMjgxMjUgMzcwLjAxOTUzMTI1IDQwNC45NDE0MDYyNSAzNzguOTQ1MzEyNSAzOTMuNTc0MjE4NzVDMzk0LjEzMjgxMjUgMzczLjQ0NzI2NTYyNSA0MTAuNDM1NTQ2ODc1IDM1NC4xODU1NDY4NzUgNDI3Ljc3MzQzNzUgMzM1Ljg3ODkwNjI1VjM4My44MDg1OTM3NUg1NzIuMzA0Njg3NVYzMTAuNzAzMTI1QzU5OC45Mzk0NTMxMjUgMzIwLjg3MzA0Njg3NSA2MjMuMTI4OTA2MjUgMzM2LjU1MDc4MTI1IDY0My4yODkwNjI1IDM1Ni43MTA5Mzc1QzY2My40NDkyMTg3NSAzNzYuODcxMDkzNzUgNjc5LjEyNjk1MzEyNSA0MDEuMDYwNTQ2ODc1IDY4OS4yOTY4NzUgNDI3LjY5NTMxMjVINjE2LjE5MTQwNjI1VjU3Mi4zMjQyMTg3NUg2ODkuMzE2NDA2MjVDNjc5LjE0NjQ4NDM3NSA1OTguOTU4OTg0Mzc1IDY2My40Njg3NSA2MjMuMTQ4NDM3NSA2NDMuMzA4NTkzNzUgNjQzLjMwODU5Mzc1QzYyMy4xNDg0Mzc1IDY2My40Njg3NSA1OTguOTU4OTg0Mzc1IDY3OS4xNDY0ODQzNzUgNTcyLjMyNDIxODc1IDY4OS4zMTY0MDYyNVY2MTYuMTkxNDA2MjVINDI3LjczNDM3NVY2ODkuMzE2NDA2MjVDNDAxLjA5NTcwMzEyNSA2NzkuMTUwMzkwNjI1IDM3Ni45MDIzNDM3NSA2NjMuNDcyNjU2MjUgMzU2LjczODI4MTI1IDY0My4zMTI1QzMzNi41NzQyMTg3NSA2MjMuMTUyMzQzNzUgMzIwLjg5NDUzMTI1IDU5OC45NjI4OTA2MjUgMzEwLjcyMjY1NjI1IDU3Mi4zMjQyMTg3NUgzODMuODA4NTkzNzV6TTQyNy43MzQzNzUgMTc5LjA4MjAzMTI1QzQ2OC4zMzk4NDM3NSAxNDQuMTIxMDkzNzUgNTA5Ljc2NTYyNSAxMTUuNzAzMTI1IDU0OS41ODk4NDM3NSA5NC41NzAzMTI1SDQyNy43MzQzNzVWMTc5LjA4MjAzMTI1eiIgZmlsbD0iI0U4Qjg0RCIvPjwvZz48L3N2Zz4="
         },
         "lunule": {
           "level": 32,
-          "icon": null
+          "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-08-09T19:09:30.766Z"
+        "updatedAt": "2026-08-10T10:21:06.546Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
