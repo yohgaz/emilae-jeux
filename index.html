@@ -154,6 +154,49 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-section-head{font-weight:900;font-size:13px;color:var(--cy);margin-bottom:10px}
 .jeu-detail-ach-grid{display:flex;flex-direction:column;gap:8px}
 
+/* ── Explorateur de succès par catégorie/liste (FFXIV) ── */
+.ach-explorer{display:flex;flex-direction:column;gap:16px}
+.ach-explorer-recent-title{font-size:13px;font-weight:800;color:var(--mu);text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+.ach-explorer-recent-row{display:flex;gap:10px;overflow:hidden;justify-content:center}
+.ach-explorer-recent-item{flex:0 0 auto;width:190px;display:flex;gap:10px;align-items:center;background:rgba(255,255,255,.03);border:1px solid var(--glass-border);border-radius:12px;padding:10px 12px;cursor:pointer;transition:border-color .15s,background .15s}
+.ach-explorer-recent-item:hover{background:rgba(255,255,255,.06);border-color:var(--go)}
+.ach-explorer-recent-icon{font-size:24px;flex-shrink:0}
+.ach-explorer-recent-icon-img{width:34px;height:34px;border-radius:9px;object-fit:cover;flex-shrink:0;border:1px solid var(--glass-border);background:rgba(255,255,255,.04)}
+.ach-explorer-recent-name{font-size:12.5px;font-weight:800;color:var(--tx);line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ach-explorer-recent-date{font-size:11px;color:var(--mu);margin-top:2px}
+.ach-explorer-columns{display:grid;gap:12px;height:540px}
+.ach-explorer-col{background:rgba(255,255,255,.025);border:1px solid var(--glass-border);border-radius:var(--radius-md);overflow-y:auto;min-height:0;padding:6px}
+.ach-explorer-col,.jeu-detail-feed{scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.18) transparent}
+.ach-explorer-col::-webkit-scrollbar,.jeu-detail-feed::-webkit-scrollbar{width:8px}
+.ach-explorer-col::-webkit-scrollbar-track,.jeu-detail-feed::-webkit-scrollbar-track{background:transparent}
+.ach-explorer-col::-webkit-scrollbar-thumb,.jeu-detail-feed::-webkit-scrollbar-thumb{background:rgba(255,255,255,.18);border-radius:999px;border:2px solid transparent;background-clip:padding-box}
+.ach-explorer-col::-webkit-scrollbar-thumb:hover,.jeu-detail-feed::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.32);background-clip:padding-box}
+.ach-explorer-col-item{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:9px;cursor:pointer;transition:background .12s;margin-bottom:2px}
+.ach-explorer-col-item:hover{background:rgba(255,255,255,.05)}
+.ach-explorer-col-item.active{background:rgba(232,184,77,.16);border:1px solid rgba(232,184,77,.45)}
+.ach-explorer-col-item-icon{font-size:18px;flex-shrink:0}
+.ach-explorer-col-item-name{font-size:12.5px;font-weight:700;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ach-explorer-col-item-bar{height:4px;border-radius:999px;background:rgba(255,255,255,.12);overflow:hidden;margin-top:5px}
+.ach-explorer-col-item-bar-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--go),var(--mt))}
+.ach-explorer-col-item-count{font-size:10.5px;color:var(--mu);font-family:monospace;flex-shrink:0}
+.ach-explorer-col-list{padding:4px}
+.ach-explorer-ach-row{display:flex;gap:12px;align-items:flex-start;padding:11px 10px;border-bottom:1px solid rgba(255,255,255,.05)}
+.ach-explorer-ach-row:last-child{border-bottom:none}
+.ach-explorer-ach-row.locked{opacity:.55}
+.ach-explorer-ach-badge{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;margin-top:1px}
+.ach-explorer-ach-badge.earned{background:rgba(111,218,154,.18);color:var(--mt);border:1px solid rgba(111,218,154,.4)}
+.ach-explorer-ach-badge.locked{background:rgba(255,255,255,.05);color:var(--mu);border:1px solid var(--glass-border)}
+.ach-explorer-ach-icon-wrap{position:relative;width:36px;height:36px;flex-shrink:0;margin-top:1px}
+.ach-explorer-ach-icon{width:100%;height:100%;border-radius:9px;object-fit:cover;border:1px solid var(--glass-border);display:block;background:rgba(255,255,255,.04)}
+.ach-explorer-ach-icon-badge{position:absolute;bottom:-4px;right:-4px;width:17px;height:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;border:2px solid #14161F}
+.ach-explorer-ach-icon-badge.earned{background:var(--mt);color:#0B2410}
+.ach-explorer-ach-icon-badge.locked{background:#4a4d57;color:#ddd}
+.ach-explorer-ach-name{font-size:13px;font-weight:800;color:var(--tx)}
+.ach-explorer-ach-points{font-size:11px;font-weight:800;color:var(--go);font-family:monospace;margin-left:6px}
+.ach-explorer-ach-desc{font-size:12px;color:var(--mu);margin-top:3px;line-height:1.4}
+.ach-explorer-ach-date{font-size:11px;color:var(--mt);margin-top:3px}
+@media (max-width:900px){.ach-explorer-columns{grid-template-columns:1fr !important;height:auto}.ach-explorer-col{max-height:260px}}
+
 /* ── Grille de cartes cliquables pour les trophées PSN par extension ── */
 .psn-group-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
 .psn-group-card{position:relative;border-radius:var(--radius-md);overflow:hidden;cursor:pointer;border:1px solid var(--glass-border);aspect-ratio:1/1;background:var(--c2);transition:transform .15s,border-color .15s}
@@ -938,13 +981,133 @@ function ffxivCollectHtml(list, emptyLabel) {
     : `<div class="jeu-detail-empty">${emptyLabel}</div>`;
 }
 
+// ── Explorateur de succès par catégorie/liste — même composant que le
+// panneau local (voir achievementExplorerHtml dans tasks-editor.html) :
+// remplace le mur de vignettes/liste plate des seuls récemment obtenus par
+// une vraie navigation par catégorie, obtenus ET non obtenus, avec une
+// ligne des derniers débloqués au-dessus. FFXIV n'a que 2 colonnes
+// (catégorie/liste) : pas de vraie sous-catégorie côté Lodestone.
+const FFXIV_CATEGORY_ICON = {
+  'Combats': '⚔️', 'JcJ': '🚩', 'Personnage': '🧑', 'Objets': '🎒',
+  'Synthèse et récolte': '🛠️', 'Quêtes': '📜', 'Exploration': '🧭', 'Grandes compagnies': '🎖️'
+};
+function achExplorerCategoryIcon(name) { return FFXIV_CATEGORY_ICON[name] || '📖'; }
+function jsStr(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'"); }
+
+let _achExplorer = { achievements: [], groups: [], catId: null };
+function achievementExplorerHtml(achievements, groups) {
+  if (!achievements || !achievements.length) return `<div class="jeux-empty">Aucune donnée disponible.</div>`;
+  const groupList = (groups && groups.length) ? groups : [{ id: 'default', name: 'Hauts faits' }];
+  _achExplorer = { achievements, groups: groupList, catId: groupList[0].id };
+  requestAnimationFrame(fitAchExplorerRecentRow);
+  return `<div class="ach-explorer">${achExplorerRecentHtml()}<div id="ach-explorer-columns">${achExplorerColumnsHtml()}</div></div>`;
+}
+function fitAchExplorerRecentRow() {
+  const row = document.querySelector('.ach-explorer-recent-row');
+  if (!row || !row.children.length) return;
+  const ITEM_WIDTH = 190, GAP = 10;
+  const fitCount = Math.max(1, Math.floor((row.clientWidth + GAP) / (ITEM_WIDTH + GAP)));
+  Array.from(row.children).slice(fitCount).forEach(el => el.remove());
+}
+function findAchExplorerGroupName(groupId) {
+  const g = _achExplorer.groups.find(x => x.id === groupId);
+  return g ? g.name : '';
+}
+function achExplorerRecentHtml() {
+  const recent = _achExplorer.achievements
+    .filter(a => a.earned && a.date)
+    .sort((a, b) => (b.date || 0) - (a.date || 0))
+    .slice(0, 20);
+  if (!recent.length) return '';
+  return `<div class="ach-explorer-recent">
+    <div class="ach-explorer-recent-title">🕐 Derniers succès débloqués</div>
+    <div class="ach-explorer-recent-row">${recent.map(a => `
+      <div class="ach-explorer-recent-item" onclick="achExplorerJumpTo('${jsStr(a.groupId || 'default')}')">
+        ${a.icon
+          ? `<img class="ach-explorer-recent-icon-img" src="${esc(a.icon)}" alt="" onerror="this.outerHTML='<div class=&quot;ach-explorer-recent-icon&quot;>${achExplorerCategoryIcon(findAchExplorerGroupName(a.groupId))}</div>'">`
+          : `<div class="ach-explorer-recent-icon">${achExplorerCategoryIcon(findAchExplorerGroupName(a.groupId))}</div>`}
+        <div style="min-width:0">
+          <div class="ach-explorer-recent-name">${esc(a.name)}</div>
+          <div class="ach-explorer-recent-date">${new Date(a.date).toLocaleDateString('fr-FR')}</div>
+        </div>
+      </div>`).join('')}</div>
+  </div>`;
+}
+function achExplorerJumpTo(catId) {
+  _achExplorer.catId = catId;
+  const box = document.getElementById('ach-explorer-columns');
+  if (box) box.innerHTML = achExplorerColumnsHtml();
+}
+function achExplorerCategoryList() {
+  return _achExplorer.groups.map(g => {
+    const items = _achExplorer.achievements.filter(a => (a.groupId || 'default') === g.id);
+    return { id: g.id, name: g.name, count: items.length, earned: items.filter(a => a.earned).length };
+  }).filter(c => c.count > 0);
+}
+function achExplorerAchievementList() {
+  return _achExplorer.achievements.filter(a => (a.groupId || 'default') === _achExplorer.catId);
+}
+function achExplorerColHtml(items, activeId) {
+  return items.map(it => {
+    const pct = it.count ? Math.round(it.earned / it.count * 100) : 0;
+    return `<div class="ach-explorer-col-item ${it.id === activeId ? 'active' : ''}" onclick="selectAchExplorerCat('${jsStr(it.id)}')">
+      <span class="ach-explorer-col-item-icon">${achExplorerCategoryIcon(it.name)}</span>
+      <div style="flex:1;min-width:0">
+        <div class="ach-explorer-col-item-name">${esc(it.name)}</div>
+        <div class="ach-explorer-col-item-bar"><div class="ach-explorer-col-item-bar-fill" style="width:${pct}%"></div></div>
+      </div>
+      <span class="ach-explorer-col-item-count">${it.earned}/${it.count}</span>
+    </div>`;
+  }).join('');
+}
+function achExplorerColumnsHtml() {
+  const cats = achExplorerCategoryList();
+  const list = achExplorerAchievementList();
+  return `<div class="ach-explorer-columns" style="grid-template-columns:240px 1fr">
+    <div class="ach-explorer-col">${achExplorerColHtml(cats, _achExplorer.catId)}</div>
+    <div class="ach-explorer-col ach-explorer-col-list">${achExplorerAchievementListHtml(list)}</div>
+  </div>`;
+}
+function achExplorerAchievementListHtml(list) {
+  if (!list.length) return `<div class="jeux-empty">Aucun succès dans cette catégorie.</div>`;
+  const sorted = list.slice().sort((a, b) => (b.earned ? 1 : 0) - (a.earned ? 1 : 0));
+  return sorted.map(a => {
+    const iconHtml = a.icon
+      ? `<div class="ach-explorer-ach-icon-wrap">
+          <img class="ach-explorer-ach-icon" src="${esc(a.icon)}" alt="" onerror="this.parentElement.outerHTML='<div class=&quot;ach-explorer-ach-badge ${a.earned ? 'earned' : 'locked'}&quot;>${a.earned ? '✓' : '🔒'}</div>'">
+          <span class="ach-explorer-ach-icon-badge ${a.earned ? 'earned' : 'locked'}">${a.earned ? '✓' : '🔒'}</span>
+        </div>`
+      : `<div class="ach-explorer-ach-badge ${a.earned ? 'earned' : 'locked'}">${a.earned ? '✓' : '🔒'}</div>`;
+    return `
+    <div class="ach-explorer-ach-row ${a.earned ? 'earned' : 'locked'}">
+      ${iconHtml}
+      <div style="flex:1;min-width:0">
+        <div class="ach-explorer-ach-name">${esc(a.name)}${a.points ? `<span class="ach-explorer-ach-points">${a.points} pts</span>` : ''}</div>
+        ${a.description ? `<div class="ach-explorer-ach-desc">${esc(a.description)}</div>` : ''}
+        ${a.earned && a.date ? `<div class="ach-explorer-ach-date">Obtenu le ${new Date(a.date).toLocaleDateString('fr-FR')}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+function selectAchExplorerCat(catId) {
+  _achExplorer.catId = catId;
+  document.getElementById('ach-explorer-columns').innerHTML = achExplorerColumnsHtml();
+}
+
 function renderFfxivAchievements() {
   const section = document.getElementById('ffxiv-hf-section');
   if (!section || !_ffxivCurrentData) return;
   const a = _ffxivCurrentData.achievements || {};
-  _ffxivHfList = (a.recent || []).slice().sort((x, y) => (y.date || 0) - (x.date || 0));
   const head = `<div class="jeu-detail-section-head">🏆 Hauts faits${a.earned !== null && a.earned !== undefined ? ` — ${a.earned}${a.total ? ` / ~${a.total}` : ''}` : ''}${a.points ? ` · ${esc(a.points)}` : ''}</div>`;
-  section.innerHTML = `${head}<input type="text" class="ffxiv-hf-search" placeholder="Rechercher un haut fait..." oninput="filterFfxivHf(this.value)"><div id="ffxiv-hf-list">${ffxivHfRowsHtml(_ffxivHfList)}</div>`;
+  if (a.categories && a.categories.length) {
+    const flat = [];
+    a.categories.forEach(c => c.achievements.forEach(x => flat.push({ ...x, groupId: c.id })));
+    const groups = a.categories.map(c => ({ id: c.id, name: c.name }));
+    section.innerHTML = head + achievementExplorerHtml(flat, groups);
+  } else {
+    _ffxivHfList = (a.recent || []).slice().sort((x, y) => (y.date || 0) - (x.date || 0));
+    section.innerHTML = `${head}<input type="text" class="ffxiv-hf-search" placeholder="Rechercher un haut fait..." oninput="filterFfxivHf(this.value)"><div id="ffxiv-hf-list">${ffxivHfRowsHtml(_ffxivHfList)}</div>`;
+  }
 }
 function ffxivHfRowsHtml(list) {
   return list.length
