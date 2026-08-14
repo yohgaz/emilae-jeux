@@ -2042,7 +2042,6 @@
       "plateformes": [
         "PlayStation",
         "PC",
-        "Xbox",
         "Switch 2"
       ],
       "steamAppId": null,
@@ -2051,31 +2050,26 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 136,
-            "total": 187
+            "earned": 0,
+            "total": 0
           },
           "argent": {
-            "earned": 19,
-            "total": 55
+            "earned": 0,
+            "total": 0
           },
           "or": {
             "earned": 0,
-            "total": 4
+            "total": 0
           },
-          "platine": true,
-          "npCommunicationId": "NPWR23141_00",
-          "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png",
-          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/386fbcc7-15b3-44d4-8584-09bbbe9b149c.png"
+          "platine": false,
+          "npCommunicationId": null,
+          "npServiceName": null,
+          "icon": null,
+          "platinumIcon": null
         },
         "PC": {
           "earned": 0,
           "total": 0
-        },
-        "Xbox": {
-          "earned": 0,
-          "total": 0,
-          "titleId": null
         }
       },
       "type": "normal",
@@ -2084,6 +2078,20 @@
       "occasion": false,
       "jeuDuMoment": false,
       "fridayFantasy": true
+    },
+    {
+      "id": "1e78b51d-646c-4b59-9be1-355849e196fd",
+      "nom": "The Walking Dead",
+      "plateformes": [
+        "PC",
+        "PlayStation"
+      ],
+      "steamAppId": 207610,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j1g.jpg",
+      "progression": {},
+      "type": "normal",
+      "completion": ""
     }
   ]
 }
