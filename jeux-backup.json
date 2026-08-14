@@ -1781,6 +1781,43 @@
         }
       },
       "annee": null
+    },
+    {
+      "id": "1e78b51d-646c-4b59-9be1-355849e196fd",
+      "nom": "The Walking Dead",
+      "plateformes": [
+        "PlayStation",
+        "PC"
+      ],
+      "steamAppId": "207610",
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j1g.jpg",
+      "progression": {
+        "PlayStation": {
+          "bronze": {
+            "earned": 37,
+            "total": 37
+          },
+          "argent": {
+            "earned": 5,
+            "total": 5
+          },
+          "or": {
+            "earned": 6,
+            "total": 6
+          },
+          "platine": true,
+          "npCommunicationId": "NPWR05146_00",
+          "npServiceName": "trophy",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR05146_00_00A723C35DECB2CCE80E5206BEA7337C631EDDCB83/B4A26375E27C53AA6F1208019C58798EBD1EEBE5.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR05146_00_00A723C35DECB2CCE80E5206BEA7337C631EDDCB83/D0E76128603A23B115A3AF7B3868A3F2E6A6CA6A.PNG"
+        },
+        "PC": {
+          "earned": 0,
+          "total": 0
+        }
+      },
+      "annee": null
     }
   ],
   "enCours": [
@@ -2078,20 +2115,6 @@
       "occasion": false,
       "jeuDuMoment": false,
       "fridayFantasy": true
-    },
-    {
-      "id": "1e78b51d-646c-4b59-9be1-355849e196fd",
-      "nom": "The Walking Dead",
-      "plateformes": [
-        "PC",
-        "PlayStation"
-      ],
-      "steamAppId": 207610,
-      "igdbId": null,
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j1g.jpg",
-      "progression": {},
-      "type": "normal",
-      "completion": ""
     }
   ]
 }
