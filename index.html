@@ -125,6 +125,8 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-card-jeudumoment-ribbon{position:absolute;top:22px;left:-60px;z-index:4;width:185px;transform:rotate(-45deg);text-align:center;white-space:nowrap;background:linear-gradient(135deg,#0d9488,#0f5952);color:#fff;font-size:9.5px;font-weight:900;letter-spacing:.2px;padding:3px 0;box-shadow:0 3px 8px rgba(0,0,0,.5);text-transform:uppercase}
 .jeu-card-fridayfantasy-ribbon{position:absolute;top:27px;left:-67px;z-index:4;width:200px;transform:rotate(-45deg);text-align:center;white-space:nowrap;background:linear-gradient(135deg,#db2777,#831843);color:#fff;font-size:9.5px;font-weight:900;letter-spacing:.2px;padding:3px 0;box-shadow:0 3px 8px rgba(0,0,0,.5);text-transform:uppercase}
 .jeu-card-arrete{border:1px solid rgba(140,40,40,.5)!important}
+.jeu-card-exclu-youtube-ribbon{position:absolute;top:15px;left:-32px;z-index:4;width:130px;transform:rotate(-45deg);text-align:center;background:linear-gradient(135deg,#ff0000,#a30000);color:#fff;font-size:10px;font-weight:900;letter-spacing:.5px;padding:3px 0;box-shadow:0 3px 8px rgba(0,0,0,.5);text-transform:uppercase}
+.jeu-card-twitchvod-ribbon{position:absolute;top:15px;left:-32px;z-index:4;width:130px;transform:rotate(-45deg);text-align:center;background:linear-gradient(to top right,#9146FF,#ff0000);color:#fff;font-size:10px;font-weight:900;letter-spacing:.5px;padding:3px 0;box-shadow:0 3px 8px rgba(0,0,0,.5);text-transform:uppercase}
 
 /* ── Note (étoiles + points +/-) — affichage seul ici (site statique, sans
    backend pour enregistrer une modification) ; le clic déplie/replie
@@ -389,7 +391,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 </div>
 
 <script>
-let _jeuxData = { termines: [], enCours: [] };
+let _jeuxData = { termines: [], enCours: [], prochainement: [] };
 
 function esc(s) { return (s || '').toString().replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
 
@@ -607,7 +609,7 @@ function cardBadgesHtml(progression, switchAch) {
 async function loadJeux() {
   try {
     const r = await fetch('./jeux-public.json?t=' + Date.now()).then(r => r.json());
-    _jeuxData = { termines: r.termines || [], enCours: r.enCours || [] };
+    _jeuxData = { termines: r.termines || [], enCours: r.enCours || [], prochainement: r.prochainement || [] };
     if (r.updatedAt) {
       const d = new Date(r.updatedAt);
       document.getElementById('site-updated').textContent = 'Mis à jour le ' + d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) + ' à ' + d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
@@ -700,6 +702,29 @@ function jeuCardHtml(j, statut) {
   </div>`;
 }
 
+// Carte "Prochainement" — même habillage que jeuCardHtml (jaquette,
+// plateformes, ruban de diffusion) mais sans étoiles/barre de progression
+// (rien n'a encore été joué) ni clic (pas de fiche détail pour ces
+// intentions, juste une jaquette et un nom).
+function prochainementCardHtml(item) {
+  const hue = jeuHue(item.nom);
+  const ribbon = item.diffusion === 'exclu_youtube'
+    ? `<div class="jeu-card-exclu-youtube-ribbon">Exclu YouTube</div>`
+    : item.diffusion === 'twitch_vod'
+    ? `<div class="jeu-card-twitchvod-ribbon">Twitch &amp; VOD</div>`
+    : '';
+  return `<div class="jeu-card" style="cursor:default">
+    ${ribbon}
+    ${platBadgesHtml(item.plateformes, item.nom)}
+    <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))">${coverInnerHtml(item)}</div>
+    <div class="jeu-card-overlay">
+      <div class="jeu-card-text-col">
+        <div class="jeu-card-label">${esc(item.nom)}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
 function renderJeux() {
   const q = (document.getElementById('jeux-search')?.value || '').toLowerCase().trim();
   const body = document.getElementById('jeux-content');
@@ -715,6 +740,16 @@ function renderJeux() {
       <div class="jeux-grid">${list.map(j => jeuCardHtml(j, statut)).join('')}</div>
     </div>`;
   };
+
+  let prochainement = _jeuxData.prochainement || [];
+  if (q) prochainement = prochainement.filter(j => j.nom.toLowerCase().includes(q));
+  if (prochainement.length) {
+    any = true;
+    html += `<div class="jeux-section">
+      <div class="jeux-section-head"><span class="jeux-section-title">🔜 Prochainement en stream ou en vidéo</span><span class="jeux-section-badge">${prochainement.length}</span></div>
+      <div class="jeux-grid">${prochainement.map(prochainementCardHtml).join('')}</div>
+    </div>`;
+  }
 
   let enCours = _jeuxData.enCours;
   if (q) enCours = enCours.filter(j => j.nom.toLowerCase().includes(q));
