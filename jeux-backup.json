@@ -1296,18 +1296,6 @@
       "annee": null
     },
     {
-      "id": "1665bee43137419191fc061b037195d8",
-      "nom": "Xenoblade Chronicles 2_ Definitive Edition - Nintendo Switch 2 Edition",
-      "plateformes": [
-        "Switch 2"
-      ],
-      "steamAppId": null,
-      "igdbId": "26766",
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r2.jpg",
-      "progression": {},
-      "annee": null
-    },
-    {
       "id": "7fc8b63a-a36c-4ce3-9723-6118de65bdb0",
       "nom": "DRAGON QUEST XI: Echoes of an Elusive Age - Digital Edition of Light",
       "plateformes": [
@@ -1818,6 +1806,50 @@
         }
       },
       "annee": null
+    }
+  ],
+  "enCours": [
+    {
+      "id": "f3077d77-6299-40a3-a22e-20726872c562",
+      "nom": "Civilization VII",
+      "plateformes": [
+        "PlayStation",
+        "PC"
+      ],
+      "steamAppId": "1295660",
+      "igdbId": null,
+      "igdbCover": null,
+      "progression": {
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 8,
+            "total": 31
+          },
+          "or": {
+            "earned": 0,
+            "total": 1
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR29618_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29618_00/5adeddc9-26ad-4ede-8aad-95ae94209162.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29618_00/6d66c29c-b1eb-46e7-855a-b53c595de25c.png"
+        },
+        "PC": {
+          "earned": 11,
+          "total": 37
+        }
+      },
+      "type": "normal",
+      "completion": "Faire les succès liés au personnage.",
+      "arrete": false,
+      "occasion": true,
+      "jeuDuMoment": false,
+      "fridayFantasy": false
     },
     {
       "id": "fc091412e91c477d8068742b1a9fb047",
@@ -1900,105 +1932,6 @@
       "occasion": false
     },
     {
-      "id": "ae05645c-7520-4199-96ac-63c7e8e8a034",
-      "nom": "Tainted Grail: The Fall of Avalon",
-      "plateformes": [
-        "PC"
-      ],
-      "steamAppId": "1466060",
-      "igdbId": null,
-      "igdbCover": null,
-      "progression": {
-        "PC": {
-          "earned": 3,
-          "total": 65
-        }
-      },
-      "type": "normal",
-      "completion": "",
-      "arrete": true,
-      "occasion": false
-    },
-    {
-      "id": "706d6e20-59d8-4228-ba98-2d1d73c73fa2",
-      "nom": "DEATH STRANDING",
-      "plateformes": [
-        "PlayStation"
-      ],
-      "steamAppId": null,
-      "igdbId": null,
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobksf.jpg",
-      "progression": {
-        "PlayStation": {
-          "bronze": {
-            "earned": 27,
-            "total": 59
-          },
-          "argent": {
-            "earned": 0,
-            "total": 2
-          },
-          "or": {
-            "earned": 0,
-            "total": 1
-          },
-          "platine": false,
-          "npCommunicationId": "NPWR16225_00",
-          "npServiceName": "trophy",
-          "icon": "https://image.api.playstation.com/trophy/np/NPWR16225_00_006906B876F2390DAAF9A6AA80D6761A6F43F4F2E5/EB42A2C5A822DFD386DB457123C7EF1D08E5455A.PNG",
-          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR16225_00_006906B876F2390DAAF9A6AA80D6761A6F43F4F2E5/D6E57AC7A30D95EB1170593E90D28CDBB78FF7BF.PNG"
-        }
-      },
-      "type": "normal",
-      "completion": "",
-      "arrete": true,
-      "occasion": false
-    }
-  ],
-  "enCours": [
-    {
-      "id": "f3077d77-6299-40a3-a22e-20726872c562",
-      "nom": "Civilization VII",
-      "plateformes": [
-        "PlayStation",
-        "PC"
-      ],
-      "steamAppId": "1295660",
-      "igdbId": null,
-      "igdbCover": null,
-      "progression": {
-        "PlayStation": {
-          "bronze": {
-            "earned": 0,
-            "total": 0
-          },
-          "argent": {
-            "earned": 8,
-            "total": 31
-          },
-          "or": {
-            "earned": 0,
-            "total": 1
-          },
-          "platine": false,
-          "npCommunicationId": "NPWR29618_00",
-          "npServiceName": "trophy2",
-          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29618_00/5adeddc9-26ad-4ede-8aad-95ae94209162.png",
-          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29618_00/6d66c29c-b1eb-46e7-855a-b53c595de25c.png"
-        },
-        "PC": {
-          "earned": 11,
-          "total": 37
-        }
-      },
-      "type": "normal",
-      "completion": "Faire les succès liés au personnage.",
-      "arrete": false,
-      "occasion": true,
-      "jeuDuMoment": false,
-      "fridayFantasy": false
-    },
-    {
       "id": "6c691084-5299-49b7-9db3-7211f0d93b30",
       "nom": "Endless Legend 2",
       "plateformes": [
@@ -2039,6 +1972,26 @@
       "occasion": true
     },
     {
+      "id": "ae05645c-7520-4199-96ac-63c7e8e8a034",
+      "nom": "Tainted Grail: The Fall of Avalon",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": "1466060",
+      "igdbId": null,
+      "igdbCover": null,
+      "progression": {
+        "PC": {
+          "earned": 3,
+          "total": 65
+        }
+      },
+      "type": "normal",
+      "completion": "",
+      "arrete": true,
+      "occasion": false
+    },
+    {
       "id": "2b8aaea2-d0c9-43db-87cf-50b33d7750ec",
       "nom": "Slay the Spire 2",
       "plateformes": [
@@ -2057,6 +2010,41 @@
       "completion": "",
       "arrete": false,
       "occasion": true
+    },
+    {
+      "id": "706d6e20-59d8-4228-ba98-2d1d73c73fa2",
+      "nom": "DEATH STRANDING",
+      "plateformes": [
+        "PlayStation"
+      ],
+      "steamAppId": null,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobksf.jpg",
+      "progression": {
+        "PlayStation": {
+          "bronze": {
+            "earned": 27,
+            "total": 59
+          },
+          "argent": {
+            "earned": 0,
+            "total": 2
+          },
+          "or": {
+            "earned": 0,
+            "total": 1
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR16225_00",
+          "npServiceName": "trophy",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR16225_00_006906B876F2390DAAF9A6AA80D6761A6F43F4F2E5/EB42A2C5A822DFD386DB457123C7EF1D08E5455A.PNG",
+          "platinumIcon": "https://image.api.playstation.com/trophy/np/NPWR16225_00_006906B876F2390DAAF9A6AA80D6761A6F43F4F2E5/D6E57AC7A30D95EB1170593E90D28CDBB78FF7BF.PNG"
+        }
+      },
+      "type": "normal",
+      "completion": "",
+      "arrete": true,
+      "occasion": false
     },
     {
       "id": "86f034e74ff04e9bb8c97d58e26a1574",
