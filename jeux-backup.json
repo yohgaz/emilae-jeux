@@ -2105,19 +2105,6 @@
       "occasion": false,
       "jeuDuMoment": false,
       "fridayFantasy": true
-    },
-    {
-      "id": "97ceb691-3502-406c-ae9c-a2e932a7da0e",
-      "nom": "Xenoblade Chronicles 2: Nintendo Switch 2 Edition",
-      "plateformes": [
-        "Nintendo Switch"
-      ],
-      "steamAppId": null,
-      "igdbId": null,
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7mr.jpg",
-      "progression": {},
-      "type": "normal",
-      "completion": ""
     }
   ]
 }
