@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T16:45:29.789Z",
+  "updatedAt": "2026-08-21T17:42:01.514Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -6298,7 +6298,7 @@
           }
         ]
       },
-      "pitch": "As a deepening crisis threatens to plunge the floating world of Cocoon into chaos, a band of unsuspecting strangers find themselves branded enemies of the state. With the panicking population baying for their blood, and the military all too happy to oblige, they have no choice but to run for their lives. Join them on a desperate quest to challenge the forces controlling their fate, and prevent untold destruction.\n\nFeaturing an unforgettable storyline, a battle system blending action and strategy, cutting-edge visuals and awe-inspiring cinematic sequences, FINAL FANTASY XIII delivers the next step in the evolution of gaming.",
+      "pitch": "Final Fantasy XIII is a single-player Japanese role-playing game and the thirteenth main entry in the Final Fantasy series. Combat uses a real-time variant of the series' Active Time Battle system, in which the player directs one lead character while the Paradigm system lets the party switch between combat roles such as attacker, healer, and support. Character growth is handled through the Crystarium, a grid-based progression system that unlocks abilities and stat bonuses. Set across the floating world of Cocoon and the wilderness of Gran Pulse, the game combines science fiction and fantasy elements with series staples like summoned creatures and airships. It was followed by two sequels, Final Fantasy XIII-2 and Lightning Returns: Final Fantasy XIII.",
       "studios": [
         {
           "name": "Square Enix Product Development Division 1",
@@ -22449,7 +22449,7 @@
           }
         ]
       },
-      "pitch": "STAR OCEAN, the epic, sci-fi RPG saga that takes players to the stars and beyond, makes its triumphant return with its forthcoming fifth installment in the series. The title is developed by tri-Ace, the celebrated studio behind each of the previous iterations, with character designs by akiman (Akira Yasuda).",
+      "pitch": "A science-fiction action role-playing game and the fifth main entry in the Star Ocean series. Combat is real-time, letting the player control and switch between a party of up to seven characters, with cutscenes and battles designed to flow together without breaks. The game carries over series staples such as item creation and choices that shape how the story develops, including multiple endings.",
       "studios": [
         {
           "name": "tri-Ace",
@@ -49406,10 +49406,10 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1787330512",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1787330512",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1787332279",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1787332279",
           "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/7/i20QvSPcSQTybykLZDbQCgPwMw.png",
-          "activeJobLevel": 95,
+          "activeJobLevel": 96,
           "freeCompany": "MiaouSpirit"
         },
         "characterSheet": {
@@ -49427,23 +49427,23 @@
             "rows": [
               {
                 "name": "Force",
-                "value": "227"
+                "value": "230"
               },
               {
                 "name": "Dextérité",
-                "value": "438"
+                "value": "444"
               },
               {
                 "name": "Vitalité",
-                "value": "3074"
+                "value": "3079"
               },
               {
                 "name": "Intelligence",
-                "value": "437"
+                "value": "443"
               },
               {
                 "name": "Esprit",
-                "value": "3173"
+                "value": "3179"
               }
             ]
           },
@@ -49452,15 +49452,15 @@
             "rows": [
               {
                 "name": "Critique",
-                "value": "1750"
+                "value": "1752"
               },
               {
                 "name": "Détermination",
-                "value": "1466"
+                "value": "1471"
               },
               {
                 "name": "Coups nets",
-                "value": "410"
+                "value": "412"
               }
             ]
           },
@@ -49482,11 +49482,11 @@
             "rows": [
               {
                 "name": "Attaque",
-                "value": "227"
+                "value": "230"
               },
               {
                 "name": "Vivacité",
-                "value": "410"
+                "value": "412"
               }
             ]
           },
@@ -49495,15 +49495,15 @@
             "rows": [
               {
                 "name": "Magie offensive",
-                "value": "3173"
+                "value": "3179"
               },
               {
                 "name": "Magie curative",
-                "value": "3173"
+                "value": "3179"
               },
               {
                 "name": "Célérité",
-                "value": "1105"
+                "value": "1107"
               }
             ]
           },
@@ -49512,11 +49512,11 @@
             "rows": [
               {
                 "name": "Ténacité",
-                "value": "410"
+                "value": "412"
               },
               {
                 "name": "Piété",
-                "value": "1054"
+                "value": "1059"
               }
             ]
           }
@@ -80994,7 +80994,7 @@
             "abbr": "WHM",
             "name": "Mage blanc",
             "role": "healer",
-            "level": 95,
+            "level": 96,
             "icon": "https://lds-img.finalfantasyxiv.com/h/7/i20QvSPcSQTybykLZDbQCgPwMw.png"
           },
           {
@@ -81214,7 +81214,7 @@
           "level": 32,
           "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-08-21T16:45:29.754Z"
+        "updatedAt": "2026-08-21T17:25:38.758Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
