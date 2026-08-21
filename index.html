@@ -1071,7 +1071,7 @@ function achExplorerRecentHtml() {
           ? `<img class="ach-explorer-recent-icon-img" src="${esc(a.icon)}" alt="" onerror="this.outerHTML='<div class=&quot;ach-explorer-recent-icon&quot;>${achExplorerCategoryIcon(findAchExplorerGroupName(a.groupId))}</div>'">`
           : `<div class="ach-explorer-recent-icon">${achExplorerCategoryIcon(findAchExplorerGroupName(a.groupId))}</div>`}
         <div style="min-width:0">
-          <div class="ach-explorer-recent-name">${esc(a.name)}</div>
+          <div class="ach-explorer-recent-name">${esc(a.name)}${a.points ? `<span class="ach-explorer-ach-points">${a.points} pts</span>` : ''}</div>
           <div class="ach-explorer-recent-date">${new Date(a.date).toLocaleDateString('fr-FR')}</div>
         </div>
       </div>`).join('')}</div>
