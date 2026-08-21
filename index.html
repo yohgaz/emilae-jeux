@@ -160,13 +160,13 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 /* ── Explorateur de succès par catégorie/liste (FFXIV) ── */
 .ach-explorer{display:flex;flex-direction:column;gap:16px}
 .ach-explorer-recent-title{font-size:13px;font-weight:800;color:var(--mu);text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
-.ach-explorer-recent-row{display:flex;gap:10px;overflow:hidden;justify-content:center}
-.ach-explorer-recent-item{flex:0 0 auto;width:190px;display:flex;gap:10px;align-items:center;background:rgba(255,255,255,.03);border:1px solid var(--glass-border);border-radius:12px;padding:10px 12px;cursor:pointer;transition:border-color .15s,background .15s}
+.ach-explorer-recent-row{display:flex;gap:12px;overflow:hidden;justify-content:center}
+.ach-explorer-recent-item{flex:0 0 auto;width:260px;display:flex;gap:12px;align-items:center;background:rgba(255,255,255,.03);border:1px solid var(--glass-border);border-radius:14px;padding:12px 14px;cursor:pointer;transition:border-color .15s,background .15s}
 .ach-explorer-recent-item:hover{background:rgba(255,255,255,.06);border-color:var(--go)}
-.ach-explorer-recent-icon{font-size:24px;flex-shrink:0}
-.ach-explorer-recent-icon-img{width:34px;height:34px;border-radius:9px;object-fit:cover;flex-shrink:0;border:1px solid var(--glass-border);background:rgba(255,255,255,.04)}
-.ach-explorer-recent-name{font-size:12.5px;font-weight:800;color:var(--tx);line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ach-explorer-recent-date{font-size:11px;color:var(--mu);margin-top:2px}
+.ach-explorer-recent-icon{font-size:38px;flex-shrink:0}
+.ach-explorer-recent-icon-img{width:56px;height:56px;border-radius:12px;object-fit:cover;flex-shrink:0;border:1px solid var(--glass-border);background:rgba(255,255,255,.04)}
+.ach-explorer-recent-name{font-size:13.5px;font-weight:800;color:var(--tx);line-height:1.3}
+.ach-explorer-recent-date{font-size:11.5px;color:var(--mu);margin-top:3px}
 .ach-explorer-columns{display:grid;gap:12px;height:540px}
 .ach-explorer-col{background:rgba(255,255,255,.025);border:1px solid var(--glass-border);border-radius:var(--radius-md);overflow-y:auto;min-height:0;padding:6px}
 .ach-explorer-col,.jeu-detail-feed{scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.18) transparent}
@@ -1049,7 +1049,7 @@ function achievementExplorerHtml(achievements, groups) {
 function fitAchExplorerRecentRow() {
   const row = document.querySelector('.ach-explorer-recent-row');
   if (!row || !row.children.length) return;
-  const ITEM_WIDTH = 190, GAP = 10;
+  const ITEM_WIDTH = 260, GAP = 12;
   const fitCount = Math.max(1, Math.floor((row.clientWidth + GAP) / (ITEM_WIDTH + GAP)));
   Array.from(row.children).slice(fitCount).forEach(el => el.remove());
 }
