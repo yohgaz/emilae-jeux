@@ -280,6 +280,22 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 @media (max-width:900px){
   .jeu-detail-box{width:94vw;min-width:0}
   .jeu-detail-logo-wrap{left:150px;right:20px}
+  /* Le header (carte réseaux + titre) est en flex-wrap — en dessous d'une
+     certaine largeur (~780px, la somme des deux blocs) il passe déjà à la
+     ligne tout seul, mais restait aligné à gauche/droite comme s'il avait
+     encore son voisin à côté (justify-content:space-between sur un item
+     seul par ligne ≈ flex-start) : look bancal en tablette portrait, gros
+     vide à droite du titre pourtant aligné à droite. Centré une fois replié
+     plutôt que d'ajouter un nouveau palier — cette régle ne s'applique de
+     toute façon qu'une fois le wrap déjà déclenché. */
+  .site-header{justify-content:center}
+  .site-title{text-align:center}
+  .site-title-row{justify-content:center}
+  /* Cible tactile de fermeture de la fiche détail — sous 900px c'est du
+     tactile (tablette ou téléphone) la quasi totalité du temps ; 44px est
+     la taille mini recommandée (WCAG/Apple/Google) pour un bouton à toucher
+     au doigt, très en dessous des 34px de la version souris. */
+  .jeu-detail-close{width:44px;height:44px;font-size:15px}
 }
 
 /* ── Mobile (téléphone) ── */
@@ -300,7 +316,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
   .jeu-card-overlay{padding:16px 10px 10px}
 
   .jeu-detail-box{width:96vw;max-height:90vh}
-  .jeu-detail-close{top:10px;right:10px;width:30px;height:30px}
+  .jeu-detail-close{top:10px;right:10px}
   .jeu-detail-banner{height:170px}
   .jeu-detail-cover-wrap{left:14px;bottom:-28px}
   .jeu-detail-cover{width:82px;height:123px;border-width:2px}
