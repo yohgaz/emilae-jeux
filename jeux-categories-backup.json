@@ -1,0 +1,92 @@
+[
+  {
+    "id": "7dac28ca-14b3-44ac-9479-72d128484a50",
+    "name": "Final Fantasy",
+    "gameIds": [
+      "crisis-core-final-fantasy-7-reunion",
+      "final-fantasy-crystal-chronicles-remastered-edition",
+      "final-fantasy-4-3d-remake",
+      "final-fantasy-9",
+      "final-fantasy-tactics-the-ivalice-chronicles",
+      "final-fantasy-type-0-hd",
+      "final-fantasy-6",
+      "final-fantasy-7-rebirth",
+      "final-fantasy-7-remake",
+      "final-fantasy-7-remake-intergrade",
+      "final-fantasy-10-hd-remaster",
+      "final-fantasy-10-2-hd-remaster",
+      "final-fantasy-10-10-2-hd-remaster",
+      "final-fantasy-12-the-zodiac-age",
+      "final-fantasy-13",
+      "final-fantasy-13-2",
+      "final-fantasy-14-online",
+      "final-fantasy-14-a-realm-reborn",
+      "final-fantasy-15",
+      "final-fantasy-15-multiplayer-comrades",
+      "final-fantasy-15-windows-edition",
+      "final-fantasy-xvi",
+      "lightning-returns-final-fantasy-13",
+      "stranger-of-paradise-final-fantasy-origin",
+      "world-of-final-fantasy",
+      "theatrhythm-final-bar-line"
+    ]
+  },
+  {
+    "id": "dcc3cf4f-58ca-48c7-ae50-e07b6981522d",
+    "name": "PlayStation Studio",
+    "gameIds": [
+      "astro-s-playroom",
+      "driveclub",
+      "ghost-of-tsushima",
+      "ghost-of-yotei",
+      "god-of-war",
+      "god-of-war-ragnarok",
+      "gravity-rush",
+      "horizon-forbidden-west",
+      "horizon-zero-dawn",
+      "infamous",
+      "infamous-first-light",
+      "infamous-second-son",
+      "killzone-2",
+      "killzone-3",
+      "killzone-shadow-fall",
+      "killzone-mercenary",
+      "littlebigplanet",
+      "littlebigplanet3",
+      "marvel-s-spider-man",
+      "marvel-s-spider-man-remastered",
+      "marvel-s-spider-man-miles-morales",
+      "returnal",
+      "the-last-of-us-remastered",
+      "uncharted-2-among-thieves",
+      "uncharted-drake-s-fortune"
+    ]
+  },
+  {
+    "id": "e12436d4-d790-4c7e-9a9b-43aef004dbe4",
+    "name": "FromSoftware",
+    "gameIds": [
+      "dark-souls",
+      "dark-souls-2-scholar-of-the-first-sin",
+      "dark-souls-scholar-of-the-first-sin",
+      "dark-souls-3",
+      "dark-souls-prepare-to-die-edition",
+      "dark-souls-remastered",
+      "bloodborne",
+      "elden-ring",
+      "sekiro-shadows-die-twice",
+      "demon-s-souls"
+    ]
+  },
+  {
+    "id": "1cde83a0-afe0-4d6b-94d5-928f9c5513a6",
+    "name": "Persona",
+    "gameIds": [
+      "persona-3-reload",
+      "persona-4-golden",
+      "persona-5",
+      "persona-5-royal",
+      "persona-5-strikers"
+    ]
+  }
+]
