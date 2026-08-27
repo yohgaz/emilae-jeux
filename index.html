@@ -155,7 +155,7 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-section{margin-bottom:18px}
 .jeu-detail-section:last-child{margin-bottom:0}
 .jeu-detail-section-head{font-weight:900;font-size:13.5px;color:var(--cy);margin-bottom:10px}
-.jeu-detail-ach-grid{display:flex;flex-direction:column;gap:8px}
+.jeu-detail-ach-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;align-items:start}
 
 /* ── Explorateur de succès par catégorie/liste (FFXIV) ── */
 .ach-explorer{display:flex;flex-direction:column;gap:16px}
@@ -217,18 +217,19 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .psn-group-modal-title{font-family:'Nunito',sans-serif;font-weight:900;font-size:20px;color:var(--tx)}
 .psn-group-modal-sub{font-size:13.5px;color:var(--mu);margin-top:4px}
 .psn-group-modal-body{padding:12px 28px 28px;max-height:58vh;overflow-y:auto}
-.jeu-detail-ach{display:flex;align-items:center;gap:11px;padding:8px 10px;border-radius:10px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:opacity .15s}
+.jeu-detail-ach{display:flex;align-items:center;gap:14px;padding:13px 14px;border-radius:12px;background:var(--glass-fill);border:1px solid var(--glass-border);transition:opacity .15s}
 .jeu-detail-ach.locked{opacity:.45}
 .jeu-detail-ach.earned{background:rgba(111,218,154,.07);border-color:rgba(111,218,154,.35)}
 .jeu-detail-ach-icon-wrap{position:relative;flex-shrink:0}
-.jeu-detail-ach img{width:42px;height:42px;border-radius:7px;display:block;object-fit:cover;background:rgba(255,255,255,.05)}
-.jeu-detail-ach-badge{position:absolute;bottom:-4px;right:-4px;width:17px;height:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid var(--bg)}
+.jeu-detail-ach img{width:64px;height:64px;border-radius:10px;display:block;object-fit:cover;background:rgba(255,255,255,.05)}
+.jeu-detail-ach-badge{position:absolute;bottom:-4px;right:-4px;width:19px;height:19px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid var(--bg)}
 .jeu-detail-ach-badge.earned{background:var(--mt);color:#0F2318}
 .jeu-detail-ach-badge.locked{background:rgba(0,0,0,.55);color:var(--mu)}
-.jeu-detail-ach-badge svg{width:9px;height:9px}
+.jeu-detail-ach-badge svg{width:10px;height:10px}
 .jeu-detail-ach-text{flex:1;min-width:0}
-.jeu-detail-ach-name{font-weight:800;font-size:12px;color:var(--tx)}
-.jeu-detail-ach-desc{font-size:11.5px;color:var(--mu);margin-top:2px;line-height:1.4}
+.jeu-detail-ach-name{font-weight:800;font-size:13.5px;color:var(--tx)}
+.jeu-detail-ach-points{flex-shrink:0;font-family:monospace;font-weight:900;font-size:12px;color:#107C10;background:rgba(16,124,16,.14);border:1px solid rgba(16,124,16,.35);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.jeu-detail-ach-desc{font-size:12px;color:var(--mu);margin-top:3px;line-height:1.4}
 .jeu-detail-ach-noicon{width:42px;height:42px;border-radius:7px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;font-size:18px;opacity:.45}
 
 /* ── FFXIV : deux onglets dans la popup détail, uniquement pour ce jeu. ── */
@@ -1271,6 +1272,7 @@ function achievementGridHtml(list, kind) {
         <div class="jeu-detail-ach-name">${esc(name)}${kind === 'psn' && a.type ? ` <span style="color:var(--mu)">· ${esc(a.type)}</span>` : ''}</div>
         <div class="jeu-detail-ach-desc">${esc(desc)}</div>
       </div>
+      ${typeof a.points === 'number' ? `<span class="jeu-detail-ach-points">${a.points} G</span>` : ''}
     </div>`;
   }).join('')}</div>`;
 }
