@@ -532,13 +532,39 @@ function collapseStudios(companies) {
   return Object.values(byName);
 }
 
-// Jaquette : Steam si liée, sinon IGDB, sinon icône PSN, sinon emoji.
+// Jaquette : Steam si liée, sinon IGDB, sinon icône PSN, sinon emoji. Les
+// candidats sont enchaînés (pas figés sur le premier) : pour un jeu tout
+// juste sorti, la jaquette Steam library_600x900.jpg peut ne pas encore
+// exister alors qu'une jaquette IGDB est bien liée — sans ce correctif,
+// l'échec silencieux de l'image Steam masquait complètement ce choix
+// (retombait direct sur l'emoji). Même correctif que côté panneau
+// (tasks-editor.html), qui a le même bug d'origine.
+function coverCandidatesFor(j) {
+  return [
+    j.steamAppId ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${j.steamAppId}/library_600x900.jpg` : null,
+    j.igdbCover || null,
+    (j.progression && j.progression.PlayStation && j.progression.PlayStation.icon) || null
+  ].filter(Boolean);
+}
+function coverImgFallback(img) {
+  let remaining = [];
+  try { remaining = JSON.parse(img.dataset.coverCandidates || '[]'); } catch (e) {}
+  if (remaining.length) {
+    img.src = remaining.shift();
+    img.dataset.coverCandidates = JSON.stringify(remaining);
+  } else {
+    // parentElement lu AVANT remove() : une fois détaché, l'élément n'a
+    // plus de parent (l'ancien onerror inline faisait remove() puis lisait
+    // parentElement — déjà null à ce moment, l'emoji ne s'affichait jamais).
+    const parent = img.parentElement;
+    img.remove();
+    if (parent) parent.textContent = '🎮';
+  }
+}
 function coverInnerHtml(j) {
-  const img = (j.steamAppId ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${j.steamAppId}/library_600x900.jpg` : null)
-    || j.igdbCover
-    || (j.progression && j.progression.PlayStation && j.progression.PlayStation.icon);
-  if (!img) return '🎮';
-  return `<img src="${esc(img)}" alt="" onerror="this.remove();this.parentElement.textContent='🎮'">`;
+  const candidates = coverCandidatesFor(j);
+  if (!candidates.length) return '🎮';
+  return `<img src="${esc(candidates[0])}" data-cover-candidates='${esc(JSON.stringify(candidates.slice(1)))}' alt="" onerror="coverImgFallback(this)">`;
 }
 
 // ── Pourcentages : formule officielle PlayStation (bronze 15, argent 30, or 90 ;
@@ -737,7 +763,7 @@ function prochainementCardHtml(item) {
   // absents d'une entrée Prochainement) — celle-ci a son propre champ direct
   // "cover" (voir /prochainement côté serveur).
   const cover = item.cover
-    ? `<img src="${esc(item.cover)}" alt="" onerror="this.remove();this.parentElement.textContent='🎮'">`
+    ? `<img src="${esc(item.cover)}" alt="" onerror="coverImgFallback(this)">`
     : '🎮';
   return `<div class="jeu-card" style="cursor:default">
     ${ribbon}
