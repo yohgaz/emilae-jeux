@@ -102,6 +102,25 @@
         "PC": {
           "earned": 19,
           "total": 41
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 0
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR00817_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR00817_00_00A858C2E2A1A80A7663E02BE55B2D62EE28A43CD1/46EDDA4E3F15F0F75A39C4DEC5EDE645760362B9.PNG",
+          "platinumIcon": null
         }
       },
       "annee": null
@@ -198,6 +217,11 @@
           "npServiceName": "trophy2",
           "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/68b955dc-1ec1-4494-a4b7-751a9c90fe58.png",
           "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/94fa70a2-b6e4-4b18-b9d7-3cf6d8ab5a54.png"
+        },
+        "Xbox": {
+          "earned": 0,
+          "total": 0,
+          "titleId": "1820448821"
         }
       },
       "annee": null
@@ -330,6 +354,25 @@
         "PC": {
           "earned": 22,
           "total": 35
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 0
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR00774_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR00774_00_00F4E56EF4C9EB9BAFFDC44C5C831B9BB660014DF6/F7AABD1742D2ECF3D5141312798287EA32AE0B88.PNG",
+          "platinumIcon": null
         }
       },
       "annee": null
@@ -792,6 +835,25 @@
         "PC": {
           "earned": 37,
           "total": 79
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 0
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR10261_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR10261_00_00CAA2186FFF8ED4ABC8FA441A9B72DB43BFD322F8/B4C5186F0DC63A3704590DCEAC632E16BB3B249F.PNG",
+          "platinumIcon": null
         }
       },
       "annee": null
@@ -1475,6 +1537,25 @@
         "PC": {
           "earned": 78,
           "total": 99
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 23,
+            "total": 64
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 1
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR29042_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/e1063106-4844-49b5-bb38-669ce77b0c4c.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/1c3669b8-1db4-46cb-95c7-064f188148a5.png"
         }
       },
       "annee": null
@@ -1492,6 +1573,25 @@
         "PC": {
           "earned": 1,
           "total": 47
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 36
+          },
+          "argent": {
+            "earned": 0,
+            "total": 8
+          },
+          "or": {
+            "earned": 0,
+            "total": 3
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR22539_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/ed932811-84e1-4a8d-bf1f-7dea828055cc.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/b76103b2-c413-4cc7-b4f4-2965f64b5532.png"
         }
       },
       "annee": null
@@ -1619,6 +1719,25 @@
         "PC": {
           "earned": 31,
           "total": 58
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 8,
+            "total": 43
+          },
+          "argent": {
+            "earned": 0,
+            "total": 13
+          },
+          "or": {
+            "earned": 0,
+            "total": 2
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR22372_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/50ab8be8-66e7-462b-a0e0-d6287234638b.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/c74411c9-f9da-4d1c-9ae6-04c30057b8b1.png"
         }
       },
       "annee": null
@@ -1711,9 +1830,9 @@
             "total": 0
           },
           "platine": false,
-          "npCommunicationId": null,
-          "npServiceName": null,
-          "icon": null,
+          "npCommunicationId": "NPWR06037_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/AA1963C28D3895DC3BA9CA3CF4DC3943F26690C0.PNG",
           "platinumIcon": null
         }
       },
@@ -1860,6 +1979,25 @@
         "PC": {
           "earned": 9,
           "total": 23
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 1,
+            "total": 8
+          },
+          "argent": {
+            "earned": 3,
+            "total": 4
+          },
+          "or": {
+            "earned": 5,
+            "total": 11
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR21575_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/45976ee9-344e-423d-940d-5e42fc82e5b8.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/82ff3b8e-fbf9-4b9d-8565-c8cee4153611.png"
         }
       },
       "type": "normal",
@@ -2019,6 +2157,11 @@
         "PC": {
           "earned": 6,
           "total": 59
+        },
+        "Xbox": {
+          "earned": 8,
+          "total": 59,
+          "titleId": "2119739112"
         }
       },
       "type": "normal",
