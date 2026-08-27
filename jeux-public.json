@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T21:12:42.294Z",
+  "updatedAt": "2026-08-27T21:18:38.034Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -83950,7 +83950,12 @@
       "steamAppId": 2075800,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg",
-      "progression": {},
+      "progression": {
+        "PC": {
+          "earned": 3,
+          "total": 53
+        }
+      },
       "rating": 0,
       "pros": [],
       "cons": [],
@@ -84369,7 +84374,12 @@
       "steamAppId": 686060,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg",
-      "progression": {},
+      "progression": {
+        "PC": {
+          "earned": 3,
+          "total": 281
+        }
+      },
       "rating": 0,
       "pros": [],
       "cons": [],
@@ -86378,7 +86388,12 @@
       "steamAppId": 3265700,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyj9.jpg",
-      "progression": {},
+      "progression": {
+        "PC": {
+          "earned": 135,
+          "total": 161
+        }
+      },
       "rating": 0,
       "pros": [],
       "cons": [],
