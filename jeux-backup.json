@@ -2154,8 +2154,8 @@
       "completion": "",
       "jeuDuMoment": false,
       "fridayFantasy": false,
-      "occasion": true,
-      "excluYoutube": false
+      "occasion": false,
+      "excluYoutube": true
     }
   ]
 }
