@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T10:09:53.870Z",
+  "updatedAt": "2026-08-27T18:04:51.443Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -1800,7 +1800,7 @@
         },
         {
           "name": "Bandai Namco Entertainment",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl7dx.png",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/clk9l.png",
           "developer": false,
           "publisher": true
         },
@@ -2314,7 +2314,7 @@
       "studios": [
         {
           "name": "Bandai Namco Entertainment",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl7dx.png",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/clk9l.png",
           "developer": false,
           "publisher": true
         },
@@ -9012,7 +9012,7 @@
         },
         {
           "name": "Bandai Namco Entertainment",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl7dx.png",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/clk9l.png",
           "developer": false,
           "publisher": true
         }
@@ -9810,7 +9810,7 @@
       "studios": [
         {
           "name": "Bandai Namco Entertainment",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl7dx.png",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/clk9l.png",
           "developer": false,
           "publisher": true
         },
@@ -14981,7 +14981,7 @@
       "studios": [
         {
           "name": "Bandai Namco Entertainment",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl7dx.png",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/clk9l.png",
           "developer": false,
           "publisher": true
         },
@@ -35482,7 +35482,7 @@
       "studios": [
         {
           "name": "Bandai Namco Entertainment",
-          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl7dx.png",
+          "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/clk9l.png",
           "developer": false,
           "publisher": true
         },
@@ -46611,7 +46611,7 @@
             "name": "Finir le chapotre 11",
             "description": "Finir l'histoire du chapitre 11",
             "icon": null,
-            "earned": false
+            "earned": true
           },
           {
             "name": "Finir le chapitre 12",
@@ -46779,6 +46779,12 @@
       },
       "pitch": "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition includes the additions and enhancements from the Definitive Edition, along with even more made possible by the power of the Nintendo Switch 2 system - including added features, a smoother frame rate, 4K resolution in TV mode, and full HD in handheld mode.",
       "studios": [
+        {
+          "name": "logicalbeat",
+          "logo": null,
+          "developer": false,
+          "publisher": false
+        },
         {
           "name": "Monolith Soft",
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl4xq.png",
@@ -49406,8 +49412,8 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1787825279",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1787825279",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1787851158",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1787851158",
           "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/x/B4Azydbn7Prubxt7OL9p1LZXZ0.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
@@ -49435,7 +49441,7 @@
               },
               {
                 "name": "Vitalité",
-                "value": "1778"
+                "value": "1790"
               },
               {
                 "name": "Intelligence",
@@ -49495,11 +49501,11 @@
             "rows": [
               {
                 "name": "Collecte",
-                "value": "4675"
+                "value": "4693"
               },
               {
                 "name": "Savoir-faire",
-                "value": "3658"
+                "value": "3688"
               }
             ]
           }
@@ -81213,7 +81219,7 @@
           "level": 37,
           "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-08-27T10:09:53.836Z"
+        "updatedAt": "2026-08-27T17:50:34.950Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
@@ -81279,6 +81285,16 @@
       "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7mr.jpg",
       "diffusion": "twitch_vod",
       "addedAt": 1786972974728
+    },
+    {
+      "id": "star-wars-zero-company",
+      "nom": "STAR WARS Zero Company™",
+      "plateformes": [
+        "PC"
+      ],
+      "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg",
+      "diffusion": "exclu_youtube",
+      "addedAt": 1787853750379
     }
   ]
 }
