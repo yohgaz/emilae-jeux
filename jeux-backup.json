@@ -2105,6 +2105,23 @@
       "occasion": false,
       "jeuDuMoment": false,
       "fridayFantasy": true
+    },
+    {
+      "id": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
+      "nom": "STAR WARS Zero Company™",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": 2075800,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg",
+      "progression": {},
+      "type": "normal",
+      "completion": "",
+      "jeuDuMoment": false,
+      "fridayFantasy": false,
+      "occasion": false,
+      "excluYoutube": true
     }
   ]
 }
