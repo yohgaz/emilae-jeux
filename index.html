@@ -735,11 +735,17 @@ function jeuCardHtml(j, statut) {
   const occasionRibbon = j.occasion ? `<div class="jeu-card-occasion-ribbon">À l'occasion</div>` : '';
   const jeuDuMomentRibbon = j.jeuDuMoment ? `<div class="jeu-card-jeudumoment-ribbon">Jeu du moment</div>` : '';
   const fridayFantasyRibbon = j.fridayFantasy ? `<div class="jeu-card-fridayfantasy-ribbon">Friday Fantasy</div>` : '';
+  // Même ruban que "Prochainement" pour le même statut (voir
+  // prochainementCardHtml) — indique qu'un jeu "En cours" est diffusé
+  // exclusivement sur YouTube (pas de simulcast Twitch), au lieu de rien
+  // afficher comme avant (ce champ n'était pas encore connu ici).
+  const excluYoutubeRibbon = j.excluYoutube ? `<div class="jeu-card-exclu-youtube-ribbon">Exclu YouTube</div>` : '';
   return `<div class="jeu-card${j.arrete?' jeu-card-arrete':''}" onclick="openJeuDetailView('${j.id}','${statut}')">
     ${arreteRibbon}
     ${occasionRibbon}
     ${jeuDuMomentRibbon}
     ${fridayFantasyRibbon}
+    ${excluYoutubeRibbon}
     ${platBadgesHtml(j.plateformes, j.nom)}
     <div class="jeu-card-cover" style="background:linear-gradient(145deg, hsl(${hue} 45% 18%), hsl(${hue} 45% 10%))${j.arrete?';filter:grayscale(.85) brightness(.75)':''}">${coverInnerHtml(j)}</div>
     <div class="jeu-card-overlay">
@@ -797,16 +803,20 @@ function renderJeux() {
   if (q) enCours = enCours.filter(j => j.nom.toLowerCase().includes(q));
   // Un jeu arrêté reste dans la même liste de données (toujours dans la
   // bibliothèque) mais ne compte plus comme "en cours" à l'affichage — sa
-  // propre section, séparée.
+  // propre section, séparée. Pareil pour "à l'occasion" : sortie de "En
+  // cours" pour sa propre section (voir plus bas), pas mélangée dedans.
   const aCompleter = enCours.filter(j => j.type === 'a_completer' && !j.arrete);
-  // Jeu du moment, puis Friday Fantasy, puis à l'occasion, puis le reste —
+  // Jeu du moment, puis Friday Fantasy, puis le reste (dont Exclu YouTube) —
   // tri stable, l'ordre relatif à l'intérieur de chaque groupe ne bouge pas.
-  const enCoursPriority = j => j.jeuDuMoment ? 0 : (j.fridayFantasy ? 1 : (j.occasion ? 2 : 3));
-  const normaux = enCours.filter(j => j.type !== 'a_completer' && !j.arrete).slice().sort((a, b) => enCoursPriority(a) - enCoursPriority(b));
+  const enCoursPriority = j => j.jeuDuMoment ? 0 : (j.fridayFantasy ? 1 : 2);
+  const normaux = enCours.filter(j => j.type !== 'a_completer' && !j.arrete && !j.occasion).slice().sort((a, b) => enCoursPriority(a) - enCoursPriority(b));
+  const occasionGames = enCours.filter(j => j.occasion && !j.arrete);
   const arretes = enCours.filter(j => j.arrete);
-  section('Histoire finie — à compléter', '✔', aCompleter, 'enCours');
+
+  // Ordre voulu en haut de page : En cours, puis À venir, puis À l'occasion
+  // — le reste (Histoire finie, Arrêtés, Terminés...) suit sans changer
+  // d'ordre relatif entre eux.
   section('En cours', '🎯', normaux, 'enCours');
-  section('Arrêtés', '🛑', arretes, 'enCours');
 
   let prochainement = _jeuxData.prochainement || [];
   if (q) prochainement = prochainement.filter(j => j.nom.toLowerCase().includes(q));
@@ -817,6 +827,10 @@ function renderJeux() {
       <div class="jeux-grid">${prochainement.map(prochainementCardHtml).join('')}</div>
     </div>`;
   }
+
+  section('À l\'occasion', '🎲', occasionGames, 'enCours');
+  section('Histoire finie — à compléter', '✔', aCompleter, 'enCours');
+  section('Arrêtés', '🛑', arretes, 'enCours');
 
   let termines = _jeuxData.termines;
   if (q) termines = termines.filter(j => j.nom.toLowerCase().includes(q));
