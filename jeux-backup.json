@@ -2122,6 +2122,40 @@
       "fridayFantasy": false,
       "occasion": false,
       "excluYoutube": true
+    },
+    {
+      "id": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
+      "nom": "Mewgenics",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": 686060,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg",
+      "progression": {},
+      "type": "normal",
+      "completion": "",
+      "jeuDuMoment": false,
+      "fridayFantasy": false,
+      "occasion": false,
+      "excluYoutube": true
+    },
+    {
+      "id": "df14fdb9-763a-4e47-b186-649145d40e69",
+      "nom": "Vampire Crawlers",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": 3265700,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyj9.jpg",
+      "progression": {},
+      "type": "normal",
+      "completion": "",
+      "jeuDuMoment": false,
+      "fridayFantasy": false,
+      "occasion": true,
+      "excluYoutube": false
     }
   ]
 }
