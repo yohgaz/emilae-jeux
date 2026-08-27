@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T20:26:29.487Z",
+  "updatedAt": "2026-08-27T20:43:53.699Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -1497,6 +1497,25 @@
         "PC": {
           "earned": 19,
           "total": 41
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 0
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR00817_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR00817_00_00A858C2E2A1A80A7663E02BE55B2D62EE28A43CD1/46EDDA4E3F15F0F75A39C4DEC5EDE645760362B9.PNG",
+          "platinumIcon": null
         }
       },
       "rating": 0,
@@ -2850,6 +2869,11 @@
           "npServiceName": "trophy2",
           "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/68b955dc-1ec1-4494-a4b7-751a9c90fe58.png",
           "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/94fa70a2-b6e4-4b18-b9d7-3cf6d8ab5a54.png"
+        },
+        "Xbox": {
+          "earned": 0,
+          "total": 0,
+          "titleId": "1820448821"
         }
       },
       "rating": 0,
@@ -3450,7 +3474,8 @@
             "name": "Phantom Liberty",
             "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR24695_00/b165ac79-5d66-44a2-a165-d301bcc1adcd.png"
           }
-        ]
+        ],
+        "xbox": []
       },
       "pitch": "Cyberpunk 2077: Ultimate Edition is an open-world RPG containing two powerful adventures: the base game of Cyberpunk 2077, taking place in the dark future of Night City, and Phantom Liberty, a spy-thriller story set in the walled-off district of Dogtown. Players take on the role of V, a cyber-enhanced mercenary, and embark on a fight for survival filled with story-defining decisions, action-packed gameplay, and unforgettable characters, including rockerboy Johnny Silverhand (played by Keanu Reeves) and FIA sleeper agent Solomon Reed (played by Idris Elba).\n\nThis new release is the perfect way to experience every story of the dark future; it also contains the free Update 2.0, which overhauled many of the game’s systems, introducing dynamic skill trees, high-octane vehicle combat, and enhanced enemy and police AI — as well as adding new weapons, vehicles, and clothes. The release is bolstered with a set of previously released digital goodies available as part of the “My Rewards” program, available to all who register.",
       "studios": [
@@ -6056,6 +6081,25 @@
         "PC": {
           "earned": 22,
           "total": 35
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 0
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR00774_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR00774_00_00F4E56EF4C9EB9BAFFDC44C5C831B9BB660014DF6/F7AABD1742D2ECF3D5141312798287EA32AE0B88.PNG",
+          "platinumIcon": null
         }
       },
       "rating": 0,
@@ -16447,6 +16491,25 @@
         "PC": {
           "earned": 37,
           "total": 79
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 0
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR10261_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR10261_00_00CAA2186FFF8ED4ABC8FA441A9B72DB43BFD322F8/B4C5186F0DC63A3704590DCEAC632E16BB3B249F.PNG",
+          "platinumIcon": null
         }
       },
       "rating": 0,
@@ -31698,6 +31761,25 @@
         "PC": {
           "earned": 78,
           "total": 99
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 23,
+            "total": 64
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 1
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR29042_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/e1063106-4844-49b5-bb38-669ce77b0c4c.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/1c3669b8-1db4-46cb-95c7-064f188148a5.png"
         }
       },
       "rating": 0,
@@ -32399,6 +32481,675 @@
             "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1124300/42941455df6f7864e404fec0ad3e4be0b30681d1.jpg",
             "earned": true
           }
+        ],
+        "psn": [
+          {
+            "id": 0,
+            "name": "Nec pluribus impar",
+            "description": "Déverrouillez tous les trophées.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/1c3669b8-1db4-46cb-95c7-064f188148a5.png",
+            "type": "platinum",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 1,
+            "name": "Main de Midas",
+            "description": "Amassez une fortune de plus d'un demi-million sur plusieurs parties.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/6a7518b8-094a-4c6d-854d-93badffa692d.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 2,
+            "name": "30 millions d'amis",
+            "description": "Passez l'Ère néolithique sans blesser un seul animal.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/d65e2758-4871-4bc3-8ad3-161ea27fc99e.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 3,
+            "name": "Bienvenue au club",
+            "description": "Assimilez 5 peuplades.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/30753d0f-38a9-4974-8595-07f33080f7bc.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 4,
+            "name": "L'ami de tous",
+            "description": "Soyez allié avec au moins 3 joueurs simultanément.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/1973608f-f2be-4091-8263-7ef15b6d461d.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 5,
+            "name": "Extrémiste",
+            "description": "Atteignez les valeurs maximales ou minimales de tous les axes idéologiques en même temps.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/d7934d11-bf3f-41ca-ba0f-58da61fb2c03.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 6,
+            "name": "Chef d'orchestre",
+            "description": "Soyez le premier à atteindre les six Ères en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/3ae8cd83-baba-48b5-823d-1fc5e790baa8.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 7,
+            "name": "De zéro à héros",
+            "description": "Soyez le premier à atteindre une Ère après avoir été le dernier à rejoindre la précédente.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/b29e05af-cd2b-41c4-96bc-96ecc696a373.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 8,
+            "name": "Sans faille",
+            "description": "Gagnez une partie contre une personnalité IA experte.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/1b153103-e25b-4c00-8560-e7c263330d19.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 9,
+            "name": "Débranché",
+            "description": "Gagnez une partie avec l'IA en difficulté Métropole.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/04d3c300-a060-4557-b89a-dfc06b937ae0.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 10,
+            "name": "Lot de merveilles",
+            "description": "Construisez toutes les merveilles culturelles sur plusieurs parties.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/461e9ef0-a24c-4b4f-8a02-c55b33763d78.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 11,
+            "name": "Collectionneur",
+            "description": "Collectionnez 20 curiosités sur plusieurs parties.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/7cba007d-0b08-4e8b-841e-8cc8280fabda.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 12,
+            "name": "Polymathe",
+            "description": "Recherchez toutes les technologies en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/5a501055-97ea-42ba-aa5f-c3d9fea24f47.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 13,
+            "name": "Influenceur clé",
+            "description": "Votre sphère d'influence englobe les capitales de tous les empires.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/228eca2b-320a-4638-b696-19cc98ede345.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 14,
+            "name": "Travail de bûcheron",
+            "description": "Abattez 30 forêts en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/8ba5f42f-8978-4917-b87b-e3079a1d6a61.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 15,
+            "name": "Déplier le genou",
+            "description": "Déclarez la guerre à votre seigneur.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/2df39c9d-f51e-40db-b0c1-3c13d607a9b7.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 16,
+            "name": "Blasphémateur",
+            "description": "Détruisez un site sacré.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/956b6701-16bc-4bb0-b365-b69c6f2bbefa.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 17,
+            "name": "C'est pas mon truc, l'histoire",
+            "description": "Détruisez une merveille culturelle.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/a7e88867-ef58-4717-9bba-25bf3e77df04.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 18,
+            "name": "Cartographe",
+            "description": "Découvrez 5 monuments en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/d3ae2742-25ad-4081-987b-b58045b3c62c.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 19,
+            "name": "Néandertal",
+            "description": "Perdez toutes vos armées pendant l'Ère néolithique.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/7e469962-8340-4bd6-8db9-c816ec3878c4.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 20,
+            "name": "Attention, joueur méchant",
+            "description": "Éliminez tous les autres joueurs.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/4c60866a-6968-4a5d-b274-5666b33853cb.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 21,
+            "name": "Ferrovipathe",
+            "description": "Terminez une partie avec un réseau ferroviaire qui s'étend sur 10 territoires.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/9a48bcd9-f76f-486f-9d61-95f811045dd8.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 22,
+            "name": "Tout je vous dis, tout !",
+            "description": "Extrayez toutes les ressources stratégiques en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/dbba4975-419c-44b2-96de-96a5fe8b6f82.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 23,
+            "name": "Parle à ma main",
+            "description": "Terminez une partie en ayant refusé toutes les exigences qu'on vous envoyait.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/678b55e9-3308-4357-bea6-c24d09230e50.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 24,
+            "name": "Dans les traces de Sargon",
+            "description": "Terminez une partie sans perdre une seule bataille.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/73636d8e-85d9-43a1-b11a-9b11b51cecdb.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 25,
+            "name": "Arracheur de terres",
+            "description": "Terminez une partie en possédant au moins la moitié des territoires.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/adc1d7d2-35f8-429a-ba9c-640a46ecde3d.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 26,
+            "name": "Monde matérialiste",
+            "description": "Gagnez l'accès commercial à toutes les ressources stratégiques en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/7c6276dc-b8ea-4f95-929d-c254693a0427.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 27,
+            "name": "Puissance nucléaire",
+            "description": "Possédez 5 armes nucléaires.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/6c3bc867-9f5a-4f2f-a5b6-96e85bf2267f.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 28,
+            "name": "Dérive des continents",
+            "description": "Possédez des villes sur trois continents.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/8fde4097-413d-4cc3-b6f7-cc700d21c0b1.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 29,
+            "name": "Bienvenue à Geek-ville",
+            "description": "Produisez au moins 1 000 de science par tour dans une ville.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/867f1bcf-a3f2-40e2-87b0-fe467686ef28.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 30,
+            "name": "Manger. Manger. Manger.",
+            "description": "Produisez au moins 500 de nourriture par tour dans une ville.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/b0fc3b21-151d-4058-94e4-954762b01647.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 31,
+            "name": "Action industrielle",
+            "description": "Produisez au moins 500 d'industrie par tour dans une ville.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/39529501-64a3-4ff9-b933-52e3988c3d62.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 32,
+            "name": "Argent pas cher",
+            "description": "Produisez au moins 500 d'argent par tour dans une ville.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/fbfe0fe3-d506-4ca0-b6e2-0460e673ad0b.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 33,
+            "name": "Eureka !",
+            "description": "Produisez au moins 500 de science par tour dans une ville.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/5ae1866a-1217-4bd4-a2d9-553fa1e4800e.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 34,
+            "name": "Unité de l'année",
+            "description": "Atteignez une série de 25 unités tuées avec une seule unité.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/ca8b2405-6b38-4034-b032-f1585074301a.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 35,
+            "name": "Oyez, oyez !",
+            "description": "Terminez une partie en ayant le double de la gloire d'un joueur survivant.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/30b4cc91-cbed-4901-9d82-a7a29ced971f.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 36,
+            "name": "Matez-moi ce bling-bling",
+            "description": "Accédez à toutes les ressources stratégiques et précieuses sur la carte par n'importe quel moyen.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/0f5b3654-8ada-4e74-ac3f-18ad46f650c5.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 37,
+            "name": "Carrefour du monde",
+            "description": "Possédez une route commerciale avec au moins 8 empires.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/e381143b-8d37-46c2-9330-da174d9530d6.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 38,
+            "name": "Touche à tout",
+            "description": "Jouez avec six affinités différentes en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/6d35b6a3-7f0e-4ecd-bca9-9684557e42ea.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 39,
+            "name": "Seule foi véritable",
+            "description": "Menez une religion que 8 empires ou plus suivent.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/75736880-d090-4d94-91d1-43184fc6dac6.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 40,
+            "name": "Ils ne savent pas ce qu'ils font",
+            "description": "Gagnez une partie sans accepter de répercussions politiques.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/92d8f731-5437-42dd-9491-dc6dab80b666.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 41,
+            "name": "Peine capitale",
+            "description": "Atomisez une capitale.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/e2e33785-1d4a-4624-ae55-3b86a46ca9ae.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 42,
+            "name": "Hatchepsout",
+            "description": "Atteignez 12 Étoiles d'Ère constructrices en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/27fe371e-0e0f-4b1d-9a22-95acbc2badd1.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 43,
+            "name": "Séjong",
+            "description": "Atteignez 12 Étoiles d'Ère esthètes en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/1e7ada10-c0a8-462c-8f86-9a1c44a59c3c.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 44,
+            "name": "Tamerlan",
+            "description": "Atteignez 12 Étoiles d'Ère expansionnistes en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/39dc97ba-4e66-43c5-bde6-4c66a83f7d7d.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 45,
+            "name": "Parmentier",
+            "description": "Atteignez 12 Étoiles d'Ère agraires en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/2a65f964-f392-47ad-ab8a-e65f75ff670d.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 46,
+            "name": "Nikola",
+            "description": "Atteignez 12 Étoiles d'Ère scientifiques en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/bb2b362a-7a35-4d6d-9e39-fc2557323b22.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 47,
+            "name": "Moctezuma",
+            "description": "Atteignez 12 Étoiles d'Ère militaristes en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/751b72fb-222b-4c38-9acc-934f78e97e6b.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 48,
+            "name": "Mégalopole",
+            "description": "Possédez une ville qui s'étend sur 20 territoires.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/ad21e5ad-abe4-48ba-a083-1f4e32696535.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 49,
+            "name": "Vautour de la culture",
+            "description": "Obtenez 3 merveilles culturelles grâce à la conquête.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/67187a95-70d2-46f4-82c6-c4be8fe4c0d8.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 50,
+            "name": "Vie luxueuse",
+            "description": "Possédez 5 ressources précieuses extraordinaires.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/6ac606b9-35c9-4100-9769-179214a82d00.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 51,
+            "name": "Sept merveilles de mon monde",
+            "description": "Construisez sept merveilles culturelles en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/52bace17-fe92-4879-8367-3c27b61fe9c0.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 52,
+            "name": "Sí, Patrón",
+            "description": "Atteignez un niveau de relation amicale avec une peuplade.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/467e0f6f-90cf-4247-8792-f44d650b9820.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 53,
+            "name": "Géant vert",
+            "description": "Replantez 30 forêts en une seule partie.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/70621a1d-65d7-4d6a-bfae-7218ee309994.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 54,
+            "name": "Dépenses militaires",
+            "description": "Recrutez 5 armées.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/494856ad-b708-4c7e-9386-6a5e1c6e9c45.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 55,
+            "name": "Hissez-ho",
+            "description": "Découvrez un continent avant l'Ère moderne qu'aucun autre empire n'a encore visité.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/9f64ddf1-52e5-41d0-8553-6b1900036bb5.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 56,
+            "name": "César !",
+            "description": "Gagnez 5 guerres à travers la reddition de votre ennemi.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/32b7a31c-2dd5-4972-9463-6bf3aefbe5b5.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 57,
+            "name": "Poids plume, puissance lourde",
+            "description": "Gagnez une bataille en ayant moins de la moitié de la force de combat de votre adversaire.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/3dafbfd6-8da8-4e63-a6cb-49e9fbf40d52.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 58,
+            "name": "La terre du bonheur",
+            "description": "Gagnez une partie sans que la stabilité de votre empire ne tombe jamais en agitation.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/e9766af6-06e9-4b7e-b4cb-2feddc9aeeab.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 59,
+            "name": "Guerre des six tours",
+            "description": "Gagnez une guerre en moins de 6 tours",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/996a8f0f-88cc-4d73-9676-ef9f833e161f.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 60,
+            "name": "Aucun homme à terre",
+            "description": "Gagnez une guerre sans perdre une seule unité.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/e7ed73d8-c7c5-431a-980a-4d65e27ba16b.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 61,
+            "name": "Culture encensée",
+            "description": "Gagnez une partie en gardant une culture pendant quatre Ères.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/da4c7df7-0072-4a2c-9407-cad86817ba6c.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 62,
+            "name": "Civilisation infinie",
+            "description": "Gagnez une partie en gardant la même culture dans toutes les Ères.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/bd6cb06e-49db-4eeb-a2d1-5f834aa95482.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 63,
+            "name": "Les doux hériteront du monde",
+            "description": "Gagnez une partie sans déclarer une seule guerre.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/8074429e-9443-4557-98bc-403ad27385e0.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 64,
+            "name": "Un pied dans l'eau",
+            "description": "Jouez 10 tours.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/0f6bf6da-26c8-4bef-b81f-94d9658d7217.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 65,
+            "name": "Patience héroïque",
+            "description": "Jouez 1 000 tours.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/f37626c4-03b2-4f51-b336-6fe42b90bae6.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          }
+        ],
+        "psnGroups": [
+          {
+            "id": "default",
+            "name": "HUMANKIND™",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR29042_00/e1063106-4844-49b5-bb38-669ce77b0c4c.png"
+          }
         ]
       },
       "pitch": "Humankind is a historical strategy game where you will re-write the entire narrative of humankind, a convergence of culture, history, and values that allows you to create a civilization that is as unique as you are. How far will you push humankind?",
@@ -32436,6 +33187,25 @@
         "PC": {
           "earned": 1,
           "total": 47
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 36
+          },
+          "argent": {
+            "earned": 0,
+            "total": 8
+          },
+          "or": {
+            "earned": 0,
+            "total": 3
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR22539_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/ed932811-84e1-4a8d-bf1f-7dea828055cc.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/b76103b2-c413-4cc7-b4f4-2965f64b5532.png"
         }
       },
       "rating": 0,
@@ -32772,6 +33542,495 @@
             "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745920/df986f6d246635d6be3a333e60cd01622c5d38bc.jpg",
             "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745920/6557789c4615e71606e4f172dd6f20407dfdcd9d.jpg",
             "earned": true
+          }
+        ],
+        "psn": [
+          {
+            "id": 0,
+            "name": "Archtamer",
+            "description": "Obtained all Temtem trophies.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/b76103b2-c413-4cc7-b4f4-2965f64b5532.png",
+            "type": "platinum",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 1,
+            "name": "Sophia",
+            "description": "Defeat Sophia in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/8929cecc-7cf6-476d-b53b-e9c258974c36.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 2,
+            "name": "Rawiri",
+            "description": "Defeat Rawiri in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/e8906bba-ded4-46b2-a28b-aadb0c6c2b2f.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 3,
+            "name": "Tihani",
+            "description": "Defeat Tihani in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/110fc1d9-a6a6-40ee-a148-e92983f577f0.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 4,
+            "name": "Yareni",
+            "description": "Defeat Yareni in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/c160f98a-74b2-4166-b7b9-625420bd57a1.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 5,
+            "name": "Musa",
+            "description": "Defeat Musa in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/7d89286a-75a5-47dc-a705-48a857424df6.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 6,
+            "name": "Dr. Sasaya",
+            "description": "Defeat Dr. Sasaya in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/32d1c1cc-130b-4884-9cbe-f9a85faa7d2a.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 7,
+            "name": "Murdag",
+            "description": "Defeat Murdag in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/5b2bd8a9-d0d9-4d9b-98d5-c23f521f2435.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 8,
+            "name": "Percival",
+            "description": "Defeat Percival in a Dojo Leader rematch.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/d2c55f36-9c52-45fe-8300-d84f9e354cfd.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 9,
+            "name": "I'm the leader",
+            "description": "Defeat all Dojo Leaders in rematches.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/21bb7410-1f6b-4370-a761-2305d538e161.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 10,
+            "name": "Belsotos Eat Poop",
+            "description": "Complete the main questline.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/f1930605-8ad4-4c7a-9a2c-007031cfc153.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 11,
+            "name": "Dabmis' Rest",
+            "description": "Successfully interact with the altar at Dabmis' Rest.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/2b359d23-c20c-4639-beee-c8af561b6b59.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 12,
+            "name": "Inner Flame",
+            "description": "Successfully interact with the altar at Inner Flame.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/de9ba12a-aab4-4d0d-8f85-dfa413de9a4e.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 13,
+            "name": "Sons of Crystal",
+            "description": "Successfully interact with the altar at Sons of Crystal.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/378f50eb-dc91-4597-bc52-05f4079625a3.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 14,
+            "name": "Aisha's Hearth",
+            "description": "Successfully interact with the altar at Aisha's Hearth.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/ad9fc1d8-85d6-44ae-a6ab-e8d8725ac406.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 15,
+            "name": "Kami Shrine",
+            "description": "Successfully interact with the altar at Kami Shrine.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/64598c0d-06bd-4c7d-9aeb-fb7bc1d1ab12.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 16,
+            "name": "Chieftain's Barrow",
+            "description": "Successfully interact with the altar at Chieftain's Barrow.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/b248310f-0ff8-47b4-a2f6-85f56abe6715.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 17,
+            "name": "Lair Explorer",
+            "description": "Explore and complete a Lair.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/80afda4e-7607-4ba4-b388-6359f7ab79d6.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 18,
+            "name": "Elite Lair Explorer",
+            "description": "Explore and complete a Lair with a 3-player party.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/fe3f46cb-7a92-41ba-8a54-6914e8517e35.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 19,
+            "name": "Indecisive",
+            "description": "Capture or hatch each starter Temtem.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/9f13af3f-6b38-4144-b5e0-e747d7fc5c87.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 20,
+            "name": "Interior Designer",
+            "description": "Decorate your house with at least 20 different items of furniture.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/3e3b25f2-80ba-479c-accf-48d74041e641.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 21,
+            "name": "I'm in Danger",
+            "description": "Complete the classificatory rounds by playing 10 ranked competitive matches.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/022830b7-39a3-4a63-9f8e-91f5a221d020.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 22,
+            "name": "Fashionista",
+            "description": "Obtain 20 different clothing items.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/fb5769a1-7651-47d3-83bf-3bbf6a08570e.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 23,
+            "name": "Trendsetter!",
+            "description": "Wear a fully dyed clothing item in each slot.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/7fe19dae-217d-4412-ae00-b9ad0b811101.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 24,
+            "name": "Trendsetter?",
+            "description": "Wear a fully dyed clothing item in each slot, without repeating any dye.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/c634495b-529e-4bab-8726-c8ae404c024b.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 25,
+            "name": "Back to the Roots",
+            "description": "Capture, evolve, or hatch 151 different Temtem species.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/28902739-acd2-4942-a645-1c352e0cf5ed.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 26,
+            "name": "Collector",
+            "description": "Capture, evolve, or hatch all the different Temtem species.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/c55ce911-e48a-44c0-b719-696d5e45c882.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 27,
+            "name": "Hoarder",
+            "description": "Have an item 99 times in your backpack.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/a3a55134-3931-4264-9827-9fadaf9486f3.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 28,
+            "name": "New Parent",
+            "description": "Rename a non OT Temtem.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/a6ca961b-22b5-4536-9414-3ddfd53abea8.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 29,
+            "name": "Activist",
+            "description": "Complete all the FreeTem tiers in one week.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/b0e2737e-55f8-4f6e-a4e9-61ff24520ede.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 30,
+            "name": "Saipark Scout",
+            "description": "Capture one of the two available Temtem species at Saipark.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/4ef35c1d-2286-49bf-8206-7ba92a07c855.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 31,
+            "name": "Rider",
+            "description": "Complete three food parcel deliveries in the same day.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/af4be29a-5ae2-49f9-8441-59f9878693a5.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 32,
+            "name": "Radar Expert",
+            "description": "Complete the 300 encounters successfully in a radar.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/3929f143-44e0-41bc-a83d-f7e3f4b13867.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 33,
+            "name": "Fisher",
+            "description": "Show a 5/5 Koish before showing a 4/5.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/ec468c39-926e-4272-bc6b-a8ab2cdf620d.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 34,
+            "name": "Feeling Lucky",
+            "description": "Drop a WishYouWell Coin in each well.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/7cd3a659-8121-420d-a8d6-0a455e3d6791.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 35,
+            "name": "Absolute Unit",
+            "description": "Capture or hatch a perfect Temtem.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/6362f762-ce03-4553-b57b-fe92609f2d6a.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 36,
+            "name": "Fruiterer",
+            "description": "Perfect a Temtem's TV using fruits.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/c73fb285-b73a-46c6-ad03-aa9e7afa0c4d.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 37,
+            "name": "Hacker",
+            "description": "Perfect a Temtem's SV using telomere hacks.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/65e7ba02-22b3-4bef-bb61-d9258f873b9c.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 38,
+            "name": "Blin Blin",
+            "description": "Capture, evolve, or hatch a Luma Temtem.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/e6c2fc24-b3ae-4086-b756-dcbf59cc0782.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 39,
+            "name": "Tuwailicious",
+            "description": "Set your squad with all of Tuwai's evolutions.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/73a6336b-ee21-49ba-9d17-8b13078a227d.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 40,
+            "name": "Prankster",
+            "description": "Ring the bell on any elevator.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/2393b07e-7bbd-475c-9224-4e0667cc0495.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 41,
+            "name": "Inheritance",
+            "description": "Breed a Temtem with an egg technique.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/871f08c6-4eac-46f1-97fe-e65d5fed3c81.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 42,
+            "name": "Full Potential",
+            "description": "Get a level 100 Temtem with all perfected stats, fully TV trained, and including all egg techniques in its learnset.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/9ed49f3d-3fbe-4f40-aa16-bd9df31c8395.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 43,
+            "name": "Can't Wait",
+            "description": "Instantly hatch a Temtem using an Incubator Ticket.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/efd5d54f-c1af-4925-ad28-1e8d34278db3.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 44,
+            "name": "Rookie",
+            "description": "Participate in a Temtem tournament.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/ccb6b473-71c4-4afd-8b69-52c25d2f958e.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 45,
+            "name": "Temtem Up!",
+            "description": "Win a ranked battle.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/e84ef291-c9a3-455a-98cb-89e5578192f7.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 46,
+            "name": "Gear Up!",
+            "description": "Equip a gear item to a Temtem.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/6ade5811-7c28-4c7b-be75-e71b9f77df96.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 47,
+            "name": "Techniques 101",
+            "description": "Teach a Technique Course to a Temtem.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/7d6a2a76-156c-4b06-812d-96bd5f37e81f.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          }
+        ],
+        "psnGroups": [
+          {
+            "id": "default",
+            "name": "Temtem",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22539_00/ed932811-84e1-4a8d-bf1f-7dea828055cc.png"
           }
         ]
       },
@@ -35127,6 +36386,25 @@
         "PC": {
           "earned": 31,
           "total": 58
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 8,
+            "total": 43
+          },
+          "argent": {
+            "earned": 0,
+            "total": 13
+          },
+          "or": {
+            "earned": 0,
+            "total": 2
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR22372_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/50ab8be8-66e7-462b-a0e0-d6287234638b.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/c74411c9-f9da-4d1c-9ae6-04c30057b8b1.png"
         }
       },
       "rating": 0,
@@ -35540,6 +36818,610 @@
             "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/740130/c1d2ffa8e25eaf4e67d2905a52b81cb010515aec.jpg",
             "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/740130/c4926d23fc46a67fd6f1b10eab66a43594dad2a5.jpg",
             "earned": false
+          }
+        ],
+        "psn": [
+          {
+            "id": 0,
+            "name": "Émergence",
+            "description": "La preuve d'un savoir acquis à la suite de nombreuses aventures et batailles dans les deux mondes.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/c74411c9-f9da-4d1c-9ae6-04c30057b8b1.png",
+            "type": "platinum",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 1,
+            "name": "Émissaire de la libération",
+            "description": "Éliminez le seigneur Balseph. Hissez fièrement votre drapeau. Le combat ne fait que commencer.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/7d138428-d6fa-4e26-a322-61ead78f51ae.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 2,
+            "name": "Vainqueur des ténèbres",
+            "description": "Éliminez le seigneur Ganabelt et redonnez espoir à la Cyslodia pour la 1re fois depuis des siècles.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/aa544c3c-1bd3-48b3-9cfb-f50cb7c110ef.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 3,
+            "name": "Frères d'armes",
+            "description": "Recrutez le seigneur Dohalim. Avec un ami comme lui, le Tournoi de la couronne ne fera pas long feu.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/e9e05195-aa88-4f23-a46b-20b136265581.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 4,
+            "name": "Vengeresse à la retraite",
+            "description": "Éliminez le seigneur Almeidrea. C'est un garçon qui l'a sauvée de la revanche d'une de ses victimes.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/65683fb4-e034-482f-9916-68153b0ee746.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 5,
+            "name": "Libérateur de Dahna",
+            "description": "Éliminez le seigneur Vholran. Tous les seigneurs reniens ont été vaincus, et Dahna est enfin libre.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/021b602b-d5ec-43da-a89c-2de0f4550d7d.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 6,
+            "name": "Invasion stoppée",
+            "description": "Arrêtez les lumières émises par l'Ancre. Rena n'a déjà que trop volé à Dahna.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/32af7c64-6e3d-4b8d-bfb7-d8907e0c2c6f.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 7,
+            "name": "La vérité",
+            "description": "Apprenez la vérité concernant Dahna et Rena sur Daeq Faezol. Il est temps de battre le Grand Esprit.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/f268a7cb-a036-4996-9c20-d3ada6452ca8.png",
+            "type": "silver",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 8,
+            "name": "Libérateur né",
+            "description": "Sauvez les deux planètes de leur destruction. Un futur radieux attend le peuple du nouveau monde.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/c0cf7938-3221-4daa-bd66-67bc4c054d14.png",
+            "type": "gold",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 9,
+            "name": "Briseur de glace",
+            "description": "Nouez des liens très forts avec tous vos compagnons, en gage de tout ce temps passé ensemble.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/e5e18442-a9e2-4225-a7cc-dcb0b7316cb4.png",
+            "type": "silver",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 10,
+            "name": "Cœurs entrelacés",
+            "description": "Nouez un lien très fort avec Shionne, revivez votre premier repas ensemble et plus si affinités...",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/bf9c9091-16eb-4eb0-8c7e-9ca704c50a2d.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 11,
+            "name": "Une mage honnête",
+            "description": "Nouez un lien très fort avec Rinwell, et aidez-la à accepter qui elle est vraiment.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/d24f8b8d-a00d-4c91-a14a-147a2d489e03.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 12,
+            "name": "Modèle à suivre",
+            "description": "Nouez un lien très fort avec Law, et donnez-lui un objectif à poursuivre.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/07ba5a73-d4bc-4263-aa0a-5a7a920724b7.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 13,
+            "name": "Un rêve modeste",
+            "description": "Nouez un lien très fort avec Kisara, et rappelez-lui qu'il faut savoir rêver un peu.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/5c519f61-9fe2-4d60-bf32-281f5ad6bc32.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 14,
+            "name": "Coma éthylique",
+            "description": "Nouez un lien très fort avec Dohalim, et devenez le camarade de beuverie d'un ancien seigneur.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/46745a52-8f69-4238-bfb8-6ef39a3b8367.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 15,
+            "name": "Chouette, des hiboux !",
+            "description": "Trouvez et signalez tous les hiboux. Malgré tout, la place de Hootle reste auprès de Rinwell.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/4557267e-5f05-4772-8d97-bb44be29fadb.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 16,
+            "name": "Étincelle rebelle",
+            "description": "Terminez votre première quête annexe dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/fe0406b5-630a-4703-b28c-30cc990c1ec3.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 17,
+            "name": "Héros du peuple",
+            "description": "Terminez 70 quêtes annexes dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/0435931d-fcd6-4ca9-a151-62624a2edb73.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 18,
+            "name": "Pêcheur talentueux",
+            "description": "Pêchez votre premier poisson dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/6ea6fd53-bf7c-4171-857f-c41c0da745f9.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 19,
+            "name": "Pêcheur divin",
+            "description": "Pêchez chaque type de poissons et retrouvez l'Expert dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/34e620f9-d9c1-4a76-b6e7-98340ec60d6c.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 20,
+            "name": "Cuisine instantanée",
+            "description": "Cuisinez votre premier plat dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/6d487bd7-6b8d-4b99-8c7b-fe18ca82e91f.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 21,
+            "name": "Gourmet globe-trotteur",
+            "description": "Obtenez 30 types de recettes (sauf DLC) dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/ed2c468b-fa34-4f8f-91ff-42f1b332afec.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 22,
+            "name": "Armé jusqu'aux dents",
+            "description": "Forgez 100 types d'armes dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/6afed355-76dd-4dde-8309-9c29bbef96e2.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 23,
+            "name": "Bijoutier",
+            "description": "Fabriquez 30 accessoires dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/8de0e1e5-3f63-418e-9e42-dc1809e4ccbb.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 24,
+            "name": "Ce que dénote un nom",
+            "description": "Apprenez votre première compétence titre (sauf DLC) dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/19d23445-4c24-40a8-98c5-2d43f72fc9a4.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 25,
+            "name": "Annuaire des surnoms",
+            "description": "Apprenez 400 compétences titres (sauf DLC) dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/f9a99fdd-78ae-49c2-b409-83791e5a6616.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 26,
+            "name": "Combo à 100 coups",
+            "description": "Infligez plus de 100 coups en un combo dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/f22c0bd9-55de-4b26-a585-d8ae8ca90081.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 27,
+            "name": "Le coup du siècle",
+            "description": "Infligez au moins 10000 points de dégâts en un coup dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/b393a77e-c1ba-4710-8ab2-77b8de48541a.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 28,
+            "name": "Contre-attaquant assidu",
+            "description": "Réalisez 100 contre-attaques dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/920d1e10-016d-4d5b-83bb-6d36465bdda1.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 29,
+            "name": "Dilapidateur",
+            "description": "Dépensez 400000 Gald dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/6ff8d387-47c0-40ed-94b3-f3f02234d8bb.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 30,
+            "name": "Apogée",
+            "description": "Atteignez le niveau 100 dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/f0cbecdc-1e17-4092-b763-73efad12412d.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 31,
+            "name": "Almanach des zeugles",
+            "description": "Rencontrez 120 types d'ennemis (sauf DLC) dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/55a74321-1641-4b3d-b690-7db7cbb083db.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 32,
+            "name": "Feu éternel",
+            "description": "Éliminez Éfrit Malum. Même une simple étincelle peut grandir et consumer le colosse ardent.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/a211bc74-263f-4c2c-a75d-7d83c8b71924.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 33,
+            "name": "Éclosion nocturne",
+            "description": "Éliminez Meneiys. Si seulement vous aviez eu le temps d'admirer un peu plus la fleur spectrale...",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/729e8b69-da4a-4af0-a9ae-14ce09d13df2.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 34,
+            "name": "Séisme continental",
+            "description": "Éliminez le Gnome géant. Son corps était si gargantuesque que même les ruines semblaient minuscules.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/7ab56d5d-d261-4507-8185-ab97052f4197.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 35,
+            "name": "Souffle du cyclone",
+            "description": "Éliminez Sylphe Procella. Le temps passé à fendre les cieux sur son dos restera gravé en vous.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/9fa8f9ce-6b4c-44fa-b857-905395dccf6e.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 36,
+            "name": "Flots déchaînés",
+            "description": "Éliminez Ondine Luo. Même l'adversaire le plus imposant ne résiste pas à la puissance du groupe.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/1fbd94a6-ecc3-4a87-a2c1-ad1d01611e80.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 37,
+            "name": "Chasseur de gros gibier",
+            "description": "Éliminez 20 géants dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/f6897e61-8c9d-47bf-a431-f647d75a6e34.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 38,
+            "name": "Survivant de l'Autremonde",
+            "description": "Terminez la quête annexe \"Visiteurs d'un autre monde\" et réunissez un certain duo.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/8e7c4c8b-f8c3-40c8-9396-8a17012c4cec.png",
+            "type": "gold",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 39,
+            "name": "Retour vers le passé",
+            "description": "Terminez \"Machine à souvenirs\". Les rivaux du passé ne font pas le poids face aux alliés du présent.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/6e5813e7-9eb9-47fd-9593-56a9425ffa24.png",
+            "type": "silver",
+            "hidden": true,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 40,
+            "name": "Première ligne d'élite",
+            "description": "Terminez le niveau ultime du terrain d'entraînement dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/fe899ef9-51b4-4764-8faa-ad4807ed814b.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 41,
+            "name": "Dilettante",
+            "description": "Obtenez votre premier artefact (sauf DLC) dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/c8d99874-0076-4146-96ef-2de6422e3da5.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 42,
+            "name": "Amateur de curiosités",
+            "description": "Obtenez 20 types d'artefacts (sauf DLC) dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/c0a4c9d2-5116-4604-b4c7-b6a286ed4bff.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 43,
+            "name": "Éleveur novice",
+            "description": "Ramassez vos premières récoltes dans le ranch dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/fd57da1c-8ad4-4bcd-8d8e-7f8445d992c5.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 44,
+            "name": "Éleveur vétéran",
+            "description": "Ramassez 50 récoltes dans le ranch dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/d26055f9-7033-41d4-bc4c-4a0cfa4f5a29.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 45,
+            "name": "Amateur de hiboux",
+            "description": "Trouvez et signalez 13 hiboux. On commence à entrevoir des plumages dans la forêt solitaire.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/c2746938-b923-4f85-aeef-41dc0f3a14fc.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 46,
+            "name": "Ornithologue",
+            "description": "Trouvez et signalez 32 hiboux. Un concert de hululements s'échappe de la forêt.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/73f0664a-69ca-4d3f-ab14-cc72ac54865a.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 47,
+            "name": "Moulin à paroles",
+            "description": "Regardez 300 saynètes dans l'histoire principale de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/a880a897-b9d1-4917-b729-b32d20116b75.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 48,
+            "name": "Le premier sceau",
+            "description": "Scellez le mausolée des ruines : Helgal-Ryugola 238 pour espérer apporter la paix en ce monde.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/600c6c20-6580-4875-b149-c3a58ffd52a0.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 49,
+            "name": "Résolution",
+            "description": "Protégez la ville des zeugles et mettez fin au chaos.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/f602c48d-afe0-4ca0-94e4-b533a2866d38.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 50,
+            "name": "Liberté tant désirée",
+            "description": "Engagez-vous à vivre dans ce nouveau monde afin qu'un jour, toutes les chaînes se brisent.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/6ebf5ff4-e733-44ef-b2b5-d9fc7f7aa8c8.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 51,
+            "name": "Le deuxième sceau",
+            "description": "Scellez le mausolée de la jungle : Helgal-Ryugola 67. Une autre destination se profile à l'horizon.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/53b2ddc3-9f8c-4459-bc9c-f153caad883c.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 52,
+            "name": "Départ",
+            "description": "Vous la reverrez un jour.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/186551a5-114f-4a58-9920-1cfcb1900d7e.png",
+            "type": "silver",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 53,
+            "name": "Maîtrise d'armes",
+            "description": "Fabriquez 6 types d'armes avec du noyau ryugola dans l'histoire additionnelle de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/d88f55ff-19c4-4504-b3fb-7fd73cf1226d.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 54,
+            "name": "À chaque problème sa solution",
+            "description": "Terminez 40 quêtes annexes dans l'histoire additionnelle de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/363e3e3d-2c2f-4c44-9a25-5a5ad04c5c1f.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 55,
+            "name": "Développement personnel",
+            "description": "Terminez 12 quêtes annexes de personnage dans l'histoire additionnelle de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/2ecb3109-ac19-4a2b-b704-f832afab8352.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 56,
+            "name": "Toujours dans son cœur",
+            "description": "Retrouvez les portraits de chaque membre de l'équipe. Chaque dessin déborde d'émotions.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/7eaee1ae-479a-4e98-8d9b-bb82fbd1bb7a.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 57,
+            "name": "Héros des hauteurs",
+            "description": "Plongez depuis le lieu le plus élevé du palais tourbillonnant du noyau. Ne faites pas ça chez vous.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/eb10f36c-30b5-4d46-a28c-7894434d1f44.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 58,
+            "name": "Première ligne d'élite, le retour",
+            "description": "Terminez l'entraînement en groupe ultime dans l'histoire additionnelle de Tales of Arise™.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/579f7764-60f6-415a-bf20-cf054c94d555.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          }
+        ],
+        "psnGroups": [
+          {
+            "id": "default",
+            "name": "Tales of Arise",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/50ab8be8-66e7-462b-a0e0-d6287234638b.png"
+          },
+          {
+            "id": "001",
+            "name": "Tales of Arise - Beyond the Dawn",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22372_00/d0daab80-1478-46a1-b0e3-24ba3d2a3e43.png"
           }
         ]
       },
@@ -37159,9 +39041,9 @@
             "total": 0
           },
           "platine": false,
-          "npCommunicationId": null,
-          "npServiceName": null,
-          "icon": null,
+          "npCommunicationId": "NPWR06037_00",
+          "npServiceName": "trophy2",
+          "icon": "https://image.api.playstation.com/trophy/np/NPWR06037_00_0063E1BDF683BEDEAFECE2EE2D160AB3CE2E7D7D0B/AA1963C28D3895DC3BA9CA3CF4DC3943F26690C0.PNG",
           "platinumIcon": null
         }
       },
@@ -42567,6 +44449,25 @@
         "PC": {
           "earned": 9,
           "total": 23
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 1,
+            "total": 8
+          },
+          "argent": {
+            "earned": 3,
+            "total": 4
+          },
+          "or": {
+            "earned": 5,
+            "total": 11
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR21575_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/45976ee9-344e-423d-940d-5e42fc82e5b8.png",
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/82ff3b8e-fbf9-4b9d-8565-c8cee4153611.png"
         }
       },
       "rating": 3,
@@ -42740,6 +44641,260 @@
             "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1085660/5116bae12cddf7942a225fcc68e89a54c4a02a05.jpg",
             "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1085660/bef4db29d3914091919acc303b8343aec86c5f84.jpg",
             "earned": false
+          }
+        ],
+        "psn": [
+          {
+            "id": 0,
+            "name": "Élus du Voyageur",
+            "description": "Obtenez tous les trophées de Destiny 2.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/82ff3b8e-fbf9-4b9d-8565-c8cee4153611.png",
+            "type": "platinum",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 1,
+            "name": "Un long chemin tortueux",
+            "description": "Atteignez le niveau 20.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/11d310a1-ebd1-4cb6-9c17-8af97c3282c6.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 2,
+            "name": "Lieutenants de Zavala",
+            "description": "Obtenez toutes les doctrines des Titans.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/c7d91e0d-80a7-47ce-bec1-b5499fe9de18.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 3,
+            "name": "Éclaireurs de Cayde",
+            "description": "Obtenez toutes les doctrines des Chasseurs.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/cb8ea380-cef5-4f31-b695-c75e859264fe.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 4,
+            "name": "Protégés d'Ikora",
+            "description": "Obtenez toutes les doctrines des Arcanistes.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/456d645f-df27-459e-afb2-70016696d652.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 5,
+            "name": "Montrez-moi ce que vous valez",
+            "description": "Terminez la quête « Lumière reforgée ».",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/2b88989f-0998-46ac-aa67-0cf0f94c1661.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 6,
+            "name": "Faites parler la Poudre",
+            "description": "Terminez 5 événements publics Épiques.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/a66168c3-9216-4245-8750-380b1c19d321.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 7,
+            "name": "Héros populaire",
+            "description": "Terminez un événement public Épique.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/f7dcfaf5-a562-45ac-aa0c-3a471abba005.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 8,
+            "name": "Cœur de Ténèbres",
+            "description": "Terminez une activité des Opérations de l'Avant-garde en difficulté Maîtrise ou supérieure.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/d9876035-734a-4e33-bf37-9b9661d63fd1.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 9,
+            "name": "Existence exotique",
+            "description": "Obtenez 15 armes ou pièces d'armures exotiques de la Guerre rouge.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/b83a2296-0799-41b2-8baf-24e96a4c02d3.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 10,
+            "name": "Défi accepté",
+            "description": "Atteignez le rang de récompenses hebdomadaire 20 dans l'espace saisonnier.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/daac699b-7bf3-40ad-8f91-56359ac85498.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 11,
+            "name": "Le ventre de la bête",
+            "description": "Terminez une activité des Opérations en difficulté Maîtrise ou supérieure.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/18eea8f0-1d35-4fad-91e0-89bb14e3ebcb.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 12,
+            "name": "Le Prestige",
+            "description": "Terminez une activité des Opérations en difficulté Grand-maître.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/edd68d80-d105-4032-84ce-6f2ca9343504.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": false,
+            "groupId": "default"
+          },
+          {
+            "id": 13,
+            "name": "Jugement en retour",
+            "description": "Rencontrez un Agent des Neuf quelque part dans le système.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/c09b859b-21e5-4b48-b149-9024ccbc646b.png",
+            "type": "gold",
+            "hidden": false,
+            "earned": true,
+            "groupId": "default"
+          },
+          {
+            "id": 14,
+            "name": "La légende grandit",
+            "description": "Obtenez 5 000 points de Triomphe.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/0dad5777-72bb-4008-a07e-58f59369356b.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 15,
+            "name": "Exotique",
+            "description": "Obtenez 10 armes et armures exotiques de Renégats.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/e0d7ee1d-21de-4bdc-ad38-f445a612adb2.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 16,
+            "name": "Sceller le Sceau",
+            "description": "Terminez un Sceau de Triomphe.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/2c639a9e-2df5-464a-b2ed-e65af4b057ef.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 17,
+            "name": "Défilé de mode",
+            "description": "Terminez un badge de collection.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/659d26f9-ae09-46a6-969e-3c86d64c7ef0.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 18,
+            "name": "Cœur des Éveillés",
+            "description": "Entrez dans la Cité des rêves.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/95fae280-3b71-4661-8fe2-e2a6edce0d01.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": true,
+            "groupId": "001"
+          },
+          {
+            "id": 19,
+            "name": "Un voyage exotique",
+            "description": "Obtenez 15 armes et armures exotiques de Renégats.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/fa883494-30ae-4819-be4d-b2f9f084bea6.png",
+            "type": "bronze",
+            "hidden": true,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 20,
+            "name": "Jeu à enjeux",
+            "description": "Remportez une partie du Gambit.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/4d954a05-4c36-4503-ba47-8572d13494c9.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 21,
+            "name": "La nuit tombe",
+            "description": "Terminez « La Corrompue » ou « Geôlier du néant » en difficulté Maîtrise ou supérieure.",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/d94744e6-c1e8-4881-a089-1beb42c1f682.png",
+            "type": "bronze",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          },
+          {
+            "id": 22,
+            "name": "Rien à ajouter",
+            "description": "Terminez le donjon « Le Trône brisé ».",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/b7d3cef3-ff6b-4e43-84ed-487a5c85c1e7.png",
+            "type": "silver",
+            "hidden": true,
+            "earned": true,
+            "groupId": "001"
+          },
+          {
+            "id": 23,
+            "name": "Vœu de bonheur",
+            "description": "Terminez le Raid « Dernier vœu ».",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/aa6737c5-1d4c-4564-bf6f-0fee590606ca.png",
+            "type": "silver",
+            "hidden": false,
+            "earned": false,
+            "groupId": "001"
+          }
+        ],
+        "psnGroups": [
+          {
+            "id": "default",
+            "name": "Destiny 2",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/45976ee9-344e-423d-940d-5e42fc82e5b8.png"
+          },
+          {
+            "id": "001",
+            "name": "Destiny 2 : Renégats",
+            "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21575_00/72392e6d-a3ea-496a-a6ea-3ba92e94340f.png"
           }
         ]
       },
@@ -46127,6 +48282,11 @@
         "PC": {
           "earned": 6,
           "total": 59
+        },
+        "Xbox": {
+          "earned": 8,
+          "total": 59,
+          "titleId": "2119739112"
         }
       },
       "rating": 0,
@@ -46547,6 +48707,421 @@
             "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/593338ffb3931a315b2930f7401789e6440d1d7a.jpg",
             "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2742830/65186b1309867c7d152a36cccc3dffeaa4615c0d.jpg",
             "earned": false
+          }
+        ],
+        "xbox": [
+          {
+            "name": "Rang supérieur",
+            "description": "Faites monter un clan de niveau.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.2foORa5Bxog2iObN.n6Z4p7l7U8lg.4khS1dGJEJC8w1neV6AXqTxnBfUmi5vMmoyIOwuED1_xauRvg3SRq4BiG74OLLB_Eqss6KvecE_9iKyic6HGQNGDD0Lnr9EQvA--",
+            "earned": true,
+            "points": 10
+          },
+          {
+            "name": "Premier mais pas dernier",
+            "description": "Gagnez une partie standard.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9ftLddrso01kfa.YcyNE0MwuNyH07SzN3Me1ZVG2PROWy0o9kG67pEZBYYnfOxJlYEsi4h_aZNe8D6pU5ThIBkOUHTk1f7_rkXKzYK0yV.MB7hvk84kcZE1RjKUh0fF9qlAkhCOA0zPQHqrSFmMCSA-",
+            "earned": false,
+            "points": 10
+          },
+          {
+            "name": "Stellaire",
+            "description": "Déverrouillez les Lunariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_qMM5bnYUlbqYDtyecxqYh8.T23w26gFMCxRCbNokcUolejI6_2Nzg.4n3IMCzrB430F_d2Q3KFHGcAv5GUEa9u1TYCSKo.Jv9YMRc3rKxznBChmvoSDcB_wcrwIn_yEw--",
+            "earned": true,
+            "points": 15
+          },
+          {
+            "name": "Faction fongique",
+            "description": "Déverrouillez les Armillaires.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd46UheQh2umGhprFa2FN5OIl2J_pIh0pYpPXt9EAIruunIiDmW2wBKgR.GO1dRQ3LpgFc.Xof.S2ya4tyK4HzfalzcsYqZgpgVCZth8yUt31lfrSfDtGBHKgKXMvaDmI7g--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Folie scientifique",
+            "description": "Déverrouillez les Lazariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd348W2bH8YUJyHKqXxQAvMpajHSDXu3i4JeGxnaM9fSQtJS0oPNFpIUFW9sl2eD.1CbEM8k300Fh61A1gj4olxS_v7o2VWHdEiZ_VLYmOnFony30XMtvbPEEQdkhoVJKgw--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Toute la bande est là",
+            "description": "Sauvez les clans du premier Monster Train.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0wsvf8rmK9Dr61KsBqB_AphL2tXo8Brg7nKmE.urcNiLPspdDNbCkEbUVg70OoA3G6H.icirRh3tZCLE22VUg1MUj7VOrtxdFLW84VjDQmnCi2KM6ZtsFHcnJSvHufOcNhtBsEWCr4BIUDT3Vr9bhg-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Divinité restaurée",
+            "description": "Atteignez le niveau 10 avec les Bannis.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9AWJV.UHRjOK0c53FCeHK8.8CQKfLESRcDIzFOG1FF08KNs8UkZo9P_RiYhwVkOekTnDT8H8qdSM9C8FLkA5AsIj23J.mVy0MuBSRsY1fibDL_XdVVFT.Vs4RcWqZox1IsiGXBgcoKqaIF3uijqiwI-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Trône d'or",
+            "description": "Atteignez le niveau 10 avec les Draconides.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9djFvqvqF.ZZW_75SjhTATTs0ttyBYhZm8D1j_uqB12YOi5_EydWykBxNinoHlGb4TXkxWirL_ob.bb8M3KyC00gYU01DgcebdZZyknRZujxQzWGdl8YC3Qq5otDKhKsg--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Éclipse totale",
+            "description": "Atteignez le niveau 10 avec les Lunariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_UU_kXBaY0gmWdD5kzxjPrdUVANUpLQR1yei371J98fhRoKrr_JYKpf34c7n19cl7vwrd2FQTsS56hHspoMICk8XT1DBktEGafRjh3Xafr1erURhdp1Arq4H6LX3zzLjA--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Myco-héros",
+            "description": "Atteignez le niveau 10 avec les Armillaires.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_8w_ObHaRtJWHo17HR5KjG9waXOJg6VyYfZN0swxv3H9uKH.c4DyqxmXZuyTVc6hCm_pUdKq8EUsW1lqgDvDG_PnXQ0mra_Dn5vMjbzht9ZPOuUeogDMTSzOft8YzwsYURoiRHouOsjGbmMk3PUe9I-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Les médecins sont là",
+            "description": "Atteignez le niveau 10 avec les Lazariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7wWbIFpzN57QHEWOEaGO4gRxdL97ZpGXN6FBX9XjPk09yEer66J4kbcEqtoMEmzVsEFxyme1a2Bx.Kx4bWIg11Umb47kHEPVW84dh2k7L9PIkYyLzhNGtiFTzuFFnMxRFAdaOeboKo.5JfSUYZouBk-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Abomination démoniaque",
+            "description": "Atteignez le niveau 10 avec les Cornus.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4JPtcQ5jbatEHnfd2dGGGIOwFHkwEH53fPXvnyN24mJTp0ZWfOFSMXGapCfz9KwXoVtHqpxo2UGLCpOP_zbKe80W0t3hEPulIbo4ljVQVPBJX3tbbfNd7VH2xtJpftLZe43u8cs.DxxH39UaQUSHKs-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Racines profondes",
+            "description": "Atteignez le niveau 10 avec les Éveillés.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxIBiW9IW2MfOWGud_QERkt.JXVnjPekHSUIQNM3jC1i.3VHLJPszTf12IFrpkNm6JBMLNQhfll5atX4o.afyX86r1jm4dDsZsp5M3NIOb1S3OKl_lHVWS0_q0aMQIbO0Q--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Dans les tréfonds",
+            "description": "Atteignez le niveau 10 avec les Gardes stygiens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_CdYcH4SIkHV_IXg_FHN.BxICHQdyoC9zisf5UXjdO2_QkiiHB1jFGY7l.MlFU3gxTfMaaECZd2OTxhLVUfC0LBIyCH4CEAZs0QdzWsWx17eq0.g_ULRhL4d3dXQvPsxw--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Champions aux chandelles",
+            "description": "Atteignez le niveau 10 avec les Éphémériens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8ZQFK9VzFJhpZJkREbqHB8vvTSQ5PaUG6SdzXSntuMKJs8ZVue3EGG5sNKg9Feq38.HRE.LZHQs4hFe0_bREDMiN7p8JhzszMXls3olkTu9EutyZ6nXkATIPzyfeLPDC.DGB5pQB0mIHusSMHE.Ot0-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Gourmandise assouvie",
+            "description": "Atteignez le niveau 10 avec les Umbras.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9Dl_NpMoSxqElVwPAch6Pzs2tv5W0pBAz6MxWEbGmINuqX6k7X9zgrikGp_GtwEDAXBs38KxO4Za7KiaL_KUPyBeor0Sw.svhZiTaRPVlH65M6g60JjHsf95ml32LZLHlYiZcTcPkbNj9RJ0MbmsAU-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Maître des monstres",
+            "description": "Atteignez le niveau max avec tous les clans.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzttpqR9mABLoi_h264Ah_YD9_6IZFnGH7JQmL6hlh_x4Iz0LT9SH2z6jg5334N7wd4yEsk3QyPM6N33u9IAOTZXDya8a14unfAtEBc_QzfkTs_61atzA_sXakBTLgpkS2av9qzRPLC.oZ0EiCxlbpM-",
+            "earned": false,
+            "points": 50
+          },
+          {
+            "name": "Briseur de règles",
+            "description": "Créez un défi personnalisé.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzBhG30llMTgq_z7hY1zRxwljlcJm9MjcFdDjP950qLQSOwfWAvspq2DMf9uf8YvuVR_P6WRZNvgTfUjV7u1KpTNMxVD0umGFlFv0EJRkg2Dl0ly5miDmG4qHJ7MpcWMTQ--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Fratricide",
+            "description": "Gagnez une partie avec les Bannis en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8R2wUNLUbK6X7netQmgiADrl4ucLd07A.sJpJ1IdZrjZUN5xnhOH8ThFQ32IK2mnEIfInjFmHOr5sQ7_jzDEmZcvk82BU4_Qvjg047b6mbA99mlum67R2rQigaVduiFQA--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Dieux d'or",
+            "description": "Gagnez une partie avec les Draconides en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0xeaGLjRrfNr.59bjaPaeWK2nT8POEnQMDVgELK8NrFCr5QC7lh9ejVZpco1ZS1ahzPHQSygrEk03AnKnldhJ9XyPUXwzu0b0Ju4bpSCpkWK8QM5bKpeY4temirPxclDQ--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Guerre des cieux",
+            "description": "Gagnez une partie avec les Lunariens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxkGlO2YAl44_cMmdyOpem98jg2hC78qPDMj4jMxLa_ddrCIy8uyc4k3cHHLzP7hS98yzu5zTtFEIvOgD3aQBPIB03Zq.M1CaUt_lxHaK9zagDgpdtDKxuKU49CZGCYRQZ6slgcDb8AArzWzqL1n6uQ-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Esprit de ruche",
+            "description": "Gagnez une partie avec les Armillaires en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwY0.LvEnunrBOHJwJoTGvNabBLl4bs8I4gOvv_y6um0afy0tOiUjmjGMSG59t3GBf0h3nzyS3dCp1VtIFs8gBotLW0KjKNYR_EwmUExdiBrSUrDWjDfquocU0dJW1NNFw--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Professeurs de la douleur",
+            "description": "Gagnez une partie avec les Lazariens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4YZ7Cf.bcN8bVYlZX7qYR8jBC..6tJckByaDKLNrm85YNOUU7Z88J2Ow_HD1UX1wZ79Ids0EZW3tFSonYycCvdWjBiUUE1Q_CApVKTUyADCHC2OLUEqdQPxHSkKW9NEnfIkmZSTQbAARiaN6uflfL0-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Souverains légitimes",
+            "description": "Gagnez une partie avec les Cornus en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6NoGj7jZQMki04gpiRpEPsUWmQttI5SWurfmrvLGWBViky751896.b63_MaakuB8_NXkY7ief9W_WXD1HEuvohweu_7BJkwXrKOMYXo5PrIXGw3D05ot7tb.ijkheW9DC1W2aJ.rkHE6IYav3MPYIw-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Ordre naturel",
+            "description": "Gagnez une partie avec les Éveillés en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4pm.t9ThZqdgwMOlsaMXvdb7UgnFucCOZ_H1PH_RtmacLAoRc3DD8jeoof8mweW.Lrlid8iolhbSwbverBLOIAR8b6K0UJL72NCnvbI27dBCau_2Oo9T2T.a77W8GsC8g--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Tsunami magique",
+            "description": "Gagnez une partie avec les Gardes stygiens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5He5Z9EFw3atJNO9RYMqWlcLatHJxTtEQw4H8jH7z496aMS0yVVKiJuPyAFfzhlwt.MDvZPpPgVHG6oBc6qmrtq5KRJUHybAoh3EQbrn1Rju9fQ0eVQ8sG6WIYrGRZ9KlTZBHUlMwk9hhou2C.ndq8-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Guerriers de cire",
+            "description": "Gagnez une partie avec les Éphémériens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2r1oWt0fAGaJaS.E_5OsWipcTSo1qf3xtXfuwVLi4NVn0ogPBTwA5DP_S9B0qpjDSmqCDLMx8QMjJhjvcECgNK__7cD54Wy51mJu8zV5jp3sfr3yTuiDq8g.NbNmsRClg--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Maître des sous-bistres",
+            "description": "Gagnez une partie avec les Umbras en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0AscjVALd7YZ8iAqijlszNx3px6agkDacZkoPoFbHB8YXwnWEexTIycmQdmR2CaeACQbPRtj_RD.yDviPs390bBYH5h_XiRyniNVxNaO5OHxez1zKqYeL6Vq1gfUMjOWYOSGssXOfUbZ3EP9q4oHtA-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Tyran renversé",
+            "description": "Éliminez Séraphin Aeternus.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd09EiImYjxj9xs2k9JzCXc5Bj3VIpmnsGnND_3t7cf_ngJyi4pnHgIaTujRYvitJCicLaq9u9D5Ms4Zey.VnxFknReCUP4oCZHsLRNs3ISUKnIRPbHKiKQPgtplLhSTzEtUlRVGVND2JvNATXOp7fJI-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Tueur de titans",
+            "description": "Battez les titans.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyHmTWmMCbDKhdMEoDy6MZYg8YixGAJYgG2X8T1YBZ07W3YTsxDOTvH72WTN0j7Gnfuocgbcb5ceE7Af6rPOYmfhFR94aPPPHQGMx8CdNj3LS8bcGP4wG6j_cTGPVV6AQA--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Pacte de sang",
+            "description": "Gagnez une partie en rang d'alliance 4.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz59tklyfM4FozsEqjYukku5XzSeMDMKiY1qqKQUT8WWoDFomrU4TzjnvLJl4.qrlYxMVBtdwhWxdKUYujOrb5C3bBXcNeiuYeBltjJIcGlc9w3odRJhqfQCqM4JzE1bOQ--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Tourment des titans",
+            "description": "Gagnez une partie en rang d'alliance 8.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxdQ9IwlMp9Xc0XadRQbQJMDu.aNXQ7eHiABMW39M682u8yDOwvUfjrsuluZRNNHMzWCndBbXfN_CeW0v982dl0O93DRKey3PkNgRNuyQC35TPhAwdcWQfsUlKJrkc7LBA--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Mort rapide",
+            "description": "Éliminez Séraphin Aeternus avant sa phase de combat.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyYRDE3kqgD0_JxWqThrwAAa2ESwLcIa2Od6AheMcFkF50HMrkkgsAMKTwCY8DIoLfG3FIDD93a3EDDi2I0yfmnzRMySMHrLCoco95rOWY7eUTVdIEvJgOHwnMFCt7rxTg--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Course au score",
+            "description": "Atteignez un score d'au moins 50 000 points dans un défi quotidien.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxQ6BOf.MJvZSwQD.tBiPidzgls4Ba7UXFeqBYZUnWIt1mpFS56RKfmKjzqK5rhI5IUGIF7MMy_TUc0E9KiCeCgo5PCXK4N8DaDS.H.vvzDhb29U8uT8_J7R1BUsTLKUwfEhVAURQ0gecF4JL0SSH5o-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Magicien hors pair",
+            "description": "Gagnez une partie sans jouer d'unité.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.PBVwHcGehVee7A9X_gOTayYafktMkyLBVrSt07BHtssJfo4Iw5yTGr91bJyzL9Z9RQ5LaC67mLnzNxE0pIeTsldBrB.WIKkjZjatHyl_wTxor3NqNiy2xjRMj7kQB4l5A6yJC3QjhqA8i4B0Epexw-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Commandant en chef",
+            "description": "Gagnez une partie sans jouer de sort.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0yDCq6ix.HAcKku8ll0xuinRFHck88YAR5JbWk1iCqIU1NTgYiXzb1.bPUI4YkxwBqgA905w_5sUMtsVeynqslspixEsvfoHTsez23_vJMRvq46zrK3j7tcq5YBw0rX5YglvRHAZ73FUT3cWpbXKi0-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Retour aux bases",
+            "description": "Gagnez une partie sans améliorer de carte.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.L9OJeNKJI90_1kDr_8tbgWXpZVHh4XMjic3PJJ2oVl2B62RMaPEyZY09l.kyxF6rtzqLCRW2o7xLjand.GckjXPuuMeTwX89kl6N7rF82kUE0oC74_tYdxSOmeykxmaw--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Y aura-t-il une fin ?",
+            "description": "Gagnez trois parties consécutives en mode infini.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4HVebRWUI5yyKoLA.s06KYhtuAiIVX7yOnd6IYZ2Tc.bN1EtEVtYXzMxgh_nSv280hdLNu4pFpDrl65EBmAwjU8oX8SKRHQBh3atQ8JX56WBkDxSSt_ffK67GXMx7uuDxbtRpmJ.aBH5usRvUdt0zk-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Quartier-maître",
+            "description": "Ajoutez des équipements à six unités en une bataille.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyRtMIKscydtEyJWkYOJNmpay2S7bIqFMTqBstIckgVpktnQXSfRAf_RNRUOlbdlXqCOwNRbP9dDqDKAIboqlU0VhyA8UfpM3rS9aO9uyijLxnhCnKYNQDNTnt6FrS3UiA--",
+            "earned": true,
+            "points": 15
+          },
+          {
+            "name": "Train monstrueux",
+            "description": "Jouez une carte de salle à tous les niveaux d'une bataille.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd24StVLBfF7EXsEQiU.O4kRZIUsNas1FOjsecXGZqdt.StgGxNq41r.Pq4Yh55soLh3dO5lglNilWvDcsTvi4F6veamxqMGCUS31rWqCsIoMUDSzvZmgmSbyYS72HAAfIrhXR4E1AEGmfgXbvZ2XPS8-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "La crème de l'enfer",
+            "description": "Infligez au moins 100 dégâts d'un coup avec un monstre.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd._c5I4eCFXO3A691T5IL_oDvelzdAWtpfWIpUXvYNMT_qEAHym1_rK0snvyEWTKW_0ugsTNmtkW91dS4o3COr7NwLtAOUyyVjEogj1_Cpc0FIaBPXuOit7qjh0TfQz8Aw--",
+            "earned": true,
+            "points": 15
+          },
+          {
+            "name": "Un poil abusé",
+            "description": "Infligez au moins 175 dégâts d'un coup avec un sort.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2.ad0Tdbkl8I9wCNzhAg9KTbCNcaFjKihp7gMY93Mxw_NQ8YZJGrAo4u9Hi_sttpCAT7kiDened5mcX8eGGpjQ6t5UE8I1Y_rn7zo8yuNcT8_QiQQgDiFF525B.sSNY1Q--",
+            "earned": true,
+            "points": 15
+          },
+          {
+            "name": "Voyager avec style",
+            "description": "Personnalisez votre train.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0vxsaPKRFeUeDJhQxY_pU6bptpfmi1fINSAI6uXpH8sHYdJjm0rl5VBl8fXjmx4FBJIPnjh2_wm5OQEGo8G7LEkNnFa1MKv8vTqpWkgQEHBfPfmWETA22hReiUv0yL.MA--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Sous-fifre de Malicka",
+            "description": "Gagnez le défi dimensionnel Calvaire entropique.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2sy8vLL1WOdLO49dIB20Rx04b30aSoK_omctslATW8WirPDUOxYNlR5f7VNnuaoOf8bC_ALEZyflfYyOq6VseEWmXQpqRISbeTbFwwE7nHJJBKwyJtet326qHoxQRiMRROEYTjwtSCmrEYmBAQA0ek-",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Langue bien pendue",
+            "description": "Déclenchez un dialogue facultatif dans le Bastion du Pacte.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0rH3iHMNAV7zlz7g9AoadR7uelgtaxg7hvoNlOafityP2aMvmIyKVOSo_femSBuU6oTatRkB5OtFEb7LJKVYG.BVBXhf8TkFRevpTI94lZ_pb_MBj8lF.ix1.3CpLs0Nw--",
+            "earned": true,
+            "points": 15
+          },
+          {
+            "name": "Fi du passé",
+            "description": "Retirez toutes les cartes steward du deck.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_ZlXgpq6cefTrD_48RmIkSGtmaiFBpPLaLQDU619dVSKIml17Q73AtsqjypHf3NBu.sLnfXaN1pKv3TysUHiqZnkVId8bk3BZ0iqb8cz6NnWyKRHfA_Cti_n2FEZXfw9w--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "La clé de mon cœur",
+            "description": "Déverrouillez un autre Cœur du Brasier.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6dpyYXKVzeMBJvsSEhMsflkkvwk3wDOITNxAi10RqrQmHrsaVSJU_Zd4nIj65KYj5rCauJvUnX7PKoGSDLDaKlfz2GRFaxA3W1U1yKEsAqf.kiCN_esZcvQiHUb4AKGww--",
+            "earned": true,
+            "points": 15
+          },
+          {
+            "name": "Ça a toujours été là, ça ?",
+            "description": "Déverrouillez le portail dimensionnel de Malicka.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0p12gM1CHfbbY9JVwUTcqWf_Q1F9GuhTPGVVu5skbe_v2BYVobYSq3_dwyoz18nX6BcZZUxa36LstgYcu.UCeeKn79jPVGe4C8.5nB0sDGYZZBipKsksNjmycbpivx6ejKcpxy5Fw_1Gsz8JuGwj5k-",
+            "earned": true,
+            "points": 15
+          },
+          {
+            "name": "Reformer le groupe",
+            "description": "Invoquez au même niveau : Oiseau chanteur, Harpiste deathmetal, Guitariste punk et Fauvette enjouée.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxkPPp73iikgkPWDQRQ8wlUYTVeskniKdoUwbYwYJL2XghaQdnH_fMoPTdroySAt3KTXECdLuM49TXxj41Igh2zKcsadl0M5EQ94wnI_RPJ16fhlfrYK7YFXuvStOr.p5FLbCdMV3gsyvxlyDBRa.lg-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Ce n'est pas fini",
+            "description": "Déverrouillez la bataille des titans.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwhrvfIFfi7RVIJYpDHOnh8B_2qILnMNRmxD8neiPwQaDKT_tknbYvjRytJbkRh8nYwwe4yIAumbvqXCwjBqHp1rz43.9JGkzxGls.JBIm8SQKIPqsJaR12tQ3xbnn9IffKSYjePto566VxNAl0jm0g-",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Détermination d'acier",
+            "description": "Atteignez le niveau 10 avec les Forgerails.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz2kcRwwxb.UpekfMq0ERYwbZzgkXxg71XDgilqJV9Bw676c7I04q4NMf4gLQIGSuRFHnHm4Ksir4H6IaFKSui8ejMD3Bh26MR_rVLHqtuP8fND4Uk4hN78LKZtbR43j6w--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Chrysalide accomplie",
+            "description": "Atteignez le niveau 10 avec le peuple ver.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0GdDGbIhjlEHWoj32Bmf8g89mLbRZvrJaxGhX6JQPgDwwpBK_OW2dyPpUKaBnGwEXIAZm1rLmYlAnMNS_YKoi4aMRjXGeY82Zh8Ia0DGU54weTre2l5DAdjV_XfOp.Gcw--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Forgé dans le feu",
+            "description": "Gagnez une partie avec les Forgerails en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8H8T9SNx3X4nqK8fyOD9Db8aaaZNwPvFmXqts4hq5FERPkV2S8WaNIhYlx6VmOJxw8ZpzU11XQ8EL5DObDpiwrNcMGQSHiqFYWpFgwhO8e7f8nL6mqJaTkHfCkqg.XWoA--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Échos de grandeur",
+            "description": "Gagnez une partie avec le peuple ver en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdw0tZbO9n4U9csP0ctUJviKInTEFaXqmXXcaxhUIKjSWwvWYSuFMYAJrxsxs6tRfdVY54BdJ9CSIexchDYmLjNRtMrr.hqfOhMmZUwiyeBe7wUXZJMsJls_cbXwsz8Dcfg--",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Le monde vivant",
+            "description": "Débloquez toutes les Âmes.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxIhAyg4raDW2T4eNIEFYtJUVoJ0iZB6ClAf_tmmM5fqgMB4gFOMGlVbU6sqthP8dOMj9LeWuT5288Y9hDyxv8.kxYSRclUciOWNbtA1LPss",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Le Titan des Âmes",
+            "description": "Améliorez toutes les Âmes au niveau maximum.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd60pKUEXHyvIw2EiDZQt_L_F7qv4M1jwf0xCWAgeQvZX8XXVo8LZRRlMNy5JIEnposjixb8Csphi4tCuljlo4zF_uCzSp3cpul1ATd0DOUPb",
+            "earned": false,
+            "points": 30
+          },
+          {
+            "name": "Âme du printemps",
+            "description": "Gagnez une partie Sauveur d'âmes en difficulté Floraison.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9ZvmrXNZSMNEVt7w0z_.i.SgiJeeZ.neAtBWSjKu4D9WWnOLvySogwhi2KU4_ZkOm1.gFH4_CdXHhkundIy7P17gmbnqDHmIzmL2BtZ7UJP",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Âme de la ronce",
+            "description": "Gagnez une partie Sauveur d'âmes en difficulté Enchevêtrement.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdysmTBFjk_QBw8ELq09tRqSPxGappW4.In2JW5HgJyDRi2YOedEgxujF9axer9P2vW76_HkAlABp9yxTFA73CN9ZOsGw3rVxqx4bCg9AkEjGslLehWIzsVjh7tD9_dDnmA--",
+            "earned": false,
+            "points": 15
+          },
+          {
+            "name": "Âme de la fin verdoyante",
+            "description": "Gagnez une partie Sauveur d'âmes en difficulté Surabondance.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxWFFSIPPYVY3YXBg5EEZvTtkxN5gRCMhjPNB695HIhTkwDaPFnUPap43qDkUIJIdytHxoVJMT_OT88x72Z9oNA3TnWTEB86wNYu.fHyV68Ff_y3hsEdZ7OhUEZx5PxSWA--",
+            "earned": false,
+            "points": 30
           }
         ]
       },
