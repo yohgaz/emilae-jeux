@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T11:49:42.503Z",
+  "updatedAt": "2026-08-31T17:15:52.880Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -52071,9 +52071,9 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1788176818",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1788176818",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/x/B4Azydbn7Prubxt7OL9p1LZXZ0.png",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1788195374",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1788195374",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/I/jGRnjIlwWridqM-mIPNew6bhHM.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit"
         },
@@ -52092,7 +52092,7 @@
             "rows": [
               {
                 "name": "Force",
-                "value": "439"
+                "value": "395"
               },
               {
                 "name": "Dextérité",
@@ -52100,7 +52100,7 @@
               },
               {
                 "name": "Vitalité",
-                "value": "1802"
+                "value": "1690"
               },
               {
                 "name": "Intelligence",
@@ -52108,7 +52108,7 @@
               },
               {
                 "name": "Esprit",
-                "value": "440"
+                "value": "396"
               }
             ]
           },
@@ -52147,7 +52147,7 @@
             "rows": [
               {
                 "name": "Attaque",
-                "value": "439"
+                "value": "395"
               },
               {
                 "name": "Vivacité",
@@ -52160,24 +52160,23 @@
             "rows": [
               {
                 "name": "Collecte",
-                "value": "4710"
+                "value": "5569"
               },
               {
                 "name": "Savoir-faire",
-                "value": "3699"
+                "value": "5460"
               }
             ]
           }
         ],
         "equipment": [
-          "https://lds-img.finalfantasyxiv.com/itemicon/1b/1b711c907d7a504b23b83367b4085d0f61d87ffd.png?n7.55",
+          "https://lds-img.finalfantasyxiv.com/itemicon/9a/9a9be1c4e840476fa084d86d18bd6e56d5d0e3e7.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/1d/1d4008edc574f287a33806dc395d884400a93c8f.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/af/af532ef31b8b82eeaa96d6aae6ac332b4f6d4bac.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/95/95300b85a1f7fed3db949d03db9c7e1905c3f5c2.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/63/63db77778265f2d0f9878a9bbc8508c8192fa26b.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/32/327e620be5fffb9bf4216c47d6f634c551bdfc3d.png?n7.55",
-          "https://lds-img.finalfantasyxiv.com/itemicon/17/1752302be977b0f896847b63c8365c3353890edf.png?n7.55",
-          "https://lds-img.finalfantasyxiv.com/itemicon/f8/f8be47fa547dfb54461d4ec600bfd76cf9dcfef3.png?n7.55",
+          "https://lds-img.finalfantasyxiv.com/itemicon/90/90be0b16156b94a6eb688b7b7c2c73b963452951.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/8d/8d5a63afa7fb0d1b0aac096d4bd30625681a932a.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/77/77f841b34a9894d4784fb871c3feef6649457812.png?n7.55",
           "https://lds-img.finalfantasyxiv.com/itemicon/f1/f1a290dde53c1264529ca49ed3af3db201126902.png?n7.55",
@@ -52194,10 +52193,18 @@
           ]
         },
         "achievements": {
-          "earned": 1936,
+          "earned": 1937,
           "total": 3445,
-          "points": "17115",
+          "points": "17125",
           "recent": [
+            {
+              "id": "2365",
+              "name": "Féru de la hache VI",
+              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n7.55",
+              "points": 10,
+              "earned": true,
+              "date": 1788191159000
+            },
             {
               "id": "3924",
               "name": "Outil cosmique : canne à pêche des constellations",
@@ -54187,14 +54194,6 @@
               "name": "Fournisseur officiel de Margrat IV",
               "icon": "https://lds-img.finalfantasyxiv.com/itemicon/78/78dcbf31b52ffdee56a1d64369ea383326dd5406.png?n7.55",
               "points": 5,
-              "earned": true,
-              "date": 1705426605000
-            },
-            {
-              "id": "3414",
-              "name": "L'appel de l'aventure",
-              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/63/63eff52f13b87097fd1ac2fc2bd5e9fbef35924c.png?n7.55",
-              "points": 20,
               "earned": true,
               "date": 1705426605000
             }
@@ -75267,7 +75266,7 @@
             {
               "id": "8",
               "name": "Quêtes",
-              "earned": 454,
+              "earned": 455,
               "total": 516,
               "achievements": [
                 {
@@ -78227,8 +78226,8 @@
                   "name": "Féru de la hache VI",
                   "icon": "https://lds-img.finalfantasyxiv.com/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n7.55",
                   "points": 10,
-                  "earned": false,
-                  "date": null
+                  "earned": true,
+                  "date": 1788191159000
                 },
                 {
                   "id": "2949",
@@ -83883,7 +83882,7 @@
           "level": 39,
           "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-08-31T11:49:42.043Z"
+        "updatedAt": "2026-08-31T17:15:52.848Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
