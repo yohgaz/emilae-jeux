@@ -1,0 +1,99 @@
+{
+  "events": [
+    {
+      "id": "8028a692-e22f-46c1-ad93-9cb12cc08fdd",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-08",
+      "time": "14:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Seconde partie de l'épopée 7.5",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ]
+    },
+    {
+      "id": "690bc920-5d28-4598-84f2-c7efa22ded5a",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-09",
+      "time": "09:00",
+      "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
+      "title": "On avance dans l'usine",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
+      ]
+    },
+    {
+      "id": "8d5cb57a-d93c-4c39-841f-d67756328179",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-09-10",
+      "time": null,
+      "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
+      "title": "Star Wars Zero Company — Épisode 3 —  Sauvetage et destruction",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/sBJ-V1J23cw",
+      "youtubeVideoId": "sBJ-V1J23cw",
+      "durationSeconds": 5148,
+      "autoPosted": false,
+      "gameNom": "STAR WARS Zero Company™",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
+      ]
+    },
+    {
+      "id": "b6c4a66e-73b0-4f3f-8efc-41c8e11bfb3c",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-11",
+      "time": "14:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Découverte du dresseur",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ]
+    },
+    {
+      "id": "201a9416-df92-4093-972a-0328570a1028",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-09-12",
+      "time": null,
+      "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
+      "title": "Star Wars Zero Company — Épisode 4 — Des infos sur la spire infinie ?",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/XE0UtVCz46s",
+      "youtubeVideoId": "XE0UtVCz46s",
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "STAR WARS Zero Company™",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
+      ]
+    }
+  ],
+  "publishedAt": "2026-09-05T22:05:08.478Z"
+}
