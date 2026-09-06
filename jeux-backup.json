@@ -2284,7 +2284,8 @@
       "id": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
       "nom": "Mewgenics",
       "plateformes": [
-        "PC"
+        "PC",
+        "Xbox"
       ],
       "steamAppId": 686060,
       "igdbId": null,
