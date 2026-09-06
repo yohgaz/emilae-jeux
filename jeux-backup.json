@@ -193,8 +193,7 @@
       "id": "0c79e54bf51f46999ad7ecf2cf03ff95",
       "nom": "Cyberpunk 2077",
       "plateformes": [
-        "PlayStation",
-        "Xbox"
+        "PlayStation"
       ],
       "steamAppId": "1091500",
       "igdbId": null,
@@ -1687,7 +1686,7 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 30,
+            "earned": 28,
             "total": 48
           },
           "argent": {
@@ -2123,8 +2122,7 @@
       "arrete": false,
       "occasion": true,
       "jeuDuMoment": false,
-      "fridayFantasy": false,
-      "youtubeActive": false
+      "fridayFantasy": false
     },
     {
       "id": "6c691084-5299-49b7-9db3-7211f0d93b30",
@@ -2144,15 +2142,13 @@
       "type": "normal",
       "completion": "",
       "arrete": false,
-      "occasion": true,
-      "youtubeActive": false
+      "occasion": true
     },
     {
       "id": "ccbef9ed-c346-45b9-84bd-5ac4bbe9db92",
       "nom": "Monster Train 2",
       "plateformes": [
-        "PC",
-        "Xbox"
+        "PC"
       ],
       "steamAppId": "2742830",
       "igdbId": null,
@@ -2171,8 +2167,7 @@
       "type": "normal",
       "completion": "",
       "arrete": false,
-      "occasion": true,
-      "youtubeActive": false
+      "occasion": true
     },
     {
       "id": "2b8aaea2-d0c9-43db-87cf-50b33d7750ec",
@@ -2192,8 +2187,7 @@
       "type": "normal",
       "completion": "",
       "arrete": false,
-      "occasion": true,
-      "youtubeActive": false
+      "occasion": true
     },
     {
       "id": "86f034e74ff04e9bb8c97d58e26a1574",
@@ -2210,8 +2204,7 @@
       "arrete": false,
       "occasion": false,
       "jeuDuMoment": true,
-      "fridayFantasy": false,
-      "youtubeActive": false
+      "fridayFantasy": false
     },
     {
       "id": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
@@ -2227,7 +2220,7 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 145,
+            "earned": 137,
             "total": 187
           },
           "argent": {
@@ -2254,8 +2247,7 @@
       "arrete": false,
       "occasion": false,
       "jeuDuMoment": false,
-      "fridayFantasy": true,
-      "youtubeActive": false
+      "fridayFantasy": true
     },
     {
       "id": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
@@ -2277,15 +2269,13 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "occasion": false,
-      "excluYoutube": true,
-      "youtubeActive": false
+      "excluYoutube": true
     },
     {
       "id": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
       "nom": "Mewgenics",
       "plateformes": [
-        "PC",
-        "Xbox"
+        "PC"
       ],
       "steamAppId": 686060,
       "igdbId": null,
@@ -2294,11 +2284,6 @@
         "PC": {
           "earned": 3,
           "total": 281
-        },
-        "Xbox": {
-          "earned": 0,
-          "total": 0,
-          "titleId": "1623341732"
         }
       },
       "type": "normal",
@@ -2306,8 +2291,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "occasion": false,
-      "excluYoutube": true,
-      "youtubeActive": true
+      "excluYoutube": true
     },
     {
       "id": "df14fdb9-763a-4e47-b186-649145d40e69",
@@ -2329,8 +2313,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "occasion": false,
-      "excluYoutube": true,
-      "youtubeActive": false
+      "excluYoutube": true
     }
   ]
 }
