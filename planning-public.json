@@ -61,13 +61,13 @@
       "type": "youtube_video",
       "channel": "etpourquoipasg",
       "date": "2026-09-10",
-      "time": null,
+      "time": "20:30",
       "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
       "title": "Star Wars Zero Company — Épisode 3 —  Sauvetage et destruction",
       "notes": "",
       "youtubeUrl": "https://youtu.be/sBJ-V1J23cw",
-      "youtubeVideoId": "sBJ-V1J23cw",
-      "durationSeconds": 5148,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
       "autoPosted": false,
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
@@ -99,12 +99,12 @@
       "type": "youtube_video",
       "channel": "etpourquoipasg",
       "date": "2026-09-12",
-      "time": null,
+      "time": "20:30",
       "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
       "title": "Star Wars Zero Company — Épisode 4 — Des infos sur la spire infinie ?",
       "notes": "",
       "youtubeUrl": "https://youtu.be/XE0UtVCz46s",
-      "youtubeVideoId": "XE0UtVCz46s",
+      "youtubeVideoId": null,
       "durationSeconds": null,
       "autoPosted": false,
       "gameNom": "STAR WARS Zero Company™",
@@ -114,5 +114,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-06T20:48:11.687Z"
+  "publishedAt": "2026-09-06T20:56:04.863Z"
 }
