@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "id": "f1856005-f74c-4dec-aa34-5c1af6ef602d",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-09-07",
+      "time": "15:00",
+      "gameId": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
+      "title": "Mewgenics — Épisode 5 — Une ruelle dificile",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/VgGl1F0jKtA",
+      "youtubeVideoId": "VgGl1F0jKtA",
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "Mewgenics",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
+      ]
+    },
+    {
       "id": "8028a692-e22f-46c1-ad93-9cb12cc08fdd",
       "type": "twitch_live",
       "channel": null,
@@ -95,5 +114,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-05T23:02:32.377Z"
+  "publishedAt": "2026-09-06T10:03:21.193Z"
 }
