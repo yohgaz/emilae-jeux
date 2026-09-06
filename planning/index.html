@@ -174,7 +174,7 @@ function render(events) {
 
 (async function init() {
   try {
-    const data = await fetch('/planning-public.json?t=' + Date.now()).then(r => r.json());
+    const data = await fetch('./planning-public.json?t=' + Date.now()).then(r => r.json());
     render(data.events || []);
     if (data.publishedAt) {
       document.getElementById('site-updated').textContent = 'Mis à jour le ' + new Date(data.publishedAt).toLocaleString('fr-FR');
