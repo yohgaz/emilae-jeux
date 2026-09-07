@@ -37,9 +37,11 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .site-tab.on{background:var(--cy);color:#0B0D14}
 
 .site-header{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;margin-bottom:28px}
-.site-title{font-size:19px;font-weight:900;text-align:right;color:var(--tx)}
-@media (min-width:880px){.site-title{font-size:26px}}
-.site-updated{font-size:11.5px;color:var(--mu);margin-top:6px}
+.site-title-block{display:flex;align-items:center;gap:12px;max-width:100%}
+.site-title-icon{font-size:32px;line-height:1;flex-shrink:0}
+.site-title{font-size:19px;font-weight:900;text-align:right;color:var(--tx);max-width:360px}
+@media (min-width:880px){.site-title{font-size:26px;max-width:440px}.site-title-icon{font-size:42px}}
+.site-updated{font-size:11.5px;color:var(--mu);margin-top:6px;text-align:right}
 
 /* ── Widget réseaux sociaux + progression — identique à la page Jeux ── */
 .social-card{display:flex;flex-direction:column;gap:12px;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:var(--radius-md);-webkit-backdrop-filter:blur(var(--blur)) saturate(160%);backdrop-filter:blur(var(--blur)) saturate(160%);box-shadow:inset 0 1px 0 var(--glass-highlight),0 10px 30px rgba(0,0,0,.3);padding:14px 20px;width:fit-content;flex-shrink:0}
@@ -145,9 +147,12 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
       </div>
     </div>
 
-    <div>
-      <div class="site-title" id="site-title"></div>
-      <div class="site-updated" id="site-updated"></div>
+    <div class="site-title-block">
+      <div class="site-title-icon">📅</div>
+      <div>
+        <div class="site-title" id="site-title">Planning de stream et de la mise en ligne des vidéos</div>
+        <div class="site-updated" id="site-updated"></div>
+      </div>
     </div>
   </div>
 
@@ -382,12 +387,6 @@ async function renderGlobalProgress() {
 
 (async function init() {
   renderGlobalProgress();
-  // "Semaine du X au Y" — semaine calendaire courante (lundi→dimanche),
-  // pas liée aux événements affichés (repère de page, toujours "cette
-  // semaine" même si le planning ne couvre pas encore ces jours-là).
-  const todayMonday = mondayOf(dateKey(new Date()));
-  const todaySunday = new Date(todayMonday); todaySunday.setDate(todayMonday.getDate() + 6);
-  document.getElementById('site-title').textContent = 'Semaine ' + formatWeekRange(todayMonday, todaySunday);
   try {
     const data = await fetch('/planning-public.json?t=' + Date.now()).then(r => r.json());
     render(data.events || []);
