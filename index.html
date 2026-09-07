@@ -27,6 +27,14 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 
 .page{position:relative;z-index:1;width:90%;max-width:1900px;margin:0 auto;padding:32px 0 60px}
 
+/* ── Navigation Jeux / Planning — commune aux deux pages publiques, même
+   style de pastille segmentée que le panneau admin (.bib-segmented /
+   .bib-seg-btn dans tasks-editor.html) plutôt que 2 pilules séparées. ── */
+.site-nav{display:inline-flex;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:10px;padding:3px;gap:3px;margin-bottom:18px}
+.site-tab{border:none;background:transparent;color:var(--mu);text-decoration:none;font-size:13px;font-weight:800;padding:8px 18px;border-radius:7px;transition:all .15s}
+.site-tab:hover{color:var(--tx)}
+.site-tab.on{background:var(--cy);color:#0B0D14}
+
 .site-header{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;margin-bottom:26px}
 .site-title{font-size:19px;font-weight:900;display:flex;flex-direction:column;gap:6px;text-align:right;max-width:420px}
 .site-title-row{display:flex;align-items:center;gap:10px;justify-content:flex-end;line-height:1.35}
@@ -367,6 +375,10 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
             <span class="social-icon" style="color:#1185FE"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg></span>
             <span>emilae-tv.eurosky.social</span>
           </a>
+          <a class="social-link" href="https://x.com/Emilae_no_com" target="_blank" rel="noopener">
+            <span class="social-icon" style="color:#fff"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span>
+            <span>x.com/Emilae_no_com</span>
+          </a>
         </div>
       </div>
       <div class="social-progress" id="social-progress" style="display:none">
@@ -379,6 +391,11 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
       <div class="site-title-row">🎮 Bibliothèque de jeux en cours ou terminés en stream ou sur YouTube</div>
       <div class="site-updated" id="site-updated"></div>
     </div>
+  </div>
+
+  <div class="site-nav">
+    <a class="site-tab on" href="/">🎮 Jeux</a>
+    <a class="site-tab" href="/planning/">📅 Planning</a>
   </div>
 
   <div class="jeux-toolbar">
