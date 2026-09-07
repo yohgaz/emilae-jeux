@@ -66,8 +66,8 @@
       "title": "Star Wars Zero Company — Épisode 3 —  Sauvetage et destruction",
       "notes": "",
       "youtubeUrl": "https://youtu.be/sBJ-V1J23cw",
-      "youtubeVideoId": null,
-      "durationSeconds": null,
+      "youtubeVideoId": "sBJ-V1J23cw",
+      "durationSeconds": 5148,
       "autoPosted": false,
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
@@ -104,8 +104,8 @@
       "title": "Star Wars Zero Company — Épisode 4 — Des infos sur la spire infinie ?",
       "notes": "",
       "youtubeUrl": "https://youtu.be/XE0UtVCz46s",
-      "youtubeVideoId": null,
-      "durationSeconds": null,
+      "youtubeVideoId": "XE0UtVCz46s",
+      "durationSeconds": 5554,
       "autoPosted": false,
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
@@ -114,5 +114,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-06T20:58:42.581Z"
+  "publishedAt": "2026-09-07T11:57:20.969Z"
 }
