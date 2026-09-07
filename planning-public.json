@@ -13,6 +13,7 @@
       "youtubeVideoId": "VgGl1F0jKtA",
       "durationSeconds": null,
       "autoPosted": false,
+      "blueskyScheduled": true,
       "gameNom": "Mewgenics",
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
@@ -69,6 +70,7 @@
       "youtubeVideoId": "sBJ-V1J23cw",
       "durationSeconds": 5148,
       "autoPosted": false,
+      "blueskyScheduled": true,
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
@@ -107,6 +109,7 @@
       "youtubeVideoId": "XE0UtVCz46s",
       "durationSeconds": 5554,
       "autoPosted": false,
+      "blueskyScheduled": true,
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
@@ -114,5 +117,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-07T12:50:24.224Z"
+  "publishedAt": "2026-09-07T13:31:12.351Z"
 }
