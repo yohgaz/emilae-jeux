@@ -70,7 +70,7 @@
       "youtubeUrl": "https://youtu.be/sBJ-V1J23cw",
       "youtubeVideoId": "sBJ-V1J23cw",
       "durationSeconds": 5148,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mtr9y7yqlqwa",
       "gameNom": "STAR WARS Zero Company™",
@@ -118,7 +118,49 @@
         "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
       ]
+    },
+    {
+      "id": "d0fa8204-9c76-4b9a-b46c-0562096ae8b9",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-09-15",
+      "time": "15:00",
+      "gameId": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
+      "title": "Mewgenics — Épisode 6 — En route vers la nouvelle zone",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/xeNgoFus2Us",
+      "youtubeVideoId": "xeNgoFus2Us",
+      "durationSeconds": 2427,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mtvx1x6a0i27",
+      "gameNom": "Mewgenics",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
+      ]
+    },
+    {
+      "id": "cd160f00-303c-4050-a892-868244aa3494",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-09-17",
+      "time": "15:00",
+      "gameId": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
+      "title": "Mewgenics — Épisode 7 — La décharge",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/fWMUE-sVKbA",
+      "youtubeVideoId": "fWMUE-sVKbA",
+      "durationSeconds": 2488,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mtvvo4uciy6k",
+      "gameNom": "Mewgenics",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
+      ]
     }
   ],
-  "publishedAt": "2026-09-07T17:24:48.283Z"
+  "publishedAt": "2026-09-10T19:24:27.605Z"
 }
