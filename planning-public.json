@@ -157,6 +157,25 @@
       ]
     },
     {
+      "id": "34497e8d-87eb-46b4-bc96-bf6b605f740d",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-15",
+      "time": "14:00",
+      "gameId": "9943cec7-c671-41c6-ad34-3902a593d37b",
+      "title": "Découverte 01",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "Graveyard Keeper",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg"
+      ]
+    },
+    {
       "id": "d0fa8204-9c76-4b9a-b46c-0562096ae8b9",
       "type": "youtube_video",
       "channel": "etpourquoipasg",
@@ -236,5 +255,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-11T14:55:21.838Z"
+  "publishedAt": "2026-09-11T15:00:46.177Z"
 }
