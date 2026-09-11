@@ -2319,6 +2319,24 @@
       "fridayFantasy": false,
       "occasion": false,
       "excluYoutube": true
+    },
+    {
+      "id": "9943cec7-c671-41c6-ad34-3902a593d37b",
+      "nom": "Graveyard Keeper",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": 599140,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg",
+      "progression": {
+        "PC": {
+          "earned": 0,
+          "total": 125
+        }
+      },
+      "type": "normal",
+      "completion": ""
     }
   ]
 }
