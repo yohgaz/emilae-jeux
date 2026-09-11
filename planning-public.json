@@ -41,6 +41,25 @@
       ]
     },
     {
+      "id": "91e561c5-bdeb-49ef-b81e-8f86abd9157b",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-08",
+      "time": "14:00",
+      "gameId": "9943cec7-c671-41c6-ad34-3902a593d37b",
+      "title": "Découverte 01",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "Graveyard Keeper",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg"
+      ]
+    },
+    {
       "id": "690bc920-5d28-4598-84f2-c7efa22ded5a",
       "type": "twitch_live",
       "channel": null,
@@ -120,6 +139,24 @@
       ]
     },
     {
+      "id": "fc7d4ad8-1fdf-4f8d-80cc-b327c709b8ea",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-14",
+      "time": "09:00",
+      "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
+      "title": "On avance vers la fin du jeu",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
+      ]
+    },
+    {
       "id": "d0fa8204-9c76-4b9a-b46c-0562096ae8b9",
       "type": "youtube_video",
       "channel": "etpourquoipasg",
@@ -138,6 +175,24 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
+      ]
+    },
+    {
+      "id": "7fc8bf4e-6138-4ef4-93ef-787da1fc89e8",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-16",
+      "time": "09:00",
+      "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
+      "title": "On avance vers la fin du jeu",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
       ]
     },
     {
@@ -160,7 +215,26 @@
         "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
       ]
+    },
+    {
+      "id": "80a6f684-1efa-40a3-9aff-9701e00742e4",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-09-18",
+      "time": "14:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Suite dresseur Objectif lvl 35 et 30 monstres",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ]
     }
   ],
-  "publishedAt": "2026-09-10T19:24:27.605Z"
+  "publishedAt": "2026-09-11T14:55:21.838Z"
 }
