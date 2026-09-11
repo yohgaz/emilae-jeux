@@ -22,44 +22,6 @@
       ]
     },
     {
-      "id": "8028a692-e22f-46c1-ad93-9cb12cc08fdd",
-      "type": "twitch_live",
-      "channel": null,
-      "date": "2026-09-08",
-      "time": "14:00",
-      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
-      "title": "Seconde partie de l'épopée 7.5",
-      "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": null,
-      "durationSeconds": null,
-      "autoPosted": false,
-      "gameNom": "FINAL FANTASY XIV",
-      "gameCovers": [
-        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
-        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
-      ]
-    },
-    {
-      "id": "91e561c5-bdeb-49ef-b81e-8f86abd9157b",
-      "type": "twitch_live",
-      "channel": null,
-      "date": "2026-09-08",
-      "time": "14:00",
-      "gameId": "9943cec7-c671-41c6-ad34-3902a593d37b",
-      "title": "Découverte 01",
-      "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": null,
-      "durationSeconds": null,
-      "autoPosted": false,
-      "gameNom": "Graveyard Keeper",
-      "gameCovers": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg",
-        "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg"
-      ]
-    },
-    {
       "id": "690bc920-5d28-4598-84f2-c7efa22ded5a",
       "type": "twitch_live",
       "channel": null,
@@ -255,5 +217,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-11T15:05:47.605Z"
+  "publishedAt": "2026-09-11T15:06:33.975Z"
 }
