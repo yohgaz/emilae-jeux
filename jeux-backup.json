@@ -2159,8 +2159,8 @@
           "total": 59
         },
         "Xbox": {
-          "earned": 8,
-          "total": 59,
+          "earned": 0,
+          "total": 0,
           "titleId": "2119739112"
         }
       },
@@ -2220,7 +2220,7 @@
       "progression": {
         "PlayStation": {
           "bronze": {
-            "earned": 145,
+            "earned": 146,
             "total": 187
           },
           "argent": {
