@@ -119,6 +119,25 @@
       ]
     },
     {
+      "id": "a62e5832-a4fd-4034-b773-8e8e8b6df022",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-09-14",
+      "time": "15:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": null,
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/iQuE-QwxVkg",
+      "youtubeVideoId": "et1u_pKsmOc",
+      "durationSeconds": 4139,
+      "autoPosted": false,
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ]
+    },
+    {
       "id": "34497e8d-87eb-46b4-bc96-bf6b605f740d",
       "type": "twitch_live",
       "channel": null,
@@ -177,6 +196,48 @@
       ]
     },
     {
+      "id": "71296ea4-7811-4fdb-81fc-69c7a9d2757f",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-09-16",
+      "time": "15:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Final Fantasy XIV Online - Episode 02 - Dresseur, suite des bases du job",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/et1u_pKsmOc",
+      "youtubeVideoId": "et1u_pKsmOc",
+      "durationSeconds": 4139,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mtzu8ntzdts8",
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ]
+    },
+    {
+      "id": "f1ceaf39-d9a3-4044-a5fd-52843addbab7",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-09-16",
+      "time": "20:30",
+      "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
+      "title": "Star Wars Zero Company — Épisode 5 — Une nouvelle menace",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/iMqjIRmWMps",
+      "youtubeVideoId": "iMqjIRmWMps",
+      "durationSeconds": 3356,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mtztvrtdk3b1",
+      "gameNom": "STAR WARS Zero Company™",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
+      ]
+    },
+    {
       "id": "cd160f00-303c-4050-a892-868244aa3494",
       "type": "youtube_video",
       "channel": "etpourquoipasg",
@@ -215,7 +276,49 @@
         "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
         "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
       ]
+    },
+    {
+      "id": "23295f16-87c0-49c8-a188-ee225d70331b",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-09-19",
+      "time": "20:30",
+      "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
+      "title": "Star Wars Zero Company — Épisode 6 — Pour un air d'opéra",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/mDS1wI4Heug",
+      "youtubeVideoId": "mDS1wI4Heug",
+      "durationSeconds": 4875,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mtztvsz7ep1o",
+      "gameNom": "STAR WARS Zero Company™",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
+      ]
+    },
+    {
+      "id": "899618e2-4c15-4434-a401-3f4ede1d8faf",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-09-20",
+      "time": "15:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Final Fantasy XIV Online - Episode 03 - On monte en niveau",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/StspT0Ag__Q",
+      "youtubeVideoId": "StspT0Ag__Q",
+      "durationSeconds": 4100,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mtzu8mq4uwrj",
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ]
     }
   ],
-  "publishedAt": "2026-09-12T18:44:17.469Z"
+  "publishedAt": "2026-09-13T13:17:01.163Z"
 }
