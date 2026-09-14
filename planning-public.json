@@ -130,7 +130,9 @@
       "youtubeUrl": "https://youtu.be/iQuE-QwxVkg",
       "youtubeVideoId": "et1u_pKsmOc",
       "durationSeconds": 4139,
-      "autoPosted": false,
+      "autoPosted": true,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mtzuf26t3i1g",
       "gameNom": "FINAL FANTASY XIV",
       "gameCovers": [
         "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
@@ -320,5 +322,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-13T13:17:01.163Z"
+  "publishedAt": "2026-09-14T13:03:40.234Z"
 }
