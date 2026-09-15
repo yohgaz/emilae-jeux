@@ -70,7 +70,7 @@
       "youtubeUrl": "https://youtu.be/xeNgoFus2Us",
       "youtubeVideoId": "xeNgoFus2Us",
       "durationSeconds": 2427,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mtvx1x6a0i27",
       "gameNom": "Mewgenics",
@@ -222,5 +222,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-14T17:59:03.429Z"
+  "publishedAt": "2026-09-15T13:02:58.758Z"
 }
