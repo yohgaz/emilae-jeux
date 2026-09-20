@@ -212,7 +212,7 @@
       "youtubeUrl": "https://youtu.be/StspT0Ag__Q",
       "youtubeVideoId": "StspT0Ag__Q",
       "durationSeconds": 4100,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mtzu8mq4uwrj",
       "gameNom": "FINAL FANTASY XIV",
@@ -222,5 +222,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-20T12:52:52.153Z"
+  "publishedAt": "2026-09-20T13:01:52.959Z"
 }
