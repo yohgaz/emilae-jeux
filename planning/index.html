@@ -108,6 +108,11 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .grid-event-kind svg{width:13px;height:13px;flex-shrink:0}
 .grid-event-title{font-size:16px;font-weight:800;color:#fff;line-height:1.28;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .grid-event-time{font-size:13.5px;color:rgba(255,255,255,.85);font-family:monospace;font-weight:700;margin-top:5px}
+a.grid-event{display:block;text-decoration:none;color:inherit}
+.grid-event-clickable{cursor:pointer;transition:transform .15s,border-color .15s}
+.grid-event-clickable:hover{transform:translateY(-2px);border-color:var(--evt-color,var(--cy))}
+/* Pastille ▶ : signale qu'une carte mène à la vidéo (publiée), les autres cartes n'en ont pas. */
+.grid-event-clickable::after{content:'▶';position:absolute;top:8px;right:8px;z-index:3;width:26px;height:26px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;font-size:11px;display:flex;align-items:center;justify-content:center;padding-left:2px}
 .grid-day-empty{flex:1;min-height:150px;border:1.5px dashed var(--glass-border);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:22px;opacity:.2}
 
 .empty-state{color:var(--mu);font-size:13px;padding:40px 16px;text-align:center;border:1.5px dashed var(--glass-border);border-radius:var(--radius-md)}
@@ -199,18 +204,25 @@ function coverFallback(img) {
     if (parent) parent.textContent = '🎮';
   }
 }
+// Cliquable uniquement une fois la vidéo VRAIMENT publiée (autoPosted —
+// posé par gome une fois le tweet d'annonce réellement parti, pas juste
+// dès que l'heure prévue est passée) : avant ça, le lien YouTube pointe
+// souvent encore vers une vidéo privée/inexistante. Partagé par la liste
+// (mobile) et la grille (bureau).
+function eventLink(e) {
+  const clickable = e.type === 'youtube_video' && !!e.youtubeUrl && !!e.autoPosted;
+  return {
+    clickable,
+    tag: clickable ? 'a' : 'div',
+    attrs: clickable ? ` href="${escapeHtml(e.youtubeUrl)}" target="_blank" rel="noopener"` : ''
+  };
+}
 function eventCard(e) {
   const kind = eventKindInfo(e);
   const covers = (e.gameCovers || []).slice();
   const firstCover = covers.shift() || null;
   const title = e.gameNom || e.title || (e.type === 'twitch_live' ? 'Live' : 'Vidéo');
-  // Cliquable uniquement une fois la vidéo VRAIMENT publiée (autoPosted —
-  // posé par gome une fois le tweet d'annonce réellement parti, pas juste
-  // dès que l'heure prévue est passée) : avant ça, le lien YouTube pointe
-  // souvent encore vers une vidéo privée/inexistante.
-  const clickable = e.type === 'youtube_video' && e.youtubeUrl && e.autoPosted;
-  const tag = clickable ? 'a' : 'div';
-  const attrs = clickable ? ` href="${escapeHtml(e.youtubeUrl)}" target="_blank" rel="noopener"` : '';
+  const { clickable, tag, attrs } = eventLink(e);
   return `<${tag} class="event-card${clickable ? ' event-card-clickable' : ''}" style="--evt-color:${kind.color}"${attrs}>
     <div class="event-cover">${firstCover ? `<img src="${escapeHtml(firstCover)}" data-cover-candidates='${escapeHtml(JSON.stringify(covers))}' onerror="coverFallback(this)" alt="">` : '🎮'}</div>
     <div class="event-info">
@@ -229,7 +241,8 @@ function gridEventCard(e) {
   const covers = (e.gameCovers || []).slice();
   const firstCover = covers.shift() || null;
   const title = e.gameNom || e.title || (e.type === 'twitch_live' ? 'Live' : 'Vidéo');
-  return `<div class="grid-event" style="--evt-color:${kind.color}">
+  const { clickable, tag, attrs } = eventLink(e);
+  return `<${tag} class="grid-event${clickable ? ' grid-event-clickable' : ''}" style="--evt-color:${kind.color}"${attrs}>
     <div class="grid-event-cover">${firstCover ? `<img src="${escapeHtml(firstCover)}" data-cover-candidates='${escapeHtml(JSON.stringify(covers))}' onerror="coverFallback(this)" alt="">` : '🎮'}</div>
     <div class="grid-event-scrim"></div>
     <div class="grid-event-body">
@@ -237,7 +250,7 @@ function gridEventCard(e) {
       <div class="grid-event-title">${escapeHtml(title)}</div>
       ${e.time ? `<div class="grid-event-time">${escapeHtml(e.time)}</div>` : ''}
     </div>
-  </div>`;
+  </${tag}>`;
 }
 
 function dayLabel(dateStr) {
