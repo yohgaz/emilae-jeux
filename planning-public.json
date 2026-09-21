@@ -7,7 +7,7 @@
       "date": "2026-09-21",
       "time": "15:00",
       "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
-      "title": "Xenoblade Chronicles DE switch 2 - Episode 43 - titre",
+      "title": "Xenoblade Chronicles DE switch 2 - Episode 43 - La capital de Mékomis",
       "notes": "",
       "youtubeUrl": "https://youtu.be/RLQsywRyimw",
       "youtubeVideoId": "RLQsywRyimw",
@@ -107,7 +107,7 @@
       "date": "2026-09-23",
       "time": "15:00",
       "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
-      "title": "Xenoblade Chronicles DE switch 2 - Episode 44 - titre",
+      "title": "Xenoblade Chronicles DE switch 2 - Episode 44 - Gadolt",
       "notes": "",
       "youtubeUrl": "https://youtu.be/_ZICN-egFjs",
       "youtubeVideoId": "_ZICN-egFjs",
@@ -217,6 +217,24 @@
       ]
     },
     {
+      "id": "0bd7517c-b6bb-40f9-a5b9-33d399f16a4a",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-09-25",
+      "time": "15:00",
+      "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
+      "title": "Xenoblade Chronicles DE switch 2 - Episode 45 - L'affrontement",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/1e2e7jlZPcI",
+      "youtubeVideoId": "1e2e7jlZPcI",
+      "durationSeconds": 7716,
+      "autoPosted": false,
+      "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
+      ]
+    },
+    {
       "id": "ce6fb5e4-8d3f-4919-952e-7f7b8459b8c5",
       "type": "youtube_video",
       "channel": "etpourquoipasg",
@@ -272,5 +290,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-21T09:32:47.708Z"
+  "publishedAt": "2026-09-21T09:34:45.427Z"
 }
