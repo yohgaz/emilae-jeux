@@ -1850,8 +1850,8 @@
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yat.jpg",
       "progression": {
         "PC": {
-          "earned": 0,
-          "total": 0
+          "earned": 2,
+          "total": 14
         }
       },
       "annee": null
@@ -1922,7 +1922,7 @@
         },
         "PC": {
           "earned": 0,
-          "total": 0
+          "total": 48
         }
       },
       "annee": null
@@ -2115,7 +2115,7 @@
         },
         "PC": {
           "earned": 11,
-          "total": 37
+          "total": 47
         }
       },
       "type": "normal",
@@ -2138,7 +2138,7 @@
       "progression": {
         "PC": {
           "earned": 6,
-          "total": 56
+          "total": 59
         }
       },
       "type": "normal",
@@ -2159,7 +2159,7 @@
       "igdbCover": null,
       "progression": {
         "PC": {
-          "earned": 6,
+          "earned": 7,
           "total": 59
         },
         "Xbox": {
@@ -2268,7 +2268,7 @@
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg",
       "progression": {
         "PC": {
-          "earned": 3,
+          "earned": 13,
           "total": 53
         }
       },
@@ -2292,7 +2292,7 @@
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg",
       "progression": {
         "PC": {
-          "earned": 3,
+          "earned": 14,
           "total": 281
         },
         "Xbox": {
@@ -2343,7 +2343,7 @@
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg",
       "progression": {
         "PC": {
-          "earned": 0,
+          "earned": 17,
           "total": 125
         }
       },
