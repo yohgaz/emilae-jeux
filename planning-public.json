@@ -12,7 +12,7 @@
       "youtubeUrl": "https://youtu.be/RLQsywRyimw",
       "youtubeVideoId": "RLQsywRyimw",
       "durationSeconds": 5422,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mua0xohzh45x",
       "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
@@ -292,5 +292,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-21T10:02:36.251Z"
+  "publishedAt": "2026-09-21T13:05:12.353Z"
 }
