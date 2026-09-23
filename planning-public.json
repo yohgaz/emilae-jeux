@@ -149,26 +149,6 @@
       "liveNow": false
     },
     {
-      "id": "e549def1-ef14-4aed-96f0-3b5d0972bc96",
-      "type": "twitch_live",
-      "channel": null,
-      "date": "2026-09-24",
-      "time": "09:00",
-      "gameId": "9943cec7-c671-41c6-ad34-3902a593d37b",
-      "title": null,
-      "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": null,
-      "durationSeconds": null,
-      "autoPosted": false,
-      "gameNom": "Graveyard Keeper",
-      "gameCovers": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg",
-        "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg"
-      ],
-      "liveNow": false
-    },
-    {
       "id": "addfeee1-e89c-4f76-be7b-b285eac86947",
       "type": "youtube_video",
       "channel": "etpourquoipasg",
@@ -311,5 +291,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-23T18:33:56.325Z"
+  "publishedAt": "2026-09-23T18:45:08.805Z"
 }
