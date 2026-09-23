@@ -127,11 +127,11 @@
       "date": "2026-09-23",
       "time": "20:30",
       "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
-      "title": null,
+      "title": "Star Wars Zero Company — Épisode 7 — Secouriste",
       "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": null,
-      "durationSeconds": null,
+      "youtubeUrl": "https://youtu.be/K86jL3INy5g",
+      "youtubeVideoId": "K86jL3INy5g",
+      "durationSeconds": 3660,
       "autoPosted": false,
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
@@ -243,11 +243,11 @@
       "date": "2026-09-25",
       "time": "20:30",
       "gameId": "33ba0cc7-3d12-483b-b07b-dc7f16e545c0",
-      "title": null,
+      "title": "Star Wars Zero Company — Épisode 8 — Documents classifiés",
       "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": null,
-      "durationSeconds": null,
+      "youtubeUrl": "https://youtu.be/HefXJma7TyU",
+      "youtubeVideoId": "HefXJma7TyU",
+      "durationSeconds": 2466,
       "autoPosted": false,
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
@@ -292,5 +292,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-22T15:35:05.538Z"
+  "publishedAt": "2026-09-23T07:32:13.715Z"
 }
