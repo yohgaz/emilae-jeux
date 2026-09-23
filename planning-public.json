@@ -18,7 +18,8 @@
       "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
       "gameCovers": [
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "ffac6b4b-108a-4348-9c5d-5ba9e272f4ca",
@@ -38,7 +39,8 @@
       "gameNom": "Fire Emblem: Fortune's Weave",
       "gameCovers": [
         "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "8001e4fc-43b4-42be-a16c-37a48bc0ef13",
@@ -57,7 +59,8 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "ddb510ee-753f-411e-88b6-29dfd9d7acec",
@@ -78,7 +81,8 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "41b19ccc-6b12-4963-b9d7-7a36043db84d",
@@ -98,7 +102,8 @@
       "gameNom": "Fire Emblem: Fortune's Weave",
       "gameCovers": [
         "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "f5471127-54ef-4eb4-b65c-f3caebca6aa0",
@@ -118,7 +123,8 @@
       "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
       "gameCovers": [
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "e1d96f0f-2534-4c20-b0dc-9f8d40464001",
@@ -139,7 +145,8 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "e549def1-ef14-4aed-96f0-3b5d0972bc96",
@@ -158,7 +165,8 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "addfeee1-e89c-4f76-be7b-b285eac86947",
@@ -179,7 +187,8 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "91773edd-d60a-4fb0-a1d9-909a0e5737f0",
@@ -197,7 +206,8 @@
       "gameNom": "Fire Emblem: Fortune's Weave",
       "gameCovers": [
         "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "641276f2-4ed4-4952-94cc-e2f9e83679b5",
@@ -216,7 +226,8 @@
       "gameCovers": [
         "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
         "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "0bd7517c-b6bb-40f9-a5b9-33d399f16a4a",
@@ -236,7 +247,8 @@
       "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
       "gameCovers": [
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "ce6fb5e4-8d3f-4919-952e-7f7b8459b8c5",
@@ -257,7 +269,8 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "9785d838-967d-4b97-834b-2e9ad817fd6b",
@@ -275,7 +288,8 @@
       "gameNom": "Fire Emblem: Fortune's Weave",
       "gameCovers": [
         "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
-      ]
+      ],
+      "liveNow": false
     },
     {
       "id": "897733f6-c38a-4991-9a92-5f74bcf10b96",
@@ -293,8 +307,9 @@
       "gameNom": "Fire Emblem: Fortune's Weave",
       "gameCovers": [
         "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
-      ]
+      ],
+      "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-23T13:29:03.376Z"
+  "publishedAt": "2026-09-23T17:45:34.039Z"
 }
