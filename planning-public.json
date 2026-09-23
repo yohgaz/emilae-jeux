@@ -112,7 +112,7 @@
       "youtubeUrl": "https://youtu.be/_ZICN-egFjs",
       "youtubeVideoId": "_ZICN-egFjs",
       "durationSeconds": 5317,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mua0xpnhfhij",
       "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
@@ -133,6 +133,8 @@
       "youtubeVideoId": "K86jL3INy5g",
       "durationSeconds": 3660,
       "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mudsfkgzkrtq",
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
@@ -249,6 +251,8 @@
       "youtubeVideoId": "HefXJma7TyU",
       "durationSeconds": 2466,
       "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mudsflnlaaoq",
       "gameNom": "STAR WARS Zero Company™",
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/2075800/library_600x900.jpg",
@@ -292,5 +296,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-09-23T07:32:13.715Z"
+  "publishedAt": "2026-09-23T13:29:03.376Z"
 }
