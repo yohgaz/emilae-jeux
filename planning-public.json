@@ -138,7 +138,7 @@
       "youtubeUrl": "https://youtu.be/K86jL3INy5g",
       "youtubeVideoId": "K86jL3INy5g",
       "durationSeconds": 3660,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mudsfkgzkrtq",
       "gameNom": "STAR WARS Zero Company™",
@@ -311,5 +311,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-23T17:45:34.039Z"
+  "publishedAt": "2026-09-23T18:33:56.325Z"
 }
