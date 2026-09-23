@@ -209,12 +209,21 @@ function coverFallback(img) {
 // dès que l'heure prévue est passée) : avant ça, le lien YouTube pointe
 // souvent encore vers une vidéo privée/inexistante. Partagé par la liste
 // (mobile) et la grille (bureau).
+//
+// Live Twitch : cliquable (vers la chaîne) uniquement tant que le live est
+// en cours — liveNow est posé par le serveur dès que le badge "Live Now"
+// Bluesky est en place, et retiré à la fin du stream (voir
+// setPlanningLiveNow, server.js).
+const TWITCH_CHANNEL_URL = 'https://www.twitch.tv/emilae_tv';
 function eventLink(e) {
-  const clickable = e.type === 'youtube_video' && !!e.youtubeUrl && !!e.autoPosted;
+  let href = null;
+  if (e.type === 'youtube_video' && e.youtubeUrl && e.autoPosted) href = e.youtubeUrl;
+  else if (e.type === 'twitch_live' && e.liveNow) href = TWITCH_CHANNEL_URL;
+  const clickable = !!href;
   return {
     clickable,
     tag: clickable ? 'a' : 'div',
-    attrs: clickable ? ` href="${escapeHtml(e.youtubeUrl)}" target="_blank" rel="noopener"` : ''
+    attrs: clickable ? ` href="${escapeHtml(href)}" target="_blank" rel="noopener"` : ''
   };
 }
 function eventCard(e) {
@@ -407,17 +416,28 @@ async function renderGlobalProgress() {
   box.style.display = '';
 }
 
-(async function init() {
-  renderGlobalProgress();
+let lastPublishedAt = null;
+async function loadPlanning(isRefresh) {
   try {
     const data = await fetch('/planning-public.json?t=' + Date.now()).then(r => r.json());
+    // Rafraîchissement automatique : on ne redessine que si une nouvelle
+    // publication est réellement arrivée (ex. le live vient de démarrer et
+    // sa carte est devenue cliquable), pas à chaque passage.
+    if (isRefresh && data.publishedAt === lastPublishedAt) return;
+    lastPublishedAt = data.publishedAt || null;
     render(data.events || []);
     if (data.publishedAt) {
       document.getElementById('site-updated').textContent = 'Mis à jour le ' + new Date(data.publishedAt).toLocaleString('fr-FR');
     }
   } catch (e) {
-    document.getElementById('planning-content').innerHTML = '<div class="empty-state">Impossible de charger le planning pour le moment.</div>';
+    if (!isRefresh) document.getElementById('planning-content').innerHTML = '<div class="empty-state">Impossible de charger le planning pour le moment.</div>';
   }
+}
+
+(async function init() {
+  renderGlobalProgress();
+  await loadPlanning(false);
+  setInterval(() => loadPlanning(true), 2 * 60 * 1000);
 })();
 </script>
 </body>
