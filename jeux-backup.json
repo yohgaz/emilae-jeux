@@ -2278,7 +2278,7 @@
       "fridayFantasy": false,
       "occasion": false,
       "excluYoutube": true,
-      "youtubeActive": true
+      "youtubeActive": false
     },
     {
       "id": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
@@ -2367,7 +2367,7 @@
       "fridayFantasy": false,
       "occasion": false,
       "excluYoutube": true,
-      "youtubeActive": false
+      "youtubeActive": true
     }
   ]
 }
