@@ -179,7 +179,7 @@
       "youtubeUrl": "https://youtu.be/VPlhh-ht0EY",
       "youtubeVideoId": "VPlhh-ht0EY",
       "durationSeconds": 3852,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "muff7mfm2nsu",
       "gameNom": "Fire Emblem: Fortune's Weave",
@@ -290,5 +290,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-24T13:00:50.224Z"
+  "publishedAt": "2026-09-24T15:34:59.955Z"
 }
