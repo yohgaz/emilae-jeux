@@ -157,7 +157,7 @@
       "youtubeUrl": "https://youtu.be/C93_tU4uC3w",
       "youtubeVideoId": "C93_tU4uC3w",
       "durationSeconds": 5532,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mu9tm2xop5jx",
       "gameNom": "Mewgenics",
@@ -180,6 +180,8 @@
       "youtubeVideoId": "VPlhh-ht0EY",
       "durationSeconds": 3852,
       "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "muff7mfm2nsu",
       "gameNom": "Fire Emblem: Fortune's Weave",
       "gameCovers": [
         "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
@@ -288,5 +290,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-24T10:57:49.029Z"
+  "publishedAt": "2026-09-24T13:00:50.224Z"
 }
