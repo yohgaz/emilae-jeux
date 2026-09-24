@@ -55,11 +55,8 @@
       "youtubeVideoId": null,
       "durationSeconds": null,
       "autoPosted": false,
-      "gameNom": "Graveyard Keeper",
-      "gameCovers": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg",
-        "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w53.jpg"
-      ],
+      "gameNom": null,
+      "gameCovers": [],
       "liveNow": false
     },
     {
@@ -177,11 +174,11 @@
       "date": "2026-09-24",
       "time": "17:30",
       "gameId": "95fbc726-b02e-4735-a3d1-63bac458e09b",
-      "title": null,
+      "title": "Fire Emblem Fortune's Weave — Épisode 3 — La renommée",
       "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": null,
-      "durationSeconds": null,
+      "youtubeUrl": "https://youtu.be/VPlhh-ht0EY",
+      "youtubeVideoId": "VPlhh-ht0EY",
+      "durationSeconds": 3852,
       "autoPosted": false,
       "gameNom": "Fire Emblem: Fortune's Weave",
       "gameCovers": [
@@ -291,5 +288,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-23T18:45:08.805Z"
+  "publishedAt": "2026-09-24T10:57:49.029Z"
 }
