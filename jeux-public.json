@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T15:27:47.584Z",
+  "updatedAt": "2026-09-26T15:42:08.041Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -10314,7 +10314,7 @@
           "publisher": true
         },
         {
-          "name": "SIE Santa Monica Studio",
+          "name": "Santa Monica Studio",
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cl5oq.png",
           "developer": true,
           "publisher": false
@@ -12739,7 +12739,7 @@
           "publisher": true
         },
         {
-          "name": "Square Enix Creative Studio I",
+          "name": "Square Enix Creative Studio 1",
           "logo": null,
           "developer": false,
           "publisher": false
@@ -27827,7 +27827,618 @@
       "pros": [],
       "cons": [],
       "comment": "",
-      "achievements": {},
+      "achievements": {
+        "switch": [
+          {
+            "name": "Citizen of Hyrule — Bronze",
+            "description": "Bronze : Temps passé à Hyrule ≥ 20 heures",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2c/BotW_NS2E_Citizen_of_Hyrule_Bronze_Icon.png/160px-BotW_NS2E_Citizen_of_Hyrule_Bronze_Icon.png",
+            "earned": true,
+            "medal": "Citizen of Hyrule",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Citizen of Hyrule — Silver",
+            "description": "Argent : Temps passé à Hyrule ≥ 60 heures",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5d/BotW_NS2E_Citizen_of_Hyrule_Silver_Icon.png/160px-BotW_NS2E_Citizen_of_Hyrule_Silver_Icon.png",
+            "earned": true,
+            "medal": "Citizen of Hyrule",
+            "tier": "Silver"
+          },
+          {
+            "name": "Citizen of Hyrule — Gold",
+            "description": "Or : Temps passé à Hyrule ≥ 100 heures",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ab/BotW_NS2E_Citizen_of_Hyrule_Gold_Icon.png/160px-BotW_NS2E_Citizen_of_Hyrule_Gold_Icon.png",
+            "earned": false,
+            "medal": "Citizen of Hyrule",
+            "tier": "Gold"
+          },
+          {
+            "name": "Citizen of Hyrule — Master",
+            "description": "Maître : Temps passé à Hyrule ≥ 200 heures",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9e/BotW_NS2E_Citizen_of_Hyrule_Master_Icon.png/160px-BotW_NS2E_Citizen_of_Hyrule_Master_Icon.png",
+            "earned": false,
+            "medal": "Citizen of Hyrule",
+            "tier": "Master"
+          },
+          {
+            "name": "Monsters' Bane — Bronze",
+            "description": "Bronze : Ennemis vaincus ≥ 500",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/42/BotW_NS2E_Monsters%27_Bane_Bronze_Icon.png/160px-BotW_NS2E_Monsters%27_Bane_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Monsters' Bane",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Monsters' Bane — Silver",
+            "description": "Argent : Ennemis vaincus ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/02/BotW_NS2E_Monsters%27_Bane_Silver_Icon.png/160px-BotW_NS2E_Monsters%27_Bane_Silver_Icon.png",
+            "earned": false,
+            "medal": "Monsters' Bane",
+            "tier": "Silver"
+          },
+          {
+            "name": "Monsters' Bane — Gold",
+            "description": "Or : Ennemis vaincus ≥ 2,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c5/BotW_NS2E_Monsters%27_Bane_Gold_Icon.png/160px-BotW_NS2E_Monsters%27_Bane_Gold_Icon.png",
+            "earned": false,
+            "medal": "Monsters' Bane",
+            "tier": "Gold"
+          },
+          {
+            "name": "Monsters' Bane — Master",
+            "description": "Maître : Ennemis vaincus ≥ 4,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/20/BotW_NS2E_Monsters%27_Bane_Master_Icon.png/160px-BotW_NS2E_Monsters%27_Bane_Master_Icon.png",
+            "earned": false,
+            "medal": "Monsters' Bane",
+            "tier": "Master"
+          },
+          {
+            "name": "Treasure Hunter — Bronze",
+            "description": "Bronze : Coffres au trésor ouverts ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/BotW_NS2E_Treasure_Hunter_Bronze_Icon.png/160px-BotW_NS2E_Treasure_Hunter_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Treasure Hunter",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Treasure Hunter — Silver",
+            "description": "Argent : Coffres au trésor ouverts ≥ 300",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0b/BotW_NS2E_Treasure_Hunter_Silver_Icon.png/160px-BotW_NS2E_Treasure_Hunter_Silver_Icon.png",
+            "earned": false,
+            "medal": "Treasure Hunter",
+            "tier": "Silver"
+          },
+          {
+            "name": "Treasure Hunter — Gold",
+            "description": "Or : Coffres au trésor ouverts ≥ 500",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1a/BotW_NS2E_Treasure_Hunter_Gold_Icon.png/160px-BotW_NS2E_Treasure_Hunter_Gold_Icon.png",
+            "earned": false,
+            "medal": "Treasure Hunter",
+            "tier": "Gold"
+          },
+          {
+            "name": "Treasure Hunter — Master",
+            "description": "Maître : Coffres au trésor ouverts ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/04/BotW_NS2E_Treasure_Hunter_Master_Icon.png/160px-BotW_NS2E_Treasure_Hunter_Master_Icon.png",
+            "earned": false,
+            "medal": "Treasure Hunter",
+            "tier": "Master"
+          },
+          {
+            "name": "Material Collector — Bronze",
+            "description": "Bronze : Matériaux récoltés ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/97/BotW_NS2E_Material_Collector_Bronze_Icon.png/160px-BotW_NS2E_Material_Collector_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Material Collector",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Material Collector — Silver",
+            "description": "Argent : Matériaux récoltés ≥ 3,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/02/BotW_NS2E_Material_Collector_Silver_Icon.png/160px-BotW_NS2E_Material_Collector_Silver_Icon.png",
+            "earned": false,
+            "medal": "Material Collector",
+            "tier": "Silver"
+          },
+          {
+            "name": "Material Collector — Gold",
+            "description": "Or : Matériaux récoltés ≥ 5,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a8/BotW_NS2E_Material_Collector_Gold_Icon.png/160px-BotW_NS2E_Material_Collector_Gold_Icon.png",
+            "earned": false,
+            "medal": "Material Collector",
+            "tier": "Gold"
+          },
+          {
+            "name": "Material Collector — Master",
+            "description": "Maître : Matériaux récoltés ≥ 10,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f0/BotW_NS2E_Material_Collector_Master_Icon.png/160px-BotW_NS2E_Material_Collector_Master_Icon.png",
+            "earned": false,
+            "medal": "Material Collector",
+            "tier": "Master"
+          },
+          {
+            "name": "Weapon Collector — Bronze",
+            "description": "Bronze : Armes obtenues ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/79/BotW_NS2E_Weapon_Collector_Bronze_Icon.png/160px-BotW_NS2E_Weapon_Collector_Bronze_Icon.png",
+            "earned": true,
+            "medal": "Weapon Collector",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Weapon Collector — Silver",
+            "description": "Argent : Armes obtenues ≥ 300",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bf/BotW_NS2E_Weapon_Collector_Silver_Icon.png/160px-BotW_NS2E_Weapon_Collector_Silver_Icon.png",
+            "earned": false,
+            "medal": "Weapon Collector",
+            "tier": "Silver"
+          },
+          {
+            "name": "Weapon Collector — Gold",
+            "description": "Or : Armes obtenues ≥ 500",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/02/BotW_NS2E_Weapon_Collector_Gold_Icon.png/160px-BotW_NS2E_Weapon_Collector_Gold_Icon.png",
+            "earned": false,
+            "medal": "Weapon Collector",
+            "tier": "Gold"
+          },
+          {
+            "name": "Weapon Collector — Master",
+            "description": "Maître : Armes obtenues ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bb/BotW_NS2E_Weapon_Collector_Master_Icon.png/160px-BotW_NS2E_Weapon_Collector_Master_Icon.png",
+            "earned": false,
+            "medal": "Weapon Collector",
+            "tier": "Master"
+          },
+          {
+            "name": "Wealthy — Bronze",
+            "description": "Bronze : Rubis récoltés ≥ 10,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/11/BotW_NS2E_Wealthy_Bronze_Icon.png/160px-BotW_NS2E_Wealthy_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Wealthy",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Wealthy — Silver",
+            "description": "Argent : Rubis récoltés ≥ 30,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/87/BotW_NS2E_Wealthy_Silver_Icon.png/160px-BotW_NS2E_Wealthy_Silver_Icon.png",
+            "earned": false,
+            "medal": "Wealthy",
+            "tier": "Silver"
+          },
+          {
+            "name": "Wealthy — Gold",
+            "description": "Or : Rubis récoltés ≥ 50,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/19/BotW_NS2E_Wealthy_Gold_Icon.png/160px-BotW_NS2E_Wealthy_Gold_Icon.png",
+            "earned": false,
+            "medal": "Wealthy",
+            "tier": "Gold"
+          },
+          {
+            "name": "Wealthy — Master",
+            "description": "Maître : Rubis récoltés ≥ 100,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9b/BotW_NS2E_Wealthy_Master_Icon.png/160px-BotW_NS2E_Wealthy_Master_Icon.png",
+            "earned": false,
+            "medal": "Wealthy",
+            "tier": "Master"
+          },
+          {
+            "name": "Sheikah Power User — Bronze",
+            "description": "Bronze : Pouvoirs sheikah utilisés ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/BotW_NS2E_Sheikah_Power_User_Bronze_Icon.png/160px-BotW_NS2E_Sheikah_Power_User_Bronze_Icon.png",
+            "earned": true,
+            "medal": "Sheikah Power User",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Sheikah Power User — Silver",
+            "description": "Argent : Pouvoirs sheikah utilisés ≥ 300",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e0/BotW_NS2E_Sheikah_Power_User_Silver_Icon.png/160px-BotW_NS2E_Sheikah_Power_User_Silver_Icon.png",
+            "earned": false,
+            "medal": "Sheikah Power User",
+            "tier": "Silver"
+          },
+          {
+            "name": "Sheikah Power User — Gold",
+            "description": "Or : Pouvoirs sheikah utilisés ≥ 500",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/BotW_NS2E_Sheikah_Power_User_Gold_Icon.png/160px-BotW_NS2E_Sheikah_Power_User_Gold_Icon.png",
+            "earned": false,
+            "medal": "Sheikah Power User",
+            "tier": "Gold"
+          },
+          {
+            "name": "Sheikah Power User — Master",
+            "description": "Maître : Pouvoirs sheikah utilisés ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/70/BotW_NS2E_Sheikah_Power_User_Master_Icon.png/160px-BotW_NS2E_Sheikah_Power_User_Master_Icon.png",
+            "earned": false,
+            "medal": "Sheikah Power User",
+            "tier": "Master"
+          },
+          {
+            "name": "Champion's Sworn Friend — Bronze",
+            "description": "Bronze : Pouvoirs des Prodiges utilisés ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a6/BotW_NS2E_Champion%27s_Sworn_Friend_Bronze_Icon.png/160px-BotW_NS2E_Champion%27s_Sworn_Friend_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Champion's Sworn Friend",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Champion's Sworn Friend — Silver",
+            "description": "Argent : Pouvoirs des Prodiges utilisés ≥ 500",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6e/BotW_NS2E_Champion%27s_Sworn_Friend_Silver_Icon.png/160px-BotW_NS2E_Champion%27s_Sworn_Friend_Silver_Icon.png",
+            "earned": false,
+            "medal": "Champion's Sworn Friend",
+            "tier": "Silver"
+          },
+          {
+            "name": "Champion's Sworn Friend — Gold",
+            "description": "Or : Pouvoirs des Prodiges utilisés ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fb/BotW_NS2E_Champion%27s_Sworn_Friend_Gold_Icon.png/160px-BotW_NS2E_Champion%27s_Sworn_Friend_Gold_Icon.png",
+            "earned": false,
+            "medal": "Champion's Sworn Friend",
+            "tier": "Gold"
+          },
+          {
+            "name": "Champion's Sworn Friend — Master",
+            "description": "Maître : Pouvoirs des Prodiges utilisés ≥ 2,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/33/BotW_NS2E_Champion%27s_Sworn_Friend_Master_Icon.png/160px-BotW_NS2E_Champion%27s_Sworn_Friend_Master_Icon.png",
+            "earned": false,
+            "medal": "Champion's Sworn Friend",
+            "tier": "Master"
+          },
+          {
+            "name": "Culinary Researcher — Bronze",
+            "description": "Bronze : Repas mangés ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/BotW_NS2E_Culinary_Researcher_Bronze_Icon.png/160px-BotW_NS2E_Culinary_Researcher_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Culinary Researcher",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Culinary Researcher — Silver",
+            "description": "Argent : Repas mangés ≥ 300",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/88/BotW_NS2E_Culinary_Researcher_Silver_Icon.png/160px-BotW_NS2E_Culinary_Researcher_Silver_Icon.png",
+            "earned": false,
+            "medal": "Culinary Researcher",
+            "tier": "Silver"
+          },
+          {
+            "name": "Culinary Researcher — Gold",
+            "description": "Or : Repas mangés ≥ 500",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a7/BotW_NS2E_Culinary_Researcher_Gold_Icon.png/160px-BotW_NS2E_Culinary_Researcher_Gold_Icon.png",
+            "earned": false,
+            "medal": "Culinary Researcher",
+            "tier": "Gold"
+          },
+          {
+            "name": "Culinary Researcher — Master",
+            "description": "Maître : Repas mangés ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/97/BotW_NS2E_Culinary_Researcher_Master_Icon.png/160px-BotW_NS2E_Culinary_Researcher_Master_Icon.png",
+            "earned": false,
+            "medal": "Culinary Researcher",
+            "tier": "Master"
+          },
+          {
+            "name": "Distance Trekker — Bronze",
+            "description": "Bronze : Distance parcourue ≥ 100 km",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/93/BotW_NS2E_Distance_Trekker_Bronze_Icon.png/160px-BotW_NS2E_Distance_Trekker_Bronze_Icon.png",
+            "earned": true,
+            "medal": "Distance Trekker",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Distance Trekker — Silver",
+            "description": "Argent : Distance parcourue ≥ 300 km",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a3/BotW_NS2E_Distance_Trekker_Silver_Icon.png/160px-BotW_NS2E_Distance_Trekker_Silver_Icon.png",
+            "earned": false,
+            "medal": "Distance Trekker",
+            "tier": "Silver"
+          },
+          {
+            "name": "Distance Trekker — Gold",
+            "description": "Or : Distance parcourue ≥ 500 km",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fa/BotW_NS2E_Distance_Trekker_Gold_Icon.png/160px-BotW_NS2E_Distance_Trekker_Gold_Icon.png",
+            "earned": false,
+            "medal": "Distance Trekker",
+            "tier": "Gold"
+          },
+          {
+            "name": "Distance Trekker — Master",
+            "description": "Maître : Distance parcourue ≥ 1,000 km",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/73/BotW_NS2E_Distance_Trekker_Master_Icon.png/160px-BotW_NS2E_Distance_Trekker_Master_Icon.png",
+            "earned": false,
+            "medal": "Distance Trekker",
+            "tier": "Master"
+          },
+          {
+            "name": "Quest Challenger — Bronze",
+            "description": "Bronze : Quêtes et aventures terminées ≥ 20",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a4/BotW_NS2E_Quest_Challenger_Bronze_Icon.png/160px-BotW_NS2E_Quest_Challenger_Bronze_Icon.png",
+            "earned": true,
+            "medal": "Quest Challenger",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Quest Challenger — Silver",
+            "description": "Argent : Quêtes et aventures terminées ≥ 60",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/40/BotW_NS2E_Quest_Challenger_Silver_Icon.png/160px-BotW_NS2E_Quest_Challenger_Silver_Icon.png",
+            "earned": false,
+            "medal": "Quest Challenger",
+            "tier": "Silver"
+          },
+          {
+            "name": "Quest Challenger — Gold",
+            "description": "Or : Quêtes et aventures terminées ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3b/BotW_NS2E_Quest_Challenger_Gold_Icon.png/160px-BotW_NS2E_Quest_Challenger_Gold_Icon.png",
+            "earned": false,
+            "medal": "Quest Challenger",
+            "tier": "Gold"
+          },
+          {
+            "name": "Quest Challenger — Master",
+            "description": "Maître : Quêtes et aventures terminées ≥ 100 % (terminé)",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f1/BotW_NS2E_Quest_Challenger_Master_Icon.png/160px-BotW_NS2E_Quest_Challenger_Master_Icon.png",
+            "earned": false,
+            "medal": "Quest Challenger",
+            "tier": "Master"
+          },
+          {
+            "name": "Shrine Seeker — Bronze",
+            "description": "Bronze : Sanctuaires terminés ≥ 20",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/df/BotW_NS2E_Shrine_Seeker_Bronze_Icon.png/160px-BotW_NS2E_Shrine_Seeker_Bronze_Icon.png",
+            "earned": true,
+            "medal": "Shrine Seeker",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Shrine Seeker — Silver",
+            "description": "Argent : Sanctuaires terminés ≥ 60",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6f/BotW_NS2E_Shrine_Seeker_Silver_Icon.png/160px-BotW_NS2E_Shrine_Seeker_Silver_Icon.png",
+            "earned": false,
+            "medal": "Shrine Seeker",
+            "tier": "Silver"
+          },
+          {
+            "name": "Shrine Seeker — Gold",
+            "description": "Or : Sanctuaires terminés ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/38/BotW_NS2E_Shrine_Seeker_Gold_Icon.png/160px-BotW_NS2E_Shrine_Seeker_Gold_Icon.png",
+            "earned": false,
+            "medal": "Shrine Seeker",
+            "tier": "Gold"
+          },
+          {
+            "name": "Shrine Seeker — Master",
+            "description": "Maître : Sanctuaires terminés ≥ 100 % (terminé)",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/ff/BotW_NS2E_Shrine_Seeker_Master_Icon.png/160px-BotW_NS2E_Shrine_Seeker_Master_Icon.png",
+            "earned": false,
+            "medal": "Shrine Seeker",
+            "tier": "Master"
+          },
+          {
+            "name": "Traveler — Bronze",
+            "description": "Bronze : Lieux visités ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d5/BotW_NS2E_Traveler_Bronze_Icon.png/160px-BotW_NS2E_Traveler_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Traveler",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Traveler — Silver",
+            "description": "Argent : Lieux visités ≥ 200",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/12/BotW_NS2E_Traveler_Silver_Icon.png/160px-BotW_NS2E_Traveler_Silver_Icon.png",
+            "earned": false,
+            "medal": "Traveler",
+            "tier": "Silver"
+          },
+          {
+            "name": "Traveler — Gold",
+            "description": "Or : Lieux visités ≥ 300",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/62/BotW_NS2E_Traveler_Gold_Icon.png/160px-BotW_NS2E_Traveler_Gold_Icon.png",
+            "earned": false,
+            "medal": "Traveler",
+            "tier": "Gold"
+          },
+          {
+            "name": "Traveler — Master",
+            "description": "Maître : Lieux visités ≥ 100 % (terminé)",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e9/BotW_NS2E_Traveler_Master_Icon.png/160px-BotW_NS2E_Traveler_Master_Icon.png",
+            "earned": false,
+            "medal": "Traveler",
+            "tier": "Master"
+          },
+          {
+            "name": "Korok Seeker — Bronze",
+            "description": "Bronze : Korogus cachés trouvés ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b3/BotW_NS2E_Korok_Seeker_Bronze_Icon.png/160px-BotW_NS2E_Korok_Seeker_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Korok Seeker",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Korok Seeker — Silver",
+            "description": "Argent : Korogus cachés trouvés ≥ 200",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e0/BotW_NS2E_Korok_Seeker_Silver_Icon.png/160px-BotW_NS2E_Korok_Seeker_Silver_Icon.png",
+            "earned": false,
+            "medal": "Korok Seeker",
+            "tier": "Silver"
+          },
+          {
+            "name": "Korok Seeker — Gold",
+            "description": "Or : Korogus cachés trouvés ≥ 400",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ef/BotW_NS2E_Korok_Seeker_Gold_Icon.png/160px-BotW_NS2E_Korok_Seeker_Gold_Icon.png",
+            "earned": false,
+            "medal": "Korok Seeker",
+            "tier": "Gold"
+          },
+          {
+            "name": "Korok Seeker — Master",
+            "description": "Maître : Korogus cachés trouvés ≥ 100 % (terminé)",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ef/BotW_NS2E_Korok_Seeker_Master_Icon.png/160px-BotW_NS2E_Korok_Seeker_Master_Icon.png",
+            "earned": false,
+            "medal": "Korok Seeker",
+            "tier": "Master"
+          },
+          {
+            "name": "Voice Memory Seeker — Bronze",
+            "description": "Bronze : Souvenirs vocaux obtenus ≥ 20",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/34/BotW_NS2E_Voice_Memory_Seeker_Bronze_Icon.png/160px-BotW_NS2E_Voice_Memory_Seeker_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Voice Memory Seeker",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Voice Memory Seeker — Silver",
+            "description": "Argent : Souvenirs vocaux obtenus ≥ 60",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8b/BotW_NS2E_Voice_Memory_Seeker_Silver_Icon.png/160px-BotW_NS2E_Voice_Memory_Seeker_Silver_Icon.png",
+            "earned": false,
+            "medal": "Voice Memory Seeker",
+            "tier": "Silver"
+          },
+          {
+            "name": "Voice Memory Seeker — Gold",
+            "description": "Or : Souvenirs vocaux obtenus ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2c/BotW_NS2E_Voice_Memory_Seeker_Gold_Icon.png/160px-BotW_NS2E_Voice_Memory_Seeker_Gold_Icon.png",
+            "earned": false,
+            "medal": "Voice Memory Seeker",
+            "tier": "Gold"
+          },
+          {
+            "name": "Voice Memory Seeker — Master",
+            "description": "Maître : Souvenirs vocaux obtenus ≥ 100 % (terminé)",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/03/BotW_NS2E_Voice_Memory_Seeker_Master_Icon.png/160px-BotW_NS2E_Voice_Memory_Seeker_Master_Icon.png",
+            "earned": false,
+            "medal": "Voice Memory Seeker",
+            "tier": "Master"
+          },
+          {
+            "name": "Explorer — Bronze",
+            "description": "Bronze : Destinations de navigation visitées ≥ 25 %",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/BotW_NS2E_Explorer_Bronze_Icon.png/160px-BotW_NS2E_Explorer_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Explorer",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Explorer — Silver",
+            "description": "Argent : Destinations de navigation visitées ≥ 50 %",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/12/BotW_NS2E_Explorer_Silver_Icon.png/160px-BotW_NS2E_Explorer_Silver_Icon.png",
+            "earned": false,
+            "medal": "Explorer",
+            "tier": "Silver"
+          },
+          {
+            "name": "Explorer — Gold",
+            "description": "Or : Destinations de navigation visitées ≥ 75 %",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1b/BotW_NS2E_Explorer_Gold_Icon.png/160px-BotW_NS2E_Explorer_Gold_Icon.png",
+            "earned": false,
+            "medal": "Explorer",
+            "tier": "Gold"
+          },
+          {
+            "name": "Explorer — Master",
+            "description": "Maître : Destinations de navigation visitées ≥ 100 % (terminé)",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/22/BotW_NS2E_Explorer_Master_Icon.png/160px-BotW_NS2E_Explorer_Master_Icon.png",
+            "earned": false,
+            "medal": "Explorer",
+            "tier": "Master"
+          },
+          {
+            "name": "Spinner Devotee — Bronze",
+            "description": "Bronze : Tours de bonus quotidiens effectués ≥ 10",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/98/BotW_NS2E_Spinner_Devotee_Bronze_Icon.png/160px-BotW_NS2E_Spinner_Devotee_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Spinner Devotee",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Spinner Devotee — Silver",
+            "description": "Argent : Tours de bonus quotidiens effectués ≥ 20",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0e/BotW_NS2E_Spinner_Devotee_Silver_Icon.png/160px-BotW_NS2E_Spinner_Devotee_Silver_Icon.png",
+            "earned": false,
+            "medal": "Spinner Devotee",
+            "tier": "Silver"
+          },
+          {
+            "name": "Spinner Devotee — Gold",
+            "description": "Or : Tours de bonus quotidiens effectués ≥ 50",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/05/BotW_NS2E_Spinner_Devotee_Gold_Icon.png/160px-BotW_NS2E_Spinner_Devotee_Gold_Icon.png",
+            "earned": false,
+            "medal": "Spinner Devotee",
+            "tier": "Gold"
+          },
+          {
+            "name": "Spinner Devotee — Master",
+            "description": "Maître : Tours de bonus quotidiens effectués ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/70/BotW_NS2E_Spinner_Devotee_Master_Icon.png/160px-BotW_NS2E_Spinner_Devotee_Master_Icon.png",
+            "earned": false,
+            "medal": "Spinner Devotee",
+            "tier": "Master"
+          },
+          {
+            "name": "amiibo Enthusiast — Bronze",
+            "description": "Bronze : amiibo de la série scannés ≥ 10",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/30/BotW_NS2E_amiibo_Enthusiast_Bronze_Icon.png/160px-BotW_NS2E_amiibo_Enthusiast_Bronze_Icon.png",
+            "earned": false,
+            "medal": "amiibo Enthusiast",
+            "tier": "Bronze"
+          },
+          {
+            "name": "amiibo Enthusiast — Silver",
+            "description": "Argent : amiibo de la série scannés ≥ 20",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/10/BotW_NS2E_amiibo_Enthusiast_Silver_Icon.png/160px-BotW_NS2E_amiibo_Enthusiast_Silver_Icon.png",
+            "earned": false,
+            "medal": "amiibo Enthusiast",
+            "tier": "Silver"
+          },
+          {
+            "name": "amiibo Enthusiast — Gold",
+            "description": "Or : amiibo de la série scannés ≥ 50",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ef/BotW_NS2E_amiibo_Enthusiast_Gold_Icon.png/160px-BotW_NS2E_amiibo_Enthusiast_Gold_Icon.png",
+            "earned": false,
+            "medal": "amiibo Enthusiast",
+            "tier": "Gold"
+          },
+          {
+            "name": "amiibo Enthusiast — Master",
+            "description": "Maître : amiibo de la série scannés ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f0/BotW_NS2E_amiibo_Enthusiast_Master_Icon.png/160px-BotW_NS2E_amiibo_Enthusiast_Master_Icon.png",
+            "earned": false,
+            "medal": "amiibo Enthusiast",
+            "tier": "Master"
+          },
+          {
+            "name": "Logistics Buff — Bronze",
+            "description": "Bronze : Dépôts dans le coffre à objets ≥ 100",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a0/BotW_NS2E_Logistics_Buff_Bronze_Icon.png/160px-BotW_NS2E_Logistics_Buff_Bronze_Icon.png",
+            "earned": false,
+            "medal": "Logistics Buff",
+            "tier": "Bronze"
+          },
+          {
+            "name": "Logistics Buff — Silver",
+            "description": "Argent : Dépôts dans le coffre à objets ≥ 300",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/71/BotW_NS2E_Logistics_Buff_Silver_Icon.png/160px-BotW_NS2E_Logistics_Buff_Silver_Icon.png",
+            "earned": false,
+            "medal": "Logistics Buff",
+            "tier": "Silver"
+          },
+          {
+            "name": "Logistics Buff — Gold",
+            "description": "Or : Dépôts dans le coffre à objets ≥ 500",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/84/BotW_NS2E_Logistics_Buff_Gold_Icon.png/160px-BotW_NS2E_Logistics_Buff_Gold_Icon.png",
+            "earned": false,
+            "medal": "Logistics Buff",
+            "tier": "Gold"
+          },
+          {
+            "name": "Logistics Buff — Master",
+            "description": "Maître : Dépôts dans le coffre à objets ≥ 1,000",
+            "icon": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2a/BotW_NS2E_Logistics_Buff_Master_Icon.png/160px-BotW_NS2E_Logistics_Buff_Master_Icon.png",
+            "earned": false,
+            "medal": "Logistics Buff",
+            "tier": "Master"
+          }
+        ]
+      },
       "pitch": null,
       "studios": []
     },
@@ -51840,13 +52451,13 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1790263379",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1790263379",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/A/aM2Dd6Vo4HW_UGasK7tLuZ6fu4.png",
-          "activeJobNameImg": "https://lds-img.finalfantasyxiv.com/h/e/O3snBuPmTa2EpJrbOeo8Gw2azU.png",
-          "activeJobLevel": 100,
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1790435006",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1790435006",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/0/Fso5hanZVEEAaZ7OGWJsXpf3jw.png",
+          "activeJobNameImg": "https://lds-img.finalfantasyxiv.com/h/v/F-Iyk2Zt4B0m6205eewo8k72GQ.png",
+          "activeJobLevel": 88,
           "freeCompany": "MiaouSpirit",
-          "portraitCutout": "ffxiv-portrait-cutouts/9719f9de074433919c0061fd4bcbd830f3effc9d.png"
+          "portraitCutout": "ffxiv-portrait-cutouts/9fa100291e6ce4fd5d8adc87b55f2a03b5a5e0c4.png"
         },
         "characterSheet": {
           "race": "Élézen",
@@ -51863,23 +52474,23 @@
             "rows": [
               {
                 "name": "Force",
-                "value": "440"
+                "value": "323"
               },
               {
                 "name": "Dextérité",
-                "value": "399"
+                "value": "1920"
               },
               {
                 "name": "Vitalité",
-                "value": "1632"
+                "value": "1946"
               },
               {
                 "name": "Intelligence",
-                "value": "398"
+                "value": "249"
               },
               {
                 "name": "Esprit",
-                "value": "439"
+                "value": "284"
               }
             ]
           },
@@ -51888,15 +52499,15 @@
             "rows": [
               {
                 "name": "Critique",
-                "value": "420"
+                "value": "1040"
               },
               {
                 "name": "Détermination",
-                "value": "440"
+                "value": "1279"
               },
               {
                 "name": "Coups nets",
-                "value": "420"
+                "value": "1298"
               }
             ]
           },
@@ -51905,11 +52516,11 @@
             "rows": [
               {
                 "name": "Défense",
-                "value": "2272"
+                "value": "1901"
               },
               {
                 "name": "Défense magique",
-                "value": "4534"
+                "value": "1901"
               }
             ]
           },
@@ -51918,82 +52529,99 @@
             "rows": [
               {
                 "name": "Attaque",
-                "value": "440"
+                "value": "1920"
               },
               {
                 "name": "Vivacité",
-                "value": "420"
+                "value": "484"
               }
             ]
           },
           {
-            "section": "Récolte",
+            "section": "Attributs magiques",
             "rows": [
               {
-                "name": "Collecte",
-                "value": "5534"
+                "name": "Magie offensive",
+                "value": "249"
               },
               {
-                "name": "Savoir-faire",
-                "value": "5303"
+                "name": "Magie curative",
+                "value": "284"
+              },
+              {
+                "name": "Célérité",
+                "value": "396"
+              }
+            ]
+          },
+          {
+            "section": "Rôle",
+            "rows": [
+              {
+                "name": "Ténacité",
+                "value": "396"
+              },
+              {
+                "name": "Piété",
+                "value": "380"
               }
             ]
           }
         ],
         "equipment": [
-          "https://lds-img.finalfantasyxiv.com/itemicon/66/6632382732def0fa5b49f1a94948f44f550a49af.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/1d/1d4008edc574f287a33806dc395d884400a93c8f.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/af/af532ef31b8b82eeaa96d6aae6ac332b4f6d4bac.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/95/95300b85a1f7fed3db949d03db9c7e1905c3f5c2.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/63/63db77778265f2d0f9878a9bbc8508c8192fa26b.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/32/327e620be5fffb9bf4216c47d6f634c551bdfc3d.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/b6/b6e2b757a33c5507e61a05a9496ad6bd8d124a16.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/8d/8d5a63afa7fb0d1b0aac096d4bd30625681a932a.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/77/77f841b34a9894d4784fb871c3feef6649457812.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/f1/f1a290dde53c1264529ca49ed3af3db201126902.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/d4/d477332b71551a5981400572409290e3c6e9bb02.png?n7.56",
-          "https://lds-img.finalfantasyxiv.com/itemicon/d4/d477332b71551a5981400572409290e3c6e9bb02.png?n7.56"
+          "https://lds-img.finalfantasyxiv.com/itemicon/48/4845e8797eb063f8f50a3354a6072d9623535999.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/6f/6feece73ce95139604db1ee158e5f4653232774d.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/06/0650479ecae84c6ddffdd75bc9d90e5341a3a7a1.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/be/be340bd2033316f638457dffaf470f2f88fb781b.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/54/547632755299dcf8e3ff65cd1a8c29938f85d80a.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/e3/e32a877dd2f687d6511a698170c4c6ff2d652380.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/95/95a9d35cf785ac3ceb5b4205acfe5d520fb8ec73.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/a3/a3b3a9b6eaeb65abed8d9c0e10df7376e49a15ad.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/62/62783b50cb8667abd319971051d7b246dbc5f719.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.56",
+          "https://lds-img.finalfantasyxiv.com/itemicon/df/df0c8b637453cd3f1c0bc08002adb05e5514b156.png?n7.56"
         ],
         "equipmentSlots": [
           {
             "slot": "0",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/66/6632382732def0fa5b49f1a94948f44f550a49af.png?n7.56",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/48/4845e8797eb063f8f50a3354a6072d9623535999.png?n7.56",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "2",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/1d/1d4008edc574f287a33806dc395d884400a93c8f.png?n7.56",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/6f/6feece73ce95139604db1ee158e5f4653232774d.png?n7.56",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "3",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/af/af532ef31b8b82eeaa96d6aae6ac332b4f6d4bac.png?n7.56",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/06/0650479ecae84c6ddffdd75bc9d90e5341a3a7a1.png?n7.56",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "4",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/95/95300b85a1f7fed3db949d03db9c7e1905c3f5c2.png?n7.56",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/be/be340bd2033316f638457dffaf470f2f88fb781b.png?n7.56",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "6",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/63/63db77778265f2d0f9878a9bbc8508c8192fa26b.png?n7.56",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/54/547632755299dcf8e3ff65cd1a8c29938f85d80a.png?n7.56",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "7",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/32/327e620be5fffb9bf4216c47d6f634c551bdfc3d.png?n7.56",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/e3/e32a877dd2f687d6511a698170c4c6ff2d652380.png?n7.56",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
@@ -52006,49 +52634,49 @@
           },
           {
             "slot": "1",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/b6/b6e2b757a33c5507e61a05a9496ad6bd8d124a16.png?n7.56",
+            "icon": null,
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "8",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/8d/8d5a63afa7fb0d1b0aac096d4bd30625681a932a.png?n7.56",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/95/95a9d35cf785ac3ceb5b4205acfe5d520fb8ec73.png?n7.56",
             "dyeable": false,
             "dye": null,
-            "sync": false
+            "sync": true
           },
           {
             "slot": "9",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/77/77f841b34a9894d4784fb871c3feef6649457812.png?n7.56",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/a3/a3b3a9b6eaeb65abed8d9c0e10df7376e49a15ad.png?n7.56",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "10",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/f1/f1a290dde53c1264529ca49ed3af3db201126902.png?n7.56",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/62/62783b50cb8667abd319971051d7b246dbc5f719.png?n7.56",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "11",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/d4/d477332b71551a5981400572409290e3c6e9bb02.png?n7.56",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.56",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "12",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/d4/d477332b71551a5981400572409290e3c6e9bb02.png?n7.56",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.56",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "13",
-            "icon": null,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/df/df0c8b637453cd3f1c0bc08002adb05e5514b156.png?n7.56",
             "dyeable": false,
             "dye": null,
             "sync": false
@@ -83958,7 +84586,7 @@
             "abbr": "GNB",
             "name": "Pistosabreur",
             "role": "tank",
-            "level": 94,
+            "level": 95,
             "icon": "https://lds-img.finalfantasyxiv.com/h/8/hg8ofSSOKzqng290No55trV4mI.png"
           },
           {
@@ -84007,7 +84635,7 @@
             "abbr": "NIN",
             "name": "Ninja",
             "role": "melee",
-            "level": 85,
+            "level": 88,
             "icon": "https://lds-img.finalfantasyxiv.com/h/0/Fso5hanZVEEAaZ7OGWJsXpf3jw.png"
           },
           {
@@ -84185,7 +84813,7 @@
           "level": 40,
           "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-09-24T15:27:47.555Z"
+        "updatedAt": "2026-09-26T15:18:32.482Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
@@ -84226,13 +84854,13 @@
           "publisher": false
         },
         {
-          "name": "Square Enix Creative Studio III",
+          "name": "Square Enix Creative Studio 3",
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cla1o.png",
           "developer": true,
           "publisher": false
         },
         {
-          "name": "Square Enix Creative Studio III",
+          "name": "Square Enix Creative Studio 3",
           "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/cla1o.png",
           "developer": false,
           "publisher": false
@@ -87900,16 +88528,5 @@
       "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/ar6dhj.jpg"
     }
   ],
-  "prochainement": [
-    {
-      "id": "atelier-yumia-the-alchemist-of-memories-the-envisioned-land",
-      "nom": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
-      "plateformes": [
-        "PC"
-      ],
-      "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rja.jpg",
-      "diffusion": "twitch_vod",
-      "addedAt": 1790194583206
-    }
-  ]
+  "prochainement": []
 }
