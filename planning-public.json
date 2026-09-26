@@ -250,45 +250,7 @@
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg"
       ],
       "liveNow": false
-    },
-    {
-      "id": "9785d838-967d-4b97-834b-2e9ad817fd6b",
-      "type": "youtube_video",
-      "channel": "etpourquoipasg",
-      "date": "2026-09-26",
-      "time": "17:30",
-      "gameId": "95fbc726-b02e-4735-a3d1-63bac458e09b",
-      "title": null,
-      "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": "1e2e7jlZPcI",
-      "durationSeconds": 7716,
-      "autoPosted": false,
-      "gameNom": "Fire Emblem: Fortune's Weave",
-      "gameCovers": [
-        "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
-      ],
-      "liveNow": false
-    },
-    {
-      "id": "897733f6-c38a-4991-9a92-5f74bcf10b96",
-      "type": "youtube_video",
-      "channel": "etpourquoipasg",
-      "date": "2026-09-27",
-      "time": "17:30",
-      "gameId": "95fbc726-b02e-4735-a3d1-63bac458e09b",
-      "title": null,
-      "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": "1e2e7jlZPcI",
-      "durationSeconds": 7716,
-      "autoPosted": false,
-      "gameNom": "Fire Emblem: Fortune's Weave",
-      "gameCovers": [
-        "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024"
-      ],
-      "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-25T18:32:06.461Z"
+  "publishedAt": "2026-09-26T13:02:18.184Z"
 }
