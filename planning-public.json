@@ -18,7 +18,7 @@
         "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
         "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
       ],
-      "liveNow": true
+      "liveNow": false
     },
     {
       "id": "41dffff0-6057-4931-8dd8-d9a862409e42",
@@ -41,5 +41,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-29T07:05:00.967Z"
+  "publishedAt": "2026-09-29T07:36:46.008Z"
 }
