@@ -21,6 +21,26 @@
       "liveNow": false
     },
     {
+      "id": "f36e42af-ff97-4f53-bd31-80b06674fc17",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-10-01",
+      "time": "15:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Final Fantasy XIV Online - Episode 04 - Possédé",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/-YSZUwpKNz0",
+      "youtubeVideoId": "-YSZUwpKNz0",
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ],
+      "liveNow": false
+    },
+    {
       "id": "41dffff0-6057-4931-8dd8-d9a862409e42",
       "type": "twitch_live",
       "channel": null,
@@ -41,5 +61,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-09-29T07:36:46.008Z"
+  "publishedAt": "2026-09-30T15:01:33.902Z"
 }
