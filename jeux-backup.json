@@ -2349,6 +2349,48 @@
       "occasion": false,
       "excluYoutube": true,
       "youtubeActive": true
+    },
+    {
+      "id": "d74426ac-ab68-4eb9-afc6-a939ae3feedf",
+      "nom": "The Elder Scrolls Online",
+      "plateformes": [
+        "PC",
+        "PlayStation"
+      ],
+      "steamAppId": 306130,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.jpg",
+      "progression": {
+        "PC": {
+          "earned": 0,
+          "total": 0
+        },
+        "PlayStation": {
+          "bronze": {
+            "earned": 0,
+            "total": 0
+          },
+          "argent": {
+            "earned": 0,
+            "total": 0
+          },
+          "or": {
+            "earned": 0,
+            "total": 0
+          },
+          "platine": false,
+          "npCommunicationId": "NPWR21988_00",
+          "npServiceName": "trophy2",
+          "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21988_00/ca74ea15-54b7-41f0-8937-e863af036d95.png",
+          "platinumIcon": null
+        }
+      },
+      "type": "normal",
+      "completion": "",
+      "jeuDuMoment": false,
+      "fridayFantasy": false,
+      "occasion": false,
+      "excluYoutube": true
     }
   ]
 }
