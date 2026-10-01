@@ -2163,8 +2163,8 @@
           "total": 59
         },
         "Xbox": {
-          "earned": 0,
-          "total": 0,
+          "earned": 8,
+          "total": 59,
           "titleId": "2119739112"
         }
       },
@@ -2367,22 +2367,22 @@
         },
         "PlayStation": {
           "bronze": {
-            "earned": 0,
-            "total": 0
+            "earned": 39,
+            "total": 82
           },
           "argent": {
-            "earned": 0,
-            "total": 0
+            "earned": 21,
+            "total": 59
           },
           "or": {
-            "earned": 0,
-            "total": 0
+            "earned": 9,
+            "total": 40
           },
           "platine": false,
           "npCommunicationId": "NPWR21988_00",
           "npServiceName": "trophy2",
           "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21988_00/ca74ea15-54b7-41f0-8937-e863af036d95.png",
-          "platinumIcon": null
+          "platinumIcon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21988_00/f8d51336-4f76-4762-950a-d3127f50a9d3.png"
         }
       },
       "type": "normal",
