@@ -5,6 +5,12 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Jeux — emilae_tv</title>
+<script>
+// ?jeu=<id> ouvre directement la fiche d'un jeu ; &embed=1 n'affiche QUE la
+// fiche (fond transparent) — utilisé par le hub « nouvel onglet » du
+// serveur stream, qui l'ouvre par-dessus sa page.
+if (/[?&]embed=1/.test(location.search)) document.documentElement.classList.add('embed');
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -16,6 +22,14 @@
   --blur:24px;
   --radius-lg:26px;--radius-md:16px;--radius-sm:10px}
 body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--tx);min-height:100vh;padding:0;position:relative;overflow-x:hidden}
+
+html.embed,html.embed body{background:transparent!important}
+html.embed body>*:not(.s-modal):not(script){display:none!important}
+/* Intégré au hub : pas de voile (le hub floute lui-même sa page), boîte
+   au même fond sombre que sur le site quelle que soit la page hôte */
+html.embed .s-modal{background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none}
+html.embed .s-modal-box{box-shadow:inset 0 1px 0 var(--glass-highlight),0 30px 80px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.08)}
+html.embed .s-modal-box{background:linear-gradient(rgba(255,255,255,.07),rgba(255,255,255,.07)),#0E1119}
 
 /* ── Fond ambiant ── */
 body::before,body::after{content:'';position:fixed;border-radius:50%;filter:blur(120px);z-index:0;pointer-events:none}
@@ -684,6 +698,12 @@ async function loadJeux() {
   }
   renderJeux();
   renderGlobalProgress();
+  const wanted = new URLSearchParams(location.search).get('jeu');
+  if (wanted) {
+    const statut = ['enCours', 'termines', 'prochainement'].find(k => (_jeuxData[k] || []).some(j => j.id === wanted));
+    if (statut) openJeuDetailView(wanted, statut);
+    else if (document.documentElement.classList.contains('embed')) parent.postMessage({ type: 'jeu-introuvable', id: wanted }, '*');
+  }
 }
 
 // Moyenne d'avancée sur toute la bibliothèque. Un jeu multi-plateforme ne
@@ -1255,6 +1275,7 @@ function filterFfxivHf(q) {
 function closeJeuDetailModal() {
   document.getElementById('modal-jeu-detail').classList.remove('open');
   document.body.style.overflow = '';
+  if (document.documentElement.classList.contains('embed')) parent.postMessage({ type: 'fermer-jeu' }, '*');
 }
 
 // Où que la souris survole la popup (même la bannière/jaquette, fixes),
@@ -1332,7 +1353,14 @@ function openPsnGroupModal(groupId) {
 }
 function closePsnGroupModal() { document.getElementById('modal-psn-group').classList.remove('open'); }
 
-document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.s-modal.open').forEach(m => m.classList.remove('open')); });
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  const psnOpen = document.getElementById('modal-psn-group').classList.contains('open');
+  document.querySelectorAll('.s-modal.open').forEach(m => m.classList.remove('open'));
+  if (!psnOpen && document.documentElement.classList.contains('embed')) parent.postMessage({ type: 'fermer-jeu' }, '*');
+});
+// Clic sur le fond assombri : ferme la fiche (comme la croix).
+document.getElementById('modal-jeu-detail').addEventListener('click', e => { if (e.target.id === 'modal-jeu-detail') closeJeuDetailModal(); });
 document.getElementById('modal-psn-group').addEventListener('click', e => { if (e.target.id === 'modal-psn-group') closePsnGroupModal(); });
 
 loadJeux();
