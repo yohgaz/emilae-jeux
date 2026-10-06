@@ -17,7 +17,7 @@
       "gameCovers": [
         "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
       ],
-      "liveNow": true
+      "liveNow": false
     },
     {
       "id": "afdfc2df-f25d-4d06-8ac9-d8641fbe4f33",
@@ -59,5 +59,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-10-06T07:02:59.249Z"
+  "publishedAt": "2026-10-06T09:31:47.813Z"
 }
