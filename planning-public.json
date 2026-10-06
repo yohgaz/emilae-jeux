@@ -1,53 +1,49 @@
 {
   "events": [
     {
-      "id": "b8980c21-9861-4e7c-b8d1-42036085fdd2",
+      "id": "8036d9e4-5f3d-4ed2-8941-e700e8fa33a6",
       "type": "twitch_live",
       "channel": null,
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "time": "09:00",
-      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
       "title": null,
       "notes": "",
       "youtubeUrl": null,
       "youtubeVideoId": null,
       "durationSeconds": null,
       "autoPosted": false,
-      "gameNom": "FINAL FANTASY XIV",
+      "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
       "gameCovers": [
-        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
-        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
       ],
-      "liveNow": false
+      "liveNow": true
     },
     {
-      "id": "f36e42af-ff97-4f53-bd31-80b06674fc17",
-      "type": "youtube_video",
-      "channel": "main",
-      "date": "2026-10-01",
-      "time": "15:00",
-      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
-      "title": "Final Fantasy XIV Online - Episode 04 - Possédé",
-      "notes": "",
-      "youtubeUrl": "https://youtu.be/-YSZUwpKNz0",
-      "youtubeVideoId": "-YSZUwpKNz0",
-      "durationSeconds": null,
-      "autoPosted": true,
-      "blueskyScheduled": true,
-      "blueskyScheduleId": "muo8kb0djxpz",
-      "gameNom": "FINAL FANTASY XIV",
-      "gameCovers": [
-        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
-        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
-      ],
-      "liveNow": false
-    },
-    {
-      "id": "41dffff0-6057-4931-8dd8-d9a862409e42",
+      "id": "afdfc2df-f25d-4d06-8ac9-d8641fbe4f33",
       "type": "twitch_live",
       "channel": null,
-      "date": "2026-10-02",
+      "date": "2026-10-08",
       "time": "09:00",
+      "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
+      "title": null,
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "a0406a64-4d9c-4d8d-ad80-df903acefc20",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-10-09",
+      "time": "14:00",
       "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
       "title": null,
       "notes": "",
@@ -63,5 +59,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-10-02T13:58:21.093Z"
+  "publishedAt": "2026-10-06T07:02:59.249Z"
 }
