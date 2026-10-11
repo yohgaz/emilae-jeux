@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T13:09:23.043Z",
+  "updatedAt": "2026-10-11T10:56:06.621Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -52865,13 +52865,13 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1791551092",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1791551092",
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1791713843",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1791713843",
           "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/F/KWI-9P3RX_Ojjn_mwCS2N0-3TI.png",
           "activeJobNameImg": "https://lds-img.finalfantasyxiv.com/h/6/P6_2iuF9IHOUcNgRxTFEeKbxrQ.png",
           "activeJobLevel": 100,
           "freeCompany": "MiaouSpirit",
-          "portraitCutout": "ffxiv-portrait-cutouts/dde607128d00898cb56329da941ff184a22d6384.png"
+          "portraitCutout": "ffxiv-portrait-cutouts/bcf80b1019a13a4a4b31a170f97021c20350a87d.png"
         },
         "characterSheet": {
           "race": "Élézen",
@@ -53106,10 +53106,18 @@
           ]
         },
         "achievements": {
-          "earned": 1967,
+          "earned": 1968,
           "total": 3497,
-          "points": "17400",
+          "points": "17410",
           "recent": [
+            {
+              "id": "3291",
+              "name": "Armes des Manderville : couteaux majestueux",
+              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/e5/e58f2ca260ffd16dff8a963be1529069c47eed50.png?n7.56",
+              "points": 10,
+              "earned": true,
+              "date": 1791715477000
+            },
             {
               "id": "3230",
               "name": "Armes des Manderville : couteaux éblouissants",
@@ -55097,14 +55105,6 @@
             {
               "id": "3513",
               "name": "Cartographe du continent : Yak T'el",
-              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n7.56",
-              "points": 10,
-              "earned": true,
-              "date": 1738508620000
-            },
-            {
-              "id": "3514",
-              "name": "Cartographe du continent : Shaaloani",
               "icon": "https://lds-img.finalfantasyxiv.com/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n7.56",
               "points": 10,
               "earned": true,
@@ -66979,7 +66979,7 @@
             {
               "id": "4",
               "name": "Objets",
-              "earned": 282,
+              "earned": 283,
               "total": 674,
               "achievements": [
                 {
@@ -70480,11 +70480,11 @@
                 },
                 {
                   "id": "3291",
-                  "name": "???",
+                  "name": "Armes des Manderville : couteaux majestueux",
                   "icon": "https://lds-img.finalfantasyxiv.com/itemicon/e5/e58f2ca260ffd16dff8a963be1529069c47eed50.png?n7.56",
                   "points": 10,
-                  "earned": false,
-                  "date": null
+                  "earned": true,
+                  "date": 1791715477000
                 },
                 {
                   "id": "3386",
@@ -85004,7 +85004,7 @@
             "abbr": "GNB",
             "name": "Pistosabreur",
             "role": "tank",
-            "level": 96,
+            "level": 97,
             "icon": "https://lds-img.finalfantasyxiv.com/h/8/hg8ofSSOKzqng290No55trV4mI.png"
           },
           {
@@ -85231,7 +85231,7 @@
           "level": 40,
           "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-10-09T13:09:23.009Z"
+        "updatedAt": "2026-10-11T10:56:06.584Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
