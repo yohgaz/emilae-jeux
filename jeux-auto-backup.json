@@ -61942,11 +61942,11 @@
           "earned": 3,
           "total": 219,
           "familyShared": false,
-          "playtimeMinutes": 1143,
-          "lastPlayedAt": 1791151792000
+          "playtimeMinutes": 1163,
+          "lastPlayedAt": 1791832561000
         }
       },
-      "lastPlayedAt": 1791151792000,
+      "lastPlayedAt": 1791832561000,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 37186,
@@ -73105,8 +73105,8 @@
           "earned": 0,
           "total": 0,
           "familyShared": false,
-          "playtimeMinutes": 24899,
-          "lastPlayedAt": 1791320798000
+          "playtimeMinutes": 25585,
+          "lastPlayedAt": 1791816326000
         },
         "eso": {
           "icon": "https://media.steampowered.com/steamcommunity/public/images/apps/306130/2a0f43963c08a3755682adb2369918c9ad07ef1b.jpg",
@@ -81392,6 +81392,42 @@
               "groupId": "Artisanat"
             },
             {
+              "id": 1768,
+              "name": "Maître fabricant de mobilier enchanté",
+              "description": "Apprenez 50 Praxis d'enchantement.",
+              "points": 50,
+              "icon": "/esoui/art/icons/furniture_crafting_enchanting03.dds",
+              "earned": true,
+              "date": 1791749244000,
+              "category": "Artisanat",
+              "subcategory": "Enchantement",
+              "groupId": "Artisanat"
+            },
+            {
+              "id": 1767,
+              "name": "Fabricant novice de mobilier enchanté",
+              "description": "Apprenez votre première Praxis d'enchantement.",
+              "points": 5,
+              "icon": "/esoui/art/icons/furniture_crafting_enchanting01.dds",
+              "earned": true,
+              "date": 1725607105000,
+              "category": "Artisanat",
+              "subcategory": "Enchantement",
+              "groupId": "Artisanat"
+            },
+            {
+              "id": 1772,
+              "name": "Fabricant expert de mobilier enchanté",
+              "description": "Apprenez 15 Praxis d'enchantement.",
+              "points": 15,
+              "icon": "/esoui/art/icons/furniture_crafting_enchanting02.dds",
+              "earned": true,
+              "date": 1757761041000,
+              "category": "Artisanat",
+              "subcategory": "Enchantement",
+              "groupId": "Artisanat"
+            },
+            {
               "id": 4233,
               "name": "Collectionneur de runes",
               "description": "Récolter les ressources de 10 rapports de prospecteur d'enchantement.",
@@ -81435,42 +81471,6 @@
               "icon": "/esoui/art/icons/crafting_components_runestones_050.dds",
               "earned": true,
               "date": 1776184268000,
-              "category": "Artisanat",
-              "subcategory": "Enchantement",
-              "groupId": "Artisanat"
-            },
-            {
-              "id": 1772,
-              "name": "Fabricant expert de mobilier enchanté",
-              "description": "Apprenez 15 Praxis d'enchantement.",
-              "points": 15,
-              "icon": "/esoui/art/icons/furniture_crafting_enchanting02.dds",
-              "earned": true,
-              "date": 1757761041000,
-              "category": "Artisanat",
-              "subcategory": "Enchantement",
-              "groupId": "Artisanat"
-            },
-            {
-              "id": 1767,
-              "name": "Fabricant novice de mobilier enchanté",
-              "description": "Apprenez votre première Praxis d'enchantement.",
-              "points": 5,
-              "icon": "/esoui/art/icons/furniture_crafting_enchanting01.dds",
-              "earned": true,
-              "date": 1725607105000,
-              "category": "Artisanat",
-              "subcategory": "Enchantement",
-              "groupId": "Artisanat"
-            },
-            {
-              "id": 1768,
-              "name": "Maître fabricant de mobilier enchanté",
-              "description": "Apprenez 50 Praxis d'enchantement.",
-              "points": 50,
-              "icon": "/esoui/art/icons/furniture_crafting_enchanting03.dds",
-              "earned": false,
-              "date": null,
               "category": "Artisanat",
               "subcategory": "Enchantement",
               "groupId": "Artisanat"
@@ -82484,6 +82484,42 @@
               "groupId": "Donjons"
             },
             {
+              "id": 1549,
+              "name": "Conquérant du Cachot interdit I",
+              "description": "Vainquez la Hantise de la cellule, Taillombre, Angata la dresseuse de faucheclans, le destructeur squelettique et le haut patriarche Rilis dans le Cachot interdit Vétéran I.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_026.dds",
+              "earned": true,
+              "date": 1791320416000,
+              "category": "Donjons",
+              "subcategory": "Cachot interdit I",
+              "groupId": "Donjons"
+            },
+            {
+              "id": 1552,
+              "name": "Assassin du Cachot interdit I",
+              "description": "Vainquez la Hantise de la cellule, Taillombre, Angata la dresseuse de faucheclans, le destructeur squelettique et le haut patriarche Rilis dans le Cachot interdit Vétéran I en moins de vingt minutes. Le chronomètre commence lorsqu'un membre du groupe entre dans le premier couloir.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_020.dds",
+              "earned": true,
+              "date": 1791320416000,
+              "category": "Donjons",
+              "subcategory": "Cachot interdit I",
+              "groupId": "Donjons"
+            },
+            {
+              "id": 1554,
+              "name": "Tranche-âme",
+              "description": "Vainquez le haut patriarche Rilis dans le Cachot interdit Vétéran I, après avoir invoqué le parchemin des Glorieuses batailles.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_022.dds",
+              "earned": true,
+              "date": 1791320416000,
+              "category": "Donjons",
+              "subcategory": "Cachot interdit I",
+              "groupId": "Donjons"
+            },
+            {
               "id": 325,
               "name": "Vainqueur du Cachot interdit I",
               "description": "Vainquez Taillombre et le haut patriarche Rilis dans le Cachot interdit I.",
@@ -82491,18 +82527,6 @@
               "icon": "/esoui/art/icons/achievement_025.dds",
               "earned": true,
               "date": 1629021474000,
-              "category": "Donjons",
-              "subcategory": "Cachot interdit I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1549,
-              "name": "Conquérant du Cachot interdit I",
-              "description": "Vainquez la Hantise de la cellule, Taillombre, Angata la dresseuse de faucheclans, le destructeur squelettique et le haut patriarche Rilis dans le Cachot interdit Vétéran I.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_026.dds",
-              "earned": false,
-              "date": null,
               "category": "Donjons",
               "subcategory": "Cachot interdit I",
               "groupId": "Donjons"
@@ -82525,30 +82549,6 @@
               "description": "Vainquez 100 Daedra dans le Cachot interdit Vétéran I.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_024.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "Cachot interdit I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1552,
-              "name": "Assassin du Cachot interdit I",
-              "description": "Vainquez la Hantise de la cellule, Taillombre, Angata la dresseuse de faucheclans, le destructeur squelettique et le haut patriarche Rilis dans le Cachot interdit Vétéran I en moins de vingt minutes. Le chronomètre commence lorsqu'un membre du groupe entre dans le premier couloir.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_020.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "Cachot interdit I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1554,
-              "name": "Tranche-âme",
-              "description": "Vainquez le haut patriarche Rilis dans le Cachot interdit Vétéran I, après avoir invoqué le parchemin des Glorieuses batailles.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_022.dds",
               "earned": false,
               "date": null,
               "category": "Donjons",
@@ -82736,6 +82736,42 @@
               "groupId": "Donjons"
             },
             {
+              "id": 1641,
+              "name": "Conquérant du Creuset béni",
+              "description": "Terminez le Creuset béni Vétéran en tuant Bleusaille l'Astucieux, la Meute, Téranya la sans-visage, la Maîtresse des Fauves, le roi des Trolls, le capitaine Thoran et la Reine de lave.",
+              "points": 15,
+              "icon": "/esoui/art/icons/achievement_026.dds",
+              "earned": true,
+              "date": 1791314055000,
+              "category": "Donjons",
+              "subcategory": "le Creuset béni",
+              "groupId": "Donjons"
+            },
+            {
+              "id": 1644,
+              "name": "Assassin du Creuset béni",
+              "description": "Vainquez Bleusaille l'Astucieux, la Meute, Téranya la sans-visage, la Maîtresse des Fauves, le roi des Trolls, le capitaine Thoran et la Reine de lave dans le Creuset béni Vétéran en moins de vingt minutes. Le chronomètre commence quand un membre du groupe traverse le premier pont au-dessus de la lave.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_020.dds",
+              "earned": true,
+              "date": 1791314055000,
+              "category": "Donjons",
+              "subcategory": "le Creuset béni",
+              "groupId": "Donjons"
+            },
+            {
+              "id": 1646,
+              "name": "Couronne de flammes",
+              "description": "Vainquez la Reine de lave dans le Creuset béni Vétéran, après avoir invoqué le parchemin des Glorieuses batailles.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_022.dds",
+              "earned": true,
+              "date": 1791314055000,
+              "category": "Donjons",
+              "subcategory": "le Creuset béni",
+              "groupId": "Donjons"
+            },
+            {
               "id": 393,
               "name": "Vainqueur du Creuset béni",
               "description": "Vainquez la meute, la maîtresse des Fauves et la reine de lave.",
@@ -82743,18 +82779,6 @@
               "icon": "/esoui/art/icons/achievement_025.dds",
               "earned": true,
               "date": 1730141241000,
-              "category": "Donjons",
-              "subcategory": "le Creuset béni",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1641,
-              "name": "Conquérant du Creuset béni",
-              "description": "Terminez le Creuset béni Vétéran en tuant Bleusaille l'Astucieux, la Meute, Téranya la sans-visage, la Maîtresse des Fauves, le roi des Trolls, le capitaine Thoran et la Reine de lave.",
-              "points": 15,
-              "icon": "/esoui/art/icons/achievement_026.dds",
-              "earned": false,
-              "date": null,
               "category": "Donjons",
               "subcategory": "le Creuset béni",
               "groupId": "Donjons"
@@ -82777,30 +82801,6 @@
               "description": "Vainquez 150 durzogs au Creuset béni Vétéran.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_024.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "le Creuset béni",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1644,
-              "name": "Assassin du Creuset béni",
-              "description": "Vainquez Bleusaille l'Astucieux, la Meute, Téranya la sans-visage, la Maîtresse des Fauves, le roi des Trolls, le capitaine Thoran et la Reine de lave dans le Creuset béni Vétéran en moins de vingt minutes. Le chronomètre commence quand un membre du groupe traverse le premier pont au-dessus de la lave.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_020.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "le Creuset béni",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1646,
-              "name": "Couronne de flammes",
-              "description": "Vainquez la Reine de lave dans le Creuset béni Vétéran, après avoir invoqué le parchemin des Glorieuses batailles.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_022.dds",
               "earned": false,
               "date": null,
               "category": "Donjons",
@@ -83612,6 +83612,54 @@
               "groupId": "Donjons"
             },
             {
+              "id": 1556,
+              "name": "Conquérant de la Champignonnière I",
+              "description": "Vainquez Tazkad le maître de meute, le chef de guerre Ozozai, Gestenuée, Cliquegriffe, et Kra'gh le roi dreugh dans la Champignonnière Vétéran I.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_026.dds",
+              "earned": true,
+              "date": 1791319981000,
+              "category": "Donjons",
+              "subcategory": "Champignonnière I",
+              "groupId": "Donjons"
+            },
+            {
+              "id": 1559,
+              "name": "Assassin de la Champignonnière I",
+              "description": "Vainquez Tazkad le maître de meute, le chef de guerre Ozozai, Gestenuée, Cliquegriffe et Kra'gh le roi dreugh dans la Champignonnière Vétéran I, le tout en moins de 15 minutes. Le chronomètre démarre lorsqu'un joueur entre dans le tunnel après le premier groupe de gobelins.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_020.dds",
+              "earned": true,
+              "date": 1791319981000,
+              "category": "Donjons",
+              "subcategory": "Champignonnière I",
+              "groupId": "Donjons"
+            },
+            {
+              "id": 1560,
+              "name": "Survivant de la Champignonnière I",
+              "description": "Vainquez Tazkad le maître de meute, le chef de guerre Ozozai, Gestenuée, Cliquegriffe et Kra'gh le roi dreugh dans la Champignonnière Vétéran I, sans qu'un seul membre du groupe ne meure.",
+              "points": 50,
+              "icon": "/esoui/art/icons/ability_warrior_032.dds",
+              "earned": true,
+              "date": 1791319981000,
+              "category": "Donjons",
+              "subcategory": "Champignonnière I",
+              "groupId": "Donjons"
+            },
+            {
+              "id": 1561,
+              "name": "Pêche du jour",
+              "description": "Vainquez le roi dreugh dans la Champignonnière Vétéran I, après avoir invoqué le parchemin des Glorieuses batailles.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_022.dds",
+              "earned": true,
+              "date": 1791319981000,
+              "category": "Donjons",
+              "subcategory": "Champignonnière I",
+              "groupId": "Donjons"
+            },
+            {
               "id": 294,
               "name": "Vainqueur de la Champignonnière I",
               "description": "Vainquez le chef de guerre gobelin et le roi dreugh dans la Champignonnière I.",
@@ -83619,18 +83667,6 @@
               "icon": "/esoui/art/icons/achievement_025.dds",
               "earned": true,
               "date": 1628513256000,
-              "category": "Donjons",
-              "subcategory": "Champignonnière I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1556,
-              "name": "Conquérant de la Champignonnière I",
-              "description": "Vainquez Tazkad le maître de meute, le chef de guerre Ozozai, Gestenuée, Cliquegriffe, et Kra'gh le roi dreugh dans la Champignonnière Vétéran I.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_026.dds",
-              "earned": false,
-              "date": null,
               "category": "Donjons",
               "subcategory": "Champignonnière I",
               "groupId": "Donjons"
@@ -83653,42 +83689,6 @@
               "description": "Vainquez 450 gobelins dans la Champignonnière Vétéran I.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_024.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "Champignonnière I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1559,
-              "name": "Assassin de la Champignonnière I",
-              "description": "Vainquez Tazkad le maître de meute, le chef de guerre Ozozai, Gestenuée, Cliquegriffe et Kra'gh le roi dreugh dans la Champignonnière Vétéran I, le tout en moins de 15 minutes. Le chronomètre démarre lorsqu'un joueur entre dans le tunnel après le premier groupe de gobelins.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_020.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "Champignonnière I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1560,
-              "name": "Survivant de la Champignonnière I",
-              "description": "Vainquez Tazkad le maître de meute, le chef de guerre Ozozai, Gestenuée, Cliquegriffe et Kra'gh le roi dreugh dans la Champignonnière Vétéran I, sans qu'un seul membre du groupe ne meure.",
-              "points": 50,
-              "icon": "/esoui/art/icons/ability_warrior_032.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "Champignonnière I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1561,
-              "name": "Pêche du jour",
-              "description": "Vainquez le roi dreugh dans la Champignonnière Vétéran I, après avoir invoqué le parchemin des Glorieuses batailles.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_022.dds",
               "earned": false,
               "date": null,
               "category": "Donjons",
@@ -84284,6 +84284,18 @@
               "groupId": "Donjons"
             },
             {
+              "id": 1594,
+              "name": "Tout-à-l'égout",
+              "description": "Vainquez Allene Pellingare dans les Égouts d'Haltevoie Vétéran I, après avoir invoqué le parchemin des Glorieuses batailles.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_022.dds",
+              "earned": true,
+              "date": 1791314807000,
+              "category": "Donjons",
+              "subcategory": "Égouts d'Haltevoie I",
+              "groupId": "Donjons"
+            },
+            {
               "id": 79,
               "name": "Vainqueur des Égouts d'Haltevoie I",
               "description": "Vainquez l'enquêteur Garron, Varaine Pellingare et Allène Pellingare dans les Égouts d'Haltevoie I.",
@@ -84349,18 +84361,6 @@
               "description": "Vainquez 500 mercenaires Pellingare dans les Égouts d'Haltevoie Vétéran I.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_024.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons",
-              "subcategory": "Égouts d'Haltevoie I",
-              "groupId": "Donjons"
-            },
-            {
-              "id": 1594,
-              "name": "Tout-à-l'égout",
-              "description": "Vainquez Allene Pellingare dans les Égouts d'Haltevoie Vétéran I, après avoir invoqué le parchemin des Glorieuses batailles.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_022.dds",
               "earned": false,
               "date": null,
               "category": "Donjons",
@@ -84450,6 +84450,42 @@
               "category": "Donjons",
               "subcategory": "Égouts d'Haltevoie II",
               "groupId": "Donjons"
+            },
+            {
+              "id": 3828,
+              "name": "Spéléologue de Scions of Ithelia",
+              "description": "Terminer la Fosse aux fidèles et le Voile des fous en Vétéran.",
+              "points": 50,
+              "icon": "/esoui/art/icons/u41_pkg_both_veteran_complete.dds",
+              "earned": true,
+              "date": 1791319422000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "General",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
+              "id": 4029,
+              "name": "La vengeance demande du temps",
+              "description": "Terminer le contenu facultatif de la Fosse aux fidèles et du Voile des fous.",
+              "points": 50,
+              "icon": "/esoui/art/icons/u41_achievement_retributiontakestime.dds",
+              "earned": true,
+              "date": 1791319015000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "General",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
+              "id": 3487,
+              "name": "Éclaireur de Scribes of Fate",
+              "description": "Terminez Bal Sunnar et les Salles du Scribe en Normal.",
+              "points": 10,
+              "icon": "/esoui/art/icons/u37_pkg_both_normal_complete.dds",
+              "earned": true,
+              "date": 1791317246000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "General",
+              "groupId": "Donjons de Pack de jeu"
             },
             {
               "id": 4330,
@@ -84908,18 +84944,6 @@
               "groupId": "Donjons de Pack de jeu"
             },
             {
-              "id": 3487,
-              "name": "Éclaireur de Scribes of Fate",
-              "description": "Terminez Bal Sunnar et les Salles du Scribe en Normal.",
-              "points": 10,
-              "icon": "/esoui/art/icons/u37_pkg_both_normal_complete.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "General",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
               "id": 3488,
               "name": "Secrets du destin",
               "description": "Terminez le contenu facultatif de Bal Sunnar et des Salles du Scribe.",
@@ -84937,30 +84961,6 @@
               "description": "Terminez Bal Sunnar et les Salles du Scribe en Vétéran.",
               "points": 50,
               "icon": "/esoui/art/icons/u37_pkg_both_vet_complete.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "General",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
-              "id": 4029,
-              "name": "La vengeance demande du temps",
-              "description": "Terminer le contenu facultatif de la Fosse aux fidèles et du Voile des fous.",
-              "points": 50,
-              "icon": "/esoui/art/icons/u41_achievement_retributiontakestime.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "General",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
-              "id": 3828,
-              "name": "Spéléologue de Scions of Ithelia",
-              "description": "Terminer la Fosse aux fidèles et le Voile des fous en Vétéran.",
-              "points": 50,
-              "icon": "/esoui/art/icons/u41_pkg_both_veteran_complete.dds",
               "earned": false,
               "date": null,
               "category": "Donjons de Pack de jeu",
@@ -85021,20 +85021,32 @@
               "description": "Vaincre Kovan Giryon, Roksa le Déformé et la Matriarche Lladi Telvanni dans Bal Sunnar.",
               "points": 10,
               "icon": "/esoui/art/icons/u37_dun1_bosses.dds",
-              "earned": false,
-              "date": null,
+              "earned": true,
+              "date": 1791317246000,
               "category": "Donjons de Pack de jeu",
               "subcategory": "Bal Sunnar",
               "groupId": "Donjons de Pack de jeu"
             },
             {
-              "id": 3547,
-              "name": "Maître du style de l'Héritier béni",
-              "description": "Apprenez tous les chapitres du livre de style d'Héritier béni que l'on trouve en vainquant le boss final de Bal Sunnar.",
-              "points": 50,
-              "icon": "/esoui/art/icons/quest_book_001.dds",
-              "earned": false,
-              "date": null,
+              "id": 3469,
+              "name": "Conquérant de Bal Sunnar",
+              "description": "Vaincre Kovan Giryon, Roksa le Déformé et la Matriarche Lladi Telvanni dans Bal Sunnar Vétéran.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_u37_dun1_vet_bosses.dds",
+              "earned": true,
+              "date": 1791317246000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "Bal Sunnar",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
+              "id": 3478,
+              "name": "Quarantaine stricte",
+              "description": "Vainquez la matriarche Lladi Telvanni sans qu'un seul joueur ne subisse les dégâts des Sacs de pus dans Bal Sunnar Vétéran.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_u37_dun1_flavord.dds",
+              "earned": true,
+              "date": 1791317246000,
               "category": "Donjons de Pack de jeu",
               "subcategory": "Bal Sunnar",
               "groupId": "Donjons de Pack de jeu"
@@ -85045,6 +85057,30 @@
               "description": "Terminez le contenu facultatif de Bal Sunnar en résolvant l'énigme de la roue, en vainquant Urvel Drath et en résolvant l'énigme du rayon daedrique.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_u37_dun1_sidecontent.dds",
+              "earned": true,
+              "date": 1791316839000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "Bal Sunnar",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
+              "id": 3480,
+              "name": "Libérateurs annoncés",
+              "description": "Libérez 54 ouvriers de leurs maîtres Telvanni dans Bal Sunnar, dans le présent comme le passé.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_u37_dun1_flavorf.dds",
+              "earned": true,
+              "date": 1791316090000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "Bal Sunnar",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
+              "id": 3547,
+              "name": "Maître du style de l'Héritier béni",
+              "description": "Apprenez tous les chapitres du livre de style d'Héritier béni que l'on trouve en vainquant le boss final de Bal Sunnar.",
+              "points": 50,
+              "icon": "/esoui/art/icons/quest_book_001.dds",
               "earned": false,
               "date": null,
               "category": "Donjons de Pack de jeu",
@@ -85064,35 +85100,11 @@
               "groupId": "Donjons de Pack de jeu"
             },
             {
-              "id": 3480,
-              "name": "Libérateurs annoncés",
-              "description": "Libérez 54 ouvriers de leurs maîtres Telvanni dans Bal Sunnar, dans le présent comme le passé.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_u37_dun1_flavorf.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "Bal Sunnar",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
               "id": 3619,
               "name": "Climat ignivome",
               "description": "Tous les joueurs évitent les dégâts des chutes de pierre dans la section future de Bal Sunnar.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_u37_dun1_flavorg.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "Bal Sunnar",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
-              "id": 3469,
-              "name": "Conquérant de Bal Sunnar",
-              "description": "Vaincre Kovan Giryon, Roksa le Déformé et la Matriarche Lladi Telvanni dans Bal Sunnar Vétéran.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_u37_dun1_vet_bosses.dds",
               "earned": false,
               "date": null,
               "category": "Donjons de Pack de jeu",
@@ -85141,18 +85153,6 @@
               "description": "Vainquez 50 serviteurs arraché au temps en une seule rencontre contre Kovan Giryon dans Bal Sunnar Vétéran.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_u37_dun1_flavora.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "Bal Sunnar",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
-              "id": 3478,
-              "name": "Quarantaine stricte",
-              "description": "Vainquez la matriarche Lladi Telvanni sans qu'un seul joueur ne subisse les dégâts des Sacs de pus dans Bal Sunnar Vétéran.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_u37_dun1_flavord.dds",
               "earned": false,
               "date": null,
               "category": "Donjons de Pack de jeu",
@@ -85280,6 +85280,42 @@
               "groupId": "Donjons de Pack de jeu"
             },
             {
+              "id": 3852,
+              "name": "Conquérant du Voile des fous",
+              "description": "Vainquez le Champion brisé, le Fragment noir et l'Aveugle dans le Voile des fous Vétéran.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_u41_dun2_vet_bosses.dds",
+              "earned": true,
+              "date": 1791319422000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "Voile des fous",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
+              "id": 3855,
+              "name": "Délice de Demi-prince",
+              "description": "Vaincre toutes les rencontres en plus du Champion brisé, du Fragment noir et de l'Aveugle dans le Voile des fous Vétéran sans qu'un seul membre du groupe ne meure.",
+              "points": 50,
+              "icon": "/esoui/art/icons/u41_dun2_death_challenge.dds",
+              "earned": true,
+              "date": 1791319422000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "Voile des fous",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
+              "id": 3866,
+              "name": "Crochetage du Maelström",
+              "description": "Trouvez et résolvez toutes les énigmes du Voile des fous.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_u41_dun2_optional_content.dds",
+              "earned": true,
+              "date": 1791319015000,
+              "category": "Donjons de Pack de jeu",
+              "subcategory": "Voile des fous",
+              "groupId": "Donjons de Pack de jeu"
+            },
+            {
               "id": 3851,
               "name": "Vainqueur du Voile des fous",
               "description": "Vainquez le Champion brisé, le Fragment noir et l'Aveugle dans le Voile des fous.",
@@ -85304,18 +85340,6 @@
               "groupId": "Donjons de Pack de jeu"
             },
             {
-              "id": 3866,
-              "name": "Crochetage du Maelström",
-              "description": "Trouvez et résolvez toutes les énigmes du Voile des fous.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_u41_dun2_optional_content.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "Voile des fous",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
               "id": 3860,
               "name": "Verrous tenaces",
               "description": "Résolvez les 3 énigmes à 30 secondes l'une de l'autre en équipe dans le Voile des fous.",
@@ -85333,18 +85357,6 @@
               "description": "Trouvez et lisez toutes les plaques consacrées aux Barons Qui Bougent Comme Ça dans la Salle des barons du Voile des fous.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_u41_dun2_flavord.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "Voile des fous",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
-              "id": 3852,
-              "name": "Conquérant du Voile des fous",
-              "description": "Vainquez le Champion brisé, le Fragment noir et l'Aveugle dans le Voile des fous Vétéran.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_u41_dun2_vet_bosses.dds",
               "earned": false,
               "date": null,
               "category": "Donjons de Pack de jeu",
@@ -85477,18 +85489,6 @@
               "description": "Vainquez l'Aveugle après avoir dressé l'étendard de défi dans le Voile des fous.",
               "points": 50,
               "icon": "/esoui/art/icons/achievement_u41_dun2_hard_mode_final.dds",
-              "earned": false,
-              "date": null,
-              "category": "Donjons de Pack de jeu",
-              "subcategory": "Voile des fous",
-              "groupId": "Donjons de Pack de jeu"
-            },
-            {
-              "id": 3855,
-              "name": "Délice de Demi-prince",
-              "description": "Vaincre toutes les rencontres en plus du Champion brisé, du Fragment noir et de l'Aveugle dans le Voile des fous Vétéran sans qu'un seul membre du groupe ne meure.",
-              "points": 50,
-              "icon": "/esoui/art/icons/u41_dun2_death_challenge.dds",
               "earned": false,
               "date": null,
               "category": "Donjons de Pack de jeu",
@@ -96800,6 +96800,18 @@
               "groupId": "Exploration"
             },
             {
+              "id": 412,
+              "name": "Explorateur de Santaki",
+              "description": "Explorez et videz les ruines de Santaki.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_023.dds",
+              "earned": true,
+              "date": 1791567107000,
+              "category": "Exploration",
+              "subcategory": "Alliance de Daguefilante",
+              "groupId": "Exploration"
+            },
+            {
               "id": 495,
               "name": "Chute de l'éventreur des dunes",
               "description": "Tuer l'éventreur des dunes, Mère Sable, à la Caravane perdue.",
@@ -97379,18 +97391,6 @@
               "id": 544,
               "name": "Explorateur de Klathzgar",
               "description": "Explorez et videz Klathzgar.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_023.dds",
-              "earned": false,
-              "date": null,
-              "category": "Exploration",
-              "subcategory": "Alliance de Daguefilante",
-              "groupId": "Exploration"
-            },
-            {
-              "id": 412,
-              "name": "Explorateur de Santaki",
-              "description": "Explorez et videz les ruines de Santaki.",
               "points": 10,
               "icon": "/esoui/art/icons/achievement_023.dds",
               "earned": false,
@@ -108632,13 +108632,13 @@
               "groupId": "High Isle"
             },
             {
-              "id": 3350,
-              "name": "Apprenti du Club des Agapes",
-              "description": "Atteignez le rang d'Apprenti auprès du Club des Agapes.",
-              "points": 5,
-              "icon": "/esoui/art/icons/u34_tribute_rank2.dds",
+              "id": 3358,
+              "name": "Concurrent du Club",
+              "description": "Terminez une quête journalière des Récits de Gloires 10 fois.",
+              "points": 10,
+              "icon": "/esoui/art/icons/u34_tribute_pvedaily10.dds",
               "earned": true,
-              "date": 1791044216000,
+              "date": 1791661001000,
               "category": "High Isle",
               "subcategory": "Récits de Gloires",
               "groupId": "High Isle"
@@ -108656,18 +108656,6 @@
               "groupId": "High Isle"
             },
             {
-              "id": 3358,
-              "name": "Concurrent du Club",
-              "description": "Terminez une quête journalière des Récits de Gloires 10 fois.",
-              "points": 10,
-              "icon": "/esoui/art/icons/u34_tribute_pvedaily10.dds",
-              "earned": false,
-              "date": null,
-              "category": "High Isle",
-              "subcategory": "Récits de Gloires",
-              "groupId": "High Isle"
-            },
-            {
               "id": 3359,
               "name": "Phénomène du Club",
               "description": "Terminez une quête journalière des Récits de Gloires 30 fois.",
@@ -108675,6 +108663,30 @@
               "icon": "/esoui/art/icons/u34_tribute_pvedaily30.dds",
               "earned": false,
               "date": null,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires",
+              "groupId": "High Isle"
+            },
+            {
+              "id": 3334,
+              "name": "Partie à domicile",
+              "description": "Jouez une partie de Récits de Gloires dans le foyer d'un joueur.",
+              "points": 5,
+              "icon": "/esoui/art/icons/u34_tribute_homegame.dds",
+              "earned": true,
+              "date": 1791478298000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires",
+              "groupId": "High Isle"
+            },
+            {
+              "id": 3350,
+              "name": "Apprenti du Club des Agapes",
+              "description": "Atteignez le rang d'Apprenti auprès du Club des Agapes.",
+              "points": 5,
+              "icon": "/esoui/art/icons/u34_tribute_rank2.dds",
+              "earned": true,
+              "date": 1791044216000,
               "category": "High Isle",
               "subcategory": "Récits de Gloires",
               "groupId": "High Isle"
@@ -108997,18 +109009,6 @@
               "description": "Obtenez une Lettre de change du Trésor 10 fois dans des parties des Récits de Gloires.",
               "points": 5,
               "icon": "/esoui/art/icons/u34_tribute_bank.dds",
-              "earned": false,
-              "date": null,
-              "category": "High Isle",
-              "subcategory": "Récits de Gloires",
-              "groupId": "High Isle"
-            },
-            {
-              "id": 3334,
-              "name": "Partie à domicile",
-              "description": "Jouez une partie de Récits de Gloires dans le foyer d'un joueur.",
-              "points": 5,
-              "icon": "/esoui/art/icons/u34_tribute_homegame.dds",
               "earned": false,
               "date": null,
               "category": "High Isle",
@@ -120235,11 +120235,11 @@
               "icon": null
             }
           ],
-          "earned": 968,
+          "earned": 994,
           "total": 3913,
-          "earnedPoints": 15530,
+          "earnedPoints": 16270,
           "totalPoints": 75895,
-          "generatedAt": 1791312995000,
+          "generatedAt": 1791807063000,
           "characterName": "Yohgaz"
         },
         "psn": {
@@ -122265,7 +122265,7 @@
           "lastPlayedAt": null
         }
       },
-      "lastPlayedAt": 1791320798000,
+      "lastPlayedAt": 1791816326000,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 17596,
@@ -154466,440 +154466,6 @@
               "earned": false
             },
             {
-              "name": "Paradis des Amish",
-              "description": "En tant que nation nordiste, adoptez la loi Interdiction des industries avant 1846 possédez un niveau de vie moyen de 20 ou plus",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/13683858188ee40b8d06d1c8b7b4d2f138f07ccc.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/344ae94d8beea16645c1479e579514c9d90f69f0.jpg",
-              "earned": false
-            },
-            {
-              "name": "Euphorique",
-              "description": "Adoptez la loi Athéisme d’État et faites en sorte que l’élite intellectuelle soit puissante",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/97beac352ef00957e0340a8922b9d9004ad9ae8f.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5630d83e348132a598f07a65df19317f1f2891cc.jpg",
-              "earned": false
-            },
-            {
-              "name": "Ça ne s’arrêtera jamais",
-              "description": "Enracinez la dynastie Bonaparte, devenez une république et mettez fin à la monarchie",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/102da5c019b830f639f6b294599b7afaf664c8c6.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/695db69d4a2d2bbb6fbf38ce2e6547ebb8d962ed.jpg",
-              "earned": false
-            },
-            {
-              "name": "La fin de l’hexagone",
-              "description": "Terminez l’entrée du journal Les frontières naturelles de la France",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/6788e1047d2d793e651210f6240c1ceb2d396e39.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/bfc26f50c4e6ade37a776c546c44bec79259553e.jpg",
-              "earned": false
-            },
-            {
-              "name": "L’Allemagne, c’est rien",
-              "description": "Avec la France, empêchez l’unification de l’Allemagne jusqu’en 1930",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/771ac8c1c4fb682871c2edd21aef612a3c5666be.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b24e6b589ebf9491819b8dacb62c8bdd07783317.jpg",
-              "earned": false
-            },
-            {
-              "name": "Vox populi",
-              "description": "Adoptez une loi avec le soutien d’un militant",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/6d063ce5e4bebba9120bdbf6fe09d4183a04ad5f.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/ce18620a9026009594a08ce3e0a82962c6cd1f41.jpg",
-              "earned": false
-            },
-            {
-              "name": "Empereur Norton",
-              "description": "Avec les États-Unis, devenez une monarchie avec Joshua Norton comme monarque",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/19fc72df6185ab38698d1d24289d898bde12cd95.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/d7cdb707cf2690e864aa411c4a2f432fb4a4bf2a.jpg",
-              "earned": false
-            },
-            {
-              "name": "Allez militer ailleurs",
-              "description": "Exilez un militant avec au moins 100 de popularité",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/42e782fadb358530d56280981c47133260379825.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5456ab612015fe1057a10c37b1fc6c1bef475e0d.jpg",
-              "earned": false
-            },
-            {
-              "name": "Fermez la porte derrière vous",
-              "description": "Demandez à un exilé invité de devenir le dirigeant de votre nation et adoptez la loi Frontières fermées",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/bdefb8efadbad90eff1025d52d5510306799a7ca.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/3c4d627895db4430aa9804aefdc0a6d256ce53d3.jpg",
-              "earned": false
-            },
-            {
-              "name": "Répression de la Commune",
-              "description": "Avec la France, écrasez la rébellion de la Commune de Paris",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8fb7dbff59af6c027447009be3c0a5bad6557488.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/862b41e6a8c10b4006b9159cabf215f892fb54cf.jpg",
-              "earned": false
-            },
-            {
-              "name": "Junte militaire",
-              "description": "Faites en sorte que les forces armées exécutent un coup d’État contre le gouvernement",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/bf4a35e055c1eebf893cab2017ed18f1b6e6eb04.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4ed2a289ca8100b216a725ef7a48590aff06b1af.jpg",
-              "earned": false
-            },
-            {
-              "name": "Pardon, ego démesuré",
-              "description": "Unifiez l’Allemagne et faites en sorte que Max Stirner dirige votre nation",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/07ea57f9a16525c1ef78c6cefe9a8a7c4c14be50.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/04edbcfa84d7eb5c3f23918223b70239aacb602d.jpg",
-              "earned": false
-            },
-            {
-              "name": "Autoritaire",
-              "description": "Adoptez les lois Parti unique, Police militarisée et Dissidence illégale",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4e5c8d0477f87f0d4eccff13f006f5e7075f04e3.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/ea7b5735be14d5de0b2d8586429d8e905203bb95.jpg",
-              "earned": false
-            },
-            {
-              "name": "Corbeille à pain",
-              "description": "Adoptez le Homestead Act et devenez le premier producteur de céréales et d’aliments",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b536f39e4d2b39482fdf5b8e775e060ff0656eb3.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/dd0d39c007fe8e7c8cca105c2760adba0d889e86.jpg",
-              "earned": false
-            },
-            {
-              "name": "Restauration de Meiji",
-              "description": "Terminez les entrées du journal Restauration avec le Japon avant 1912",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4d2d612947f8f8598fc183505525cd9aeedc3de0.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/652a44576c8b0e048ce0ab4d06d71301152eff07.jpg",
-              "earned": false
-            },
-            {
-              "name": "Magnanime",
-              "description": "En tant que Brésil, terminez l’entrée du journal Monarque magnanime et préservez la monarchie",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/89ab52e5077d7f1aebfdb9fd2d216fcf74d3b372.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0639a4879b7acc3c233d29aea0635880ca0752d2.jpg",
-              "earned": false
-            },
-            {
-              "name": "Journée de la Fédération",
-              "description": "Formez la Fédération des Andes",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4aa74e27624517b9e689b5c27576846a639c3e80.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/2a3eaf35cabe4f35dd3b15ce160a0e016fb27dac.jpg",
-              "earned": false
-            },
-            {
-              "name": "Pas encore perdu",
-              "description": "En tant que Cracovie, formez la Pologne-Lituanie et réalisez l’entrée du journal Agrandir la république des Deux Nations",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/2ef19d2de5e9702348ccc6a8b1e763bbd1e12000.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4771f266baed10087b0f493542fec4affd40e143.jpg",
-              "earned": false
-            },
-            {
-              "name": "Estado Novo",
-              "description": "En tant que Brésil, faites de Getulio Vargas le dirigeant de votre nation et réalisez l’entrée du journal La nouvelle république",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/230216c588ebfe70390b1048bcc0f80947e048eb.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8ae886dd38407490710b2af98530e9cdc59fb282.jpg",
-              "earned": false
-            },
-            {
-              "name": "Viva la Confederación !",
-              "description": "En tant que Bolivie, formez la Confédération péruvio-bolivienne",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/fc1fdc2d7a0c78ee62910cd2cea476f7261dbbc0.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0f3e9a2c11bad6a93dd748d26162b27da546849a.jpg",
-              "earned": false
-            },
-            {
-              "name": "Deșteaptă-te, Române !",
-              "description": "En tant que nation roumaine, formez la Roumanie et possédez directement tous les États de la patrie roumaine",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/9d81352a8ef2f5e16c12dae2c7ba924809a87b24.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/06f89d72d16e9471729a78b88655d3c0e3fa13cb.jpg",
-              "earned": false
-            },
-            {
-              "name": "Piratini",
-              "description": "Commencez en tant que Piratini ou Grão-Para et obtenez un PIB supérieur à celui du Brésil",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/7c7c3168c2e7a2a01d5f2c74ef8448e04eb8915e.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5b24942f142f66bee7dfa0a8da2fe481afe1d6f4.jpg",
-              "earned": false
-            },
-            {
-              "name": "Prospérité économique",
-              "description": "Ayez trois compagnies à la prospérité maximale en même temps",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/1281cc8b120e61d843f14a1465aaff59cd7eaf56.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/6bc29da39a9a83823f826c6774a785f43ca140af.jpg",
-              "earned": false
-            },
-            {
-              "name": "République bananière",
-              "description": "En tant que nation nordiste ou sudiste, atteignez une prospérité maximale avec la United Fruit Company et possédez au moins 75 plantations de bananes",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/39d57ebf9a66d291882318ccd4fe34bdcee21217.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/850d83828ec476e1874bfd3c4ee72df140e32aed.jpg",
-              "earned": false
-            },
-            {
-              "name": "La République ou la mort !",
-              "description": "En tant que Paraguay, réalisez les entrées du journal Expansion du Paraguay et Peuplement des Amériques",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/1d8a8ceb48c6f30f5a4489c80532f1c3862fe3aa.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b2196b7d54f027b542afe3a5e60ffaf04a9e73f2.jpg",
-              "earned": false
-            },
-            {
-              "name": "Senatus populusque Romanus",
-              "description": "En tant qu’États pontificaux, devenez la République romaine et formez ensuite l’Italie",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/615f29bc471697aec9e765537a8c8ce6320666f0.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/d25d13f5adeac39d689fe33ea67228823ac2e867.jpg",
-              "earned": false
-            },
-            {
-              "name": "La voie ferrée du diable",
-              "description": "Terminez l’entrée du journal Exploitation de l’Amazonie, possédez tous les États de l’Amazonie et construisez-y des voies ferrées",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/386c50d35c4c4d4ec572199914ca21560ce13364.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5f740d3c9acc1717842f8d48fe6f0b60a43e9b61.jpg",
-              "earned": false
-            },
-            {
-              "name": "Lèche-bottes",
-              "description": "En tant que sujet, augmentez l’apaisement du lobby pro-suzerain au niveau maximum",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/19121fa4039a29afce1f7b6c6c7be100cb64c7fb.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/e9dca7051761f95f42237d85e62bb21afd2688d9.jpg",
-              "earned": false
-            },
-            {
-              "name": "À la tête du bloc",
-              "description": "Regardez-moi. En tant que membre d’un bloc de nations, remportez la lutte pour le pouvoir au sein du bloc",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/643863c733d100ab38c69a1f33704aba050f323c.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/7b772b3c31e9d9e70fee7fc9f02e2a0a9b3ce6ce.jpg",
-              "earned": false
-            },
-            {
-              "name": "Le nouvel ordre",
-              "description": "Utilisez tous les emplacements de principes d’un bloc de nations",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/09c8b2e15a268726023c39809b18ebb150b1030b.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5adedbc5d3cecef1a4212b2568fc3d3bd392fc77.jpg",
-              "earned": false
-            },
-            {
-              "name": "Hyper-paix",
-              "description": "Avec n’importe quel pays, ralliez la Finlande et la Corée à votre bloc de nations",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8ee295974be9eb2aee8e5e361887f5ce3ba573fc.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/925683b10dbaa7ed3bd7f7ed6fde6f22d12371db.jpg",
-              "earned": false
-            },
-            {
-              "name": "Durran Durran",
-              "description": "Avec Hérat, formez l’Afghanistan, possédez tous les États historiques de l’ancien Empire durrani, et ne devenez membre d’aucun bloc de nations dirigé par un autre pays",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/6ac685af43d15602173197936539bf0060b43c4f.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/880c837412e0e8306f577e80052fe904e8a041e0.jpg",
-              "earned": false
-            },
-            {
-              "name": "Un jeu d’enfant",
-              "description": "Terminez l’objectif « Le Grand Jeu »",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/587000e5914d0194f1606532ed72c5847bb92e42.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5d7b7523b1d1fa7c15cd38ea06d7c97f13223d00.jpg",
-              "earned": false
-            },
-            {
-              "name": "L’honneur et la vie",
-              "description": "Avec la Circassie, terminez l’entrée du journal « L’honneur avant la vie »",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b2c6dd0fa716286e61ee0e50c94ccf457fa03231.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/007b5d959d7498ef805921faf5fcd2517da89b8e.jpg",
-              "earned": false
-            },
-            {
-              "name": "Iranzamin",
-              "description": "Avec la Perse, terminez l’entrée du journal « La frontière orientale » et atteignez un taux d’alphabétisation de 80 %",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/a5dcd08bf5efa5f9246fe8cd048fca0734293e12.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/dcf19d6718d2f49326824d4b43340fb984caa04e.jpg",
-              "earned": false
-            },
-            {
-              "name": "Une bonne douzaine d’années",
-              "description": "Privatisez tous les bâtiments et empêchez-les d’appartenir à l’État ou aux travailleurs pendant 12 ans",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/02a12046fb020b36439d6c104cf9c9849de6505b.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/cb06f28d742506f2bde1c1b22aa55076054b40c8.jpg",
-              "earned": false
-            },
-            {
-              "name": "Privatisation interdite",
-              "description": "En tant que pays avec au moins 10 % de votre PIB détenus par une puissance étrangère, nationalisez tous les bâtiments et empêchez-les d’être privatisés pendant 12 ans",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/65b9efef7340913c45407808506a3502f3f0c6cf.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/cf4f052844417d3250edff66387d4c79a3b0aa52.jpg",
-              "earned": false
-            },
-            {
-              "name": "Standard Oil",
-              "description": "Possédez au moins 30 niveaux de plateformes pétrolières à l’étranger",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/96a29e4dfdf103901cf0013531270947b0117efb.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4f8a719fd9327c6b0f4c19b2f77281431341f228.jpg",
-              "earned": false
-            },
-            {
-              "name": "Victoire diplomatique",
-              "description": "En tant que grande puissance, ayez un lobby en faveur de votre pays dans chaque autre grande puissance",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/e8fd19a9fa1cafba2356ebc7d629c92a3803121b.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/d6dd6cdeca59e1928358ad9b83ecd3b96e1853e4.jpg",
-              "earned": false
-            },
-            {
-              "name": "Royaume isolé",
-              "description": "Avec la Corée, réagissez aux demandes du mouvement Donghak",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/fed2d4dad03a2a20bd1fe4498c8375c89736cd56.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/7437552f5b8e0ad0f8cf8f61c509835384710341.jpg",
-              "earned": false
-            },
-            {
-              "name": "Le culte de la raison",
-              "description": "Adoptez la loi Athéisme d’État et devenez chef d’un bloc de nations idéologique comptant au moins 10 membres",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/ed4fe1e5e74156b80184e5bd9d9085b909fa8b0e.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/235c34070028340be3afeee498f926f407390b1b.jpg",
-              "earned": false
-            },
-            {
-              "name": "Déclaration d’indépendance",
-              "description": "En commençant avec une nation sujette, libérez-vous de votre suzerain",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/f8bb21197cf31fc59ff41a5c29f953399048e316.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4b30ab5965a6eaf7e416cddf273507c31d352e90.jpg",
-              "earned": false
-            },
-            {
-              "name": "ProleCorp",
-              "description": "Avec une République des conseils dotée d’une économie planifiée, possédez une compagnie ayant une prospérité maximale",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/21aed9e156f57e3c3d6a4b21adea28b92fd188e2.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/a39bd3d68aaf4378ad81b38896813e5c1ed310bb.jpg",
-              "earned": false
-            },
-            {
-              "name": "Azadi",
-              "description": "Avec l’empire moghol, terminez l’entrée du journal « Prisonnier du Fort rouge », expulsez les Britanniques, et ramenez toute l’Inde sous votre contrôle",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/fc8881e6170159c4063e099b2fb21598a7743777.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/94473047d1c0dd1c10981b722c1b3d433e6fd728.jpg",
-              "earned": false
-            },
-            {
-              "name": "Sur le qui-vive",
-              "description": "Préparez-vous et évitez la famine lors d’une condition de récolte de grande intensité",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/9b6edd71306d27436dade48ce0fe3f04fa000826.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/1219f32a63b2fbf623c55253012f3b44334f3498.jpg",
-              "earned": false
-            },
-            {
-              "name": "Au bord du précipice",
-              "description": "Avec le Pendjab, surmontez la mort de quatre dirigeants pendant l’entrée du journal Souveraineté sikhe, avant de la terminer",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/083c8632a4260da63d2dae9026294e234ea9c8cd.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/c509d69b41a201fe45be2af945181c1b47bd363a.jpg",
-              "earned": false
-            },
-            {
-              "name": "Société de castes",
-              "description": "Pratiquez la discrimination positive avec un pays doté du système des castes en Inde britannique",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/e3d355d9201c647539c1329be9d2157f005b7dfb.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/21cff4e11ce8ce716fad3ba67d16a78a23df9ad9.jpg",
-              "earned": false
-            },
-            {
-              "name": "Le vrai mouvement",
-              "description": "Possédez un mouvement communiste doté d’un soutien supérieur à 50 %",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/37fe824b277473777cadb31a45d7856a4b4492f8.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/272241b4e71cc48799233b40a99fd20008791020.jpg",
-              "earned": false
-            },
-            {
-              "name": "Folkhemmet",
-              "description": "Avec la Suède, promulguez l’État entreprise et possédez des institutions de sécurité sociale, de santé, et de sécurité au travail de niveau 5",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8678d4005c6eb085a048a650c22ab9e7ff9d886c.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/552380850e5666beb883e6f7f188eab51306f607.jpg",
-              "earned": false
-            },
-            {
-              "name": "Cosmopolite",
-              "description": "Possédez 10 cultures non principales dans votre pays, dont les groupes sociaux constituants ont un statut d’acceptation totale",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b555e5c698b744fd73ce23df7c92f992423d4687.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/7c76ce04f8170c2ae95bb4bea769f793d614cb3c.jpg",
-              "earned": false
-            },
-            {
-              "name": "Nos paroles sont appuyées...",
-              "description": "Ayez Gandhi comme chef d’État, tout en ayant une infamie supérieure à 100",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/848e2edd57385655f9c123b93c8e1dc53f3e960c.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/3c764addad80da12040fda3380566de8597460e4.jpg",
-              "earned": false
-            },
-            {
-              "name": "L’homme qui voulut être roi",
-              "description": "Unifiez l’Afghanistan sous le Kafiristan avec Josiah Harlan",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/511466b8aa5cafbca1bb53237270a8e393c4a81b.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/09477257e745feb591f9d21c3fc0765bb0eba7bb.jpg",
-              "earned": false
-            },
-            {
-              "name": "C’est un blocus !",
-              "description": "Bloquez totalement une plaque tournante du marché mondial reliée à 100 centres de commerce ou plus",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/222116a7443ea55cc6305b1e345169d146bb75c1.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/911ed28d29d61bb78e02afad4fbee57a51cd3185.jpg",
-              "earned": false
-            },
-            {
-              "name": "Fordlandia",
-              "description": "Demandez à une compagnie automobile d’établir un pays via une colonie et avec un PIB parmi les dix plus élevés",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/ffa3227b1908ae59b75126ba663c25426ebaec52.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/254bb5cc9a97e770afd7c1553e40369f586dc971.jpg",
-              "earned": false
-            },
-            {
-              "name": "Venise, Vidi, Vici",
-              "description": "Avec Venise, possédez le plus de centres de commerce au monde",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/a17753e24ed8e7e5634d235c26effce83a0a84d0.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/6dfb9f22615108c5b7b9d7acc5e77fd3d6d22560.jpg",
-              "earned": false
-            },
-            {
-              "name": "Oui, nous avons des bananes !",
-              "description": "Produisez des bananes Gros Michel, une marchandise de prestige de la United Fruit Company, et possédez 25 % des marchandises totales sur le marché mondial",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/fdfd23d69d38cb16e18766c358e8f4e77f1a0a03.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0a4de0661cd64d024e9f155abc163ace42280774.jpg",
-              "earned": false
-            },
-            {
-              "name": "Texte-fleuve",
-              "description": "Introduisez au moins 10 articles dans un même traité",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/ffd6c0c9e418f19f9300ee2039bf12ff76a8ec9a.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/7c2dc48fdeb04c86eb1176fd8a797f150f50c547.jpg",
-              "earned": false
-            },
-            {
-              "name": "Compte en banque suisse",
-              "description": "Avec la Suisse, réalisez plus de 10 % de votre PIB grâce au transfert d’argent par le biais de traités",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b785ec92ffcefd407c53ef9b7a18ce91937de926.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5dea4ce4032ec73bf3f9aa1738b8261beb0bb020.jpg",
-              "earned": false
-            },
-            {
-              "name": "Franchise",
-              "description": "Établissez un siège régional qui possède au moins 20 niveaux",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/46a33b6dadcfd7c7f07e810fcf0fbbb42c005390.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0f6d689650343764b59dbf4b8ce795413632604e.jpg",
-              "earned": false
-            },
-            {
-              "name": "Socialisme champagne",
-              "description": "Avec une République des conseils, produisez plus de 100 unités de champagne",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/a8fbeffb25c91521698db9fcc97fc74603c651d6.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8c89605848c6afe519bd2da676d44492b81d9973.jpg",
-              "earned": false
-            },
-            {
-              "name": "Systembolaget",
-              "description": "Avec la Suède, détenez un monopole national sur les spiritueux",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/ba7a18ea459768ed345e1b6fd996ec6af96f02fe.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/2d30b094174b03bd3f5a5d093449efe2ea13f0d0.jpg",
-              "earned": false
-            },
-            {
-              "name": "À l’ouest, rien de nouveau",
-              "description": "Enregistrez plus d’un million de victimes sur un seul front",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/77f58d58ee8db282c844f7fd86362012f70e5de0.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8bd35bf10f12ba277f5dcf7c0d4b433c951787f2.jpg",
-              "earned": false
-            },
-            {
               "name": "Viribus Unitis",
               "description": "Avec l’Autriche, terminez l’entrée du journal La solution fédérale, et formez les États-Unis de Grande Autriche",
               "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5e098a28796bedc2dcd0397a7b38b11dd5632fb0.jpg",
@@ -154968,178 +154534,10 @@
               "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5e4cffcf39d128fdf321900b1c760a3bec6ad84f.jpg",
               "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/901d072dbc5d16a9c86e04e18d1ea4c48e4162e8.jpg",
               "earned": false
-            },
-            {
-              "name": "Ruée vers le sucre",
-              "description": "Avec Cuba, possédez 25 % des exportations mondiales de sucre, et un volume total d’exportations supérieur à 2 000 unités",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/35742f6e5f46e2913d04d971f38aca881d2a238c.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/751f32636ec0c0238a93d3c3cb28b4e5ff420e5d.jpg",
-              "earned": false
-            },
-            {
-              "name": "Le lac espagnol",
-              "description": "Avec l’Espagne, terminez l’entrée du journal Reconquista",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/51056cc7cf3fff3044e4d07ea4f69692ebc90c83.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0ff5040da86f50c06a5dcc139a1b9e6ab34759c4.jpg",
-              "earned": false
-            },
-            {
-              "name": "A Las Barricadas!",
-              "description": "Avec l’Espagne, passez à une sécession ou une révolution anarchiste, et remportez le conflit qui s’ensuit",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/a893f669937e89ece88b4c04335951a88f969206.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b50e4282748750e4916dfb7e9901d45ae9efadeb.jpg",
-              "earned": false
-            },
-            {
-              "name": "Relance",
-              "description": "Avec l’Espagne, terminez l’entrée du journal Relance économique sans revoir vos objectifs à la baisse, ni utiliser la comptabilité créative",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/74bf8cab1211a4d4faa9128613249abdc93815d1.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/e77c4f509f5868f6aaf38a9b841a6268eea27314.jpg",
-              "earned": false
-            },
-            {
-              "name": "Deconquista",
-              "description": "Avec un pays musulman, convertissez l’Espagne à l’islam",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/58c520952d1658b0f8f37a3be18e845608b692f4.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b849322ff5b9211e9d8e1a9b2a5a7d9bfd747844.jpg",
-              "earned": false
-            },
-            {
-              "name": "Le royaume le plus uni",
-              "description": "Avec le Portugal, ayez une union personnelle avec le Brésil et l’Espagne",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/2ea0ff81dce02ba398898ceb2bbf0eadcd393736.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/d01f5af58ed6044d045649f439e0b162a3b33dcd.jpg",
-              "earned": false
-            },
-            {
-              "name": "Jamais deux sans trois",
-              "description": "Avec les Philippines, reconstruisez la cathédrale de Manille après un tremblement de terre",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/9a3fd2c79bda4b6bdd2c2348e620f5d51b35aa1c.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b0f009ced55e4afe3f839b07c82f94c9775871a1.jpg",
-              "earned": false
-            },
-            {
-              "name": "Le Portugal n’est pas un petit pays!",
-              "description": "Avec le Portugal, possédez au moins 12 États en Afrique, et établissez une liaison terrestre directe entre l’Angola et le Mozambique",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/dddb7782280e161a7bd1d627c59ec17d0985abb1.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/680ccb18028a3de865754761aba48eecac1206e7.jpg",
-              "earned": false
-            },
-            {
-              "name": "Une offre qu'on ne peut pas refuser",
-              "description": "En commençant avec deux groupes d’intérêt non marginaux ou plus opposés à une loi, supprimez toute opposition à la promulgation de la loi",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/de2d313210606f1e7877316dcf5ee54277e74735.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/3c6f795616a7ab3ab9101a3e33937da2a933f319.jpg",
-              "earned": false
-            },
-            {
-              "name": "La boucle est bouclée",
-              "description": "En commençant avec l’Espagne, remportez les guerres carlistes, puis élisez le candidat carliste après la Glorieuse révolution",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/48125645f47218cf775d307e46047cadefb39e36.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4bcf27906cb810c5bdc1e0e9742849e32cc8c142.jpg",
-              "earned": false
-            },
-            {
-              "name": "Mikasa es su casa",
-              "description": "Avec le Japon, vendez un pré-dreadnought à un pays ayant une culture hispanophone",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/e52181d5536b80a1a0e2011df3fb48f3ac9af3d5.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/4dfc3f5ccf04172555eaf25e68905c12fb4d9af5.jpg",
-              "earned": false
-            },
-            {
-              "name": "Semper Fi",
-              "description": "Lors d’une guerre, emparez-vous d’un État de la capitale ennemi avec des Marines",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/2675e8d9b49937f6fbe57e141dfb2228957c1003.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0ec9f42d5134475c94776e1289123e434250d41d.jpg",
-              "earned": false
-            },
-            {
-              "name": "Taïkun des chemins de fer",
-              "description": "Avec le Japon, réformez le shogunat Tokugawa en taïkounat, et construisez 50 niveaux de chemins de fer au Japon",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/a6e4bc5691334c6e9ce1547274b35431c885afe0.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/6c22ebe1d4d44c4a3f21bd2c3c7c9d3d19ace330.jpg",
-              "earned": false
-            },
-            {
-              "name": "Pirates de Martin Anward !",
-              "description": "Avec une nation non reconnue, livrez-vous à des actes de piraterie dans la mer Baltique pendant au moins 1 an",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b5d8e75cd1b508f1383f01cbe9b432d88937dbd9.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0332717c44334db056140b7c904503678706e224.jpg",
-              "earned": false
-            },
-            {
-              "name": "Kōbu gattai",
-              "description": "Avec le Japon, accomplissez l’union de la cour et du shogunat",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/dc9122f5a1c8796ae94b18f2575059ef7db85e2e.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/545e2903c45c9c49dfc6ff98bca9d5c07d4eedfe.jpg",
-              "earned": false
-            },
-            {
-              "name": "Flemme britannique",
-              "description": "Avec la France ou l’Espagne, coulez le navire amiral britannique au cours d’une bataille navale.",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/17fcc029f68def4c7238bde48b5a52ebbfea509d.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/5bb2ac3f05638ef151877e4278181977b13a4d56.jpg",
-              "earned": false
-            },
-            {
-              "name": "Fortune, gloire et pouvoir",
-              "description": "Ayez un amiral avec un montant accumulé de 1 000 000 pour les missions de corsaire",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/07dfb6deecd7ea2c961491fb96a2fe3d83e33ffe.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/3b3a10b62abf2da81f99db7379b9daf430c5d99e.jpg",
-              "earned": false
-            },
-            {
-              "name": "Merci, Obama",
-              "description": "Avec le Japon, avant l’abolition du servage, ayez Hokushin’etsu de votre côté lors d’une guerre civile",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/ed8534f0082ac8645572a67c5b8529eb5288911a.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/495b4fcbc2da0b84757318347229153b894c6f88.jpg",
-              "earned": false
-            },
-            {
-              "name": "De l’or en barre",
-              "description": "Avec un pays ayant une culture principale aïnoue, construisez 4 mines d’or à Hokkaidō.",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/280f78d967edcaabee409cbe12f057a254406218.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/b15e06eb3922811754f2264c2662158bdd350c88.jpg",
-              "earned": false
-            },
-            {
-              "name": "Trois montagnes",
-              "description": "Avec Ryūkyū, terminez l’entrée du journal « Le domaine caché » et possédez tout l’archipel Ryūkyū",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/314a5273d387a65e12f9fb3816163764483789fb.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/45e5df77581776448ee0cea4f49109cb40577559.jpg",
-              "earned": false
-            },
-            {
-              "name": "Prestige japonais",
-              "description": "Avec le Japon, produisez trois marchandises de prestige différentes",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/0c14653f7097bf99ca42d7f1c0257546bd8f4afd.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8723227e1d56c0cd13736378c80f185fe9eb1ab4.jpg",
-              "earned": false
-            },
-            {
-              "name": "Toc toc",
-              "description": "Menacez quelqu’un avec des canonnières pour lui faire signer un traité et l’obliger à l’accepter",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/52fba3b907c77886991d50496ee04c117e081ad6.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/8434b172e9086383e719d76f22d909770533e79e.jpg",
-              "earned": false
-            },
-            {
-              "name": "Fils de Värmland",
-              "description": "Avec la Suède, construisez le premier monitor",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/90a1cdd186fb8f2d2d25fb1d769b0930529a6584.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/47b9190591c3db424f1c5b3e772bddc683d89a02.jpg",
-              "earned": false
-            },
-            {
-              "name": "Avis défavorable",
-              "description": "Faites en sorte que chaque groupe d’intérêt perde de l’approbation en promouvant un commandant",
-              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/eb07495367f46881157891f533e1ab7bd7f79e03.jpg",
-              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529340/7758d845c8fddcd309acceb42b3b0766bf0493d1.jpg",
-              "earned": false
             }
           ],
           "earned": 0,
-          "total": 141,
+          "total": 55,
           "familyShared": false,
           "playtimeMinutes": 94,
           "lastPlayedAt": 1678487114000
@@ -228252,10 +227650,31 @@
               "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/b9cd8a3ac8f109775bb8fd7207d4ad25d244161c.jpg",
               "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/368c3b2bb80691fe24324873a3699549c9cc7229.jpg",
               "earned": false
+            },
+            {
+              "name": "Le garçon, l'ours et la plus brillante des fleurs",
+              "description": "Débloquer tous les mémoires de Kintarō",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/c2b7df2445b6d0c6d3f4d516dfbcd32e1e7c85c8.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/8832933ddad4a35679089754cf46b09719d697a7.jpg",
+              "earned": false
+            },
+            {
+              "name": "Homme à tout faire",
+              "description": "Obtenir un badge de complétion sur tous les talents de 9 héros",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/38581e6b2334af6403be00c9800d3984da999946.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/ec6acde40a724f571297f5801fe0de63b77f5211.jpg",
+              "earned": false
+            },
+            {
+              "name": "Mille-fourrures",
+              "description": "Dévoiler 3 tenues secrètes",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/ca065c7d2f92deab9db920fd261b64b4b24ad3cc.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071280/b3bbdb0573e87172120fcd62387dd6fe5e53e6cb.jpg",
+              "earned": false
             }
           ],
           "earned": 11,
-          "total": 45,
+          "total": 48,
           "familyShared": false,
           "playtimeMinutes": 967,
           "lastPlayedAt": 1736779704000
@@ -248017,10 +247436,52 @@
               "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/4618f52fea43e5af8057cc59736a835d6d1d0aa9.jpg",
               "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/0de8f8e99f4959facdd412c24cdd271ed18d0a23.jpg",
               "earned": false
+            },
+            {
+              "name": "Qingzhou: Six-Art Savvy",
+              "description": "Solve all Meow Meow puzzles in Penglai.",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/1183a11d91b8907c2452a61323045a7bab0af9e0.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/a6c1ab1ed4ed651dbda1666b227c68420dec9873.jpg",
+              "earned": false
+            },
+            {
+              "name": "Feathered Finesse",
+              "description": "Feathers dance as every gaze turns to the sky.",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/0d22dfe33b7189223198a68728048866e4137ca3.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/64be07c626325cc801c6de51b663fc6f0d84b789.jpg",
+              "earned": false
+            },
+            {
+              "name": "Flock-Solid Run",
+              "description": "Achieve a perfect run in Sea Shepherd.",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/b85670c7b09b0d8781f147eb3202aff3a15f953e.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/ab902727c2f39cccd601d811d19568bc452e8709.jpg",
+              "earned": false
+            },
+            {
+              "name": "Grave Research",
+              "description": "Fresh from the crypt. Jot them down fast!",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/301af2c9304b16ccc2ec553d124c3aeed145d766.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/c8bc0cc94b554510bfdb35a30ae1d2312ee3363b.jpg",
+              "earned": false
+            },
+            {
+              "name": "A Song of Tides",
+              "description": "The tide races for the open sea. Defeat the Tidewatcher.",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/3f52387f063c6e971964a5247a7b3b48cff54a33.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/939260bb0577ff464d82a0f2d39754b61ec4b37d.jpg",
+              "earned": false
+            },
+            {
+              "name": "Shocking Epiphany",
+              "description": "Chop a tree on Mount Tai and get struck by lightning.",
+              "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/4618f52fea43e5af8057cc59736a835d6d1d0aa9.jpg",
+              "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564740/0de8f8e99f4959facdd412c24cdd271ed18d0a23.jpg",
+              "earned": false
             }
           ],
           "earned": 15,
-          "total": 61,
+          "total": 67,
           "familyShared": false,
           "playtimeMinutes": 1877,
           "lastPlayedAt": 1764789280000
@@ -248514,11 +247975,11 @@
           "earned": 41,
           "total": 64,
           "familyShared": false,
-          "playtimeMinutes": 3439,
-          "lastPlayedAt": 1791198277000
+          "playtimeMinutes": 3446,
+          "lastPlayedAt": 1791569448000
         }
       },
-      "lastPlayedAt": 1791198277000,
+      "lastPlayedAt": 1791569448000,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 169134,
@@ -249196,7 +248657,16 @@
         "completionist": null,
         "url": "https://howlongtobeat.com/game/184282"
       },
-      "metacritic": null,
+      "metacritic": {
+        "score": 72,
+        "reviewCount": 9,
+        "url": "https://www.metacritic.com/game/graveyard-keeper-2/critic-reviews/",
+        "userScore": {
+          "score": 6.8,
+          "reviewCount": 30,
+          "url": "https://www.metacritic.com/game/graveyard-keeper-2/user-reviews/"
+        }
+      },
       "credits": {
         "directors": [],
         "producers": []
@@ -254257,8 +253727,8 @@
           "total": 0,
           "noApi": true,
           "includeInRatio": true,
-          "playtimeMinutes": 3187,
-          "lastPlayedAt": 1791062140169
+          "playtimeMinutes": 3249,
+          "lastPlayedAt": 1791523057191
         },
         "ffxiv": {
           "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
@@ -271509,20 +270979,20 @@
             },
             {
               "id": "3230",
-              "name": "???",
+              "name": "Armes des Manderville : couteaux éblouissants",
               "icon": "https://lds-img.finalfantasyxiv.com/itemicon/da/da64d4a1ed780408d717d030671c233e4b40a144.png?n7.56",
               "points": 10,
-              "earned": false,
-              "date": null,
+              "earned": true,
+              "date": 1791550450000,
               "groupId": "4"
             },
             {
               "id": "3291",
-              "name": "???",
+              "name": "Armes des Manderville : couteaux majestueux",
               "icon": "https://lds-img.finalfantasyxiv.com/itemicon/e5/e58f2ca260ffd16dff8a963be1529069c47eed50.png?n7.56",
               "points": 10,
-              "earned": false,
-              "date": null,
+              "earned": true,
+              "date": 1791715477000,
               "groupId": "4"
             },
             {
@@ -285779,11 +285249,11 @@
               "icon": null
             }
           ],
-          "earned": 1966,
+          "earned": 1968,
           "total": 3497
         }
       },
-      "lastPlayedAt": 1791062140169,
+      "lastPlayedAt": 1791523057191,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 120442,
@@ -315727,6 +315197,66 @@
               "hidden": true,
               "earned": false,
               "groupId": "default"
+            },
+            {
+              "id": 55,
+              "name": "Le septentrion oublié",
+              "description": "Vous avez atteint Norgan.",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/be15fd7e-2e7c-4464-b275-5eb0fefcff5b.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "001"
+            },
+            {
+              "id": 56,
+              "name": "Dogme ébranlé",
+              "description": "Vous avez atteint la fin du site de l'épreuve finale sans restaurer votre jauge de perte.",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/d4f7da0a-bc39-4191-a077-0b5423fda2c3.png",
+              "type": "silver",
+              "hidden": false,
+              "earned": false,
+              "groupId": "001"
+            },
+            {
+              "id": 57,
+              "name": "Dogme défendu",
+              "description": "Vous avez accédé à la requête du gardien de Norgan.",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/91ecdb8f-852f-4ffa-ac85-de7b5e3e4614.png",
+              "type": "gold",
+              "hidden": false,
+              "earned": false,
+              "groupId": "001"
+            },
+            {
+              "id": 58,
+              "name": "Strike !",
+              "description": "Vous avez brisé cinq barrières d'yeux diaboliques en même temps.",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/7325e0c4-74a9-45eb-8209-8ae33bccb97b.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "001"
+            },
+            {
+              "id": 59,
+              "name": "Réunis",
+              "description": "Vous avez réalisé le vœu d'Eir.",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/99b54110-523b-423c-9c5e-56e720a283d0.png",
+              "type": "silver",
+              "hidden": false,
+              "earned": false,
+              "groupId": "001"
+            },
+            {
+              "id": 60,
+              "name": "Abominable butin des neiges",
+              "description": "Vous avez récupéré les objets volés dans l'antre du troll des neiges.",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/e1d24f02-c913-4701-9e15-77afe884cf88.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "001"
             }
           ],
           "groups": [
@@ -315734,10 +315264,15 @@
               "id": "default",
               "name": "Dragon's Dogma 2",
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/ec07217d-516f-4e1a-97fb-386c36ce8b66.png"
+            },
+            {
+              "id": "001",
+              "name": "Dragon’s Dogma 2: Dark Arisen",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR32108_00/c80c94b3-3efe-4cd1-b0b0-1be0b61af4cc.png"
             }
           ],
           "earned": 10,
-          "total": 55,
+          "total": 61,
           "playtimeMinutes": 85,
           "lastPlayedAt": 1711039934000
         }
@@ -327086,6 +326621,245 @@
           "total": 33,
           "playtimeMinutes": 0,
           "lastPlayedAt": null
+        },
+        "gog": {
+          "productId": 1205574826,
+          "icon": null,
+          "achievements": [
+            {
+              "name": "EX Skill Master",
+              "description": "Learned all EX skills.",
+              "iconEarned": "https://images.gog.com/ffea98af12762486510c36450d32f21bc4ddf33eea0e2a030333ffe3ae5f8dc5_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/f2149fa9f90a3db8c054cc9f4ff83e8e2c042d80d4ca660fb37da0847fee2beb_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A Story All Your Own",
+              "description": "Unlocked all achievements.",
+              "iconEarned": "https://images.gog.com/9b7367da1705ba2c39e78273f5318f6d7fefc5e203a3ee65379d03ae9762b2bf_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/2fabb75cdb40ab45a3a7b5e983105a0e193f16799f68c9d86ecfb2e10ecd45f8_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Master of Solistia",
+              "description": "Traveled to every location on the map.",
+              "iconEarned": "https://images.gog.com/5f3735e257b2b7c8c8b4f8723d8293f5835523d0b116b8e147b1926a160d9034_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/e20a3c784f986892a251f0a87b9658d01b9bb3957489a3461d95f7f6bfb6e510_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Worth the Detour",
+              "description": "Finished all side stories.",
+              "iconEarned": "https://images.gog.com/85b638d5ecb2e84f7a79fb586d73bfb6d5282f0a02cdbfbc2df567254e8f3e9a_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/4c416ae013503b4eec9ffff4fdc97a8f8a3cf5c20ec859d1086915c3723191a4_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Octopath Traveler",
+              "description": "Approached the end of your journey.",
+              "iconEarned": "https://images.gog.com/30f9f41a90c3c33ccc910047790f19ae59092ddb244c3432b0fb913f759250e6_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/932f2d6ee0bee337e510c44ced19ab863009079d45a138dcae63a4184e856e78_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Gate to the Netherworld",
+              "description": "Defeated the netherworldly threat.",
+              "iconEarned": "https://images.gog.com/7639e6cc93c082c23e41529ee826dfc4f8367ca750de6f658f0000d0d19ead87_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/40aa06611c2480a47ff2c1b80cbab88954847ce412656ca6f476c68a914ff075_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Mysteries of the Night Sky",
+              "description": "Completed Osvald and Partitio\\'s Crossed Path.",
+              "iconEarned": "https://images.gog.com/a9531417f7b0ab868ee65cd676ad6a5ce8c25dfceea40b42a1be0a21a7023d05_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/768866d2a0a61130ca0057d2683f0b24c9d0b165bc0033ab79aa57e2f8f26f02_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "An Answer, a Journey",
+              "description": "Completed Osvald\\'s story.",
+              "iconEarned": "https://images.gog.com/4c644f9f22af58d0dca441a008c2e6446201169d1e3dd3ccf76d4dd9b5d1c69c_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/bcca49eef801caf89e8f028e916143b2655ad0e3558e0ceb7823ed2e6ccd8ee5_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Protector of the Island",
+              "description": "Completed Ochette\\'s story.",
+              "iconEarned": "https://images.gog.com/929ad6302df7a6022d3de861e857afeb1a20788a626e3790b9eeceaff395f88f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/6a6e415a38690832d66bb712c70cc80ebe7035f67eeae9a8a31644a2a7c8703f_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Clear Skies",
+              "description": "Completed Hikari\\'s story.",
+              "iconEarned": "https://images.gog.com/e229e33a44b09213e9cf7ea0e252ad50d127ce31aece5be590d78ec1423e9124_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/4d4dfed256893e33cd8a5ebfdb3d4ec04c89c2f2f54621af4fa23e9d69087404_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A Peaceful Little Forest",
+              "description": "Completed Castti and Ochette\\'s Crossed Path.",
+              "iconEarned": "https://images.gog.com/940533acd549d56f5a809649df9d7c4513bc65d429d12be555b3577773c1f516_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/6fe5b7122db3c93880b26d288a57912085626af0f9bcf065700fdb3360f5886c_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Eir\\'s Apothecaries",
+              "description": "Completed Castti\\'s story.",
+              "iconEarned": "https://images.gog.com/ff2a33f59d2634175645ea273dfa9f25348892cc95cabf869e7606fc2946edbb_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/51b8ad3898035f8ea85590f61b5bec6a90e623c2a90e711da6c207851ab05568_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dawn Breaks",
+              "description": "Returned dawn to the world.",
+              "iconEarned": "https://images.gog.com/ab1f6b2d3998b24281787936aa5accdc6f0e2727f988bd35f27600b63b056bc0_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/ff8cb9ca7c88104e7fc2992fe00c7f4a14ae0ae12879ba63b78c8c64da48d140_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "By the Light of the Heart",
+              "description": "Completed Agnea and Hikari\\'s Crossed Path.",
+              "iconEarned": "https://images.gog.com/a3d001e8a86ae640f0b23b51ad72f0c0dfe5188a18f60dbdd59b8cbf70d6e274_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/dc1242b0ac137a558357fe134ef434e28159d32da0b148f2e67c7b3665eb4fa6_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Agnea the Star",
+              "description": "Completed Agnea\\'s story.",
+              "iconEarned": "https://images.gog.com/0a49a52cece5d86595b47ffe665934f4245551fe89eb551f9dc80127ce6b4386_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/f0c9a062aed6040228298c6ecfbf26343a2f4ac83ed617d79b58b818e5a10614_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Road to Prosperity",
+              "description": "Completed Partitio\\'s story.",
+              "iconEarned": "https://images.gog.com/d297d1952f5e590e72433f493c49f849e2bb0f823b91af3f6cea5a80c56ef84e_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/e63221a20cb9ff1b0d26b19e13e6a1b94f531af44b1daf97b35bcb30de686512_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Truth Lies in the Flame",
+              "description": "Completed Temenos\\'s story.",
+              "iconEarned": "https://images.gog.com/7dfe866164c235561dfaf22a974d34e57b2f42833adfbba05053c62cf059c2dd_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/31607171a9ec49cfb05c14b244003632e89dd5d087a86b7f2e5f308d24c4bfd4_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Detective and His Assistant",
+              "description": "Completed Temenos and Throné\\'s Crossed Path.",
+              "iconEarned": "https://images.gog.com/671e26b624976efab4b8aa52aa5d5202224b6df4b51c52bdd973177eee13935e_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/012c4c1b8f133f53e58f0c3f1eb723af2c03de6838c95af35dc11af025a208b2_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Collar Removed",
+              "description": "Completed Throné\\'s story.",
+              "iconEarned": "https://images.gog.com/2d2bf4ec54ec93ef9c7893ceca81f7a34ba7a9467668d3f8387a458e193923b2_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/e11a80eb7c82db5f9161ac09779c0e64933483a12708a6ef58bd63ad685af205_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Hard Hitter",
+              "description": "Dealt 9,999 or more damage.",
+              "iconEarned": "https://images.gog.com/bcabfaf1282904f9d2d82770de5a9de8c138b854a36dd5b87c6b7801b6efa049_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/b073bd95218c2cae4cd4886d9f0827f6539b414acd532e9564b5dbd1dd03ae35_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A New Skill",
+              "description": "Learned a skill for the first time.",
+              "iconEarned": "https://images.gog.com/a521d5adccee46975889be51cd4a5fd73b373d1201d676f36cdeb72a0ac60c6c_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/216215b73b75da4e0831620291b63e040d2b2cac4f511645b708d8edd2ee0f34_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "First Break",
+              "description": "Broke an enemy for the first time in battle.",
+              "iconEarned": "https://images.gog.com/371252f15b8f36198f0451806d400c1c395db6a50b761881d39cbf819e3c7fbe_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/77eef9dacf29a0909c75b892edf57ad2fde3968f6676a517abe20ed4bc0ba70b_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Master of Your Craft",
+              "description": "Learned a job\\'s divine skill.",
+              "iconEarned": "https://images.gog.com/7e6eab8311ffa459b41a14dbc90f2fd7eb73377c136dc4229dabe6aaf1a0b8e4_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/5b9366a7a0450530244cdb1df7e522cb480f29fbcbeea9cfdd7231121792eb05_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Max Boost",
+              "description": "Acted at maximum boost for the first time.",
+              "iconEarned": "https://images.gog.com/0016c6fa1c2b2c5389bf025a2078e99cc854dc91666283c95a15e171213089f7_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/64660753bb592f0bddf95cee8f7896b810456e5032f51f6b5b73b4ece63f4b51_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Sail",
+              "description": "Rode the ferry to a new land.",
+              "iconEarned": "https://images.gog.com/4c39d2349d8ec83a7e1fb854b2337646a532ff5900056f5f6925b64fb5cdd7e3_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/2180396c0b985ec0e04ed2e5e9b8a01b452d1bf4728d0159b461a303cf260d3f_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Octopath Traveler...?",
+              "description": "Brought along four townspeople at once.",
+              "iconEarned": "https://images.gog.com/4b518723067d489ec6c8f616d579f911754f90dd0274971ac3a88f6d905993a7_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/3d3ed2cfdd3d250833b78d3935864d8161a2b5af3ccd73bae1fa3afe9bdbb116_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Job Master",
+              "description": "Learned all secondary jobs.",
+              "iconEarned": "https://images.gog.com/bf3f3249d3e1042fc97351e3fa8526ac21d9d657e78ec878e1aa12ddad3bf799_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/1c62cebcb25d5ae11cd4db5bf6bf9695faf3bda334b56eb7a3e68380fd4dfe0d_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Battle-Tested Gear",
+              "description": "Obtained all battle-tested equipment.",
+              "iconEarned": "https://images.gog.com/912ecc500ebf3d0608f6f2b69a2d3d64366cec91abd6d02e25aff15dae36bbef_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/55ab56ccbb2296c79080bd259941b4b3fce6fa35d97006ca470ff6d2bfe0ae55_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Record Collector",
+              "description": "Obtained all records.",
+              "iconEarned": "https://images.gog.com/92eda6c255444ca506c41243265a3c52544ec3acfa6f31a036210c80bb88c595_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/5fb0fa097e51fcc48c3ed5cf62c225395e122a511b3e2e35ffb4767639b8f6d0_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Informed Adventurer",
+              "description": "Gleaned information from 100 townspeople.",
+              "iconEarned": "https://images.gog.com/cd80a0afce44b1aaa2697e3c0fdaa32392fbddac96784f8a7d8240e9aa4e2932_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/eb4391693e6547d079b594ab3ed7279df21b9bb105662136ffeb1fdcb9ac1d11_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Eight Travelers",
+              "description": "Gathered all eight travelers.",
+              "iconEarned": "https://images.gog.com/0417162395865f87aab3ee17c2bc6ad0e66fc9f05ea7012479b4dcbdcf3f08bd_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/22144661f1dd6446dbf1314eae62857ac31ee99d817f0dda2c14f2f00a56fcfc_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Journey Begins",
+              "description": "Embarked on a journey.",
+              "iconEarned": "https://images.gog.com/07cc7f8372812d88b4815b8e2c69316259dc51a951cfa20ecf55dc7e0a60bbba_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/11d340b045b1eda89ac4fe53d6dcbb05da287c8e9fed694204ade1127653ee0a_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "100 Out Cold",
+              "description": "Soothed or knocked 100 townspeople unconscious.",
+              "iconEarned": "https://images.gog.com/cee6a7a2e360572732d29581eec5377285bf5279eb1cb96da4d9fc207017001b_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/5cef70c962ad85f5814ebd7e1865dd5d8221c84c54a5ab217bc6e6901fcb3628_gac_60.jpg",
+              "earned": false
+            }
+          ],
+          "earned": 0,
+          "total": 33
         }
       },
       "lastPlayedAt": null,
@@ -420722,11 +420496,11 @@
           "manual": true,
           "supportsAchievements": true,
           "includeInRatio": true,
-          "playtimeMinutes": 1017,
-          "lastPlayedAt": 1790653523507
+          "playtimeMinutes": 1245,
+          "lastPlayedAt": 1791776721867
         }
       },
-      "lastPlayedAt": 1790653523507,
+      "lastPlayedAt": 1791776721867,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 166969,
@@ -422726,6 +422500,671 @@
         "producers": []
       },
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3l90.jpg"
+    },
+    {
+      "id": "octopath-traveler",
+      "nom": "OCTOPATH TRAVELER™",
+      "icon": null,
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "gog": {
+          "productId": 1323465345,
+          "icon": null,
+          "achievements": [
+            {
+              "name": "A Story All Your Own",
+              "description": "Unlocked all achievements.",
+              "iconEarned": "https://images.gog.com/9ea013842a045001785d4837bfebf2c9c0a81ea9921e912e8d777a889da1c28f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/0ab6abfb9ea86033995996c987969ec83dc8c33839f29034378beb0fab7fefd7_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – The Kindling",
+              "description": "The ember from the Cave of Origin in hand, Ophilia embarks on the first leg of the Kindling as the Flamebearer.",
+              "iconEarned": "https://images.gog.com/76c76bedebb0cc0bf352f4d4ae85685126cc86a931c430f91d3df9960f83eb97_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/18919c7b30648212dfd42669b7a5b1d895b2c8e7d659959ee147dff2be8a44e2_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Gentle Guidance",
+              "description": "Rite completed, Ophilia helps three quarreling children mend their friendship before setting out for her next destination.",
+              "iconEarned": "https://images.gog.com/542c439573b11d8fc98813581935ec45e4690fce4b5de5c6f1c4a9d6f15a994b_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/22ea34f6a8f12b3a61d792df460fe9ff5ed6bd453b176906cab0988d5c90ca49_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Savior",
+              "description": "Ophilia rescues the child kidnapped by the Savior\\'s followers and performs the rite, but she is later betrayed by Lianna. Ophilia must hurry to Wispermill in the Flatlands in pursuit of her sister and the stolen ember.",
+              "iconEarned": "https://images.gog.com/de3413246afa274ffdd33e653c690975c9ff47137bfa3a5d2880553a8b85faf0_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/443b4b68f92eb334bb89d054d38e7a144a98dcba874479502225e59f5de07f08_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A Hill to Remember",
+              "description": "The Savior defeated and Lianna saved, Ophilia continues offering guidance to the people of the realm. May the Sacred Flame light your path.",
+              "iconEarned": "https://images.gog.com/79aad1fd0de0a958b1f06a418a889b6f01a8f81b8f1d52cb73fdfe0ed2b068b4_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/aa2a201e574cbd33dbd5601a26498337e1d0114f1ecd7922110201e0949b5cfc_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – The Search for Truth",
+              "description": "Driven from the academy, Cyrus sets out to unravel the mystery of From the Far Reaches of Hell, a tome missing for fifteen years.",
+              "iconEarned": "https://images.gog.com/d261558c08129f0d0edfde74fa5f16833e10fe3380f6350b495158b4a7916011_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/deae60e6243b24d61cfe0c4eb8d0fd1992a329e349fcc0c9d52800c196d86f77_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Traces of the Tome",
+              "description": "After Cyrus solves the mystery of the missing townspeople, he and Odette ascertain where a copy of the tome was reproduced.",
+              "iconEarned": "https://images.gog.com/a5610e25ae68a30327170b318c7c76eb8e21e11fc38a9a13ec44dd6cb45d0f95_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/e569872de679ed145b956533d0c36da617b4e8c80d5baca03f1322f71dc1733c_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Demonic Headmaster",
+              "description": "Yvon defeated, Cyrus chases after the mastermind behind the plot: Lucia, the headmaster\\'s secretary.",
+              "iconEarned": "https://images.gog.com/e06e29a9697fc5b21ff8a1608fc7ee5e32ce0183abad55c235836cf31527ffd5_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/02ed326d7b7e6c2c1ce797300d19f5395a78e14e318be8e318f675359faa1059_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "For the Future\\'s Sake",
+              "description": "After defeating Lucia in the ancient ruins, Cyrus succeeds in deciphering From the Far Reaches of Hell. He continues his research, resolute in his personal mission to see knowledge passed on to future generations.",
+              "iconEarned": "https://images.gog.com/70bd585aec9cee8dae67ee7ba1691cdf44a7b54bf0fc622b468e49845c86c07d_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/cd5dee0270aec7900cf2c17bdb4a8154081b966576e13aad4e5d6243528962e6_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – In Search of Treasure",
+              "description": "Tressa dreams of becoming a renowned merchant. With the mysterious notebook she received from Captain Leon in hand, she sets out on her journey to see all the treasures the world holds.",
+              "iconEarned": "https://images.gog.com/bf4f044cfbc9915a10201929bc0e6cf36f66cf5a603c8e4f9850ae9b28fd9572_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/b5baedf39227bce4354248ebc4b35ace7c02fa19d62903ee3c9a1d158fee7d3b_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Merchants\\' Fair",
+              "description": "Tressa rescues her rival, Ali, and drives Morlock from the town. Before resuming her journey, Tressa promises Ali they will one day meet again at the Merchants\\' Fair.",
+              "iconEarned": "https://images.gog.com/af6e5a66f8e47fe9c0c6797a5fdc7d04ab09530d1f4c291be2494f17e978c327_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/44b389fbc634031c4af842d37a3c705aadba26dcb5ed582d9f6e486824c880bf_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Most Precious Treasure",
+              "description": "After reuniting with Leon and hearing him tell of his friend Baltazar, Tressa wonders just what she treasures most. With those thoughts in mind, she makes for Grandport and the Merchants\\' Fair.",
+              "iconEarned": "https://images.gog.com/88425f3e98ba1e0c78351277f65b616bcb6063a5a11721062f8f1568c2a90edd_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/fe8a2d4daceb5da5074e0ee37385964fe04b734d2e181ecd769c70cdae33e8ff_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Next Chapter",
+              "description": "Content in the knowledge that her journey itself was her treasure all along, Tressa entrusts the next chapter of the journal to Noa and presses on, determined to become a famed merchant.",
+              "iconEarned": "https://images.gog.com/cd666698f414a830b608bc5fb8eba2b47179ce53fea9528a7cd9cfb6faea3e59_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/479251a632bcdf3c64637b1a23f481e2df4c12ebbc485b871e54446b55c4bcc1_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – Renewed Purpose",
+              "description": "The denizens of Cobbleston come out to give their hero Olberic a proper sendoff. The battle with the brigands behind him, Olberic sets out with a renewed sense of purpose.",
+              "iconEarned": "https://images.gog.com/220563a2ce3dc44c60d7626ec9a6f98a482102c8071d17dc5a3c364c129013e7_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/eb44bcbec97dcc82e01a334ef6fb6b5e1268c2191640ce0174ce586ed9061dd3_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Reasons for Wielding",
+              "description": "Olberic emerges victorious from the tournament and ventures into the desert in pursuit of Erhardt.",
+              "iconEarned": "https://images.gog.com/988e80b95b12df5c6333bd58aa7f148c0ba911db0910eb29e7cd756dfe5f7fe5_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/c18514cfdfa5458224e9504881bae4986b471d393eab8625ed7038c2783afe63_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Twin Blades of Hornburg",
+              "description": "The brief reunion of the twin blades of Hornburg comes to an end as Olberic takes his leave of the desert town in search of his true adversary: the tyrant Werner.",
+              "iconEarned": "https://images.gog.com/37ad466b1ee5abd32114b5be3f081c7b6f03748de2520027121ec0975007c811_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/e10063fc5057ef6caa898a803fbea7d98ea8e9155b04f1a690914dfee7837adc_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "To Protect Those in Need",
+              "description": "With Werner defeated, Olberic continues his journey, vowing to protect those in need.",
+              "iconEarned": "https://images.gog.com/e38fe612d6096d1e213a1ce39ee3efd2fbbdfba662c13f5958d7cb574e79242c_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/1ee651435e55186580b5074d2d8be960d0ff10c4a4a1218cd4c3c316798ed3c5_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – Revenge",
+              "description": "Primrose, finally in possession of the lead she needed, takes off in pursuit of the three men bearing the mark of the crow—the men against whom she swore revenge.",
+              "iconEarned": "https://images.gog.com/047a8df0ae73e9e662c80723c7e4d4abea551cb28396d516b9a31fba920f85be_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/27e515a2b0e038cb5df2e978127230fa906f60e7b55a63fb5fb32dc7f5fe6cb6_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Faith Shall Be Your Shield",
+              "description": "Primrose crosses Rufus, the Left-hand Man, off her list and takes the next step in her journey to learn the truth about her father\\'s death.",
+              "iconEarned": "https://images.gog.com/1ed36e6210e4c92d27ba2329b5937d872fa63aec9896dc5c1c3ce97f85dba420_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/fe6d5b10b7f6f0a17011978f786341d57ecb1c74acacf34d5009535154fd5bc0_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A Familiar Place",
+              "description": "With Albus, the Right-hand Man, vanquished, Primrose learns the truth: Simeon, her childhood friend, is responsible for her father\\'s murder.",
+              "iconEarned": "https://images.gog.com/944274ad7f23e8a88701f9dea1eca329b6642c645c2bbcacc50a2dd99d2b0847_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/80bad86e7a733935a744c1db1ec3b25bf3753adc7dd3069c3329ca51decea025_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A Vow Fulfilled",
+              "description": "Her revenge complete, Primrose sets out anew, vowing to continue dancing.",
+              "iconEarned": "https://images.gog.com/9c4704c6a0615bf6ac6344e1e6d14716c1e50019b71cec0ca9d9746d67736498_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/4ec4a9fd87db69fa1fd9bf2e07e1381fa8fbb6ca7a9438c28bb439b86226932e_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – Healing",
+              "description": "With the encouragement of his dear friend Zeph, Alfyn embarks on a journey to heal Orsterra\\'s sick and wounded.",
+              "iconEarned": "https://images.gog.com/6d8f77c8959cc5a36b3a242a59140a16ae0fc29020da9a9cab37ec4a6e51b059_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/df648b7cf3f1846bd4b7a48376dbaa02ba1a0f7c6b490f4e1777a020d7471564_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Quack",
+              "description": "Alfyn exposes Vanessa\\'s plot to sicken the residents of Goldshore so she may treat them at a premium, and saves a young girl who fell ill by Vanessa\\'s hand. His journey now takes him to Saintsbridge, the largest city in the Riverlands.",
+              "iconEarned": "https://images.gog.com/51aa187f887b39aeb097561bfcf585e4a76c08290c820569cf80e052e767a357_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/be3cde208f8db468c28ec729d1853f879842e1ef6f5ed355e3fda5db5c4ebcea_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Life\\'s Worth",
+              "description": "Alfyn\\'s faith in his journey is shaken when a man he helped nearly kills a young boy. Ogen\\'s theory that some lives aren\\'t worth saving echoes in Alfyn\\'s head as he makes his way to the Cliftlands.",
+              "iconEarned": "https://images.gog.com/6eadee016ff16c9cd3dc4aca509b8b3603503998f552305e92cedde9156caf17_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/aed78d381de86dc617a81222b7fa2f275e0cc3979eb9ddb8080805665a4b12e0_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "His Hero\\'s Words",
+              "description": "Alfyn cures Ogen and continues on his journey, carrying on the convictions of Graham, the traveling apothecary who once saved Alfyn\\'s own life.",
+              "iconEarned": "https://images.gog.com/b2c5d4d13a3a8d34892678cf01cc8664e709c572dfbb895c0fa3bac679772043_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/41871d7c76bb904c70309264c07aa4f986e3e153f8b025ba8c4b740831925e46_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – For Master",
+              "description": "H\\'aanit and her trusty snow leopard companion Linde begin their hunt for Master Z\\'aanta, who has gone missing.",
+              "iconEarned": "https://images.gog.com/369c383b7c22dfe6d4b6baf5d8be8ee4aadd2e3cdbc62ad697da5059f3b1e2a1_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/c9315fa26ee9061dbc05f69298f73d890099b5aa1f03265e7732e83ec19b0d92_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Chasing Master\\'s Footprints",
+              "description": "H\\'aanit finds Z\\'aanta turned to stone by the beast known as Redeye. Following the instructions in Z\\'aanta\\'s letter, she travels to see Susanna the Seeress.",
+              "iconEarned": "https://images.gog.com/521b683e7fb1ab8b00681a2465c844229e44c000105062e73ad0c6b16ddb67c1_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/f9bbda55eae5171d8c88e964423a6472f7d690a488f3852857ccf4a7d3a22bb3_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dragon Hunting",
+              "description": "H\\'aanit fells a dragon and obtains the herb that should ward off Redeye\\'s curse. Brew in hand, H\\'aanit makes haste for the desert where Redeye was last seen.",
+              "iconEarned": "https://images.gog.com/294c37aabbd20e6c0839ca305f74e3172bceaef048340715bc0944312bdf9ff0_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/711c3224f10333a2be721f9ac646b9f1ad5a6dcb00b3c94405722f35ad7efe65_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Master and Prentice",
+              "description": "H\\'aanit defeats Redeye and at last reunites with her master. Surely this is the first in a long line of tales yet to be told.",
+              "iconEarned": "https://images.gog.com/79a17651d43e6bb6ad4fd66cc2b8d971db3682e53b1bd76eee7311dba3e3a0c9_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/0f862a4fee98d85cb69138982477da665985a399ffb0d1f18e693347124708fd_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Setting Out – Freedom",
+              "description": "Therion sets out to obtain the three dragonstones in a bargain that would see the fool\\'s bangle marking him a criminal removed.",
+              "iconEarned": "https://images.gog.com/4cc3ea71fc73d07b3c8ae8efb12462c304efaa06cc1ccd8f503f58e3dcb7eafd_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/c9b72fc9234722231322d53259bfc80f868478b496fc28042bc615f32522504c_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Chasing the Dragonstones",
+              "description": "Therion vanquishes Orlick to claim the ruby dragonstone before following the trail of the emerald dragonstone to a desert town.",
+              "iconEarned": "https://images.gog.com/b4e54d331aa5908e3d60311527c443a0c684c9d183727f05a5f61da910575260_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/83ebc21e8cdba17eba3cf5f05ab2c0c4586cf48db1e84d009e3cf19cfdc94688_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "\\\"Partner\\\"",
+              "description": "Therion finds the emerald dragonstone at last, only to have it stolen by none other than Darius, his former partner in crime.",
+              "iconEarned": "https://images.gog.com/ddbe12803c6f75d55d4f6e3c952c5d5e79c4e3733a49cb7cebc1162f8681de86_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/1a756a4226c5b990fb5803d33d519683f1b652567b538f43a02d1292f7b4945a_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A Wanderer\\'s Life",
+              "description": "Therion wrests control of the emerald and gold dragonstones from Darius. His freedom restored, Therion resumes traveling wherever the wind takes him.",
+              "iconEarned": "https://images.gog.com/33aef05c23e581608bbb9bb85a5b4d8a49a611401a4a43d5fe451947cd00a848_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/3bc00d9a62b1f87f1126ebc079aa72799414bf48b2f4186ce086db8240b18855_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Aelfric\\'s Wisdom",
+              "description": "Obtained cleric as a secondary job.",
+              "iconEarned": "https://images.gog.com/166580f90f299788fb16bf10ee7795df814ea888571dd30f3cc0618c53da93ea_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/911496202091ea1ea55e5a1ea88a827f3bdeefaa8cbeb1869d822deea325dfb9_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Alephan\\'s Wisdom",
+              "description": "Obtained scholar as a secondary job.",
+              "iconEarned": "https://images.gog.com/9c2b07edd54681648e0d099dd004f138da18ff167f6799d00ebb517291a29d9c_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/918ebd662ac7197ea9fd7c90aedaabbfd45067eca25044c706a5104bad58ccf9_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Bifelgan\\'s Wisdom",
+              "description": "Obtained merchant as a secondary job.",
+              "iconEarned": "https://images.gog.com/536a7bfcaa0f5a9e047494e89f910b00aecf70672a28e00c36661517a83c0a77_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/a3b73dc98121e3698d70c1f90ecfef9195c367ba0ea9bf0f5838550549592c70_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Brand\\'s Wisdom",
+              "description": "Obtained warrior as a secondary job.",
+              "iconEarned": "https://images.gog.com/0a2a844d65e168fa1f97cd25d89e27abb164491a19131da94c579de25b598203_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/83334b687eb28512fe5fa8d9094768bf4060764834124364473e150dfc21a719_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Sealticge\\'s Wisdom",
+              "description": "Obtained dancer as a secondary job.",
+              "iconEarned": "https://images.gog.com/1cf2b519b1120db86cd4f4e523ddf4a3a40b5c3915fb56596108152af57391d6_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/1803f5af319cf76a2c6f67f2c596030a099b7281e9024ab1b280a0d5b3122d1a_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dohter\\'s Wisdom",
+              "description": "Obtained apothecary as a secondary job.",
+              "iconEarned": "https://images.gog.com/5c50b2dd4e4ca424700f2e9714824950780ebe8b5390971e81de49293d940823_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/a4e707b5c6fcec6c007691cc6d06de96b7a65ea5c98218bd888b4de9a33b93a9_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Draefendi\\'s Wisdom",
+              "description": "Obtained hunter as a secondary job.",
+              "iconEarned": "https://images.gog.com/91135698b9ff0fbe79232ecc3a8260cf2215e950ede9898e5f244cef3d540aee_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/d92141fab03cc223a749b1527821a9ce39ef8da0d27255331f34c31fe32bb241_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Aeber\\'s Wisdom",
+              "description": "Obtained thief as a secondary job.",
+              "iconEarned": "https://images.gog.com/e97a34ad320d29c0ef6f4a8469450b16202e97895e17b8861f5d96f511b96a30_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/87f40806371f3734c8d2c201623673917228eea12cf216246afb9e8028ffd995_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Balogar\\'s Wisdom",
+              "description": "Obtained runelord as a secondary job.",
+              "iconEarned": "https://images.gog.com/61193743f7e7480eaec1336f17cb19ddabd899ff7ba2beb7e4c41543c1e4e998_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/1d19b9ac97462a3ee3ff0b1b103cc30a3bd893c9df19da4b05f172f39942d9ee_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Steorra\\'s Wisdom",
+              "description": "Obtained starseer as a secondary job.",
+              "iconEarned": "https://images.gog.com/71d85b6e7fdbe31566291ba6073d91ae44e96fa72d81cd840a13a8ab2b5e16b7_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/26e47a32d4d27bcea742bb994c4814b560c5ed160b4e41b588cefcf2f136d2b1_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Winnehild\\'s Wisdom",
+              "description": "Obtained warmaster as a secondary job.",
+              "iconEarned": "https://images.gog.com/cd30c491d58a041e10b894cd8b2264c129acaae27e51c813754d303009f3a75f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/221444d33e062e0b78d678f0e38f3535a271db329e3309a9712c52310fdd9011_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dreisang\\'s Wisdom",
+              "description": "Obtained sorcerer as a secondary job.",
+              "iconEarned": "https://images.gog.com/b467857011dc1953c68938b2403c7170ee754da679775862d193a131e9eff2a0_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/d2558fefc9cd635cee0e03051fff590d7c01f317b8e76225805660f410a7f842_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Aelfric\\'s Auspices",
+              "description": "Mastered cleric as a secondary job.",
+              "iconEarned": "https://images.gog.com/dfec8b0b9a892995c31fc8cf590506cc86fc0d7db7fd6b7362aededa10a88a66_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/f04a393e8fbec6728dd82269157a8f055b2ffe13bd301c4c492bbb29921ea49f_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Alephan\\'s Enlightenment",
+              "description": "Mastered scholar as a secondary job.",
+              "iconEarned": "https://images.gog.com/1d2a853f6fd24d04f5d429d29ac04bb69ebda194a443c8debde6112e6a656268_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/a2ffbf632f3be7f2de8d0faa84d7378f23539f3bd2a37e8311fd088eaebf8ab9_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Bifelgan\\'s Bounty",
+              "description": "Mastered merchant as a secondary job.",
+              "iconEarned": "https://images.gog.com/eed61cf4cdb08f55190756d1684c7cb1bcd72e91a96d1a5b3bd69ddcc247f23f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/621b716a44bfe8c38672d35b550dd46972a3c21f7db35ef7eb73d796b555b449_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Brand\\'s Thunder",
+              "description": "Mastered warrior as a secondary job.",
+              "iconEarned": "https://images.gog.com/65fe4b45c9bd924f3b741750087709e5ea6ca849370032f5668f63c1e1418a29_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/ea4057c55c85e8d3b9953605bf0a74b46871176061f9b63c4f2b6347b3fdec10_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Sealticge\\'s Seduction",
+              "description": "Mastered dancer as a secondary job.",
+              "iconEarned": "https://images.gog.com/abae80cc05e05bf880232061aa66365568d8a14d53dcf33feab12b88cacd1359_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/f2e19bb40ff55517f7d0a0427d130933052be0369351eff59df279c21593f44c_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dohter\\'s Charity",
+              "description": "Mastered apothecary as a secondary job.",
+              "iconEarned": "https://images.gog.com/099ede5a6a65ee9aca19c1a846cc245246ffd6b07e75004bb6994af4714bd905_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/35875ec7ccfa74166288c66322be478ec32038b304de670ecc8be1443fcb0ab9_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Draefendi\\'s Rage",
+              "description": "Mastered hunter as a secondary job.",
+              "iconEarned": "https://images.gog.com/43b4c4235bec8a82cfbc706fbd871d32c0428f790c212f16ee3a8f7598cc66d3_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/e2c573ecc95a415954c831fa919e03dacd6cc59713e3fe65a47bc4b3c3e47e9c_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Aeber\\'s Reckoning",
+              "description": "Mastered thief as a secondary job.",
+              "iconEarned": "https://images.gog.com/68acf2aa8ae75b05f79b45d7eeb188b9ee1cc167bbe564b6f3ac04b1fabcfb6a_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/ae88d387dd0c2c206f597ae0bf4dd5a69156e4ba62d95e18399bce336658232e_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Balogar\\'s Blade",
+              "description": "Mastered runelord as a secondary job.",
+              "iconEarned": "https://images.gog.com/f9f3501b3cd7b90f3b3a30597ac74b0463d7968545a1ec17edb0b36ea9845f51_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/9ff55449b8cab0165d01ccdd66f2afc98c3b3a9d4e13712870521306135eddfc_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Steorra\\'s Prophecy",
+              "description": "Mastered starseer as a secondary job.",
+              "iconEarned": "https://images.gog.com/b3807330b45fdf9f5d22f4df059d8d128e17fa766f6cd3e5f7ab8d11e5a4bbb4_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/ce929f681134d3b99e421dd42a46a6a65dced0e9e2a99d3373142140dfe2e173_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Winnehild\\'s Battle Cry",
+              "description": "Mastered warmaster as a secondary job.",
+              "iconEarned": "https://images.gog.com/a3c1e00de222638d91a7004da34eb98fae3292c687f01cffa3d7c1ccd0b0880f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/bdccf2e8c4f710be48edea66058f0a71d8be5cf3f31ece246fb7c74e685e357d_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Dreisang\\'s Spell",
+              "description": "Mastered sorcerer as a secondary job.",
+              "iconEarned": "https://images.gog.com/2259415822638bcd39313698b4e527f36f1fdeb17cf2721cb3de8aa863680013_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/6d5db6f6b4c2c947221d353b721dd8ef56f256265777e37895d44f4039fb174a_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Lone Traveler",
+              "description": "Saw your journey through without aid from others.",
+              "iconEarned": "https://images.gog.com/8d21b19c0dab6771754557c8ccb440ad6441ad31fd2edb9b6093fee050cf5b08_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/dd8349cbb911107ba2813660a5f54831a0cd815c19ecd44fe83e6f1b899d7379_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Fleetfoot",
+              "description": "Finished your journey with lightning speed.",
+              "iconEarned": "https://images.gog.com/08429a594e28ce0b32a2f3fa85418744396aa99a13b581ebc0693c410438819f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/aa74c42c0b80a29d653fa8ec3d73c70ea40977caca8eeae0e1c77e9a2ef7010f_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Closure",
+              "description": "Defeated the dark god Galdera and sealed the Gate of Finis once more.",
+              "iconEarned": "https://images.gog.com/c468e9faa82c7c78d4e2057736b8de785ea68f9818892872c74758d2b3376b74_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/ca0ec990148cab56f105555607f63b6d4992caf6b8155dccde9d7b4f1033bccb_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Worth the Detour",
+              "description": "Resolved the troubles of everyone in the realm.",
+              "iconEarned": "https://images.gog.com/41f6ca1b75f2cac076bd7d9d9bd7803a35578fc500d78683eac57a4a973e5fce_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/f11753c892b98b78b6d08500abda63409bbae12f8c121eeb45cd362a7da60159_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Master of Orsterra",
+              "description": "Traveled to every location on the map.",
+              "iconEarned": "https://images.gog.com/5b6e99da1188199845b36ebcc8c21402a3dd926b99bff5e94808704aa5e8f165_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/ac875324f1629b97167c0647d29f77a1592006c3d8bb09929cf9d72cd1b626bb_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Skillful",
+              "description": "Learned every skill.",
+              "iconEarned": "https://images.gog.com/dd8d114e24f481a325f9bd432e54fd3d9c33e72c89e9c70c1386e1f15956595f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/1f29b2ef3374578463a6508412df051a6fe46510e11c4c6b5447401193c9d81e_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Full Support",
+              "description": "Learned every support skill.",
+              "iconEarned": "https://images.gog.com/75bc1a116edee60a8a565b8ecd00528193a48f033ceaec428714d8a285803f30_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/08a145b7b35d0bd65672e025f09bc451814ad8eb8335b07d87b75ae282476a70_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Treasure Hunter",
+              "description": "Opened every treasure chest.",
+              "iconEarned": "https://images.gog.com/d5646ca692f975685c06a1d6f043eaac0fb1d75fc6f5746ca2e4918b132ce947_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/cff6d152856b3fe99e968a2ad0f61fdd1395bc77d46691a2a61ffe41d7c4703d_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Eagle-Eyed",
+              "description": "Found every hidden item.",
+              "iconEarned": "https://images.gog.com/a9010586c553927927b959cdbc78a67a2839f4dc2da998797f0a965682bbc7b4_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/8ae1549534f732cd138691c47aa28b0ff09116a674ce7f3fdab0c9ed005921bf_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Strategist",
+              "description": "Discovered every enemy\\'s weaknesses.",
+              "iconEarned": "https://images.gog.com/15de67641210e93300fbfc0fdffd9d72c240cffa6db5956a470c74ae5ecb320c_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/cd560116eb1a399e410bf13cf98d691a5c99f50cfdb486c3f47d1fe3d62caea0_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Collector",
+              "description": "Acquired every item.",
+              "iconEarned": "https://images.gog.com/f5591c7e86cb0b56919ac957af19629356a823b0bde3add9d0eb30ff5071f2be_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/11a013d05f45034e22447706cc4ef1ca7160c601f7a32412cf064c95370d0f07_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "The Strongest Sojourner",
+              "description": "Dealt maximum damage.",
+              "iconEarned": "https://images.gog.com/a931be23fb06b183b1db015e7c950d174ae4de432c54b44448f4a73894adb730_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/8fc4cba49aad77d497f0040d2930c1c0f3a91fae77f89a09e26bfc248b4b62e8_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Moneybags",
+              "description": "Obtained 80,000 leaves.",
+              "iconEarned": "https://images.gog.com/0f876c30369d2653ade60024a89ab836fcc9d9c6a87fc0a9d40c572c259db27a_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/79cf1d34a7f7a1e92c5be47a9ae76cc6bb46c6ddfbdb0bf6a95d3a221fa10735_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Millionaire",
+              "description": "Obtained 1,000,000 leaves.",
+              "iconEarned": "https://images.gog.com/02c8320cdd3cf333bb049ec28560d5db8e09383782313a58d340d12eefb32904_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/24ce912ff37c8df100d42e525001aab01a2cab659822da426d734149626e14ab_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Better Safe Than Sorry",
+              "description": "Fled from battle.",
+              "iconEarned": "https://images.gog.com/58ec4581a02dc24cdccc0e53bf2c74a48c3e056d5b5687e2ef381a7bb0437ea8_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/746c351cf09054e193b30c1c9531d3bbfac67e4b4aeb922bf4f945850f2bbc4f_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Novice Scrapper",
+              "description": "Fought 10 battles.",
+              "iconEarned": "https://images.gog.com/deda33badc295f15984f7c5938e0e2b7227d65b9e9c65d23ff19282e248fe6be_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/ba5753ac9428785e64f122c4dc6beef4bf02e5361b80b3c11aca29ec792d37fb_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Fighter",
+              "description": "Fought 100 battles.",
+              "iconEarned": "https://images.gog.com/b6252a2c49835f39fb15c60ff07614cad7c645c2cd4d6b8c32e678c00605d0ef_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/368818dab74244c4516db53256f961fb23ed69d53e1cb09f0b8af396460486d9_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Brawler",
+              "description": "Fought 200 battles.",
+              "iconEarned": "https://images.gog.com/2620a3f3bf2d0aa393e13264a9f79ed736a99fc4968df0cfc7056f424332b0d4_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/690856b32baec133366aa6d841fe126784a91e81d2fa93d2b64b6dd69a38ca69_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Ultimate Power",
+              "description": "Used a Lv.4 Boost for the first time in battle.",
+              "iconEarned": "https://images.gog.com/2fbee0311eb854b1d168700747133aaf89e2983c8cb038a3d29c45b70e1a75b4_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/a80a793aea7ef2ddaf077ac25a1723e38dc7e68d5c498e185dd622ed76c12191_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Traveler",
+              "description": "Played more than 10 hours.",
+              "iconEarned": "https://images.gog.com/b6850515b43ace783358c906d66e41739205f4c58aebcff7c31838a9e88e7ead_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/348489e0f7910c6e08f2e2e6024a97303cefcb5be632b7ccaaaf9551c6069564_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Seasoned Traveler",
+              "description": "Played more than 50 hours.",
+              "iconEarned": "https://images.gog.com/180bef8176ba51dbb0099da9f07fa394a05f5386d679d516f5c97c1f05197218_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/66400e084fcd28dcea481e44258166cc856e0238fb77f4c8332bbf74003c6b16_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Renowned Traveler",
+              "description": "Played more than 100 hours.",
+              "iconEarned": "https://images.gog.com/f373026ee8654ec379afb9df18a9036808f5d5bab32c86ef722f15f0bec90150_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/3d71f65294811a37a92c80a6c51a8753da3f451a12115d955b3342574eb733d9_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Training",
+              "description": "Challenged every villager in Cobbleston.",
+              "iconEarned": "https://images.gog.com/08eb72adfa4913995a00754a3579b9da7e3b48b20d5cf64f6a2dd62540226c65_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/e343794e20d6169f8ee3b2ba30547d498bd5b1d502d6df88e963bbe0a4a71dd1_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Lead the Way",
+              "description": "Guided someone for the first time.",
+              "iconEarned": "https://images.gog.com/390b897ab8b4a8f9974cbfb4789c9af3ab6be1dbdf27895c6035fc4985d3f88f_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/999acc49c521e6d49b81962fc6a68322e3546b7f4cb51379b2e1cfa5440a6c34_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "In the Know",
+              "description": "Scrutinized someone for the first time.",
+              "iconEarned": "https://images.gog.com/2f1a203ca66c612d8b32d5dcb9f3ec20ddf6996ed69a871e66066afc37f002d4_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/1b35bebb05b2c10eac600c5478f50a51cdfb77f1a14b4d5bcd6e391ed6a54b5f_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Bargain Hunter",
+              "description": "Purchased something for the first time.",
+              "iconEarned": "https://images.gog.com/4c4fadf3cf480aa406b20bf6cbd902b4b945c3876544bbf535ac27908d614846_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/21ce525841fb47ace008667101d2630f4ca4ef6369e69be37dfbe47218b65e25_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "A New Challenger",
+              "description": "Challenged someone for the first time.",
+              "iconEarned": "https://images.gog.com/6bae3de75cd5973212efbdb44f2ca2244d55f8bce60805ae907f0e3e4eaa1da8_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/bf7adf7c531b857d9e4534b627360f611f6aadfe72bca122d3fa58d29d8c2409_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Irresistible",
+              "description": "Allured someone for the first time.",
+              "iconEarned": "https://images.gog.com/ca5fa90cb4cad2a8477ce11e25d20554559db6117fafbed5707ec51d29cd342a_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/40d51f7a4f6e7165f48b004a814e350fef0411552be0234ffd47f42a59e23fbd_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Tell Me More",
+              "description": "Inquired about something for the first time.",
+              "iconEarned": "https://images.gog.com/0eab449992399a210cbc97bbae0fc6f119cdeabeeaa5f5b0386781e0d7dc4593_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/9fa9e7f7c8ebda67161575673fdd90d7244d02e631e88431623393fbb71dc2cb_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Sticky-Fingered",
+              "description": "Stole something for the first time.",
+              "iconEarned": "https://images.gog.com/df945c6159ff8a6ee98c9eefc4df5b074a15c641cd64fed80254c23c57d20848_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/6a402294593bb629af29c7ed7f001c8edc452df69ec0ded901903cdb69c08348_gac_60.jpg",
+              "earned": false
+            },
+            {
+              "name": "Start Something",
+              "description": "Provoked a fight for the first time.",
+              "iconEarned": "https://images.gog.com/2983d8c02168a02869aa3e694d8db4267f357cc6476d78d0ba5be93731e514a7_gac_60.jpg",
+              "iconLocked": "https://images.gog.com/493ef6860c2c98eccc7030b5b4600e0f3372a2f85114b820bb4b799c0cca03eb_gac_60.jpg",
+              "earned": false
+            }
+          ],
+          "earned": 0,
+          "total": 88
+        },
+        "switch": {
+          "icon": null,
+          "achievements": [],
+          "earned": 0,
+          "total": 0,
+          "noApi": true,
+          "includeInRatio": true
+        }
+      },
+      "lastPlayedAt": null,
+      "inStreamCategory": true,
+      "hltb": {
+        "gameId": 53592,
+        "main": 60.3,
+        "mainExtra": 80.6,
+        "completionist": 103.7,
+        "url": "https://howlongtobeat.com/game/53592"
+      },
+      "metacritic": {
+        "score": 83,
+        "reviewCount": 87,
+        "url": "https://www.metacritic.com/game/octopath-traveler/critic-reviews/",
+        "userScore": {
+          "score": 8.2,
+          "reviewCount": 1521,
+          "url": "https://www.metacritic.com/game/octopath-traveler/user-reviews/"
+        }
+      },
+      "credits": {
+        "directors": [],
+        "producers": []
+      },
+      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocj93.jpg"
     },
     {
       "id": "full-throttle-remastered",
@@ -435910,47 +436349,6 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nc7.jpg"
     },
     {
-      "id": "octopath-traveler",
-      "nom": "Octopath Traveler",
-      "icon": null,
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "switch": {
-          "icon": null,
-          "achievements": [],
-          "earned": 0,
-          "total": 0,
-          "noApi": true,
-          "includeInRatio": true
-        }
-      },
-      "lastPlayedAt": null,
-      "inStreamCategory": true,
-      "hltb": {
-        "gameId": 53592,
-        "main": 60.3,
-        "mainExtra": 80.6,
-        "completionist": 103.7,
-        "url": "https://howlongtobeat.com/game/53592"
-      },
-      "metacritic": {
-        "score": 83,
-        "reviewCount": 87,
-        "url": "https://www.metacritic.com/game/octopath-traveler/critic-reviews/",
-        "userScore": {
-          "score": 8.2,
-          "reviewCount": 1521,
-          "url": "https://www.metacritic.com/game/octopath-traveler/user-reviews/"
-        }
-      },
-      "credits": {
-        "directors": [],
-        "producers": []
-      },
-      "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocj93.jpg"
-    },
-    {
       "id": "pokemon-let-s-go-evoli",
       "nom": "Pokemon let's go Evoli",
       "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zjz.jpg",
@@ -437935,11 +438333,11 @@
           "manual": true,
           "supportsAchievements": true,
           "includeInRatio": true,
-          "playtimeMinutes": 405,
-          "lastPlayedAt": 1790571764745
+          "playtimeMinutes": 412,
+          "lastPlayedAt": 1791695311410
         }
       },
-      "lastPlayedAt": 1790571764745,
+      "lastPlayedAt": 1791695311410,
       "inStreamCategory": false,
       "hltb": null,
       "metacritic": {
@@ -437957,6 +438355,51 @@
         "producers": []
       },
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobran.jpg"
+    },
+    {
+      "id": "mario-kart-8-deluxe",
+      "nom": "Mario Kart 8 Deluxe",
+      "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/ac2197f612124100ac4af7888c5afc17_1024",
+      "banner": null,
+      "logo": null,
+      "platforms": {
+        "switch": {
+          "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/ac2197f612124100ac4af7888c5afc17_1024",
+          "achievements": [],
+          "earned": 0,
+          "total": 0,
+          "noApi": true,
+          "includeInRatio": true,
+          "playtimeMinutes": 631,
+          "lastPlayedAt": 1546643450000
+        }
+      },
+      "lastPlayedAt": 1546643450000,
+      "inStreamCategory": false,
+      "hltb": {
+        "gameId": 43480,
+        "main": 6.3,
+        "mainExtra": 22.7,
+        "completionist": 53.8,
+        "url": "https://howlongtobeat.com/game/43480"
+      },
+      "metacritic": {
+        "score": 92,
+        "reviewCount": 99,
+        "url": "https://www.metacritic.com/game/mario-kart-8-deluxe/critic-reviews/",
+        "userScore": {
+          "score": 8.6,
+          "reviewCount": 4779,
+          "url": "https://www.metacritic.com/game/mario-kart-8-deluxe/user-reviews/"
+        }
+      },
+      "credits": {
+        "directors": [],
+        "producers": [
+          "Hideki Konno",
+          "Kōsuke Yabuki"
+        ]
+      }
     },
     {
       "id": "final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition",
@@ -438936,33 +439379,6 @@
           "url": "https://www.metacritic.com/game/the-adventures-of-elliot-the-millennium-tales/user-reviews/"
         }
       },
-      "credits": {
-        "directors": [],
-        "producers": []
-      }
-    },
-    {
-      "id": "xenoblade-chronicles-10-definitive-edition-nintendo-switch-2-edition",
-      "nom": "Xenoblade Chronicles X: Definitive Edition – Nintendo Switch 2 Edition",
-      "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/0a9c9bf64b1a4ffa93842f2dbe186e87_1024",
-      "banner": null,
-      "logo": null,
-      "platforms": {
-        "switch": {
-          "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/0a9c9bf64b1a4ffa93842f2dbe186e87_1024",
-          "achievements": [],
-          "earned": 0,
-          "total": 0,
-          "noApi": true,
-          "includeInRatio": true,
-          "playtimeMinutes": 1065,
-          "lastPlayedAt": 1771536202000
-        }
-      },
-      "lastPlayedAt": 1771536202000,
-      "inStreamCategory": false,
-      "hltb": null,
-      "metacritic": null,
       "credits": {
         "directors": [],
         "producers": []
@@ -440795,7 +441211,7 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ga5.jpg"
     }
   ],
-  "builtAt": 1791321417393,
+  "builtAt": 1791869381962,
   "platformDiag": {
     "steam": {
       "count": 309,
@@ -440814,7 +441230,7 @@
       "error": null
     },
     "gog": {
-      "count": 95,
+      "count": 97,
       "error": null
     },
     "switchCoral": {
