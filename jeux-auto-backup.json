@@ -73105,8 +73105,8 @@
           "earned": 0,
           "total": 0,
           "familyShared": false,
-          "playtimeMinutes": 26010,
-          "lastPlayedAt": 1792010587000
+          "playtimeMinutes": 26117,
+          "lastPlayedAt": 1792098382000
         },
         "eso": {
           "icon": "https://media.steampowered.com/steamcommunity/public/images/apps/306130/2a0f43963c08a3755682adb2369918c9ad07ef1b.jpg",
@@ -108632,6 +108632,18 @@
               "groupId": "High Isle"
             },
             {
+              "id": 3351,
+              "name": "Novice du Club des Agapes",
+              "description": "Atteignez le rang de Novice auprès du Club des Agapes.",
+              "points": 5,
+              "icon": "/esoui/art/icons/u34_tribute_rank3.dds",
+              "earned": true,
+              "date": 1792007887000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires",
+              "groupId": "High Isle"
+            },
+            {
               "id": 3358,
               "name": "Concurrent du Club",
               "description": "Terminez une quête journalière des Récits de Gloires 10 fois.",
@@ -109153,18 +109165,6 @@
               "description": "Atteindre le rang Rubédite en jeu compétitif classé des Récits de Gloires.",
               "points": 15,
               "icon": "/esoui/art/icons/u34_tribute_pvpplatinum.dds",
-              "earned": false,
-              "date": null,
-              "category": "High Isle",
-              "subcategory": "Récits de Gloires",
-              "groupId": "High Isle"
-            },
-            {
-              "id": 3351,
-              "name": "Novice du Club des Agapes",
-              "description": "Atteignez le rang de Novice auprès du Club des Agapes.",
-              "points": 5,
-              "icon": "/esoui/art/icons/u34_tribute_rank3.dds",
               "earned": false,
               "date": null,
               "category": "High Isle",
@@ -120235,11 +120235,11 @@
               "icon": null
             }
           ],
-          "earned": 1000,
+          "earned": 1001,
           "total": 3913,
-          "earnedPoints": 16325,
+          "earnedPoints": 16330,
           "totalPoints": 75895,
-          "generatedAt": 1792005538000,
+          "generatedAt": 1792095662000,
           "characterName": "Yohgaz"
         },
         "psn": {
@@ -122265,7 +122265,7 @@
           "lastPlayedAt": null
         }
       },
-      "lastPlayedAt": 1792010587000,
+      "lastPlayedAt": 1792098382000,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 17596,
@@ -180536,14 +180536,14 @@
               "description": "Terminer le Désert",
               "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/686060/238d340d1e57395f5fdda38750cf6b5ac4bfd7dd.jpg",
               "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/686060/8a4d2375437a7ce79544b30f01682395d9ec6e56.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Le Cratère",
               "description": "Terminer le Désert",
               "iconEarned": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/686060/06545c6dab6c490bc2029cc418bcb085d02314f8.jpg",
               "iconLocked": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/686060/6f41519fb6ad96d30ccc49b26f98afec386f71c6.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Le Noyau",
@@ -181239,14 +181239,14 @@
               "earned": false
             }
           ],
-          "earned": 19,
+          "earned": 21,
           "total": 281,
           "familyShared": false,
-          "playtimeMinutes": 617,
-          "lastPlayedAt": 1791885756000
+          "playtimeMinutes": 658,
+          "lastPlayedAt": 1792057632000
         }
       },
-      "lastPlayedAt": 1791885756000,
+      "lastPlayedAt": 1792057632000,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 135404,
@@ -204248,6 +204248,76 @@
               "hidden": false,
               "earned": false,
               "groupId": "007"
+            },
+            {
+              "id": 103,
+              "name": "Entre confédérés",
+              "description": "Formez une confédération",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/2da5e3a0-a8c3-4a05-ae71-c9a3071e3903.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "008"
+            },
+            {
+              "id": 104,
+              "name": "À Xanadu",
+              "description": "Érigez un Palais des plaisirs",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/ff7ab91e-7893-4f90-bff2-d8d9e79bc05e.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "008"
+            },
+            {
+              "id": 105,
+              "name": "Ça ne regarde personne",
+              "description": "Installez votre peuple en dehors de la Grande Steppe avec le casus belli d'invasion de royaume",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/4d489716-90ad-49ce-8f1e-15d4aea5b64e.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "008"
+            },
+            {
+              "id": 106,
+              "name": "Sédentarisation",
+              "description": "Devenez un dirigeant sédentaire dans la Grande Steppe",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/3b9e79e4-0af1-4a29-bc27-cb20ffd27aaf.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "008"
+            },
+            {
+              "id": 107,
+              "name": "Lourd tribut",
+              "description": "Ayez 30 tributaires",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/f3ff229e-b9e6-4a3e-a020-3a8ff9aa4064.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "groupId": "008"
+            },
+            {
+              "id": 108,
+              "name": "Khan clinquant",
+              "description": "Devenez le plus grand des khans",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/776b073f-2efa-4f38-a829-6bb318afd2bc.png",
+              "type": "silver",
+              "hidden": false,
+              "earned": false,
+              "groupId": "008"
+            },
+            {
+              "id": 109,
+              "name": "L’étalon qui monte le monde",
+              "description": "En commençant avec Temüjin, partez à la conquête du monde",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/60d2d34f-4d92-484c-b0b7-104f0093f127.png",
+              "type": "gold",
+              "hidden": false,
+              "earned": false,
+              "groupId": "008"
             }
           ],
           "groups": [
@@ -204290,10 +204360,15 @@
               "id": "007",
               "name": "Crusader Kings III: Roads to Power",
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/a2391ed1-72de-4290-912f-258b32327784.png"
+            },
+            {
+              "id": "008",
+              "name": "Crusader Kings III: Khans of the Steppe",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR22420_00/7850360b-4316-46f2-aba2-c80d55d2011d.png"
             }
           ],
           "earned": 13,
-          "total": 103,
+          "total": 110,
           "playtimeMinutes": 118,
           "lastPlayedAt": 1732268837770
         }
@@ -254302,8 +254377,8 @@
           "total": 0,
           "noApi": true,
           "includeInRatio": true,
-          "playtimeMinutes": 3249,
-          "lastPlayedAt": 1791523057191
+          "playtimeMinutes": 3269,
+          "lastPlayedAt": 1792122328375
         },
         "ffxiv": {
           "icon": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
@@ -285828,7 +285903,7 @@
           "total": 3497
         }
       },
-      "lastPlayedAt": 1791523057191,
+      "lastPlayedAt": 1792122328375,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 120442,
@@ -437733,11 +437808,11 @@
           "total": 0,
           "noApi": true,
           "includeInRatio": true,
-          "playtimeMinutes": 303,
-          "lastPlayedAt": 1790367314075
+          "playtimeMinutes": 386,
+          "lastPlayedAt": 1792122328375
         }
       },
-      "lastPlayedAt": 1790367314075,
+      "lastPlayedAt": 1792122328375,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 174355,
@@ -438908,11 +438983,11 @@
           "manual": true,
           "supportsAchievements": true,
           "includeInRatio": true,
-          "playtimeMinutes": 412,
-          "lastPlayedAt": 1791695311410
+          "playtimeMinutes": 418,
+          "lastPlayedAt": 1792122328375
         }
       },
-      "lastPlayedAt": 1791695311410,
+      "lastPlayedAt": 1792122328375,
       "inStreamCategory": false,
       "hltb": null,
       "metacritic": {
@@ -441786,7 +441861,7 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ga5.jpg"
     }
   ],
-  "builtAt": 1792036304739,
+  "builtAt": 1792122692927,
   "platformDiag": {
     "steam": {
       "count": 309,
