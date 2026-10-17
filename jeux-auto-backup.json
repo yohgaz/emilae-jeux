@@ -41612,287 +41612,366 @@
               "description": "Aider Agnès du mieux possible pendant l'accouchement.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/aa1b0d37b2519dc443f069905c0084c2e4becd40.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/32eff5f13e8fb6f76478ed501468d0f8297b18ee.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Encore un secret",
               "description": "Déverrouiller une pièce mystérieuse à Kingsbridge.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/aa9c69578b16a6d845b8bbafba18d283d55190d4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/ff031d9e2cc4b9c25585307b55b63deb2f1bb4bb.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Que l'obscurité soit",
               "description": "Éteindre les cierges de la cathédrale.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/61eeffb9a88ac688feb10ab296f504fb868fadc5.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/e3b81063850aca7374be2cd99377e8f8ad3b9821.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Délation",
               "description": "Denoncer un délit aux moines de Kingsbridge.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/48dc20afb742c478efda90825fe848939a9ebc0a.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/c57774cec5319d100e2aff46ee31a3969a2645e1.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Jardin d'Eden",
               "description": "Aider Milius à constituer son jardin.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/b06482cf30ea3fd134521c508e241e07dc60ec7e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/7d087692a3321e1388862604b4951cd13bbc5e5e.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Au complet",
               "description": "Inviter tout le monde à la réunion du chapitre.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/b77302d2bbfa3f48958d8b70fe1b8577b3258df1.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/372f2691b1300335d8a74c4957f68a9b9cee7299.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Silentium est aureum",
               "description": "Laisser les autres parler.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/0fc68833f8f8209126f71563d919343306134077.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/ab0546d19ddb0edbef91419ed022ad3e40949a32.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Compagnon fidèle",
               "description": "S'occuper de votre poney.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/c763faf0de0b2ba20cb798d9d765c589ef2edf12.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/29bb1001508b8beabbac5194f1b2443b47744c31.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Le monde de la politique",
               "description": "S'impliquer dans les affaires politiques de votre frère.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/08b417b7790ee20816df50f1273508998fdea3d8.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/030204179fd44c624079ba8678e9bcef7c6cc908.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Rebelle, rebelle",
               "description": "Avoir des problèmes avec le comte de Shiring.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/2e5ea4297388c76f0234cc22e728eec2a2f84dac.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/ca3f90101fa4e491f8f12ee6e909977281b4458e.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Apprenti chevalier",
               "description": "Essayer de devenir un chevalier.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/46140d28c2ffc86c89da44c8eeab59c6baab951d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/471344a877f6011231878d3be010e15a482d24ce.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Regard d'acier",
               "description": "Soutenir le regard.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/28426416eced10c2ba36d15c5bcf8f18a976ba07.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/030ee025c981d3e5849b26da61b47194a86937be.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Loup solitaire",
               "description": "Devenir ennemi avec Alfred.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/19dc0408ca932e72499568d21e5af025b7bb2be7.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/4ef5ef9815a6bc9fc9f5a255c934c83d33985921.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Amitié fragile",
               "description": "Devenir ami avec Alfred.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/1105968c88470fa9b9be00805b1ec10721a74897.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/992c8650a522e279502a1ced703122570d5d01a9.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Comme un grand frère",
               "description": "Montrer à chaque fois que possible à Martha comment utiliser le lance-pierre .",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/8b6d062b4ed1c1ab9a4895fb1dbe31983e3750af.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/ec1b2df634ec6a98b11953115b40cfb55fee0c93.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Maladresse",
               "description": "Se raviser avant de causer une grande catastrophe.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/eb96da8f84b51788b4dd6dd54f75061f4355313c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/64ecee993b4b38d358b1e23a39d32b8e4f15f9af.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Tout est en ordre",
               "description": "Réparer le chaos créé par William.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/d9241102c1b5b698aec5d5557fd7365fe32c1f59.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/098b38487e7af64c93d557928781f18edbcac3c2.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "La main dans le sac",
               "description": "Voler les biens de l'évêque à chaque fois que possible.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/178321a7656ddb522794789a5a93fc4fa2db2406.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/c014c61d36598f2ff6c646e30c5e9da7e5bba9a2.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Le négotiateur",
               "description": "Negocier le meilleur accord pour Kingsbridge.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/79479e1254f7b41df2f3d0cb57c64c673dc91649.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/eb6bb13a8a02252b64da9a5f25ccfbb42f73d9a5.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Le goût du mystère",
               "description": "Rester discret sur votre passé.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/157d3f5861094eafb037f16feb4fa59991518e78.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/fc64212c1f72c68e7e350a67ab39f0d8370b10c2.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Fin du Livre Un",
               "description": "Terminer le livre Un.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/3b7f6811a12f9790cf95b6fee14063a2de56dfd4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/d09c796c137c21c3b676b18362629474dc86f11b.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "1"
             },
             {
               "name": "Tous les deux",
               "description": "Rester ensemble.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/bbfecdc2b9f13dd78db5cfafbcc8554545856bdd.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/87b1e2934a4cfa83e36f82db129314ea0ac3aa42.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "À deux doigts de mourir",
               "description": "Échapper aux chevaliers.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/61151974ddc5cc0a949bb0ef7df09114cbd5b0f1.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/4ac41658790bf6a2543b5684153f2e372f8bfc0c.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Premiers bénéfices",
               "description": "Faire un bénéfice.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/0589b387f092bee34d7f9bfb92af55bbe850601a.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/f5b18b3dd7ff1a5d61f4eeb84f233ac1c3a74c70.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Vengeance",
               "description": "Se venger.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/bec056f5cfb5876144ae87318a4126ebd89b84dc.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/2aca83864528749d641b6c0a7bb9a04391b83f53.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Exterminateur",
               "description": "Résoudre les problèmes d'insectes de Kingsbridge.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/d69a756812018f5b992329fae24850ce79576cb9.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/edc320eb7325e14b3638399c7e5779d2a02526be.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Syndicat des travailleurs",
               "description": "Aider les fouleuses.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/a0b8a97f7d166f445e444289c3562295c71fe161.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/6e8e14ff3277f258df21dd47d3adb9ec3d5fb4c5.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Course-poursuite",
               "description": "Attraper le suspect.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/401511e6dd0677a91d8ede47c2643cddfaca70cb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/b31f271b4df9d886a0e1519843918c602ec11f0f.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Négociante expert.",
               "description": "Négocier avec brio.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/0355c0be6d3302c17e0f5faff87b8356c466c75f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/a7402df1e0d5715d546be05e10ba614124292b93.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Jeu en équipe",
               "description": "Remonter le moral des chevaliers.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/c31462193131ef95415ee63d2045d3d1e9a43982.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/2ace6896c2675b000f5f949c18fc1df2add3046f.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Fin du livre Deux.",
               "description": "Terminer le livre Deux.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/5f7cab3c98edcb04dcdf80bb922148c36e821fcd.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/bd6a95326ceae00b02b723c9b519b122eefa2c7a.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "2"
             },
             {
               "name": "Jack était ici !",
               "description": "Retrouver la trace de Jack.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/9499148850d07ee88befb2013059f0a8e69c45b1.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/6526c28570ce60447f22c02463090df94595be86.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Juste une illusion",
               "description": "Trouver tous les indices révélateurs.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/a69e50c72dd9d8d1cc38a462a6d90e89823f6264.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/3a3c02768da2002356abb045d2beeb99bd0ba1d7.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Appel au secour",
               "description": "S'occupée d'une âme sœur.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/e870204625d206a1bada3c108b28696989f92489.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/7ec112b2ca9ac3c0a4779a113cf53633f121fbdb.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Auto-défense",
               "description": "Préparer Elizabeth au pire.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/87271d980b37c19fe806a1b284368c7a468a205e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/ff1e67d120c1f5c620f3ef2be53ded57a06059c2.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Frère Marcus",
               "description": "Faire ressurgir une conséquence du passé.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/ceed654f43fdad6e4d37a182c9e6384403bf5e73.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/b8605ad7a8fa64f958aebc91e22274c0aba8fe72.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Vox Populi",
               "description": "Lever une armée.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/453301255a0d2ed1220d22e9ce7e9ea02a0834ae.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/afcaf4a0d94c520e1c3894d561807ff0e682c52a.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Comtesse Aliena",
               "description": "Devenir comptesse.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/b0ad0e954b866cc9283f06bf941f50e994415855.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/f767a369a0a281fba40c1d5b83bc845e3a99cae9.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Le serment",
               "description": "Tenir votre promesse.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/e704cc073b203ced0126b09719815f25b7eade7d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/b1a992e79d027e5730e53678ad591662cc17ff83.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "La vérité éclate",
               "description": "Dévoiler la conspiration au grand jour.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/71f7f7b077e452529d28113d1c8dbda25fb7985d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/84c8dc57e49cff41bf024affbeacc671f01c4f61.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
             },
             {
               "name": "Fin",
               "description": "Terminer le livre Trois.",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/2da2e27e9e42af7cf3c61ddfdfe0484681df5736.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/52f945b61e1f4f89c503e69d9d64a231706a8f0b.jpg",
-              "earned": false
+              "earned": false,
+              "groupId": "3"
+            }
+          ],
+          "groups": [
+            {
+              "id": "1",
+              "name": "Livre Un",
+              "kind": "set",
+              "dlcAppId": null,
+              "dlcName": null,
+              "owned": true,
+              "archived": false,
+              "total": 21,
+              "earned": 0,
+              "icon": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/234270/header_french.jpg?t=1789476278"
+            },
+            {
+              "id": "2",
+              "name": "Livre Deux",
+              "kind": "set",
+              "dlcAppId": null,
+              "dlcName": null,
+              "owned": true,
+              "archived": false,
+              "total": 10,
+              "earned": 0,
+              "icon": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/234270/header_french.jpg?t=1789476278"
+            },
+            {
+              "id": "3",
+              "name": "Livre Trois",
+              "kind": "set",
+              "dlcAppId": null,
+              "dlcName": null,
+              "owned": true,
+              "archived": false,
+              "total": 10,
+              "earned": 0,
+              "icon": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/234270/header_french.jpg?t=1789476278"
             }
           ],
           "earned": 0,
@@ -60918,7 +60997,7 @@
               "description": "Négociez avec succès un accord commercial",
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/653ab9b968eaea5afcfbcee53a467263fa40401f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/338228ace801c97818887e17a41f2bdfe1ef4509.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Suprématie",
@@ -62321,14 +62400,14 @@
               "earned": false
             }
           ],
-          "earned": 3,
+          "earned": 4,
           "total": 219,
           "familyShared": false,
-          "playtimeMinutes": 1163,
-          "lastPlayedAt": 1791832561000
+          "playtimeMinutes": 1193,
+          "lastPlayedAt": 1792186676000
         }
       },
-      "lastPlayedAt": 1791832561000,
+      "lastPlayedAt": 1792186676000,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 37186,
@@ -73487,8 +73566,8 @@
           "earned": 0,
           "total": 0,
           "familyShared": false,
-          "playtimeMinutes": 26117,
-          "lastPlayedAt": 1792098382000
+          "playtimeMinutes": 26373,
+          "lastPlayedAt": 1792182798000
         },
         "eso": {
           "icon": "https://media.steampowered.com/steamcommunity/public/images/apps/306130/2a0f43963c08a3755682adb2369918c9ad07ef1b.jpg",
@@ -80178,6 +80257,42 @@
               "groupId": "Joueur contre Joueur"
             },
             {
+              "id": 1800,
+              "name": "Maître des artisans",
+              "description": "Remplissez 25 commandes de maître.",
+              "points": 15,
+              "icon": "/esoui/art/icons/achievement_housing_80.dds",
+              "earned": true,
+              "date": 1792167710000,
+              "category": "Artisanat",
+              "subcategory": "General",
+              "groupId": "Artisanat"
+            },
+            {
+              "id": 1799,
+              "name": "Maître artisan",
+              "description": "Remplissez votre première commande de maître.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_housing_79.dds",
+              "earned": true,
+              "date": 1756485220000,
+              "category": "Artisanat",
+              "subcategory": "General",
+              "groupId": "Artisanat"
+            },
+            {
+              "id": 1801,
+              "name": "Artisan sans égal",
+              "description": "Remplissez 100 commandes de maître.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_housing_81.dds",
+              "earned": false,
+              "date": null,
+              "category": "Artisanat",
+              "subcategory": "General",
+              "groupId": "Artisanat"
+            },
+            {
               "id": 3728,
               "name": "Videur de poissons magistral",
               "description": "Levez des filets de poissons 1 000 fois.",
@@ -80269,42 +80384,6 @@
               "icon": "/esoui/art/icons/achievement_crafting_allprofessions50.dds",
               "earned": true,
               "date": 1759400990000,
-              "category": "Artisanat",
-              "subcategory": "General",
-              "groupId": "Artisanat"
-            },
-            {
-              "id": 1799,
-              "name": "Maître artisan",
-              "description": "Remplissez votre première commande de maître.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_housing_79.dds",
-              "earned": true,
-              "date": 1756485220000,
-              "category": "Artisanat",
-              "subcategory": "General",
-              "groupId": "Artisanat"
-            },
-            {
-              "id": 1800,
-              "name": "Maître des artisans",
-              "description": "Remplissez 25 commandes de maître.",
-              "points": 15,
-              "icon": "/esoui/art/icons/achievement_housing_80.dds",
-              "earned": false,
-              "date": null,
-              "category": "Artisanat",
-              "subcategory": "General",
-              "groupId": "Artisanat"
-            },
-            {
-              "id": 1801,
-              "name": "Artisan sans égal",
-              "description": "Remplissez 100 commandes de maître.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_housing_81.dds",
-              "earned": false,
-              "date": null,
               "category": "Artisanat",
               "subcategory": "General",
               "groupId": "Artisanat"
@@ -103458,13 +103537,13 @@
               "groupId": "Marché nocturne^md"
             },
             {
-              "id": 3935,
-              "name": "Pas besoin d'amis",
-              "description": "Terminez 15 phases sans l'aide d'un Compagnon ou d'un autre joueur dans l'Archive infinie.",
-              "points": 10,
-              "icon": "/esoui/art/icons/u40_ed2_solo_clears_silver.dds",
+              "id": 3936,
+              "name": "Tête-à-tête avec moi-même",
+              "description": "Terminez 60 phases sans l'aide d'un compagnon ou d'un autre joueur dans l'Archive infinie.",
+              "points": 15,
+              "icon": "/esoui/art/icons/u40_ed2_solo_clears_gold.dds",
               "earned": true,
-              "date": 1781887864000,
+              "date": 1792168570000,
               "category": "Archive infinie",
               "subcategory": "Général",
               "groupId": "Archive infinie"
@@ -103482,13 +103561,25 @@
               "groupId": "Archive infinie"
             },
             {
-              "id": 3936,
-              "name": "Tête-à-tête avec moi-même",
-              "description": "Terminez 60 phases sans l'aide d'un compagnon ou d'un autre joueur dans l'Archive infinie.",
+              "id": 3935,
+              "name": "Pas besoin d'amis",
+              "description": "Terminez 15 phases sans l'aide d'un Compagnon ou d'un autre joueur dans l'Archive infinie.",
+              "points": 10,
+              "icon": "/esoui/art/icons/u40_ed2_solo_clears_silver.dds",
+              "earned": true,
+              "date": 1781887864000,
+              "category": "Archive infinie",
+              "subcategory": "Général",
+              "groupId": "Archive infinie"
+            },
+            {
+              "id": 3937,
+              "name": "C'est un investissement",
+              "description": "Dépensez 10 000 Fortunes de l'Archive",
               "points": 15,
-              "icon": "/esoui/art/icons/u40_ed2_solo_clears_gold.dds",
-              "earned": false,
-              "date": null,
+              "icon": "/esoui/art/icons/u40_ed2_spend_tome_coins_silver.dds",
+              "earned": true,
+              "date": 1792096579000,
               "category": "Archive infinie",
               "subcategory": "Général",
               "groupId": "Archive infinie"
@@ -103501,18 +103592,6 @@
               "icon": "/esoui/art/icons/u40_ed2_collect_tome_coins.dds",
               "earned": true,
               "date": 1781887120000,
-              "category": "Archive infinie",
-              "subcategory": "Général",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3937,
-              "name": "C'est un investissement",
-              "description": "Dépensez 10 000 Fortunes de l'Archive",
-              "points": 15,
-              "icon": "/esoui/art/icons/u40_ed2_spend_tome_coins_silver.dds",
-              "earned": false,
-              "date": null,
               "category": "Archive infinie",
               "subcategory": "Général",
               "groupId": "Archive infinie"
@@ -103866,6 +103945,90 @@
               "groupId": "Archive infinie"
             },
             {
+              "id": 3760,
+              "name": "Gros bonnet",
+              "description": "Vaincre 1 000 maligarphies dans l'Archive infinie.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_u40_ed2_heavy_monsters.dds",
+              "earned": true,
+              "date": 1792169382000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration",
+              "groupId": "Archive infinie"
+            },
+            {
+              "id": 3761,
+              "name": "Monstre mercenaire",
+              "description": "Vaincre 2 000 maligarphies dans l'Archive infinie.",
+              "points": 15,
+              "icon": "/esoui/art/icons/achievement_u40_ed2_heavy_monsters_plus.dds",
+              "earned": false,
+              "date": null,
+              "category": "Archive infinie",
+              "subcategory": "Exploration",
+              "groupId": "Archive infinie"
+            },
+            {
+              "id": 3762,
+              "name": "Soldat de fortune",
+              "description": "Vaincre 5 000 maligarphies dans l'Archive infinie.",
+              "points": 50,
+              "icon": "/esoui/art/icons/achievement_u40_ed2_heavy_dynamics_2.dds",
+              "earned": false,
+              "date": null,
+              "category": "Archive infinie",
+              "subcategory": "Exploration",
+              "groupId": "Archive infinie"
+            },
+            {
+              "id": 3798,
+              "name": "Adulation dans l'Archive",
+              "description": "Rencontrez les factions suivantes dans l'Archive infinie.",
+              "points": 10,
+              "icon": "/esoui/art/icons/achievement_u40_ed2_factions_encountered.dds",
+              "earned": true,
+              "date": 1792097102000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration",
+              "groupId": "Archive infinie"
+            },
+            {
+              "id": 3803,
+              "name": "Fortifications féroces",
+              "description": "Obtenez 25 Versets ou Visions défensifs",
+              "points": 10,
+              "icon": "/esoui/art/icons/u40_ed2_defensive_total_25.dds",
+              "earned": true,
+              "date": 1792095980000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration",
+              "groupId": "Archive infinie"
+            },
+            {
+              "id": 3802,
+              "name": "Un solide bouclier",
+              "description": "Obtenez 5 Versets ou Visions défensifs",
+              "points": 5,
+              "icon": "/esoui/art/icons/u40_ed2_defensive_total_5.dds",
+              "earned": true,
+              "date": 1781885282000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration",
+              "groupId": "Archive infinie"
+            },
+            {
+              "id": 3804,
+              "name": "Sous la protection de Mora",
+              "description": "Obtenez 75 Versets ou Visions défensifs",
+              "points": 15,
+              "icon": "/esoui/art/icons/u40_ed2_defensive_total_75.dds",
+              "earned": false,
+              "date": null,
+              "category": "Archive infinie",
+              "subcategory": "Exploration",
+              "groupId": "Archive infinie"
+            },
+            {
               "id": 3773,
               "name": "Deuxième passage",
               "description": "Vainquez 1 boss de l'Archive infinie dans le deuxième Arc.",
@@ -104003,42 +104166,6 @@
               "description": "Obtenez 75 Versets ou Visions utilitaires",
               "points": 15,
               "icon": "/esoui/art/icons/u40_ed2_utility_total_75.dds",
-              "earned": false,
-              "date": null,
-              "category": "Archive infinie",
-              "subcategory": "Exploration",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3802,
-              "name": "Un solide bouclier",
-              "description": "Obtenez 5 Versets ou Visions défensifs",
-              "points": 5,
-              "icon": "/esoui/art/icons/u40_ed2_defensive_total_5.dds",
-              "earned": true,
-              "date": 1781885282000,
-              "category": "Archive infinie",
-              "subcategory": "Exploration",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3803,
-              "name": "Fortifications féroces",
-              "description": "Obtenez 25 Versets ou Visions défensifs",
-              "points": 10,
-              "icon": "/esoui/art/icons/u40_ed2_defensive_total_25.dds",
-              "earned": false,
-              "date": null,
-              "category": "Archive infinie",
-              "subcategory": "Exploration",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3804,
-              "name": "Sous la protection de Mora",
-              "description": "Obtenez 75 Versets ou Visions défensifs",
-              "points": 15,
-              "icon": "/esoui/art/icons/u40_ed2_defensive_total_75.dds",
               "earned": false,
               "date": null,
               "category": "Archive infinie",
@@ -104267,54 +104394,6 @@
               "description": "Obtenez toutes les Visions de l'ensemble ardent puis obtenez le Verset d'atronach de fer dans l'Archive infinie.",
               "points": 15,
               "icon": "/esoui/art/icons/achievement_u40_ed2_iron_atronach.dds",
-              "earned": false,
-              "date": null,
-              "category": "Archive infinie",
-              "subcategory": "Exploration",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3798,
-              "name": "Adulation dans l'Archive",
-              "description": "Rencontrez les factions suivantes dans l'Archive infinie.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_u40_ed2_factions_encountered.dds",
-              "earned": false,
-              "date": null,
-              "category": "Archive infinie",
-              "subcategory": "Exploration",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3760,
-              "name": "Gros bonnet",
-              "description": "Vaincre 1 000 maligarphies dans l'Archive infinie.",
-              "points": 10,
-              "icon": "/esoui/art/icons/achievement_u40_ed2_heavy_monsters.dds",
-              "earned": false,
-              "date": null,
-              "category": "Archive infinie",
-              "subcategory": "Exploration",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3761,
-              "name": "Monstre mercenaire",
-              "description": "Vaincre 2 000 maligarphies dans l'Archive infinie.",
-              "points": 15,
-              "icon": "/esoui/art/icons/achievement_u40_ed2_heavy_monsters_plus.dds",
-              "earned": false,
-              "date": null,
-              "category": "Archive infinie",
-              "subcategory": "Exploration",
-              "groupId": "Archive infinie"
-            },
-            {
-              "id": 3762,
-              "name": "Soldat de fortune",
-              "description": "Vaincre 5 000 maligarphies dans l'Archive infinie.",
-              "points": 50,
-              "icon": "/esoui/art/icons/achievement_u40_ed2_heavy_dynamics_2.dds",
               "earned": false,
               "date": null,
               "category": "Archive infinie",
@@ -120617,11 +120696,11 @@
               "icon": null
             }
           ],
-          "earned": 1001,
+          "earned": 1007,
           "total": 3913,
-          "earnedPoints": 16330,
+          "earnedPoints": 16405,
           "totalPoints": 75895,
-          "generatedAt": 1792095662000,
+          "generatedAt": 1792177721000,
           "characterName": "Yohgaz"
         },
         "psn": {
@@ -122647,7 +122726,7 @@
           "lastPlayedAt": null
         }
       },
-      "lastPlayedAt": 1792098382000,
+      "lastPlayedAt": 1792182798000,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 17596,
@@ -442907,7 +442986,7 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ga5.jpg"
     }
   ],
-  "builtAt": 1792152169550,
+  "builtAt": 1792209083941,
   "platformDiag": {
     "steam": {
       "count": 309,
@@ -442949,6 +443028,12 @@
   "setsSteam": {
     "jeux": [
       {
+        "id": "ken-follett-s-the-pillars-of-the-earth",
+        "nom": "Ken Follett's The Pillars of the Earth",
+        "ensembles": 3,
+        "dlc": 0
+      },
+      {
         "id": "american-truck-simulator",
         "nom": "American Truck Simulator",
         "ensembles": 20,
@@ -442973,6 +443058,13 @@
         "dlc": 1
       }
     ],
-    "nouveaux": []
+    "nouveaux": [
+      {
+        "id": "ken-follett-s-the-pillars-of-the-earth",
+        "nom": "Ken Follett's The Pillars of the Earth",
+        "ensembles": 3,
+        "dlc": 0
+      }
+    ]
   }
 }
