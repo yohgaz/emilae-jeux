@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T09:22:06.949Z",
+  "updatedAt": "2026-10-19T21:48:36.920Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -52865,13 +52865,13 @@
           "name": "Emilae Lord",
           "title": "Noirceur infinie",
           "world": "Louisoix [Chaos]",
-          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1792142277",
-          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1792142277",
-          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/8/hg8ofSSOKzqng290No55trV4mI.png",
-          "activeJobNameImg": "https://lds-img.finalfantasyxiv.com/h/a/njZa3LPXuepHNVblxWtZRhVSRg.png",
-          "activeJobLevel": 97,
+          "portrait": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fl0.jpg?1792446431",
+          "avatar": "https://img2.finalfantasyxiv.com/f/1b69df7ce6e735bbfd3774425aac0ccc_0a122616f3718d3f45cab10fd8fc1604fc0.jpg?1792446431",
+          "activeJobIcon": "https://lds-img.finalfantasyxiv.com/h/0/Fso5hanZVEEAaZ7OGWJsXpf3jw.png",
+          "activeJobNameImg": "https://lds-img.finalfantasyxiv.com/h/v/F-Iyk2Zt4B0m6205eewo8k72GQ.png",
+          "activeJobLevel": 90,
           "freeCompany": "MiaouSpirit",
-          "portraitCutout": "ffxiv-portrait-cutouts/f5221179463c39980af898f7cb22c58e7983d5b4.png"
+          "portraitCutout": "ffxiv-portrait-cutouts/6c40bd4c793594263f9cfe918f25915f5e6fb8dd.png"
         },
         "characterSheet": {
           "race": "Élézen",
@@ -52888,23 +52888,23 @@
             "rows": [
               {
                 "name": "Force",
-                "value": "3141"
+                "value": "331"
               },
               {
                 "name": "Dextérité",
-                "value": "406"
+                "value": "1926"
               },
               {
                 "name": "Vitalité",
-                "value": "3459"
+                "value": "1955"
               },
               {
                 "name": "Intelligence",
-                "value": "257"
+                "value": "255"
               },
               {
                 "name": "Esprit",
-                "value": "424"
+                "value": "291"
               }
             ]
           },
@@ -52913,15 +52913,15 @@
             "rows": [
               {
                 "name": "Critique",
-                "value": "1992"
+                "value": "1258"
               },
               {
                 "name": "Détermination",
-                "value": "1971"
+                "value": "1137"
               },
               {
                 "name": "Coups nets",
-                "value": "642"
+                "value": "1216"
               }
             ]
           },
@@ -52930,11 +52930,11 @@
             "rows": [
               {
                 "name": "Défense",
-                "value": "5016"
+                "value": "1902"
               },
               {
                 "name": "Défense magique",
-                "value": "5016"
+                "value": "1902"
               }
             ]
           },
@@ -52943,11 +52943,11 @@
             "rows": [
               {
                 "name": "Attaque",
-                "value": "3141"
+                "value": "1926"
               },
               {
                 "name": "Vivacité",
-                "value": "908"
+                "value": "557"
               }
             ]
           },
@@ -52956,15 +52956,15 @@
             "rows": [
               {
                 "name": "Magie offensive",
-                "value": "257"
+                "value": "255"
               },
               {
                 "name": "Magie curative",
-                "value": "424"
+                "value": "291"
               },
               {
                 "name": "Célérité",
-                "value": "414"
+                "value": "400"
               }
             ]
           },
@@ -52973,69 +52973,69 @@
             "rows": [
               {
                 "name": "Ténacité",
-                "value": "886"
+                "value": "400"
               },
               {
                 "name": "Piété",
-                "value": "425"
+                "value": "390"
               }
             ]
           }
         ],
         "equipment": [
-          "https://lds-img.finalfantasyxiv.com/itemicon/81/81d20a1e7940e8e91ef49db5e61413c9029307fa.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/db/db445edcc83eb7484c10437a8cc7e060697b7984.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/1b/1bd29e43c3f548e5d637519252a36236e732fe22.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/58/588ecc50ab9124b5ef185a1256d164ccf80285b4.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/7c/7c0610b61a2c433850040b952e6e2454a7f609ca.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/c0/c05188470a604527525bb4a063877a4afd57c89f.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/a2/a2d3eb2c8e01d66af551ddd284c05aece1231201.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/77/77650d32c47cbfb21887c9e5abdf9fec68aa1df0.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/21/212a6c3d40c2faf113098b42d6a582b7a80175a4.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/f2/f2fd235769e4dde7b0b04414a4de75ba1f815c0d.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/13/1331c0622e102e006a72eb20d1f40df2bc40fcd5.png?n7.57",
-          "https://lds-img.finalfantasyxiv.com/itemicon/70/70b2abeab9a809776f4df4591c76c550495eb0ac.png?n7.57"
+          "https://lds-img.finalfantasyxiv.com/itemicon/48/4845e8797eb063f8f50a3354a6072d9623535999.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/6f/6feece73ce95139604db1ee158e5f4653232774d.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/06/0650479ecae84c6ddffdd75bc9d90e5341a3a7a1.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/be/be340bd2033316f638457dffaf470f2f88fb781b.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/54/547632755299dcf8e3ff65cd1a8c29938f85d80a.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/e3/e32a877dd2f687d6511a698170c4c6ff2d652380.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/93/93e867eb6bbd15ff11b26925b8207f7b589d64c0.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/05/059c2845603dbb7f0e1567bdd50b900ad4118be7.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/fc/fc41f114a09300fe0681eb354de08490ec504cfe.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.57",
+          "https://lds-img.finalfantasyxiv.com/itemicon/df/df0c8b637453cd3f1c0bc08002adb05e5514b156.png?n7.57"
         ],
         "equipmentSlots": [
           {
             "slot": "0",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/81/81d20a1e7940e8e91ef49db5e61413c9029307fa.png?n7.57",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/48/4845e8797eb063f8f50a3354a6072d9623535999.png?n7.57",
             "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "2",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/db/db445edcc83eb7484c10437a8cc7e060697b7984.png?n7.57",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/6f/6feece73ce95139604db1ee158e5f4653232774d.png?n7.57",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "3",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/1b/1bd29e43c3f548e5d637519252a36236e732fe22.png?n7.57",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/06/0650479ecae84c6ddffdd75bc9d90e5341a3a7a1.png?n7.57",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "4",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/58/588ecc50ab9124b5ef185a1256d164ccf80285b4.png?n7.57",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/be/be340bd2033316f638457dffaf470f2f88fb781b.png?n7.57",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "6",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/7c/7c0610b61a2c433850040b952e6e2454a7f609ca.png?n7.57",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/54/547632755299dcf8e3ff65cd1a8c29938f85d80a.png?n7.57",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
           {
             "slot": "7",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/c0/c05188470a604527525bb4a063877a4afd57c89f.png?n7.57",
-            "dyeable": false,
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/e3/e32a877dd2f687d6511a698170c4c6ff2d652380.png?n7.57",
+            "dyeable": true,
             "dye": null,
             "sync": false
           },
@@ -53055,42 +53055,42 @@
           },
           {
             "slot": "8",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/a2/a2d3eb2c8e01d66af551ddd284c05aece1231201.png?n7.57",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/93/93e867eb6bbd15ff11b26925b8207f7b589d64c0.png?n7.57",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "9",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/77/77650d32c47cbfb21887c9e5abdf9fec68aa1df0.png?n7.57",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/05/059c2845603dbb7f0e1567bdd50b900ad4118be7.png?n7.57",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "10",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/21/212a6c3d40c2faf113098b42d6a582b7a80175a4.png?n7.57",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/fc/fc41f114a09300fe0681eb354de08490ec504cfe.png?n7.57",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "11",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/f2/f2fd235769e4dde7b0b04414a4de75ba1f815c0d.png?n7.57",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.57",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "12",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/13/1331c0622e102e006a72eb20d1f40df2bc40fcd5.png?n7.57",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/f2/f20182e43e4c8eb2803bfeadb5fcf70143f16046.png?n7.57",
             "dyeable": false,
             "dye": null,
             "sync": false
           },
           {
             "slot": "13",
-            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/70/70b2abeab9a809776f4df4591c76c550495eb0ac.png?n7.57",
+            "icon": "https://lds-img.finalfantasyxiv.com/itemicon/df/df0c8b637453cd3f1c0bc08002adb05e5514b156.png?n7.57",
             "dyeable": false,
             "dye": null,
             "sync": false
@@ -53106,10 +53106,34 @@
           ]
         },
         "achievements": {
-          "earned": 1969,
+          "earned": 1972,
           "total": 3497,
-          "points": "17415",
+          "points": "17450",
           "recent": [
+            {
+              "id": "3463",
+              "name": "Mythe de la magie",
+              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/a5/a56e50602be82d7fa876952fba62de5e0bd245b6.png?n7.57",
+              "points": 20,
+              "earned": true,
+              "date": 1792445783000
+            },
+            {
+              "id": "3441",
+              "name": "Mage rouge mythique",
+              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/2f/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png?n7.57",
+              "points": 5,
+              "earned": true,
+              "date": 1792445783000
+            },
+            {
+              "id": "3386",
+              "name": "Armes des Manderville : couteaux manderveilleux",
+              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/b1/b12636f963e9830eac0cf11d711f1f29861c2275.png?n7.57",
+              "points": 10,
+              "earned": true,
+              "date": 1792445783000
+            },
             {
               "id": "4025",
               "name": "Dresseur intermédiaire",
@@ -55085,30 +55109,6 @@
               "points": 5,
               "earned": true,
               "date": 1739286198000
-            },
-            {
-              "id": "3515",
-              "name": "Cartographe du continent : L'Hoirie recouvrée",
-              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n7.57",
-              "points": 10,
-              "earned": true,
-              "date": 1739286198000
-            },
-            {
-              "id": "3461",
-              "name": "Pêcheur mythique",
-              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n7.57",
-              "points": 5,
-              "earned": true,
-              "date": 1738767787000
-            },
-            {
-              "id": "2950",
-              "name": "Féru de la pioche VII",
-              "icon": "https://lds-img.finalfantasyxiv.com/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n7.57",
-              "points": 10,
-              "earned": true,
-              "date": 1738606641000
             }
           ],
           "categories": [
@@ -62507,7 +62507,7 @@
             {
               "id": "3",
               "name": "Personnage",
-              "earned": 459,
+              "earned": 461,
               "total": 558,
               "achievements": [
                 {
@@ -62643,8 +62643,8 @@
                   "name": "Mythe de la magie",
                   "icon": "https://lds-img.finalfantasyxiv.com/itemicon/a5/a56e50602be82d7fa876952fba62de5e0bd245b6.png?n7.57",
                   "points": 20,
-                  "earned": false,
-                  "date": null
+                  "earned": true,
+                  "date": 1792445783000
                 },
                 {
                   "id": "3464",
@@ -65083,8 +65083,8 @@
                   "name": "Mage rouge mythique",
                   "icon": "https://lds-img.finalfantasyxiv.com/itemicon/2f/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png?n7.57",
                   "points": 5,
-                  "earned": false,
-                  "date": null
+                  "earned": true,
+                  "date": 1792445783000
                 },
                 {
                   "id": "2910",
@@ -66979,7 +66979,7 @@
             {
               "id": "4",
               "name": "Objets",
-              "earned": 283,
+              "earned": 284,
               "total": 674,
               "achievements": [
                 {
@@ -70488,11 +70488,11 @@
                 },
                 {
                   "id": "3386",
-                  "name": "???",
+                  "name": "Armes des Manderville : couteaux manderveilleux",
                   "icon": "https://lds-img.finalfantasyxiv.com/itemicon/b1/b12636f963e9830eac0cf11d711f1f29861c2275.png?n7.57",
                   "points": 10,
-                  "earned": false,
-                  "date": null
+                  "earned": true,
+                  "date": 1792445783000
                 },
                 {
                   "id": "3143",
@@ -85102,7 +85102,7 @@
             "abbr": "DNC",
             "name": "Danseur",
             "role": "ranged",
-            "level": 84,
+            "level": 85,
             "icon": "https://lds-img.finalfantasyxiv.com/h/t/HK0jQ1y7YV9qm30cxGOVev6Cck.png"
           },
           {
@@ -85123,7 +85123,7 @@
             "abbr": "RDM",
             "name": "Mage rouge",
             "role": "caster",
-            "level": 95,
+            "level": 100,
             "icon": "https://lds-img.finalfantasyxiv.com/h/q/s3MlLUKmRAHy0pH57PnFStHmIw.png"
           },
           {
@@ -85231,7 +85231,7 @@
           "level": 40,
           "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-10-16T09:22:06.925Z"
+        "updatedAt": "2026-10-19T21:48:36.886Z"
       },
       "pitch": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!",
       "studios": [
