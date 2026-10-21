@@ -1049,7 +1049,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/8930/179666988127a1679f8b4501d5a3df5956662a0c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/8930/d4d05d99f1fd628ab359edbcd447017b5c7743c9.jpg",
               "earned": false,
-              "percent": 26.2
+              "percent": 26.3
             },
             {
               "name": "Marco Polo",
@@ -5129,7 +5129,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/49520/6abfe66cbd6a05d7f1236a349f1264b4dfcbe88c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/49520/5ab5061667efc056ec0d6f03c4c59c2a8e6d857c.jpg",
               "earned": true,
-              "percent": 39.3
+              "percent": 39.2
             },
             {
               "name": "Reformation du groupe",
@@ -6815,7 +6815,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/55150/937c3e3f8c60a7ce91e0e455f1de99eb2292a46e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/55150/c201cb24caa005ff940c2e4e3a23ca2a843d4b9a.jpg",
               "earned": false,
-              "percent": 36.8
+              "percent": 36.9
             },
             {
               "name": "Marteau de l'Imperium",
@@ -6823,7 +6823,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/55150/cad079fe883f24378163bbce659787f34c562c55.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/55150/c201cb24caa005ff940c2e4e3a23ca2a843d4b9a.jpg",
               "earned": false,
-              "percent": 35.8
+              "percent": 35.9
             },
             {
               "name": "À la fin de toutes choses",
@@ -8619,7 +8619,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/105600/7f9006b20f6615ef0e93c72cade8fb26c3818db7.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/105600/b8d1c66a82961f679321d361c0c917b6984ba02c.jpg",
               "earned": false,
-              "percent": 51
+              "percent": 50.9
             },
             {
               "name": "Worm Fodder",
@@ -11651,7 +11651,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 46.4,
+              "percent": 46.3,
               "date": 1373384084000,
               "groupId": "default"
             },
@@ -12125,7 +12125,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/203770/dc85f47e75892abbe4ff09774883b142b0f73516.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/203770/846bdf443d8c6ed42e4f96032c91be1d868e59fa.jpg",
               "earned": false,
-              "percent": 14.5
+              "percent": 14.4
             },
             {
               "name": "A Pope of My Own",
@@ -41044,7 +41044,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/230190/2c3e5a7d2b6426b875b6ee210cbe15e91badfa6f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/230190/47250ec2dac98e22a51e751a76bf9c2569e7e2ef.jpg",
               "earned": false,
-              "percent": 10.8
+              "percent": 10.7
             },
             {
               "name": "Homme au faciès brûlé",
@@ -47534,7 +47534,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/234270/b31f271b4df9d886a0e1519843918c602ec11f0f.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 11
+              "percent": 10.9
             },
             {
               "name": "Négociante expert.",
@@ -52813,7 +52813,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/239140/08ff68c17f764d97c4df52119352aeeeccb55b03.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/239140/09c81ee5b93906d2d08a0ac97c5fa04c8377073e.jpg",
               "earned": false,
-              "percent": 21.5
+              "percent": 21.4
             },
             {
               "name": "Attrape ça !",
@@ -55616,7 +55616,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/885c47b3cfbee1f1338e05837e60c9c02c2cf065.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fc5c40f3429120652211c9e95570752ba5810f22.jpg",
               "earned": false,
-              "percent": 24.7
+              "percent": 24.8
             },
             {
               "name": "???'s Soul",
@@ -55968,7 +55968,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b23edce72ece02eda55e3f98b78bce0f8a429721.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fc5c40f3429120652211c9e95570752ba5810f22.jpg",
               "earned": false,
-              "percent": 22.6
+              "percent": 22.7
             },
             {
               "name": "Broken Ankh",
@@ -56472,7 +56472,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29927ddbfcf29cc745ef727f7ec24c993b850750.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f9a610694123b2077be2eb04fa35f3f415e4a205.jpg",
               "earned": false,
-              "percent": 26.1
+              "percent": 26.2
             },
             {
               "name": "Purity",
@@ -56928,7 +56928,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f92cd12685f4e8c28c9a22f765a2cf2dedbf9ab2.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f9a610694123b2077be2eb04fa35f3f415e4a205.jpg",
               "earned": false,
-              "percent": 15.2
+              "percent": 15.3
             },
             {
               "name": "Lil' Baby",
@@ -57384,7 +57384,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5dd94da241d350b3ba5077fdee63e36518fe54be.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/07272a9c5bbdc24ea2dd393c3b53b2005da4ab37.jpg",
               "earned": false,
-              "percent": 15.1
+              "percent": 15.2
             },
             {
               "name": "Crooked Penny",
@@ -57480,7 +57480,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9364bed0650d8886ec631247d70c61dc3675b643.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/07272a9c5bbdc24ea2dd393c3b53b2005da4ab37.jpg",
               "earned": false,
-              "percent": 12.6
+              "percent": 12.7
             },
             {
               "name": "Duality",
@@ -58376,7 +58376,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9948a37b700e9afd90377df97a39f1fd391a7c74.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 16.3
+              "percent": 16.4
             },
             {
               "name": "Urn of Souls",
@@ -58472,7 +58472,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8c580f5da6297a783bfec85688b237db8ba83a7f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 13.3
+              "percent": 13.4
             },
             {
               "name": "Red Stew",
@@ -58480,7 +58480,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a03d3a85ee63730010a97b0a3a4e2ab82de9a146.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 11.2
+              "percent": 11.3
             },
             {
               "name": "Birthright",
@@ -58688,7 +58688,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/829b8d516680a69a6ffb63bf98e4b544290339a7.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 9.9
+              "percent": 10
             },
             {
               "name": "Astral Projection",
@@ -59128,7 +59128,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/77105edc5b35b6ec69c74451c57835393cdb1b4e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 22.8
+              "percent": 22.9
             },
             {
               "name": "Pica Run",
@@ -59248,7 +59248,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b65ab23881ecdfa2d111016981d6309ca3da6846.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 8.7
+              "percent": 8.8
             },
             {
               "name": "The Empress",
@@ -59368,7 +59368,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/391f395c4a1ad915de834385c14b85907fe7c239.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 10
+              "percent": 10.1
             },
             {
               "name": "The Sun and the Moon",
@@ -59408,7 +59408,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0092fd74cf68a83eef3cda2539621525091fee71.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 23.1
+              "percent": 23.2
             },
             {
               "name": "Mega Mush",
@@ -59456,7 +59456,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ac37304daa61aa233a945c6701d24fcac688c4af.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 7
+              "percent": 7.1
             },
             {
               "name": "Lucky Sack",
@@ -59464,7 +59464,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d91d85bccd2641d80acce9b91e10a24a2c4e29ae.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 6.5
+              "percent": 6.6
             },
             {
               "name": "Your Soul",
@@ -59472,7 +59472,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e59d5209b5c83cc24c7e1dce7e437130319fcb8c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29349d3d65a5b203402972074862b4b182484b5d.jpg",
               "earned": false,
-              "percent": 7.8
+              "percent": 7.9
             },
             {
               "name": "Number Magnet",
@@ -64808,7 +64808,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/262060/9254b39db84131df0c3458a29db0f57017773fcf.jpg",
               "earned": false,
               "groupId": "0",
-              "percent": 28.4
+              "percent": 28.3
             },
             {
               "name": "Mode strict",
@@ -65258,7 +65258,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/262060/61fde9bf7a51ca0b8936e042b9cb5e2ea15c30d0.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 29
+              "percent": 28.9
             },
             {
               "name": "Vaincre par la peur",
@@ -67411,7 +67411,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/269190/0aa8061a5c75a3f9113ce85d3cb71c7e7bcb9fbb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/269190/f9dcdf12182514cdf2ba04e43eecbe2565c13ed0.jpg",
               "earned": false,
-              "percent": 6
+              "percent": 5.9
             },
             {
               "name": "Orphelinat",
@@ -68850,7 +68850,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/270880/9d0780b500123888cb8c6a455a11bdb998579e47.jpg",
               "earned": false,
               "groupId": "13",
-              "percent": 29.6
+              "percent": 29.7
             },
             {
               "name": "De beaux visages, de beaux paysages",
@@ -68859,7 +68859,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/270880/3c72c7c0ee8d125100cadfa49083d59612b81f0b.jpg",
               "earned": false,
               "groupId": "13",
-              "percent": 8.7
+              "percent": 8.8
             },
             {
               "name": "Course du Big Muddy",
@@ -68886,7 +68886,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/270880/cab7db9cadb5045caf451379dac519fcc3e78141.jpg",
               "earned": false,
               "groupId": "11",
-              "percent": 0.7
+              "percent": 0.8
             },
             {
               "name": "Ça vaut le détour",
@@ -69216,7 +69216,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/84e8189873b3ecfe8ecdc51edab7257b617f8518.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/84a44175204ad375d85b115549e7031b07b37e19.jpg",
               "earned": true,
-              "percent": 36.4
+              "percent": 36.5
             },
             {
               "name": "Creuser profond",
@@ -69304,7 +69304,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/952c4c2441c2b611d8aea239588b9295e13e7f88.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/0d6013a8388d74eae1470990b405792e34608ace.jpg",
               "earned": false,
-              "percent": 24.1
+              "percent": 24.2
             },
             {
               "name": "Provolution",
@@ -69320,7 +69320,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/c5f859edf18934e301976342a89c24a5a752b7b3.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/7e84991a3ab00ed0777071b45f346cac40ef1df7.jpg",
               "earned": false,
-              "percent": 16.5
+              "percent": 16.6
             },
             {
               "name": "La Grande Flotte",
@@ -70096,7 +70096,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/12411d12a4e2ca6d2e5540628b0652b4adb98150.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/281990/0523f95097355e1c295a5e086a99ea28ecfbac5d.jpg",
               "earned": false,
-              "percent": 16.3
+              "percent": 16.4
             },
             {
               "name": "Les opposés s'attirent",
@@ -80226,7 +80226,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/292030/d8374b28d93ef6b6feca2e82bcedd6b715679681.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/292030/b503d4fdfd91cdb1d53d29f9c511c1a86a20cead.jpg",
               "earned": false,
-              "percent": 19
+              "percent": 19.1
             },
             {
               "name": "L'étoffe des héros",
@@ -80314,7 +80314,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/292030/96b81977f5938a42d86afe8efa87a69e0d302573.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/292030/79bde44264f8b2a1c0fb769b8a004edfdbdbc61b.jpg",
               "earned": false,
-              "percent": 2.2
+              "percent": 2.3
             },
             {
               "name": "David et Golyat",
@@ -81326,7 +81326,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/292120/31a664fd81becc8297b96b92a113b1dd075166f4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/292120/47440551afb1322947ddad94a83273c780fc161a.jpg",
               "earned": true,
-              "percent": 7.4
+              "percent": 7.5
             },
             {
               "name": "Médaille du Saboteur",
@@ -83486,8 +83486,8 @@
           "earned": 0,
           "total": 0,
           "familyShared": false,
-          "playtimeMinutes": 26446,
-          "lastPlayedAt": 1792251911000
+          "playtimeMinutes": 26542,
+          "lastPlayedAt": 1792526283000
         },
         "eso": {
           "icon": "https://media.steampowered.com/steamcommunity/public/images/apps/306130/2a0f43963c08a3755682adb2369918c9ad07ef1b.jpg",
@@ -119013,6 +119013,42 @@
               "groupId": "High Isle"
             },
             {
+              "id": 3360,
+              "name": "Jeune prodige",
+              "description": "Terminez une quête journalière compétitive de Récits de Gloires pour la première fois.",
+              "points": 5,
+              "icon": "/esoui/art/icons/u34_tribute_pvpdaily1.dds",
+              "earned": true,
+              "date": 1792250759000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires",
+              "groupId": "High Isle"
+            },
+            {
+              "id": 3361,
+              "name": "Prodige aguerri",
+              "description": "Terminez une quête journalière compétitive des Récits de Gloires 10 fois.",
+              "points": 10,
+              "icon": "/esoui/art/icons/u34_tribute_pvpdaily10.dds",
+              "earned": false,
+              "date": null,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires",
+              "groupId": "High Isle"
+            },
+            {
+              "id": 3362,
+              "name": "Maître prodige",
+              "description": "Terminez une quête journalière compétitive des Récits de Gloires 30 fois.",
+              "points": 15,
+              "icon": "/esoui/art/icons/u34_tribute_pvpdaily30.dds",
+              "earned": false,
+              "date": null,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires",
+              "groupId": "High Isle"
+            },
+            {
               "id": 3351,
               "name": "Novice du Club des Agapes",
               "description": "Atteignez le rang de Novice auprès du Club des Agapes.",
@@ -119606,42 +119642,6 @@
               "description": "Atteignez le rang de Maître auprès du Club des Agapes.",
               "points": 50,
               "icon": "/esoui/art/icons/u34_tribute_rank8.dds",
-              "earned": false,
-              "date": null,
-              "category": "High Isle",
-              "subcategory": "Récits de Gloires",
-              "groupId": "High Isle"
-            },
-            {
-              "id": 3360,
-              "name": "Jeune prodige",
-              "description": "Terminez une quête journalière compétitive de Récits de Gloires pour la première fois.",
-              "points": 5,
-              "icon": "/esoui/art/icons/u34_tribute_pvpdaily1.dds",
-              "earned": false,
-              "date": null,
-              "category": "High Isle",
-              "subcategory": "Récits de Gloires",
-              "groupId": "High Isle"
-            },
-            {
-              "id": 3361,
-              "name": "Prodige aguerri",
-              "description": "Terminez une quête journalière compétitive des Récits de Gloires 10 fois.",
-              "points": 10,
-              "icon": "/esoui/art/icons/u34_tribute_pvpdaily10.dds",
-              "earned": false,
-              "date": null,
-              "category": "High Isle",
-              "subcategory": "Récits de Gloires",
-              "groupId": "High Isle"
-            },
-            {
-              "id": 3362,
-              "name": "Maître prodige",
-              "description": "Terminez une quête journalière compétitive des Récits de Gloires 30 fois.",
-              "points": 15,
-              "icon": "/esoui/art/icons/u34_tribute_pvpdaily30.dds",
               "earned": false,
               "date": null,
               "category": "High Isle",
@@ -130616,11 +130616,11 @@
               "icon": null
             }
           ],
-          "earned": 1008,
+          "earned": 1009,
           "total": 3913,
-          "earnedPoints": 16415,
+          "earnedPoints": 16420,
           "totalPoints": 75895,
-          "generatedAt": 1792247542000,
+          "generatedAt": 1792521028000,
           "characterName": "Yohgaz"
         },
         "psn": {
@@ -132897,7 +132897,7 @@
           "lastPlayedAt": null
         }
       },
-      "lastPlayedAt": 1792251911000,
+      "lastPlayedAt": 1792526283000,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 17596,
@@ -133395,7 +133395,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/312750/3ad68cb92ce17f838425dd272e7fbcd9bfedbd75.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/312750/3ad68cb92ce17f838425dd272e7fbcd9bfedbd75.jpg",
               "earned": true,
-              "percent": 26.4
+              "percent": 26.5
             },
             {
               "name": "Rubicante vaincu",
@@ -133619,7 +133619,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/312750/57607792251f4fe9dfa2c2c619d09390aad51d66.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/312750/57607792251f4fe9dfa2c2c619d09390aad51d66.jpg",
               "earned": true,
-              "percent": 17.3
+              "percent": 17.4
             },
             {
               "name": "Les poches pleines",
@@ -136300,7 +136300,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/335300/c8c582769a5249bdf670b246dc0737b4f3a16d9d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/335300/6dac4c724764af81ce4c53a66a6c0c83e6508f7d.jpg",
               "earned": false,
-              "percent": 35.4
+              "percent": 35.5
             },
             {
               "name": "Dernier Géant",
@@ -136340,7 +136340,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/335300/d0888ff14e2efeef7152865832471e06c8dfd516.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/335300/6dac4c724764af81ce4c53a66a6c0c83e6508f7d.jpg",
               "earned": false,
-              "percent": 49.2
+              "percent": 49.3
             },
             {
               "name": "Chevalier-miroir",
@@ -136452,7 +136452,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/335300/03acf5ef2f77b5fe12a6e60351eabcecbc5e2745.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/335300/6dac4c724764af81ce4c53a66a6c0c83e6508f7d.jpg",
               "earned": false,
-              "percent": 49.6
+              "percent": 49.7
             },
             {
               "name": "Serment des anciens",
@@ -138267,7 +138267,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/359310/2d5ff9b59a2f575d5d9072129acc86e3129f2a48.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/359310/963f2011c036bf9a63f95df30c0b5557ce4f8f5f.jpg",
               "earned": false,
-              "percent": 11.6
+              "percent": 11.7
             },
             {
               "name": "Power of Ice",
@@ -141287,7 +141287,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/365590/54f66364f7c6eb881ac8a0a549bff611504e4366.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/365590/15558a8340222c1e76bcf0a6cd7de27aa0aa6fd9.jpg",
               "earned": false,
-              "percent": 10.3
+              "percent": 10.4
             },
             {
               "name": "Le capitaine",
@@ -142635,7 +142635,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/367520/dad457a73d6612846c24053b76d41a2415ace552.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/367520/6d16598ac798eef2f915b7a9a2619be365c768b5.jpg",
               "earned": false,
-              "percent": 49.1
+              "percent": 49
             },
             {
               "name": "Espoir",
@@ -142779,7 +142779,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/367520/e3b29bb02a500134a1112b6f925820fd57fe8bf9.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/367520/7e987f4454a86176979f97b80af057ba62689db2.jpg",
               "earned": false,
-              "percent": 3.9
+              "percent": 4
             },
             {
               "name": "Chasseur habile",
@@ -142976,7 +142976,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 17.3,
+              "percent": 17.4,
               "groupId": "default"
             },
             {
@@ -147524,7 +147524,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/378540/ec5d9da02c6ecff394741ef43a6f20743c63d273.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/378540/4f1faeb0c3e01419831f98becfddf33ec3e86abb.jpg",
               "earned": false,
-              "percent": 19
+              "percent": 18.9
             },
             {
               "name": "Le meilleur des mondes",
@@ -147668,7 +147668,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/378540/dbb9996390cf52c3c2ffa708926ecd35f315c61d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/378540/fe4cb842478c5a149ad2a36eda928db890458264.jpg",
               "earned": false,
-              "percent": 15.1
+              "percent": 15
             },
             {
               "name": "Dur comme l'acier",
@@ -156680,7 +156680,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/435150/3abb63339a6d41a13ebec3fe5ec820d79adca30a.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/435150/11140f988def0c664b7e2cf19fb57820447c9266.jpg",
               "earned": true,
-              "percent": 43
+              "percent": 43.1
             },
             {
               "name": "Larguez les amarres !",
@@ -159848,7 +159848,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/459220/4d12b11d3f8f69be32ef3752fcc98641be466b68.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/459220/5421fbd1c569cc016ddd537dbad42e68b8ea4fd8.jpg",
               "earned": false,
-              "percent": 31.3
+              "percent": 31.4
             },
             {
               "name": "Combattre l'infection",
@@ -162470,7 +162470,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/466560/02d0e2dee275a79466e4956e020d88040e11fde0.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/466560/85d83780d33ac35265f8dd2b1576ef580ced8ee4.jpg",
               "earned": false,
-              "percent": 6
+              "percent": 6.1
             },
             {
               "name": "The Rat King",
@@ -163142,7 +163142,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/466560/04e15489676a6bfbb632f88470f10e49b052fdde.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/466560/aa54fbb9ac74af911f0f496a1b8571204cfdc269.jpg",
               "earned": false,
-              "percent": 0.4
+              "percent": 0.5
             },
             {
               "name": "I.O.U",
@@ -166690,7 +166690,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/492720/7d4e7de1bb21956cf5d5e253b09e16b92dfc22f1.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/492720/d1e92418dabdf2eedfa35882b2dd55e37041c2a8.jpg",
               "earned": false,
-              "percent": 6.1
+              "percent": 6
             },
             {
               "name": "En équipe",
@@ -167848,7 +167848,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/522210/3c50b87ef5975b8d4293609ebe2ac31946079985.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/522210/95e501e5fd22183e8879a258cc723045475b02b9.jpg",
               "earned": false,
-              "percent": 5.8
+              "percent": 5.7
             },
             {
               "name": "Hé, écoute !",
@@ -168196,7 +168196,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/524220/bbdd00f461406cbf64726d753dac5f3abe066ef8.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/524220/5cad263135d7f42d3304918370f492b353aa46f3.jpg",
               "earned": true,
-              "percent": 11.4
+              "percent": 11.5
             },
             {
               "name": "Maître de l'information",
@@ -169191,7 +169191,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/c4bbcde59354651407a955656086b808d5ab530a.jpg",
               "earned": false,
               "groupId": "0",
-              "percent": 15
+              "percent": 15.1
             },
             {
               "name": "La grande Colombie",
@@ -169263,7 +169263,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/344ae94d8beea16645c1479e579514c9d90f69f0.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 27.4
+              "percent": 26.6
             },
             {
               "name": "Euphorique",
@@ -169281,7 +169281,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/695db69d4a2d2bbb6fbf38ce2e6547ebb8d962ed.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 59.9
+              "percent": 58
             },
             {
               "name": "La fin de l’hexagone",
@@ -169299,7 +169299,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/b24e6b589ebf9491819b8dacb62c8bdd07783317.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 91
+              "percent": 88.1
             },
             {
               "name": "Vox populi",
@@ -169317,7 +169317,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/d7cdb707cf2690e864aa411c4a2f432fb4a4bf2a.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 63.1
+              "percent": 61.1
             },
             {
               "name": "Allez militer ailleurs",
@@ -169335,7 +169335,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/3c4d627895db4430aa9804aefdc0a6d256ce53d3.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 29.1
+              "percent": 28.1
             },
             {
               "name": "Répression de la Commune",
@@ -169344,7 +169344,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/862b41e6a8c10b4006b9159cabf215f892fb54cf.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 44
+              "percent": 42.6
             },
             {
               "name": "Junte militaire",
@@ -169362,7 +169362,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/04edbcfa84d7eb5c3f23918223b70239aacb602d.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 27.6
+              "percent": 26.7
             },
             {
               "name": "Autoritaire",
@@ -169371,7 +169371,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/ea7b5735be14d5de0b2d8586429d8e905203bb95.jpg",
               "earned": false,
               "groupId": "1",
-              "percent": 100
+              "percent": 97.2
             },
             {
               "name": "Corbeille à pain",
@@ -169398,7 +169398,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/0639a4879b7acc3c233d29aea0635880ca0752d2.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 94.2
+              "percent": 91.2
             },
             {
               "name": "Journée de la Fédération",
@@ -169416,7 +169416,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/4771f266baed10087b0f493542fec4affd40e143.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 49.3
+              "percent": 47.7
             },
             {
               "name": "Estado Novo",
@@ -169425,7 +169425,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/8ae886dd38407490710b2af98530e9cdc59fb282.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 23.8
+              "percent": 23
             },
             {
               "name": "Viva la Confederación !",
@@ -169443,7 +169443,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/06f89d72d16e9471729a78b88655d3c0e3fa13cb.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 52.6
+              "percent": 50.9
             },
             {
               "name": "Piratini",
@@ -169452,7 +169452,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/5b24942f142f66bee7dfa0a8da2fe481afe1d6f4.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 40.5
+              "percent": 39.2
             },
             {
               "name": "Prospérité économique",
@@ -169470,7 +169470,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/850d83828ec476e1874bfd3c4ee72df140e32aed.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 52.5
+              "percent": 50.8
             },
             {
               "name": "La République ou la mort !",
@@ -169479,7 +169479,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/b2196b7d54f027b542afe3a5e60ffaf04a9e73f2.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 30.9
+              "percent": 29.9
             },
             {
               "name": "Senatus populusque Romanus",
@@ -169488,7 +169488,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/d25d13f5adeac39d689fe33ea67228823ac2e867.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 83.2
+              "percent": 80.6
             },
             {
               "name": "La voie ferrée du diable",
@@ -169497,7 +169497,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/5f740d3c9acc1717842f8d48fe6f0b60a43e9b61.jpg",
               "earned": false,
               "groupId": "2",
-              "percent": 46.1
+              "percent": 44.6
             },
             {
               "name": "Lèche-bottes",
@@ -169542,7 +169542,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/880c837412e0e8306f577e80052fe904e8a041e0.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 29.7
+              "percent": 28.8
             },
             {
               "name": "Un jeu d’enfant",
@@ -169560,7 +169560,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/007b5d959d7498ef805921faf5fcd2517da89b8e.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 30.2
+              "percent": 29.2
             },
             {
               "name": "Iranzamin",
@@ -169569,7 +169569,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/dcf19d6718d2f49326824d4b43340fb984caa04e.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 44.5
+              "percent": 43.1
             },
             {
               "name": "Une bonne douzaine d’années",
@@ -169578,7 +169578,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/cb06f28d742506f2bde1c1b22aa55076054b40c8.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 39.9
+              "percent": 38.7
             },
             {
               "name": "Privatisation interdite",
@@ -169587,7 +169587,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/cf4f052844417d3250edff66387d4c79a3b0aa52.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 31.3
+              "percent": 30.3
             },
             {
               "name": "Standard Oil",
@@ -169614,7 +169614,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/7437552f5b8e0ad0f8cf8f61c509835384710341.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 20.7
+              "percent": 20.1
             },
             {
               "name": "Le culte de la raison",
@@ -169623,7 +169623,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/235c34070028340be3afeee498f926f407390b1b.jpg",
               "earned": false,
               "groupId": "3",
-              "percent": 74.8
+              "percent": 72.4
             },
             {
               "name": "Déclaration d’indépendance",
@@ -169641,7 +169641,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/a39bd3d68aaf4378ad81b38896813e5c1ed310bb.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 100
+              "percent": 97.7
             },
             {
               "name": "Azadi",
@@ -169650,7 +169650,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/94473047d1c0dd1c10981b722c1b3d433e6fd728.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 19.8
+              "percent": 19.2
             },
             {
               "name": "Sur le qui-vive",
@@ -169668,7 +169668,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/c509d69b41a201fe45be2af945181c1b47bd363a.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 20.2
+              "percent": 19.6
             },
             {
               "name": "Société de castes",
@@ -169677,7 +169677,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/21cff4e11ce8ce716fad3ba67d16a78a23df9ad9.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 46.6
+              "percent": 45.2
             },
             {
               "name": "Le vrai mouvement",
@@ -169686,7 +169686,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/272241b4e71cc48799233b40a99fd20008791020.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 55.2
+              "percent": 53.5
             },
             {
               "name": "Folkhemmet",
@@ -169695,7 +169695,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/552380850e5666beb883e6f7f188eab51306f607.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 42.2
+              "percent": 40.9
             },
             {
               "name": "Cosmopolite",
@@ -169713,7 +169713,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/3c764addad80da12040fda3380566de8597460e4.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 15.7
+              "percent": 15.2
             },
             {
               "name": "L’homme qui voulut être roi",
@@ -169722,7 +169722,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/09477257e745feb591f9d21c3fc0765bb0eba7bb.jpg",
               "earned": false,
               "groupId": "4",
-              "percent": 23.7
+              "percent": 23
             },
             {
               "name": "C’est un blocus !",
@@ -169740,7 +169740,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/254bb5cc9a97e770afd7c1553e40369f586dc971.jpg",
               "earned": false,
               "groupId": "5",
-              "percent": 30.6
+              "percent": 29.7
             },
             {
               "name": "Venise, Vidi, Vici",
@@ -169749,7 +169749,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/6dfb9f22615108c5b7b9d7acc5e77fd3d6d22560.jpg",
               "earned": false,
               "groupId": "5",
-              "percent": 27.1
+              "percent": 26.2
             },
             {
               "name": "Oui, nous avons des bananes !",
@@ -169758,7 +169758,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/0a4de0661cd64d024e9f155abc163ace42280774.jpg",
               "earned": false,
               "groupId": "5",
-              "percent": 50.6
+              "percent": 49.1
             },
             {
               "name": "Texte-fleuve",
@@ -169776,7 +169776,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/5dea4ce4032ec73bf3f9aa1738b8261beb0bb020.jpg",
               "earned": false,
               "groupId": "5",
-              "percent": 14.9
+              "percent": 14.4
             },
             {
               "name": "Franchise",
@@ -169794,7 +169794,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/8c89605848c6afe519bd2da676d44492b81d9973.jpg",
               "earned": false,
               "groupId": "5",
-              "percent": 23.9
+              "percent": 23.2
             },
             {
               "name": "Systembolaget",
@@ -169803,7 +169803,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/2d30b094174b03bd3f5a5d093449efe2ea13f0d0.jpg",
               "earned": false,
               "groupId": "5",
-              "percent": 35.4
+              "percent": 34.3
             },
             {
               "name": "À l’ouest, rien de nouveau",
@@ -169911,7 +169911,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/751f32636ec0c0238a93d3c3cb28b4e5ff420e5d.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 33.9
+              "percent": 32.9
             },
             {
               "name": "Le lac espagnol",
@@ -169920,7 +169920,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/0ff5040da86f50c06a5dcc139a1b9e6ab34759c4.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 54
+              "percent": 52.4
             },
             {
               "name": "A Las Barricadas!",
@@ -169929,7 +169929,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/b50e4282748750e4916dfb7e9901d45ae9efadeb.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 10.2
+              "percent": 9.9
             },
             {
               "name": "Relance",
@@ -169938,7 +169938,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/e77c4f509f5868f6aaf38a9b841a6268eea27314.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 37.2
+              "percent": 36.1
             },
             {
               "name": "Deconquista",
@@ -169947,7 +169947,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/b849322ff5b9211e9d8e1a9b2a5a7d9bfd747844.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 16.8
+              "percent": 16.3
             },
             {
               "name": "Le royaume le plus uni",
@@ -169956,7 +169956,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/d01f5af58ed6044d045649f439e0b162a3b33dcd.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 17.9
+              "percent": 17.3
             },
             {
               "name": "Jamais deux sans trois",
@@ -169965,7 +169965,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/b0f009ced55e4afe3f839b07c82f94c9775871a1.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 16.2
+              "percent": 15.7
             },
             {
               "name": "Le Portugal n’est pas un petit pays!",
@@ -169974,7 +169974,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/680ccb18028a3de865754761aba48eecac1206e7.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 25.1
+              "percent": 24.4
             },
             {
               "name": "Une offre qu'on ne peut pas refuser",
@@ -169992,7 +169992,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/4bcf27906cb810c5bdc1e0e9742849e32cc8c142.jpg",
               "earned": false,
               "groupId": "6",
-              "percent": 15.1
+              "percent": 14.6
             },
             {
               "name": "Mikasa es su casa",
@@ -170001,7 +170001,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/4dfc3f5ccf04172555eaf25e68905c12fb4d9af5.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 17.4
+              "percent": 17
             },
             {
               "name": "Semper Fi",
@@ -170019,7 +170019,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/6c22ebe1d4d44c4a3f21bd2c3c7c9d3d19ace330.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 22.1
+              "percent": 21.5
             },
             {
               "name": "Pirates de Martin Anward !",
@@ -170028,7 +170028,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/0332717c44334db056140b7c904503678706e224.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 13.6
+              "percent": 13.2
             },
             {
               "name": "Kōbu gattai",
@@ -170037,7 +170037,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/545e2903c45c9c49dfc6ff98bca9d5c07d4eedfe.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 57.3
+              "percent": 55.7
             },
             {
               "name": "Flemme britannique",
@@ -170046,7 +170046,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/5bb2ac3f05638ef151877e4278181977b13a4d56.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 11.8
+              "percent": 11.5
             },
             {
               "name": "Fortune, gloire et pouvoir",
@@ -170055,7 +170055,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/3b3a10b62abf2da81f99db7379b9daf430c5d99e.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 40.1
+              "percent": 39.1
             },
             {
               "name": "Merci, Obama",
@@ -170064,7 +170064,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/495b4fcbc2da0b84757318347229153b894c6f88.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 64.8
+              "percent": 63.1
             },
             {
               "name": "De l’or en barre",
@@ -170073,7 +170073,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/b15e06eb3922811754f2264c2662158bdd350c88.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 19.1
+              "percent": 18.6
             },
             {
               "name": "Trois montagnes",
@@ -170082,7 +170082,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/45e5df77581776448ee0cea4f49109cb40577559.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 10.6
+              "percent": 10.3
             },
             {
               "name": "Prestige japonais",
@@ -170091,7 +170091,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/8723227e1d56c0cd13736378c80f185fe9eb1ab4.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 79.1
+              "percent": 77
             },
             {
               "name": "Toc toc",
@@ -170100,7 +170100,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/8434b172e9086383e719d76f22d909770533e79e.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 85.6
+              "percent": 83.3
             },
             {
               "name": "Fils de Värmland",
@@ -170109,7 +170109,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/47b9190591c3db424f1c5b3e772bddc683d89a02.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 21.3
+              "percent": 20.7
             },
             {
               "name": "Avis défavorable",
@@ -170118,7 +170118,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/529340/7758d845c8fddcd309acceb42b3b0766bf0493d1.jpg",
               "earned": false,
               "groupId": "7",
-              "percent": 28.9
+              "percent": 28.2
             }
           ],
           "groups": [
@@ -171952,7 +171952,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/559100/1ad4856e28859504567002813b5cc4a9cdc15512.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/559100/dca0e09fe439c2060bc02650b6d00370d1a8459d.jpg",
               "earned": false,
-              "percent": 19.1
+              "percent": 19.2
             },
             {
               "name": "Bateau sur l'eau",
@@ -172623,7 +172623,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/570940/37d5a26e0ad900c659043a42f5b77e22acf1b7d4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/570940/df0e2659abc816a8bf04f8df476c2ba3f0523189.jpg",
               "earned": true,
-              "percent": 67.6
+              "percent": 67.7
             },
             {
               "name": "Cloche (Domaine de Quelaag)",
@@ -172687,7 +172687,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/570940/9c074695d6c018dcb580cc1262c8a280714567f1.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/570940/31f65d06a914df1a43194ca7f72bf627846ff66b.jpg",
               "earned": true,
-              "percent": 42.2
+              "percent": 42.3
             },
             {
               "name": "Vaincre Seath l'écorché",
@@ -173597,7 +173597,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/578080/5cea4bf283b54df58af92745012f7dfef8e76030.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/578080/279950dcec910c85b5734ad493233ceec59becb1.jpg",
               "earned": false,
-              "percent": 28.6
+              "percent": 28.5
             },
             {
               "name": "Tireur novice",
@@ -175489,7 +175489,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/582160/a44622c2d98b5fdb6846766e5a9ef7fd0e450add.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/582160/eced54f104e94376c0e65144eff6a6f68dedad93.jpg",
               "earned": true,
-              "percent": 39.7
+              "percent": 39.8
             },
             {
               "name": "Le siège",
@@ -175529,7 +175529,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/582160/a1b6412f65f860ddbe606727a0f72d22c7a1d094.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/582160/cfd323c6520098e7732dbe71b31a3c7b021d4bab.jpg",
               "earned": true,
-              "percent": 30.9
+              "percent": 31
             },
             {
               "name": "Apprentissage terminé",
@@ -181989,7 +181989,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/599140/976653db1fae6afde5a0842fa721c56034538b14.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/599140/9c3a430c6a30f759220d9ffe9f8f5d303032c36e.jpg",
               "earned": false,
-              "percent": 20.1
+              "percent": 20.2
             },
             {
               "name": "Chanson parfaite",
@@ -182485,7 +182485,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/599140/fab9ad4b28b3da5f83c2c6d822bc9ce4741be59b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/599140/476afabd6c7f97ced8362d72659cb7d2fed3a5b0.jpg",
               "earned": false,
-              "percent": 9
+              "percent": 9.1
             },
             {
               "name": "Longue vie à la Révolution !",
@@ -193133,7 +193133,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/637090/0bcb0b84aee4b630256304de91a552ed57355b9c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/637090/6a584cf530b956c04acf79dfac323ce3b7900ee6.jpg",
               "earned": true,
-              "percent": 82.8
+              "percent": 82.9
             },
             {
               "name": "Tir unique",
@@ -194834,7 +194834,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/640820/ed4d517dc5c5b71f2e6414a8deaf5fddcde132ae.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/640820/b2c13a5e8d072b334fb18780aa44072eda3f9d63.jpg",
               "earned": false,
-              "percent": 11.5
+              "percent": 11.6
             },
             {
               "name": "Bloody Squirrels!",
@@ -197829,7 +197829,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/f5adbe2a4fc6f41e2206ec15084878a4cf64f2d4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/d36d8cafa6b52afbcc70047d74e7b829b9d365cf.jpg",
               "earned": false,
-              "percent": 16.4
+              "percent": 16.5
             },
             {
               "name": "Voie des Sentinelles",
@@ -197917,7 +197917,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/66329126ed2fb50e5a1704d215fedb5092f628ce.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/b2ce197d96a15f4bbb4f8f8c744fa0b60813d9f9.jpg",
               "earned": false,
-              "percent": 9
+              "percent": 9.1
             },
             {
               "name": "Voie du vide",
@@ -198189,7 +198189,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/48e7d09fd53c83ed530e9f5d85183034fbc54eeb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/7de3fd7e6b3d5d602f42629083b03be55d382425.jpg",
               "earned": false,
-              "percent": 4.6
+              "percent": 4.7
             },
             {
               "name": "Élixir de tank",
@@ -198285,7 +198285,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/4f7b4e55dbf2add98584384d4fb7bfc4151a7079.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/ea0da4b4ff180a3b8460c72f53770d8d897819aa.jpg",
               "earned": false,
-              "percent": 12.1
+              "percent": 12.2
             },
             {
               "name": "Mitre de sage",
@@ -198589,7 +198589,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/c10e9f576e44e4e7a97f3fcf98769d2c9816ac48.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/686060/4687c595f2ec075b768409abb021ac348b28af40.jpg",
               "earned": false,
-              "percent": 1.9
+              "percent": 2
             },
             {
               "name": "Collerette",
@@ -200575,7 +200575,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/703080/6c604a37a53bd446ec7da053b4700b8e76ddd865.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/703080/a4c9fb71f984141139865e164318ea654acf63eb.jpg",
               "earned": true,
-              "percent": 5.3
+              "percent": 5.2
             },
             {
               "name": "Version 2.0",
@@ -202155,7 +202155,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 62.4,
+              "percent": 62.3,
               "date": 1739480314000,
               "groupId": "default"
             },
@@ -202167,7 +202167,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 51,
+              "percent": 50.9,
               "date": 1739901120000,
               "groupId": "default"
             },
@@ -202179,7 +202179,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 45,
+              "percent": 44.9,
               "groupId": "default"
             },
             {
@@ -202223,7 +202223,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 32.8,
+              "percent": 32.7,
               "groupId": "default"
             },
             {
@@ -202234,7 +202234,7 @@
               "type": "gold",
               "hidden": true,
               "earned": false,
-              "percent": 30.8,
+              "percent": 30.7,
               "groupId": "default"
             },
             {
@@ -202256,7 +202256,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 26.5,
+              "percent": 26.4,
               "groupId": "default"
             },
             {
@@ -202311,7 +202311,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 18.3,
+              "percent": 18.2,
               "groupId": "default"
             },
             {
@@ -202345,7 +202345,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 42.1,
+              "percent": 42,
               "groupId": "default"
             },
             {
@@ -202390,7 +202390,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 10.7,
+              "percent": 10.6,
               "groupId": "default"
             },
             {
@@ -202412,7 +202412,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 71,
+              "percent": 70.9,
               "date": 1739395646000,
               "groupId": "default"
             },
@@ -202435,7 +202435,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 46.6,
+              "percent": 46.5,
               "date": 1739701665000,
               "groupId": "default"
             },
@@ -202469,7 +202469,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 33.5,
+              "percent": 33.4,
               "groupId": "default"
             },
             {
@@ -202535,7 +202535,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 20.7,
+              "percent": 20.6,
               "groupId": "default"
             },
             {
@@ -202557,7 +202557,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 20,
+              "percent": 19.9,
               "groupId": "default"
             },
             {
@@ -202568,7 +202568,7 @@
               "type": "gold",
               "hidden": true,
               "earned": false,
-              "percent": 15.6,
+              "percent": 15.5,
               "groupId": "default"
             },
             {
@@ -202601,7 +202601,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 44.2,
+              "percent": 44.1,
               "groupId": "default"
             },
             {
@@ -202623,7 +202623,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 44.5,
+              "percent": 44.4,
               "date": 1745587275000,
               "groupId": "default"
             },
@@ -202646,7 +202646,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 42.2,
+              "percent": 42.1,
               "date": 1744658622000,
               "groupId": "default"
             },
@@ -204633,7 +204633,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/750920/78a2e6d70710ede83d83d825c66286ee1f7aebf0.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/750920/65baef8a528a781bb77f973e6ec194800fb8f73f.jpg",
               "earned": true,
-              "percent": 21
+              "percent": 20.9
             },
             {
               "name": "Lieu d'intérêt",
@@ -204753,7 +204753,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/750920/9baa83cc0041ff88044ba22ac9acb8af98d4bd4e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/750920/e1817d7d4375c92925659e5a886a20ef5bad2423.jpg",
               "earned": true,
-              "percent": 42
+              "percent": 41.9
             },
             {
               "name": "Toute une aventure",
@@ -204793,7 +204793,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/750920/97b6f50f8b27fa32181a677107abfc84e9eed1ca.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/750920/b6c0a66645319cc56e88cb4eaa19ed91f7dedd08.jpg",
               "earned": true,
-              "percent": 50.9
+              "percent": 50.8
             },
             {
               "name": "Sépultures",
@@ -205981,7 +205981,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/774241/0bba4e70db528c405af426bdcb5c6be81fa1fa54.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/774241/0187dde1485dc850bc20c2613e6d8f7b5e96bdfb.jpg",
               "earned": false,
-              "percent": 6
+              "percent": 6.1
             },
             {
               "name": "Le début de la rédemption",
@@ -208703,7 +208703,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/814380/4f2088f8818ec2eb60119b3cd3a9213509bab46d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/814380/1333e81b9077adcf22aba20b783d4bcc59e0232b.jpg",
               "earned": true,
-              "percent": 94
+              "percent": 93.9
             },
             {
               "name": "Prothèse de shinobi",
@@ -209513,7 +209513,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/881020/00ba341dcf6bc2932bc4baf02c2617b7db56f7ad.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/881020/00ba341dcf6bc2932bc4baf02c2617b7db56f7ad.jpg",
               "earned": false,
-              "percent": 43.2
+              "percent": 43.3
             },
             {
               "name": "Ultime de chez ultime",
@@ -209689,7 +209689,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/881020/e538de5b1c99b26da10a62d77f1f7003630e129e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/881020/e538de5b1c99b26da10a62d77f1f7003630e129e.jpg",
               "earned": true,
-              "percent": 79.5
+              "percent": 79.4
             },
             {
               "name": "Haute précision",
@@ -212315,7 +212315,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/973760/b7f427bd9c8a3d5bec7f7313503105ff9a1cd016.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/973760/320c01b164fbae30a04ff6f3be9e18b350c1e167.jpg",
               "earned": false,
-              "percent": 36.5
+              "percent": 36.4
             },
             {
               "name": "Ce message s'auto-détruira dans...",
@@ -212375,7 +212375,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/978520/51cff92f325c52ffe496540920bda88531365f03.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/978520/549c33c4000e40ffc137ca136d4e66c06488253a.jpg",
               "earned": true,
-              "percent": 64.7
+              "percent": 64.6
             },
             {
               "name": "I've got the power!",
@@ -212463,7 +212463,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/978520/de9bf46230a6cfa7fb92d2e867d58ba068c99352.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/978520/e1b5bc2dfe491352c27df1de62275b543e225645.jpg",
               "earned": false,
-              "percent": 7
+              "percent": 7.1
             },
             {
               "name": "Root of all evil",
@@ -213100,7 +213100,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1020470/6da47a0cbad2a6a9d21f98bc42a4ff068d3cbcc6.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1020470/d5e00f8b123efe8d6384f08ea4f1a8b69f2eaba8.jpg",
               "earned": false,
-              "percent": 33.4
+              "percent": 33.5
             },
             {
               "name": "Weedkiller",
@@ -215251,7 +215251,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1096530/b0ac442a99d093e7f996a09f0761c0a182d14dbd.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1096530/109e3959f6db62c9927a8912b613fa2009a1fe6b.jpg",
               "earned": false,
-              "percent": 19.1
+              "percent": 19.2
             },
             {
               "name": "Devine qui vient se faire manger ce soir ?",
@@ -215435,7 +215435,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1096530/a433559c8fc9ceb6a2b24938cd44991fa9d1a822.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1096530/109e3959f6db62c9927a8912b613fa2009a1fe6b.jpg",
               "earned": true,
-              "percent": 31.8
+              "percent": 31.9
             },
             {
               "name": "Attention ça pique",
@@ -216143,7 +216143,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1102190/47e0f64f364d0ef1655e31d5932792ecf01983ae.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1102190/a976c64dd44e1c0466369c618601ed0c19cc0f8b.jpg",
               "earned": true,
-              "percent": 88.2
+              "percent": 88.1
             },
             {
               "name": "Vous appelez ça un défi ?",
@@ -216303,7 +216303,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1102190/71dd1684eba179c9d561f9b588e98c68f9b46dcb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1102190/543adbfe3217b68bb02c757056ae2fa0b000b187.jpg",
               "earned": true,
-              "percent": 82.3
+              "percent": 82.2
             },
             {
               "name": "Séraphin le vaincu",
@@ -217458,7 +217458,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 13.5,
+              "percent": 13.6,
               "groupId": "default"
             },
             {
@@ -218076,7 +218076,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/d4363c2d513acabdab631188c7599cefde69ff10.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/f51be2055ed9209074eeee8bacd9b9e553fe47a5.jpg",
               "earned": true,
-              "percent": 6.1
+              "percent": 6
             },
             {
               "name": "Maître des techniques",
@@ -218284,7 +218284,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/a8dd08b794a4d514477512f3c49eaebb438b3376.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/f51be2055ed9209074eeee8bacd9b9e553fe47a5.jpg",
               "earned": true,
-              "percent": 33.6
+              "percent": 33.5
             },
             {
               "name": "Puissant aventurier",
@@ -218316,7 +218316,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/87589e5c61a67185034ba80f8edcfdb14eceeb78.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/f51be2055ed9209074eeee8bacd9b9e553fe47a5.jpg",
               "earned": true,
-              "percent": 65.3
+              "percent": 65.4
             },
             {
               "name": "Montagne de gemmes",
@@ -218364,7 +218364,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/72454d5f4cb6d71e6e3bebcc795fb9f2cb916e8c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1113570/f51be2055ed9209074eeee8bacd9b9e553fe47a5.jpg",
               "earned": true,
-              "percent": 26.2
+              "percent": 26.3
             },
             {
               "name": "La voie du joueur",
@@ -221052,7 +221052,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/b0589516d295db2246176f6038c0dbf695fef29f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/3c41cd6374834ce704ce7155a7b2d8fb99c4da76.jpg",
               "earned": false,
-              "percent": 34.5
+              "percent": 34.6
             },
             {
               "name": "Puissance montante",
@@ -221180,7 +221180,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/dc0d80b5f1d32b0138e6cf91ed14be5035313084.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/3c41cd6374834ce704ce7155a7b2d8fb99c4da76.jpg",
               "earned": false,
-              "percent": 18.4
+              "percent": 18.5
             },
             {
               "name": "Aisance commerciale",
@@ -221220,7 +221220,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/574afd460b7e3805294187929d40b326edf6f2e1.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/3c41cd6374834ce704ce7155a7b2d8fb99c4da76.jpg",
               "earned": false,
-              "percent": 18.8
+              "percent": 18.9
             },
             {
               "name": "Dans l'Aethyr",
@@ -221860,7 +221860,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/be2b586b4b61d8a84c04a19dd12b7a760f877318.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/9191aef1dc18b41f7b1ddafe4b4e83c284d5b443.jpg",
               "earned": false,
-              "percent": 10.9
+              "percent": 11
             },
             {
               "name": "Des légendes parmi les hommes",
@@ -221948,7 +221948,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/8c55a7b991d698900ca97f701e5a4a61ddbb8bb0.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1142710/9191aef1dc18b41f7b1ddafe4b4e83c284d5b443.jpg",
               "earned": false,
-              "percent": 2.1
+              "percent": 2.2
             },
             {
               "name": "La marche égyptienne",
@@ -222392,7 +222392,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1145350/3d6457b3ce55d171cb5c3a56d9158e012212581a.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1145350/3cf3e0d3429778e1f6d0f097cc34a50063e973d5.jpg",
               "earned": true,
-              "percent": 42.6
+              "percent": 42.7
             },
             {
               "name": "La guerre des artistes",
@@ -222692,7 +222692,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1157390/cf8123bb6448ffc46b970870909259e35713e9fe.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1157390/ca89a7b23ad02cffbb0259a9f8eb1d8e99ff3bbb.jpg",
               "earned": false,
-              "percent": 11.4
+              "percent": 11.5
             },
             {
               "name": "Cleave It To Me",
@@ -224699,7 +224699,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1158310/3f42a628c7b3344677bf6a54cd6551b249d8574c.jpg",
               "earned": false,
               "groupId": "9",
-              "percent": 37.9
+              "percent": 38
             },
             {
               "name": "The Two Swords",
@@ -224744,7 +224744,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1158310/7c809bba960a7063a7d3996d8111b21e96193e2e.jpg",
               "earned": false,
               "groupId": "10",
-              "percent": 0.6
+              "percent": 0.7
             },
             {
               "name": "Where There's a Will",
@@ -224789,7 +224789,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1158310/88aa262307f3ffdec506d4459aaae2824cacab47.jpg",
               "earned": false,
               "groupId": "10",
-              "percent": 33.6
+              "percent": 33.7
             }
           ],
           "groups": [
@@ -225364,7 +225364,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 4,
+              "percent": 4.1,
               "groupId": "default"
             },
             {
@@ -226873,7 +226873,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1184370/34013e2fb29b63018a8d82a789e5c10db5bfadbc.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1184370/a958b3cc59b0a0379bc22b988691c642966c3809.jpg",
               "earned": false,
-              "percent": 3.4
+              "percent": 3.3
             },
             {
               "name": "Imprudence caractérisée",
@@ -229107,7 +229107,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1277400/64aec7016ec23d73964c95676e776547bb5036b5.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1277400/e136ca2410961166e99a2b639a6132e2353d94f3.jpg",
               "earned": false,
-              "percent": 6.8
+              "percent": 6.7
             },
             {
               "name": "Monstropédie : Rider en herbe",
@@ -230044,7 +230044,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 17.3,
+              "percent": 17.2,
               "date": 1746192411000,
               "groupId": "default"
             },
@@ -230056,7 +230056,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 14,
+              "percent": 13.9,
               "date": 1739459618000,
               "groupId": "default"
             },
@@ -230374,7 +230374,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1369630/a01854a29ea7fdd30eca2be210c59f8a3dfc1d8b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1369630/ec5d8cf20e51f381ca8bea06b16c3f7a51a647cf.jpg",
               "earned": false,
-              "percent": 86.3
+              "percent": 86.2
             },
             {
               "name": "Chasseuse de reliques",
@@ -230422,7 +230422,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1369630/4230060a3a4a5e0bebf9bc87df02c308683ea56f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1369630/da387813d0497161c62d129ff1e165a997e86b15.jpg",
               "earned": false,
-              "percent": 33
+              "percent": 33.1
             },
             {
               "name": "Corruption tabou",
@@ -230694,7 +230694,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1401590/909a163a7d521c4676ac8ba644962c7edb6c260d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1401590/2ddc0330ac1c82c46c22b12d30ad56289afa9674.jpg",
               "earned": false,
-              "percent": 23.6
+              "percent": 23.7
             },
             {
               "name": "Économe",
@@ -230774,7 +230774,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1401590/7dfe8b2eeea8cd428fa149a271a84a9407d65892.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1401590/a361cc6bd08a1fefe802b822a65d389c490dc9a8.jpg",
               "earned": false,
-              "percent": 11.8
+              "percent": 11.9
             }
           ],
           "earned": 4,
@@ -231850,7 +231850,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1462040/34278423f0931a697e4e87f0442199e254470b8b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1462040/53586770866e964026e7b767b85878dc2c3bca4e.jpg",
               "earned": false,
-              "percent": 33.5
+              "percent": 33.6
             },
             {
               "name": "La croisée des destins",
@@ -232058,7 +232058,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1462040/a2268fcdeb773aeb04d494ebc74e1ad75ee77223.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1462040/53586770866e964026e7b767b85878dc2c3bca4e.jpg",
               "earned": false,
-              "percent": 18.7
+              "percent": 18.8
             },
             {
               "name": "Mercenaire légendaire",
@@ -232170,7 +232170,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1462040/4619ec56fa623bad197c6e48796a0bfb478d0621.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1462040/a6d1db79dbfcb96c145b7d9bcda0df8a414505bc.jpg",
               "earned": false,
-              "percent": 13.5
+              "percent": 13.6
             },
             {
               "name": "La championne de Fort Condor",
@@ -232908,7 +232908,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1466860/481246d3b9aacbc7a0a1c39cd035ff2486de2459.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1466860/191f1eabc87ac9cec909f33926c446447aac2ece.jpg",
               "earned": false,
-              "percent": 14.1
+              "percent": 14.2
             },
             {
               "name": "Renflouer les coffres",
@@ -234374,7 +234374,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1599340/7a90cd6e5002cf275e9b9f30fd70d7ca3f039f30.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1599340/279daea5fda7ffcb8cfc0ada353f00f7dd5bc2b4.jpg",
               "earned": true,
-              "percent": 52
+              "percent": 52.1
             },
             {
               "name": "Aventurier de Tortoyk",
@@ -234702,7 +234702,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1599340/41ad83f74805b6256e2adbfeeee0d6af996912e9.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1599340/ea8ee222ba93b14701e1a6e9e56a37f5954bf8b6.jpg",
               "earned": true,
-              "percent": 50.8
+              "percent": 50.9
             },
             {
               "name": "Équipement splendide",
@@ -235414,7 +235414,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1599340/912e405871707c908e55b534992d6c96f0540e29.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1599340/ae2d26861e8319ec6f2e7730035d60e4c0cdac82.jpg",
               "earned": true,
-              "percent": 53.8
+              "percent": 53.9
             },
             {
               "name": "Le cœur continue de battre",
@@ -235594,7 +235594,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1605220/9d08a1bb50473571c2034d921a7bfede5f6e9b01.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1605220/ca73a9a4b20e6bd1ea5036c4cb4f6a860697edbd.jpg",
               "earned": false,
-              "percent": 25.8
+              "percent": 25.9
             },
             {
               "name": "Water Seller",
@@ -237061,7 +237061,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 5.5,
+              "percent": 5.6,
               "groupId": "default"
             },
             {
@@ -238355,7 +238355,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1649240/0c24838872015d45189b22ac30328bca0f0a216b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1649240/8aebc3c882d16d72ded52d7b850e71e23e144e21.jpg",
               "earned": false,
-              "percent": 13
+              "percent": 13.1
             },
             {
               "name": "Carapace renforcée",
@@ -238745,7 +238745,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 10.2,
+              "percent": 10.1,
               "groupId": "default"
             },
             {
@@ -238980,7 +238980,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1672810/87290eaf48305d89ea5a088a35432eba88092368.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1672810/574abb680eeb248530fcfa74c396d8debdcbfaf4.jpg",
               "earned": false,
-              "percent": 10.2
+              "percent": 10.3
             },
             {
               "name": "Modifiée à bloc",
@@ -239100,7 +239100,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1672810/6d805521804ac7d43716cab4d367afc843dca9db.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1672810/4d89d636eed9b27d5e237aff8c9da8c170ea85b1.jpg",
               "earned": false,
-              "percent": 41.7
+              "percent": 41.8
             },
             {
               "name": "Le Souffle",
@@ -239476,7 +239476,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/161fad0684efffa364163715cb06382658e39bb7.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/414398c6f47ee2d5b2fc8f34fbacd3d0628c0fbd.jpg",
               "earned": true,
-              "percent": 95.4
+              "percent": 95.3
             },
             {
               "name": "Ail",
@@ -239556,7 +239556,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/e0d1a40adedd45f73097d9bfcba147f694b90f4f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/d38f83dab54be39ae6510ef7e04b4badb44187ca.jpg",
               "earned": true,
-              "percent": 77.7
+              "percent": 77.6
             },
             {
               "name": "Bibliothèque",
@@ -239788,7 +239788,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/0573a94126ba06c31d86d710b60dee8b64ded14b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/3fb61b05a91004eeb200e5e32c82cf4f6ff0a998.jpg",
               "earned": true,
-              "percent": 72.3
+              "percent": 72.2
             },
             {
               "name": "Cercueil : Usine laitière",
@@ -239836,7 +239836,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/9b5802c56103f060f65aafb51d20f470ada086fd.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1794680/a17ad9ca35897eb5c2cd608d8bf867bf752dae83.jpg",
               "earned": true,
-              "percent": 48
+              "percent": 47.9
             },
             {
               "name": "Prisme lunaire",
@@ -241329,7 +241329,7 @@
               "type": "platinum",
               "hidden": false,
               "earned": true,
-              "percent": 13.1,
+              "percent": 13,
               "date": 1731490318000,
               "groupId": "default"
             },
@@ -241401,7 +241401,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 53.2,
+              "percent": 53.1,
               "date": 1727886306000,
               "groupId": "default"
             },
@@ -241749,7 +241749,7 @@
               "type": "gold",
               "hidden": false,
               "earned": true,
-              "percent": 13.7,
+              "percent": 13.6,
               "date": 1731490318000,
               "groupId": "default"
             },
@@ -241797,7 +241797,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 21.9,
+              "percent": 21.8,
               "date": 1731334530000,
               "groupId": "default"
             },
@@ -241917,7 +241917,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 50.5,
+              "percent": 50.4,
               "date": 1725001695000,
               "groupId": "001"
             },
@@ -241965,7 +241965,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 54.6,
+              "percent": 54.5,
               "date": 1727781734000,
               "groupId": "001"
             },
@@ -242289,7 +242289,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 19.6,
+              "percent": 19.5,
               "date": 1731343430000,
               "groupId": "004"
             },
@@ -242517,7 +242517,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 41.4,
+              "percent": 41.3,
               "date": 1728122258000,
               "groupId": "007"
             },
@@ -242589,7 +242589,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 64.4,
+              "percent": 64.3,
               "date": 1725047564000,
               "groupId": "007"
             },
@@ -242697,7 +242697,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 82.5,
+              "percent": 82.4,
               "date": 1724940184000,
               "groupId": "008"
             },
@@ -242793,7 +242793,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 66.5,
+              "percent": 66.4,
               "date": 1724944695000,
               "groupId": "009"
             },
@@ -242805,7 +242805,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 70.7,
+              "percent": 70.6,
               "date": 1724944695000,
               "groupId": "009"
             },
@@ -242853,7 +242853,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 48.6,
+              "percent": 48.5,
               "date": 1726673424000,
               "groupId": "009"
             },
@@ -242889,7 +242889,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 15.9,
+              "percent": 15.8,
               "date": 1731272938000,
               "groupId": "010"
             },
@@ -243057,7 +243057,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 5.5,
+              "percent": 5.4,
               "groupId": "011"
             },
             {
@@ -243128,7 +243128,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 7.2,
+              "percent": 7.1,
               "date": 1780778747000,
               "groupId": "011"
             },
@@ -243140,7 +243140,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 10.8,
+              "percent": 10.7,
               "date": 1728122258000,
               "groupId": "011"
             },
@@ -243428,7 +243428,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 9.8,
+              "percent": 9.7,
               "groupId": "015"
             },
             {
@@ -243646,7 +243646,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 13.5,
+              "percent": 13.4,
               "groupId": "018"
             },
             {
@@ -243751,7 +243751,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 13.6,
+              "percent": 13.5,
               "groupId": "020"
             },
             {
@@ -243795,7 +243795,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 30,
+              "percent": 29.9,
               "date": 1731167820000,
               "groupId": "021"
             },
@@ -244078,7 +244078,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 12.8,
+              "percent": 12.9,
               "groupId": "024"
             },
             {
@@ -244247,7 +244247,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 5.9,
+              "percent": 6,
               "groupId": "026"
             },
             {
@@ -246148,7 +246148,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1850510/1c77c38868dbd01589a35d27317df74a4ab15b6a.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/1850510/d75af1766c0f508df0944cfe6d7bafbbff9e20ee.jpg",
               "earned": false,
-              "percent": 8.3
+              "percent": 8.4
             },
             {
               "name": "Maître ferronnier",
@@ -248884,7 +248884,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/96baaaf113233e382a1779548bb2d6f54387dffc.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/087540e73459a1a1613d35c83291afac90817321.jpg",
               "earned": false,
-              "percent": 41.3
+              "percent": 41.2
             },
             {
               "name": "Prestigious Necromancer VI",
@@ -248900,7 +248900,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/854bb34ae2dbfd16704138847d72ddcd0934a2a3.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/6f63ab5c8e3c8febac839c6f0b6c67e751b54830.jpg",
               "earned": false,
-              "percent": 36.1
+              "percent": 36
             },
             {
               "name": "Prestigious Death Knight III",
@@ -249540,7 +249540,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/fa598cf86d3254d35471ceef1bf71336b79bb90c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/4533168aab33ab4dc37ca3d78e546a5e80d14de9.jpg",
               "earned": false,
-              "percent": 28.7
+              "percent": 28.6
             },
             {
               "name": "Time Trial - Elementalist",
@@ -249940,7 +249940,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/b637c5cc9dd6cba96cfbeac1ec50610f598902d6.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/a23f8e17ec537fb0bafdbdb1c265fb16b3a398ab.jpg",
               "earned": true,
-              "percent": 43.2
+              "percent": 43.1
             },
             {
               "name": "Curse III - The Whispering Grove",
@@ -250236,7 +250236,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/6492a42b9e145919589091c86806340ee38b32e6.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/76286788df5561845acac590d6d7b03defec9bed.jpg",
               "earned": false,
-              "percent": 28.6
+              "percent": 28.5
             },
             {
               "name": "Prestigious Legionnaire V",
@@ -250836,7 +250836,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/667599ca29906afbe098c6d2bf53e918a41aa1fe.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2066020/e7e2118f355de60a24efb388368a8e9557085cb1.jpg",
               "earned": true,
-              "percent": 49.2
+              "percent": 49.3
             },
             {
               "name": "Curse III - The Scorching Valley",
@@ -252683,7 +252683,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 58.2,
+              "percent": 58.3,
               "date": 1751794447000,
               "groupId": "default"
             },
@@ -253164,7 +253164,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2071280/0343da69cc401e81fce2ef43da5c9151d1a0e34d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2071280/73716a60769693451c6b4f7ba7b7ac13863c3898.jpg",
               "earned": true,
-              "percent": 32.5
+              "percent": 32.4
             },
             {
               "name": "La purification de Rêverie",
@@ -253196,7 +253196,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2071280/ffe753243aca1161580f7c79c5343bbd6fac6e8c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2071280/bdf06e42308774ac8d077b2e5e83224819c91d80.jpg",
               "earned": true,
-              "percent": 51.4
+              "percent": 51.5
             },
             {
               "name": "La clémence des corbeaux",
@@ -253340,7 +253340,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2071280/af166b61b8764be91f091ad1d35b73ca019823f4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2071280/a5d71fe5529dc195ae094de93616f79af89610bc.jpg",
               "earned": false,
-              "percent": 14.2
+              "percent": 14.3
             },
             {
               "name": "Miroitements intenses",
@@ -253432,7 +253432,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/e155a2068219bcb7237f9958e04fa217b2878d76.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/bc9c3c70be54a565a8d0213152a6d1c9c0df310e.jpg",
               "earned": false,
-              "percent": 26.2
+              "percent": 26.3
             },
             {
               "name": "Dans une galaxie lointaine, très lointaine….",
@@ -253448,7 +253448,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/b589d5bc5023196fef0ad002cfa50e7f86bf49b8.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/e02d1d601127d56a0ec78641f5871de6f31dc097.jpg",
               "earned": false,
-              "percent": 24.3
+              "percent": 24.4
             },
             {
               "name": "Code vestimentaire",
@@ -253536,7 +253536,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/95ebf6057ef63abeca6ac5473fe2d8117a22255e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/062a6304b77da04ba350cb95d69ab09347276a9c.jpg",
               "earned": false,
-              "percent": 34.3
+              "percent": 34.4
             },
             {
               "name": "Fais-le, ou ne le fais pas",
@@ -253568,7 +253568,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/00623e6e80a6d6457cf465bdc2cfc8b2f8d0d4c3.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/eb5c7810ac7debdd2f90c11a808cd5a71b37751e.jpg",
               "earned": true,
-              "percent": 50.8
+              "percent": 50.9
             },
             {
               "name": "Guerre dans la jungle",
@@ -253576,7 +253576,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/c3a875bbeeda839529efc2c4513a8beceed05d0f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/de939444e4610da3a0acfe2c6fac29060e16ae85.jpg",
               "earned": false,
-              "percent": 33.2
+              "percent": 33.3
             },
             {
               "name": "À ton service",
@@ -253624,7 +253624,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/32f57cf64caa9323b5d56bcd412e699de4c1fdf8.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/14004081b8fc139f97110e8a53767a83fa28f3f5.jpg",
               "earned": false,
-              "percent": 26.7
+              "percent": 26.8
             },
             {
               "name": "Comme les trois doigts de la main",
@@ -253640,7 +253640,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/66102529a9203336f442ffc0a8d6d4cdce2da3a4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2075800/7a958d691b2a650de3a9a54e96cf14541a9b5375.jpg",
               "earned": false,
-              "percent": 12.6
+              "percent": 12.7
             },
             {
               "name": "Parole d'honneur",
@@ -254275,7 +254275,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2161700/7d664bfdec4a112ad18a5d5034918e58eabdff48.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2161700/95f0686053a185645c790e23b2067700e67163fa.jpg",
               "earned": false,
-              "percent": 54
+              "percent": 54.1
             },
             {
               "name": "Jackpot !",
@@ -254467,7 +254467,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2161700/2d5c8c7dc398608fb1f1fa04f72d5604883ff56d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2161700/95f0686053a185645c790e23b2067700e67163fa.jpg",
               "earned": false,
-              "percent": 49.3
+              "percent": 49.4
             },
             {
               "name": "Œil de lynx",
@@ -254671,7 +254671,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2183900/07a5a4ca944de0b8cbb24a6f43cd1946e7944c30.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2183900/d9c32785a96e5df3d4e41f222e6797eb2ed731cc.jpg",
               "earned": false,
-              "percent": 34.5
+              "percent": 34.4
             },
             {
               "name": "Mon visage est mon bouclier",
@@ -254695,7 +254695,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2183900/7ab0c55d199d1b8fc30ed77548f47035449beea7.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2183900/d686d122d80c489aae3e288c4fa3727e65d20278.jpg",
               "earned": false,
-              "percent": 51.6
+              "percent": 51.5
             },
             {
               "name": "Je vous observerai",
@@ -255701,7 +255701,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/f5eff426284910eee389c9218981c00064ec1c09.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/081e49bc39957b0077877a340ae6191013f3d0f1.jpg",
               "earned": false,
-              "percent": 36.6
+              "percent": 36.7
             },
             {
               "name": "Pentafrag",
@@ -255773,7 +255773,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/971bd1d06aff57d1f5db1041690abd22129b5da2.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/8c2e85fe8fa28c9fa7d3ef93cc4e5f83aabef69d.jpg",
               "earned": false,
-              "percent": 28.6
+              "percent": 28.7
             },
             {
               "name": "Aboutissement colonial",
@@ -256293,7 +256293,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/88a5e767cdd12420a6208606fce489e3db7bca06.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/ab71eb39f718e21afe88f7f0791e0a1802b07f1b.jpg",
               "earned": false,
-              "percent": 8.2
+              "percent": 8.3
             },
             {
               "name": "Les frissons du jeu",
@@ -256613,7 +256613,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/53ceb225ed8761380028763291887da85783326f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2186680/b983168aed2defb79973313a0cd377082d3c1371.jpg",
               "earned": false,
-              "percent": 1.8
+              "percent": 1.9
             },
             {
               "name": "Fouilles historiques",
@@ -258547,7 +258547,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/cc343e2061fc5f6521103a832f88ff7a5ca19ffb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/973b3b25b12c3ebb09fde139603dcd21622876e4.jpg",
               "earned": true,
-              "percent": 79.3
+              "percent": 79.2
             },
             {
               "name": "Chargé et prêt à tirer",
@@ -258659,7 +258659,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/bd6f84d8fda7b167161cd42743df0d858ac6109b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/973b3b25b12c3ebb09fde139603dcd21622876e4.jpg",
               "earned": true,
-              "percent": 87.3
+              "percent": 87.2
             },
             {
               "name": "Délectez-vous de leur douleur",
@@ -260147,7 +260147,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/15cc7d3a309eb9628cd372896e24c7e7f9cb919f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/a0f8541d4f1e493380121404a62a27a9471d5c20.jpg",
               "earned": true,
-              "percent": 10.5
+              "percent": 10.6
             },
             {
               "name": "Je résous des problèmes",
@@ -260547,7 +260547,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/f9ef6819dbee5b7e190294562e9ebef5e7df725c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2321470/a0f8541d4f1e493380121404a62a27a9471d5c20.jpg",
               "earned": true,
-              "percent": 14.5
+              "percent": 14.6
             },
             {
               "name": "Gréement non agréé",
@@ -261047,7 +261047,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2344520/377eeb8e77bf739275a99c9209624deeccc3b9ed.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2344520/fc88e6c1cb4a7f14ced1ee6044954d24ad95d87d.jpg",
               "earned": true,
-              "percent": 67.3
+              "percent": 67.4
             },
             {
               "name": "Vague à l’âme",
@@ -261175,7 +261175,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2344520/e218fab2b8b812d8551ea9717110b2444e67c7e4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2344520/fc88e6c1cb4a7f14ced1ee6044954d24ad95d87d.jpg",
               "earned": true,
-              "percent": 23.9
+              "percent": 24
             },
             {
               "name": "Fléau des Khazras",
@@ -262164,7 +262164,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2356560/ca2883a58a6acd9cc45d17eba0f18550e1cd3490.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2356560/622495e1b581afd5e9905c6200ca77b27d74a261.jpg",
               "earned": false,
-              "percent": 39.3
+              "percent": 39.2
             },
             {
               "name": "Trophée de l'épée & bouclier",
@@ -262552,7 +262552,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2362060/f1929b0448228cf1393904533d5ff5c081934e61.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2362060/19721a4523534d526be99feadf2c411e216f3b48.jpg",
               "earned": false,
-              "percent": 37.6
+              "percent": 37.7
             },
             {
               "name": "Entre vos mains",
@@ -264175,7 +264175,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2515020/14812e539d7e53e2a79ec2130a42d49170cae062.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2515020/5c7b250cfbb2f2649c15ab2c476330d58b8770d3.jpg",
               "earned": true,
-              "percent": 30.6
+              "percent": 30.7
             },
             {
               "name": "La meilleure défense...",
@@ -264407,7 +264407,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2515020/eaf8375bf78017a1034bbc2fadf23cc750d238ba.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2515020/6a47671dc125252f283a666ceadec41aa6060aec.jpg",
               "earned": true,
-              "percent": 18.5
+              "percent": 18.6
             },
             {
               "name": "L'alpha de l'oméga",
@@ -265542,7 +265542,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2532480/4e905ad50d548c23ac1d966728786f99e997d0c8.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2532480/22b6bf9abb268231b5492904c00137cfb995f9ab.jpg",
               "earned": false,
-              "percent": 15.4
+              "percent": 15.5
             },
             {
               "name": "Loyauté",
@@ -265566,7 +265566,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2532480/5e0bc62004dd25593cd947c489f2ee267ab40c8c.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2532480/3d6d00d92ac3b897d1c92d5629bcbe806406fd2f.jpg",
               "earned": false,
-              "percent": 17.2
+              "percent": 17.3
             },
             {
               "name": "Pertes acceptables",
@@ -265914,7 +265914,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2679460/18b4735d85b43e0eb1942529d155a0bffb08ff73.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2679460/814657718dd6b5930f52f7cfacc4696fbe2a80cb.jpg",
               "earned": false,
-              "percent": 56.4
+              "percent": 56.5
             },
             {
               "name": "L'argent c'est le pouvoir",
@@ -266157,7 +266157,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 73.4,
+              "percent": 73.3,
               "date": 1729005120000,
               "groupId": "default"
             },
@@ -266202,7 +266202,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 54.5,
+              "percent": 54.4,
               "groupId": "default"
             },
             {
@@ -266291,7 +266291,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 36.3,
+              "percent": 36.2,
               "groupId": "default"
             },
             {
@@ -268762,7 +268762,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2820820/bd2cf16d7afa24af4f7c1feb6fd19fdc4d1d6490.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2820820/1eeb8f9d0c672d1f2633c388433107d26a03f9d4.jpg",
               "earned": false,
-              "percent": 9
+              "percent": 9.1
             },
             {
               "name": "Rigor Mortis",
@@ -269264,7 +269264,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/9adbb2285c8d84aa310927a3dec3797398680511.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/46cbb3257c2b4e1980458667347625eb5a7c0948.jpg",
               "earned": false,
-              "percent": 76.5
+              "percent": 76.4
             },
             {
               "name": "Libérateur d'amis",
@@ -269783,7 +269783,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 46.2,
+              "percent": 46.3,
               "groupId": "default"
             },
             {
@@ -270488,7 +270488,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/e5789796f7e43f7c6e9d7c5461894ab9a2d4f129.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/71a584a075437ea11960cda371a2f81995cdf631.jpg",
               "earned": false,
-              "percent": 51.8
+              "percent": 51.9
             },
             {
               "name": "Alchemy Master",
@@ -270600,7 +270600,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/911ec623bb3365cb5865bee5fbaef09f64ec4afd.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/3c93df5c22dfc81739ed112f2f43a0708951e785.jpg",
               "earned": false,
-              "percent": 55.8
+              "percent": 55.7
             },
             {
               "name": "Pasture Breeze",
@@ -270768,7 +270768,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/ae0bd2448c7d8c2e26f68e1fd1b05f88d790b451.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/ab568d873642479c1e68024264fb5257ca7acb7f.jpg",
               "earned": false,
-              "percent": 52.1
+              "percent": 52.2
             },
             {
               "name": "Sincerely Yours",
@@ -270776,7 +270776,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/8d7de38a25cc0814aaaf68d02506f310f19416fd.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2966320/aa0b34b985a614412f53727c35cfca1ab7882d97.jpg",
               "earned": false,
-              "percent": 35.2
+              "percent": 35.3
             },
             {
               "name": "Friend Ship",
@@ -271495,7 +271495,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/dffa18405ff15e83a445a11f6a77be72c8c921f0.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/f1457264f9b1e5809d597f3ed8608e200134d17f.jpg",
               "earned": true,
-              "percent": 92.6
+              "percent": 92.5
             },
             {
               "name": "Débloque Bibliothèque",
@@ -271559,7 +271559,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/ba66d70cc5ae5e02281b0212602565c430165b0a.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/3f0da3c031017a7f7194b1a7882bbddfc2b39dc3.jpg",
               "earned": true,
-              "percent": 78.4
+              "percent": 78.3
             },
             {
               "name": "Gennaro",
@@ -271583,7 +271583,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/03e21908e64758dac5d283024bcd730cdc9f3580.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/12f0fb234079513859656ca74ce67579261c25f3.jpg",
               "earned": true,
-              "percent": 63.6
+              "percent": 63.5
             },
             {
               "name": "Polentír",
@@ -271607,7 +271607,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/051299351b28fba3264f0b094fd9731b0ee01378.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/669b5dacbc88367cdd76531af588d68443b0c1a4.jpg",
               "earned": true,
-              "percent": 56.4
+              "percent": 56.3
             },
             {
               "name": "Baguette de feu",
@@ -271719,7 +271719,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/0cc975ef112a349c0db166f1aaac97245b381980.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/8ced7350e8e83ebcc3f8e292c857ab3cc7a2c799.jpg",
               "earned": true,
-              "percent": 74.6
+              "percent": 74.5
             },
             {
               "name": "Orbe d'attraction",
@@ -271735,7 +271735,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/0fec3e8b32ec5208d00e2f7e9b0f57f1ede8260d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/afbdc5fa71dd72a87e348388588d8e2074b86cd1.jpg",
               "earned": true,
-              "percent": 66.8
+              "percent": 66.7
             },
             {
               "name": "Débloque Petit pont",
@@ -271815,7 +271815,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/5e5cf41c4586e7eefd465cd29b558c4bbe56e2cb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/a0ce4bab19394f034e29d8ec610ed976933a7488.jpg",
               "earned": true,
-              "percent": 61.4
+              "percent": 61.3
             },
             {
               "name": "Ramba",
@@ -271951,7 +271951,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/f8a0133624428cf7c1b5c6445a354a33225e22c4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/c10ba254a7d3e9a3379ad88c93baca0defc357e5.jpg",
               "earned": true,
-              "percent": 58.9
+              "percent": 58.8
             },
             {
               "name": "Cavallo",
@@ -271959,7 +271959,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/3367cfa3e542834f00edc7f27d44ed58d0b7f818.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/5b68426e37440bba29408cd247f23eda2eae7292.jpg",
               "earned": true,
-              "percent": 59.2
+              "percent": 59.1
             },
             {
               "name": "Bombe flamboyante",
@@ -272055,7 +272055,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/dcdfeb754a11dbde1ae37ea260de90532a975b95.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/405a12685fc1ab738fe21e221c0b544f91fb1c9d.jpg",
               "earned": true,
-              "percent": 42.9
+              "percent": 42.8
             },
             {
               "name": "Votre bouclier, Monseigneur",
@@ -272351,7 +272351,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/fb3c3bbca1bb276ff423aa27d18cde1782d17bc9.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/60babad80fdcbf658c6c1dc46b5b6069a96e754b.jpg",
               "earned": true,
-              "percent": 48
+              "percent": 47.9
             },
             {
               "name": "Gemme Yin Yang",
@@ -272431,7 +272431,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/3efbec15fdb4950a72510632d15fa06adfe85ceb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/769578e608ad51a5610322b4d8cd8d2f698bf279.jpg",
               "earned": true,
-              "percent": 43.5
+              "percent": 43.4
             },
             {
               "name": "Gemme Combo facile",
@@ -272511,7 +272511,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/af88709efbbeb2ae0a5ff3d43b8f8bf0200167f6.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/5513be93efa3e99b8549aaf789dcb954b50a119f.jpg",
               "earned": true,
-              "percent": 62
+              "percent": 61.9
             },
             {
               "name": "Gemme Chapeau magique",
@@ -272607,7 +272607,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/6ef1b244fcc6fa9918d825a7d9e4f87e7f856b54.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/22aa1a72a31798349029dc77a98da8e392f50a9b.jpg",
               "earned": true,
-              "percent": 87.9
+              "percent": 87.8
             },
             {
               "name": "Gemme Combo inversé",
@@ -272687,7 +272687,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/b3a4ffe164f0337305fdecfdef954217fc46262b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3265700/840b0145a6b76f4424396bbdafff22999f4543c6.jpg",
               "earned": true,
-              "percent": 48.8
+              "percent": 48.7
             },
             {
               "name": "Gemme Mana X Dégâts",
@@ -272780,7 +272780,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/f51b85747bf86e60d5eebc1aa3838fc2730919e3.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/dbef83795623f1bf58c1fac773b8c680bdfa3d52.jpg",
               "earned": false,
-              "percent": 1.4
+              "percent": 1.5
             },
             {
               "name": "Sans forcer",
@@ -272868,7 +272868,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/86004c6272fbd16a643914100eefc7f3b17aebc8.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/ed21713f6750abcf9279360c68c72ebe58ee94db.jpg",
               "earned": false,
-              "percent": 33.1
+              "percent": 33.2
             },
             {
               "name": "Syllogomanie",
@@ -273140,7 +273140,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/4e03b936be601b04faf2234f6960d88afc0c3a49.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/118efb0617cb309fc3be743cf9ea8f50780f4a67.jpg",
               "earned": false,
-              "percent": 23
+              "percent": 23.1
             },
             {
               "name": "Puissance d'un autre monde",
@@ -273196,7 +273196,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/9700b4cbb9e7df9f50ddf7ac346f3cec7454c1ac.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3407390/29bb5dcdeb9a509cebe8b1a7b005b8c6241bc64b.jpg",
               "earned": false,
-              "percent": 11.1
+              "percent": 11.2
             },
             {
               "name": "Dune",
@@ -273274,7 +273274,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/173c52b320a80ac39611f5c360619b983c8f40ec.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/59fd0a4b5381a584855f225ee6ae3a9c9df74a09.jpg",
               "earned": false,
-              "percent": 31.7
+              "percent": 31.8
             },
             {
               "name": "La reine des villes",
@@ -273362,7 +273362,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/acce1d5f44a69f8363cdf56b5fc42e11bb049f44.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/b42a0e80d6916704cb5bf187421136e8d33fe1e7.jpg",
               "earned": false,
-              "percent": 3.9
+              "percent": 4
             },
             {
               "name": "Une pile d'or",
@@ -273538,7 +273538,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/5624218c737aa59262d12744382c4791aa04deb4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/c3665cbda54be3a94c69ff0c6784907c2b250c41.jpg",
               "earned": false,
-              "percent": 4.5
+              "percent": 4.6
             },
             {
               "name": "Cities Skylines",
@@ -273642,7 +273642,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/96a057d284cb9f84af702783777166d291ede612.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/22045944b122108511b6f8ae8d742e9e85ae737d.jpg",
               "earned": false,
-              "percent": 29.6
+              "percent": 29.7
             },
             {
               "name": "Crusader Kings",
@@ -273858,7 +273858,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/47f391f02c0a527f982c7950a4fb755cb0e81fcf.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3450310/97e6f74a92a5d253f7e936e9659b7638e7a281da.jpg",
               "earned": false,
-              "percent": 1.2
+              "percent": 1.3
             }
           ],
           "earned": 0,
@@ -274927,7 +274927,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/d92a848d7f1ef57e0344f7b9c583c0c004adc9f4.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/90a3aee4c883f930a0d43fbcb423fa133caacdc7.jpg",
               "earned": false,
-              "percent": 8.1
+              "percent": 8.2
             },
             {
               "name": "Centurion",
@@ -274959,7 +274959,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/152d3ef01da1d610b1a1d7591a9f0e477d6cba8f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/04acf8026777d311cc68c385a612e0e6771ac67d.jpg",
               "earned": false,
-              "percent": 12.7
+              "percent": 12.8
             },
             {
               "name": "À vous la coupe !",
@@ -274983,7 +274983,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/4c45a9cb73a3499f259081dea3f27508f0f904b7.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/f6f87abaf04dd5dc261bb31fc6649306dc4f61ae.jpg",
               "earned": false,
-              "percent": 26.7
+              "percent": 26.8
             },
             {
               "name": "Vente record",
@@ -275103,7 +275103,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/c8838e67a3272e107741db81a6f53b2c564ba3b0.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3551340/e2ac3d472c55c14da2dcb8c6d9032fc95e3c7ba5.jpg",
               "earned": true,
-              "percent": 60.1
+              "percent": 60.2
             },
             {
               "name": "La confiance règne",
@@ -275267,7 +275267,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3564740/240a76376991910755e4de9c42156d2b73336377.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3564740/f958ccbd390388fbf59ad13a074d782f40aa8780.jpg",
               "earned": false,
-              "percent": 14.4
+              "percent": 14.3
             },
             {
               "name": "Source of Still Shore",
@@ -275747,7 +275747,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3564740/3f52387f063c6e971964a5247a7b3b48cff54a33.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3564740/939260bb0577ff464d82a0f2d39754b61ec4b37d.jpg",
               "earned": false,
-              "percent": 0.1
+              "percent": 0.2
             },
             {
               "name": "Shocking Epiphany",
@@ -275970,7 +275970,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3681010/6e8bc359fa978c42faea0d99beb4aa3287891367.jpg",
               "earned": true,
               "groupId": "0",
-              "percent": 26.4
+              "percent": 26.5
             },
             {
               "name": "Explorateur",
@@ -276168,7 +276168,7 @@
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3681010/6e8bc359fa978c42faea0d99beb4aa3287891367.jpg",
               "earned": true,
               "groupId": "0",
-              "percent": 34.4
+              "percent": 34.5
             },
             {
               "name": "L'orgueil de Kunimatsu",
@@ -276477,7 +276477,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/8798d04bc0571bc9756f40fb7f5b7339ac0b6f39.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/a87c77082e006e58a96b105d6605339fb5ebe781.jpg",
               "earned": true,
-              "percent": 78.9
+              "percent": 78.8
             },
             {
               "name": "Chute libre",
@@ -276485,7 +276485,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/9e6c4787f666b5c2d6cdf3f9abfa4838faf34064.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/394f970a91f3c5738c9078dff08a602dd33f57a5.jpg",
               "earned": false,
-              "percent": 78.3
+              "percent": 78.2
             },
             {
               "name": "Gagner, perdre ou mourir",
@@ -276493,7 +276493,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/a49aa7c75ed20df80bf565aa782cfacd4383ed3f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/a6edca7d1459ee3c60a4f5ac60fd9f82db0b706d.jpg",
               "earned": false,
-              "percent": 73.5
+              "percent": 73.4
             },
             {
               "name": "Personne n'est immortel",
@@ -276501,7 +276501,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/4efed74f25456d5f42c449c313b7dcee98e19197.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/6e2c38a65f4609c8ca24ba3653dd1bc8fec78a86.jpg",
               "earned": false,
-              "percent": 72.4
+              "percent": 72.3
             },
             {
               "name": "L'arme à l'œil",
@@ -276525,7 +276525,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/857351d6f353bf26c3f84d183d2fcce9c61b30df.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/e98ec7da81790cc6073ac69d6dc43123c7cae463.jpg",
               "earned": false,
-              "percent": 68.1
+              "percent": 68
             },
             {
               "name": "Agent dans la ligne de mire",
@@ -276533,7 +276533,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/020dea62175af4f7ccf8ce22be1660bc11044f42.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/c1f5b7f86623311f322c254fccb74c1a1dfce1f0.jpg",
               "earned": false,
-              "percent": 66.9
+              "percent": 66.8
             },
             {
               "name": "Rendez-vous au sommet",
@@ -276549,7 +276549,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/750137817822d6f47938522899f91a1fb9f41375.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/b003156a257a1018ecce032d63a9fb134d8dd55e.jpg",
               "earned": false,
-              "percent": 63
+              "percent": 62.9
             },
             {
               "name": "Tout ou rien",
@@ -276645,7 +276645,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/ea87673bd63d056dd785b5d530273f120386c590.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/d4b6edf1747689bd1c11012221fcad382ff0b3a0.jpg",
               "earned": true,
-              "percent": 91.4
+              "percent": 91.3
             },
             {
               "name": "Coup de foudre",
@@ -276653,7 +276653,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/88c8741685e385a3caa4f9f352a616b8850f4afb.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/3768760/77b01d2d1ed61385409522742905bfe003f83273.jpg",
               "earned": false,
-              "percent": 26.7
+              "percent": 26.6
             },
             {
               "name": "Ça va sauter",
@@ -276845,7 +276845,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/515c97d98c65a7b713fe18e5e9b566e134a1c1b8.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/cdc8ecca21f6ed33bd672bc7dda551709bd464c2.jpg",
               "earned": false,
-              "percent": 65.7
+              "percent": 65.8
             },
             {
               "name": "Premier sang",
@@ -276869,7 +276869,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/2777761f5db7d66bd993d4955514b012c67eb04f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/d3357d0b6e18f90d6dfe9c28ccbfe235316e110d.jpg",
               "earned": false,
-              "percent": 71.8
+              "percent": 71.9
             },
             {
               "name": "Retour à la vie",
@@ -276877,7 +276877,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/b3bb16870f6d2a20c60a7845a9615c13314fb71b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/61acdbd98f36ea7fc40dbf9210d5ff2355209ad3.jpg",
               "earned": false,
-              "percent": 50.5
+              "percent": 50.6
             },
             {
               "name": "Relancer les affaires",
@@ -276885,7 +276885,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/76c97e549e6145630006585926b3d3d278eb3396.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/ff489b9ec0f136a2983c3162c449991125d6f609.jpg",
               "earned": false,
-              "percent": 57.9
+              "percent": 58
             },
             {
               "name": "Une nouvelle aube",
@@ -276893,7 +276893,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/59d57c2874add88ff83061eba3bd5ae8edb8f77f.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/980da323499d67ffbad5a0c1c576c651e894e741.jpg",
               "earned": false,
-              "percent": 32.8
+              "percent": 32.9
             },
             {
               "name": "Des amis dans les bas-fonds",
@@ -276909,7 +276909,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/41dcf1dbe6597100f8413363c0195a9bac8f3959.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/a9701815a1e7ca6d67a5f62157150a4b0159ce44.jpg",
               "earned": false,
-              "percent": 52.5
+              "percent": 52.6
             },
             {
               "name": "Savoir interdit",
@@ -276917,7 +276917,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/1fb1c19f0b63bec0f3fd88e023466ab2ab79be4e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/54f1bc9fd0c5544ffa5697e0fa33c2261de94957.jpg",
               "earned": false,
-              "percent": 46.5
+              "percent": 46.6
             },
             {
               "name": "Le peuple a parlé",
@@ -276925,7 +276925,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/aef9b808d618f4ab3fb50b18e840633de8a39d63.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/5f93da782fae0d046c25285ad38a219647a41b35.jpg",
               "earned": false,
-              "percent": 31.4
+              "percent": 31.5
             },
             {
               "name": "Un duo improbable",
@@ -276933,7 +276933,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/7a1670e299ee8e3d8d3315f68f8c98e2944200ed.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/6b0c936d256c160e4511c11a6b7d266a0b74313d.jpg",
               "earned": false,
-              "percent": 14
+              "percent": 14.2
             },
             {
               "name": "Les âmes brisées",
@@ -276941,7 +276941,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/91c87904e1e20923363813af848fb3d00658cf1d.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/91602d18c9ae3f0be234917a6c52698c0aa8edf3.jpg",
               "earned": false,
-              "percent": 13
+              "percent": 13.1
             },
             {
               "name": "Romance risquée",
@@ -276949,7 +276949,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/0c1f977ec8e16d5d848dc18397fcdf7c64f0b638.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/e29b095e6cbe3941e7c86a650be495c40dbdd58b.jpg",
               "earned": false,
-              "percent": 14.2
+              "percent": 14.3
             },
             {
               "name": "L'Ancien",
@@ -276957,7 +276957,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/91e0e2ad22c242a8c0ac65ab5f13be78a3fc372b.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/cf54214bb1edc274c348408a860bef7234b75fad.jpg",
               "earned": false,
-              "percent": 16.5
+              "percent": 16.7
             },
             {
               "name": "L'autre Gardien",
@@ -276965,7 +276965,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/cbbb67f3444e2073bfe69073c21f4b34dba82717.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/f06b69a2a414567362bf9ad1f6c689a8a444af6e.jpg",
               "earned": false,
-              "percent": 10.1
+              "percent": 10.2
             },
             {
               "name": "La fin du voyage",
@@ -276973,7 +276973,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/77da2ca1c9b30d52d4168f4c0ced58d90bbd91c9.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/3af4666836796f0000c0c903532fe0f64668856e.jpg",
               "earned": false,
-              "percent": 10.1
+              "percent": 10.3
             },
             {
               "name": "Fléau des arbres",
@@ -276989,7 +276989,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/56c0c63f9d18fa53eda2ffa66d0ad3d95e0aa187.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/b6aa1c46c5b0752fe7174a810cd0dd9cb59940dd.jpg",
               "earned": false,
-              "percent": 5.6
+              "percent": 5.7
             },
             {
               "name": "Bienfaiteur des marchands",
@@ -276997,7 +276997,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/c5052e0073905f1a9df9cf9183c7a0427ec28680.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/66e2a3be43486a44de68c5a4f0314a629741ad62.jpg",
               "earned": false,
-              "percent": 19.7
+              "percent": 19.9
             },
             {
               "name": "Planification urbaine",
@@ -277005,7 +277005,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/c90e3f00bb9dad890f130e13d9a803398888a8e3.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/b2dbda1ebd8f1192c1d1422b497282f6c7261594.jpg",
               "earned": false,
-              "percent": 12.8
+              "percent": 12.9
             },
             {
               "name": "Tombeau doux tombeau",
@@ -277013,7 +277013,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/9d126e82d55fe53b44ad7d0e5090b1434038a7f5.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/a83cca9c01e91716962f1b16b61371614fd9da17.jpg",
               "earned": false,
-              "percent": 16.8
+              "percent": 16.9
             },
             {
               "name": "Âge du bronze",
@@ -277037,7 +277037,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/1698c50b60c6169bdd53ff0a865b70c55fe97e04.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/695599df6f46e6cb532a62c3aae1e8f31a6e592f.jpg",
               "earned": false,
-              "percent": 25.1
+              "percent": 25.2
             },
             {
               "name": "Meilleur ami des marchands",
@@ -277045,7 +277045,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/7b6132c8ff4c0ca9c99a47debcf846ed3f03ef27.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/a079fa39f1335c2f09d6996604d330d198cac0c7.jpg",
               "earned": false,
-              "percent": 10.2
+              "percent": 10.3
             },
             {
               "name": "Fourbisseur",
@@ -277053,7 +277053,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/20c3f07725727d340da3630cd154bdaba821e2ec.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/7bb22217c3fc549f8d789faa423f72cfeb540616.jpg",
               "earned": false,
-              "percent": 18.3
+              "percent": 18.4
             },
             {
               "name": "Maître cuisinier",
@@ -277069,7 +277069,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/780fa348228fe13a256af7860f25e8bf79cdea13.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/b2fabbe96fdad3845cfd0f626c357f3a0005113f.jpg",
               "earned": false,
-              "percent": 10.3
+              "percent": 10.4
             },
             {
               "name": "Maître fermier",
@@ -277085,7 +277085,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/1b412495bbc100f2345d876ee77db9f1eb8b0a69.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/96167b685dd2d46334a6f8bc49ea66900d8f7d8a.jpg",
               "earned": false,
-              "percent": 16.4
+              "percent": 16.5
             },
             {
               "name": "Berger des âmes",
@@ -277093,7 +277093,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/37d3699b7732ba650f6fd9e53feeea069bbc2e02.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/dc656c0f29cae57bdaf70d2a1ec71089385b3c28.jpg",
               "earned": false,
-              "percent": 4.6
+              "percent": 4.7
             },
             {
               "name": "Coup de génie",
@@ -277101,7 +277101,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/084b3657627f83f45772fe8d03fc86dd921c9cdd.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/002ae42e8ede8ca2cdec585fc92217172fed0f9d.jpg",
               "earned": false,
-              "percent": 31.7
+              "percent": 31.9
             },
             {
               "name": "Alchimiste novice",
@@ -277109,7 +277109,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/93f59fe6c3def3764d473e9487cf46a7db150e3e.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/73cb3f31c4bee13c8367485b15f1cd01071e9135.jpg",
               "earned": false,
-              "percent": 44.5
+              "percent": 44.6
             },
             {
               "name": "Aimant à poissons",
@@ -277117,7 +277117,7 @@
               "iconEarned": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/fab896f715a7ba2a6561b94cc5754207aa1ae778.jpg",
               "iconLocked": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/4358690/fdfc2417b09f8a869e315c829b1741b2e10d491f.jpg",
               "earned": false,
-              "percent": 18.6
+              "percent": 18.7
             }
           ],
           "earned": 0,
@@ -277574,7 +277574,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 85.1,
+              "percent": 85,
               "date": 1789589193000,
               "groupId": "default"
             },
@@ -277872,7 +277872,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 56.5,
+              "percent": 56.4,
               "groupId": "default"
             },
             {
@@ -280781,7 +280781,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 4.7,
+              "percent": 4.8,
               "date": 1788906888000,
               "groupId": "016"
             },
@@ -315425,7 +315425,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 17.6,
+              "percent": 17.7,
               "date": 1736944438000,
               "groupId": "005"
             },
@@ -317965,7 +317965,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 28.6,
+              "percent": 28.7,
               "date": 1680584465000,
               "groupId": "default"
             },
@@ -319824,7 +319824,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 4,
+              "percent": 4.1,
               "groupId": "003"
             },
             {
@@ -321215,7 +321215,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 21.5,
+              "percent": 21.4,
               "date": 1755795525000,
               "groupId": "default"
             },
@@ -322134,7 +322134,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 31.5,
+              "percent": 31.4,
               "date": 1753343530000,
               "groupId": "default"
             },
@@ -323109,7 +323109,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 65.8,
+              "percent": 65.9,
               "date": 1748418859000,
               "groupId": "default"
             },
@@ -327007,7 +327007,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 15.9,
+              "percent": 16,
               "date": 1751206145000,
               "groupId": "default"
             },
@@ -330245,7 +330245,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 26.1,
+              "percent": 26.2,
               "date": 1742676875000,
               "groupId": "default"
             },
@@ -332217,7 +332217,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 2.1,
+              "percent": 2.2,
               "groupId": "007"
             },
             {
@@ -332854,7 +332854,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 31.8,
+              "percent": 31.7,
               "groupId": "default"
             },
             {
@@ -337421,7 +337421,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 3.7,
+              "percent": 3.8,
               "groupId": "010"
             },
             {
@@ -337646,7 +337646,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 18.1,
+              "percent": 18.2,
               "groupId": "default"
             },
             {
@@ -338619,7 +338619,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 21.3,
+              "percent": 21.4,
               "groupId": "default"
             },
             {
@@ -338769,7 +338769,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 45.7,
+              "percent": 45.6,
               "date": 1721284481000,
               "groupId": "default"
             },
@@ -339208,7 +339208,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 20.2,
+              "percent": 20.1,
               "date": 1721284885000,
               "groupId": "default"
             },
@@ -340045,7 +340045,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 79.7,
+              "percent": 79.6,
               "groupId": "default"
             },
             {
@@ -342603,7 +342603,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 63.6,
+              "percent": 63.5,
               "date": 1706357348000,
               "groupId": "default"
             },
@@ -342663,7 +342663,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 50.5,
+              "percent": 50.4,
               "date": 1712692082000,
               "groupId": "default"
             },
@@ -342759,7 +342759,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 58,
+              "percent": 57.9,
               "date": 1706982912000,
               "groupId": "default"
             },
@@ -342795,7 +342795,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 45.1,
+              "percent": 45,
               "date": 1714311530000,
               "groupId": "default"
             },
@@ -342807,7 +342807,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 40.8,
+              "percent": 40.7,
               "date": 1718541889000,
               "groupId": "default"
             },
@@ -343227,7 +343227,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 31,
+              "percent": 30.9,
               "date": 1712331153000,
               "groupId": "default"
             },
@@ -345069,7 +345069,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 30.4,
+              "percent": 30.5,
               "groupId": "default"
             },
             {
@@ -345102,7 +345102,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 21.5,
+              "percent": 21.6,
               "groupId": "default"
             },
             {
@@ -345805,7 +345805,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 40.8,
+              "percent": 40.9,
               "date": 1716131949000,
               "groupId": "default"
             },
@@ -346445,7 +346445,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 27.5,
+              "percent": 27.4,
               "groupId": "default"
             },
             {
@@ -346940,7 +346940,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 1.4,
+              "percent": 1.5,
               "groupId": "001"
             },
             {
@@ -347761,7 +347761,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 44.6,
+              "percent": 44.7,
               "date": 1711291276000,
               "groupId": "default"
             },
@@ -347795,7 +347795,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 26.2,
+              "percent": 26.3,
               "groupId": "default"
             },
             {
@@ -347818,7 +347818,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 59,
+              "percent": 59.1,
               "groupId": "default"
             },
             {
@@ -347864,7 +347864,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 22.1,
+              "percent": 22.2,
               "groupId": "default"
             },
             {
@@ -348130,7 +348130,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 19,
+              "percent": 19.1,
               "groupId": "default"
             },
             {
@@ -348207,7 +348207,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 4.5,
+              "percent": 4.6,
               "groupId": "default"
             },
             {
@@ -348262,7 +348262,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 5,
+              "percent": 5.1,
               "groupId": "001"
             },
             {
@@ -348284,7 +348284,7 @@
               "type": "gold",
               "hidden": false,
               "earned": false,
-              "percent": 1.6,
+              "percent": 1.7,
               "groupId": "001"
             },
             {
@@ -350964,7 +350964,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 0.2,
+              "percent": 0.3,
               "groupId": "default"
             },
             {
@@ -353037,7 +353037,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 10.9,
+              "percent": 11,
               "groupId": "default"
             },
             {
@@ -353216,7 +353216,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 21.5,
+              "percent": 21.6,
               "groupId": "default"
             },
             {
@@ -353513,7 +353513,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 7.2,
+              "percent": 7.3,
               "groupId": "003"
             },
             {
@@ -353865,7 +353865,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 3.3,
+              "percent": 3.4,
               "groupId": "008"
             },
             {
@@ -355723,7 +355723,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 3.8,
+              "percent": 3.9,
               "groupId": "013"
             },
             {
@@ -356073,7 +356073,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 65.9,
+              "percent": 66,
               "date": 1693860498000,
               "groupId": "default"
             },
@@ -358379,7 +358379,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 5.5,
+              "percent": 5.6,
               "groupId": "default"
             },
             {
@@ -359059,7 +359059,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 41.4,
+              "percent": 41.3,
               "date": 1682604852000,
               "groupId": "default"
             },
@@ -359093,7 +359093,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 61.5,
+              "percent": 61.4,
               "date": 1680509857000,
               "groupId": "default"
             },
@@ -359117,7 +359117,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 53.2,
+              "percent": 53.1,
               "date": 1680516643000,
               "groupId": "default"
             },
@@ -359129,7 +359129,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 45,
+              "percent": 44.9,
               "date": 1682604504000,
               "groupId": "default"
             },
@@ -359174,7 +359174,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 39.8,
+              "percent": 39.7,
               "groupId": "default"
             },
             {
@@ -359185,7 +359185,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 35,
+              "percent": 34.9,
               "groupId": "default"
             },
             {
@@ -359207,7 +359207,7 @@
               "type": "gold",
               "hidden": true,
               "earned": false,
-              "percent": 30.9,
+              "percent": 30.8,
               "groupId": "default"
             },
             {
@@ -359218,7 +359218,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 26.4,
+              "percent": 26.3,
               "groupId": "default"
             },
             {
@@ -359274,7 +359274,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 46.3,
+              "percent": 46.2,
               "date": 1680684064000,
               "groupId": "default"
             },
@@ -359297,7 +359297,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 39.3,
+              "percent": 39.2,
               "date": 1680601958000,
               "groupId": "default"
             },
@@ -359354,7 +359354,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 8.9,
+              "percent": 8.8,
               "groupId": "default"
             },
             {
@@ -359376,7 +359376,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 36.6,
+              "percent": 36.5,
               "groupId": "default"
             },
             {
@@ -359464,7 +359464,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 32.8,
+              "percent": 32.7,
               "date": 1681054213000,
               "groupId": "default"
             },
@@ -359521,7 +359521,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 25,
+              "percent": 24.9,
               "groupId": "default"
             },
             {
@@ -359532,7 +359532,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 34.8,
+              "percent": 34.7,
               "groupId": "default"
             },
             {
@@ -359543,7 +359543,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 37.1,
+              "percent": 37,
               "groupId": "default"
             },
             {
@@ -359554,7 +359554,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 52.3,
+              "percent": 52.2,
               "date": 1681052793000,
               "groupId": "default"
             },
@@ -359623,7 +359623,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 38.9,
+              "percent": 38.8,
               "date": 1680510045000,
               "groupId": "default"
             },
@@ -359647,7 +359647,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 22.7,
+              "percent": 22.6,
               "date": 1682690859000,
               "groupId": "default"
             },
@@ -359659,7 +359659,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 30.9,
+              "percent": 30.8,
               "groupId": "default"
             },
             {
@@ -359693,7 +359693,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 26.6,
+              "percent": 26.5,
               "date": 1682607133000,
               "groupId": "default"
             },
@@ -359705,7 +359705,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 21.1,
+              "percent": 21,
               "groupId": "default"
             },
             {
@@ -359826,7 +359826,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 3.7,
+              "percent": 3.6,
               "groupId": "002"
             },
             {
@@ -359936,7 +359936,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 4.6,
+              "percent": 4.5,
               "groupId": "002"
             }
           ],
@@ -360256,7 +360256,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 10.2,
+              "percent": 10.1,
               "groupId": "default"
             },
             {
@@ -363905,7 +363905,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 27.6,
+              "percent": 27.7,
               "date": 1679846073000,
               "groupId": "default"
             },
@@ -364862,7 +364862,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 6.1,
+              "percent": 6.2,
               "groupId": "default"
             },
             {
@@ -365075,7 +365075,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 18.4,
+              "percent": 18.5,
               "date": 1674143715000,
               "groupId": "default"
             },
@@ -367618,7 +367618,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 27,
+              "percent": 26.9,
               "date": 1641075273000,
               "groupId": "default"
             },
@@ -375822,7 +375822,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 28,
+              "percent": 28.1,
               "date": 1609956665000,
               "groupId": "default"
             },
@@ -383797,7 +383797,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 22.2,
+              "percent": 22.3,
               "date": 1572307163000,
               "groupId": "default"
             },
@@ -387866,7 +387866,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 2.4,
+              "percent": 2.5,
               "groupId": "default"
             },
             {
@@ -395564,7 +395564,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 44.6,
+              "percent": 44.7,
               "date": 1480884501000,
               "groupId": "default"
             },
@@ -402296,7 +402296,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 28.4,
+              "percent": 28.5,
               "groupId": "001"
             },
             {
@@ -402771,7 +402771,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 19.2,
+              "percent": 19.3,
               "groupId": "008"
             },
             {
@@ -412840,7 +412840,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 16.2,
+              "percent": 16.3,
               "groupId": "default"
             },
             {
@@ -413087,7 +413087,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 7.9,
+              "percent": 8,
               "groupId": "default"
             },
             {
@@ -415357,7 +415357,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 18.2,
+              "percent": 18.3,
               "groupId": "default"
             },
             {
@@ -419389,7 +419389,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 38,
+              "percent": 38.1,
               "date": 1409579862000,
               "groupId": "default"
             },
@@ -421124,7 +421124,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 21.8,
+              "percent": 21.9,
               "date": 1396027806000,
               "groupId": "default"
             },
@@ -429984,7 +429984,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 25.3,
+              "percent": 25.4,
               "groupId": "default"
             },
             {
@@ -433188,7 +433188,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 15.7,
+              "percent": 15.8,
               "groupId": "default"
             },
             {
@@ -437779,7 +437779,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 14.9,
+              "percent": 15,
               "groupId": "default"
             },
             {
@@ -438199,7 +438199,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 11.7,
+              "percent": 11.8,
               "date": 1346771693000,
               "groupId": "default"
             },
@@ -452634,7 +452634,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 54.7,
+              "percent": 54.6,
               "date": 1314125595000,
               "groupId": "default"
             },
@@ -454659,13 +454659,7 @@
               "groupId": "default"
             }
           ],
-          "groups": [
-            {
-              "id": "default",
-              "name": "Série de trophées White Knight Chronicles™ II",
-              "icon": "https://image.api.playstation.com/trophy/np/NPWR01681_00_00F1CDA51D8FE6DF841645FBD574CF95B5F0D61B87/FFBAFBEAB7406125DD3DF88D900D57D9551104CA.PNG"
-            }
-          ],
+          "groups": [],
           "earned": 6,
           "total": 25,
           "playtimeMinutes": 0,
@@ -485957,12 +485951,12 @@
     {
       "id": "overwatch",
       "nom": "Overwatch",
-      "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/4f7dda8ebab240b089e2369960e63d9c_1024",
+      "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/76287decab344911b7c32a35d00204b7_1024",
       "banner": null,
       "logo": null,
       "platforms": {
         "switch": {
-          "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/4f7dda8ebab240b089e2369960e63d9c_1024",
+          "icon": "https://atum-img-lp1.cdn.nintendo.net/i/c/76287decab344911b7c32a35d00204b7_1024",
           "achievements": [],
           "earned": 0,
           "total": 0,
@@ -488038,7 +488032,7 @@
       "coverOverride": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ga5.jpg"
     }
   ],
-  "builtAt": 1792516320110,
+  "builtAt": 1792554684548,
   "platformDiag": {
     "steam": {
       "count": 308,
