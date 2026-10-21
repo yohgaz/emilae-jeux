@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "t": 1784139987000,
+      "ref": "ubisoft:921",
+      "platform": "ubisoft",
+      "source": "journal d'Ubisoft Connect"
+    },
+    {
+      "t": 1784359098000,
+      "ref": "ubisoft:8006",
+      "nom": "Assassin's Creed® Shadows",
+      "platform": "ubisoft",
+      "source": "journal d'Ubisoft Connect",
+      "id": "assassin-s-creed-shadows"
+    },
+    {
+      "t": 1785050621000,
+      "ref": "ubisoft:8006",
+      "nom": "Assassin's Creed® Shadows",
+      "platform": "ubisoft",
+      "source": "journal d'Ubisoft Connect",
+      "id": "assassin-s-creed-shadows"
+    },
+    {
+      "t": 1787034121000,
+      "ref": "ubisoft:8006",
+      "nom": "Assassin's Creed® Shadows",
+      "platform": "ubisoft",
+      "source": "journal d'Ubisoft Connect",
+      "id": "assassin-s-creed-shadows"
+    },
+    {
+      "t": 1787046422000,
+      "ref": "ubisoft:8006",
+      "nom": "Assassin's Creed® Shadows",
+      "platform": "ubisoft",
+      "source": "journal d'Ubisoft Connect",
+      "id": "assassin-s-creed-shadows"
+    },
+    {
+      "t": 1792570430000,
+      "ref": "ubisoft:8006",
+      "nom": "Assassin's Creed® Shadows",
+      "platform": "ubisoft",
+      "source": "journal d'Ubisoft Connect",
+      "id": "assassin-s-creed-shadows"
+    }
+  ]
+}
