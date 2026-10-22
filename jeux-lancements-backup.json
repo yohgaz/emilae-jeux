@@ -54,6 +54,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "overwatch"
+    },
+    {
+      "t": 1792672071187,
+      "ref": "dossier:final-fantasy-14-a-realm-reborn",
+      "nom": "FINAL FANTASY XIV: A Realm Reborn",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-14-a-realm-reborn"
     }
   ]
 }
