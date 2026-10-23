@@ -102,6 +102,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "vampire-survivors"
+    },
+    {
+      "t": 1792772274585,
+      "ref": "dossier:the-elder-scrolls-online",
+      "nom": "The Elder Scrolls Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
