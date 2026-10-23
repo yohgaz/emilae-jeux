@@ -86,6 +86,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "final-fantasy-14-a-realm-reborn"
+    },
+    {
+      "t": 1792742003187,
+      "ref": "dossier:final-fantasy-14-online",
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-14-online"
     }
   ]
 }
