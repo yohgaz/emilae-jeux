@@ -126,6 +126,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "final-fantasy-14-online"
+    },
+    {
+      "t": 1792856948570,
+      "ref": "steam:306130",
+      "nom": "The Elder Scrolls Online",
+      "platform": "steam",
+      "source": "Steam",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
