@@ -150,6 +150,20 @@
       "platform": "pc",
       "source": "processus",
       "id": "final-fantasy-14-online"
+    },
+    {
+      "t": 1792903526689,
+      "nom": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "bravely-default-flying-fairy-hd-remaster"
+    },
+    {
+      "t": 1792903526767,
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "final-fantasy-14-online"
     }
   ]
 }
