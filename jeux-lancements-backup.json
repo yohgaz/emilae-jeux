@@ -180,6 +180,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "overwatch"
+    },
+    {
+      "t": 1792939196911,
+      "ref": "dossier:vampire-crawlers",
+      "nom": "Vampire Crawlers",
+      "platform": "pc",
+      "source": "processus",
+      "id": "vampire-crawlers"
     }
   ]
 }
