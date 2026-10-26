@@ -226,6 +226,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "final-fantasy-14-online"
+    },
+    {
+      "t": 1793005564445,
+      "ref": "dossier:final-fantasy-14-a-realm-reborn",
+      "nom": "FINAL FANTASY XIV: A Realm Reborn",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-14-a-realm-reborn"
     }
   ]
 }
