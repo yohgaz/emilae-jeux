@@ -356,6 +356,14 @@
       "platform": "switch",
       "source": "temps de jeu",
       "id": "overwatch"
+    },
+    {
+      "t": 1793137125244,
+      "ref": "steam:306130",
+      "nom": "The Elder Scrolls Online",
+      "platform": "steam",
+      "source": "Steam",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
