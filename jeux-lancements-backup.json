@@ -314,6 +314,48 @@
       "platform": "steam",
       "source": "Steam",
       "id": "mio-memories-in-orbit"
+    },
+    {
+      "t": 1793136700345,
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "final-fantasy-14-online"
+    },
+    {
+      "t": 1793136700346,
+      "nom": "The Elder Scrolls IV: Oblivion Remastered",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "the-elder-scrolls-4-oblivion-remastered"
+    },
+    {
+      "t": 1793136700347,
+      "nom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "xenoblade-chronicles-definitive-edition-nintendo-switch-2-edition"
+    },
+    {
+      "t": 1793136700347,
+      "nom": "Romancing SaGa 2: Revenge of the Seven – Nintendo Switch 2 Edition",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "romancing-saga-2-revenge-of-the-seven-nintendo-switch-2-edition"
+    },
+    {
+      "t": 1793136700347,
+      "nom": "Hollow Knight: Silksong – Nintendo Switch 2 Edition",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "hollow-knight-silksong-nintendo-switch-2-edition"
+    },
+    {
+      "t": 1793136700348,
+      "nom": "Overwatch",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "overwatch"
     }
   ]
 }
