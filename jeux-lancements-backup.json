@@ -358,11 +358,11 @@
       "id": "overwatch"
     },
     {
-      "t": 1793137125244,
-      "ref": "steam:306130",
+      "t": 1793137124079,
+      "ref": "dossier:the-elder-scrolls-online",
       "nom": "The Elder Scrolls Online",
-      "platform": "steam",
-      "source": "Steam",
+      "platform": "pc",
+      "source": "processus",
       "id": "the-elder-scrolls-online"
     }
   ]
