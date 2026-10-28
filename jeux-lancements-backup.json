@@ -388,6 +388,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "vampire-crawlers"
+    },
+    {
+      "t": 1793207603889,
+      "ref": "steam:306130",
+      "nom": "The Elder Scrolls Online",
+      "platform": "steam",
+      "source": "Steam",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
