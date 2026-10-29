@@ -444,6 +444,14 @@
       "platform": "steam",
       "source": "Steam",
       "id": "the-elder-scrolls-online"
+    },
+    {
+      "t": 1793309643149,
+      "ref": "steam:1672810",
+      "nom": "MIO: Memories in Orbit",
+      "platform": "steam",
+      "source": "Steam",
+      "id": "mio-memories-in-orbit"
     }
   ]
 }
