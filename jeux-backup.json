@@ -2392,6 +2392,25 @@
       "occasion": false,
       "excluYoutube": true,
       "youtubeActive": false
+    },
+    {
+      "id": "298ff21b-5406-4ec7-ba5a-8b5fd83fa83a",
+      "nom": "MIO: Memories in Orbit",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": 1672810,
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg",
+      "progression": {
+        "PC": {
+          "earned": 9,
+          "total": 40,
+          "steamState": "none"
+        }
+      },
+      "type": "normal",
+      "completion": ""
     }
   ]
 }
