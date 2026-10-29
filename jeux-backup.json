@@ -240,7 +240,8 @@
       "progression": {
         "PC": {
           "earned": 46,
-          "total": 54
+          "total": 54,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -321,7 +322,8 @@
       "progression": {
         "PC": {
           "earned": 30,
-          "total": 60
+          "total": 60,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -338,7 +340,8 @@
       "progression": {
         "PC": {
           "earned": 24,
-          "total": 41
+          "total": 41,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -355,7 +358,8 @@
       "progression": {
         "PC": {
           "earned": 22,
-          "total": 35
+          "total": 35,
+          "steamState": "none"
         },
         "PlayStation": {
           "bronze": {
@@ -411,7 +415,8 @@
         },
         "PC": {
           "earned": 62,
-          "total": 97
+          "total": 97,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -428,7 +433,8 @@
       "progression": {
         "PC": {
           "earned": 41,
-          "total": 58
+          "total": 58,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -497,7 +503,8 @@
         },
         "PC": {
           "earned": 34,
-          "total": 43
+          "total": 43,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -578,7 +585,8 @@
       "progression": {
         "PC": {
           "earned": 25,
-          "total": 50
+          "total": 50,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -755,7 +763,8 @@
       "progression": {
         "PC": {
           "earned": 51,
-          "total": 63
+          "total": 63,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -836,7 +845,8 @@
       "progression": {
         "PC": {
           "earned": 37,
-          "total": 79
+          "total": 79,
+          "steamState": "none"
         },
         "PlayStation": {
           "bronze": {
@@ -992,7 +1002,8 @@
       "progression": {
         "PC": {
           "earned": 29,
-          "total": 143
+          "total": 143,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1009,7 +1020,8 @@
       "progression": {
         "PC": {
           "earned": 56,
-          "total": 99
+          "total": 99,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1026,7 +1038,8 @@
       "progression": {
         "PC": {
           "earned": 55,
-          "total": 132
+          "total": 132,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1095,7 +1108,8 @@
         },
         "PC": {
           "earned": 0,
-          "total": 60
+          "total": 60,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1161,7 +1175,8 @@
       "progression": {
         "PC": {
           "earned": 21,
-          "total": 99
+          "total": 99,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1210,7 +1225,8 @@
       "progression": {
         "PC": {
           "earned": 24,
-          "total": 36
+          "total": 36,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1227,7 +1243,8 @@
       "progression": {
         "PC": {
           "earned": 19,
-          "total": 28
+          "total": 28,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1256,7 +1273,8 @@
       "progression": {
         "PC": {
           "earned": 47,
-          "total": 47
+          "total": 47,
+          "steamState": "base"
         }
       },
       "annee": null
@@ -1273,7 +1291,8 @@
       "progression": {
         "PC": {
           "earned": 28,
-          "total": 67
+          "total": 67,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1342,7 +1361,8 @@
         },
         "PC": {
           "earned": 45,
-          "total": 85
+          "total": 85,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1371,7 +1391,8 @@
       "progression": {
         "PC": {
           "earned": 37,
-          "total": 58
+          "total": 58,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1420,7 +1441,8 @@
         },
         "PC": {
           "earned": 67,
-          "total": 100
+          "total": 100,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1457,7 +1479,8 @@
         },
         "PC": {
           "earned": 40,
-          "total": 50
+          "total": 50,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1538,7 +1561,8 @@
       "progression": {
         "PC": {
           "earned": 78,
-          "total": 99
+          "total": 99,
+          "steamState": "none"
         },
         "PlayStation": {
           "bronze": {
@@ -1574,7 +1598,8 @@
       "progression": {
         "PC": {
           "earned": 1,
-          "total": 47
+          "total": 47,
+          "steamState": "none"
         },
         "PlayStation": {
           "bronze": {
@@ -1610,7 +1635,8 @@
       "progression": {
         "PC": {
           "earned": 34,
-          "total": 52
+          "total": 52,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1627,7 +1653,8 @@
       "progression": {
         "PC": {
           "earned": 44,
-          "total": 88
+          "total": 88,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1720,7 +1747,8 @@
       "progression": {
         "PC": {
           "earned": 31,
-          "total": 58
+          "total": 58,
+          "steamState": "none"
         },
         "PlayStation": {
           "bronze": {
@@ -1852,7 +1880,8 @@
       "progression": {
         "PC": {
           "earned": 2,
-          "total": 14
+          "total": 14,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1869,7 +1898,8 @@
       "progression": {
         "PC": {
           "earned": 30,
-          "total": 72
+          "total": 72,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1886,7 +1916,8 @@
       "progression": {
         "PC": {
           "earned": 29,
-          "total": 74
+          "total": 74,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1923,7 +1954,8 @@
         },
         "PC": {
           "earned": 0,
-          "total": 48
+          "total": 48,
+          "steamState": "none"
         }
       },
       "annee": null
@@ -1940,7 +1972,8 @@
       "progression": {
         "PC": {
           "earned": 56,
-          "total": 320
+          "total": 320,
+          "steamState": "none"
         }
       },
       "type": "normal",
@@ -1960,7 +1993,8 @@
       "progression": {
         "PC": {
           "earned": 26,
-          "total": 128
+          "total": 128,
+          "steamState": "none"
         }
       },
       "type": "normal",
@@ -1980,7 +2014,8 @@
       "progression": {
         "PC": {
           "earned": 9,
-          "total": 23
+          "total": 23,
+          "steamState": "none"
         },
         "PlayStation": {
           "bronze": {
@@ -2019,7 +2054,8 @@
       "progression": {
         "PC": {
           "earned": 20,
-          "total": 139
+          "total": 139,
+          "steamState": "none"
         }
       },
       "type": "normal",
@@ -2039,7 +2075,8 @@
       "progression": {
         "PC": {
           "earned": 3,
-          "total": 65
+          "total": 65,
+          "steamState": "none"
         }
       },
       "type": "normal",
@@ -2093,8 +2130,9 @@
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyj9.jpg",
       "progression": {
         "PC": {
-          "earned": 135,
-          "total": 161
+          "earned": 161,
+          "total": 161,
+          "steamState": "base"
         }
       },
       "annee": null,
@@ -2134,7 +2172,8 @@
         },
         "PC": {
           "earned": 11,
-          "total": 47
+          "total": 47,
+          "steamState": "none"
         }
       },
       "type": "normal",
@@ -2157,7 +2196,8 @@
       "progression": {
         "PC": {
           "earned": 6,
-          "total": 59
+          "total": 59,
+          "steamState": "none"
         }
       },
       "type": "normal",
@@ -2179,7 +2219,8 @@
       "progression": {
         "PC": {
           "earned": 7,
-          "total": 59
+          "total": 59,
+          "steamState": "none"
         },
         "Xbox": {
           "earned": 0,
@@ -2288,7 +2329,8 @@
       "progression": {
         "PC": {
           "earned": 14,
-          "total": 53
+          "total": 53,
+          "steamState": "none"
         }
       },
       "type": "normal",
@@ -2311,8 +2353,9 @@
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg",
       "progression": {
         "PC": {
-          "earned": 14,
-          "total": 281
+          "earned": 21,
+          "total": 281,
+          "steamState": "none"
         },
         "Xbox": {
           "earned": 0,
