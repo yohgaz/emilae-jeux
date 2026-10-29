@@ -2265,13 +2265,14 @@
       "igdbId": "405446",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg",
       "progression": {},
-      "type": "normal",
+      "type": "a_completer",
       "completion": "Histoire\nEncyclopédie",
       "arrete": false,
       "occasion": false,
-      "jeuDuMoment": true,
+      "jeuDuMoment": false,
       "fridayFantasy": false,
-      "youtubeActive": false
+      "youtubeActive": false,
+      "excluYoutube": false
     },
     {
       "id": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
