@@ -101,7 +101,8 @@
       "progression": {
         "PC": {
           "earned": 19,
-          "total": 41
+          "total": 41,
+          "steamState": "none"
         },
         "PlayStation": {
           "bronze": {
@@ -2080,6 +2081,24 @@
       "completion": "",
       "arrete": true,
       "occasion": false
+    },
+    {
+      "id": "df14fdb9-763a-4e47-b186-649145d40e69",
+      "nom": "Vampire Crawlers",
+      "plateformes": [
+        "PC"
+      ],
+      "steamAppId": "3265700",
+      "igdbId": null,
+      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyj9.jpg",
+      "progression": {
+        "PC": {
+          "earned": 135,
+          "total": 161
+        }
+      },
+      "annee": null,
+      "arrete": false
     }
   ],
   "enCours": [
@@ -2308,29 +2327,6 @@
       "occasion": false,
       "excluYoutube": true,
       "youtubeActive": true
-    },
-    {
-      "id": "df14fdb9-763a-4e47-b186-649145d40e69",
-      "nom": "Vampire Crawlers",
-      "plateformes": [
-        "PC"
-      ],
-      "steamAppId": 3265700,
-      "igdbId": null,
-      "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyj9.jpg",
-      "progression": {
-        "PC": {
-          "earned": 135,
-          "total": 161
-        }
-      },
-      "type": "normal",
-      "completion": "",
-      "jeuDuMoment": false,
-      "fridayFantasy": false,
-      "occasion": false,
-      "excluYoutube": true,
-      "youtubeActive": false
     },
     {
       "id": "95fbc726-b02e-4735-a3d1-63bac458e09b",
