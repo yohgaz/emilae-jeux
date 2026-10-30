@@ -285,13 +285,12 @@ body::after{width:460px;height:460px;background:rgba(91,75,138,.16);bottom:-220p
 .jeu-detail-ach-noicon{width:42px;height:42px;border-radius:7px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;font-size:18px;opacity:.45}
 
 /* ── FFXIV : deux onglets dans la popup détail, uniquement pour ce jeu. ── */
-.eso-resume{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px}.eso-resume strong{font-size:30px;font-weight:900;color:#B63A4C}.eso-resume span{font-size:13px;color:var(--mu)}
-.eso-resume-bar{height:10px}
-.eso-cats{display:flex;flex-direction:column;gap:7px}.eso-cat{display:grid;grid-template-columns:minmax(120px,210px) 1fr 90px;align-items:center;gap:12px;font-size:12.5px}
-.eso-cat-nom{font-weight:800;color:var(--tx);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.eso-cat-n{text-align:right;color:var(--mu);font-variant-numeric:tabular-nums}
-.eso-recents{display:flex;flex-direction:column;gap:8px}.eso-recent{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:start;padding:9px 12px;background:var(--glass-fill);border-radius:10px}
-.eso-recent-pts{font-weight:900;color:#D9B45C;text-align:center;font-variant-numeric:tabular-nums}.eso-recent-nom{font-weight:800;font-size:13px}.eso-recent-desc{font-size:11.5px;color:var(--mu);margin-top:2px}.eso-recent-date{font-size:11px;color:var(--mu);white-space:nowrap}
-@media (max-width:640px){.eso-cat{grid-template-columns:1fr 70px}.eso-cat .jeu-progress-bar{grid-column:1 / -1;order:3}}
+/* Filtre Tous / Manquants de l'explorateur de succès (ESO) — même pastille segmentée que l'éditeur local (.bib-segmented / .bib-seg-btn). */
+.bib-segmented{display:inline-flex;background:var(--glass-fill);border:1px solid var(--glass-border);border-radius:10px;padding:3px;gap:3px}
+.bib-seg-btn{border:none;background:transparent;color:var(--mu);font-family:'Nunito',sans-serif;font-size:12px;font-weight:800;padding:7px 16px;border-radius:7px;cursor:pointer}
+.bib-seg-btn.on{background:var(--cy);color:#0B0D14}
+.ach-explorer-toolbar{display:flex;align-items:center;gap:12px}
+.ach-explorer.only-missing .ach-explorer-recent{display:none}
 .jeu-detail-tabs{display:flex;gap:2px;padding:3px;background:var(--glass-fill);border-radius:999px;margin:0 auto 14px;width:fit-content}
 .jeu-detail-tab-btn{border:none;background:none;color:var(--mu);padding:8px 18px;border-radius:999px;font-family:'Nunito',sans-serif;font-weight:800;font-size:12px;cursor:pointer;transition:background .15s ease,color .15s ease}
 .jeu-detail-tab-btn:hover{color:var(--tx)}
@@ -1188,7 +1187,7 @@ function openJeuDetailView(id, statut) {
       <div class="jeu-detail-tab-pane" id="jeu-detail-tab-succes">${achHtml}</div>
     `;
     renderFfxivIngame(jeu.ffxiv);
-  } else if (isEsoGame(jeu.nom) && jeu.eso && jeu.eso.achievements) {
+  } else if (isEsoGame(jeu.nom) && jeu.eso && jeu.eso.achievements && (jeu.eso.achievements.achievements || []).length) {
     body.innerHTML = `
       <div class="jeu-detail-tabs">
         <button class="jeu-detail-tab-btn active" onclick="switchJeuDetailTab('ingame', this)">🎮 In-game</button>
@@ -1202,22 +1201,16 @@ function openJeuDetailView(id, statut) {
   }
 }
 
-// Onglet « In-game » d'Elder Scrolls Online — les succès INTERNES du jeu (addon en jeu), tout est déjà dans jeu.eso.achievements (résumé publié : progression, avancée par
-// catégorie, derniers succès débloqués ; la liste complète des ~4000 succès reste dans l'éditeur local).
+// Onglet « In-game » d'Elder Scrolls Online — les succès INTERNES du jeu (addon en jeu), dans le même explorateur que l'éditeur local : catégories, sous-catégories, obtenus ET non
+// obtenus. Tout est déjà dans jeu.eso.achievements (liste complète publiée, voir pourSitePublic dans js/eso.js), aucun appel réseau ici.
 function esoIngameHtml(a) {
   const pct = a.total ? Math.round(a.earned / a.total * 100) : 0;
   const nombre = (n) => Number(n || 0).toLocaleString('fr-FR');
-  const date = (ms) => ms ? new Date(ms).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
-  const cats = (a.categories || []).slice().sort((x, y) => ((y.total ? y.earned / y.total : 0) - (x.total ? x.earned / x.total : 0)) || (y.total - x.total));
-  const ligneCat = (c) => { const p = c.total ? Math.round(c.earned / c.total * 100) : 0; return `<div class="eso-cat"><span class="eso-cat-nom">${esc(c.name)}</span><div class="jeu-progress-bar"><div class="jeu-progress-fill" style="width:${p}%;background:${ESO_COLOR}"></div></div><span class="eso-cat-n">${nombre(c.earned)} / ${nombre(c.total)}</span></div>`; };
-  const recents = (a.recent || []).map(r => `<div class="eso-recent"><span class="eso-recent-pts">${nombre(r.points)}</span><div><div class="eso-recent-nom">${esc(r.name)}</div>${r.description ? `<div class="eso-recent-desc">${esc(r.description)}</div>` : ''}</div><span class="eso-recent-date">${esc(date(r.date))}</span></div>`).join('');
-  return `<div class="jeu-detail-section">
-      <div class="jeu-detail-section-head">🏆 Succès du jeu</div>
-      <div class="eso-resume"><strong>${pct}%</strong><span>${nombre(a.earned)} / ${nombre(a.total)} succès · ${nombre(a.earnedPoints)} / ${nombre(a.totalPoints)} points${a.characterName ? ' · ' + esc(a.characterName) : ''}</span></div>
-      <div class="jeu-progress-bar eso-resume-bar"><div class="jeu-progress-fill" style="width:${pct}%;background:${ESO_COLOR}"></div></div>
-    </div>
-    <div class="jeu-detail-section"><div class="jeu-detail-section-head">📚 Par catégorie</div><div class="eso-cats">${cats.map(ligneCat).join('')}</div></div>
-    ${recents ? `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🕐 Derniers succès débloqués</div><div class="eso-recents">${recents}</div></div>` : ''}`;
+  const quand = a.generatedAt ? new Date(a.generatedAt).toLocaleString('fr-FR') : null;
+  const note = `<div class="jeu-detail-empty" style="margin-bottom:8px">Exporté depuis l'addon en jeu${quand ? ` — dernier export : ${esc(quand)}` : ''}.</div>`;
+  const flat = (a.achievements || []).map(x => ({ ...x, groupId: x.category || 'Autre' }));
+  const groups = [...new Set(flat.map(x => x.groupId))].map(name => ({ id: name, name }));
+  return `<div class="jeu-detail-section"><div class="jeu-detail-section-head">🏆 Succès du jeu — ${pct}% · ${nombre(a.earned)} / ${nombre(a.total)} · ${nombre(a.earnedPoints)} / ${nombre(a.totalPoints)} points${a.characterName ? ' · ' + esc(a.characterName) : ''}</div>${note}${achievementExplorerHtml(flat, groups, 'eso')}</div>`;
 }
 
 function switchJeuDetailTab(tab, btn) {
@@ -1323,27 +1316,71 @@ function ffxivCollectHtml(list, emptyLabel) {
     : `<div class="jeu-detail-empty">${emptyLabel}</div>`;
 }
 
-// ── Explorateur de succès par catégorie/liste — même composant que le
-// panneau local (voir achievementExplorerHtml dans tasks-editor.html) :
-// remplace le mur de vignettes/liste plate des seuls récemment obtenus par
-// une vraie navigation par catégorie, obtenus ET non obtenus, avec une
-// ligne des derniers débloqués au-dessus. FFXIV n'a que 2 colonnes
-// (catégorie/liste) : pas de vraie sous-catégorie côté Lodestone.
+// ── Explorateur de succès par catégorie / sous-catégorie / liste — même composant que le panneau local (voir achievementExplorerHtml dans tasks-editor.html) : une vraie
+// navigation, obtenus ET non obtenus, avec une ligne des derniers débloqués au-dessus. 3 colonnes (catégorie / sous-catégorie / liste) si les données ont une vraie
+// sous-catégorie (ESO, via l'addon), 2 sinon (FFXIV : pas de sous-catégorie côté Lodestone) — déduit des données. Filtre « Tous / Manquants » pour ESO. Pas de fiche dépliable
+// (celle de FFXIV vient d'un catalogue chargé seulement en local).
+const ESO_CATEGORY_ICON = {
+  'Personnage': '🧝', 'Joueur contre Joueur': '⚔️', 'Artisanat': '🛠️',
+  'Donjons': '🗝️', 'Donjons de Pack de jeu': '🗝️', 'Épreuves': '🐲', 'Arènes': '🛡️',
+  'Exploration': '🧭', 'Quêtes': '📜', 'Marché nocturne': '🌙', 'Archive infinie': '📚',
+  'Hébergement': '🏠', 'Événements des fêtes': '🎉', 'Solstice': '☀️', 'Saisons récentes': '🗓️',
+  'Necrom': '💀', 'Greymoor': '🩸', 'Elsweyr': '🐉', 'Summerset': '🌊', 'Morrowind': '🌋',
+  'Murkmire': '🐊', 'Clockwork City': '⚙️', 'Imperial City': '🏛️', 'Orsinium': '🪓',
+  'Dragonhold': '🏔️', 'Markarth': '⛏️', 'Deadlands': '🔥', 'Blackwood': '🐍',
+  'High Isle': '⛵', 'Gold Road': '🛤️', 'Firesong': '🎶', 'Thieves Guild': '🗡️', 'Dark Brotherhood': '🔪'
+};
 const FFXIV_CATEGORY_ICON = {
   'Combats': '⚔️', 'JcJ': '🚩', 'Personnage': '🧑', 'Objets': '🎒',
   'Synthèse et récolte': '🛠️', 'Quêtes': '📜', 'Exploration': '🧭', 'Grandes compagnies': '🎖️'
 };
-function achExplorerCategoryIcon(name) { return FFXIV_CATEGORY_ICON[name] || '📖'; }
+function achExplorerCategoryIcon(kind, name) { return (kind === 'eso' ? ESO_CATEGORY_ICON : FFXIV_CATEGORY_ICON)[name] || '📖'; }
+// Certains noms de catégorie / sous-catégorie ESO portent un suffixe de marquage grammatical interne au jeu (ex : « Marché nocturne^md ») à ne jamais afficher tel quel — et
+// « General » (sous-catégorie par défaut côté jeu) se traduit en « Général ».
+function cleanAchLabel(s) {
+  let t = String(s || '').replace(/\^\w+$/, '').trim();
+  if (t === 'General') t = 'Général';
+  return t;
+}
 function jsStr(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'"); }
 
-let _achExplorer = { achievements: [], groups: [], catId: null };
-function achievementExplorerHtml(achievements, groups) {
+let _achExplorer = { kind: 'ffxiv', achievements: [], groups: [], hasSubcats: false, catId: null, subcatId: null, filter: 'all' };
+function achievementExplorerHtml(achievements, groups, kind) {
   if (!achievements || !achievements.length) return `<div class="jeux-empty">Aucune donnée disponible.</div>`;
-  const groupList = (groups && groups.length) ? groups : [{ id: 'default', name: 'Hauts faits' }];
-  _achExplorer = { achievements, groups: groupList, catId: groupList[0].id };
+  const groupList = (groups && groups.length) ? groups : [{ id: 'default', name: kind === 'eso' ? 'Succès' : 'Hauts faits' }];
+  const hasSubcats = achievements.some(a => a.subcategory);
+  _achExplorer = { kind, achievements, groups: groupList, hasSubcats, catId: groupList[0].id, subcatId: null, filter: 'all' };
+  if (hasSubcats) {
+    const subs = achExplorerSubcatList(_achExplorer.catId);
+    _achExplorer.subcatId = subs[0] ? subs[0].id : null;
+  }
   requestAnimationFrame(fitAchExplorerRecentRow);
-  return `<div class="ach-explorer">${achExplorerRecentHtml()}<div id="ach-explorer-columns">${achExplorerColumnsHtml()}</div></div>`;
+  const toolbar = kind === 'eso' ? `<div class="ach-explorer-toolbar" id="ach-explorer-toolbar">${achExplorerToolbarHtml()}</div>` : '';
+  return `<div class="ach-explorer">${achExplorerRecentHtml()}${toolbar}<div id="ach-explorer-columns">${achExplorerColumnsHtml()}</div></div>`;
 }
+function achExplorerToolbarHtml() {
+  const all = _achExplorer.achievements.length;
+  const missing = _achExplorer.achievements.filter(a => !a.earned).length;
+  const on = f => _achExplorer.filter === f ? ' on' : '';
+  return `<div class="bib-segmented">
+    <button class="bib-seg-btn${on('all')}" onclick="setAchExplorerFilter('all')">Tous (${all})</button>
+    <button class="bib-seg-btn${on('missing')}" onclick="setAchExplorerFilter('missing')">Manquants (${missing})</button>
+  </div>`;
+}
+function achExplorerRefreshColumns() {
+  const box = document.getElementById('ach-explorer-columns');
+  if (box) box.innerHTML = achExplorerColumnsHtml();
+}
+function setAchExplorerFilter(filter) {
+  _achExplorer.filter = filter;
+  const root = document.querySelector('.ach-explorer');
+  if (root) root.classList.toggle('only-missing', filter === 'missing');
+  const tb = document.getElementById('ach-explorer-toolbar');
+  if (tb) tb.innerHTML = achExplorerToolbarHtml();
+  achExplorerRefreshColumns();
+}
+// N'affiche dans la ligne « derniers succès débloqués » que les cartes qui tiennent entièrement sur une ligne (largeur de carte et espacement fixes, voir
+// .ach-explorer-recent-item / -row) ; les autres sont retirées du DOM, le centrage CSS recentre celles qui restent.
 function fitAchExplorerRecentRow() {
   const row = document.querySelector('.ach-explorer-recent-row');
   if (!row || !row.children.length) return;
@@ -1364,10 +1401,10 @@ function achExplorerRecentHtml() {
   return `<div class="ach-explorer-recent">
     <div class="ach-explorer-recent-title">🕐 Derniers succès débloqués</div>
     <div class="ach-explorer-recent-row">${recent.map(a => `
-      <div class="ach-explorer-recent-item" onclick="achExplorerJumpTo('${jsStr(a.groupId || 'default')}')">
+      <div class="ach-explorer-recent-item" onclick="achExplorerJumpTo('${jsStr(a.groupId || 'default')}', ${a.subcategory ? `'${jsStr(a.subcategory)}'` : 'null'})">
         ${a.icon
-          ? `<img class="ach-explorer-recent-icon-img" src="${esc(a.icon)}" alt="" onerror="this.outerHTML='<div class=&quot;ach-explorer-recent-icon&quot;>${achExplorerCategoryIcon(findAchExplorerGroupName(a.groupId))}</div>'">`
-          : `<div class="ach-explorer-recent-icon">${achExplorerCategoryIcon(findAchExplorerGroupName(a.groupId))}</div>`}
+          ? `<img class="ach-explorer-recent-icon-img" src="${esc(a.icon)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;ach-explorer-recent-icon&quot;>${achExplorerCategoryIcon(_achExplorer.kind, findAchExplorerGroupName(a.groupId))}</div>'">`
+          : `<div class="ach-explorer-recent-icon">${achExplorerCategoryIcon(_achExplorer.kind, findAchExplorerGroupName(a.groupId))}</div>`}
         <div style="min-width:0">
           <div class="ach-explorer-recent-name">${esc(a.name)}${a.points ? `<span class="ach-explorer-ach-points">${a.points} pts</span>` : ''}</div>
           <div class="ach-explorer-recent-date">${new Date(a.date).toLocaleDateString('fr-FR')}</div>
@@ -1375,25 +1412,39 @@ function achExplorerRecentHtml() {
       </div>`).join('')}</div>
   </div>`;
 }
-function achExplorerJumpTo(catId) {
+function achExplorerJumpTo(catId, subcatId) {
   _achExplorer.catId = catId;
-  const box = document.getElementById('ach-explorer-columns');
-  if (box) box.innerHTML = achExplorerColumnsHtml();
+  if (_achExplorer.hasSubcats) {
+    const subs = achExplorerSubcatList(catId);
+    _achExplorer.subcatId = subcatId && subs.some(s => s.id === subcatId) ? subcatId : (subs[0] ? subs[0].id : null);
+  }
+  achExplorerRefreshColumns();
 }
 function achExplorerCategoryList() {
   return _achExplorer.groups.map(g => {
     const items = _achExplorer.achievements.filter(a => (a.groupId || 'default') === g.id);
-    return { id: g.id, name: g.name, count: items.length, earned: items.filter(a => a.earned).length };
+    return { id: g.id, name: cleanAchLabel(g.name), count: items.length, earned: items.filter(a => a.earned).length };
   }).filter(c => c.count > 0);
 }
-function achExplorerAchievementList() {
-  return _achExplorer.achievements.filter(a => (a.groupId || 'default') === _achExplorer.catId);
+function achExplorerSubcatList(catId) {
+  const items = _achExplorer.achievements.filter(a => (a.groupId || 'default') === catId);
+  const order = [];
+  items.forEach(a => { const s = a.subcategory || 'General'; if (!order.includes(s)) order.push(s); });
+  return order.map(s => {
+    const subItems = items.filter(a => (a.subcategory || 'General') === s);
+    return { id: s, name: cleanAchLabel(s), count: subItems.length, earned: subItems.filter(a => a.earned).length };
+  });
 }
-function achExplorerColHtml(items, activeId) {
+function achExplorerAchievementList() {
+  const items = _achExplorer.achievements.filter(a => (a.groupId || 'default') === _achExplorer.catId);
+  if (!_achExplorer.hasSubcats) return items;
+  return items.filter(a => (a.subcategory || 'General') === _achExplorer.subcatId);
+}
+function achExplorerColHtml(items, activeId, onClickFn) {
   return items.map(it => {
     const pct = it.count ? Math.round(it.earned / it.count * 100) : 0;
-    return `<div class="ach-explorer-col-item ${it.id === activeId ? 'active' : ''}" onclick="selectAchExplorerCat('${jsStr(it.id)}')">
-      <span class="ach-explorer-col-item-icon">${achExplorerCategoryIcon(it.name)}</span>
+    return `<div class="ach-explorer-col-item ${it.id === activeId ? 'active' : ''}" onclick="${onClickFn}('${jsStr(it.id)}')">
+      <span class="ach-explorer-col-item-icon">${achExplorerCategoryIcon(_achExplorer.kind, it.name)}</span>
       <div style="flex:1;min-width:0">
         <div class="ach-explorer-col-item-name">${esc(it.name)}</div>
         <div class="ach-explorer-col-item-bar"><div class="ach-explorer-col-item-bar-fill" style="width:${pct}%"></div></div>
@@ -1404,19 +1455,27 @@ function achExplorerColHtml(items, activeId) {
 }
 function achExplorerColumnsHtml() {
   const cats = achExplorerCategoryList();
+  const cols = [`<div class="ach-explorer-col">${achExplorerColHtml(cats, _achExplorer.catId, 'selectAchExplorerCat')}</div>`];
+  if (_achExplorer.hasSubcats) {
+    const subs = achExplorerSubcatList(_achExplorer.catId);
+    cols.push(`<div class="ach-explorer-col">${achExplorerColHtml(subs, _achExplorer.subcatId, 'selectAchExplorerSubcat')}</div>`);
+  }
   const list = achExplorerAchievementList();
-  return `<div class="ach-explorer-columns" style="grid-template-columns:240px 1fr">
-    <div class="ach-explorer-col">${achExplorerColHtml(cats, _achExplorer.catId)}</div>
-    <div class="ach-explorer-col ach-explorer-col-list">${achExplorerAchievementListHtml(list)}</div>
-  </div>`;
+  cols.push(`<div class="ach-explorer-col ach-explorer-col-list">${achExplorerAchievementListHtml(list)}</div>`);
+  const gridCols = cols.length === 3 ? '220px 220px 1fr' : '240px 1fr';
+  return `<div class="ach-explorer-columns" style="grid-template-columns:${gridCols}">${cols.join('')}</div>`;
 }
 function achExplorerAchievementListHtml(list) {
-  if (!list.length) return `<div class="jeux-empty">Aucun succès dans cette catégorie.</div>`;
+  if (_achExplorer.filter === 'missing') list = list.filter(a => !a.earned);
+  if (!list.length) return _achExplorer.filter === 'missing'
+    ? `<div class="jeux-empty">Aucun manquant ici — tout est validé 🎉</div>`
+    : `<div class="jeux-empty">Aucun succès dans cette catégorie.</div>`;
   const sorted = list.slice().sort((a, b) => (b.earned ? 1 : 0) - (a.earned ? 1 : 0));
   return sorted.map(a => {
+    // Vraie icône par succès : FFXIV (Lodestone) et ESO (icône du jeu en PNG, hébergée sur ce site dans eso-icones/ — adresse déjà publiée dans « icon »). Repli sur le badge obtenu / verrouillé si absente ou si elle ne charge pas.
     const iconHtml = a.icon
       ? `<div class="ach-explorer-ach-icon-wrap">
-          <img class="ach-explorer-ach-icon" src="${esc(a.icon)}" alt="" onerror="this.parentElement.outerHTML='<div class=&quot;ach-explorer-ach-badge ${a.earned ? 'earned' : 'locked'}&quot;>${a.earned ? '✓' : '🔒'}</div>'">
+          <img class="ach-explorer-ach-icon" src="${esc(a.icon)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.outerHTML='<div class=&quot;ach-explorer-ach-badge ${a.earned ? 'earned' : 'locked'}&quot;>${a.earned ? '✓' : '🔒'}</div>'">
           <span class="ach-explorer-ach-icon-badge ${a.earned ? 'earned' : 'locked'}">${a.earned ? '✓' : '🔒'}</span>
         </div>`
       : `<div class="ach-explorer-ach-badge ${a.earned ? 'earned' : 'locked'}">${a.earned ? '✓' : '🔒'}</div>`;
@@ -1431,9 +1490,10 @@ function achExplorerAchievementListHtml(list) {
     </div>`;
   }).join('');
 }
-function selectAchExplorerCat(catId) {
-  _achExplorer.catId = catId;
-  document.getElementById('ach-explorer-columns').innerHTML = achExplorerColumnsHtml();
+function selectAchExplorerCat(catId) { achExplorerJumpTo(catId, null); }
+function selectAchExplorerSubcat(subcatId) {
+  _achExplorer.subcatId = subcatId;
+  achExplorerRefreshColumns();
 }
 
 function renderFfxivAchievements() {
@@ -1445,7 +1505,7 @@ function renderFfxivAchievements() {
     const flat = [];
     a.categories.forEach(c => c.achievements.forEach(x => flat.push({ ...x, groupId: c.id })));
     const groups = a.categories.map(c => ({ id: c.id, name: c.name }));
-    section.innerHTML = head + achievementExplorerHtml(flat, groups);
+    section.innerHTML = head + achievementExplorerHtml(flat, groups, 'ffxiv');
   } else {
     _ffxivHfList = (a.recent || []).slice().sort((x, y) => (y.date || 0) - (x.date || 0));
     section.innerHTML = `${head}<input type="text" class="ffxiv-hf-search" placeholder="Rechercher un haut fait..." oninput="filterFfxivHf(this.value)"><div id="ffxiv-hf-list">${ffxivHfRowsHtml(_ffxivHfList)}</div>`;
