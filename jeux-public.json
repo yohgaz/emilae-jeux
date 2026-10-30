@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T08:43:12.575Z",
+  "updatedAt": "2026-10-30T09:27:05.509Z",
   "termines": [
     {
       "id": "83e8e1d7d9f24387bd4cef7b55052a59",
@@ -13,6 +13,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": null,
       "igdbCover": null,
@@ -665,6 +666,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": null,
       "igdbCover": null,
@@ -1708,6 +1710,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "7670",
       "igdbId": null,
       "igdbCover": null,
@@ -1786,6 +1789,10 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/BioShock_(jeu_vid%C3%A9o)"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/7670/?l=french"
           },
@@ -1796,7 +1803,8 @@
         ],
         "sources": [
           "Steam",
-          "Wikidata"
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -1812,6 +1820,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "570940",
       "igdbId": null,
       "igdbCover": null,
@@ -2258,6 +2267,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "678960",
       "igdbId": null,
       "igdbCover": null,
@@ -2879,6 +2889,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "7334",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob99l.jpg",
@@ -3422,7 +3433,38 @@
           "publisher": false
         }
       ],
-      "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkv.jpg"
+      "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkv.jpg",
+      "pitch": "Bloodborne (ブラッドボーン, Buraddobōn) est un jeu vidéo de type action-RPG avec pour thème la dark fantasy développé par From Software en collaboration avec Japan Studio et édité par Sony Computer Entertainment. Il est commercialisé exclusivement sur PlayStation 4 en mars 2015.",
+      "ficheFr": {
+        "faits": [
+          {
+            "label": "Sortie",
+            "value": "24 mars 2015"
+          },
+          {
+            "label": "Genres",
+            "value": "Action-RPG, Soulslike, Survival horror"
+          },
+          {
+            "label": "Modes de jeu",
+            "value": "Multijoueur, Solo"
+          }
+        ],
+        "liens": [
+          {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Bloodborne"
+          },
+          {
+            "label": "Site officiel",
+            "url": "https://www.playstation.com/en-us/games/bloodborne/"
+          }
+        ],
+        "sources": [
+          "Wikidata",
+          "Wikipédia"
+        ]
+      }
     },
     {
       "id": "0c79e54bf51f46999ad7ecf2cf03ff95",
@@ -3437,6 +3479,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1091500",
       "igdbId": null,
       "igdbCover": null,
@@ -4166,19 +4209,15 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "10 décembre 2020"
+            "value": "9 décembre 2020"
           },
           {
             "label": "Genres",
-            "value": "Action-RPG, Jeu vidéo cyberpunk, Jeu vidéo de science-fiction"
+            "value": "RPG"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo, Multijoueur"
-          },
-          {
-            "label": "Moteur",
-            "value": "RedEngine"
+            "value": "Solo"
           },
           {
             "label": "En français",
@@ -4186,10 +4225,6 @@
           }
         ],
         "liens": [
-          {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/Cyberpunk_2077"
-          },
           {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1091500/?l=french"
@@ -4200,9 +4235,7 @@
           }
         ],
         "sources": [
-          "Steam",
-          "Wikidata",
-          "Wikipédia"
+          "Steam"
         ]
       }
     },
@@ -4218,6 +4251,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "373420",
       "igdbId": null,
       "igdbCover": null,
@@ -4717,6 +4751,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1222690",
       "igdbId": null,
       "igdbCover": null,
@@ -5637,6 +5672,10 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Dragon_Age:_Inquisition"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1222690/?l=french"
           },
@@ -5647,7 +5686,8 @@
         ],
         "sources": [
           "Steam",
-          "Wikidata"
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -5663,6 +5703,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "9214",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u5j.jpg",
@@ -6330,15 +6371,19 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "3 décembre 2015"
+            "value": "26 février 2015"
           },
           {
             "label": "Genres",
-            "value": "Action, RPG"
+            "value": "Action-RPG, Hack and slash, Crowd-combat"
           },
           {
             "label": "Modes de jeu",
             "value": "Solo"
+          },
+          {
+            "label": "Série",
+            "value": "Dragon Quest"
           },
           {
             "label": "En français",
@@ -6352,11 +6397,12 @@
           },
           {
             "label": "Site officiel",
-            "url": "http://dragonquest-game.com/heroes/"
+            "url": "http://www.dragonquest.jp/heroes/"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata"
         ]
       }
     },
@@ -6372,6 +6418,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "493900",
       "igdbId": null,
       "igdbCover": null,
@@ -6926,6 +6973,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "595520",
       "igdbId": null,
       "igdbCover": null,
@@ -7291,11 +7339,11 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "1er février 2018"
+            "value": "11 juillet 2017"
           },
           {
             "label": "Genres",
-            "value": "RPG"
+            "value": "JRPG, Jeu vidéo de rôle"
           },
           {
             "label": "Modes de jeu",
@@ -7317,7 +7365,8 @@
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata"
         ]
       }
     },
@@ -7333,6 +7382,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "292120",
       "igdbId": null,
       "igdbCover": null,
@@ -7732,6 +7782,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "637650",
       "igdbId": null,
       "igdbCover": null,
@@ -9765,19 +9816,15 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "29 novembre 2016"
+            "value": "6 mars 2018"
           },
           {
             "label": "Genres",
-            "value": "Action-RPG"
+            "value": "RPG"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo, Multijoueur, Mode coopératif"
-          },
-          {
-            "label": "Moteur",
-            "value": "Luminous Studio"
+            "value": "Solo, Multijoueur, JcJ en ligne, Coopération, Coopération en ligne"
           },
           {
             "label": "En français",
@@ -9786,22 +9833,16 @@
         ],
         "liens": [
           {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/Final_Fantasy_XV"
-          },
-          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/637650/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "https://finalfantasyxv.square-enix-games.com"
+            "url": "https://www.finalfantasyxv.com/"
           }
         ],
         "sources": [
-          "Steam",
-          "Wikidata",
-          "Wikipédia"
+          "Steam"
         ]
       }
     },
@@ -9817,6 +9858,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "312750",
       "igdbId": null,
       "igdbCover": null,
@@ -10361,6 +10403,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "335300",
       "igdbId": null,
       "igdbCover": null,
@@ -10856,11 +10899,11 @@
           },
           {
             "label": "Genres",
-            "value": "Action, RPG"
+            "value": "Jeu d'action, Jeu vidéo de rôle"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo, Multijoueur, Coopération"
+            "value": "Solo, Multijoueur"
           },
           {
             "label": "En français",
@@ -10874,11 +10917,12 @@
           },
           {
             "label": "Site officiel",
-            "url": "https://www.bandainamcoent.com/games/dark-souls-ii"
+            "url": "http://www.darksoulsii.com"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata"
         ]
       }
     },
@@ -10895,6 +10939,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "374320",
       "igdbId": null,
       "igdbCover": null,
@@ -11870,6 +11915,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1593500",
       "igdbId": null,
       "igdbCover": null,
@@ -12368,19 +12414,15 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "22 mars 2005"
+            "value": "14 janvier 2022"
           },
           {
             "label": "Genres",
-            "value": "Jeu d'action-aventure"
+            "value": "Action, Aventure, RPG"
           },
           {
             "label": "Modes de jeu",
             "value": "Solo"
-          },
-          {
-            "label": "Moteur",
-            "value": "Kinetica"
           },
           {
             "label": "En français",
@@ -12389,22 +12431,16 @@
         ],
         "liens": [
           {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/God_of_War_(jeu_vid%C3%A9o,_2005)"
-          },
-          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1593500/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "http://www.godofwar.com/"
+            "url": "https://www.playstation.com/god-of-war/"
           }
         ],
         "sources": [
-          "Steam",
-          "Wikidata",
-          "Wikipédia"
+          "Steam"
         ]
       }
     },
@@ -12420,6 +12456,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1151640",
       "igdbId": null,
       "igdbCover": null,
@@ -13434,12 +13471,20 @@
       "ficheFr": {
         "faits": [
           {
+            "label": "Sortie",
+            "value": "28 février 2017"
+          },
+          {
             "label": "Genres",
-            "value": "Action, Aventure, RPG"
+            "value": "Action-RPG, Jeu vidéo de science-fiction, Jeu vidéo postapocalyptique, Jeu d'action, Jeu d'action-aventure"
           },
           {
             "label": "Modes de jeu",
             "value": "Solo"
+          },
+          {
+            "label": "Moteur",
+            "value": "Decima"
           },
           {
             "label": "En français",
@@ -13448,12 +13493,22 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Horizon_Zero_Dawn"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1151640/?l=french"
+          },
+          {
+            "label": "Site officiel",
+            "url": "https://www.guerrilla-games.com/play/horizon"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -13469,6 +13524,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "441830",
       "igdbId": null,
       "igdbCover": null,
@@ -13954,6 +14010,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "1941",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1izy.jpg",
@@ -14561,41 +14618,7 @@
           "publisher": true
         }
       ],
-      "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/tkuob5ieae4d1njwi7cj.jpg",
-      "pitch": null,
-      "ficheFr": {
-        "faits": [
-          {
-            "label": "Sortie",
-            "value": "21 mars 2014"
-          },
-          {
-            "label": "Genres",
-            "value": "Jeu d'action-aventure"
-          },
-          {
-            "label": "Modes de jeu",
-            "value": "Solo"
-          },
-          {
-            "label": "Série",
-            "value": "InFamous"
-          },
-          {
-            "label": "Moteur",
-            "value": "Havok"
-          }
-        ],
-        "liens": [
-          {
-            "label": "Site officiel",
-            "url": "https://www.suckerpunch.com/category/games/second-son/"
-          }
-        ],
-        "sources": [
-          "Wikidata"
-        ]
-      }
+      "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/tkuob5ieae4d1njwi7cj.jpg"
     },
     {
       "id": "407b2b3169f44476986500e4f5e8288d",
@@ -14609,6 +14632,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "2552450",
       "igdbId": null,
       "igdbCover": null,
@@ -15337,6 +15361,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1627720",
       "igdbId": null,
       "igdbCover": null,
@@ -16071,6 +16096,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "319630",
       "igdbId": null,
       "igdbCover": null,
@@ -16918,6 +16944,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "17460",
       "igdbId": null,
       "igdbCover": null,
@@ -17548,10 +17575,6 @@
           {
             "label": "Moteur",
             "value": "Unreal Engine 3"
-          },
-          {
-            "label": "En français",
-            "value": "Textes et sous-titres en français (pas de doublage)"
           }
         ],
         "liens": [
@@ -17560,16 +17583,11 @@
             "url": "https://fr.wikipedia.org/wiki/Mass_Effect_(jeu_vid%C3%A9o)"
           },
           {
-            "label": "Page Steam",
-            "url": "https://store.steampowered.com/app/17460/?l=french"
-          },
-          {
             "label": "Site officiel",
             "url": "http://masseffect.bioware.com/me1"
           }
         ],
         "sources": [
-          "Steam",
           "Wikidata",
           "Wikipédia"
         ]
@@ -17587,6 +17605,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "589360",
       "igdbId": null,
       "igdbCover": null,
@@ -18180,6 +18199,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "798460",
       "igdbId": null,
       "igdbCover": null,
@@ -18632,15 +18652,19 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "19 septembre 2019"
+            "value": "20 septembre 2019"
           },
           {
             "label": "Genres",
-            "value": "Action, Aventure, RPG"
+            "value": "JRPG"
           },
           {
             "label": "Modes de jeu",
             "value": "Solo"
+          },
+          {
+            "label": "Série",
+            "value": "Ni no Kuni"
           },
           {
             "label": "En français",
@@ -18658,7 +18682,8 @@
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata"
         ]
       }
     },
@@ -18674,6 +18699,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1325200",
       "igdbId": null,
       "igdbCover": null,
@@ -19860,15 +19886,15 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "13 mars 2020"
+            "value": "5 février 2021"
           },
           {
             "label": "Genres",
-            "value": "Action-RPG"
+            "value": "Action, RPG"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo, Multijoueur, Mode coopératif"
+            "value": "Solo, Multijoueur, Coopération, Coopération en ligne"
           },
           {
             "label": "En français",
@@ -19877,22 +19903,16 @@
         ],
         "liens": [
           {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/Nioh_2"
-          },
-          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1325200/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "https://teamninja-studio.com/nioh"
+            "url": "https://teamninja-studio.com/nioh2/"
           }
         ],
         "sources": [
-          "Steam",
-          "Wikidata",
-          "Wikipédia"
+          "Steam"
         ]
       }
     },
@@ -19908,6 +19928,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "485510",
       "igdbId": null,
       "igdbCover": null,
@@ -20650,6 +20671,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "921570",
       "igdbId": null,
       "igdbCover": null,
@@ -21220,6 +21242,10 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Octopath_Traveler"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/921570/?l=french"
           },
@@ -21230,7 +21256,8 @@
         ],
         "sources": [
           "Steam",
-          "Wikidata"
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -21246,6 +21273,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1089090",
       "igdbId": null,
       "igdbCover": null,
@@ -21784,19 +21812,15 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "27 mars 2020"
+            "value": "14 septembre 2023"
           },
           {
             "label": "Genres",
-            "value": "Jeu d'action-aventure, Crowd-combat"
+            "value": "Action"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo, Multijoueur"
-          },
-          {
-            "label": "Série",
-            "value": "One Piece : Pirate Warriors"
+            "value": "Solo, Multijoueur, JcJ en ligne"
           },
           {
             "label": "En français",
@@ -21805,22 +21829,16 @@
         ],
         "liens": [
           {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/One_Piece:_Pirate_Warriors_4"
-          },
-          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1089090/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "https://oppw4-20-en.bn-ent.net/"
+            "url": "https://www.bandainamcoent.com/"
           }
         ],
         "sources": [
-          "Steam",
-          "Wikidata",
-          "Wikipédia"
+          "Steam"
         ]
       }
     },
@@ -21836,6 +21854,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "102873",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zjz.jpg",
@@ -21879,6 +21898,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "304240",
       "igdbId": null,
       "igdbCover": null,
@@ -22447,16 +22467,16 @@
           "publisher": false
         }
       ],
-      "pitch": null,
+      "pitch": "Resident Evil — ou Bio Hazard (バイオハザード, Baio Hazādo) au Japon — est un jeu vidéo du genre survival horror développé et édité par Capcom, sorti initialement sur GameCube le 22 mars 2002 au Japon.",
       "ficheFr": {
         "faits": [
           {
             "label": "Sortie",
-            "value": "19 janvier 2015"
+            "value": "22 mars 2002"
           },
           {
             "label": "Genres",
-            "value": "Action, Aventure"
+            "value": "Survival horror"
           },
           {
             "label": "Modes de jeu",
@@ -22469,16 +22489,22 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Resident_Evil_(jeu_vid%C3%A9o,_2002)"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/304240/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "http://www.residentevil.com/"
+            "url": "http://www.capcom-europe.com/residentevil/remake/"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -22494,6 +22520,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "418370",
       "igdbId": null,
       "igdbCover": null,
@@ -23278,6 +23305,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "391220",
       "igdbId": null,
       "igdbCover": null,
@@ -24507,6 +24535,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "750920",
       "igdbId": null,
       "igdbCover": null,
@@ -25327,11 +25356,15 @@
           },
           {
             "label": "Genres",
-            "value": "Action, Aventure"
+            "value": "Jeu d'aventure, Jeu d'action-aventure, Jeu vidéo de rôle, Jeu de plates-formes"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo"
+            "value": "Solo, Mode coopératif"
+          },
+          {
+            "label": "Série",
+            "value": "Tomb Raider"
           },
           {
             "label": "En français",
@@ -25339,6 +25372,10 @@
           }
         ],
         "liens": [
+          {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Shadow_of_the_Tomb_Raider"
+          },
           {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/750920/?l=french"
@@ -25349,7 +25386,9 @@
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -25365,6 +25404,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1096530",
       "igdbId": null,
       "igdbCover": null,
@@ -26495,6 +26535,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "11213",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uf1.jpg",
@@ -27034,6 +27075,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "365590",
       "igdbId": null,
       "igdbCover": null,
@@ -28376,6 +28418,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "7047",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co887p.jpg",
@@ -28459,6 +28502,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "3048",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rn6.jpg",
@@ -28792,6 +28836,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "779340",
       "igdbId": null,
       "igdbCover": null,
@@ -29625,11 +29670,15 @@
           },
           {
             "label": "Genres",
-            "value": "Action, Stratégie"
+            "value": "Jeu vidéo de stratégie, Jeu de grande stratégie, Jeu de stratégie au tour par tour, Jeu vidéo historique"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo, Multijoueur, JcJ en ligne, JcJ en LAN, Coopération"
+            "value": "Solo, Multijoueur"
+          },
+          {
+            "label": "Série",
+            "value": "Total War"
           },
           {
             "label": "En français",
@@ -29637,6 +29686,10 @@
           }
         ],
         "liens": [
+          {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Total_War:_Three_Kingdoms"
+          },
           {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/779340/?l=french"
@@ -29647,7 +29700,9 @@
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -29663,6 +29718,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "2172010",
       "igdbId": null,
       "igdbCover": null,
@@ -29983,6 +30039,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "790820",
       "igdbId": null,
       "igdbCover": null,
@@ -30372,6 +30429,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "427290",
       "igdbId": null,
       "igdbCover": null,
@@ -30691,6 +30749,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "37382",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zk2.jpg",
@@ -30713,6 +30772,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "524220",
       "igdbId": null,
       "igdbCover": null,
@@ -31172,6 +31232,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "582160",
       "igdbId": null,
       "igdbCover": null,
@@ -31739,15 +31800,19 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "26 octobre 2017"
+            "value": "27 octobre 2017"
           },
           {
             "label": "Genres",
-            "value": "Action, Aventure, RPG"
+            "value": "Jeu d'action-aventure, Jeu d'infiltration, Action-RPG, Jeu vidéo historique"
           },
           {
             "label": "Modes de jeu",
             "value": "Solo"
+          },
+          {
+            "label": "Moteur",
+            "value": "Ubisoft Anvil"
           },
           {
             "label": "En français",
@@ -31756,16 +31821,22 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Assassin%27s_Creed_Origins"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/582160/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "http://assassinscreed.ubisoft.com"
+            "url": "https://www.ubisoft.com/en-us/game/assassins-creed/origins"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -31781,6 +31852,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1776380",
       "igdbId": null,
       "igdbCover": null,
@@ -32505,6 +32577,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "377840",
       "igdbId": null,
       "igdbCover": null,
@@ -33301,6 +33374,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "7346",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
@@ -33935,6 +34009,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "742120",
       "igdbId": null,
       "igdbCover": null,
@@ -34478,6 +34553,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "26845",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n8t.jpg",
@@ -34522,6 +34598,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "582010",
       "igdbId": null,
       "igdbCover": null,
@@ -36033,6 +36110,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "2246340",
       "igdbId": null,
       "igdbCover": null,
@@ -37117,6 +37195,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1845910",
       "igdbId": null,
       "igdbCover": null,
@@ -37827,6 +37906,10 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Dragon_Age:_The_Veilguard"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1845910/?l=french"
           },
@@ -37837,7 +37920,8 @@
         ],
         "sources": [
           "Steam",
-          "Wikidata"
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -37853,6 +37937,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1340990",
       "igdbId": null,
       "igdbCover": null,
@@ -38571,6 +38656,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1124300",
       "igdbId": null,
       "igdbCover": null,
@@ -40194,6 +40280,10 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Humankind"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1124300/?l=french"
           },
@@ -40204,7 +40294,8 @@
         ],
         "sources": [
           "Steam",
-          "Wikidata"
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -40220,6 +40311,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "745920",
       "igdbId": null,
       "igdbCover": null,
@@ -41237,6 +41329,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1276790",
       "igdbId": null,
       "igdbCover": null,
@@ -41707,10 +41800,6 @@
         ],
         "liens": [
           {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/Ruined_King"
-          },
-          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1276790/?l=french"
           },
@@ -41721,8 +41810,7 @@
         ],
         "sources": [
           "Steam",
-          "Wikidata",
-          "Wikipédia"
+          "Wikidata"
         ]
       }
     },
@@ -41738,6 +41826,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "970830",
       "igdbId": null,
       "igdbCover": null,
@@ -42469,7 +42558,7 @@
           },
           {
             "label": "Genres",
-            "value": "Action, Aventure, Indépendant, RPG, Stratégie"
+            "value": "Tactical RPG, Dungeon crawler"
           },
           {
             "label": "Modes de jeu",
@@ -42482,16 +42571,22 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Le_Donjon_de_Naheulbeuk_:_L%27Amulette_du_D%C3%A9sordre"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/970830/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "http://amuletofchaos.com/"
+            "url": "https://www.amulettedudesordre.com"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -42507,6 +42602,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "68353",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7310.jpg",
@@ -43177,7 +43273,38 @@
           "developer": false,
           "publisher": true
         }
-      ]
+      ],
+      "pitch": "Unicorn Overlord est un jeu vidéo de type tactical RPG sorti le 8 mars 2024 sur PlayStation 4, PlayStation 5, Nintendo Switch et Xbox Series. Il est développé par le studio japonais Vanillaware, et édité par Atlus au Japon et par Sega en Europe.",
+      "ficheFr": {
+        "faits": [
+          {
+            "label": "Sortie",
+            "value": "8 mars 2024"
+          },
+          {
+            "label": "Genres",
+            "value": "Tactical RPG"
+          },
+          {
+            "label": "Modes de jeu",
+            "value": "Solo, Multijoueur"
+          }
+        ],
+        "liens": [
+          {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Unicorn_Overlord"
+          },
+          {
+            "label": "Site officiel",
+            "url": "https://unicorn-overlord.com"
+          }
+        ],
+        "sources": [
+          "Wikidata",
+          "Wikipédia"
+        ]
+      }
     },
     {
       "id": "c77c805a-d5df-4064-90ba-e8a1f3659d6e",
@@ -43191,6 +43318,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "26761",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r9.jpg",
@@ -43207,46 +43335,7 @@
           "developer": true,
           "publisher": true
         }
-      ],
-      "pitch": "Splatoon 2 est un jeu vidéo de tir à la troisième personne développé par Nintendo EPD et édité par Nintendo, sorti le 21 juillet 2017 sur Nintendo Switch.",
-      "ficheFr": {
-        "faits": [
-          {
-            "label": "Sortie",
-            "value": "21 juillet 2017"
-          },
-          {
-            "label": "Genres",
-            "value": "Jeu d'action, Jeu de tir à la troisième personne, Jeu vidéo postapocalyptique"
-          },
-          {
-            "label": "Modes de jeu",
-            "value": "Multijoueur, Solo"
-          },
-          {
-            "label": "Série",
-            "value": "Splatoon"
-          },
-          {
-            "label": "Moteur",
-            "value": "LunchPack"
-          }
-        ],
-        "liens": [
-          {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/Splatoon_2"
-          },
-          {
-            "label": "Site officiel",
-            "url": "https://www.nintendo.co.jp/switch/aab6a/"
-          }
-        ],
-        "sources": [
-          "Wikidata",
-          "Wikipédia"
-        ]
-      }
+      ]
     },
     {
       "id": "c6931980-cde8-452b-b0b0-ebe276f7f867",
@@ -43260,6 +43349,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "279643",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8roc.jpg",
@@ -43995,6 +44085,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "740130",
       "igdbId": null,
       "igdbCover": null,
@@ -45186,15 +45277,23 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "8 novembre 2023"
+            "value": "10 septembre 2021"
           },
           {
             "label": "Genres",
-            "value": "Action, RPG"
+            "value": "Action-RPG, JRPG"
           },
           {
             "label": "Modes de jeu",
             "value": "Solo"
+          },
+          {
+            "label": "Série",
+            "value": "Tales of"
+          },
+          {
+            "label": "Moteur",
+            "value": "Unreal Engine 4"
           },
           {
             "label": "En français",
@@ -45203,12 +45302,18 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Tales_of_Arise"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/740130/?l=french"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -45224,6 +45329,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "90099",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrm.jpg",
@@ -46059,6 +46165,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": "19565",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg",
@@ -47011,26 +47118,7 @@
           "developer": false,
           "publisher": true
         }
-      ],
-      "pitch": "Spider-Man (Marvel's Spider-Man) est une série télévisée d'animation américaine en 52 épisodes de 22 minutes pour les deux premières saisons et en six épisodes de 44 minutes pour la troisième saison, adaptée des personnages des comics Marvel et diffusée du 19 août 2017 au 25 octobre 2020 sur Disney XD.",
-      "ficheFr": {
-        "faits": [
-          {
-            "label": "Genres",
-            "value": "Série d'action, Série télévisée d'aventures"
-          }
-        ],
-        "liens": [
-          {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/Spider-Man_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation)"
-          }
-        ],
-        "sources": [
-          "Wikidata",
-          "Wikipédia"
-        ]
-      }
+      ]
     },
     {
       "id": "c6c10a07-4cb4-42a4-b173-81ddcf10a441",
@@ -47044,6 +47132,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v88.jpg",
@@ -47088,20 +47177,28 @@
         }
       ],
       "artwork": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cga.jpg",
-      "pitch": null,
+      "pitch": "Metal Gear Solid V: Ground Zeroes (メタルギアソリッドVグラウンドゼロズ, Metaru Gia Soriddo Faibu Guraundo Zerozu) est un jeu vidéo d'action-infiltration développé par Kojima Productions et édité par Konami. Il est sorti sur PlayStation 3, PlayStation 4, Xbox 360 et Xbox One en mars 2014. Une version Windows du jeu est également sortie sur Steam le 18 décembre 2014.",
       "ficheFr": {
         "faits": [
           {
             "label": "Sortie",
-            "value": "18 décembre 2014"
+            "value": "18 mars 2014"
           },
           {
             "label": "Genres",
-            "value": "Action, Aventure"
+            "value": "Jeu d'action-aventure, Jeu de tir à la troisième personne"
           },
           {
             "label": "Modes de jeu",
             "value": "Solo"
+          },
+          {
+            "label": "Série",
+            "value": "Metal Gear"
+          },
+          {
+            "label": "Moteur",
+            "value": "Fox Engine"
           },
           {
             "label": "En français",
@@ -47110,16 +47207,22 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Metal_Gear_Solid_V:_Ground_Zeroes"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/311340/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "http://www.konami.jp/mgs5/gz/certification.php5"
+            "url": "http://www.konami.jp/mgs5/gz/en/"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -47135,6 +47238,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "238320",
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yat.jpg",
@@ -47334,6 +47438,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "356190",
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coalj6.jpg",
@@ -47933,11 +48038,11 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "10 octobre 2017"
+            "value": "9 octobre 2017"
           },
           {
             "label": "Genres",
-            "value": "Jeu d'action-aventure, Action-RPG"
+            "value": "Action, Aventure, RPG"
           },
           {
             "label": "Modes de jeu",
@@ -47952,15 +48057,10 @@
           {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/356190/?l=french"
-          },
-          {
-            "label": "Site officiel",
-            "url": "https://www.shadowofwar.com/"
           }
         ],
         "sources": [
-          "Steam",
-          "Wikidata"
+          "Steam"
         ]
       }
     },
@@ -47976,6 +48076,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "241930",
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20pd.jpg",
@@ -48640,6 +48741,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "207610",
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j1g.jpg",
@@ -49736,6 +49838,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "289070",
       "igdbId": null,
       "igdbCover": null,
@@ -52382,6 +52485,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "637090",
       "igdbId": null,
       "igdbCover": null,
@@ -53493,6 +53597,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1085660",
       "igdbId": null,
       "igdbCover": null,
@@ -54066,6 +54171,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "289130",
       "igdbId": null,
       "igdbCover": null,
@@ -55265,6 +55371,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1466060",
       "igdbId": null,
       "igdbCover": null,
@@ -55880,6 +55987,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobksf.jpg",
@@ -56586,7 +56694,7 @@
             "type": "bronze",
             "hidden": true,
             "earned": true,
-            "percent": 51.5,
+            "percent": 51.4,
             "date": 1606065104000,
             "groupId": "default"
           },
@@ -56724,6 +56832,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "3265700",
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyj9.jpg",
@@ -58047,7 +58156,7 @@
           },
           {
             "label": "Genres",
-            "value": "Action, Indépendant, Stratégie"
+            "value": "Jeu de construction de paquet de cartes roguelike"
           },
           {
             "label": "Modes de jeu",
@@ -58062,10 +58171,15 @@
           {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/3265700/?l=french"
+          },
+          {
+            "label": "Site officiel",
+            "url": "https://poncle.games/vampire-crawlers"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata"
         ]
       }
     }
@@ -58086,6 +58200,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "1295660",
       "igdbId": null,
       "igdbCover": null,
@@ -59058,19 +59173,15 @@
         "faits": [
           {
             "label": "Sortie",
-            "value": "6 février 2025"
+            "value": "10 février 2025"
           },
           {
             "label": "Genres",
-            "value": "Jeu de stratégie au tour par tour"
+            "value": "Simulation, Stratégie"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo"
-          },
-          {
-            "label": "Série",
-            "value": "Civilization"
+            "value": "Solo, Multijoueur, JcJ en ligne, JcJ en LAN, Multijoueur multiplateforme"
           },
           {
             "label": "En français",
@@ -59079,22 +59190,16 @@
         ],
         "liens": [
           {
-            "label": "Wikipédia",
-            "url": "https://fr.wikipedia.org/wiki/Civilization_VII"
-          },
-          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/1295660/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "https://civilization.2k.com/civ-vii/"
+            "url": "https://civilization.2k.com/"
           }
         ],
         "sources": [
-          "Steam",
-          "Wikidata",
-          "Wikipédia"
+          "Steam"
         ]
       }
     },
@@ -59112,6 +59217,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "3407390",
       "igdbId": null,
       "igdbCover": null,
@@ -59672,6 +59778,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "2742830",
       "igdbId": null,
       "igdbCover": null,
@@ -59682,8 +59789,8 @@
           "steamState": "none"
         },
         "Xbox": {
-          "earned": 0,
-          "total": 0,
+          "earned": 8,
+          "total": 59,
           "titleId": "2119739112"
         }
       },
@@ -60166,7 +60273,488 @@
             "percent": 2.3
           }
         ],
-        "xbox": []
+        "xbox": [
+          {
+            "name": "Rang supérieur",
+            "description": "Faites monter un clan de niveau.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.2foORa5Bxog2iObN.n6Z4p7l7U8lg.4khS1dGJEJC8w1neV6AXqTxnBfUmi5vMmoyIOwuED1_xauRvg3SRq4BiG74OLLB_Eqss6KvecE_9iKyic6HGQNGDD0Lnr9EQvA--",
+            "earned": true,
+            "points": 10,
+            "percent": 50.6,
+            "date": 1753008412700
+          },
+          {
+            "name": "Premier mais pas dernier",
+            "description": "Gagnez une partie standard.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9ftLddrso01kfa.YcyNE0MwuNyH07SzN3Me1ZVG2PROWy0o9kG67pEZBYYnfOxJlYEsi4h_aZNe8D6pU5ThIBkOUHTk1f7_rkXKzYK0yV.MB7hvk84kcZE1RjKUh0fF9qlAkhCOA0zPQHqrSFmMCSA-",
+            "earned": false,
+            "points": 10,
+            "percent": 31.4
+          },
+          {
+            "name": "Stellaire",
+            "description": "Déverrouillez les Lunariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_qMM5bnYUlbqYDtyecxqYh8.T23w26gFMCxRCbNokcUolejI6_2Nzg.4n3IMCzrB430F_d2Q3KFHGcAv5GUEa9u1TYCSKo.Jv9YMRc3rKxznBChmvoSDcB_wcrwIn_yEw--",
+            "earned": true,
+            "points": 15,
+            "percent": 38.9,
+            "date": 1753006777503
+          },
+          {
+            "name": "Faction fongique",
+            "description": "Déverrouillez les Armillaires.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd46UheQh2umGhprFa2FN5OIl2J_pIh0pYpPXt9EAIruunIiDmW2wBKgR.GO1dRQ3LpgFc.Xof.S2ya4tyK4HzfalzcsYqZgpgVCZth8yUt31lfrSfDtGBHKgKXMvaDmI7g--",
+            "earned": false,
+            "points": 15,
+            "percent": 26.9
+          },
+          {
+            "name": "Folie scientifique",
+            "description": "Déverrouillez les Lazariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd348W2bH8YUJyHKqXxQAvMpajHSDXu3i4JeGxnaM9fSQtJS0oPNFpIUFW9sl2eD.1CbEM8k300Fh61A1gj4olxS_v7o2VWHdEiZ_VLYmOnFony30XMtvbPEEQdkhoVJKgw--",
+            "earned": false,
+            "points": 15,
+            "percent": 25
+          },
+          {
+            "name": "Toute la bande est là",
+            "description": "Sauvez les clans du premier Monster Train.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0wsvf8rmK9Dr61KsBqB_AphL2tXo8Brg7nKmE.urcNiLPspdDNbCkEbUVg70OoA3G6H.icirRh3tZCLE22VUg1MUj7VOrtxdFLW84VjDQmnCi2KM6ZtsFHcnJSvHufOcNhtBsEWCr4BIUDT3Vr9bhg-",
+            "earned": false,
+            "points": 15,
+            "percent": 15.9
+          },
+          {
+            "name": "Divinité restaurée",
+            "description": "Atteignez le niveau 10 avec les Bannis.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9AWJV.UHRjOK0c53FCeHK8.8CQKfLESRcDIzFOG1FF08KNs8UkZo9P_RiYhwVkOekTnDT8H8qdSM9C8FLkA5AsIj23J.mVy0MuBSRsY1fibDL_XdVVFT.Vs4RcWqZox1IsiGXBgcoKqaIF3uijqiwI-",
+            "earned": false,
+            "points": 15,
+            "percent": 10.8
+          },
+          {
+            "name": "Trône d'or",
+            "description": "Atteignez le niveau 10 avec les Draconides.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9djFvqvqF.ZZW_75SjhTATTs0ttyBYhZm8D1j_uqB12YOi5_EydWykBxNinoHlGb4TXkxWirL_ob.bb8M3KyC00gYU01DgcebdZZyknRZujxQzWGdl8YC3Qq5otDKhKsg--",
+            "earned": false,
+            "points": 15,
+            "percent": 10.3
+          },
+          {
+            "name": "Éclipse totale",
+            "description": "Atteignez le niveau 10 avec les Lunariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_UU_kXBaY0gmWdD5kzxjPrdUVANUpLQR1yei371J98fhRoKrr_JYKpf34c7n19cl7vwrd2FQTsS56hHspoMICk8XT1DBktEGafRjh3Xafr1erURhdp1Arq4H6LX3zzLjA--",
+            "earned": false,
+            "points": 15,
+            "percent": 6.7
+          },
+          {
+            "name": "Myco-héros",
+            "description": "Atteignez le niveau 10 avec les Armillaires.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_8w_ObHaRtJWHo17HR5KjG9waXOJg6VyYfZN0swxv3H9uKH.c4DyqxmXZuyTVc6hCm_pUdKq8EUsW1lqgDvDG_PnXQ0mra_Dn5vMjbzht9ZPOuUeogDMTSzOft8YzwsYURoiRHouOsjGbmMk3PUe9I-",
+            "earned": false,
+            "points": 15,
+            "percent": 8.6
+          },
+          {
+            "name": "Les médecins sont là",
+            "description": "Atteignez le niveau 10 avec les Lazariens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7wWbIFpzN57QHEWOEaGO4gRxdL97ZpGXN6FBX9XjPk09yEer66J4kbcEqtoMEmzVsEFxyme1a2Bx.Kx4bWIg11Umb47kHEPVW84dh2k7L9PIkYyLzhNGtiFTzuFFnMxRFAdaOeboKo.5JfSUYZouBk-",
+            "earned": false,
+            "points": 15,
+            "percent": 5.9
+          },
+          {
+            "name": "Abomination démoniaque",
+            "description": "Atteignez le niveau 10 avec les Cornus.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4JPtcQ5jbatEHnfd2dGGGIOwFHkwEH53fPXvnyN24mJTp0ZWfOFSMXGapCfz9KwXoVtHqpxo2UGLCpOP_zbKe80W0t3hEPulIbo4ljVQVPBJX3tbbfNd7VH2xtJpftLZe43u8cs.DxxH39UaQUSHKs-",
+            "earned": false,
+            "points": 15,
+            "percent": 4.4
+          },
+          {
+            "name": "Racines profondes",
+            "description": "Atteignez le niveau 10 avec les Éveillés.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxIBiW9IW2MfOWGud_QERkt.JXVnjPekHSUIQNM3jC1i.3VHLJPszTf12IFrpkNm6JBMLNQhfll5atX4o.afyX86r1jm4dDsZsp5M3NIOb1S3OKl_lHVWS0_q0aMQIbO0Q--",
+            "earned": false,
+            "points": 15,
+            "percent": 4.1
+          },
+          {
+            "name": "Dans les tréfonds",
+            "description": "Atteignez le niveau 10 avec les Gardes stygiens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_CdYcH4SIkHV_IXg_FHN.BxICHQdyoC9zisf5UXjdO2_QkiiHB1jFGY7l.MlFU3gxTfMaaECZd2OTxhLVUfC0LBIyCH4CEAZs0QdzWsWx17eq0.g_ULRhL4d3dXQvPsxw--",
+            "earned": false,
+            "points": 15,
+            "percent": 3.8
+          },
+          {
+            "name": "Champions aux chandelles",
+            "description": "Atteignez le niveau 10 avec les Éphémériens.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8ZQFK9VzFJhpZJkREbqHB8vvTSQ5PaUG6SdzXSntuMKJs8ZVue3EGG5sNKg9Feq38.HRE.LZHQs4hFe0_bREDMiN7p8JhzszMXls3olkTu9EutyZ6nXkATIPzyfeLPDC.DGB5pQB0mIHusSMHE.Ot0-",
+            "earned": false,
+            "points": 15,
+            "percent": 3.4
+          },
+          {
+            "name": "Gourmandise assouvie",
+            "description": "Atteignez le niveau 10 avec les Umbras.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9Dl_NpMoSxqElVwPAch6Pzs2tv5W0pBAz6MxWEbGmINuqX6k7X9zgrikGp_GtwEDAXBs38KxO4Za7KiaL_KUPyBeor0Sw.svhZiTaRPVlH65M6g60JjHsf95ml32LZLHlYiZcTcPkbNj9RJ0MbmsAU-",
+            "earned": false,
+            "points": 15,
+            "percent": 4.1
+          },
+          {
+            "name": "Maître des monstres",
+            "description": "Atteignez le niveau max avec tous les clans.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzttpqR9mABLoi_h264Ah_YD9_6IZFnGH7JQmL6hlh_x4Iz0LT9SH2z6jg5334N7wd4yEsk3QyPM6N33u9IAOTZXDya8a14unfAtEBc_QzfkTs_61atzA_sXakBTLgpkS2av9qzRPLC.oZ0EiCxlbpM-",
+            "earned": false,
+            "points": 50,
+            "percent": 2.7
+          },
+          {
+            "name": "Briseur de règles",
+            "description": "Créez un défi personnalisé.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzBhG30llMTgq_z7hY1zRxwljlcJm9MjcFdDjP950qLQSOwfWAvspq2DMf9uf8YvuVR_P6WRZNvgTfUjV7u1KpTNMxVD0umGFlFv0EJRkg2Dl0ly5miDmG4qHJ7MpcWMTQ--",
+            "earned": false,
+            "points": 15,
+            "percent": 1.7
+          },
+          {
+            "name": "Fratricide",
+            "description": "Gagnez une partie avec les Bannis en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8R2wUNLUbK6X7netQmgiADrl4ucLd07A.sJpJ1IdZrjZUN5xnhOH8ThFQ32IK2mnEIfInjFmHOr5sQ7_jzDEmZcvk82BU4_Qvjg047b6mbA99mlum67R2rQigaVduiFQA--",
+            "earned": false,
+            "points": 30,
+            "percent": 1.6
+          },
+          {
+            "name": "Dieux d'or",
+            "description": "Gagnez une partie avec les Draconides en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0xeaGLjRrfNr.59bjaPaeWK2nT8POEnQMDVgELK8NrFCr5QC7lh9ejVZpco1ZS1ahzPHQSygrEk03AnKnldhJ9XyPUXwzu0b0Ju4bpSCpkWK8QM5bKpeY4temirPxclDQ--",
+            "earned": false,
+            "points": 30,
+            "percent": 1.6
+          },
+          {
+            "name": "Guerre des cieux",
+            "description": "Gagnez une partie avec les Lunariens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxkGlO2YAl44_cMmdyOpem98jg2hC78qPDMj4jMxLa_ddrCIy8uyc4k3cHHLzP7hS98yzu5zTtFEIvOgD3aQBPIB03Zq.M1CaUt_lxHaK9zagDgpdtDKxuKU49CZGCYRQZ6slgcDb8AArzWzqL1n6uQ-",
+            "earned": false,
+            "points": 30,
+            "percent": 1.5
+          },
+          {
+            "name": "Esprit de ruche",
+            "description": "Gagnez une partie avec les Armillaires en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwY0.LvEnunrBOHJwJoTGvNabBLl4bs8I4gOvv_y6um0afy0tOiUjmjGMSG59t3GBf0h3nzyS3dCp1VtIFs8gBotLW0KjKNYR_EwmUExdiBrSUrDWjDfquocU0dJW1NNFw--",
+            "earned": false,
+            "points": 30,
+            "percent": 2.2
+          },
+          {
+            "name": "Professeurs de la douleur",
+            "description": "Gagnez une partie avec les Lazariens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4YZ7Cf.bcN8bVYlZX7qYR8jBC..6tJckByaDKLNrm85YNOUU7Z88J2Ow_HD1UX1wZ79Ids0EZW3tFSonYycCvdWjBiUUE1Q_CApVKTUyADCHC2OLUEqdQPxHSkKW9NEnfIkmZSTQbAARiaN6uflfL0-",
+            "earned": false,
+            "points": 30,
+            "percent": 1.6
+          },
+          {
+            "name": "Souverains légitimes",
+            "description": "Gagnez une partie avec les Cornus en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6NoGj7jZQMki04gpiRpEPsUWmQttI5SWurfmrvLGWBViky751896.b63_MaakuB8_NXkY7ief9W_WXD1HEuvohweu_7BJkwXrKOMYXo5PrIXGw3D05ot7tb.ijkheW9DC1W2aJ.rkHE6IYav3MPYIw-",
+            "earned": false,
+            "points": 30,
+            "percent": 1.4
+          },
+          {
+            "name": "Ordre naturel",
+            "description": "Gagnez une partie avec les Éveillés en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4pm.t9ThZqdgwMOlsaMXvdb7UgnFucCOZ_H1PH_RtmacLAoRc3DD8jeoof8mweW.Lrlid8iolhbSwbverBLOIAR8b6K0UJL72NCnvbI27dBCau_2Oo9T2T.a77W8GsC8g--",
+            "earned": false,
+            "points": 30,
+            "percent": 1.5
+          },
+          {
+            "name": "Tsunami magique",
+            "description": "Gagnez une partie avec les Gardes stygiens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5He5Z9EFw3atJNO9RYMqWlcLatHJxTtEQw4H8jH7z496aMS0yVVKiJuPyAFfzhlwt.MDvZPpPgVHG6oBc6qmrtq5KRJUHybAoh3EQbrn1Rju9fQ0eVQ8sG6WIYrGRZ9KlTZBHUlMwk9hhou2C.ndq8-",
+            "earned": false,
+            "points": 30,
+            "percent": 1.4
+          },
+          {
+            "name": "Guerriers de cire",
+            "description": "Gagnez une partie avec les Éphémériens en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2r1oWt0fAGaJaS.E_5OsWipcTSo1qf3xtXfuwVLi4NVn0ogPBTwA5DP_S9B0qpjDSmqCDLMx8QMjJhjvcECgNK__7cD54Wy51mJu8zV5jp3sfr3yTuiDq8g.NbNmsRClg--",
+            "earned": false,
+            "points": 30,
+            "percent": 1.5
+          },
+          {
+            "name": "Maître des sous-bistres",
+            "description": "Gagnez une partie avec les Umbras en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0AscjVALd7YZ8iAqijlszNx3px6agkDacZkoPoFbHB8YXwnWEexTIycmQdmR2CaeACQbPRtj_RD.yDviPs390bBYH5h_XiRyniNVxNaO5OHxez1zKqYeL6Vq1gfUMjOWYOSGssXOfUbZ3EP9q4oHtA-",
+            "earned": false,
+            "points": 30,
+            "percent": 1.4
+          },
+          {
+            "name": "Tyran renversé",
+            "description": "Éliminez Séraphin Aeternus.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd09EiImYjxj9xs2k9JzCXc5Bj3VIpmnsGnND_3t7cf_ngJyi4pnHgIaTujRYvitJCicLaq9u9D5Ms4Zey.VnxFknReCUP4oCZHsLRNs3ISUKnIRPbHKiKQPgtplLhSTzEtUlRVGVND2JvNATXOp7fJI-",
+            "earned": false,
+            "points": 15,
+            "percent": 32
+          },
+          {
+            "name": "Tueur de titans",
+            "description": "Battez les titans.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyHmTWmMCbDKhdMEoDy6MZYg8YixGAJYgG2X8T1YBZ07W3YTsxDOTvH72WTN0j7Gnfuocgbcb5ceE7Af6rPOYmfhFR94aPPPHQGMx8CdNj3LS8bcGP4wG6j_cTGPVV6AQA--",
+            "earned": false,
+            "points": 15,
+            "percent": 6.4
+          },
+          {
+            "name": "Pacte de sang",
+            "description": "Gagnez une partie en rang d'alliance 4.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz59tklyfM4FozsEqjYukku5XzSeMDMKiY1qqKQUT8WWoDFomrU4TzjnvLJl4.qrlYxMVBtdwhWxdKUYujOrb5C3bBXcNeiuYeBltjJIcGlc9w3odRJhqfQCqM4JzE1bOQ--",
+            "earned": false,
+            "points": 15,
+            "percent": 10.4
+          },
+          {
+            "name": "Tourment des titans",
+            "description": "Gagnez une partie en rang d'alliance 8.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxdQ9IwlMp9Xc0XadRQbQJMDu.aNXQ7eHiABMW39M682u8yDOwvUfjrsuluZRNNHMzWCndBbXfN_CeW0v982dl0O93DRKey3PkNgRNuyQC35TPhAwdcWQfsUlKJrkc7LBA--",
+            "earned": false,
+            "points": 15,
+            "percent": 4.8
+          },
+          {
+            "name": "Mort rapide",
+            "description": "Éliminez Séraphin Aeternus avant sa phase de combat.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyYRDE3kqgD0_JxWqThrwAAa2ESwLcIa2Od6AheMcFkF50HMrkkgsAMKTwCY8DIoLfG3FIDD93a3EDDi2I0yfmnzRMySMHrLCoco95rOWY7eUTVdIEvJgOHwnMFCt7rxTg--",
+            "earned": false,
+            "points": 30,
+            "percent": 14.3
+          },
+          {
+            "name": "Course au score",
+            "description": "Atteignez un score d'au moins 50 000 points dans un défi quotidien.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxQ6BOf.MJvZSwQD.tBiPidzgls4Ba7UXFeqBYZUnWIt1mpFS56RKfmKjzqK5rhI5IUGIF7MMy_TUc0E9KiCeCgo5PCXK4N8DaDS.H.vvzDhb29U8uT8_J7R1BUsTLKUwfEhVAURQ0gecF4JL0SSH5o-",
+            "earned": false,
+            "points": 15,
+            "percent": 0.5
+          },
+          {
+            "name": "Magicien hors pair",
+            "description": "Gagnez une partie sans jouer d'unité.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.PBVwHcGehVee7A9X_gOTayYafktMkyLBVrSt07BHtssJfo4Iw5yTGr91bJyzL9Z9RQ5LaC67mLnzNxE0pIeTsldBrB.WIKkjZjatHyl_wTxor3NqNiy2xjRMj7kQB4l5A6yJC3QjhqA8i4B0Epexw-",
+            "earned": false,
+            "points": 30,
+            "percent": 0.7
+          },
+          {
+            "name": "Commandant en chef",
+            "description": "Gagnez une partie sans jouer de sort.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0yDCq6ix.HAcKku8ll0xuinRFHck88YAR5JbWk1iCqIU1NTgYiXzb1.bPUI4YkxwBqgA905w_5sUMtsVeynqslspixEsvfoHTsez23_vJMRvq46zrK3j7tcq5YBw0rX5YglvRHAZ73FUT3cWpbXKi0-",
+            "earned": false,
+            "points": 30,
+            "percent": 0.7
+          },
+          {
+            "name": "Retour aux bases",
+            "description": "Gagnez une partie sans améliorer de carte.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.L9OJeNKJI90_1kDr_8tbgWXpZVHh4XMjic3PJJ2oVl2B62RMaPEyZY09l.kyxF6rtzqLCRW2o7xLjand.GckjXPuuMeTwX89kl6N7rF82kUE0oC74_tYdxSOmeykxmaw--",
+            "earned": false,
+            "points": 30,
+            "percent": 0.8
+          },
+          {
+            "name": "Y aura-t-il une fin ?",
+            "description": "Gagnez trois parties consécutives en mode infini.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4HVebRWUI5yyKoLA.s06KYhtuAiIVX7yOnd6IYZ2Tc.bN1EtEVtYXzMxgh_nSv280hdLNu4pFpDrl65EBmAwjU8oX8SKRHQBh3atQ8JX56WBkDxSSt_ffK67GXMx7uuDxbtRpmJ.aBH5usRvUdt0zk-",
+            "earned": false,
+            "points": 15,
+            "percent": 3.2
+          },
+          {
+            "name": "Quartier-maître",
+            "description": "Ajoutez des équipements à six unités en une bataille.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyRtMIKscydtEyJWkYOJNmpay2S7bIqFMTqBstIckgVpktnQXSfRAf_RNRUOlbdlXqCOwNRbP9dDqDKAIboqlU0VhyA8UfpM3rS9aO9uyijLxnhCnKYNQDNTnt6FrS3UiA--",
+            "earned": true,
+            "points": 15,
+            "percent": 28.2,
+            "date": 1753006910197
+          },
+          {
+            "name": "Train monstrueux",
+            "description": "Jouez une carte de salle à tous les niveaux d'une bataille.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd24StVLBfF7EXsEQiU.O4kRZIUsNas1FOjsecXGZqdt.StgGxNq41r.Pq4Yh55soLh3dO5lglNilWvDcsTvi4F6veamxqMGCUS31rWqCsIoMUDSzvZmgmSbyYS72HAAfIrhXR4E1AEGmfgXbvZ2XPS8-",
+            "earned": false,
+            "points": 15,
+            "percent": 29.8
+          },
+          {
+            "name": "La crème de l'enfer",
+            "description": "Infligez au moins 100 dégâts d'un coup avec un monstre.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd._c5I4eCFXO3A691T5IL_oDvelzdAWtpfWIpUXvYNMT_qEAHym1_rK0snvyEWTKW_0ugsTNmtkW91dS4o3COr7NwLtAOUyyVjEogj1_Cpc0FIaBPXuOit7qjh0TfQz8Aw--",
+            "earned": true,
+            "points": 15,
+            "percent": 51.6,
+            "date": 1753007545580
+          },
+          {
+            "name": "Un poil abusé",
+            "description": "Infligez au moins 175 dégâts d'un coup avec un sort.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2.ad0Tdbkl8I9wCNzhAg9KTbCNcaFjKihp7gMY93Mxw_NQ8YZJGrAo4u9Hi_sttpCAT7kiDened5mcX8eGGpjQ6t5UE8I1Y_rn7zo8yuNcT8_QiQQgDiFF525B.sSNY1Q--",
+            "earned": true,
+            "points": 15,
+            "percent": 33.2,
+            "date": 1753080318247
+          },
+          {
+            "name": "Voyager avec style",
+            "description": "Personnalisez votre train.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0vxsaPKRFeUeDJhQxY_pU6bptpfmi1fINSAI6uXpH8sHYdJjm0rl5VBl8fXjmx4FBJIPnjh2_wm5OQEGo8G7LEkNnFa1MKv8vTqpWkgQEHBfPfmWETA22hReiUv0yL.MA--",
+            "earned": false,
+            "points": 15,
+            "percent": 9.8
+          },
+          {
+            "name": "Sous-fifre de Malicka",
+            "description": "Gagnez le défi dimensionnel Calvaire entropique.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2sy8vLL1WOdLO49dIB20Rx04b30aSoK_omctslATW8WirPDUOxYNlR5f7VNnuaoOf8bC_ALEZyflfYyOq6VseEWmXQpqRISbeTbFwwE7nHJJBKwyJtet326qHoxQRiMRROEYTjwtSCmrEYmBAQA0ek-",
+            "earned": false,
+            "points": 30,
+            "percent": 1.7
+          },
+          {
+            "name": "Langue bien pendue",
+            "description": "Déclenchez un dialogue facultatif dans le Bastion du Pacte.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0rH3iHMNAV7zlz7g9AoadR7uelgtaxg7hvoNlOafityP2aMvmIyKVOSo_femSBuU6oTatRkB5OtFEb7LJKVYG.BVBXhf8TkFRevpTI94lZ_pb_MBj8lF.ix1.3CpLs0Nw--",
+            "earned": true,
+            "points": 15,
+            "percent": 36.5,
+            "date": 1753008576837
+          },
+          {
+            "name": "Fi du passé",
+            "description": "Retirez toutes les cartes steward du deck.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_ZlXgpq6cefTrD_48RmIkSGtmaiFBpPLaLQDU619dVSKIml17Q73AtsqjypHf3NBu.sLnfXaN1pKv3TysUHiqZnkVId8bk3BZ0iqb8cz6NnWyKRHfA_Cti_n2FEZXfw9w--",
+            "earned": false,
+            "points": 15,
+            "percent": 17.7
+          },
+          {
+            "name": "La clé de mon cœur",
+            "description": "Déverrouillez un autre Cœur du Brasier.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6dpyYXKVzeMBJvsSEhMsflkkvwk3wDOITNxAi10RqrQmHrsaVSJU_Zd4nIj65KYj5rCauJvUnX7PKoGSDLDaKlfz2GRFaxA3W1U1yKEsAqf.kiCN_esZcvQiHUb4AKGww--",
+            "earned": true,
+            "points": 15,
+            "percent": 37,
+            "date": 1753081051690
+          },
+          {
+            "name": "Ça a toujours été là, ça ?",
+            "description": "Déverrouillez le portail dimensionnel de Malicka.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0p12gM1CHfbbY9JVwUTcqWf_Q1F9GuhTPGVVu5skbe_v2BYVobYSq3_dwyoz18nX6BcZZUxa36LstgYcu.UCeeKn79jPVGe4C8.5nB0sDGYZZBipKsksNjmycbpivx6ejKcpxy5Fw_1Gsz8JuGwj5k-",
+            "earned": true,
+            "points": 15,
+            "percent": 32.2,
+            "date": 1754127979463
+          },
+          {
+            "name": "Reformer le groupe",
+            "description": "Invoquez au même niveau : Oiseau chanteur, Harpiste deathmetal, Guitariste punk et Fauvette enjouée.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxkPPp73iikgkPWDQRQ8wlUYTVeskniKdoUwbYwYJL2XghaQdnH_fMoPTdroySAt3KTXECdLuM49TXxj41Igh2zKcsadl0M5EQ94wnI_RPJ16fhlfrYK7YFXuvStOr.p5FLbCdMV3gsyvxlyDBRa.lg-",
+            "earned": false,
+            "points": 15,
+            "percent": 0.6
+          },
+          {
+            "name": "Ce n'est pas fini",
+            "description": "Déverrouillez la bataille des titans.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwhrvfIFfi7RVIJYpDHOnh8B_2qILnMNRmxD8neiPwQaDKT_tknbYvjRytJbkRh8nYwwe4yIAumbvqXCwjBqHp1rz43.9JGkzxGls.JBIm8SQKIPqsJaR12tQ3xbnn9IffKSYjePto566VxNAl0jm0g-",
+            "earned": false,
+            "points": 15,
+            "percent": 8.7
+          },
+          {
+            "name": "Détermination d'acier",
+            "description": "Atteignez le niveau 10 avec les Forgerails.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz2kcRwwxb.UpekfMq0ERYwbZzgkXxg71XDgilqJV9Bw676c7I04q4NMf4gLQIGSuRFHnHm4Ksir4H6IaFKSui8ejMD3Bh26MR_rVLHqtuP8fND4Uk4hN78LKZtbR43j6w--",
+            "earned": false,
+            "points": 15,
+            "percent": 0.8
+          },
+          {
+            "name": "Chrysalide accomplie",
+            "description": "Atteignez le niveau 10 avec le peuple ver.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0GdDGbIhjlEHWoj32Bmf8g89mLbRZvrJaxGhX6JQPgDwwpBK_OW2dyPpUKaBnGwEXIAZm1rLmYlAnMNS_YKoi4aMRjXGeY82Zh8Ia0DGU54weTre2l5DAdjV_XfOp.Gcw--",
+            "earned": false,
+            "points": 15,
+            "percent": 1.3
+          },
+          {
+            "name": "Forgé dans le feu",
+            "description": "Gagnez une partie avec les Forgerails en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8H8T9SNx3X4nqK8fyOD9Db8aaaZNwPvFmXqts4hq5FERPkV2S8WaNIhYlx6VmOJxw8ZpzU11XQ8EL5DObDpiwrNcMGQSHiqFYWpFgwhO8e7f8nL6mqJaTkHfCkqg.XWoA--",
+            "earned": false,
+            "points": 30,
+            "percent": 0.4
+          },
+          {
+            "name": "Échos de grandeur",
+            "description": "Gagnez une partie avec le peuple ver en ayant activé toutes les alliances.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdw0tZbO9n4U9csP0ctUJviKInTEFaXqmXXcaxhUIKjSWwvWYSuFMYAJrxsxs6tRfdVY54BdJ9CSIexchDYmLjNRtMrr.hqfOhMmZUwiyeBe7wUXZJMsJls_cbXwsz8Dcfg--",
+            "earned": false,
+            "points": 30,
+            "percent": 0.6
+          },
+          {
+            "name": "Le monde vivant",
+            "description": "Débloquez toutes les Âmes.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxIhAyg4raDW2T4eNIEFYtJUVoJ0iZB6ClAf_tmmM5fqgMB4gFOMGlVbU6sqthP8dOMj9LeWuT5288Y9hDyxv8.kxYSRclUciOWNbtA1LPss",
+            "earned": false,
+            "points": 15,
+            "percent": 0.4
+          },
+          {
+            "name": "Le Titan des Âmes",
+            "description": "Améliorez toutes les Âmes au niveau maximum.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd60pKUEXHyvIw2EiDZQt_L_F7qv4M1jwf0xCWAgeQvZX8XXVo8LZRRlMNy5JIEnposjixb8Csphi4tCuljlo4zF_uCzSp3cpul1ATd0DOUPb",
+            "earned": false,
+            "points": 30,
+            "percent": 0.2
+          },
+          {
+            "name": "Âme du printemps",
+            "description": "Gagnez une partie Sauveur d'âmes en difficulté Floraison.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9ZvmrXNZSMNEVt7w0z_.i.SgiJeeZ.neAtBWSjKu4D9WWnOLvySogwhi2KU4_ZkOm1.gFH4_CdXHhkundIy7P17gmbnqDHmIzmL2BtZ7UJP",
+            "earned": false,
+            "points": 15,
+            "percent": 0.8
+          },
+          {
+            "name": "Âme de la ronce",
+            "description": "Gagnez une partie Sauveur d'âmes en difficulté Enchevêtrement.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdysmTBFjk_QBw8ELq09tRqSPxGappW4.In2JW5HgJyDRi2YOedEgxujF9axer9P2vW76_HkAlABp9yxTFA73CN9ZOsGw3rVxqx4bCg9AkEjGslLehWIzsVjh7tD9_dDnmA--",
+            "earned": false,
+            "points": 15,
+            "percent": 0.4
+          },
+          {
+            "name": "Âme de la fin verdoyante",
+            "description": "Gagnez une partie Sauveur d'âmes en difficulté Surabondance.",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxWFFSIPPYVY3YXBg5EEZvTtkxN5gRCMhjPNB695HIhTkwDaPFnUPap43qDkUIJIdytHxoVJMT_OT88x72Z9oNA3TnWTEB86wNYu.fHyV68Ff_y3hsEdZ7OhUEZx5PxSWA--",
+            "earned": false,
+            "points": 30,
+            "percent": 0.3
+          }
+        ]
       },
       "studios": [
         {
@@ -60191,7 +60779,7 @@
           },
           {
             "label": "Genres",
-            "value": "Indépendant, Stratégie"
+            "value": "Jeu de construction de paquet de cartes roguelike"
           },
           {
             "label": "Modes de jeu",
@@ -60210,6 +60798,7 @@
         ],
         "sources": [
           "Steam",
+          "Wikidata",
           "Xbox"
         ]
       }
@@ -60228,6 +60817,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": "2868840",
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82c5.jpg",
@@ -60261,11 +60851,15 @@
           },
           {
             "label": "Genres",
-            "value": "Indépendant, Stratégie, Accès anticipé"
+            "value": "Jeu de construction de paquet de cartes roguelike"
           },
           {
             "label": "Modes de jeu",
-            "value": "Solo, Multijoueur, Coopération, Coopération en ligne"
+            "value": "Solo"
+          },
+          {
+            "label": "Moteur",
+            "value": "Godot"
           },
           {
             "label": "En français",
@@ -60279,11 +60873,12 @@
           },
           {
             "label": "Site officiel",
-            "url": "https://megacrit.com"
+            "url": "https://www.megacrit.com/games/#slay-the-spire-II"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata"
         ]
       }
     },
@@ -60294,13 +60889,14 @@
         "Switch 2"
       ],
       "annee": null,
-      "type": "a_completer",
+      "type": "normal",
       "completion": "Histoire\nEncyclopédie",
       "arrete": false,
       "occasion": false,
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": true,
       "steamAppId": null,
       "igdbId": "405446",
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg",
@@ -60578,6 +61174,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": true,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
@@ -95955,7 +96552,7 @@
           "level": 40,
           "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM1LjUgLTkzMC41IDk0MS45IDEwOTQuOSI+PGcgdHJhbnNmb3JtPSJzY2FsZSgxLC0xKSI+PHBhdGggZD0iTTcyOSAzMzUgcTMgMTEgNCAyMyBxMSAxMSAxIDIzIHEtMiA5NyAtNjYgMTYxIHEtNjQgNjQgLTE2MCA2NiBxLTk2IC0yIC0xNjAgLTY2IHEtNjUgLTY0IC02NyAtMTYxIHEyIC05NiA2NyAtMTYwIHE2NCAtNjUgMTYwIC02NyBxNjUgMSAxMTYgMzMgcTUyIDMyIDgyIDg1IHEtMTcgLTI0IC00MyAtMzggcS0yNiAtMTQgLTU4IC0xNCBxLTUzIDEgLTg4IDM3IHEtMzYgMzUgLTM3IDg4IHExIDUzIDM3IDg4IHEzNSAzNiA4OCAzNyBxNTMgLTEgODggLTM3IHEzNiAtMzUgMzcgLTg4IHEwIC0yIDAgLTUgcTAgLTMgLTEgLTUgbDAgMCBaTTM2NCA2ODcgcTEzMyA1OCAyNjEgMTQgcTEyOCAtNDUgMTkxIC0xNzMgcTU3IC0xMzEgMTAgLTI1NyBxLTQ3IC0xMjcgLTE3NyAtMTkyIHEtMTMzIC01OCAtMjYxIC0xNCBxLTEyOCA0NCAtMTkxIDE3MiBxLTU3IDEzMSAtMTAgMjU4IHE0NyAxMjcgMTc3IDE5MiBsMCAwIFpNOTEyIDMzMiBxMTUgMTQ5IC02OSAyNjUgcS04MyAxMTcgLTIzMSAxNTkgcS0yIDYgLTEgNiBxMiAwIDIgMCBxNTEgNDIgNTAgNzMgcS0xIDMxIC01IDMzIHEtMTUgMTIgLTIwIDQgcS02IC04IC02IC0xMCBxLTExIC0zNSAtNDYgLTUzIHEtMzUgLTE3IC00MCAtMTcgcS05NiAtMTEgLTE0NyAtMjcgcS01MSAtMTYgLTUxIC0xOCBsLTUyIC0zMCBxLTIgLTEgLTQgLTIgcS0yIC0xIC0xIC0xIHEtNzcgLTQ0IC0xMjggLTExNiBxLTUwIC03MyAtNjIgLTE2NSBxLTE1IC0xNDcgNjggLTI2MyBxODMgLTExNiAyMjkgLTE1OSBxMyAtNyAyIC04IHEtMiAwIC0yIDAgcS01MSAtNDIgLTUwIC03MyBxMSAtMzEgNSAtMzMgcTE1IC0xMSAyMSAtMyBxNSA4IDUgMTAgcTExIDM1IDQ2IDUyIHEzNSAxNyA0MCAxNyBxOTUgMTEgMTQ2IDI3IHE1MSAxNiA1MiAxOCBsNTcgMzIgcTAgMCAwIDAgcS0xIDAgLTEgLTEgcTc4IDQ1IDEzMCAxMTggcTUxIDczIDYzIDE2NSBsMCAwIFoiIGZpbGw9IiNFOEI4NEQiLz48L2c+PC9zdmc+"
         },
-        "updatedAt": "2026-10-30T08:26:13.846Z"
+        "updatedAt": "2026-10-30T08:59:48.640Z"
       },
       "studios": [
         {
@@ -96023,6 +96620,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": true,
+      "enPause": false,
       "steamAppId": 2075800,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7a0.jpg",
@@ -96541,6 +97139,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": true,
+      "enPause": false,
       "steamAppId": 686060,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg",
@@ -98836,7 +99435,7 @@
           },
           {
             "label": "Genres",
-            "value": "Aventure, Indépendant, RPG, Simulation, Stratégie"
+            "value": "Tactical RPG, Roguelike, Jeu vidéo de simulation biologique"
           },
           {
             "label": "Modes de jeu",
@@ -98849,16 +99448,22 @@
         ],
         "liens": [
           {
+            "label": "Wikipédia",
+            "url": "https://fr.wikipedia.org/wiki/Mewgenics"
+          },
+          {
             "label": "Page Steam",
             "url": "https://store.steampowered.com/app/686060/?l=french"
           },
           {
             "label": "Site officiel",
-            "url": "http://mewgenics.com/"
+            "url": "http://mewgenics.com"
           }
         ],
         "sources": [
-          "Steam"
+          "Steam",
+          "Wikidata",
+          "Wikipédia"
         ]
       }
     },
@@ -98876,6 +99481,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": true,
+      "enPause": false,
       "steamAppId": null,
       "igdbId": null,
       "igdbCover": "https://atum-img-lp1.cdn.nintendo.net/i/c/db6052670de749f8a9f29748f7f2476f_1024",
@@ -98922,6 +99528,7 @@
       "jeuDuMoment": false,
       "fridayFantasy": false,
       "excluYoutube": true,
+      "enPause": false,
       "steamAppId": 306130,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.jpg",
@@ -101222,6 +101829,365 @@
           }
         ]
       },
+      "eso": {
+        "achievements": {
+          "earned": 1031,
+          "total": 3913,
+          "earnedPoints": 16825,
+          "totalPoints": 75895,
+          "characterName": "Yohgaz",
+          "generatedAt": 1793301922000,
+          "categories": [
+            {
+              "name": "Saisons récentes",
+              "earned": 0,
+              "total": 123
+            },
+            {
+              "name": "Personnage",
+              "earned": 113,
+              "total": 303
+            },
+            {
+              "name": "Joueur contre Joueur",
+              "earned": 14,
+              "total": 131
+            },
+            {
+              "name": "Artisanat",
+              "earned": 142,
+              "total": 189
+            },
+            {
+              "name": "Donjons",
+              "earned": 130,
+              "total": 199
+            },
+            {
+              "name": "Donjons de Pack de jeu",
+              "earned": 136,
+              "total": 683
+            },
+            {
+              "name": "Épreuves",
+              "earned": 26,
+              "total": 212
+            },
+            {
+              "name": "Arènes",
+              "earned": 0,
+              "total": 41
+            },
+            {
+              "name": "Exploration",
+              "earned": 116,
+              "total": 433
+            },
+            {
+              "name": "Quêtes",
+              "earned": 23,
+              "total": 123
+            },
+            {
+              "name": "Marché nocturne^md",
+              "earned": 0,
+              "total": 60
+            },
+            {
+              "name": "Archive infinie",
+              "earned": 25,
+              "total": 91
+            },
+            {
+              "name": "Hébergement",
+              "earned": 4,
+              "total": 39
+            },
+            {
+              "name": "Événements des fêtes",
+              "earned": 5,
+              "total": 81
+            },
+            {
+              "name": "Solstice",
+              "earned": 46,
+              "total": 84
+            },
+            {
+              "name": "Gold Road",
+              "earned": 58,
+              "total": 71
+            },
+            {
+              "name": "Necrom",
+              "earned": 50,
+              "total": 89
+            },
+            {
+              "name": "High Isle",
+              "earned": 67,
+              "total": 125
+            },
+            {
+              "name": "Blackwood",
+              "earned": 2,
+              "total": 68
+            },
+            {
+              "name": "Greymoor",
+              "earned": 24,
+              "total": 94
+            },
+            {
+              "name": "Elsweyr",
+              "earned": 0,
+              "total": 59
+            },
+            {
+              "name": "Summerset",
+              "earned": 1,
+              "total": 79
+            },
+            {
+              "name": "Morrowind",
+              "earned": 3,
+              "total": 60
+            },
+            {
+              "name": "Firesong",
+              "earned": 26,
+              "total": 54
+            },
+            {
+              "name": "Deadlands",
+              "earned": 0,
+              "total": 52
+            },
+            {
+              "name": "Markarth",
+              "earned": 2,
+              "total": 53
+            },
+            {
+              "name": "Dragonhold",
+              "earned": 0,
+              "total": 49
+            },
+            {
+              "name": "Murkmire",
+              "earned": 2,
+              "total": 48
+            },
+            {
+              "name": "Clockwork City",
+              "earned": 0,
+              "total": 34
+            },
+            {
+              "name": "Dark Brotherhood",
+              "earned": 4,
+              "total": 49
+            },
+            {
+              "name": "Thieves Guild",
+              "earned": 6,
+              "total": 54
+            },
+            {
+              "name": "Orsinium",
+              "earned": 1,
+              "total": 53
+            },
+            {
+              "name": "Imperial City",
+              "earned": 5,
+              "total": 30
+            }
+          ],
+          "recent": [
+            {
+              "id": 3328,
+              "name": "Mandat de la grande maison",
+              "description": "Utilisez le pouvoir du mentor Delmène Hlaalu pour gagner du prestige 10 fois dans les parties de Récits de Gloires avec matchmaking.",
+              "points": 5,
+              "date": 1793293060000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires"
+            },
+            {
+              "id": 3924,
+              "name": "Maître de style de la Légion du Weald Occidental",
+              "description": "Apprendre chaque chapitre du livre de style de la Légion du Weald Occidental, que l'on trouve dans les incursions de la Lande miroir.",
+              "points": 50,
+              "date": 1793288232000,
+              "category": "Gold Road",
+              "subcategory": "Général"
+            },
+            {
+              "id": 3923,
+              "name": "Maître de style d'Enfant du fragment",
+              "description": "Apprenez tous les chapitres du livre de style d'Enfant du fragment, acquis dans les missions journalières solo et de boss sauvage à Skingrad.",
+              "points": 50,
+              "date": 1793286205000,
+              "category": "Gold Road",
+              "subcategory": "Général"
+            },
+            {
+              "id": 3320,
+              "name": "Novice accompli",
+              "description": "Terminez la quête des Récits de Gloires – Le Tournoi s'engage",
+              "points": 10,
+              "date": 1793211053000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires"
+            },
+            {
+              "id": 3335,
+              "name": "Récits de voyage",
+              "description": "Jouez une partie de Récits de Gloires à chacun des lieux suivants.",
+              "points": 15,
+              "date": 1793210750000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires"
+            },
+            {
+              "id": 4157,
+              "name": "Revanche fantomatique",
+              "description": "Terminez votre première quête journalière pour Esalinwë dans l'Archive infinie.",
+              "points": 5,
+              "date": 1793142154000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration"
+            },
+            {
+              "id": 3767,
+              "name": "Au bout de l'arc",
+              "description": "Atteindre l'arc 4 dans l'Archive infinie.",
+              "points": 50,
+              "date": 1793141964000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration"
+            },
+            {
+              "id": 3794,
+              "name": "Pillard pillé",
+              "description": "Tuez Gw le Pillard 5 fois dans l'Archive infinie.",
+              "points": 15,
+              "date": 1793140843000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration"
+            },
+            {
+              "id": 3776,
+              "name": "Toujours debout",
+              "description": "Vainquez 1 boss de l'Archive infinie dans le troisième Arc.",
+              "points": 10,
+              "date": 1793140611000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration"
+            },
+            {
+              "id": 4004,
+              "name": "Faites-les déchanter",
+              "description": "Vaincre l'un des maraudeurs dans l'Archive infinie",
+              "points": 10,
+              "date": 1793140354000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration"
+            },
+            {
+              "id": 3932,
+              "name": "Camaraderie infinie",
+              "description": "Terminez 15 phases avec un autre joueur dans l'Archive infinie.",
+              "points": 10,
+              "date": 1793139466000,
+              "category": "Archive infinie",
+              "subcategory": "Général"
+            },
+            {
+              "id": 1541,
+              "name": "Passionné de Crânes à butin",
+              "description": "Recevez 50 crânes de butin.",
+              "points": 10,
+              "date": 1793138891000,
+              "category": "Événements des fêtes",
+              "subcategory": "Festival des sorcières"
+            },
+            {
+              "id": 4228,
+              "name": "Pillage infini",
+              "description": "Obtenez le crâne à butin Drémora de l'Archive infinie pendant le festival des Sorcières.",
+              "points": 10,
+              "date": 1793138891000,
+              "category": "Événements des fêtes",
+              "subcategory": "Festival des sorcières"
+            },
+            {
+              "id": 3801,
+              "name": "Assaut de Mora",
+              "description": "Obtenez 75 Versets ou Visions offensifs",
+              "points": 15,
+              "date": 1793138259000,
+              "category": "Archive infinie",
+              "subcategory": "Exploration"
+            },
+            {
+              "id": 22,
+              "name": "Chasseur de trésors",
+              "description": "Videz 1 000 coffres au trésor.",
+              "points": 5,
+              "date": 1793138125000,
+              "category": "Personnage",
+              "subcategory": "General"
+            },
+            {
+              "id": 3766,
+              "name": "Une scène pour deux",
+              "description": "Terminez 3 phases avec un autre joueur dans l'Archive infinie.",
+              "points": 5,
+              "date": 1793138020000,
+              "category": "Archive infinie",
+              "subcategory": "Général"
+            },
+            {
+              "id": 3348,
+              "name": "Retrait monétaire",
+              "description": "Obtenez une Lettre de change du Trésor 10 fois dans des parties des Récits de Gloires.",
+              "points": 5,
+              "date": 1792773935000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires"
+            },
+            {
+              "id": 3346,
+              "name": "Main d'ouverture...",
+              "description": "Terminez toutes les parties de placement classées en Récits de Gloires.",
+              "points": 5,
+              "date": 1792773935000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires"
+            },
+            {
+              "id": 3342,
+              "name": "Agapes d'ébonite",
+              "description": "Atteindre le rang Ébonite en jeu compétitif classé des Récits de Gloires.",
+              "points": 5,
+              "date": 1792773935000,
+              "category": "High Isle",
+              "subcategory": "Récits de Gloires"
+            },
+            {
+              "id": 4041,
+              "name": "Suivi de minotaure",
+              "description": "Trouvez et vainquez le chef de la troupe de guerre minotaure.",
+              "points": 15,
+              "date": 1792525962000,
+              "category": "Gold Road",
+              "subcategory": "Exploration"
+            }
+          ]
+        }
+      },
       "studios": [
         {
           "name": "ZeniMax Online Studios",
@@ -101299,6 +102265,7 @@
       "jeuDuMoment": true,
       "fridayFantasy": false,
       "excluYoutube": false,
+      "enPause": false,
       "steamAppId": 1672810,
       "igdbId": null,
       "igdbCover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg",
