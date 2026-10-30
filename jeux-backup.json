@@ -2135,7 +2135,7 @@
           "steamState": "base"
         }
       },
-      "annee": null,
+      "annee": 2026,
       "arrete": false
     }
   ],
@@ -2450,7 +2450,11 @@
         }
       },
       "type": "normal",
-      "completion": ""
+      "completion": "",
+      "occasion": false,
+      "jeuDuMoment": true,
+      "fridayFantasy": false,
+      "excluYoutube": false
     }
   ]
 }
