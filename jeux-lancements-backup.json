@@ -492,6 +492,13 @@
       "platform": "pc",
       "source": "processus",
       "id": "overwatch"
+    },
+    {
+      "t": 1793421928407,
+      "nom": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "bravely-default-flying-fairy-hd-remaster"
     }
   ]
 }
