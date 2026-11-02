@@ -173,6 +173,26 @@
       "liveNow": false
     },
     {
+      "id": "3aca6385-5c52-4e24-92aa-093e3b159a8e",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-11-06",
+      "time": "14:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "{ FR PC } Dresseur pexing !rdv !jeux !rs !ffxiv !eau",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ],
+      "liveNow": false
+    },
+    {
       "id": "4eced4f9-3bc0-440b-919d-5efde302cecd",
       "type": "youtube_video",
       "channel": "main",
@@ -191,26 +211,6 @@
       "gameCovers": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/1672810/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg"
-      ],
-      "liveNow": false
-    },
-    {
-      "id": "3aca6385-5c52-4e24-92aa-093e3b159a8e",
-      "type": "twitch_live",
-      "channel": null,
-      "date": "2026-11-07",
-      "time": "14:00",
-      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
-      "title": "{ FR PC } Dresseur pexing !rdv !jeux !rs !ffxiv !eau",
-      "notes": "",
-      "youtubeUrl": null,
-      "youtubeVideoId": null,
-      "durationSeconds": null,
-      "autoPosted": false,
-      "gameNom": "FINAL FANTASY XIV",
-      "gameCovers": [
-        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
-        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
       ],
       "liveNow": false
     },
@@ -236,5 +236,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-11-02T07:54:52.603Z"
+  "publishedAt": "2026-11-02T07:55:56.560Z"
 }
