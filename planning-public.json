@@ -1,13 +1,207 @@
 {
   "events": [
     {
-      "id": "64e951e6-9cd3-463e-a945-782507ec06f5",
+      "id": "08ca4e52-8e51-42d6-acec-c4fdda5f7d9f",
       "type": "twitch_live",
       "channel": null,
-      "date": "2026-10-30",
+      "date": "2026-11-02",
+      "time": "09:00",
+      "gameId": "298ff21b-5406-4ec7-ba5a-8b5fd83fa83a",
+      "title": "{ FR PC } Découverte 4 !rdv !jeux !rs !ffxiv !eau",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "MIO: Memories in Orbit",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1672810/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "3f4d3fff-dbf2-4188-a171-7496b8fd653c",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-11-02",
+      "time": "15:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Final Fantasy XIV Online - Episode 11 - Souci à la mine",
+      "notes": "",
+      "youtubeUrl": "https://youtu.be/lQhHbiCnYBs",
+      "youtubeVideoId": "lQhHbiCnYBs",
+      "durationSeconds": 3288,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtl4r186lhu",
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "a03990f1-184c-4b55-aa06-0977d073aca9",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-11-03",
+      "time": "15:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Final Fantasy XIV Online - Episode 12 - Les héritiers",
+      "notes": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jjtWddpdCSs",
+      "youtubeVideoId": "jjtWddpdCSs",
+      "durationSeconds": 3635,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtlb7x3wtrk",
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "50ecf7f9-1aca-47c3-8078-1c1fb29fe9a5",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-11-03",
+      "time": "17:00",
+      "gameId": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
+      "title": "Mewgenics — Épisode 10 — Le cimetière",
+      "notes": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cQV9p3qR0nA",
+      "youtubeVideoId": "cQV9p3qR0nA",
+      "durationSeconds": 5497,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtlo36h78gm",
+      "gameNom": "Mewgenics",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "bdc90046-c25e-4701-a761-9e0abb90f942",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-11-04",
+      "time": "09:00",
+      "gameId": "298ff21b-5406-4ec7-ba5a-8b5fd83fa83a",
+      "title": "{ FR PC } Déouverte 5 !rdv !jeux !rs !ffxiv !eau",
+      "notes": "",
+      "youtubeUrl": null,
+      "youtubeVideoId": null,
+      "durationSeconds": null,
+      "autoPosted": false,
+      "gameNom": "MIO: Memories in Orbit",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1672810/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "ce05df47-8cb8-4d40-88af-60644eb882e1",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-11-04",
+      "time": "15:00",
+      "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
+      "title": "Final Fantasy XIV Online - Episode 13 - Premier primordial",
+      "notes": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r4SpTUg2mdQ",
+      "youtubeVideoId": "r4SpTUg2mdQ",
+      "durationSeconds": 3578,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtlb6ljvl0m",
+      "gameNom": "FINAL FANTASY XIV",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl9m.jpg",
+        "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "d30bfe71-8826-42f8-9241-54a851ad1e45",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-11-05",
+      "time": "15:00",
+      "gameId": "298ff21b-5406-4ec7-ba5a-8b5fd83fa83a",
+      "title": "MIO: Memories in Orbit - Episode 01 - La Nacre",
+      "notes": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IU9n1ZfR0fw",
+      "youtubeVideoId": "IU9n1ZfR0fw",
+      "durationSeconds": 4956,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtlb9a9qv0q",
+      "gameNom": "MIO: Memories in Orbit",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1672810/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "ddf07253-76ad-4150-b45e-eadd68e7c390",
+      "type": "youtube_video",
+      "channel": "etpourquoipasg",
+      "date": "2026-11-05",
+      "time": "17:00",
+      "gameId": "b91f6f95-8554-4cf1-9e58-4c2078b63c97",
+      "title": "Mewgenics — Épisode 11 — Le désert",
+      "notes": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3f1budREQck",
+      "youtubeVideoId": "3f1budREQck",
+      "durationSeconds": 2379,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtlo1j6erf6",
+      "gameNom": "Mewgenics",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n5k.jpg"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "4eced4f9-3bc0-440b-919d-5efde302cecd",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-11-06",
+      "time": "15:00",
+      "gameId": "298ff21b-5406-4ec7-ba5a-8b5fd83fa83a",
+      "title": "MIO: Memories in Orbit - Episode 02 - Des boss sympas",
+      "notes": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UKOhD9KSPG8",
+      "youtubeVideoId": "UKOhD9KSPG8",
+      "durationSeconds": 5604,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtlbam6uqmt",
+      "gameNom": "MIO: Memories in Orbit",
+      "gameCovers": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1672810/library_600x900.jpg",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg"
+      ],
+      "liveNow": false
+    },
+    {
+      "id": "3aca6385-5c52-4e24-92aa-093e3b159a8e",
+      "type": "twitch_live",
+      "channel": null,
+      "date": "2026-11-07",
       "time": "14:00",
       "gameId": "f6339030-7625-4b4c-bc0d-c2d7b6e81139",
-      "title": "{ FR PC } On up le dresseur !rdv !jeux !rs !ffxiv !eau",
+      "title": "{ FR PC } Dresseur pexing !rdv !jeux !rs !ffxiv !eau",
       "notes": "",
       "youtubeUrl": null,
       "youtubeVideoId": null,
@@ -19,7 +213,28 @@
         "https://psnobj.prod.dl.playstation.net/psnobj/NPWR23141_00/48267367-6ce9-4720-9cb4-103e153bed85.png"
       ],
       "liveNow": false
+    },
+    {
+      "id": "77512e63-ffd8-4c56-8996-c88436cbb51c",
+      "type": "youtube_video",
+      "channel": "main",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "gameId": "86f034e74ff04e9bb8c97d58e26a1574",
+      "title": "Xenoblade Chronicles Definitive edition Switch 2 - Episode 44 - L'intérieur de Bionis",
+      "notes": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KsnHcY1Vj34",
+      "youtubeVideoId": "KsnHcY1Vj34",
+      "durationSeconds": 6993,
+      "autoPosted": false,
+      "blueskyScheduled": true,
+      "blueskyScheduleId": "mvtlbbxjcqx5",
+      "gameNom": "Xenoblade Chronicles_ Definitive Edition - Nintendo Switch 2 Edition",
+      "gameCovers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7me.jpg"
+      ],
+      "liveNow": false
     }
   ],
-  "publishedAt": "2026-10-30T16:52:42.691Z"
+  "publishedAt": "2026-11-02T07:54:52.603Z"
 }
