@@ -513,6 +513,20 @@
       "platform": "switch",
       "source": "temps de jeu",
       "id": "bravely-default-flying-fairy-hd-remaster"
+    },
+    {
+      "t": 1793594732463,
+      "nom": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "bravely-default-flying-fairy-hd-remaster"
+    },
+    {
+      "t": 1793594732552,
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "final-fantasy-14-online"
     }
   ]
 }
