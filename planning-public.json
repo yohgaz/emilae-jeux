@@ -76,7 +76,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=cQV9p3qR0nA",
       "youtubeVideoId": "cQV9p3qR0nA",
       "durationSeconds": 5497,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mvtlo36h78gm",
       "gameNom": "Mewgenics",
@@ -236,5 +236,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-11-03T14:01:05.429Z"
+  "publishedAt": "2026-11-03T16:01:05.558Z"
 }
