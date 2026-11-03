@@ -583,6 +583,14 @@
       "platform": "steam",
       "source": "Steam",
       "id": "the-elder-scrolls-online"
+    },
+    {
+      "t": 1793716612327,
+      "ref": "dossier:final-fantasy-resonance",
+      "nom": "FINAL FANTASY RESONANCE",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-resonance"
     }
   ]
 }
