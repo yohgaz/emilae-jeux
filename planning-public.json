@@ -104,7 +104,7 @@
         "https://cdn.cloudflare.steamstatic.com/steam/apps/1672810/library_600x900.jpg",
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg"
       ],
-      "liveNow": false
+      "liveNow": true
     },
     {
       "id": "ce05df47-8cb8-4d40-88af-60644eb882e1",
@@ -236,5 +236,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-11-03T16:01:05.558Z"
+  "publishedAt": "2026-11-04T08:06:37.661Z"
 }
