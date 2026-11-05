@@ -655,6 +655,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "the-elder-scrolls-online"
+    },
+    {
+      "t": 1793870687368,
+      "ref": "steam:306130",
+      "nom": "The Elder Scrolls Online",
+      "platform": "steam",
+      "source": "Steam",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
