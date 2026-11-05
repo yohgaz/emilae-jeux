@@ -671,6 +671,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "overwatch"
+    },
+    {
+      "t": 1793877363966,
+      "ref": "dossier:final-fantasy-resonance",
+      "nom": "FINAL FANTASY RESONANCE",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-resonance"
     }
   ]
 }
