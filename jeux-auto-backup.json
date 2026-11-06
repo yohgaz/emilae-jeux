@@ -30,7 +30,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 72.1,
+              "percent": 72,
               "date": 1789592477000,
               "groupId": "default"
             },
@@ -108,7 +108,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 30.8,
+              "percent": 30.9,
               "groupId": "default"
             },
             {
@@ -473,7 +473,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 54.5,
+              "percent": 54.4,
               "groupId": "default"
             },
             {
@@ -649,7 +649,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 50.9,
+              "percent": 50.8,
               "groupId": "default"
             },
             {
@@ -3395,7 +3395,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 7.5,
+              "percent": 7.6,
               "date": 1777665407000,
               "groupId": "016"
             },
@@ -42754,7 +42754,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 24.9,
+              "percent": 24.8,
               "groupId": "default"
             },
             {
@@ -43420,7 +43420,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 2.7,
+              "percent": 2.8,
               "groupId": "005"
             },
             {
@@ -44861,7 +44861,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 66.6,
+              "percent": 66.5,
               "date": 1724944695000,
               "groupId": "default"
             },
@@ -45305,7 +45305,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 50.3,
+              "percent": 50.2,
               "date": 1726673424000,
               "groupId": "001"
             },
@@ -45653,7 +45653,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 25.2,
+              "percent": 25.1,
               "date": 1731426559000,
               "groupId": "004"
             },
@@ -45701,7 +45701,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 22.2,
+              "percent": 22.1,
               "date": 1731439996000,
               "groupId": "004"
             },
@@ -45821,7 +45821,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 83.4,
+              "percent": 83.3,
               "date": 1724940985000,
               "groupId": "006"
             },
@@ -45929,7 +45929,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 42.3,
+              "percent": 42.2,
               "date": 1728122258000,
               "groupId": "007"
             },
@@ -46013,7 +46013,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 27.1,
+              "percent": 27,
               "date": 1731173757000,
               "groupId": "007"
             },
@@ -46025,7 +46025,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 64.1,
+              "percent": 64,
               "date": 1725047564000,
               "groupId": "007"
             },
@@ -46193,7 +46193,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 68.8,
+              "percent": 68.7,
               "date": 1724944695000,
               "groupId": "009"
             },
@@ -46313,7 +46313,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 79.2,
+              "percent": 79.1,
               "date": 1724940184000,
               "groupId": "009"
             },
@@ -46769,7 +46769,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 10.2,
+              "percent": 10.1,
               "date": 1731164837000,
               "groupId": "014"
             },
@@ -46793,7 +46793,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 11.5,
+              "percent": 11.4,
               "date": 1731163528000,
               "groupId": "014"
             },
@@ -47128,7 +47128,7 @@
               "type": "gold",
               "hidden": false,
               "earned": true,
-              "percent": 32.9,
+              "percent": 32.8,
               "date": 1727888058000,
               "groupId": "019"
             },
@@ -47369,7 +47369,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 5.9,
+              "percent": 5.8,
               "groupId": "022"
             },
             {
@@ -47503,7 +47503,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 11.5,
+              "percent": 11.6,
               "groupId": "024"
             },
             {
@@ -47639,7 +47639,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 17.2,
+              "percent": 17.3,
               "groupId": "026"
             },
             {
@@ -47694,7 +47694,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 5.4,
+              "percent": 5.5,
               "groupId": "026"
             },
             {
@@ -50680,7 +50680,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 44.7,
+              "percent": 44.6,
               "groupId": "default"
             },
             {
@@ -53318,7 +53318,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 4,
+              "percent": 4.1,
               "groupId": "003"
             },
             {
@@ -53406,7 +53406,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 4.6,
+              "percent": 4.7,
               "groupId": "003"
             },
             {
@@ -53450,7 +53450,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 1.6,
+              "percent": 1.7,
               "groupId": "004"
             },
             {
@@ -55634,7 +55634,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 67.3,
+              "percent": 67.2,
               "date": 1751733374000,
               "groupId": "default"
             },
@@ -55796,7 +55796,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 82.8,
+              "percent": 82.7,
               "date": 1751789128000,
               "groupId": "default"
             },
@@ -61039,7 +61039,7 @@
               "type": "platinum",
               "hidden": false,
               "earned": true,
-              "percent": 10.3,
+              "percent": 10.2,
               "date": 1755795527000,
               "groupId": "default"
             },
@@ -61315,7 +61315,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 27.4,
+              "percent": 27.3,
               "date": 1755795526000,
               "groupId": "default"
             },
@@ -61327,7 +61327,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 79.2,
+              "percent": 79.1,
               "date": 1755795526000,
               "groupId": "default"
             },
@@ -61495,7 +61495,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 31,
+              "percent": 30.9,
               "date": 1755795526000,
               "groupId": "default"
             },
@@ -61708,7 +61708,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 21.5,
+              "percent": 21.4,
               "date": 1755795527000,
               "groupId": "002"
             },
@@ -61744,7 +61744,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 14.9,
+              "percent": 14.8,
               "date": 1755795527000,
               "groupId": "002"
             },
@@ -62054,7 +62054,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 56.9,
+              "percent": 56.8,
               "date": 1749192127000,
               "groupId": "default"
             },
@@ -62078,7 +62078,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 33.2,
+              "percent": 33.1,
               "date": 1752939653000,
               "groupId": "default"
             },
@@ -62090,7 +62090,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 26.8,
+              "percent": 26.7,
               "date": 1753260904000,
               "groupId": "default"
             },
@@ -62114,7 +62114,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 28.4,
+              "percent": 28.3,
               "date": 1753435300000,
               "groupId": "default"
             },
@@ -62210,7 +62210,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 50,
+              "percent": 49.9,
               "date": 1749215915000,
               "groupId": "default"
             },
@@ -62270,7 +62270,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 31.9,
+              "percent": 31.8,
               "date": 1749285896000,
               "groupId": "default"
             },
@@ -62306,7 +62306,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 36.5,
+              "percent": 36.4,
               "date": 1749285428000,
               "groupId": "default"
             },
@@ -62642,7 +62642,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 11.2,
+              "percent": 11.1,
               "date": 1755769507000,
               "groupId": "default"
             }
@@ -63712,7 +63712,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 7.7,
+              "percent": 7.8,
               "groupId": "default"
             },
             {
@@ -63874,7 +63874,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 54.5,
+              "percent": 54.4,
               "date": 1687879956000,
               "groupId": "default"
             },
@@ -64040,7 +64040,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 56.9,
+              "percent": 56.8,
               "date": 1687768056000,
               "groupId": "default"
             },
@@ -64052,7 +64052,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 22,
+              "percent": 21.9,
               "date": 1687793728000,
               "groupId": "default"
             },
@@ -64349,7 +64349,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 26.2,
+              "percent": 26.1,
               "date": 1688804395000,
               "groupId": "default"
             },
@@ -65296,7 +65296,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 61.3,
+              "percent": 61.2,
               "groupId": "default"
             },
             {
@@ -66138,7 +66138,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 81.1,
+              "percent": 81,
               "date": 1752248766000,
               "groupId": "default"
             },
@@ -66732,7 +66732,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 5,
+              "percent": 4.9,
               "groupId": "001"
             },
             {
@@ -68266,7 +68266,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 6.4,
+              "percent": 6.5,
               "date": 1727460176000,
               "groupId": "default"
             },
@@ -71998,7 +71998,7 @@
               "type": "gold",
               "hidden": true,
               "earned": true,
-              "percent": 15.4,
+              "percent": 15.5,
               "date": 1752156915000,
               "groupId": "default"
             },
@@ -72853,7 +72853,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 28.2,
+              "percent": 28.1,
               "groupId": "default"
             },
             {
@@ -77213,7 +77213,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 48.5,
+              "percent": 48.4,
               "groupId": "default"
             },
             {
@@ -77867,7 +77867,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 13.9,
+              "percent": 13.8,
               "date": 1739459618000,
               "groupId": "default"
             },
@@ -78513,7 +78513,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 43.8,
+              "percent": 43.7,
               "groupId": "default"
             },
             {
@@ -78524,7 +78524,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 38.9,
+              "percent": 38.8,
               "groupId": "default"
             },
             {
@@ -78579,7 +78579,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 14.1,
+              "percent": 14,
               "groupId": "default"
             },
             {
@@ -78590,7 +78590,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 25.7,
+              "percent": 25.6,
               "groupId": "default"
             },
             {
@@ -78634,7 +78634,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 16.8,
+              "percent": 16.7,
               "groupId": "default"
             },
             {
@@ -78746,7 +78746,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 69.9,
+              "percent": 69.8,
               "date": 1739395646000,
               "groupId": "default"
             },
@@ -78769,7 +78769,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 45.4,
+              "percent": 45.3,
               "date": 1739701665000,
               "groupId": "default"
             },
@@ -78803,7 +78803,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 32.5,
+              "percent": 32.4,
               "groupId": "default"
             },
             {
@@ -78847,7 +78847,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 24.3,
+              "percent": 24.2,
               "groupId": "default"
             },
             {
@@ -78891,7 +78891,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 19.4,
+              "percent": 19.3,
               "groupId": "default"
             },
             {
@@ -78935,7 +78935,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 43,
+              "percent": 42.9,
               "groupId": "default"
             },
             {
@@ -78957,7 +78957,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 43.3,
+              "percent": 43.2,
               "date": 1745587275000,
               "groupId": "default"
             },
@@ -80291,7 +80291,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 66.5,
+              "percent": 66.4,
               "date": 1727616359000,
               "groupId": "default"
             },
@@ -80504,7 +80504,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 17.9,
+              "percent": 17.8,
               "groupId": "default"
             },
             {
@@ -81512,7 +81512,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 33.2,
+              "percent": 33.3,
               "date": 1709460707000,
               "groupId": "default"
             },
@@ -81524,7 +81524,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 26.4,
+              "percent": 26.5,
               "date": 1709623288000,
               "groupId": "default"
             },
@@ -81548,7 +81548,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 16.4,
+              "percent": 16.5,
               "date": 1740649608000,
               "groupId": "default"
             },
@@ -82199,7 +82199,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 32.7,
+              "percent": 32.6,
               "date": 1736073424000,
               "groupId": "default"
             },
@@ -82910,7 +82910,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 2.5,
+              "percent": 2.6,
               "groupId": "007"
             },
             {
@@ -82921,7 +82921,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 2.7,
+              "percent": 2.8,
               "groupId": "007"
             },
             {
@@ -83719,7 +83719,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 76.8,
+              "percent": 76.7,
               "date": 1740303444000,
               "groupId": "default"
             },
@@ -83731,7 +83731,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 75.8,
+              "percent": 75.7,
               "date": 1740823215000,
               "groupId": "default"
             },
@@ -83798,7 +83798,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 57.2,
+              "percent": 57.1,
               "groupId": "default"
             },
             {
@@ -83809,7 +83809,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 53.6,
+              "percent": 53.5,
               "groupId": "default"
             },
             {
@@ -83831,7 +83831,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 48.4,
+              "percent": 48.3,
               "groupId": "default"
             },
             {
@@ -83912,7 +83912,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 85.9,
+              "percent": 85.8,
               "date": 1735155794000,
               "groupId": "default"
             },
@@ -83960,7 +83960,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 76.2,
+              "percent": 76.1,
               "date": 1740235840000,
               "groupId": "default"
             },
@@ -83972,7 +83972,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 78.3,
+              "percent": 78.2,
               "date": 1740059361000,
               "groupId": "default"
             },
@@ -83984,7 +83984,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 80.6,
+              "percent": 80.5,
               "date": 1740059380000,
               "groupId": "default"
             },
@@ -83996,7 +83996,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 69.6,
+              "percent": 69.5,
               "date": 1740046159000,
               "groupId": "default"
             },
@@ -84032,7 +84032,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 73.4,
+              "percent": 73.3,
               "date": 1740238006000,
               "groupId": "default"
             },
@@ -84044,7 +84044,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 67.2,
+              "percent": 67.1,
               "date": 1740242043000,
               "groupId": "default"
             },
@@ -84068,7 +84068,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 63,
+              "percent": 62.9,
               "groupId": "default"
             },
             {
@@ -84079,7 +84079,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 60.7,
+              "percent": 60.6,
               "date": 1740302587000,
               "groupId": "default"
             },
@@ -84091,7 +84091,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 64.7,
+              "percent": 64.6,
               "date": 1740298678000,
               "groupId": "default"
             },
@@ -84125,7 +84125,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 41,
+              "percent": 40.9,
               "groupId": "default"
             },
             {
@@ -84147,7 +84147,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 40,
+              "percent": 39.9,
               "groupId": "default"
             },
             {
@@ -84158,7 +84158,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 17.8,
+              "percent": 17.7,
               "groupId": "default"
             },
             {
@@ -84202,7 +84202,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 29.1,
+              "percent": 29,
               "groupId": "default"
             },
             {
@@ -84246,7 +84246,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 32.9,
+              "percent": 32.8,
               "groupId": "default"
             },
             {
@@ -84323,7 +84323,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 11.5,
+              "percent": 11.4,
               "groupId": "default"
             },
             {
@@ -84334,7 +84334,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 12.9,
+              "percent": 12.8,
               "groupId": "default"
             },
             {
@@ -85509,7 +85509,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 8.4,
+              "percent": 8.3,
               "groupId": "default"
             },
             {
@@ -85629,7 +85629,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 41.4,
+              "percent": 41.3,
               "date": 1708022120000,
               "groupId": "default"
             },
@@ -85701,7 +85701,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 24.9,
+              "percent": 24.8,
               "date": 1708894851000,
               "groupId": "default"
             },
@@ -85725,7 +85725,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 23.4,
+              "percent": 23.3,
               "date": 1709136312000,
               "groupId": "default"
             },
@@ -86717,7 +86717,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 71,
+              "percent": 70.9,
               "groupId": "default"
             },
             {
@@ -86728,7 +86728,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 43.4,
+              "percent": 43.3,
               "groupId": "default"
             },
             {
@@ -86739,7 +86739,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 23.7,
+              "percent": 23.6,
               "groupId": "default"
             },
             {
@@ -86772,7 +86772,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 13.6,
+              "percent": 13.5,
               "groupId": "default"
             },
             {
@@ -86794,7 +86794,7 @@
               "type": "gold",
               "hidden": false,
               "earned": false,
-              "percent": 3.3,
+              "percent": 3.2,
               "groupId": "default"
             },
             {
@@ -86805,7 +86805,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 10.4,
+              "percent": 10.3,
               "groupId": "default"
             },
             {
@@ -86816,7 +86816,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 22,
+              "percent": 21.9,
               "groupId": "default"
             },
             {
@@ -86827,7 +86827,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 29.2,
+              "percent": 29.1,
               "groupId": "default"
             },
             {
@@ -86838,7 +86838,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 40.6,
+              "percent": 40.5,
               "groupId": "default"
             },
             {
@@ -86849,7 +86849,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 42.6,
+              "percent": 42.5,
               "groupId": "default"
             },
             {
@@ -86860,7 +86860,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 28.3,
+              "percent": 28.2,
               "groupId": "default"
             },
             {
@@ -86882,7 +86882,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 24,
+              "percent": 23.9,
               "groupId": "default"
             },
             {
@@ -86915,7 +86915,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 36.4,
+              "percent": 36.3,
               "groupId": "default"
             },
             {
@@ -86926,7 +86926,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 14.4,
+              "percent": 14.3,
               "groupId": "default"
             },
             {
@@ -86937,7 +86937,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 10.9,
+              "percent": 10.8,
               "groupId": "default"
             },
             {
@@ -87003,7 +87003,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 27,
+              "percent": 26.9,
               "groupId": "default"
             },
             {
@@ -87025,7 +87025,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 45.7,
+              "percent": 45.6,
               "groupId": "default"
             },
             {
@@ -87058,7 +87058,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 17.3,
+              "percent": 17.2,
               "groupId": "default"
             },
             {
@@ -87135,7 +87135,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 3.4,
+              "percent": 3.3,
               "groupId": "default"
             },
             {
@@ -87168,7 +87168,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 9.5,
+              "percent": 9.4,
               "groupId": "001"
             },
             {
@@ -87234,7 +87234,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 3.7,
+              "percent": 3.6,
               "groupId": "001"
             },
             {
@@ -88674,7 +88674,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 75.9,
+              "percent": 75.8,
               "date": 1732826653000,
               "groupId": "default"
             },
@@ -89077,7 +89077,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 36.5,
+              "percent": 36.6,
               "groupId": "002"
             },
             {
@@ -89275,7 +89275,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 16.8,
+              "percent": 16.9,
               "groupId": "005"
             },
             {
@@ -90578,7 +90578,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 20.1,
+              "percent": 20.2,
               "date": 1733069370000,
               "groupId": "default"
             },
@@ -91049,7 +91049,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 36.2,
+              "percent": 36.1,
               "date": 1726330302000,
               "groupId": "default"
             },
@@ -95383,7 +95383,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 4.1,
+              "percent": 4.2,
               "groupId": "009"
             },
             {
@@ -95405,7 +95405,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 1.8,
+              "percent": 1.9,
               "groupId": "009"
             },
             {
@@ -95427,7 +95427,7 @@
               "type": "gold",
               "hidden": false,
               "earned": false,
-              "percent": 4.3,
+              "percent": 4.4,
               "groupId": "010"
             },
             {
@@ -95673,7 +95673,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 18.5,
+              "percent": 18.4,
               "groupId": "default"
             },
             {
@@ -96705,7 +96705,7 @@
               "type": "gold",
               "hidden": false,
               "earned": false,
-              "percent": 8.7,
+              "percent": 8.8,
               "groupId": "default"
             },
             {
@@ -96914,7 +96914,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 11.7,
+              "percent": 11.8,
               "groupId": "default"
             },
             {
@@ -97429,7 +97429,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 74.2,
+              "percent": 74.1,
               "date": 1718444026000,
               "groupId": "default"
             },
@@ -98211,7 +98211,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 21.9,
+              "percent": 22,
               "groupId": "default"
             },
             {
@@ -99097,7 +99097,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 13.7,
+              "percent": 13.6,
               "groupId": "default"
             },
             {
@@ -100275,7 +100275,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 8,
+              "percent": 8.1,
               "groupId": "default"
             },
             {
@@ -100363,7 +100363,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 1.8,
+              "percent": 1.7,
               "groupId": "default"
             },
             {
@@ -101910,7 +101910,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 61.4,
+              "percent": 61.3,
               "groupId": "default"
             },
             {
@@ -105911,7 +105911,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 4.3,
+              "percent": 4.2,
               "groupId": "003"
             },
             {
@@ -106967,7 +106967,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 20.8,
+              "percent": 20.9,
               "groupId": "default"
             },
             {
@@ -108176,7 +108176,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 76.5,
+              "percent": 76.4,
               "date": 1715001638000,
               "groupId": "default"
             },
@@ -108464,7 +108464,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 22.3,
+              "percent": 22.2,
               "groupId": "default"
             },
             {
@@ -108618,7 +108618,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 39.8,
+              "percent": 39.7,
               "groupId": "default"
             },
             {
@@ -108706,7 +108706,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 52.9,
+              "percent": 52.8,
               "groupId": "default"
             },
             {
@@ -108805,7 +108805,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 1.2,
+              "percent": 1.3,
               "groupId": "001"
             },
             {
@@ -110661,7 +110661,7 @@
               "type": "gold",
               "hidden": false,
               "earned": false,
-              "percent": 3.1,
+              "percent": 3.2,
               "groupId": "001"
             },
             {
@@ -111732,7 +111732,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 50.4,
+              "percent": 50.5,
               "date": 1705092649000,
               "groupId": "default"
             },
@@ -112864,7 +112864,7 @@
               "type": "gold",
               "hidden": false,
               "earned": false,
-              "percent": 8.6,
+              "percent": 8.7,
               "groupId": "default"
             },
             {
@@ -114310,7 +114310,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 32.6,
+              "percent": 32.5,
               "groupId": "default"
             },
             {
@@ -118008,7 +118008,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 13.8,
+              "percent": 13.9,
               "groupId": "004"
             },
             {
@@ -118241,6 +118241,28 @@
               "earned": false,
               "percent": 1.5,
               "groupId": "008"
+            },
+            {
+              "id": 93,
+              "name": "Cycle du renouveau",
+              "description": "Terminez le récit principal en mode Nouvelle partie+",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/6f26f408-b657-4024-9a41-6e1037bed263.png",
+              "type": "silver",
+              "hidden": false,
+              "earned": false,
+              "percent": 0.1,
+              "groupId": "009"
+            },
+            {
+              "id": 94,
+              "name": "Héritier d'Ivaldi",
+              "description": "Améliorez intégralement une pièce d'équipement divine",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/5f775a16-9ab0-420e-83c9-acc973823949.png",
+              "type": "bronze",
+              "hidden": false,
+              "earned": false,
+              "percent": 0.1,
+              "groupId": "009"
             }
           ],
           "groups": [
@@ -118272,26 +118294,31 @@
             {
               "id": "005",
               "name": "Assassin's Creed® Valhalla - L'Aube du Ragnarök",
-              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/8c0a5c90-4a0b-4d70-80f9-5eff3927d55d.png"
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/bc8a1dde-5bef-4922-b1c5-25ec9056520c.png"
             },
             {
               "id": "006",
               "name": "Assassin's Creed® Valhalla : défi de maîtrise Le dénouement (2e partie)",
-              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/fec13794-5bfd-4e59-8cfb-8248b65901aa.png"
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/2fd55bf9-706d-4b31-9279-3b60c986a8e9.png"
             },
             {
               "id": "007",
               "name": "Assassin's Creed® Valhalla: La saga oubliée",
-              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/bd5c7695-0192-4c17-bd41-54ca21af090b.png"
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/1aa5bca4-2c70-4d4f-bd43-d79bc1d08a67.png"
             },
             {
               "id": "008",
               "name": "Assassin's Creed® Valhalla - Tombeaux des trépassés : savoir enfoui",
               "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/8283c3f6-390d-4b88-ace6-7367e83a9596.png"
+            },
+            {
+              "id": "009",
+              "name": "Nouvelle partie+",
+              "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20954_00/3bff0798-cae8-4514-a63f-8874689f1792.png"
             }
           ],
           "earned": 32,
-          "total": 93,
+          "total": 95,
           "playtimeMinutes": 5081,
           "lastPlayedAt": 1699984700270
         }
@@ -118336,7 +118363,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 27.9,
+              "percent": 27.8,
               "groupId": "default"
             },
             {
@@ -118446,7 +118473,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 34.2,
+              "percent": 34.1,
               "groupId": "default"
             },
             {
@@ -118468,7 +118495,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 9.4,
+              "percent": 9.3,
               "groupId": "default"
             },
             {
@@ -118545,7 +118572,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 11,
+              "percent": 10.9,
               "groupId": "default"
             },
             {
@@ -118579,7 +118606,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 54.7,
+              "percent": 54.6,
               "groupId": "default"
             },
             {
@@ -118601,7 +118628,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 51.2,
+              "percent": 51.1,
               "groupId": "default"
             },
             {
@@ -118635,7 +118662,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 47.6,
+              "percent": 47.5,
               "date": 1699720291000,
               "groupId": "default"
             },
@@ -118658,7 +118685,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 18.2,
+              "percent": 18.1,
               "groupId": "default"
             },
             {
@@ -118669,7 +118696,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 40.7,
+              "percent": 40.6,
               "groupId": "default"
             },
             {
@@ -118702,7 +118729,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 29.9,
+              "percent": 29.8,
               "groupId": "default"
             },
             {
@@ -118768,7 +118795,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 30.5,
+              "percent": 30.4,
               "groupId": "default"
             },
             {
@@ -119087,7 +119114,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 6,
+              "percent": 5.9,
               "groupId": "004"
             },
             {
@@ -119142,7 +119169,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 24.5,
+              "percent": 24.4,
               "groupId": "005"
             },
             {
@@ -119230,7 +119257,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 4.6,
+              "percent": 4.7,
               "groupId": "006"
             },
             {
@@ -119329,7 +119356,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 3.2,
+              "percent": 3.3,
               "groupId": "007"
             },
             {
@@ -119395,7 +119422,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 2.7,
+              "percent": 2.6,
               "groupId": "008"
             },
             {
@@ -119461,7 +119488,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 5.1,
+              "percent": 5.2,
               "groupId": "009"
             },
             {
@@ -119593,7 +119620,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 0.2,
+              "percent": 0.3,
               "groupId": "011"
             },
             {
@@ -119604,7 +119631,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 0.3,
+              "percent": 0.4,
               "groupId": "011"
             },
             {
@@ -119615,7 +119642,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 0.2,
+              "percent": 0.3,
               "groupId": "011"
             },
             {
@@ -121181,7 +121208,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 6.2,
+              "percent": 6.3,
               "groupId": "012"
             },
             {
@@ -121510,7 +121537,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 67.1,
+              "percent": 67.2,
               "date": 1694261541000,
               "groupId": "default"
             },
@@ -121604,7 +121631,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 33.3,
+              "percent": 33.4,
               "date": 1698251042000,
               "groupId": "default"
             },
@@ -126089,7 +126116,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 33,
+              "percent": 32.9,
               "groupId": "default"
             },
             {
@@ -126586,7 +126613,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 26.2,
+              "percent": 26.1,
               "date": 1682607133000,
               "groupId": "default"
             },
@@ -126925,7 +126952,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 35.1,
+              "percent": 35.2,
               "groupId": "default"
             },
             {
@@ -128232,7 +128259,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 41.5,
+              "percent": 41.4,
               "date": 1680550081000,
               "groupId": "default"
             },
@@ -128872,7 +128899,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 52.8,
+              "percent": 52.7,
               "date": 1680377018000,
               "groupId": "default"
             },
@@ -128920,7 +128947,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 46.8,
+              "percent": 46.7,
               "date": 1680377022000,
               "groupId": "default"
             },
@@ -129208,7 +129235,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 45.8,
+              "percent": 45.7,
               "date": 1680377047000,
               "groupId": "default"
             },
@@ -129868,7 +129895,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 40.5,
+              "percent": 40.4,
               "date": 1680420432000,
               "groupId": "default"
             },
@@ -130702,7 +130729,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 41.3,
+              "percent": 41.2,
               "date": 1678877250000,
               "groupId": "default"
             },
@@ -131125,7 +131152,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 35.7,
+              "percent": 35.6,
               "date": 1679837839000,
               "groupId": "default"
             },
@@ -131338,7 +131365,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 24,
+              "percent": 23.9,
               "date": 1677060974000,
               "groupId": "default"
             },
@@ -137350,7 +137377,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 16.8,
+              "percent": 16.9,
               "groupId": "default"
             },
             {
@@ -137526,7 +137553,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 30.9,
+              "percent": 31,
               "groupId": "default"
             },
             {
@@ -137735,7 +137762,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 25.8,
+              "percent": 25.9,
               "groupId": "default"
             },
             {
@@ -137812,7 +137839,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 17.9,
+              "percent": 18,
               "groupId": "default"
             },
             {
@@ -144711,7 +144738,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 0.1,
+              "percent": 0.2,
               "groupId": "008"
             },
             {
@@ -144766,7 +144793,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 0.1,
+              "percent": 0.2,
               "groupId": "008"
             },
             {
@@ -144777,7 +144804,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 0.1,
+              "percent": 0.2,
               "groupId": "008"
             },
             {
@@ -144788,7 +144815,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 0.1,
+              "percent": 0.2,
               "groupId": "008"
             },
             {
@@ -145828,7 +145855,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 2.2,
+              "percent": 2.3,
               "groupId": "003"
             }
           ],
@@ -148576,7 +148603,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 28.3,
+              "percent": 28.4,
               "groupId": "default"
             },
             {
@@ -151895,7 +151922,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 34.3,
+              "percent": 34.2,
               "groupId": "default"
             },
             {
@@ -153740,7 +153767,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 30,
+              "percent": 29.9,
               "date": 1606306197000,
               "groupId": "default"
             },
@@ -153882,7 +153909,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 39.5,
+              "percent": 39.4,
               "date": 1600775101000,
               "groupId": "default"
             },
@@ -154161,7 +154188,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 75.6,
+              "percent": 75.5,
               "date": 1606062448000,
               "groupId": "default"
             },
@@ -155478,7 +155505,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 38.2,
+              "percent": 38.1,
               "date": 1599584970000,
               "groupId": "default"
             },
@@ -160452,7 +160479,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 60,
+              "percent": 59.9,
               "date": 1580408162000,
               "groupId": "default"
             },
@@ -164881,7 +164908,7 @@
               "type": "platinum",
               "hidden": false,
               "earned": false,
-              "percent": 3.7,
+              "percent": 3.8,
               "groupId": "default"
             },
             {
@@ -165911,7 +165938,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 11.1,
+              "percent": 11.2,
               "groupId": "default"
             },
             {
@@ -169924,7 +169951,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": false,
-              "percent": 13.9,
+              "percent": 13.8,
               "groupId": "default"
             },
             {
@@ -172807,7 +172834,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 43.6,
+              "percent": 43.5,
               "date": 1480599217000,
               "groupId": "default"
             },
@@ -174111,7 +174138,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 6.4,
+              "percent": 6.5,
               "groupId": "default"
             },
             {
@@ -174832,7 +174859,7 @@
               "type": "silver",
               "hidden": true,
               "earned": true,
-              "percent": 49.4,
+              "percent": 49.3,
               "date": 1480105063000,
               "groupId": "default"
             },
@@ -175993,7 +176020,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 43.5,
+              "percent": 43.4,
               "date": 1427321829000,
               "groupId": "default"
             },
@@ -181658,7 +181685,7 @@
               "type": "bronze",
               "hidden": true,
               "earned": true,
-              "percent": 59.3,
+              "percent": 59.2,
               "date": 1460322589000,
               "groupId": "default"
             },
@@ -182585,7 +182612,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 24,
+              "percent": 23.9,
               "date": 1460106857000,
               "groupId": "default"
             },
@@ -184760,7 +184787,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 9.8,
+              "percent": 9.9,
               "groupId": "005"
             },
             {
@@ -184870,7 +184897,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 22.8,
+              "percent": 22.7,
               "groupId": "007"
             },
             {
@@ -195386,7 +195413,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 30.2,
+              "percent": 30.3,
               "groupId": "default"
             },
             {
@@ -197489,7 +197516,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 7.3,
+              "percent": 7.4,
               "groupId": "default"
             },
             {
@@ -201313,7 +201340,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 24.3,
+              "percent": 24.4,
               "date": 1409410699000,
               "groupId": "default"
             },
@@ -201361,7 +201388,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 21.8,
+              "percent": 21.9,
               "date": 1409598201000,
               "groupId": "default"
             },
@@ -201709,7 +201736,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 17.9,
+              "percent": 18,
               "date": 1410452776000,
               "groupId": "default"
             },
@@ -203420,7 +203447,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 8.3,
+              "percent": 8.4,
               "date": 1400918155000,
               "groupId": "default"
             }
@@ -205819,7 +205846,7 @@
               "type": "silver",
               "hidden": false,
               "earned": false,
-              "percent": 8.4,
+              "percent": 8.5,
               "groupId": "default"
             },
             {
@@ -208477,7 +208504,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 67,
+              "percent": 66.9,
               "date": 1380209079000,
               "groupId": "default"
             },
@@ -209987,7 +210014,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 8.6,
+              "percent": 8.7,
               "date": 1391176781000,
               "groupId": "default"
             },
@@ -210119,7 +210146,7 @@
               "type": "silver",
               "hidden": false,
               "earned": true,
-              "percent": 12.1,
+              "percent": 12.2,
               "date": 1391342007000,
               "groupId": "default"
             },
@@ -211603,7 +211630,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 15.4,
+              "percent": 15.5,
               "groupId": "default"
             },
             {
@@ -212421,7 +212448,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 11.2,
+              "percent": 11.3,
               "groupId": "default"
             },
             {
@@ -213719,7 +213746,7 @@
               "type": "platinum",
               "hidden": false,
               "earned": false,
-              "percent": 7.3,
+              "percent": 7.4,
               "groupId": "default"
             },
             {
@@ -213965,7 +213992,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 23.1,
+              "percent": 23.2,
               "groupId": "default"
             },
             {
@@ -214507,7 +214534,7 @@
               "type": "gold",
               "hidden": false,
               "earned": true,
-              "percent": 33.6,
+              "percent": 33.7,
               "date": 1375789725000,
               "groupId": "default"
             },
@@ -218101,7 +218128,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 7.1,
+              "percent": 7.2,
               "groupId": "default"
             },
             {
@@ -220206,7 +220233,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 83.1,
+              "percent": 83,
               "date": 1369645326000,
               "groupId": "default"
             },
@@ -227743,7 +227770,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": true,
-              "percent": 50.6,
+              "percent": 50.5,
               "date": 1356541623000,
               "groupId": "default"
             },
@@ -240340,7 +240367,7 @@
               "type": "silver",
               "hidden": true,
               "earned": false,
-              "percent": 5.7,
+              "percent": 5.8,
               "groupId": "default"
             },
             {
@@ -246259,7 +246286,7 @@
               "type": "bronze",
               "hidden": false,
               "earned": false,
-              "percent": 13.4,
+              "percent": 13.3,
               "groupId": "default"
             },
             {
@@ -253167,7 +253194,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxkPPp73iikgkPWDQRQ8wlUYTVeskniKdoUwbYwYJL2XghaQdnH_fMoPTdroySAt3KTXECdLuM49TXxj41Igh2zKcsadl0M5EQ94wnI_RPJ16fhlfrYK7YFXuvStOr.p5FLbCdMV3gsyvxlyDBRa.lg-",
               "earned": false,
               "points": 15,
-              "percent": 0.6
+              "percent": 0.7
             },
             {
               "name": "Ce n'est pas fini",
@@ -255135,7 +255162,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7AJCRGs4TBL8GSEY0a9.1sIX1PdMoHIYwDmWhUUgN4USFHeTcK_gVNnSAr62eEokYK5hJGCDurQu2_ORwSsoclpphS5dOsnRCbzCirAU2Q0hKFZwGDQ5ohYVwEfs.QCNg--",
               "earned": false,
               "points": 10,
-              "percent": 35.9
+              "percent": 35.8
             },
             {
               "name": "Auto, boulot, dodo...",
@@ -255186,7 +255213,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwY0.LvEnunrBOHJwJoTGvNjIGeHZPWeTIj7wjY8L.drBtbl95gnSh5MNSW5M8mfHp0PzWfhc6goHtv1YYgt6PpcSNO.jBl6.d6u7FzMjafrRZM1f56nFLeK3AEMzDXynA--",
               "earned": false,
               "points": 10,
-              "percent": 44
+              "percent": 43.9
             },
             {
               "name": "L'occasion fait le larron !",
@@ -255194,7 +255221,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.KOBFKla5EBpEEIJNL90dTGH1SAG3SXKNup_rZ5yJJjHxivx3XK.EKWorY9Bx7.h0D6dq.DEVP64608wh1dr5YZ7guySCnL3oyJpmKImbTk",
               "earned": true,
               "points": 10,
-              "percent": 51.8,
+              "percent": 51.7,
               "date": 1779890950753
             },
             {
@@ -255212,7 +255239,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxY895QAa9fSND5V.7ZuYKOwYwyn.uvNQ4L.De2V9BFhGiDSxUFi8t6p6l8c39kYECaVdfzyZjlaXNNbL4rndSgdj2f3bwf7fDlhbA.4QIFR",
               "earned": false,
               "points": 10,
-              "percent": 47.6
+              "percent": 47.5
             },
             {
               "name": "L'union fait la force !",
@@ -255281,7 +255308,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzymJaRcXEw8c1kEFycPOoLY7YFD1LBuGdAvvxutU5uHbQqhWLy8u5h7lIZ6MvqOIgH7tOPW_jV0MIMofu8N7LOnmPpZB4vQLT6KdsmOybB.",
               "earned": true,
               "points": 10,
-              "percent": 64.1,
+              "percent": 64,
               "date": 1779179935893
             },
             {
@@ -255290,7 +255317,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_gSLDa5cmy8BUCRWVHRB3wm4KjDxakuS3z9hn9qJRfMxtFpPxlYz1h1aIXGT0zlpiztp1omQFf98cJasdynP6Q5h3_YavmYSzYQ9Ym_8A27",
               "earned": true,
               "points": 10,
-              "percent": 68.3,
+              "percent": 68.2,
               "date": 1779180615463
             },
             {
@@ -255308,7 +255335,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_ojQpu5AIGdX94ZSqk1y5ilOrWhlT6XHiiNiaQwA5r4dDH6w_Khw4qkt8mIJ9RFLe5Cv5MVyop0nRSZZWmm9j8kyVjkqdtKKKK8kCKnA_G4wKyHCsV5CANpl8pW7B0kwQ--",
               "earned": false,
               "points": 20,
-              "percent": 28.8
+              "percent": 28.7
             },
             {
               "name": "Mémoire tampon",
@@ -255316,7 +255343,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxTLEyBXO.xV4vei7sDqG9iTXClcHB0dhvO2mteLsD1q6V.w1POwnEyvARghT6AJ7q9d3NmtMSs0gt3YHylUbiatXlKk9Zt5KL.cpp5LgRzK1GVzXmjxqGtSIVtoM.fZOA--",
               "earned": false,
               "points": 20,
-              "percent": 31.4
+              "percent": 31.3
             },
             {
               "name": "Pentatamponique",
@@ -255388,7 +255415,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2rDHBm1DYtIcaugq_tELzCcPZsbgS.LLHsDFWhN11YFPYuav8RrXaTUHSxjupxcVrw9cmf3YnHqgdYGyLeix4y_A.FjkjGPRjzoHhrd7.K7lcIoPBK6MYiqidIvfvai.w--",
               "earned": false,
               "points": 20,
-              "percent": 29
+              "percent": 28.9
             },
             {
               "name": "Trouver le bon créneau",
@@ -255412,7 +255439,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5HhQwYXsiSvqJ3m0IinoFCCEJPaJvwtH2yjOou7XAWIJ.nXI.PMazxwihVGqhhjOZCdn5p5p9hyMHi1XukMCFU1sbq7wy_MG.6Ff0xZOUlIRcxVAViZ2Q1wjIGjEHKb8Q--",
               "earned": false,
               "points": 10,
-              "percent": 14
+              "percent": 14.1
             },
             {
               "name": "Décrocher la lune",
@@ -255910,7 +255937,7 @@
               "icon": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToAKW9Ga8oPpUuMWgjmDiHbrr2KISGSLdg_tIrsm3Nv6uqee2owtwH0yNRFNvLLmSqiq.qB0Ioe4sZDtiMnan95Fo0nngXkw7mCSbF3hS6.8czLdv8yxrH6sW.pgx7Un0qEUdpDA8TbEBaESZSlW.Vas",
               "earned": false,
               "points": 15,
-              "percent": 7.5
+              "percent": 7.6
             },
             {
               "name": "Prodige",
@@ -344971,7 +344998,7 @@
           "lastPlayedAt": 1793742805000
         }
       },
-      "lastPlayedAt": 1793818652839,
+      "lastPlayedAt": 1793897860765,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 17596,
@@ -439183,7 +439210,7 @@
           "lastPlayedAt": 1793722591000
         }
       },
-      "lastPlayedAt": 1793722591000,
+      "lastPlayedAt": 1793877363966,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 187293,
@@ -445393,7 +445420,7 @@
           "lastPlayedAt": 1789468414674
         }
       },
-      "lastPlayedAt": 1793789478224,
+      "lastPlayedAt": 1793890650402,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 94137,
@@ -445633,7 +445660,7 @@
       }
     }
   ],
-  "builtAt": 1793854096112,
+  "builtAt": 1793940495968,
   "platformDiag": {
     "steam": {
       "count": 310,
