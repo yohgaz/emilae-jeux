@@ -715,6 +715,14 @@
       "ref": "steam:4425970",
       "platform": "steam",
       "source": "Steam"
+    },
+    {
+      "t": 1793965265870,
+      "ref": "dossier:final-fantasy-resonance",
+      "nom": "FINAL FANTASY RESONANCE",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-resonance"
     }
   ]
 }
