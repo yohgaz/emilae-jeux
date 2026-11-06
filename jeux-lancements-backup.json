@@ -723,6 +723,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "final-fantasy-resonance"
+    },
+    {
+      "t": 1793971562352,
+      "ref": "dossier:the-elder-scrolls-online",
+      "nom": "The Elder Scrolls Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
