@@ -755,6 +755,20 @@
       "platform": "pc",
       "source": "processus",
       "id": "overwatch"
+    },
+    {
+      "t": 1794060530411,
+      "ref": "dossier:age-of-wonders-4",
+      "nom": "Age of Wonders 4",
+      "platform": "pc",
+      "source": "processus",
+      "id": "age-of-wonders-4"
+    },
+    {
+      "t": 1794060534772,
+      "ref": "steam:1669000",
+      "platform": "steam",
+      "source": "Steam"
     }
   ]
 }
