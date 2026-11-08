@@ -801,6 +801,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "overwatch"
+    },
+    {
+      "t": 1794144499984,
+      "ref": "dossier:the-elder-scrolls-online",
+      "nom": "The Elder Scrolls Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
