@@ -855,6 +855,12 @@
       "platform": "pc",
       "source": "processus",
       "id": "final-fantasy-resonance"
+    },
+    {
+      "t": 1794258546326,
+      "ref": "steam:4425970",
+      "platform": "steam",
+      "source": "Steam"
     }
   ]
 }
