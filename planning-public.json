@@ -32,7 +32,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=qdVwli5dfD4",
       "youtubeVideoId": "qdVwli5dfD4",
       "durationSeconds": 6250,
-      "autoPosted": false,
+      "autoPosted": true,
       "blueskyScheduled": true,
       "blueskyScheduleId": "mw4w2csbmgej",
       "gameNom": "MIO: Memories in Orbit",
@@ -249,5 +249,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-11-09T10:29:54.388Z"
+  "publishedAt": "2026-11-09T14:04:52.195Z"
 }
