@@ -83,7 +83,7 @@
         "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.jpg",
         "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21988_00/ca74ea15-54b7-41f0-8937-e863af036d95.png"
       ],
-      "liveNow": true
+      "liveNow": false
     },
     {
       "id": "f220b845-6130-457d-a084-fd0d061a2cb2",
@@ -249,5 +249,5 @@
       "liveNow": false
     }
   ],
-  "publishedAt": "2026-11-11T09:06:06.503Z"
+  "publishedAt": "2026-11-11T10:26:58.899Z"
 }
