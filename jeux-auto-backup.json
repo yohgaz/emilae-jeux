@@ -459556,7 +459556,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 92.8
+              "percent": 92.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "L'aventure vous attend !",
@@ -459564,7 +459566,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 84.1
+              "percent": 84.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Il était moins une",
@@ -459572,7 +459576,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 82.8
+              "percent": 82.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Le pouvoir de l'Éclairé",
@@ -459580,7 +459586,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 77.4
+              "percent": 77.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "En territoire inconnu",
@@ -459588,7 +459596,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 74.5
+              "percent": 74.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "L'élu de l'Yggdrasil",
@@ -459596,7 +459606,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 72.2
+              "percent": 72.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Doublure parfaite",
@@ -459604,7 +459616,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 68.3
+              "percent": 68.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Vers de nouveaux horizons",
@@ -459612,7 +459626,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 60.8
+              "percent": 60.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Champion incontesté d'Elréa",
@@ -459620,7 +459636,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 56.5
+              "percent": 56.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Le grand bleu",
@@ -459628,7 +459646,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 54.1
+              "percent": 54.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Fresque funeste",
@@ -459636,7 +459656,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 48.2
+              "percent": 48.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Des larmes dans la mer",
@@ -459644,7 +459666,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 51.2
+              "percent": 51.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Brise-glace",
@@ -459652,7 +459676,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 46.1
+              "percent": 46.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "L'Arbre du Monde",
@@ -459660,7 +459686,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 45.2
+              "percent": 45.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Une étincelle d'espoir",
@@ -459668,7 +459696,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 45.1
+              "percent": 45.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Soleil du rempart",
@@ -459676,7 +459706,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 44.3
+              "percent": 44.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Un disciple à la hauteur",
@@ -459684,7 +459716,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/25a9996e9bf2bce3a8d8494c98a311b507b7f214.jpg",
               "earned": true,
-              "percent": 43.4
+              "percent": 43.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Soldat du sourire",
@@ -459692,7 +459726,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 43
+              "percent": 43,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Maître des mers",
@@ -459700,7 +459736,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 39.7
+              "percent": 39.7,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Chevalier apaisé",
@@ -459708,7 +459746,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 41.1
+              "percent": 41.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Sauvetage au casino",
@@ -459716,7 +459756,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 40.5
+              "percent": 40.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Réconciliation fraternelle",
@@ -459724,7 +459766,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 39
+              "percent": 39,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Invocation musicale",
@@ -459732,7 +459776,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 38
+              "percent": 38,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Le héros du sauna",
@@ -459740,7 +459786,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 37
+              "percent": 37,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Prêts pour l'affrontement",
@@ -459748,7 +459796,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 36.4
+              "percent": 36.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Sauveur d'Elréa",
@@ -459756,7 +459806,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 32.4
+              "percent": 32.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Une décision capitale",
@@ -459764,7 +459816,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 29.4
+              "percent": 29.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "L'affrontement final",
@@ -459772,7 +459826,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 28.7
+              "percent": 28.7,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Maître des cieux",
@@ -459780,7 +459836,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d7aef42330c6a30bf01c63cfc36c1bca407fe703.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 24.4
+              "percent": 24.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Les Combattants de la destinée",
@@ -459788,7 +459846,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/055a393cd117e9f6ea7a0ebc5bc6b8f318992374.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 14.9
+              "percent": 14.9,
+              "psnType": "gold",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Faucheur",
@@ -459796,7 +459856,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/fa383bc56ef6309994ec5a84d959edc8e25e9186.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 44.7
+              "percent": 44.7,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Préempteur",
@@ -459804,7 +459866,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d55c16978836596e0ac3bfcc5818002eb2834392.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 78.3
+              "percent": 78.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Monte-monstres",
@@ -459812,7 +459876,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/014e6eabddac4f67db8e4d5a74a3744832b9f3b1.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 33.3
+              "percent": 33.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Accro du combo",
@@ -459820,7 +459886,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/23d813ea5cbd691698c9939023842f216ea07731.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/25a9996e9bf2bce3a8d8494c98a311b507b7f214.jpg",
               "earned": true,
-              "percent": 46.9
+              "percent": 46.9,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Objectophile expert",
@@ -459828,7 +459896,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/75fb01eaf3aeb546da2b52524aa2a49c3b797eed.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 17.5
+              "percent": 17.5,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Raffinement extrême",
@@ -459836,7 +459906,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/5af084b580b6a723f568a7fc6adca7409b67e675.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 3.6
+              "percent": 3.6,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Capitaine de l'académie",
@@ -459844,7 +459916,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/e4857bb78825c6970c121319936b6bb8e9378153.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 16.1
+              "percent": 16.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "C'est en forgeant...",
@@ -459852,7 +459926,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/4e16ac09c26c343f2ea713e26c84f3fa36f42fda.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 58.2
+              "percent": 58.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Motivé",
@@ -459860,7 +459936,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/aa85cb138808ddedc8af774d881a91148cd67335.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 38.2
+              "percent": 38.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Maître marteleur",
@@ -459868,7 +459946,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/280317052c22bbacdd67b4eb6016e9a757f1422f.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 72.8
+              "percent": 72.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Forgeron de la Lumière",
@@ -459876,7 +459956,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/0c9745ea380070a5a88404b59903ca3146dc74b8.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 15.1
+              "percent": 15.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Éclairé suprême",
@@ -459884,7 +459966,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/3be43b6fab175fa0ee99704a278ea40079939732.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 14.9
+              "percent": 14.9,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Voleur de haut vol",
@@ -459892,7 +459976,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/26f1952eb7796aef1739faacfbe42600ec7ada87.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 14.9
+              "percent": 14.9,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Magicienne magistrale",
@@ -459900,7 +459986,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/fce2054db1d98647560252fc051f4fe19cd25247.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 14.4
+              "percent": 14.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Soigneuse suprême",
@@ -459908,7 +459996,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/fc569ea54fe437f248f3c4a92f307b1667910763.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 12.7
+              "percent": 12.7,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Vedette virtuose",
@@ -459916,7 +460006,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/4cdb45229a3c1fe2f112141d8ac47c460fbb6e3a.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 13.7
+              "percent": 13.7,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Vénérable ancien",
@@ -459924,7 +460016,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/a2eb146b0173e8ef5fe406f537e046bde63b3deb.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 12.8
+              "percent": 12.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Championne incontestée",
@@ -459932,7 +460026,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/a8ef32357ea623e07ee1c57b2e671a2da268dd0f.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 13.3
+              "percent": 13.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Chevalier exemplaire",
@@ -459940,7 +460036,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/4834b6fa56065c1b0daf3fd1ee05483d94e13874.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/25a9996e9bf2bce3a8d8494c98a311b507b7f214.jpg",
               "earned": false,
-              "percent": 13.8
+              "percent": 13.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Explorateur insulaire",
@@ -459948,7 +460046,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/ffa088e1ae5e285dcd9e099e854c90cf052c6b27.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 30.4
+              "percent": 30.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Artiste de l'arbalète",
@@ -459956,7 +460056,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/aaa398841d5a05d7e14c5ee153743cfe08df6023.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 9.2
+              "percent": 9.2,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Meuhtéorologue",
@@ -459964,7 +460066,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/16b576265c773dfc6853cf1ec7612f9fb6124ae6.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 6.3
+              "percent": 6.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Esthète du casino",
@@ -459972,7 +460076,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/45ec383678503e4d04b2781e16ed2f2d47fb3031.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 13.1
+              "percent": 13.1,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "En connaisseur",
@@ -459980,7 +460086,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/82b26ae31e5e7a15e4b6ce2f19fe29e3d0f2fe22.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 7.5
+              "percent": 7.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "En quête de quêtes",
@@ -459988,7 +460096,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/ce4916c376b6199dc07fbb82f5170a71b22fbe22.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 16.6
+              "percent": 16.6,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Illumination ultime",
@@ -459996,7 +460106,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/b1cf0b151cac9ff9da95bf77d13fda24d5c10c05.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 12.8
+              "percent": 12.8,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Jusqu'à ce que la mort nous sépare",
@@ -460004,7 +460116,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d5c139310d2dba2e84b7d727564e42db42ac05bf.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": false,
-              "percent": 13.2
+              "percent": 13.2,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Grand angoissé",
@@ -460012,7 +460126,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/24dc6fff425cae40cde5e5c49fd33288e1e52709.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/742120/d65693474bbe9e7ceae41aad75cfc122a10c57bc.jpg",
               "earned": true,
-              "percent": 67.5
+              "percent": 67.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             }
           ],
           "earned": 37,
@@ -471821,7 +471937,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/a9369e5eddeb1486ffd849aa3820607353ddbc23.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": false,
-              "percent": 3.5
+              "percent": 3.5,
+              "psnType": "platinum",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Livre de légende",
@@ -471829,7 +471947,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/6d11bfa34275061352048988a9202c3194259851.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 80.2
+              "percent": 80.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Une camarade féroce",
@@ -471837,7 +471957,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/8ac7d0d717ccda449162f94f81054073e9679fc5.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 62.3
+              "percent": 62.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Un doux compagnon",
@@ -471845,7 +471967,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/1981aa8fe7fb43d11720331503fa3c9028f0e18a.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 50.4
+              "percent": 50.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Libération",
@@ -471853,7 +471977,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/88d76547290c9c200536cbb1a48d255303010a5b.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 49.9
+              "percent": 49.9,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Gratitude",
@@ -471861,7 +471987,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/d9b8fd4cc2e4fc270edf18b177729b07e8a32cc9.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": false,
-              "percent": 21.5
+              "percent": 21.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Gardien des clés",
@@ -471869,7 +471997,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/6629579d96114c2a268898911634495f8235ce08.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 41.9
+              "percent": 41.9,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Un monde changeant",
@@ -471877,7 +472007,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/4b3b4bcf8267f93bb73600cc688323c2c910e0b5.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 41.2
+              "percent": 41.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Accro aux combos",
@@ -471885,7 +472017,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/d19d83d2254a60554435a1e1d99896e96bdf64d5.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 63.8
+              "percent": 63.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Maître des combos",
@@ -471893,7 +472027,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/d62e08ce00fd14c0fb72acebdfb09c838803a102.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 35.2
+              "percent": 35.2,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Prestidigitateur",
@@ -471901,7 +472037,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/2d7124c94623283b25cd1889cc6599d23b8cab5c.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 52.4
+              "percent": 52.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Orfèvre des mots",
@@ -471909,7 +472047,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/8a8b550048c266f8132d1d6c36967f2dee42a0ec.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 26.5
+              "percent": 26.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Collectionneur d'armes",
@@ -471917,7 +472057,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/36b528043b6af91f11116aeed684d950722f1d60.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 22.9
+              "percent": 22.9,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Coursier du village",
@@ -471925,7 +472067,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/93856660d44eccb4edc0ebbb9d63a5445e688528.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 50.7
+              "percent": 50.7,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Touche-à-tout",
@@ -471933,7 +472077,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/ca294c1039d08d7c72682ca2a8dd88bca4a48cf0.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 36.3
+              "percent": 36.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "L'homme de la situation",
@@ -471941,7 +472087,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/ca294c1039d08d7c72682ca2a8dd88bca4a48cf0.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 28.3
+              "percent": 28.3,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Cher journal",
@@ -471949,7 +472097,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/676d5f5e2cd45a24738dc6078031f14d56ed923e.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 24.2
+              "percent": 24.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Plein aux as",
@@ -471957,7 +472107,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/d7fb76788b77cd73639cefd292567e596ecc912a.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 9.8
+              "percent": 9.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Guerrier érudit",
@@ -471965,7 +472117,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/d59ca2f03b4015bc9b6134d921262f8768f843f1.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": false,
-              "percent": 21.2
+              "percent": 21.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Rappelle-la",
@@ -471973,7 +472127,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/cfbbf964649924e25af995c47f9207e6bdb0e82a.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 40.8
+              "percent": 40.8,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Souvenirs tenaces",
@@ -471981,7 +472137,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/7f65bb588647210451d003101fb6ce7ca335fb92.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 27.2
+              "percent": 27.2,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Merci",
@@ -471989,7 +472147,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/acd8fa3e92c01655b9dfeb91ea13b7c997df3825.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": false,
-              "percent": 19.2
+              "percent": 19.2,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Quelque chose d'unique",
@@ -471997,7 +472157,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/5bc97058ccbe271edd966ca6ee9d0f4aefc0307b.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": false,
-              "percent": 20.1
+              "percent": 20.1,
+              "psnType": "gold",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "e8 a8 98 e6 86 b6 e3 82 b5 e3 83 bc e3 83 90 e3 83 bc",
@@ -472013,7 +472175,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/636ac036eb45750ac6d125ea8d6936ed1130266d.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 8.3
+              "percent": 8.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Poisson de légende",
@@ -472021,7 +472185,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/b5e054f5234a31c7bbc3b458c0f3ae5289069b81.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 8.9
+              "percent": 8.9,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Seigneur de l'étang",
@@ -472029,7 +472195,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/c67e64eb2e069c0b115a5feea3cb02451df4f11a.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 6.7
+              "percent": 6.7,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Chasseur de matériaux",
@@ -472037,7 +472205,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/c0d448fc0d573abb796053bf7f2b12eb0b6f4c32.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 50.5
+              "percent": 50.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Novice en amélioration",
@@ -472045,7 +472215,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/369a20404467230c20b158f7a3dd77699be9effd.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 13.2
+              "percent": 13.2,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Spécialiste de la refonte",
@@ -472053,7 +472225,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/3abb815e20d23a97e80b2a10742cc3afd38e53cc.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 8.8
+              "percent": 8.8,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Maître de la forge",
@@ -472061,7 +472235,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/ef2b7d68560bcfb3d32347e8884a0b736be4750b.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": false,
-              "percent": 6.2
+              "percent": 6.2,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "À dada sur mon goret",
@@ -472069,7 +472245,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/669fb049d3b0d0ac200125736144e4e274c7620e.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 7.5
+              "percent": 7.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Le Silence des moutons",
@@ -472077,7 +472255,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/3c40216c95eb8d9acdb90435760c921dc6bd3954.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 11.5
+              "percent": 11.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Combattant véloce",
@@ -472085,7 +472265,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/f61dd8bd207e6a897ca5fa0297dbfbab0ff51103.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": false,
-              "percent": 7.5
+              "percent": 7.5,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Roi du Temple oublié",
@@ -472093,7 +472275,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/70883d0681b1993aa430bbcd8f9d4241f637b3ce.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 17.5
+              "percent": 17.5,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Un véritable ami",
@@ -472101,7 +472285,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/0b7d266b6959f86fa40ce0108cda8d7c7df207f9.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 39.9
+              "percent": 39.9,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Maître de la montagne des robots",
@@ -472109,7 +472295,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/602644eaf05ce46aa16b2d58299210d68e114d92.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 22.6
+              "percent": 22.6,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Fléau de l'Aire",
@@ -472117,7 +472305,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/0ef270a84980596473ae130aee58f8275ee15ef2.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 19.4
+              "percent": 19.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Protecteur de Façade",
@@ -472125,7 +472315,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/d9e9a588af83858f08ad062bba1d2148e23fdcde.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 25.3
+              "percent": 25.3,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "La Petite Sirène",
@@ -472133,7 +472325,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/0c6faf92c5cdfb91223238bfd12a0829bd8b13a9.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": false,
-              "percent": 7.4
+              "percent": 7.4,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Permission accordée",
@@ -472141,7 +472335,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/52b749ff62320430f2440c7dff89898e9fae3473.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 24.6
+              "percent": 24.6,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Requiem du héros",
@@ -472149,7 +472345,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/c33b07dfe29428d7caab6a1f7c6a13c49e539ceb.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 35.5
+              "percent": 35.5,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Exterminateur d'âmes",
@@ -472157,7 +472355,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/f80e7782c38c6657bb6a39f9c8904219e1cb3d1a.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 15
+              "percent": 15,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Autodafé",
@@ -472165,7 +472365,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/f0c1804eee52d941045b24beb6353967ad522eb7.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": true,
-              "percent": 21.1
+              "percent": 21.1,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Le seul et unique roi",
@@ -472173,7 +472375,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/9395b1e23f8ffecde59ac3d84d4c17844d9c13e9.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": true,
-              "percent": 15.8
+              "percent": 15.8,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Un lien indéfectible",
@@ -472181,7 +472385,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/66a42f466f875af265a505380e0c9754c8d2c550.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/dccf83b1927eb511d794ec172eb2a8737aa5f317.jpg",
               "earned": false,
-              "percent": 12.4
+              "percent": 12.4,
+              "psnType": "silver",
+              "psnFrom": "psnprofiles"
             },
             {
               "name": "Casse-cou",
@@ -472189,7 +472395,9 @@
               "iconEarned": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/9c70d4e9d69a09bcda912fa4323bded42b9d183a.jpg",
               "iconLocked": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1113560/67f2dca4872e41dd6ce5b923edf54bf16d42ef53.jpg",
               "earned": false,
-              "percent": 7.6
+              "percent": 7.6,
+              "psnType": "bronze",
+              "psnFrom": "psnprofiles"
             }
           ],
           "earned": 36,
