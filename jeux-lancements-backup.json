@@ -1005,6 +1005,12 @@
       "platform": "switch",
       "source": "temps de jeu",
       "id": "xenoblade-chronicles-2-nintendo-switch-2-edition"
+    },
+    {
+      "t": 1794586940096,
+      "ref": "steam:3669620",
+      "platform": "steam",
+      "source": "Steam"
     }
   ]
 }
