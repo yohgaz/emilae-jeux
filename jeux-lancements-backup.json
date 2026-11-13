@@ -956,6 +956,55 @@
       "ref": "steam:3669620",
       "platform": "steam",
       "source": "Steam"
+    },
+    {
+      "t": 1794545125918,
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "final-fantasy-14-online"
+    },
+    {
+      "t": 1794545126013,
+      "nom": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "bravely-default-flying-fairy-hd-remaster"
+    },
+    {
+      "t": 1794545126013,
+      "nom": "Fire Emblem: Fortune's Weave",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "fire-emblem-fortune-s-weave"
+    },
+    {
+      "t": 1794545126014,
+      "nom": "Graveyard Keeper",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "graveyard-keeper"
+    },
+    {
+      "t": 1794545126014,
+      "nom": "Fire Emblem: Three Houses",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "fire-emblem-three-houses"
+    },
+    {
+      "t": 1794545126014,
+      "nom": "Xenoblade Chronicles 3",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "xenoblade-chronicles-3"
+    },
+    {
+      "t": 1794545126015,
+      "nom": "Xenoblade Chronicles 2: Nintendo Switch 2 Edition",
+      "platform": "switch",
+      "source": "temps de jeu",
+      "id": "xenoblade-chronicles-2-nintendo-switch-2-edition"
     }
   ]
 }
