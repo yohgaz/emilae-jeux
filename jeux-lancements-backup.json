@@ -1039,6 +1039,12 @@
       "platform": "switch",
       "source": "temps de jeu",
       "id": "bravely-default-flying-fairy-hd-remaster"
+    },
+    {
+      "t": 1794646159038,
+      "ref": "steam:3669620",
+      "platform": "steam",
+      "source": "Steam"
     }
   ]
 }
