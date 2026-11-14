@@ -1069,6 +1069,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "overwatch"
+    },
+    {
+      "t": 1794672480713,
+      "ref": "dossier:stellaris",
+      "nom": "Stellaris",
+      "platform": "pc",
+      "source": "processus",
+      "id": "stellaris"
     }
   ]
 }
