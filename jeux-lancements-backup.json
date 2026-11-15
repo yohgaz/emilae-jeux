@@ -1077,6 +1077,12 @@
       "platform": "pc",
       "source": "processus",
       "id": "stellaris"
+    },
+    {
+      "t": 1794732576035,
+      "ref": "steam:3669620",
+      "platform": "steam",
+      "source": "Steam"
     }
   ]
 }
