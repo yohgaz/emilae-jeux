@@ -41514,7 +41514,7 @@
           "total": 3497
         }
       },
-      "lastPlayedAt": 1794545125918,
+      "lastPlayedAt": 1794636332242,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 120442,
@@ -279118,7 +279118,8 @@
           "total": 76,
           "manual": true,
           "zelda": true,
-          "includeInRatio": true
+          "includeInRatio": true,
+          "noApi": false
         }
       },
       "lastPlayedAt": null,
@@ -280057,7 +280058,8 @@
           "total": 96,
           "manual": true,
           "zelda": true,
-          "includeInRatio": true
+          "includeInRatio": true,
+          "noApi": false
         }
       },
       "lastPlayedAt": null,
@@ -280332,7 +280334,7 @@
               "name": "Bienvenue à Norende",
               "description": "Faire atteindre le niveau 11 à tous les bâtiments de Norende.",
               "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2833580/2d8ebb5050536bd1d6930805caa4dfd22f3ec7dc.jpg",
-              "earned": false
+              "earned": true
             },
             {
               "name": "Coffres bleus",
@@ -280425,16 +280427,20 @@
               "earned": false
             }
           ],
-          "earned": 6,
+          "earned": 7,
           "total": 50,
           "manual": true,
           "supportsAchievements": true,
           "includeInRatio": true,
           "playtimeMinutes": 430,
-          "lastPlayedAt": 1794545126013
+          "lastPlayedAt": 1794545126013,
+          "noApi": false,
+          "unsupported": false,
+          "summaryOnly": false,
+          "error": null
         }
       },
-      "lastPlayedAt": 1794545126013,
+      "lastPlayedAt": 1794636332325,
       "inStreamCategory": false,
       "hltb": null,
       "metacritic": {
@@ -281242,7 +281248,7 @@
           "lastPlayedAt": 1789468414674
         }
       },
-      "lastPlayedAt": 1794395392127,
+      "lastPlayedAt": 1794738085262,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 94137,
@@ -346613,7 +346619,7 @@
           "lastPlayedAt": 1792186676000
         }
       },
-      "lastPlayedAt": 1792186676000,
+      "lastPlayedAt": 1794672480713,
       "inStreamCategory": false,
       "hltb": {
         "gameId": 37186,
@@ -398346,7 +398352,7 @@
           "characterName": "Emilaefufu"
         }
       },
-      "lastPlayedAt": 1794411080843,
+      "lastPlayedAt": 1794648575172,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 17596,
@@ -484674,7 +484680,7 @@
           "lastPlayedAt": 1793610437000
         }
       },
-      "lastPlayedAt": 1794215166091,
+      "lastPlayedAt": 1794653647694,
       "inStreamCategory": true,
       "hltb": {
         "gameId": 152380,
