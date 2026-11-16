@@ -2389,7 +2389,7 @@
       "fridayFantasy": false,
       "occasion": false,
       "excluYoutube": true,
-      "youtubeActive": true
+      "youtubeActive": false
     },
     {
       "id": "d74426ac-ab68-4eb9-afc6-a939ae3feedf",
@@ -2453,10 +2453,11 @@
       "type": "normal",
       "completion": "",
       "occasion": false,
-      "jeuDuMoment": true,
+      "jeuDuMoment": false,
       "fridayFantasy": false,
-      "excluYoutube": false,
-      "youtubeActive": false
+      "excluYoutube": true,
+      "youtubeActive": true,
+      "enPause": false
     }
   ]
 }
