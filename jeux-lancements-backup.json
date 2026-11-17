@@ -1215,6 +1215,14 @@
       "ref": "steam:4425970",
       "platform": "steam",
       "source": "Steam"
+    },
+    {
+      "t": 1794943025066,
+      "ref": "steam:306130",
+      "nom": "The Elder Scrolls Online",
+      "platform": "steam",
+      "source": "Steam",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
