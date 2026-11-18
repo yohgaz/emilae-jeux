@@ -8225,7 +8225,7 @@
               "earned": true,
               "date": 1789031137000,
               "groupId": "1",
-              "percent": 8.6
+              "percent": 9.2
             },
             {
               "id": "4029",
@@ -8235,7 +8235,7 @@
               "earned": true,
               "date": 1789139051000,
               "groupId": "1",
-              "percent": 8.2
+              "percent": 8.7
             },
             {
               "id": "4030",
@@ -8375,7 +8375,7 @@
               "earned": false,
               "date": null,
               "groupId": "1",
-              "percent": 2.8
+              "percent": 3
             },
             {
               "id": "4044",
@@ -18455,7 +18455,7 @@
               "earned": true,
               "date": 1789031137000,
               "groupId": "3",
-              "percent": 9
+              "percent": 9.7
             },
             {
               "id": "4024",
@@ -18465,7 +18465,7 @@
               "earned": true,
               "date": 1789139051000,
               "groupId": "3",
-              "percent": 7.9
+              "percent": 8.5
             },
             {
               "id": "4025",
@@ -19255,7 +19255,7 @@
               "earned": true,
               "date": 1742655757000,
               "groupId": "3",
-              "percent": 29.9
+              "percent": 30
             },
             {
               "id": "62",
@@ -19755,7 +19755,7 @@
               "earned": true,
               "date": 1742647315000,
               "groupId": "3",
-              "percent": 29.9
+              "percent": 30
             },
             {
               "id": "87",
@@ -21265,7 +21265,7 @@
               "earned": false,
               "date": null,
               "groupId": "3",
-              "percent": 3.9
+              "percent": 5.3
             },
             {
               "id": "4071",
@@ -21275,7 +21275,7 @@
               "earned": false,
               "date": null,
               "groupId": "3",
-              "percent": 1.8
+              "percent": 2.5
             },
             {
               "id": "4072",
@@ -24155,7 +24155,7 @@
               "earned": false,
               "date": null,
               "groupId": "4",
-              "percent": 2.9
+              "percent": 3
             },
             {
               "id": "3813",
@@ -26645,7 +26645,7 @@
               "earned": true,
               "date": 1786189474000,
               "groupId": "4",
-              "percent": 2.8
+              "percent": 3
             },
             {
               "id": "3649",
@@ -27005,7 +27005,7 @@
               "earned": false,
               "date": null,
               "groupId": "4",
-              "percent": 2.9
+              "percent": 3.1
             },
             {
               "id": "3654",
@@ -28495,7 +28495,7 @@
               "earned": true,
               "date": 1552575674000,
               "groupId": "5",
-              "percent": 29.9
+              "percent": 30
             },
             {
               "id": "752",
@@ -34835,7 +34835,7 @@
               "earned": true,
               "date": 1788879937000,
               "groupId": "8",
-              "percent": 7.8
+              "percent": 8.5
             },
             {
               "id": "313",
@@ -37965,7 +37965,7 @@
               "earned": true,
               "date": 1441633926000,
               "groupId": "8",
-              "percent": 9.9
+              "percent": 10
             },
             {
               "id": "1376",
@@ -38275,7 +38275,7 @@
               "earned": true,
               "date": 1787435457000,
               "groupId": "8",
-              "percent": 12.2
+              "percent": 12.9
             },
             {
               "id": "3875",
@@ -38285,7 +38285,7 @@
               "earned": true,
               "date": 1788879937000,
               "groupId": "8",
-              "percent": 9.7
+              "percent": 10.3
             },
             {
               "id": "1513",
