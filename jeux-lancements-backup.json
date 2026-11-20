@@ -1335,6 +1335,14 @@
       "platform": "steam",
       "source": "Steam",
       "id": "the-elder-scrolls-online"
+    },
+    {
+      "t": 1795176675876,
+      "ref": "dossier:final-fantasy-14-online",
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-14-online"
     }
   ]
 }
