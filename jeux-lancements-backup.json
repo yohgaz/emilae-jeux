@@ -1367,6 +1367,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "the-elder-scrolls-online"
+    },
+    {
+      "t": 1795253895571,
+      "ref": "dossier:final-fantasy-14-online",
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-14-online"
     }
   ]
 }
