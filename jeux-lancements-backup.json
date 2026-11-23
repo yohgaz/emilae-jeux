@@ -1438,6 +1438,12 @@
       "platform": "switch",
       "source": "temps de jeu",
       "id": "final-fantasy-14-online"
+    },
+    {
+      "t": 1795422895584,
+      "ref": "steam:4425970",
+      "platform": "steam",
+      "source": "Steam"
     }
   ]
 }
