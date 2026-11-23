@@ -1452,6 +1452,14 @@
       "platform": "pc",
       "source": "processus",
       "id": "final-fantasy-14-online"
+    },
+    {
+      "t": 1795437671242,
+      "ref": "dossier:the-elder-scrolls-online",
+      "nom": "The Elder Scrolls Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "the-elder-scrolls-online"
     }
   ]
 }
