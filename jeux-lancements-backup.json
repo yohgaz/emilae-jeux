@@ -1606,6 +1606,14 @@
       "ref": "steam:3669620",
       "platform": "steam",
       "source": "Steam"
+    },
+    {
+      "t": 1795784366533,
+      "ref": "dossier:final-fantasy-14-online",
+      "nom": "FINAL FANTASY XIV Online",
+      "platform": "pc",
+      "source": "processus",
+      "id": "final-fantasy-14-online"
     }
   ]
 }
