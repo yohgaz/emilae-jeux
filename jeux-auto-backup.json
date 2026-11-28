@@ -18455,7 +18455,7 @@
               "earned": true,
               "date": 1789031137000,
               "groupId": "3",
-              "percent": 9.9
+              "percent": 10
             },
             {
               "id": "4024",
@@ -21275,7 +21275,7 @@
               "earned": false,
               "date": null,
               "groupId": "3",
-              "percent": 2.9
+              "percent": 3
             },
             {
               "id": "4072",
@@ -26885,7 +26885,7 @@
               "earned": false,
               "date": null,
               "groupId": "4",
-              "percent": 2.9
+              "percent": 3
             },
             {
               "id": "3647",
@@ -30395,7 +30395,7 @@
               "earned": false,
               "date": null,
               "groupId": "5",
-              "percent": 9.9
+              "percent": 10
             },
             {
               "id": "713",
